@@ -1,0 +1,6852 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5501/",
+      "title": "Ca va trailer",
+      "totalTags": 114,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 25,
+        "img": 20,
+        "h3": 8,
+        "button": 1,
+        "span": 2,
+        "nav": 1,
+        "ul": 1,
+        "li": 7,
+        "div": 19,
+        "p": 9,
+        "main": 1,
+        "h1": 1,
+        "section": 3,
+        "h2": 2,
+        "hr": 1,
+        "footer": 1,
+        "br": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 12,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h1",
+          "text": "Ça va Trail’er"
+        },
+        {
+          "tag": "h2",
+          "text": "La prochaine édition de “Ça va trailer” ce déroulera du 15 au 21 avril\n          2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Programme"
+        },
+        {
+          "tag": "h3",
+          "text": "Invité"
+        },
+        {
+          "tag": "h3",
+          "text": "Billeterie"
+        },
+        {
+          "tag": "h3",
+          "text": "Infos pratiques"
+        },
+        {
+          "tag": "h2",
+          "text": "NOS PARTENAIRES"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Ça va Trail’er",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "La prochaine édition de “Ça va trailer” ce déroulera du 15 au 21 avril\n          2025",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "La prochaine édition de “Ça va trailer” ce déroulera du 15 au 21 avril\n          2025",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Programme",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Invité",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Billeterie",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Infos pratiques",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "NOS PARTENAIRES",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "NOS PARTENAIRES",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.87,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/",
+            "resourceSize": 10963,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_accueil.webp",
+            "resourceSize": 71744,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_arte.webp",
+            "resourceSize": 2610,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_rcf-radio.webp",
+            "resourceSize": 4720,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_france3.webp",
+            "resourceSize": 3788,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_canon.webp",
+            "resourceSize": 3454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_credit-agricole.webp",
+            "resourceSize": 7946,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_wwf.webp",
+            "resourceSize": 3786,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/partenaire/accueil_salomon.webp",
+            "resourceSize": 4660,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/invites.html",
+      "title": "Ca va trailer",
+      "totalTags": 127,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 25,
+        "img": 18,
+        "h3": 9,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 3,
+        "li": 22,
+        "div": 9,
+        "p": 10,
+        "main": 1,
+        "section": 4,
+        "h2": 4,
+        "hr": 1,
+        "article": 5,
+        "footer": 1,
+        "br": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 10,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 4,
+        "h3": 9,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Invités"
+        },
+        {
+          "tag": "h2",
+          "text": "JURY"
+        },
+        {
+          "tag": "h3",
+          "text": "Kilian Jornet – Légende du trail et alpinisme"
+        },
+        {
+          "tag": "h3",
+          "text": "Sébastien Chaigneau – Légende du trail running"
+        },
+        {
+          "tag": "h3",
+          "text": "Aurélien Dunand-Pallaz – Ultra-trailer professionnel"
+        },
+        {
+          "tag": "h3",
+          "text": "Julien Chorier – Cinéaste et coureur"
+        },
+        {
+          "tag": "h3",
+          "text": "Emelie Forsberg – Athlète et experte en nutrition"
+        },
+        {
+          "tag": "h2",
+          "text": "RÉALISATEURS"
+        },
+        {
+          "tag": "h2",
+          "text": "ATLÈTES"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Invités",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Invités",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "JURY",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "JURY",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Kilian Jornet – Légende du trail et alpinisme",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Kilian Jornet – Légende du trail et alpinisme",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Sébastien Chaigneau – Légende du trail running",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Sébastien Chaigneau – Légende du trail running",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Aurélien Dunand-Pallaz – Ultra-trailer professionnel",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Aurélien Dunand-Pallaz – Ultra-trailer professionnel",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Julien Chorier – Cinéaste et coureur",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Julien Chorier – Cinéaste et coureur",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Emelie Forsberg – Athlète et experte en nutrition",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Emelie Forsberg – Athlète et experte en nutrition",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "RÉALISATEURS",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "RÉALISATEURS",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "ATLÈTES",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "ATLÈTES",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.86,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/invites.html",
+            "resourceSize": 12383,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_invite.webp",
+            "resourceSize": 59090,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/jury/invite_killian-jornet.webp",
+            "resourceSize": 23216,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/jury/invite_sebastien-chaigneau.webp",
+            "resourceSize": 15168,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/jury/invite_aurelien-dunaud-pallaz.webp",
+            "resourceSize": 17596,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/jury/invite_julien-chorier.webp",
+            "resourceSize": 31030,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/jury/emelie-frosberg_portrait1.webp",
+            "resourceSize": 21296,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/programme.html",
+      "title": "Ca va trailer",
+      "totalTags": 130,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 22,
+        "img": 20,
+        "h3": 12,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 2,
+        "li": 10,
+        "div": 27,
+        "p": 14,
+        "main": 1,
+        "section": 2,
+        "h2": 2,
+        "hr": 2,
+        "footer": 1,
+        "br": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 12,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Programme"
+        },
+        {
+          "tag": "h3",
+          "text": "Lundi 15 avril 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Mardi 16 avril 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Mercredi 17 avril 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Jeudi 18 avril 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Vendredi 19 avril 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Samedi 20 avril 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Dimanche 21 avril 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Activités annexes"
+        },
+        {
+          "tag": "h3",
+          "text": "Télécharger le programme complet"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Programme",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lundi 15 avril 2025",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Lundi 15 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mardi 16 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mercredi 17 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Jeudi 18 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Vendredi 19 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Samedi 20 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Dimanche 21 avril 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Activités annexes",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Télécharger le programme complet",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/programme.html",
+            "resourceSize": 12880,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_programme.webp",
+            "resourceSize": 89804,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_lundi.webp",
+            "resourceSize": 12726,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_mardi.webp",
+            "resourceSize": 13006,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_mercredi.webp",
+            "resourceSize": 13088,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_jeudi.webp",
+            "resourceSize": 8414,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_vendredi.webp",
+            "resourceSize": 11800,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_samedi.webp",
+            "resourceSize": 11060,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/programme/programme_dimanche.webp",
+            "resourceSize": 14366,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/films.html",
+      "title": "Ça va trail'ler",
+      "totalTags": 296,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 34,
+        "img": 27,
+        "h3": 18,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 1,
+        "li": 7,
+        "div": 79,
+        "p": 47,
+        "main": 1,
+        "section": 2,
+        "h2": 2,
+        "hr": 1,
+        "article": 14,
+        "br": 34,
+        "strong": 14,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 10,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 18,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Les films"
+        },
+        {
+          "tag": "h2",
+          "text": "Liste des films"
+        },
+        {
+          "tag": "h3",
+          "text": "VERS LES SOMMETS"
+        },
+        {
+          "tag": "h3",
+          "text": "L'ENVOL"
+        },
+        {
+          "tag": "h3",
+          "text": "LA COURSE EN TÊTE"
+        },
+        {
+          "tag": "h3",
+          "text": "FREE TO RUN"
+        },
+        {
+          "tag": "h3",
+          "text": "THE GOLD RUSH"
+        },
+        {
+          "tag": "h3",
+          "text": "RETURN TO LEADVILLE"
+        },
+        {
+          "tag": "h3",
+          "text": "TEMPO II"
+        },
+        {
+          "tag": "h3",
+          "text": "TRAILBOUND ALASKA"
+        },
+        {
+          "tag": "h3",
+          "text": "FOR THE LOVE OF MARY"
+        },
+        {
+          "tag": "h3",
+          "text": "PIC A PIC"
+        },
+        {
+          "tag": "h3",
+          "text": "L'OMBRE DU SOMMET"
+        },
+        {
+          "tag": "h3",
+          "text": "HORIZONS INFINI"
+        },
+        {
+          "tag": "h3",
+          "text": "NUIT BLANCHE"
+        },
+        {
+          "tag": "h3",
+          "text": "TERMINORIUM"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Les films",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Les films",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Liste des films",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Liste des films",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "VERS LES SOMMETS",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "VERS LES SOMMETS",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "L'ENVOL",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "L'ENVOL",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "LA COURSE EN TÊTE",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "LA COURSE EN TÊTE",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "FREE TO RUN",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "FREE TO RUN",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "THE GOLD RUSH",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "THE GOLD RUSH",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "RETURN TO LEADVILLE",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "RETURN TO LEADVILLE",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "TEMPO II",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "TEMPO II",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "TRAILBOUND ALASKA",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "TRAILBOUND ALASKA",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "FOR THE LOVE OF MARY",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "FOR THE LOVE OF MARY",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "PIC A PIC",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "PIC A PIC",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "L'OMBRE DU SOMMET",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "L'OMBRE DU SOMMET",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "HORIZONS INFINI",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "HORIZONS INFINI",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "NUIT BLANCHE",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "NUIT BLANCHE",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "TERMINORIUM",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "TERMINORIUM",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.8,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/films.html",
+            "resourceSize": 20992,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_films.webp",
+            "resourceSize": 88760,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_vers-les-sommets.webp",
+            "resourceSize": 26322,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_lenvol.webp",
+            "resourceSize": 14458,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_la-course-en-tete.webp",
+            "resourceSize": 19156,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_free-to-run.webp",
+            "resourceSize": 11202,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_gold-rush.webp",
+            "resourceSize": 26652,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_return-to-leadville.webp",
+            "resourceSize": 17694,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_tempo-ii.webp",
+            "resourceSize": 15926,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_trailbound-alaska.webp",
+            "resourceSize": 39836,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_for-the-love-of-mary.webp",
+            "resourceSize": 24120,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_pic-a-pic.webp",
+            "resourceSize": 17906,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_lombre-du-sommet.webp",
+            "resourceSize": 51658,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_horizons-infini.webp",
+            "resourceSize": 37524,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_nuit-blanche.webp",
+            "resourceSize": 18592,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/a-propos.html",
+      "title": "Ca va trailer",
+      "totalTags": 106,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 20,
+        "img": 13,
+        "h3": 4,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 4,
+        "li": 19,
+        "div": 12,
+        "p": 10,
+        "main": 1,
+        "section": 2,
+        "h2": 4,
+        "hr": 1,
+        "footer": 1,
+        "br": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 4,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "À propos"
+        },
+        {
+          "tag": "h2",
+          "text": "Notre Histoire"
+        },
+        {
+          "tag": "h2",
+          "text": "Notre Équipe"
+        },
+        {
+          "tag": "h2",
+          "text": "Chartre : L'esprit de l'édition 2025"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "À propos",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "À propos",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Notre Histoire",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Notre Histoire",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Notre Équipe",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Chartre : L'esprit de l'édition 2025",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/a-propos.html",
+            "resourceSize": 11126,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_a-propos.webp",
+            "resourceSize": 35012,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/infos-pratiques.html",
+      "title": "Ca va trailer",
+      "totalTags": 153,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 1,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 21,
+        "img": 20,
+        "h3": 9,
+        "button": 3,
+        "span": 1,
+        "nav": 1,
+        "ul": 6,
+        "li": 25,
+        "div": 25,
+        "p": 12,
+        "main": 1,
+        "section": 2,
+        "h2": 1,
+        "hr": 1,
+        "br": 11,
+        "figure": 1,
+        "figcaption": 1,
+        "ol": 1,
+        "footer": 1
+      },
+      "externalLinks": 1,
+      "internalLinks": 9,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 9,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Infos pratiques"
+        },
+        {
+          "tag": "h3",
+          "text": "Accessibilité pour tous"
+        },
+        {
+          "tag": "h3",
+          "text": "Un cadre naturel au parc de la Douce"
+        },
+        {
+          "tag": "h3",
+          "text": "Hébergement"
+        },
+        {
+          "tag": "h3",
+          "text": "Transport"
+        },
+        {
+          "tag": "h3",
+          "text": "FAQ"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Infos pratiques",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Infos pratiques",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Accessibilité pour tous",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Accessibilité pour tous",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Un cadre naturel au parc de la Douce",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Hébergement",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Transport",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "FAQ",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 150,
+          "lastColumn": 65,
+          "firstColumn": 9,
+          "message": "The “aria-labelledby” attribute must point to an element in the same document.",
+          "extract": ">\n        <div class=\"carousel\" aria-labelledby=\"carousel-heading\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.83,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/infos-pratiques.html",
+            "resourceSize": 14837,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_infos-pratiques.webp",
+            "resourceSize": 84202,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/lieux/infos-pratiques_carte-france.webp",
+            "resourceSize": 15600,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/lieux/infos-pratiques_carte-parc.webp",
+            "resourceSize": 54454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/lieux/infos-pratiques_parc-img1.webp",
+            "resourceSize": 25504,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/lieux/infos-pratiques_parc-img2.webp",
+            "resourceSize": 22166,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/lieux/infos-pratiques_parc-img3.webp",
+            "resourceSize": 54034,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_arrowcarrousel-gauche.svg",
+            "resourceSize": 2208,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_arrowcarrousel.svg",
+            "resourceSize": 2222,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/contact.html",
+      "title": "Ca va trailer",
+      "totalTags": 118,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 20,
+        "img": 18,
+        "h3": 4,
+        "button": 2,
+        "span": 3,
+        "nav": 1,
+        "ul": 1,
+        "li": 7,
+        "div": 20,
+        "p": 12,
+        "main": 1,
+        "section": 2,
+        "h2": 2,
+        "hr": 1,
+        "form": 1,
+        "label": 4,
+        "input": 3,
+        "textarea": 1,
+        "br": 3,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Nous contacter"
+        },
+        {
+          "tag": "h2",
+          "text": "Formulaire de Contact"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Nous contacter",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nous contacter",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Formulaire de Contact",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Formulaire de Contact",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.88,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/contact.html",
+            "resourceSize": 10869,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_infos-pratiques.webp",
+            "resourceSize": 84202,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/killian-jornet.html",
+      "title": "Ça va trail'ler",
+      "totalTags": 116,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 20,
+        "img": 14,
+        "h3": 6,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 7,
+        "li": 24,
+        "div": 15,
+        "p": 6,
+        "main": 1,
+        "section": 2,
+        "h2": 2,
+        "hr": 1,
+        "ol": 2,
+        "footer": 1,
+        "br": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Kilian Jornet"
+        },
+        {
+          "tag": "h2",
+          "text": "Kilian Jornet"
+        },
+        {
+          "tag": "h3",
+          "text": "Biographie"
+        },
+        {
+          "tag": "h3",
+          "text": "Intervention - Vendredi 19 avril"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Kilian Jornet",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Kilian Jornet",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Kilian Jornet",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Kilian Jornet",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Biographie",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Intervention - Vendredi 19 avril",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.87,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/killian-jornet.html",
+            "resourceSize": 12827,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_kilian-jornet.webp",
+            "resourceSize": 54012,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/jury/invite_killian-jornet.webp",
+            "resourceSize": 23216,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicon/favicon.png",
+            "resourceSize": 966,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/vers-le-sommet.html",
+      "title": "Ça va trail'ler",
+      "totalTags": 106,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 1,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "a": 20,
+        "img": 15,
+        "h3": 8,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 2,
+        "li": 9,
+        "div": 15,
+        "p": 11,
+        "main": 1,
+        "section": 2,
+        "h2": 1,
+        "hr": 1,
+        "br": 3,
+        "strong": 1,
+        "dialog": 1,
+        "video": 1,
+        "source": 1,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h3",
+          "text": "Ça va trail'ler"
+        },
+        {
+          "tag": "h2",
+          "text": "Vers le Sommet"
+        },
+        {
+          "tag": "h3",
+          "text": "VERS LES SOMMET"
+        },
+        {
+          "tag": "h3",
+          "text": "À propos du réalisateur : Jean-Baptiste Bieuville"
+        },
+        {
+          "tag": "h3",
+          "text": "Critiques et distinctions"
+        },
+        {
+          "tag": "h3",
+          "text": "Événement exclusif : Rencontre avec Jean-Baptiste Bieuville"
+        },
+        {
+          "tag": "h3",
+          "text": "Ça va trail'er"
+        },
+        {
+          "tag": "h3",
+          "text": "CONTACT"
+        },
+        {
+          "tag": "h3",
+          "text": "MENTIONS LÉGALES"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Ça va trail'ler",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Vers le Sommet",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Vers le Sommet",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "VERS LES SOMMET",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "VERS LES SOMMET",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos du réalisateur : Jean-Baptiste Bieuville",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Critiques et distinctions",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Événement exclusif : Rencontre avec Jean-Baptiste Bieuville",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ça va trail'er",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENTIONS LÉGALES",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.86,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/vers-le-sommet.html",
+            "resourceSize": 10673,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 950,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1678,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_logo.svg",
+            "resourceSize": 321270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-noir.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-noir.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-noir.svg",
+            "resourceSize": 1999,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-noir.svg",
+            "resourceSize": 24345,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-noir.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/bandeaux_pages/bandeaux_films.webp",
+            "resourceSize": 88760,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/films/film_vers-les-sommets.webp",
+            "resourceSize": 26322,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_facebook-blanc.svg",
+            "resourceSize": 2177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_insta-blanc.svg",
+            "resourceSize": 5065,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_youtube-blanc.svg",
+            "resourceSize": 1960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_strava-blanc.svg",
+            "resourceSize": 24382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/icon_tiktok-blanc.svg",
+            "resourceSize": 1896,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+            "resourceSize": 3832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+            "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 55,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 791,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1569,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2278,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 32,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 267,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/intro.css",
+            "resourceSize": 203,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 443,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cta.css",
+            "resourceSize": 298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/work.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/partner.css",
+            "resourceSize": 230,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/jury.css",
+            "resourceSize": 948,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/program.css",
+            "resourceSize": 1101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/movie.css",
+            "resourceSize": 1827,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/about.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/contact.css",
+            "resourceSize": 1649,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 756,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/lightbox.css",
+            "resourceSize": 1106,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/video/teaser_vers-les-sommets.mp4",
+            "resourceSize": 196608,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/video/teaser_vers-les-sommets.mp4",
+            "resourceSize": 30952,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "em"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "span",
+      "div",
+      "hr",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "span": 12,
+      "div": 221,
+      "hr": 10,
+      "br": 56
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 715,
+      "linesOfCode": 2,
+      "size": 12402,
+      "complexity": 1826,
+      "comments": {
+        "total": 1,
+        "size": 72
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap\")": 1,
+          "url(\"https://fonts.googleapis.com/css2?family=Anton&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "@keyframes opening": 1,
+          "@keyframes closing": 1
+        },
+        "uniquenessRatio": 1,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 4,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 4
+      }
+    },
+    "rules": {
+      "total": 161,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 16,
+        "mean": 4.416149068322981,
+        "mode": 3,
+        "median": 4,
+        "range": 14,
+        "sum": 711,
+        "items": [
+          3,
+          2,
+          2,
+          3,
+          4,
+          3,
+          2,
+          4,
+          3,
+          5,
+          2,
+          6,
+          2,
+          2,
+          2,
+          9,
+          3,
+          3,
+          5,
+          6,
+          5,
+          2,
+          7,
+          2,
+          2,
+          4,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3,
+          7,
+          2,
+          4,
+          6,
+          2,
+          6,
+          4,
+          12,
+          4,
+          2,
+          9,
+          4,
+          3,
+          5,
+          7,
+          7,
+          8,
+          2,
+          5,
+          6,
+          5,
+          3,
+          2,
+          5,
+          3,
+          6,
+          16,
+          4,
+          13,
+          11,
+          2,
+          2,
+          5,
+          4,
+          9,
+          9,
+          6,
+          5,
+          4,
+          3,
+          2,
+          3,
+          3,
+          2,
+          6,
+          2,
+          3,
+          5,
+          13,
+          2,
+          5,
+          2,
+          2,
+          7,
+          4,
+          2,
+          6,
+          5,
+          3,
+          5,
+          6,
+          3,
+          4,
+          6,
+          3,
+          6,
+          4,
+          4,
+          5,
+          3,
+          3,
+          3,
+          5,
+          7,
+          3,
+          6,
+          2,
+          2,
+          4,
+          3,
+          6,
+          3,
+          4,
+          5,
+          6,
+          2,
+          7,
+          3,
+          6,
+          2,
+          4,
+          4,
+          5,
+          4,
+          5,
+          3,
+          5,
+          2,
+          2,
+          4,
+          5,
+          4,
+          3,
+          8,
+          2,
+          10,
+          2,
+          7,
+          3,
+          5,
+          3,
+          3,
+          4,
+          5,
+          6,
+          2,
+          7,
+          4,
+          4,
+          11,
+          2,
+          14,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "total": 161,
+        "totalUnique": 14,
+        "unique": {
+          "2": 37,
+          "3": 38,
+          "4": 24,
+          "5": 22,
+          "6": 17,
+          "7": 9,
+          "8": 2,
+          "9": 4,
+          "10": 1,
+          "11": 2,
+          "12": 1,
+          "13": 2,
+          "14": 1,
+          "16": 1
+        },
+        "uniquenessRatio": 0.08695652173913043
+      },
+      "selectors": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.2484472049689441,
+        "mode": 1,
+        "median": 1,
+        "range": 4,
+        "sum": 201,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          5,
+          2,
+          2,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 161,
+        "totalUnique": 5,
+        "unique": {
+          "1": 133,
+          "2": 21,
+          "3": 3,
+          "4": 3,
+          "5": 1
+        },
+        "uniquenessRatio": 0.031055900621118012
+      },
+      "declarations": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.1677018633540373,
+        "mode": 1,
+        "median": 2,
+        "range": 14,
+        "sum": 510,
+        "items": [
+          2,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          3,
+          1,
+          2,
+          1,
+          4,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          6,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          6,
+          1,
+          3,
+          4,
+          1,
+          5,
+          2,
+          11,
+          2,
+          1,
+          8,
+          3,
+          2,
+          4,
+          6,
+          6,
+          7,
+          1,
+          4,
+          5,
+          4,
+          2,
+          1,
+          3,
+          2,
+          5,
+          15,
+          3,
+          12,
+          8,
+          1,
+          1,
+          2,
+          2,
+          8,
+          8,
+          5,
+          4,
+          3,
+          2,
+          1,
+          2,
+          2,
+          1,
+          4,
+          1,
+          2,
+          4,
+          12,
+          1,
+          4,
+          1,
+          1,
+          6,
+          3,
+          1,
+          5,
+          4,
+          2,
+          4,
+          4,
+          2,
+          3,
+          4,
+          2,
+          5,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          4,
+          6,
+          2,
+          5,
+          1,
+          1,
+          3,
+          2,
+          5,
+          2,
+          3,
+          4,
+          4,
+          1,
+          6,
+          2,
+          5,
+          1,
+          3,
+          3,
+          4,
+          3,
+          4,
+          1,
+          4,
+          1,
+          1,
+          2,
+          4,
+          3,
+          2,
+          6,
+          1,
+          9,
+          1,
+          6,
+          2,
+          4,
+          2,
+          2,
+          3,
+          3,
+          5,
+          1,
+          6,
+          3,
+          3,
+          10,
+          1,
+          13,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 161,
+        "totalUnique": 14,
+        "unique": {
+          "1": 45,
+          "2": 40,
+          "3": 22,
+          "4": 22,
+          "5": 10,
+          "6": 10,
+          "7": 1,
+          "8": 4,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 2,
+          "13": 1,
+          "15": 1
+        },
+        "uniquenessRatio": 0.08695652173913043
+      }
+    },
+    "selectors": {
+      "total": 197,
+      "totalUnique": 162,
+      "uniquenessRatio": 0.8223350253807107,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          1,
+          1,
+          0
+        ],
+        "sum": [
+          5,
+          160,
+          72
+        ],
+        "mean": [
+          0.025380710659898477,
+          0.8121827411167513,
+          0.36548223350253806
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "total": 197,
+        "totalUnique": 10,
+        "unique": {
+          "0,0,1": 48,
+          "0,1,1": 16,
+          "0,1,0": 117,
+          "0,0,2": 1,
+          "0,2,0": 5,
+          "0,3,0": 1,
+          "0,3,1": 4,
+          "1,0,0": 1,
+          "1,0,1": 2,
+          "1,1,0": 2
+        },
+        "uniquenessRatio": 0.050761421319796954
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.416243654822335,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 279,
+        "total": 197,
+        "totalUnique": 6,
+        "unique": {
+          "1": 159,
+          "2": 17,
+          "3": 7,
+          "4": 9,
+          "5": 1,
+          "6": 4
+        },
+        "uniquenessRatio": 0.030456852791878174,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          2,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          6,
+          6,
+          6,
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "id": {
+        "total": 5,
+        "totalUnique": 5,
+        "unique": {
+          "#lightbox": 1,
+          "#lightbox::backdrop": 1,
+          "#lightbox:before": 1,
+          "#lightbox.open": 1,
+          "#lightbox.close": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.025380710659898477
+      },
+      "accessibility": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          ".menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 2,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.030456852791878174
+      },
+      "keyframes": {
+        "total": 4,
+        "totalUnique": 2,
+        "unique": {
+          "0%": 2,
+          "to": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "prefixed": {
+        "total": 12,
+        "totalUnique": 12,
+        "unique": {
+          "[type=button]::-moz-focus-inner": 1,
+          "[type=reset]::-moz-focus-inner": 1,
+          "[type=submit]::-moz-focus-inner": 1,
+          "button::-moz-focus-inner": 1,
+          "[type=button]:-moz-focusring": 1,
+          "[type=reset]:-moz-focusring": 1,
+          "[type=submit]:-moz-focusring": 1,
+          "button:-moz-focusring": 1,
+          "[type=number]::-webkit-inner-spin-button": 1,
+          "[type=number]::-webkit-outer-spin-button": 1,
+          "[type=search]::-webkit-search-decoration": 1,
+          "::-webkit-file-upload-button": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.06091370558375635
+      },
+      "combinators": {
+        "total": 9,
+        "totalUnique": 1,
+        "unique": {
+          " ": 9
+        },
+        "uniquenessRatio": 0.1111111111111111
+      }
+    },
+    "declarations": {
+      "total": 510,
+      "totalUnique": 223,
+      "uniquenessRatio": 0.4372549019607843,
+      "unique": {
+        "total": 223,
+        "ratio": 0.4372549019607843
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 510
+      }
+    },
+    "properties": {
+      "total": 510,
+      "totalUnique": 73,
+      "unique": {
+        "line-height": 26,
+        "-webkit-text-size-adjust": 1,
+        "margin": 5,
+        "display": 45,
+        "font-size": 31,
+        "box-sizing": 3,
+        "height": 18,
+        "overflow": 4,
+        "font-family": 11,
+        "background-color": 13,
+        "border-bottom": 1,
+        "text-decoration": 6,
+        "font-weight": 28,
+        "position": 7,
+        "vertical-align": 2,
+        "bottom": 2,
+        "top": 6,
+        "border-style": 2,
+        "text-transform": 1,
+        "-webkit-appearance": 4,
+        "padding": 17,
+        "outline": 1,
+        "color": 18,
+        "max-width": 3,
+        "white-space": 1,
+        "outline-offset": 1,
+        "font": 1,
+        "--blanc": 1,
+        "--noir": 1,
+        "--rouge": 1,
+        "--noir-transparent": 1,
+        "--font-primary": 1,
+        "--font-secondary": 1,
+        "margin-top": 16,
+        "font-style": 19,
+        "align-content": 1,
+        "background": 4,
+        "border-bottom-left-radius": 1,
+        "border-bottom-right-radius": 1,
+        "justify-content": 19,
+        "left": 3,
+        "right": 4,
+        "width": 16,
+        "align-items": 24,
+        "margin-left": 7,
+        "border-top": 1,
+        "gap": 12,
+        "flex-direction": 18,
+        "margin-bottom": 23,
+        "text-align": 5,
+        "opacity": 7,
+        "transition": 4,
+        "visibility": 2,
+        "z-index": 4,
+        "transform": 7,
+        "border": 7,
+        "flex-shrink": 5,
+        "border-radius": 9,
+        "content": 2,
+        "list-style": 1,
+        "padding-left": 4,
+        "padding-right": 4,
+        "letter-spacing": 1,
+        "list-style-type": 2,
+        "margin-right": 4,
+        "flex-flow": 1,
+        "resize": 1,
+        "cursor": 1,
+        "overflow-x": 1,
+        "scroll-snap-type": 1,
+        "flex": 1,
+        "place-content": 1,
+        "animation": 2
+      },
+      "uniquenessRatio": 0.14313725490196078,
+      "prefixed": {
+        "total": 5,
+        "totalUnique": 2,
+        "unique": {
+          "-webkit-text-size-adjust": 1,
+          "-webkit-appearance": 4
+        },
+        "uniquenessRatio": 0.4,
+        "ratio": 0.00980392156862745
+      },
+      "custom": {
+        "total": 6,
+        "totalUnique": 6,
+        "unique": {
+          "--blanc": 1,
+          "--noir": 1,
+          "--rouge": 1,
+          "--noir-transparent": 1,
+          "--font-primary": 1,
+          "--font-secondary": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.011764705882352941,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0215686274509803,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 521
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 15,
+        "totalUnique": 9,
+        "unique": {
+          "transparent": 2,
+          "ButtonText": 1,
+          "#fff": 5,
+          "#000": 1,
+          "#a82427": 2,
+          "rgba(0,0,0,.4)": 1,
+          "#333": 1,
+          "rgba(72,4,4,.911)": 1,
+          "#06328f": 1
+        },
+        "uniquenessRatio": 0.6,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "transparent": 2,
+              "#fff": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "ButtonText": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blanc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--noir": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--rouge": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#a82427": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--noir-transparent": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.4)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "#fff": 2,
+              "#333": 1,
+              "#06328f": 1
+            },
+            "uniquenessRatio": 0.75
+          },
+          "border": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#a82427": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(72,4,4,.911)": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 15,
+          "totalUnique": 5,
+          "unique": {
+            "transparent": 2,
+            "system": 1,
+            "hex3": 7,
+            "hex6": 3,
+            "rgba": 2
+          },
+          "uniquenessRatio": 0.3333333333333333
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 10,
+        "totalUnique": 3,
+        "unique": {
+          "monospace,monospace": 2,
+          "var(--font-primary)": 2,
+          "var(--font-secondary)": 6
+        },
+        "uniquenessRatio": 0.3
+      },
+      "fontSizes": {
+        "total": 31,
+        "totalUnique": 15,
+        "unique": {
+          "2em": 1,
+          "1em": 2,
+          "80%": 1,
+          "75%": 1,
+          "100%": 1,
+          "60px": 1,
+          "36px": 3,
+          "18px": 3,
+          "25px": 1,
+          "15px": 8,
+          "9px": 2,
+          "12px": 1,
+          "13px": 2,
+          "1rem": 3,
+          ".85rem": 1
+        },
+        "uniquenessRatio": 0.4838709677419355
+      },
+      "lineHeights": {
+        "total": 26,
+        "totalUnique": 6,
+        "unique": {
+          "0": 1,
+          "1.15": 2,
+          "110%": 17,
+          "160%": 4,
+          "normal": 1,
+          "40px": 1
+        },
+        "uniquenessRatio": 0.23076923076923078
+      },
+      "zindexes": {
+        "total": 4,
+        "totalUnique": 3,
+        "unique": {
+          "0": 1,
+          "10": 2,
+          "12": 1
+        },
+        "uniquenessRatio": 0.75
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 11,
+        "totalUnique": 6,
+        "unique": {
+          "10px": 3,
+          "5px": 3,
+          "20px": 2,
+          "8px": 1,
+          "100%": 1,
+          "50%": 1
+        },
+        "uniquenessRatio": 0.5454545454545454,
+        "itemsPerContext": {
+          "border-bottom-left-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "10px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom-right-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "10px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-radius": {
+            "total": 9,
+            "totalUnique": 6,
+            "unique": {
+              "5px": 3,
+              "20px": 2,
+              "10px": 1,
+              "8px": 1,
+              "100%": 1,
+              "50%": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 6,
+          "totalUnique": 3,
+          "unique": {
+            ".5s": 4,
+            ".4s": 1,
+            ".3s": 1
+          },
+          "uniquenessRatio": 0.5
+        },
+        "timingFunctions": {
+          "total": 3,
+          "totalUnique": 2,
+          "unique": {
+            "ease-in-out": 2,
+            "ease": 1
+          },
+          "uniquenessRatio": 0.6666666666666666
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 162,
+        "totalUnique": 5,
+        "unique": {
+          "em": 9,
+          "px": 141,
+          "s": 6,
+          "deg": 2,
+          "rem": 4
+        },
+        "uniquenessRatio": 0.030864197530864196,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 28,
+            "totalUnique": 3,
+            "unique": {
+              "em": 3,
+              "px": 21,
+              "rem": 4
+            },
+            "uniquenessRatio": 0.10714285714285714
+          },
+          "margin": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "em": 1,
+              "px": 2
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "em": 1,
+              "px": 3
+            },
+            "uniquenessRatio": 0.5
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 17,
+            "totalUnique": 2,
+            "unique": {
+              "em": 3,
+              "px": 14
+            },
+            "uniquenessRatio": 0.11764705882352941
+          },
+          "outline-offset": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-top": {
+            "total": 15,
+            "totalUnique": 1,
+            "unique": {
+              "px": 15
+            },
+            "uniquenessRatio": 0.06666666666666667
+          },
+          "border-bottom-left-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom-right-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "height": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "margin-left": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "width": {
+            "total": 11,
+            "totalUnique": 1,
+            "unique": {
+              "px": 11
+            },
+            "uniquenessRatio": 0.09090909090909091
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "gap": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "margin-bottom": {
+            "total": 15,
+            "totalUnique": 1,
+            "unique": {
+              "px": 15
+            },
+            "uniquenessRatio": 0.06666666666666667
+          },
+          "transition": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "s": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border-radius": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "transform": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding-left": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding-right": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "letter-spacing": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-right": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "max-width": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "flex": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "line-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "animation": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 512
+      },
+      "keywords": {
+        "total": 33,
+        "totalUnique": 3,
+        "unique": {
+          "none": 19,
+          "inherit": 3,
+          "auto": 11
+        },
+        "uniquenessRatio": 0.09090909090909091
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 6,
+      "total": 8
+    }
+  }
+}
