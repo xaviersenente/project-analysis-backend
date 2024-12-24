@@ -1,0 +1,29 @@
+{
+  "name": "project-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@projectwallace/css-analyzer": "^5.15.0",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "chrome-launcher": "^1.1.2",
+    "cors": "^2.8.5",
+    "cssnano": "^7.0.6",
+    "express": "^4.21.2",
+    "fs-extra": "^11.2.0",
+    "jsdom": "^25.0.1",
+    "lighthouse": "^12.3.0",
+    "postcss": "^8.4.49",
+    "postcss-import": "^16.1.0",
+    "simplecrawler": "^1.1.9"
+  }
+}
