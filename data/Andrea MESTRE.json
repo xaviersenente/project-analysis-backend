@@ -1,0 +1,5775 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Cinémagny",
+      "totalTags": 157,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 5,
+        "header": 5,
+        "div": 23,
+        "button": 4,
+        "img": 21,
+        "a": 35,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "h3": 6,
+        "p": 14,
+        "h2": 4,
+        "footer": 1
+      },
+      "externalLinks": 9,
+      "internalLinks": 23,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Cinémagny"
+        },
+        {
+          "tag": "h3",
+          "text": "12 au 16 novembre 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Les Film à la Une"
+        },
+        {
+          "tag": "h2",
+          "text": "Formules & Tarifs"
+        },
+        {
+          "tag": "h3",
+          "text": "1 Jour - Immersion Express"
+        },
+        {
+          "tag": "h3",
+          "text": "2 Jours - Expérience Cinéphile"
+        },
+        {
+          "tag": "h3",
+          "text": "3 Jours - Séjour Cinématographique"
+        },
+        {
+          "tag": "h3",
+          "text": "4 Jours - Pass Festival Complet"
+        },
+        {
+          "tag": "h3",
+          "text": "5 Jours - Immersion Totale"
+        },
+        {
+          "tag": "h2",
+          "text": "Notre Engagement Écoresponsable"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos Partenaires"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Cinémagny",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Cinémagny",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "12 au 16 novembre 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Les Film à la Une",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Les Film à la Une",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Formules & Tarifs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Formules & Tarifs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "1 Jour - Immersion Express",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "2 Jours - Expérience Cinéphile",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "3 Jours - Séjour Cinématographique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "4 Jours - Pass Festival Complet",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "5 Jours - Immersion Totale",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Notre Engagement Écoresponsable",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Notre Engagement Écoresponsable",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Nos Partenaires",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos Partenaires",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.71,
+        "accessibility": 0.94,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 14991,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagnes_p1.avif",
+            "resourceSize": 251807,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/parasite_affiche.png",
+            "resourceSize": 235065,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/pupille_affiche.webp",
+            "resourceSize": 13868,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/the_neighbors_window-affiche.png",
+            "resourceSize": 109420,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-fl%C3%A8che_gauche.svg",
+            "resourceSize": 1846,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-fleche_droit.svg",
+            "resourceSize": 1840,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-ufc.png",
+            "resourceSize": 23558,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-MMI_montb%C3%A9liard.png",
+            "resourceSize": 18936,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo_departement_vosges_2016.svg.png",
+            "resourceSize": 43765,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/festival.html",
+      "title": "Festival",
+      "totalTags": 124,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 3,
+        "header": 3,
+        "div": 13,
+        "button": 2,
+        "img": 19,
+        "a": 20,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "h3": 5,
+        "p": 17,
+        "h2": 2,
+        "footer": 1
+      },
+      "externalLinks": 6,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 5,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Festival"
+        },
+        {
+          "tag": "h3",
+          "text": "12 au 16 novembre 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Le Rendez-vous dans les Vosges"
+        },
+        {
+          "tag": "h2",
+          "text": "Notre Équipe"
+        },
+        {
+          "tag": "h3",
+          "text": "Andréa Mestre"
+        },
+        {
+          "tag": "h3",
+          "text": "Cyril Gane"
+        },
+        {
+          "tag": "h3",
+          "text": "Cédric Johns"
+        },
+        {
+          "tag": "h3",
+          "text": "Manon Fiori"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "12 au 16 novembre 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le Rendez-vous dans les Vosges",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Le Rendez-vous dans les Vosges",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Notre Équipe",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Notre Équipe",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Andréa Mestre",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Cyril Gane",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Cédric Johns",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Manon Fiori",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.9,
+        "accessibility": 0.98,
+        "bestPractices": 1,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/festival.html",
+            "resourceSize": 13748,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagnes_p2.avif",
+            "resourceSize": 271235,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-montain.svg",
+            "resourceSize": 16619,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-planet.svg",
+            "resourceSize": 79755,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img//img-equipe_moi.webp",
+            "resourceSize": 7676,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-equipe_1.webp",
+            "resourceSize": 12206,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-equipe_2.webp",
+            "resourceSize": 10000,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-equipe_3.webp",
+            "resourceSize": 15554,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+            "resourceSize": 68348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/programme.html",
+      "title": "Programme",
+      "totalTags": 204,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 7,
+        "header": 7,
+        "div": 24,
+        "button": 2,
+        "img": 45,
+        "a": 52,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "p": 10,
+        "h2": 11,
+        "h4": 6,
+        "footer": 1
+      },
+      "externalLinks": 6,
+      "internalLinks": 42,
+      "deadLinks": 4,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 0,
+        "h4": 6,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Programme"
+        },
+        {
+          "tag": "h2",
+          "text": "Liste des Films"
+        },
+        {
+          "tag": "h4",
+          "text": "Honeyland"
+        },
+        {
+          "tag": "h4",
+          "text": "Parasite"
+        },
+        {
+          "tag": "h4",
+          "text": "Les gardiennes"
+        },
+        {
+          "tag": "h4",
+          "text": "Ma Loute"
+        },
+        {
+          "tag": "h4",
+          "text": "Pupille"
+        },
+        {
+          "tag": "h4",
+          "text": "Your name"
+        },
+        {
+          "tag": "h2",
+          "text": "Jour 1"
+        },
+        {
+          "tag": "h2",
+          "text": "Lundi 12 novembre"
+        },
+        {
+          "tag": "h2",
+          "text": "Jour 1"
+        },
+        {
+          "tag": "h2",
+          "text": "Lundi 12 novembre"
+        },
+        {
+          "tag": "h2",
+          "text": "Jour 1"
+        },
+        {
+          "tag": "h2",
+          "text": "Lundi 12 novembre"
+        },
+        {
+          "tag": "h2",
+          "text": "Jour 1"
+        },
+        {
+          "tag": "h2",
+          "text": "Lundi 12 novembre"
+        },
+        {
+          "tag": "h2",
+          "text": "Jour 1"
+        },
+        {
+          "tag": "h2",
+          "text": "Lundi 12 novembre"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Liste des Films",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Liste des Films",
+          "tag": "h2"
+        },
+        {
+          "level": 4,
+          "text": "Honeyland",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Parasite",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Les gardiennes",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Ma Loute",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Pupille",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Your name",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jour 1",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lundi 12 novembre",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jour 1",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lundi 12 novembre",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jour 1",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lundi 12 novembre",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jour 1",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lundi 12 novembre",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jour 1",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lundi 12 novembre",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.82,
+        "accessibility": 0.94,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/programme.html",
+            "resourceSize": 19089,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagnes_p3.avif",
+            "resourceSize": 231693,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-camera.svg",
+            "resourceSize": 41435,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/honeyland-affiche.webp",
+            "resourceSize": 17280,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/parasite_affiche.png",
+            "resourceSize": 235065,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/gardiennes-affiche.jpg",
+            "resourceSize": 124956,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ma_loute-film.png",
+            "resourceSize": 222059,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/pupille_affiche.webp",
+            "resourceSize": 13868,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/your_name-affiche.jpg",
+            "resourceSize": 60723,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/the_neighbors_window-affiche.png",
+            "resourceSize": 109420,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-fl%C3%A8che_gauche.svg",
+            "resourceSize": 1846,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-fleche_droit.svg",
+            "resourceSize": 1840,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/rencontre.html",
+      "title": "Rencontre",
+      "totalTags": 111,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 2,
+        "header": 1,
+        "div": 10,
+        "button": 2,
+        "img": 17,
+        "a": 22,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "p": 13,
+        "article": 3,
+        "h2": 1,
+        "footer": 1
+      },
+      "externalLinks": 6,
+      "internalLinks": 13,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Rencontre"
+        },
+        {
+          "tag": "h2",
+          "text": "Le réalisateur"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Rencontre",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Rencontre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Le réalisateur",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Le réalisateur",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Le réalisateur",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.83,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/rencontre.html",
+            "resourceSize": 10807,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagne_p4.avif",
+            "resourceSize": 233477,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-clap.svg",
+            "resourceSize": 78014,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/xavier_beauvois-realisateur.webp",
+            "resourceSize": 201732,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/yves_robert-realisateur.webp",
+            "resourceSize": 485888,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/jeanne_herry-realisatrice.jpg",
+            "resourceSize": 995527,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+            "resourceSize": 68348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/billetterie.html",
+      "title": "Billetterie",
+      "totalTags": 142,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 2,
+        "header": 2,
+        "div": 22,
+        "button": 2,
+        "img": 14,
+        "a": 25,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "p": 29,
+        "h2": 1,
+        "h3": 5,
+        "footer": 1
+      },
+      "externalLinks": 6,
+      "internalLinks": 11,
+      "deadLinks": 8,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 5,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Billetterie"
+        },
+        {
+          "tag": "h2",
+          "text": "Formules & Tarifs"
+        },
+        {
+          "tag": "h3",
+          "text": "1 Jour - Immersion Express"
+        },
+        {
+          "tag": "h3",
+          "text": "2 Jours - Expérience Cinéphile"
+        },
+        {
+          "tag": "h3",
+          "text": "3 Jours - Séjour Cinématographique"
+        },
+        {
+          "tag": "h3",
+          "text": "4 Jours - Pass Festival Complet"
+        },
+        {
+          "tag": "h3",
+          "text": "5 Jours - Immersion Totale"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Billetterie",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Billetterie",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Formules & Tarifs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Formules & Tarifs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "1 Jour - Immersion Express",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "2 Jours - Expérience Cinéphile",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "3 Jours - Séjour Cinématographique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "4 Jours - Pass Festival Complet",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "5 Jours - Immersion Totale",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.7,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/billetterie.html",
+            "resourceSize": 17065,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagnes_p2.avif",
+            "resourceSize": 271235,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-tickets.svg",
+            "resourceSize": 89590,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+            "resourceSize": 68348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/ecoresponsabilite.html",
+      "title": "Infos Pratiques",
+      "totalTags": 107,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 4,
+        "header": 4,
+        "div": 7,
+        "button": 2,
+        "img": 14,
+        "a": 20,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "p": 13,
+        "h2": 3,
+        "footer": 1
+      },
+      "externalLinks": 6,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Éco-resposabilité"
+        },
+        {
+          "tag": "h2",
+          "text": "Réduction des Déchets"
+        },
+        {
+          "tag": "h2",
+          "text": "Réduction des Déchets"
+        },
+        {
+          "tag": "h2",
+          "text": "Sensibilisation à l'écologie"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Éco-resposabilité",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Éco-resposabilité",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réduction des Déchets",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Réduction des Déchets",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Réduction des Déchets",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Réduction des Déchets",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Sensibilisation à l'écologie",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Sensibilisation à l'écologie",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/ecoresponsabilite.html",
+            "resourceSize": 10638,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagnes_p2.avif",
+            "resourceSize": 271235,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-planet.svg",
+            "resourceSize": 79755,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/infospratique.html",
+      "title": "Infos Pratiques",
+      "totalTags": 102,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 4,
+        "header": 4,
+        "div": 6,
+        "button": 2,
+        "img": 15,
+        "a": 21,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "h2": 3,
+        "p": 7,
+        "footer": 1
+      },
+      "externalLinks": 7,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Infos Pratiques"
+        },
+        {
+          "tag": "h2",
+          "text": "Optez pour le Covoiturage !"
+        },
+        {
+          "tag": "h2",
+          "text": "Prenez les Transports en Commun"
+        },
+        {
+          "tag": "h2",
+          "text": "Venez au Festival à Vélo !"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Infos Pratiques",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Infos Pratiques",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Optez pour le Covoiturage !",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Optez pour le Covoiturage !",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Prenez les Transports en Commun",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Prenez les Transports en Commun",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Venez au Festival à Vélo !",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Venez au Festival à Vélo !",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/infospratique.html",
+            "resourceSize": 10375,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagnes_p5.avif",
+            "resourceSize": 223726,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-location.svg",
+            "resourceSize": 2773,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carte-infos.webp",
+            "resourceSize": 40852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/contact.html",
+      "title": "Cinémagny",
+      "totalTags": 111,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 1,
+        "header": 1,
+        "div": 10,
+        "button": 3,
+        "img": 19,
+        "a": 24,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "h1": 1,
+        "p": 4,
+        "form": 1,
+        "label": 4,
+        "input": 3,
+        "textarea": 1,
+        "footer": 1
+      },
+      "externalLinks": 7,
+      "internalLinks": 11,
+      "deadLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Contact"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.87,
+        "accessibility": 0.91,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/contact.html",
+            "resourceSize": 9508,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img-montagne_p4.avif",
+            "resourceSize": 233477,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-line-white.svg",
+            "resourceSize": 2404,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-location.svg",
+            "resourceSize": 2773,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-phone.svg",
+            "resourceSize": 2756,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-mail.svg",
+            "resourceSize": 1761,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagramnoir.svg",
+            "resourceSize": 3558,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebooknoir.svg",
+            "resourceSize": 2140,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitternoir.svg",
+            "resourceSize": 2257,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfair/v2/0nk2C9D7PO4KhmUJ5_zTZ-wCMUXynAK-5UQzUItaklpl7g.woff2",
+            "resourceSize": 116900,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/templatefilm.html",
+      "title": "Parasite",
+      "totalTags": 98,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 6,
+        "script": 2,
+        "body": 1,
+        "main": 1,
+        "section": 1,
+        "header": 1,
+        "div": 6,
+        "button": 2,
+        "img": 13,
+        "a": 20,
+        "nav": 1,
+        "ul": 4,
+        "li": 18,
+        "article": 2,
+        "h2": 2,
+        "p": 9,
+        "time": 1,
+        "video": 1,
+        "source": 1,
+        "footer": 1
+      },
+      "externalLinks": 6,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h2",
+          "text": "Parasite"
+        },
+        {
+          "tag": "h2",
+          "text": "Le réalisateur"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Parasite",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Parasite",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le réalisateur",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Le réalisateur",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/templatefilm.html",
+            "resourceSize": 10784,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1324,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1327,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-menu.svg",
+            "resourceSize": 2818,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo-festival_cinemagny.svg",
+            "resourceSize": 170568,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-magasin.svg",
+            "resourceSize": 2579,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-croix.svg",
+            "resourceSize": 1693,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-facebook.svg",
+            "resourceSize": 2131,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-instagram.svg",
+            "resourceSize": 3551,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-twitter.svg",
+            "resourceSize": 2283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/parasite_affiche.png",
+            "resourceSize": 235065,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/bong-joon-ho-realisateur.jpg",
+            "resourceSize": 6156,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/white_montains.svg",
+            "resourceSize": 1818919,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/vid%C3%A9o/PARASITE-bandeannonceofficielle.mp4",
+            "resourceSize": 134772,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap",
+            "resourceSize": 9811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 388,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 288,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 964,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 559,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1612,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/boutons.css",
+            "resourceSize": 1318,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 723,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesaccueil.css",
+            "resourceSize": 1436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cardequipe.css",
+            "resourceSize": 660,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 1597,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulesbilletterie.css",
+            "resourceSize": 300,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/liste.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 127,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/vid%C3%A9o/PARASITE-bandeannonceofficielle.mp4",
+            "resourceSize": 109859,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtPK_l2q.woff2",
+            "resourceSize": 23348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div"
+    ],
+    "otherTagsUsage": {
+      "div": 121
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 510,
+      "linesOfCode": 2,
+      "size": 9796,
+      "complexity": 1340,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 117,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 35,
+        "mean": 4.35042735042735,
+        "mode": 3,
+        "median": 4,
+        "range": 33,
+        "sum": 509,
+        "items": [
+          35,
+          7,
+          5,
+          5,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          6,
+          3,
+          4,
+          2,
+          2,
+          5,
+          3,
+          3,
+          5,
+          5,
+          4,
+          3,
+          3,
+          8,
+          4,
+          7,
+          8,
+          6,
+          8,
+          7,
+          4,
+          3,
+          7,
+          3,
+          3,
+          3,
+          11,
+          2,
+          2,
+          5,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          5,
+          4,
+          3,
+          3,
+          4,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          4,
+          6,
+          5,
+          5,
+          2,
+          2,
+          11,
+          2,
+          3,
+          4,
+          4,
+          2,
+          3,
+          3,
+          3,
+          5,
+          4,
+          6,
+          5,
+          6,
+          2,
+          8,
+          6,
+          3,
+          5,
+          5,
+          4,
+          3,
+          2,
+          6,
+          7,
+          3,
+          3,
+          4,
+          4,
+          4,
+          3,
+          8,
+          3,
+          3,
+          10,
+          4,
+          2,
+          2,
+          2,
+          2,
+          3,
+          8,
+          5,
+          4,
+          4,
+          5,
+          6
+        ],
+        "total": 117,
+        "totalUnique": 10,
+        "unique": {
+          "2": 28,
+          "3": 29,
+          "4": 19,
+          "5": 17,
+          "6": 8,
+          "7": 6,
+          "8": 6,
+          "10": 1,
+          "11": 2,
+          "35": 1
+        },
+        "uniquenessRatio": 0.08547008547008547
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.1025641025641026,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 129,
+        "items": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 117,
+        "totalUnique": 2,
+        "unique": {
+          "1": 105,
+          "2": 12
+        },
+        "uniquenessRatio": 0.017094017094017096
+      },
+      "declarations": {
+        "min": 1,
+        "max": 34,
+        "mean": 3.247863247863248,
+        "mode": 1,
+        "median": 3,
+        "range": 33,
+        "sum": 380,
+        "items": [
+          34,
+          6,
+          3,
+          4,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          5,
+          2,
+          2,
+          1,
+          1,
+          3,
+          2,
+          2,
+          4,
+          4,
+          3,
+          1,
+          2,
+          7,
+          3,
+          6,
+          7,
+          5,
+          7,
+          5,
+          3,
+          2,
+          6,
+          2,
+          2,
+          2,
+          10,
+          1,
+          1,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          3,
+          2,
+          2,
+          3,
+          6,
+          3,
+          3,
+          2,
+          3,
+          4,
+          3,
+          5,
+          4,
+          3,
+          1,
+          1,
+          10,
+          1,
+          2,
+          3,
+          3,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3,
+          5,
+          4,
+          4,
+          1,
+          6,
+          5,
+          2,
+          3,
+          4,
+          3,
+          2,
+          1,
+          5,
+          6,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          7,
+          2,
+          2,
+          9,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7,
+          4,
+          3,
+          3,
+          4,
+          5
+        ],
+        "total": 117,
+        "totalUnique": 10,
+        "unique": {
+          "1": 30,
+          "2": 28,
+          "3": 24,
+          "4": 12,
+          "5": 8,
+          "6": 6,
+          "7": 5,
+          "9": 1,
+          "10": 2,
+          "34": 1
+        },
+        "uniquenessRatio": 0.08547008547008547
+      }
+    },
+    "selectors": {
+      "total": 129,
+      "totalUnique": 112,
+      "uniquenessRatio": 0.8682170542635659,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          3,
+          0
+        ],
+        "sum": [
+          0,
+          131,
+          13
+        ],
+        "mean": [
+          0,
+          1.0155038759689923,
+          0.10077519379844961
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "total": 129,
+        "totalUnique": 5,
+        "unique": {
+          "0,1,0": 104,
+          "0,0,1": 11,
+          "0,2,0": 11,
+          "0,1,1": 2,
+          "0,3,0": 1
+        },
+        "uniquenessRatio": 0.03875968992248062
+      },
+      "complexity": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.2093023255813953,
+        "mode": 1,
+        "median": 1,
+        "range": 4,
+        "sum": 156,
+        "total": 129,
+        "totalUnique": 4,
+        "unique": {
+          "1": 115,
+          "2": 3,
+          "3": 10,
+          "5": 1
+        },
+        "uniquenessRatio": 0.031007751937984496,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          2,
+          1,
+          5,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          ".menu[aria-hidden=false]": 2,
+          ".menu[aria-hidden=false]\n.menu__item": 1
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.023255813953488372
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          ".carrousel::-webkit-scrollbar": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.007751937984496124
+      },
+      "combinators": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          " ": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "declarations": {
+      "total": 380,
+      "totalUnique": 219,
+      "uniquenessRatio": 0.5763157894736842,
+      "unique": {
+        "total": 219,
+        "ratio": 0.5763157894736842
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 380
+      }
+    },
+    "properties": {
+      "total": 380,
+      "totalUnique": 89,
+      "unique": {
+        "--color-gradient": 1,
+        "--blue": 1,
+        "--black": 1,
+        "--blanc-cassé": 1,
+        "--white": 1,
+        "--brown": 1,
+        "--green": 1,
+        "--font-family-heading1": 1,
+        "--font-family-heading2": 1,
+        "--font-family-body": 1,
+        "--font-heading1": 1,
+        "--size-heading2": 1,
+        "--size-heading3": 1,
+        "--size-body": 1,
+        "--size-body2": 1,
+        "--size-body3": 1,
+        "--font-weight-light": 1,
+        "--font-weight-regular": 1,
+        "--spacing-xs": 1,
+        "--spacing-sm": 1,
+        "--spacing-md": 1,
+        "--spacing-lg": 1,
+        "--spacing-xl": 1,
+        "--border-radius-sm": 1,
+        "--border-radius-md": 1,
+        "--border-radius-lg": 1,
+        "--container-icon": 1,
+        "--container-espace-texte": 1,
+        "--container-espace-btn": 1,
+        "--container-espace-card": 1,
+        "--container-espace-section": 1,
+        "--box-shadow-sm": 1,
+        "--box-shadow-md": 1,
+        "--box-shadow-lg": 1,
+        "color": 13,
+        "font-family": 13,
+        "font-size": 17,
+        "letter-spacing": 1,
+        "margin-top": 13,
+        "text-shadow": 2,
+        "font-weight": 8,
+        "margin-bottom": 5,
+        "text-align": 8,
+        "list-style-type": 1,
+        "text-decoration": 1,
+        "padding-bottom": 12,
+        "padding-top": 9,
+        "width": 20,
+        "align-items": 13,
+        "display": 26,
+        "flex-direction": 13,
+        "gap": 12,
+        "justify-content": 19,
+        "margin": 13,
+        "height": 7,
+        "object-fit": 5,
+        "padding-left": 9,
+        "padding-right": 7,
+        "margin-right": 1,
+        "background": 7,
+        "padding": 7,
+        "left": 7,
+        "position": 14,
+        "box-sizing": 1,
+        "background-color": 5,
+        "inset": 1,
+        "transform": 5,
+        "transition": 4,
+        "visibility": 2,
+        "z-index": 1,
+        "overflow": 2,
+        "opacity": 2,
+        "transition-delay": 1,
+        "--delay": 8,
+        "box-shadow": 1,
+        "cursor": 3,
+        "text-transform": 1,
+        "border": 5,
+        "top": 6,
+        "margin-left": 2,
+        "border-radius": 3,
+        "max-width": 1,
+        "overflow-x": 1,
+        "scrollbar-width": 1,
+        "-ms-overflow-style": 1,
+        "border-bottom": 1,
+        "right": 3,
+        "bottom": 1,
+        "grid-template-columns": 1
+      },
+      "uniquenessRatio": 0.23421052631578948,
+      "prefixed": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "-ms-overflow-style": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.002631578947368421
+      },
+      "custom": {
+        "total": 42,
+        "totalUnique": 35,
+        "unique": {
+          "--color-gradient": 1,
+          "--blue": 1,
+          "--black": 1,
+          "--blanc-cassé": 1,
+          "--white": 1,
+          "--brown": 1,
+          "--green": 1,
+          "--font-family-heading1": 1,
+          "--font-family-heading2": 1,
+          "--font-family-body": 1,
+          "--font-heading1": 1,
+          "--size-heading2": 1,
+          "--size-heading3": 1,
+          "--size-body": 1,
+          "--size-body2": 1,
+          "--size-body3": 1,
+          "--font-weight-light": 1,
+          "--font-weight-regular": 1,
+          "--spacing-xs": 1,
+          "--spacing-sm": 1,
+          "--spacing-md": 1,
+          "--spacing-lg": 1,
+          "--spacing-xl": 1,
+          "--border-radius-sm": 1,
+          "--border-radius-md": 1,
+          "--border-radius-lg": 1,
+          "--container-icon": 1,
+          "--container-espace-texte": 1,
+          "--container-espace-btn": 1,
+          "--container-espace-card": 1,
+          "--container-espace-section": 1,
+          "--box-shadow-sm": 1,
+          "--box-shadow-md": 1,
+          "--box-shadow-lg": 1,
+          "--delay": 8
+        },
+        "uniquenessRatio": 0.8333333333333334,
+        "ratio": 0.11052631578947368,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.1131578947368421,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 423
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 25,
+        "totalUnique": 11,
+        "unique": {
+          "#78b7ce": 4,
+          "#bae2b8": 4,
+          "#000": 4,
+          "#fcfcf4": 2,
+          "#ceaf89": 1,
+          "rgba(0,0,0,.4)": 2,
+          "rgba(0,0,0,.1)": 1,
+          "rgba(0,0,0,.2)": 1,
+          "rgba(0,0,0,.25)": 2,
+          "transparent": 3,
+          "rgba(0,0,0,.8)": 1
+        },
+        "uniquenessRatio": 0.44,
+        "itemsPerContext": {
+          "--color-gradient": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "#78b7ce": 1,
+              "#bae2b8": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#78b7ce": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--black": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blanc-cassé": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fcfcf4": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--white": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fcfcf4": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--brown": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ceaf89": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--green": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#bae2b8": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--box-shadow-sm": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.4)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--box-shadow-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.1)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--box-shadow-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.2)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "text-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.25)": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "background": {
+            "total": 5,
+            "totalUnique": 3,
+            "unique": {
+              "#78b7ce": 2,
+              "#bae2b8": 2,
+              "rgba(0,0,0,.8)": 1
+            },
+            "uniquenessRatio": 0.6
+          },
+          "box-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.4)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "#000": 2,
+              "transparent": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 25,
+          "totalUnique": 4,
+          "unique": {
+            "hex6": 11,
+            "hex3": 4,
+            "rgba": 7,
+            "transparent": 3
+          },
+          "uniquenessRatio": 0.16
+        }
+      },
+      "gradients": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "linear-gradient(to bottom #78b7ce,#bae2b8)": 1,
+          "linear-gradient(0deg,#78b7ce,#bae2b8)": 1,
+          "linear-gradient(180deg,#78b7ce,#bae2b8)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 13,
+        "totalUnique": 3,
+        "unique": {
+          "var(--font-family-heading1)": 1,
+          "var(--font-family-heading2)": 4,
+          "var(--font-family-body)": 8
+        },
+        "uniquenessRatio": 0.23076923076923078
+      },
+      "fontSizes": {
+        "total": 16,
+        "totalUnique": 10,
+        "unique": {
+          "var(--font-heading1)": 1,
+          "var(--size-heading2)": 2,
+          "var(--size-body)": 2,
+          "var(--size-body2)": 2,
+          "18px": 2,
+          "10px": 2,
+          "15px": 1,
+          "20px": 2,
+          "var(--size-heading3)": 1,
+          "var(--size-body3)": 1
+        },
+        "uniquenessRatio": 0.625
+      },
+      "lineHeights": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "zindexes": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "1": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "0 4px 4px rgba(0,0,0,.25)": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "boxShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0 2px 6px rgba(0,0,0,.4)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "50px": 1,
+          "5px": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "50px": 1,
+              "5px": 2
+            },
+            "uniquenessRatio": 0.6666666666666666
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 8,
+          "totalUnique": 4,
+          "unique": {
+            ".3s": 2,
+            "0s": 2,
+            ".4s": 2,
+            ".2s": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "timingFunctions": {
+          "total": 6,
+          "totalUnique": 1,
+          "unique": {
+            "ease": 6
+          },
+          "uniquenessRatio": 0.16666666666666666
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 187,
+        "totalUnique": 6,
+        "unique": {
+          "px": 161,
+          "deg": 2,
+          "vw": 4,
+          "s": 18,
+          "PX": 1,
+          "fr": 1
+        },
+        "uniquenessRatio": 0.03208556149732621,
+        "itemsPerContext": {
+          "--font-heading1": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-heading2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-heading3": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-body": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-body2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-body3": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-xs": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-sm": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--border-radius-sm": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--border-radius-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--border-radius-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--container-icon": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--container-espace-texte": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--container-espace-btn": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--container-espace-card": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--container-espace-section": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--box-shadow-sm": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "--box-shadow-md": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "--box-shadow-lg": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "letter-spacing": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-top": {
+            "total": 10,
+            "totalUnique": 1,
+            "unique": {
+              "px": 10
+            },
+            "uniquenessRatio": 0.1
+          },
+          "text-shadow": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding-bottom": {
+            "total": 11,
+            "totalUnique": 1,
+            "unique": {
+              "px": 11
+            },
+            "uniquenessRatio": 0.09090909090909091
+          },
+          "padding-top": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "width": {
+            "total": 20,
+            "totalUnique": 2,
+            "unique": {
+              "px": 18,
+              "vw": 2
+            },
+            "uniquenessRatio": 0.1
+          },
+          "margin-bottom": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "gap": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "height": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "margin-right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "font-size": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "padding-left": {
+            "total": 8,
+            "totalUnique": 2,
+            "unique": {
+              "px": 7,
+              "PX": 1
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding-right": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "left": {
+            "total": 6,
+            "totalUnique": 2,
+            "unique": {
+              "vw": 2,
+              "px": 4
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "transition": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "s": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "transform": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "transition-delay": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "s": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--delay": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "s": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "top": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "margin-left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-radius": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "grid-template-columns": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "fr": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 380
+      },
+      "keywords": {
+        "total": 9,
+        "totalUnique": 2,
+        "unique": {
+          "none": 7,
+          "auto": 2
+        },
+        "uniquenessRatio": 0.2222222222222222
+      }
+    },
+    "__meta__": {
+      "parseTime": 7,
+      "analyzeTime": 10,
+      "total": 17
+    }
+  }
+}

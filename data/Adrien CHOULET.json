@@ -34,7 +34,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 21,
+      "internalLinks": 7,
+      "deadLinks": 14,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -223,7 +224,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -359,7 +360,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 22,
+      "internalLinks": 7,
+      "deadLinks": 15,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -508,7 +510,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -608,14 +610,14 @@
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
-            "resourceSize": 3103,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
+            "resourceSize": 2675,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
-            "resourceSize": 2675,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
+            "resourceSize": 3103,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -668,7 +670,7 @@
             "resourceType": "Other"
           },
           {
-            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i271802&2i183090&2e1&3u11&4m2&1u372&2u200&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&client=google-maps-embed&token=69388",
+            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i271802&2i183090&2e1&3u11&4m2&1u372&2u200&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&client=google-maps-embed&token=103882",
             "resourceSize": 16691,
             "mimeType": "image/png",
             "resourceType": "Image"
@@ -720,7 +722,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 21,
+      "internalLinks": 7,
+      "deadLinks": 14,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -849,7 +852,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -948,7 +951,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 21,
+      "internalLinks": 7,
+      "deadLinks": 14,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1095,7 +1099,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1176,7 +1180,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 21,
+      "internalLinks": 7,
+      "deadLinks": 14,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1323,7 +1328,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1404,7 +1409,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 27,
+      "internalLinks": 7,
+      "deadLinks": 20,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1578,7 +1584,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1661,7 +1667,8 @@
         "script": 2
       },
       "externalLinks": 0,
-      "internalLinks": 21,
+      "internalLinks": 16,
+      "deadLinks": 5,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1781,7 +1788,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 985,
+            "resourceSize": 952,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3980,9 +3987,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 4,
-      "analyzeTime": 4,
-      "total": 8
+      "parseTime": 6,
+      "analyzeTime": 8,
+      "total": 14
     }
   }
 }

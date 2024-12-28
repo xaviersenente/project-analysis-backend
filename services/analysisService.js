@@ -152,6 +152,7 @@ export const analyzeHTML = (htmlContent) => {
     uniqueTags: {}, // Nombre d'occurrences de chaque balise unique
     externalLinks: 0, // Liens externes
     internalLinks: 0, // Liens internes
+    deadLinks: 0, // Liens morts (<a href=""> ou <a href="#">)
     favicon: false, // Présence d'une icône favicon
     mailtoLinks: 0, // Liens mailto
     viewport: false, // Présence d'une balise viewport
@@ -179,7 +180,9 @@ export const analyzeHTML = (htmlContent) => {
     // Analyse des liens
     if (tag === "a") {
       const href = $(el).attr("href");
-      if (href) {
+      if (!href || href === "" || href === "#") {
+        result.deadLinks++; // Compte les liens morts
+      } else {
         if (href.startsWith("http")) result.externalLinks++; // Lien externe
         else result.internalLinks++; // Lien interne
         if (href.startsWith("mailto:")) result.mailtoLinks++; // Lien mailto

@@ -33,6 +33,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 21,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -208,7 +209,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.98,
+        "performance": 0.8,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.91,
@@ -223,7 +224,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -296,12 +297,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -501,6 +496,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 10,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -578,7 +574,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.95,
+        "performance": 0.85,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.91,
@@ -593,7 +589,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -660,12 +656,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -830,6 +820,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 20,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1030,7 +1021,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.98,
+        "performance": 0.81,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.91,
@@ -1045,7 +1036,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1136,12 +1127,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1316,6 +1301,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 10,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1383,7 +1369,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.95,
+        "performance": 0.88,
         "accessibility": 1,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1398,7 +1384,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1465,12 +1451,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1622,6 +1602,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 16,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1761,7 +1742,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1864,12 +1845,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2015,6 +1990,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 15,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -2116,7 +2092,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.84,
+        "performance": 0.81,
         "accessibility": 1,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2131,7 +2107,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2228,12 +2204,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2387,6 +2357,7 @@
       },
       "externalLinks": 8,
       "internalLinks": 12,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -2582,7 +2553,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.84,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 0.91,
@@ -2597,7 +2568,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2664,12 +2635,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2806,14 +2771,14 @@
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
-            "resourceSize": 3103,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
+            "resourceSize": 2675,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
-            "resourceSize": 2675,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
+            "resourceSize": 3103,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -2866,16 +2831,16 @@
             "resourceType": "Manifest"
           },
           {
+            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i270947&2i184117&2e1&3u11&4m2&1u316&2u150&5m6&1e0&5sfr&6sfr&10b1&12b1&14i47083502&client=google-maps-embed&token=101717",
+            "resourceSize": 7772,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/logo-and-icons/favicon.ico",
             "resourceSize": 15086,
             "mimeType": "image/x-icon",
             "resourceType": "Other"
-          },
-          {
-            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i270939&2i184117&2e1&3u11&4m2&1u332&2u150&5m6&1e0&5sfr&6sfr&10b1&12b1&14i47083502&client=google-maps-embed&token=14016",
-            "resourceSize": 8133,
-            "mimeType": "image/png",
-            "resourceType": "Image"
           },
           {
             "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/onion.js",
@@ -2927,6 +2892,7 @@
       },
       "externalLinks": 9,
       "internalLinks": 10,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -3019,7 +2985,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3086,12 +3052,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3180,6 +3140,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
+            "resourceSize": 43224,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9WlhyyTh89Y.woff2",
             "resourceSize": 8584,
             "mimeType": "font/woff2",
@@ -3188,12 +3154,6 @@
           {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptsg8zYS_SKggPNyCg4TYFqL_KWxQ.woff2",
             "resourceSize": 45304,
-            "mimeType": "font/woff2",
-            "resourceType": "Font"
-          },
-          {
-            "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
-            "resourceSize": 43224,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -3261,6 +3221,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 11,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -3344,7 +3305,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3416,19 +3377,13 @@
           },
           {
             "url": "https://www.youtube.com/embed/qIwVV7iBSbA?si=0yk1fNRkQsiCvec7",
-            "resourceSize": 102409,
+            "resourceSize": 102188,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3583,19 +3538,19 @@
           },
           {
             "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
-            "resourceSize": 94521,
+            "resourceSize": 93809,
             "mimeType": "application/json+protobuf",
             "resourceType": "XHR"
           },
           {
-            "url": "https://www.google.com/js/th/bTS-krGMW8fDflzgOBqs4RfQ289v88xjeZzvxqf94UM.js",
-            "resourceSize": 55336,
+            "url": "https://www.google.com/js/th/8p-ZUt2O_r6IumY5TzUY2RZ4QvEtVfvf_MYYDjqPK3M.js",
+            "resourceSize": 54903,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://i.ytimg.com/vi/qIwVV7iBSbA/sddefault.jpg",
-            "resourceSize": 50787,
+            "url": "https://i.ytimg.com/vi/qIwVV7iBSbA/default.jpg",
+            "resourceSize": 3082,
             "mimeType": "image/jpeg",
             "resourceType": "Image"
           },
@@ -3618,7 +3573,7 @@
             "resourceType": "XHR"
           },
           {
-            "url": "https://www.youtube.com/generate_204?j9U_sg",
+            "url": "https://www.youtube.com/generate_204?bFC_UA",
             "resourceSize": 0,
             "mimeType": "text/plain",
             "resourceType": "Image"
@@ -3661,15 +3616,15 @@
           },
           {
             "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-            "resourceSize": 0,
-            "mimeType": "text/plain",
-            "resourceType": "Preflight"
-          },
-          {
-            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
             "resourceSize": 131,
             "mimeType": "text/plain",
             "resourceType": "XHR"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 0,
+            "mimeType": "text/plain",
+            "resourceType": "Preflight"
           },
           {
             "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
@@ -3722,6 +3677,7 @@
       },
       "externalLinks": 6,
       "internalLinks": 11,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -3790,7 +3746,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.86,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.91,
@@ -3805,7 +3761,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1111,
+            "resourceSize": 1069,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3878,12 +3834,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 12866,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
-            "resourceSize": 6138,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4065,13 +4015,13 @@
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 519,
-      "linesOfCode": 2,
-      "size": 9640,
-      "complexity": 1351,
+      "sourceLinesOfCode": 408,
+      "linesOfCode": 1,
+      "size": 7837,
+      "complexity": 1084,
       "comments": {
-        "total": 1,
-        "size": 72
+        "total": 0,
+        "size": 0
       },
       "embeddedContent": {
         "total": 0,
@@ -4178,7 +4128,7 @@
       }
     },
     "rules": {
-      "total": 112,
+      "total": 79,
       "empty": {
         "total": 0,
         "ratio": 0
@@ -4186,45 +4136,12 @@
       "sizes": {
         "min": 2,
         "max": 20,
-        "mean": 4.633928571428571,
-        "mode": 2,
+        "mean": 5.1645569620253164,
+        "mode": 6,
         "median": 4,
         "range": 18,
-        "sum": 519,
+        "sum": 408,
         "items": [
-          3,
-          2,
-          2,
-          3,
-          4,
-          3,
-          2,
-          4,
-          3,
-          5,
-          2,
-          6,
-          2,
-          2,
-          2,
-          9,
-          3,
-          3,
-          5,
-          6,
-          5,
-          2,
-          7,
-          2,
-          2,
-          4,
-          3,
-          3,
-          2,
-          3,
-          2,
-          2,
-          3,
           20,
           4,
           9,
@@ -4305,67 +4222,34 @@
           3,
           4
         ],
-        "total": 112,
+        "total": 79,
         "totalUnique": 13,
         "unique": {
-          "2": 26,
-          "3": 24,
-          "4": 16,
-          "5": 11,
-          "6": 17,
-          "7": 6,
+          "2": 13,
+          "3": 14,
+          "4": 13,
+          "5": 8,
+          "6": 15,
+          "7": 5,
           "8": 1,
-          "9": 4,
+          "9": 3,
           "10": 2,
           "11": 2,
           "12": 1,
           "14": 1,
           "20": 1
         },
-        "uniquenessRatio": 0.11607142857142858
+        "uniquenessRatio": 0.16455696202531644
       },
       "selectors": {
         "min": 1,
-        "max": 5,
-        "mean": 1.2321428571428572,
+        "max": 2,
+        "mean": 1.0506329113924051,
         "mode": 1,
         "median": 1,
-        "range": 4,
-        "sum": 138,
+        "range": 1,
+        "sum": 83,
         "items": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          3,
-          1,
-          2,
-          1,
-          1,
-          1,
-          5,
-          2,
-          2,
-          4,
-          4,
-          4,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
           1,
           1,
           1,
@@ -4446,59 +4330,23 @@
           1,
           1
         ],
-        "total": 112,
-        "totalUnique": 5,
+        "total": 79,
+        "totalUnique": 2,
         "unique": {
-          "1": 96,
-          "2": 11,
-          "3": 1,
-          "4": 3,
-          "5": 1
+          "1": 75,
+          "2": 4
         },
-        "uniquenessRatio": 0.044642857142857144
+        "uniquenessRatio": 0.02531645569620253
       },
       "declarations": {
         "min": 1,
         "max": 19,
-        "mean": 3.4017857142857144,
-        "mode": 1,
-        "median": 2,
+        "mean": 4.113924050632911,
+        "mode": 2,
+        "median": 3,
         "range": 18,
-        "sum": 381,
+        "sum": 325,
         "items": [
-          2,
-          1,
-          1,
-          2,
-          3,
-          2,
-          1,
-          3,
-          1,
-          2,
-          1,
-          4,
-          1,
-          1,
-          1,
-          4,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          6,
-          1,
-          1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
-          1,
-          1,
           19,
           3,
           8,
@@ -4579,15 +4427,15 @@
           2,
           3
         ],
-        "total": 112,
+        "total": 79,
         "totalUnique": 13,
         "unique": {
-          "1": 33,
-          "2": 24,
-          "3": 13,
-          "4": 12,
+          "1": 13,
+          "2": 16,
+          "3": 11,
+          "4": 10,
           "5": 13,
-          "6": 6,
+          "6": 5,
           "7": 1,
           "8": 3,
           "9": 2,
@@ -4596,13 +4444,13 @@
           "13": 1,
           "19": 1
         },
-        "uniquenessRatio": 0.11607142857142858
+        "uniquenessRatio": 0.16455696202531644
       }
     },
     "selectors": {
-      "total": 138,
-      "totalUnique": 126,
-      "uniquenessRatio": 0.9130434782608695,
+      "total": 83,
+      "totalUnique": 80,
+      "uniquenessRatio": 0.963855421686747,
       "specificity": {
         "min": [
           0,
@@ -4616,13 +4464,13 @@
         ],
         "sum": [
           0,
-          100,
-          56
+          79,
+          10
         ],
         "mean": [
           0,
-          0.7246376811594203,
-          0.4057971014492754
+          0.9518072289156626,
+          0.12048192771084337
         ],
         "mode": [
           0,
@@ -4635,281 +4483,6 @@
           0
         ],
         "items": [
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1
-          ],
           [
             0,
             1,
@@ -5326,91 +4899,34 @@
             0
           ]
         ],
-        "total": 138,
-        "totalUnique": 6,
+        "total": 83,
+        "totalUnique": 5,
         "unique": {
-          "0,0,1": 40,
-          "0,1,1": 14,
-          "0,1,0": 78,
-          "0,0,2": 1,
-          "0,2,0": 4,
-          "0,0,0": 1
+          "0,1,0": 71,
+          "0,0,0": 1,
+          "0,0,1": 4,
+          "0,1,1": 6,
+          "0,2,0": 1
         },
-        "uniquenessRatio": 0.043478260869565216
+        "uniquenessRatio": 0.060240963855421686
       },
       "complexity": {
         "min": 1,
-        "max": 4,
-        "mean": 1.3405797101449275,
+        "max": 3,
+        "mean": 1.0963855421686748,
         "mode": 1,
         "median": 1,
-        "range": 3,
-        "sum": 185,
-        "total": 138,
-        "totalUnique": 4,
+        "range": 2,
+        "sum": 91,
+        "total": 83,
+        "totalUnique": 3,
         "unique": {
-          "1": 112,
-          "2": 14,
-          "3": 3,
-          "4": 9
+          "1": 76,
+          "2": 6,
+          "3": 1
         },
-        "uniquenessRatio": 0.028985507246376812,
+        "uniquenessRatio": 0.03614457831325301,
         "items": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          1,
-          4,
-          4,
-          4,
-          3,
-          4,
-          4,
-          4,
-          3,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          4,
-          4,
-          2,
-          4,
-          2,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -5510,7 +5026,7 @@
           ".menu[aria-hidden=false]": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.007246376811594203
+        "ratio": 0.012048192771084338
       },
       "keyframes": {
         "total": 0,
@@ -5519,24 +5035,11 @@
         "uniquenessRatio": 0
       },
       "prefixed": {
-        "total": 12,
-        "totalUnique": 12,
-        "unique": {
-          "[type=button]::-moz-focus-inner": 1,
-          "[type=reset]::-moz-focus-inner": 1,
-          "[type=submit]::-moz-focus-inner": 1,
-          "button::-moz-focus-inner": 1,
-          "[type=button]:-moz-focusring": 1,
-          "[type=reset]:-moz-focusring": 1,
-          "[type=submit]:-moz-focusring": 1,
-          "button:-moz-focusring": 1,
-          "[type=number]::-webkit-inner-spin-button": 1,
-          "[type=number]::-webkit-outer-spin-button": 1,
-          "[type=search]::-webkit-search-decoration": 1,
-          "::-webkit-file-upload-button": 1
-        },
-        "uniquenessRatio": 1,
-        "ratio": 0.08695652173913043
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
       },
       "combinators": {
         "total": 0,
@@ -5546,12 +5049,12 @@
       }
     },
     "declarations": {
-      "total": 380,
-      "totalUnique": 206,
-      "uniquenessRatio": 0.5421052631578948,
+      "total": 324,
+      "totalUnique": 169,
+      "uniquenessRatio": 0.5216049382716049,
       "unique": {
-        "total": 206,
-        "ratio": 0.5421052631578948
+        "total": 169,
+        "ratio": 0.5216049382716049
       },
       "importants": {
         "total": 0,
@@ -5568,40 +5071,13 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 380
+        "sum": 324
       }
     },
     "properties": {
-      "total": 380,
-      "totalUnique": 87,
+      "total": 324,
+      "totalUnique": 77,
       "unique": {
-        "line-height": 3,
-        "-webkit-text-size-adjust": 1,
-        "margin": 18,
-        "display": 29,
-        "font-size": 26,
-        "box-sizing": 3,
-        "height": 19,
-        "overflow": 5,
-        "font-family": 11,
-        "background-color": 9,
-        "border-bottom": 1,
-        "text-decoration": 4,
-        "font-weight": 16,
-        "position": 12,
-        "vertical-align": 2,
-        "bottom": 2,
-        "top": 4,
-        "border-style": 4,
-        "text-transform": 5,
-        "-webkit-appearance": 4,
-        "padding": 16,
-        "outline": 1,
-        "color": 11,
-        "max-width": 2,
-        "white-space": 1,
-        "outline-offset": 1,
-        "font": 1,
         "--couleurs-claire": 1,
         "--couleurs-dominante": 1,
         "--couleurs-sombre": 1,
@@ -5621,21 +5097,38 @@
         "--space3x": 1,
         "--space4x": 1,
         "--space5x": 1,
+        "color": 10,
+        "font-family": 8,
+        "text-decoration": 2,
+        "overflow": 2,
+        "position": 11,
         "clip": 1,
         "border": 7,
+        "height": 17,
+        "margin": 15,
+        "padding": 12,
         "width": 23,
         "list-style": 1,
         "background": 6,
+        "border-style": 2,
         "align-items": 6,
+        "background-color": 8,
         "border-radius": 11,
+        "display": 24,
+        "font-size": 20,
+        "font-weight": 15,
         "justify-content": 8,
+        "text-transform": 4,
         "background-position": 1,
         "background-size": 1,
         "letter-spacing": 5,
+        "max-width": 1,
         "left": 2,
+        "top": 3,
         "z-index": 3,
         "background-blend-mode": 2,
         "content": 4,
+        "bottom": 1,
         "gap": 18,
         "right": 3,
         "flex-direction": 9,
@@ -5663,16 +5156,13 @@
         "max-height": 1,
         "opacity": 1
       },
-      "uniquenessRatio": 0.22894736842105262,
+      "uniquenessRatio": 0.23765432098765432,
       "prefixed": {
-        "total": 5,
-        "totalUnique": 2,
-        "unique": {
-          "-webkit-text-size-adjust": 1,
-          "-webkit-appearance": 4
-        },
-        "uniquenessRatio": 0.4,
-        "ratio": 0.013157894736842105
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
       },
       "custom": {
         "total": 19,
@@ -5699,7 +5189,7 @@
           "--space5x": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.05,
+        "ratio": 0.05864197530864197,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -5718,20 +5208,18 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.063157894736842,
+        "mean": 1.058641975308642,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 404
+        "sum": 343
       }
     },
     "values": {
       "colors": {
-        "total": 12,
-        "totalUnique": 10,
+        "total": 10,
+        "totalUnique": 8,
         "unique": {
-          "transparent": 1,
-          "ButtonText": 1,
           "#fff": 3,
           "#ffe800": 1,
           "#1e1e1e": 1,
@@ -5741,24 +5229,8 @@
           "rgba(255,154,230,.5)": 1,
           "#000": 1
         },
-        "uniquenessRatio": 0.8333333333333334,
+        "uniquenessRatio": 0.8,
         "itemsPerContext": {
-          "background-color": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "transparent": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "outline": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "ButtonText": 1
-            },
-            "uniquenessRatio": 1
-          },
           "--couleurs-claire": {
             "total": 1,
             "totalUnique": 1,
@@ -5820,17 +5292,15 @@
           }
         },
         "formats": {
-          "total": 12,
-          "totalUnique": 6,
+          "total": 10,
+          "totalUnique": 4,
           "unique": {
-            "transparent": 1,
-            "system": 1,
             "hex3": 4,
             "hex6": 3,
             "hsla": 1,
             "rgba": 2
           },
-          "uniquenessRatio": 0.5
+          "uniquenessRatio": 0.4
         }
       },
       "gradients": {
@@ -5844,40 +5314,31 @@
         "uniquenessRatio": 1
       },
       "fontFamilies": {
-        "total": 10,
-        "totalUnique": 3,
+        "total": 8,
+        "totalUnique": 2,
         "unique": {
-          "monospace,monospace": 2,
           "var(--fonts-common-font)": 2,
           "var(--fonts-heading-font)": 6
         },
-        "uniquenessRatio": 0.3
+        "uniquenessRatio": 0.25
       },
       "fontSizes": {
-        "total": 26,
-        "totalUnique": 10,
+        "total": 20,
+        "totalUnique": 5,
         "unique": {
-          "2em": 1,
-          "1em": 2,
-          "80%": 1,
-          "75%": 1,
-          "100%": 1,
           "var(--fs-s)": 6,
           "var(--fs-l)": 5,
           "var(--fs-m)": 7,
           "32px": 1,
           "var(--fs-xl)": 1
         },
-        "uniquenessRatio": 0.38461538461538464
+        "uniquenessRatio": 0.25
       },
       "lineHeights": {
-        "total": 3,
-        "totalUnique": 2,
-        "unique": {
-          "0": 1,
-          "1.15": 2
-        },
-        "uniquenessRatio": 0.6666666666666666
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
       },
       "zindexes": {
         "total": 3,
@@ -5958,79 +5419,17 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 116,
-        "totalUnique": 6,
+        "total": 105,
+        "totalUnique": 5,
         "unique": {
-          "em": 9,
-          "px": 98,
+          "px": 96,
           "rem": 4,
           "deg": 3,
           "s": 1,
           "fr": 1
         },
-        "uniquenessRatio": 0.05172413793103448,
+        "uniquenessRatio": 0.047619047619047616,
         "itemsPerContext": {
-          "font-size": {
-            "total": 4,
-            "totalUnique": 2,
-            "unique": {
-              "em": 3,
-              "px": 1
-            },
-            "uniquenessRatio": 0.5
-          },
-          "margin": {
-            "total": 6,
-            "totalUnique": 2,
-            "unique": {
-              "em": 1,
-              "px": 5
-            },
-            "uniquenessRatio": 0.3333333333333333
-          },
-          "bottom": {
-            "total": 2,
-            "totalUnique": 2,
-            "unique": {
-              "em": 1,
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "top": {
-            "total": 2,
-            "totalUnique": 2,
-            "unique": {
-              "em": 1,
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "outline": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "padding": {
-            "total": 11,
-            "totalUnique": 2,
-            "unique": {
-              "em": 3,
-              "px": 8
-            },
-            "uniquenessRatio": 0.18181818181818182
-          },
-          "outline-offset": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
           "--fs-xl": {
             "total": 1,
             "totalUnique": 1,
@@ -6119,6 +5518,14 @@
             },
             "uniquenessRatio": 0.07692307692307693
           },
+          "margin": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
           "width": {
             "total": 4,
             "totalUnique": 1,
@@ -6135,6 +5542,14 @@
             },
             "uniquenessRatio": 0.08333333333333333
           },
+          "padding": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
           "letter-spacing": {
             "total": 5,
             "totalUnique": 1,
@@ -6150,6 +5565,22 @@
               "deg": 2
             },
             "uniquenessRatio": 0.5
+          },
+          "top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
           },
           "gap": {
             "total": 17,
@@ -6181,6 +5612,14 @@
             "totalUnique": 1,
             "unique": {
               "s": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "font-size": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
             },
             "uniquenessRatio": 1
           },
@@ -6266,23 +5705,22 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 381
+        "sum": 325
       },
       "keywords": {
-        "total": 23,
-        "totalUnique": 3,
+        "total": 12,
+        "totalUnique": 2,
         "unique": {
-          "none": 16,
-          "inherit": 3,
-          "auto": 4
+          "none": 10,
+          "auto": 2
         },
-        "uniquenessRatio": 0.13043478260869565
+        "uniquenessRatio": 0.16666666666666666
       }
     },
     "__meta__": {
-      "parseTime": 8,
-      "analyzeTime": 7,
-      "total": 15
+      "parseTime": 2,
+      "analyzeTime": 3,
+      "total": 5
     }
   }
 }

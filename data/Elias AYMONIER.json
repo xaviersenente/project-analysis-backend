@@ -32,6 +32,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 14,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -263,7 +264,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.76,
+        "performance": 0.72,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -278,7 +279,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -547,12 +548,6 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 616,
             "mimeType": "text/css",
@@ -742,6 +737,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 8,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -829,7 +825,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -956,12 +952,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1155,6 +1145,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 25,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1461,7 +1452,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1670,12 +1661,6 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 616,
             "mimeType": "text/css",
@@ -1866,6 +1851,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 9,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -2211,7 +2197,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.76,
+        "performance": 0.73,
         "accessibility": 0.89,
         "bestPractices": 1,
         "seo": 0.91,
@@ -2226,7 +2212,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2471,12 +2457,6 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 616,
             "mimeType": "text/css",
@@ -2666,6 +2646,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 12,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -2774,7 +2755,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.86,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -2789,7 +2770,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2898,12 +2879,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3097,6 +3072,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 10,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -3287,7 +3263,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.9,
+        "performance": 0.88,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3302,7 +3278,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3441,12 +3417,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3641,6 +3611,7 @@
       },
       "externalLinks": 0,
       "internalLinks": 8,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -3715,7 +3686,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.9,
+        "performance": 0.94,
         "accessibility": 0.94,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3730,7 +3701,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3821,12 +3792,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4014,6 +3979,7 @@
       },
       "externalLinks": 1,
       "internalLinks": 8,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -4129,7 +4095,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4226,12 +4192,6 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4421,6 +4381,7 @@
       },
       "externalLinks": 2,
       "internalLinks": 8,
+      "deadLinks": 9,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -4576,7 +4537,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 969,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4678,19 +4639,13 @@
           },
           {
             "url": "https://www.youtube.com/embed/5-cro68n7CE",
-            "resourceSize": 102004,
+            "resourceSize": 101819,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
-            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4875,13 +4830,13 @@
           },
           {
             "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
-            "resourceSize": 94529,
+            "resourceSize": 94177,
             "mimeType": "application/json+protobuf",
             "resourceType": "XHR"
           },
           {
-            "url": "https://www.google.com/js/th/bTS-krGMW8fDflzgOBqs4RfQ289v88xjeZzvxqf94UM.js",
-            "resourceSize": 55336,
+            "url": "https://www.google.com/js/th/8p-ZUt2O_r6IumY5TzUY2RZ4QvEtVfvf_MYYDjqPK3M.js",
+            "resourceSize": 54903,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -4910,7 +4865,7 @@
             "resourceType": "XHR"
           },
           {
-            "url": "https://www.youtube.com/generate_204?VqvN7A",
+            "url": "https://www.youtube.com/generate_204?yKckgA",
             "resourceSize": 0,
             "mimeType": "text/plain",
             "resourceType": "Image"
@@ -4953,15 +4908,15 @@
           },
           {
             "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-            "resourceSize": 131,
-            "mimeType": "text/plain",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
             "resourceSize": 0,
             "mimeType": "text/plain",
             "resourceType": "Preflight"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 131,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
           },
           {
             "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
@@ -5035,13 +4990,13 @@
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 530,
-      "linesOfCode": 2,
-      "size": 9580,
-      "complexity": 1371,
+      "sourceLinesOfCode": 419,
+      "linesOfCode": 1,
+      "size": 7777,
+      "complexity": 1104,
       "comments": {
-        "total": 1,
-        "size": 72
+        "total": 0,
+        "size": 0
       },
       "embeddedContent": {
         "total": 0,
@@ -5148,7 +5103,7 @@
       }
     },
     "rules": {
-      "total": 132,
+      "total": 99,
       "empty": {
         "total": 0,
         "ratio": 0
@@ -5156,45 +5111,12 @@
       "sizes": {
         "min": 2,
         "max": 14,
-        "mean": 4.0606060606060606,
+        "mean": 4.292929292929293,
         "mode": 2,
-        "median": 3,
+        "median": 4,
         "range": 12,
-        "sum": 536,
+        "sum": 425,
         "items": [
-          3,
-          2,
-          2,
-          3,
-          4,
-          3,
-          2,
-          4,
-          3,
-          5,
-          2,
-          6,
-          2,
-          2,
-          2,
-          9,
-          3,
-          3,
-          5,
-          6,
-          5,
-          2,
-          7,
-          2,
-          2,
-          4,
-          3,
-          3,
-          2,
-          3,
-          2,
-          2,
-          3,
           14,
           6,
           2,
@@ -5295,67 +5217,34 @@
           4,
           4
         ],
-        "total": 132,
+        "total": 99,
         "totalUnique": 13,
         "unique": {
-          "2": 42,
-          "3": 28,
-          "4": 24,
-          "5": 12,
-          "6": 7,
-          "7": 6,
+          "2": 29,
+          "3": 18,
+          "4": 21,
+          "5": 9,
+          "6": 5,
+          "7": 5,
           "8": 5,
-          "9": 2,
+          "9": 1,
           "10": 2,
           "11": 1,
           "12": 1,
           "13": 1,
           "14": 1
         },
-        "uniquenessRatio": 0.09848484848484848
+        "uniquenessRatio": 0.13131313131313133
       },
       "selectors": {
         "min": 1,
-        "max": 5,
-        "mean": 1.303030303030303,
+        "max": 4,
+        "mean": 1.1818181818181819,
         "mode": 1,
         "median": 1,
-        "range": 4,
-        "sum": 172,
+        "range": 3,
+        "sum": 117,
         "items": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          3,
-          1,
-          2,
-          1,
-          1,
-          1,
-          5,
-          2,
-          2,
-          4,
-          4,
-          4,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
           1,
           3,
           1,
@@ -5456,59 +5345,25 @@
           2,
           1
         ],
-        "total": 132,
-        "totalUnique": 5,
+        "total": 99,
+        "totalUnique": 4,
         "unique": {
-          "1": 107,
-          "2": 16,
-          "3": 4,
-          "4": 4,
-          "5": 1
+          "1": 86,
+          "2": 9,
+          "3": 3,
+          "4": 1
         },
-        "uniquenessRatio": 0.03787878787878788
+        "uniquenessRatio": 0.04040404040404041
       },
       "declarations": {
         "min": 1,
         "max": 13,
-        "mean": 2.757575757575758,
+        "mean": 3.111111111111111,
         "mode": 1,
         "median": 2,
         "range": 12,
-        "sum": 364,
+        "sum": 308,
         "items": [
-          2,
-          1,
-          1,
-          2,
-          3,
-          2,
-          1,
-          3,
-          1,
-          2,
-          1,
-          4,
-          1,
-          1,
-          1,
-          4,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          6,
-          1,
-          1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
-          1,
-          1,
           13,
           3,
           1,
@@ -5609,15 +5464,15 @@
           2,
           3
         ],
-        "total": 132,
+        "total": 99,
         "totalUnique": 13,
         "unique": {
-          "1": 53,
-          "2": 27,
-          "3": 21,
-          "4": 10,
+          "1": 33,
+          "2": 19,
+          "3": 19,
+          "4": 8,
           "5": 4,
-          "6": 6,
+          "6": 5,
           "7": 5,
           "8": 1,
           "9": 1,
@@ -5626,13 +5481,13 @@
           "12": 1,
           "13": 1
         },
-        "uniquenessRatio": 0.09848484848484848
+        "uniquenessRatio": 0.13131313131313133
       }
     },
     "selectors": {
-      "total": 172,
-      "totalUnique": 139,
-      "uniquenessRatio": 0.8081395348837209,
+      "total": 117,
+      "totalUnique": 95,
+      "uniquenessRatio": 0.811965811965812,
       "specificity": {
         "min": [
           0,
@@ -5646,13 +5501,13 @@
         ],
         "sum": [
           0,
-          140,
-          76
+          119,
+          30
         ],
         "mean": [
           0,
-          0.813953488372093,
-          0.4418604651162791
+          1.017094017094017,
+          0.2564102564102564
         ],
         "mode": [
           0,
@@ -5665,281 +5520,6 @@
           0
         ],
         "items": [
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1
-          ],
           [
             0,
             1,
@@ -6526,97 +6106,40 @@
             0
           ]
         ],
-        "total": 172,
-        "totalUnique": 10,
+        "total": 117,
+        "totalUnique": 9,
         "unique": {
-          "0,0,1": 49,
-          "0,1,1": 19,
-          "0,1,0": 85,
-          "0,0,2": 1,
-          "0,2,0": 11,
+          "0,1,0": 78,
           "0,0,0": 1,
+          "0,0,1": 13,
+          "0,1,1": 11,
+          "0,2,0": 8,
           "0,1,2": 1,
           "0,3,0": 1,
           "0,3,1": 2,
           "0,2,1": 2
         },
-        "uniquenessRatio": 0.05813953488372093
+        "uniquenessRatio": 0.07692307692307693
       },
       "complexity": {
         "min": 1,
         "max": 6,
-        "mean": 1.5755813953488371,
+        "mean": 1.5128205128205128,
         "mode": 1,
         "median": 1,
         "range": 5,
-        "sum": 271,
-        "total": 172,
-        "totalUnique": 6,
+        "sum": 177,
+        "total": 117,
+        "totalUnique": 5,
         "unique": {
-          "1": 126,
-          "2": 16,
-          "3": 15,
-          "4": 9,
+          "1": 90,
+          "2": 8,
+          "3": 13,
           "5": 4,
           "6": 2
         },
-        "uniquenessRatio": 0.03488372093023256,
+        "uniquenessRatio": 0.042735042735042736,
         "items": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          1,
-          4,
-          4,
-          4,
-          3,
-          4,
-          4,
-          4,
-          3,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          4,
-          4,
-          2,
-          4,
-          2,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -6754,7 +6277,7 @@
           ".filter__nav[aria-hidden=true]": 1
         },
         "uniquenessRatio": 0.8333333333333334,
-        "ratio": 0.03488372093023256
+        "ratio": 0.05128205128205128
       },
       "keyframes": {
         "total": 0,
@@ -6763,24 +6286,11 @@
         "uniquenessRatio": 0
       },
       "prefixed": {
-        "total": 12,
-        "totalUnique": 12,
-        "unique": {
-          "[type=button]::-moz-focus-inner": 1,
-          "[type=reset]::-moz-focus-inner": 1,
-          "[type=submit]::-moz-focus-inner": 1,
-          "button::-moz-focus-inner": 1,
-          "[type=button]:-moz-focusring": 1,
-          "[type=reset]:-moz-focusring": 1,
-          "[type=submit]:-moz-focusring": 1,
-          "button:-moz-focusring": 1,
-          "[type=number]::-webkit-inner-spin-button": 1,
-          "[type=number]::-webkit-outer-spin-button": 1,
-          "[type=search]::-webkit-search-decoration": 1,
-          "::-webkit-file-upload-button": 1
-        },
-        "uniquenessRatio": 1,
-        "ratio": 0.06976744186046512
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
       },
       "combinators": {
         "total": 19,
@@ -6792,16 +6302,16 @@
       }
     },
     "declarations": {
-      "total": 357,
-      "totalUnique": 166,
-      "uniquenessRatio": 0.4649859943977591,
+      "total": 301,
+      "totalUnique": 128,
+      "uniquenessRatio": 0.42524916943521596,
       "unique": {
-        "total": 166,
-        "ratio": 0.4649859943977591
+        "total": 128,
+        "ratio": 0.42524916943521596
       },
       "importants": {
         "total": 10,
-        "ratio": 0.028011204481792718,
+        "ratio": 0.03322259136212625,
         "inKeyframes": {
           "total": 0,
           "ratio": 0
@@ -6810,44 +6320,17 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.0280112044817926,
+        "mean": 1.0332225913621262,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 367
+        "sum": 311
       }
     },
     "properties": {
-      "total": 357,
-      "totalUnique": 72,
+      "total": 301,
+      "totalUnique": 61,
       "unique": {
-        "line-height": 4,
-        "-webkit-text-size-adjust": 1,
-        "margin": 5,
-        "display": 41,
-        "font-size": 6,
-        "box-sizing": 4,
-        "height": 15,
-        "overflow": 4,
-        "font-family": 4,
-        "background-color": 15,
-        "border-bottom": 4,
-        "text-decoration": 3,
-        "font-weight": 1,
-        "position": 11,
-        "vertical-align": 2,
-        "bottom": 1,
-        "top": 6,
-        "border-style": 2,
-        "text-transform": 3,
-        "-webkit-appearance": 4,
-        "padding": 18,
-        "outline": 1,
-        "color": 9,
-        "max-width": 1,
-        "white-space": 1,
-        "outline-offset": 1,
-        "font": 8,
         "--gray-0": 1,
         "--gray-10": 1,
         "--gray-5": 1,
@@ -6861,6 +6344,13 @@
         "--texte": 1,
         "--texte-s": 1,
         "--button": 1,
+        "box-sizing": 1,
+        "margin": 2,
+        "padding": 14,
+        "font": 7,
+        "color": 8,
+        "line-height": 1,
+        "text-decoration": 1,
         "list-style": 1,
         "background": 1,
         "border": 3,
@@ -6868,13 +6358,20 @@
         "gap": 34,
         "margin-bottom": 3,
         "align-items": 14,
+        "display": 36,
+        "background-color": 14,
         "border-radius": 8,
+        "font-family": 1,
         "justify-content": 12,
         "letter-spacing": 1,
+        "text-transform": 2,
         "width": 27,
+        "height": 13,
+        "overflow": 1,
         "background-image": 6,
         "background-position": 1,
         "background-size": 1,
+        "position": 10,
         "z-index": 5,
         "inset": 2,
         "opacity": 2,
@@ -6882,8 +6379,10 @@
         "margin-top": 3,
         "content": 1,
         "transition": 3,
+        "top": 5,
         "transform": 4,
         "visibility": 2,
+        "border-bottom": 3,
         "padding-bottom": 2,
         "text-align": 1,
         "border-top": 1,
@@ -6894,16 +6393,13 @@
         "resize": 1,
         "min-width": 1
       },
-      "uniquenessRatio": 0.20168067226890757,
+      "uniquenessRatio": 0.2026578073089701,
       "prefixed": {
-        "total": 5,
-        "totalUnique": 2,
-        "unique": {
-          "-webkit-text-size-adjust": 1,
-          "-webkit-appearance": 4
-        },
-        "uniquenessRatio": 0.4,
-        "ratio": 0.014005602240896359
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
       },
       "custom": {
         "total": 13,
@@ -6924,7 +6420,7 @@
           "--button": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.036414565826330535,
+        "ratio": 0.04318936877076412,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -6943,20 +6439,18 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.050420168067227,
+        "mean": 1.043189368770764,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 375
+        "sum": 314
       }
     },
     "values": {
       "colors": {
-        "total": 7,
-        "totalUnique": 7,
+        "total": 5,
+        "totalUnique": 5,
         "unique": {
-          "transparent": 1,
-          "ButtonText": 1,
           "#202427": 1,
           "#f2f2f2": 1,
           "#8c8d88": 1,
@@ -6965,22 +6459,6 @@
         },
         "uniquenessRatio": 1,
         "itemsPerContext": {
-          "background-color": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "transparent": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "outline": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "ButtonText": 1
-            },
-            "uniquenessRatio": 1
-          },
           "--gray-0": {
             "total": 1,
             "totalUnique": 1,
@@ -7023,14 +6501,12 @@
           }
         },
         "formats": {
-          "total": 7,
-          "totalUnique": 3,
+          "total": 5,
+          "totalUnique": 1,
           "unique": {
-            "transparent": 1,
-            "system": 1,
             "hex6": 5
           },
-          "uniquenessRatio": 0.42857142857142855
+          "uniquenessRatio": 0.2
         }
       },
       "gradients": {
@@ -7040,10 +6516,9 @@
         "uniquenessRatio": 0
       },
       "fontFamilies": {
-        "total": 10,
-        "totalUnique": 8,
+        "total": 8,
+        "totalUnique": 7,
         "unique": {
-          "monospace,monospace": 2,
           "var(--title-xxl)": 1,
           "var(--title-xl)": 1,
           "var(--title-l)": 1,
@@ -7052,29 +6527,21 @@
           "var(--button)": 2,
           "var(--roboto)": 1
         },
-        "uniquenessRatio": 0.8
+        "uniquenessRatio": 0.875
       },
       "fontSizes": {
-        "total": 6,
-        "totalUnique": 5,
-        "unique": {
-          "2em": 1,
-          "1em": 2,
-          "80%": 1,
-          "75%": 1,
-          "100%": 1
-        },
-        "uniquenessRatio": 0.8333333333333334
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
       },
       "lineHeights": {
-        "total": 4,
-        "totalUnique": 3,
+        "total": 1,
+        "totalUnique": 1,
         "unique": {
-          "0": 1,
-          "1.15": 2,
           "150%": 1
         },
-        "uniquenessRatio": 0.75
+        "uniquenessRatio": 1
       },
       "zindexes": {
         "total": 5,
@@ -7152,77 +6619,18 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 114,
-        "totalUnique": 7,
+        "total": 103,
+        "totalUnique": 6,
         "unique": {
-          "em": 9,
-          "px": 91,
           "rem": 6,
+          "px": 89,
           "vw": 2,
           "vh": 1,
           "s": 3,
           "deg": 2
         },
-        "uniquenessRatio": 0.06140350877192982,
+        "uniquenessRatio": 0.05825242718446602,
         "itemsPerContext": {
-          "font-size": {
-            "total": 3,
-            "totalUnique": 1,
-            "unique": {
-              "em": 3
-            },
-            "uniquenessRatio": 0.3333333333333333
-          },
-          "margin": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "em": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "bottom": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "em": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "top": {
-            "total": 4,
-            "totalUnique": 2,
-            "unique": {
-              "em": 1,
-              "px": 3
-            },
-            "uniquenessRatio": 0.5
-          },
-          "outline": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "padding": {
-            "total": 19,
-            "totalUnique": 2,
-            "unique": {
-              "em": 3,
-              "px": 16
-            },
-            "uniquenessRatio": 0.10526315789473684
-          },
-          "outline-offset": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
           "--title-xxl": {
             "total": 1,
             "totalUnique": 1,
@@ -7270,6 +6678,14 @@
               "rem": 1
             },
             "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 16,
+            "totalUnique": 1,
+            "unique": {
+              "px": 16
+            },
+            "uniquenessRatio": 0.0625
           },
           "gap": {
             "total": 34,
@@ -7345,6 +6761,14 @@
             },
             "uniquenessRatio": 0.3333333333333333
           },
+          "top": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
           "transform": {
             "total": 2,
             "totalUnique": 1,
@@ -7394,23 +6818,22 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 357
+        "sum": 301
       },
       "keywords": {
-        "total": 22,
-        "totalUnique": 3,
+        "total": 11,
+        "totalUnique": 2,
         "unique": {
-          "none": 13,
-          "inherit": 3,
-          "auto": 6
+          "none": 7,
+          "auto": 4
         },
-        "uniquenessRatio": 0.13636363636363635
+        "uniquenessRatio": 0.18181818181818182
       }
     },
     "__meta__": {
       "parseTime": 3,
-      "analyzeTime": 4,
-      "total": 7
+      "analyzeTime": 3,
+      "total": 6
     }
   }
 }

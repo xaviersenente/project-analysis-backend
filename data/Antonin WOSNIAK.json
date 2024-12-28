@@ -27,7 +27,8 @@
         "script": 4
       },
       "externalLinks": 0,
-      "internalLinks": 7,
+      "internalLinks": 4,
+      "deadLinks": 3,
       "favicon": false,
       "mailtoLinks": 0,
       "viewport": true,
@@ -203,7 +204,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.73,
+        "performance": 0.7,
         "accessibility": 0.82,
         "bestPractices": 0.93,
         "seo": 0.82,
@@ -414,7 +415,8 @@
         "script": 4
       },
       "externalLinks": 0,
-      "internalLinks": 7,
+      "internalLinks": 4,
+      "deadLinks": 3,
       "favicon": false,
       "mailtoLinks": 0,
       "viewport": true,
@@ -715,7 +717,8 @@
         "script": 4
       },
       "externalLinks": 0,
-      "internalLinks": 7,
+      "internalLinks": 4,
+      "deadLinks": 3,
       "favicon": false,
       "mailtoLinks": 0,
       "viewport": true,
@@ -815,7 +818,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.72,
+        "performance": 0.7,
         "accessibility": 0.9,
         "bestPractices": 0.93,
         "seo": 0.82,
@@ -973,7 +976,8 @@
         "script": 4
       },
       "externalLinks": 0,
-      "internalLinks": 7,
+      "internalLinks": 4,
+      "deadLinks": 3,
       "favicon": false,
       "mailtoLinks": 0,
       "viewport": true,
@@ -32390,9 +32394,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 23,
+      "parseTime": 30,
       "analyzeTime": 36,
-      "total": 59
+      "total": 66
     }
   }
 }

@@ -1,0 +1,5392 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5502/",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 91,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 2,
+        "a": 13,
+        "img": 13,
+        "button": 2,
+        "span": 1,
+        "nav": 1,
+        "ul": 6,
+        "li": 20,
+        "section": 9,
+        "h1": 1,
+        "h3": 2,
+        "p": 3,
+        "strong": 1,
+        "main": 1,
+        "h2": 4,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 10,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Festival des Films d'Animation Japonais"
+        },
+        {
+          "tag": "h3",
+          "text": "Venez faire des rencontres uniques et partager votre passion !"
+        },
+        {
+          "tag": "h2",
+          "text": "La programmation"
+        },
+        {
+          "tag": "h2",
+          "text": "Invités"
+        },
+        {
+          "tag": "h2",
+          "text": "Informations pratiques"
+        },
+        {
+          "tag": "h2",
+          "text": "Le Festival (À propos)"
+        },
+        {
+          "tag": "h3",
+          "text": "Nos partenaires :"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Festival des Films d'Animation Japonais",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Festival des Films d'Animation Japonais",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "Venez faire des rencontres uniques et partager votre passion !",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La programmation",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "La programmation",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Invités",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Invités",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Informations pratiques",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Informations pratiques",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le Festival (À propos)",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Le Festival (À propos)",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Nos partenaires :",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Nos partenaires :",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.82,
+        "accessibility": 0.93,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/",
+            "resourceSize": 8398,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/image-page_accueil.jpg",
+            "resourceSize": 159090,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/ticket-programmation.webp",
+            "resourceSize": 30038,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/cinema-invite.webp",
+            "resourceSize": 8338,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/info-pratiques.webp",
+            "resourceSize": 3408,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/apropos.webp",
+            "resourceSize": 40936,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/delice-dasie.webp",
+            "resourceSize": 22022,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/subway.webp",
+            "resourceSize": 7632,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/boulanger.webp",
+            "resourceSize": 7958,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/apropos.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 66,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 3,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 2,
+        "a": 9,
+        "img": 5,
+        "button": 1,
+        "span": 1,
+        "nav": 1,
+        "ul": 4,
+        "li": 14,
+        "main": 1,
+        "section": 4,
+        "h1": 1,
+        "h2": 3,
+        "p": 7,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Le Festival (À propos)"
+        },
+        {
+          "tag": "h2",
+          "text": "Historique : Présentation du festival"
+        },
+        {
+          "tag": "h2",
+          "text": "Équipe : Organisateurs et équipe technique"
+        },
+        {
+          "tag": "h2",
+          "text": "Charte : Valeurs et thématique de l’édition"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Festival (À propos)",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Le Festival (À propos)",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Historique : Présentation du festival",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Équipe : Organisateurs et équipe technique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Charte : Valeurs et thématique de l’édition",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.88,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/apropos.html",
+            "resourceSize": 8022,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/programmation.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 153,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 4,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 9,
+        "a": 19,
+        "img": 22,
+        "button": 3,
+        "span": 1,
+        "nav": 1,
+        "ul": 12,
+        "li": 40,
+        "main": 1,
+        "section": 11,
+        "h1": 1,
+        "h2": 12,
+        "article": 3,
+        "h3": 3,
+        "dialog": 1,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 12,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "La programmation"
+        },
+        {
+          "tag": "h2",
+          "text": "Différents stands sont mis en place avec :"
+        },
+        {
+          "tag": "h2",
+          "text": "Quelques exemples de films diffusés :"
+        },
+        {
+          "tag": "h2",
+          "text": "Programmation en fonction des jours :"
+        },
+        {
+          "tag": "h3",
+          "text": "11 juillet 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Les Enfants du temps"
+        },
+        {
+          "tag": "h2",
+          "text": "Mon Voisin Totoro"
+        },
+        {
+          "tag": "h2",
+          "text": "Princesse Mononoké"
+        },
+        {
+          "tag": "h3",
+          "text": "12 juillet 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Le Voyage de Chihiro"
+        },
+        {
+          "tag": "h2",
+          "text": "Kiki la petite sorcière"
+        },
+        {
+          "tag": "h2",
+          "text": "Your Name."
+        },
+        {
+          "tag": "h3",
+          "text": "1 juillet 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Suzume"
+        },
+        {
+          "tag": "h2",
+          "text": "Le Château ambulant"
+        },
+        {
+          "tag": "h2",
+          "text": "Perfect Blue"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "La programmation",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "La programmation",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Différents stands sont mis en place avec :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Quelques exemples de films diffusés :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Quelques exemples de films diffusés :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Programmation en fonction des jours :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Programmation en fonction des jours :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "11 juillet 2025",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "11 juillet 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Les Enfants du temps",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Mon Voisin Totoro",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Princesse Mononoké",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "12 juillet 2025",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "12 juillet 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Le Voyage de Chihiro",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Kiki la petite sorcière",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Kiki la petite sorcière",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Your Name.",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Your Name.",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "1 juillet 2025",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1 juillet 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Suzume",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Suzume",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le Château ambulant",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Le Château ambulant",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Perfect Blue",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Perfect Blue",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 201,
+          "lastColumn": 18,
+          "firstColumn": 9,
+          "message": "End tag “section” seen, but there were open elements.",
+          "extract": ">\n        </section>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 10
+        },
+        {
+          "type": "error",
+          "lastLine": 124,
+          "lastColumn": 43,
+          "firstColumn": 13,
+          "message": "Unclosed element “article”.",
+          "extract": "          <article class=\"schedule__day\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.8,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/programmation.html",
+            "resourceSize": 14101,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/yn.webp",
+            "resourceSize": 37064,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/chateau.webp",
+            "resourceSize": 33684,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/totoro.webp",
+            "resourceSize": 29378,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/chihiro.webp",
+            "resourceSize": 28824,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/enfantsdt.webp",
+            "resourceSize": 46384,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/icon_arrowcarrousel.svg",
+            "resourceSize": 1995,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/enfantsdutemps.webp",
+            "resourceSize": 30818,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/totoro2.webp",
+            "resourceSize": 39128,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/monoke.webp",
+            "resourceSize": 33748,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/voyage-chihiro.webp",
+            "resourceSize": 16114,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/kiki-sorciere.webp",
+            "resourceSize": 29378,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/your-name.webp",
+            "resourceSize": 32780,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/suzume.webp",
+            "resourceSize": 28400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/chateau-ambulant.webp",
+            "resourceSize": 29602,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/perfect-blue.webp",
+            "resourceSize": 39648,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/infospratiques.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 88,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 3,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 2,
+        "a": 9,
+        "img": 6,
+        "button": 2,
+        "span": 1,
+        "nav": 1,
+        "ul": 6,
+        "li": 21,
+        "main": 1,
+        "section": 9,
+        "h1": 1,
+        "h2": 5,
+        "p": 10,
+        "strong": 1,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Informations pratiques"
+        },
+        {
+          "tag": "h2",
+          "text": "Tarifs du festival"
+        },
+        {
+          "tag": "h2",
+          "text": "Lieu :"
+        },
+        {
+          "tag": "h2",
+          "text": "Hébergement :"
+        },
+        {
+          "tag": "h2",
+          "text": "Transport :"
+        },
+        {
+          "tag": "h2",
+          "text": "FAQ :"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Informations pratiques",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Informations pratiques",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Tarifs du festival",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Tarifs du festival",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lieu :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Lieu :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Hébergement :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Hébergement :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Transport :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Transport :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "FAQ :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "FAQ :",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/infospratiques.html",
+            "resourceSize": 9192,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/l'atraxion.webp",
+            "resourceSize": 50274,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/inscriptions.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 75,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 3,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 6,
+        "a": 9,
+        "img": 5,
+        "button": 2,
+        "span": 1,
+        "nav": 1,
+        "ul": 4,
+        "li": 14,
+        "main": 1,
+        "section": 5,
+        "h1": 1,
+        "h2": 2,
+        "form": 1,
+        "label": 4,
+        "input": 4,
+        "p": 2,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Inscriptions et tarifs"
+        },
+        {
+          "tag": "h2",
+          "text": "Pour s'inscrire au festival, remplissez le formulaire suivant :"
+        },
+        {
+          "tag": "h2",
+          "text": "Tarifs du festival :"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Inscriptions et tarifs",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Inscriptions et tarifs",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Pour s'inscrire au festival, remplissez le formulaire suivant :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Tarifs du festival :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Tarifs du festival :",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/inscriptions.html",
+            "resourceSize": 7284,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/contact.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 69,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 3,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 7,
+        "a": 9,
+        "img": 7,
+        "button": 2,
+        "span": 1,
+        "nav": 1,
+        "ul": 2,
+        "li": 8,
+        "main": 1,
+        "section": 6,
+        "h1": 1,
+        "h2": 2,
+        "form": 1,
+        "label": 4,
+        "input": 4,
+        "footer": 1
+      },
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Contact"
+        },
+        {
+          "tag": "h2",
+          "text": "Nos réseaux sociaux :"
+        },
+        {
+          "tag": "h2",
+          "text": "Inscrivez-vous pour recevoir des offres et informations\n                exclusives :"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Nos réseaux sociaux :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos réseaux sociaux :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Inscrivez-vous pour recevoir des offres et informations\n                exclusives :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Inscrivez-vous pour recevoir des offres et informations\n                exclusives :",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/contact.html",
+            "resourceSize": 6839,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-black.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-black.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/enfantsdutemps.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 66,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 3,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 2,
+        "a": 11,
+        "img": 7,
+        "button": 3,
+        "span": 1,
+        "nav": 1,
+        "ul": 2,
+        "li": 8,
+        "main": 1,
+        "section": 8,
+        "h1": 1,
+        "h2": 4,
+        "p": 4,
+        "footer": 1
+      },
+      "externalLinks": 2,
+      "internalLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Les Enfants du temps"
+        },
+        {
+          "tag": "h2",
+          "text": "Durée : 1h53"
+        },
+        {
+          "tag": "h2",
+          "text": "Genre : Cinéma de fantasy/Romance"
+        },
+        {
+          "tag": "h2",
+          "text": "Date de sortie : 2019"
+        },
+        {
+          "tag": "h2",
+          "text": "En découvrir plus :"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les Enfants du temps",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Les Enfants du temps",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Durée : 1h53",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Durée : 1h53",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Genre : Cinéma de fantasy/Romance",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Date de sortie : 2019",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "En découvrir plus :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "En découvrir plus :",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 74,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"film__button\">BANDE ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 78,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"film__button\">BIOGRA",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/enfantsdutemps.html",
+            "resourceSize": 6820,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/enfantsdutps1.webp",
+            "resourceSize": 21614,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/enfantsdutps2.webp",
+            "resourceSize": 21880,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/monvoisintotoro.html",
+      "title": "Festival des Films d'Animation Japonais",
+      "totalTags": 65,
+      "uniqueTags": {
+        "html": 1,
+        "head": 1,
+        "meta": 2,
+        "title": 1,
+        "link": 2,
+        "script": 2,
+        "body": 1,
+        "header": 1,
+        "div": 2,
+        "a": 11,
+        "img": 7,
+        "button": 3,
+        "span": 1,
+        "nav": 1,
+        "ul": 2,
+        "li": 8,
+        "main": 1,
+        "section": 8,
+        "h1": 1,
+        "h2": 4,
+        "p": 4,
+        "footer": 1
+      },
+      "externalLinks": 2,
+      "internalLinks": 6,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingsStructure": [
+        {
+          "tag": "h1",
+          "text": "Mon voisin Totoro"
+        },
+        {
+          "tag": "h2",
+          "text": "Durée : 1h35"
+        },
+        {
+          "tag": "h2",
+          "text": "Genre : Cinéma de fantasy/Aventure"
+        },
+        {
+          "tag": "h2",
+          "text": "Date de sortie : 1998"
+        },
+        {
+          "tag": "h2",
+          "text": "En découvrir plus :"
+        }
+      ],
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Mon voisin Totoro",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Mon voisin Totoro",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Durée : 1h35",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Durée : 1h35",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Genre : Cinéma de fantasy/Aventure",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Date de sortie : 1998",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "En découvrir plus :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "En découvrir plus :",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 72,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"film__button\">BANDE ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 76,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"film__button\">BIOGRA",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.88,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/monvoisintotoro.html",
+            "resourceSize": 6588,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 743,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 1808,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/totoro1.webp",
+            "resourceSize": 34856,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/totoro2.0.webp",
+            "resourceSize": 9502,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/fleurs-footer.webp",
+            "resourceSize": 13360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/tiktok-logo.svg",
+            "resourceSize": 1885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/insta-logo.svg",
+            "resourceSize": 3459,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+            "resourceSize": 114987,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap",
+            "resourceSize": 117706,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 3757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-programmation.css",
+            "resourceSize": 3696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-apropos.css",
+            "resourceSize": 408,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-inscriptions.css",
+            "resourceSize": 1270,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-enfantsdutemps.css",
+            "resourceSize": 1299,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-infos.css",
+            "resourceSize": 993,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/page-contact.css",
+            "resourceSize": 1427,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
+            "resourceSize": 1298,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
+            "resourceSize": 451,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1965,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 104,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4g7eau.woff2",
+            "resourceSize": 21664,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJtzalB58P9ito.woff2",
+            "resourceSize": 20700,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icones/logo.svg",
+            "resourceSize": 156825,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "img",
+      "a",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "textarea",
+      "video",
+      "em"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 32,
+      "span": 8
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 805,
+      "linesOfCode": 2,
+      "size": 13963,
+      "complexity": 2039,
+      "comments": {
+        "total": 1,
+        "size": 72
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Reggae+One&display=swap\")": 1,
+          "url(\"https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "@keyframes fadeIn": 1,
+          "@keyframes fadeOut": 1
+        },
+        "uniquenessRatio": 1,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 4,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 4
+      }
+    },
+    "rules": {
+      "total": 170,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 17,
+        "mean": 4.711764705882353,
+        "mode": 3,
+        "median": 3,
+        "range": 15,
+        "sum": 801,
+        "items": [
+          3,
+          2,
+          3,
+          4,
+          3,
+          2,
+          4,
+          3,
+          5,
+          2,
+          6,
+          2,
+          2,
+          2,
+          9,
+          3,
+          3,
+          5,
+          6,
+          5,
+          2,
+          7,
+          2,
+          2,
+          4,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3,
+          6,
+          7,
+          5,
+          6,
+          9,
+          5,
+          4,
+          2,
+          10,
+          4,
+          10,
+          15,
+          9,
+          2,
+          9,
+          7,
+          8,
+          6,
+          7,
+          13,
+          3,
+          8,
+          6,
+          3,
+          2,
+          4,
+          2,
+          3,
+          8,
+          7,
+          3,
+          5,
+          5,
+          2,
+          2,
+          9,
+          2,
+          8,
+          6,
+          3,
+          6,
+          5,
+          2,
+          10,
+          2,
+          8,
+          3,
+          2,
+          2,
+          13,
+          4,
+          3,
+          3,
+          3,
+          3,
+          10,
+          3,
+          2,
+          2,
+          6,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          4,
+          8,
+          17,
+          3,
+          3,
+          6,
+          3,
+          4,
+          5,
+          4,
+          3,
+          6,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3,
+          7,
+          3,
+          4,
+          3,
+          2,
+          4,
+          10,
+          8,
+          10,
+          2,
+          2,
+          3,
+          2,
+          3,
+          5,
+          5,
+          2,
+          3,
+          3,
+          10,
+          7,
+          11,
+          12,
+          4,
+          3,
+          4,
+          3,
+          5,
+          4,
+          5,
+          2,
+          7,
+          2,
+          4,
+          2,
+          3,
+          12,
+          2,
+          5,
+          13,
+          3,
+          9,
+          3,
+          4,
+          6,
+          7,
+          12,
+          2,
+          2,
+          5,
+          4,
+          4,
+          3
+        ],
+        "total": 170,
+        "totalUnique": 14,
+        "unique": {
+          "2": 41,
+          "3": 45,
+          "4": 19,
+          "5": 15,
+          "6": 12,
+          "7": 9,
+          "8": 7,
+          "9": 6,
+          "10": 7,
+          "11": 1,
+          "12": 3,
+          "13": 3,
+          "15": 1,
+          "17": 1
+        },
+        "uniquenessRatio": 0.08235294117647059
+      },
+      "selectors": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.3294117647058823,
+        "mode": 1,
+        "median": 1,
+        "range": 4,
+        "sum": 226,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          5,
+          2,
+          2,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          1
+        ],
+        "total": 170,
+        "totalUnique": 5,
+        "unique": {
+          "1": 140,
+          "2": 15,
+          "3": 5,
+          "4": 9,
+          "5": 1
+        },
+        "uniquenessRatio": 0.029411764705882353
+      },
+      "declarations": {
+        "min": 1,
+        "max": 16,
+        "mean": 3.3823529411764706,
+        "mode": 1,
+        "median": 2,
+        "range": 15,
+        "sum": 575,
+        "items": [
+          2,
+          1,
+          2,
+          3,
+          2,
+          1,
+          3,
+          1,
+          2,
+          1,
+          4,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          6,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          5,
+          6,
+          3,
+          5,
+          8,
+          3,
+          3,
+          1,
+          9,
+          3,
+          9,
+          14,
+          8,
+          1,
+          5,
+          3,
+          4,
+          2,
+          3,
+          9,
+          2,
+          7,
+          5,
+          2,
+          1,
+          3,
+          1,
+          2,
+          7,
+          6,
+          2,
+          3,
+          4,
+          1,
+          1,
+          8,
+          1,
+          7,
+          5,
+          2,
+          5,
+          4,
+          1,
+          9,
+          1,
+          7,
+          2,
+          1,
+          1,
+          12,
+          3,
+          2,
+          2,
+          2,
+          2,
+          9,
+          2,
+          1,
+          1,
+          5,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          3,
+          7,
+          16,
+          2,
+          2,
+          5,
+          2,
+          3,
+          4,
+          3,
+          2,
+          3,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          6,
+          1,
+          3,
+          2,
+          1,
+          1,
+          9,
+          7,
+          9,
+          1,
+          1,
+          2,
+          1,
+          2,
+          4,
+          4,
+          1,
+          2,
+          2,
+          9,
+          6,
+          10,
+          11,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4,
+          1,
+          6,
+          1,
+          3,
+          1,
+          1,
+          11,
+          1,
+          4,
+          12,
+          2,
+          8,
+          2,
+          3,
+          4,
+          6,
+          9,
+          1,
+          1,
+          2,
+          2,
+          3,
+          2
+        ],
+        "total": 170,
+        "totalUnique": 14,
+        "unique": {
+          "1": 51,
+          "2": 45,
+          "3": 21,
+          "4": 12,
+          "5": 8,
+          "6": 7,
+          "7": 6,
+          "8": 4,
+          "9": 9,
+          "10": 1,
+          "11": 2,
+          "12": 2,
+          "14": 1,
+          "16": 1
+        },
+        "uniquenessRatio": 0.08235294117647059
+      }
+    },
+    "selectors": {
+      "total": 222,
+      "totalUnique": 189,
+      "uniquenessRatio": 0.8513513513513513,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          191,
+          71
+        ],
+        "mean": [
+          0,
+          0.8603603603603603,
+          0.31981981981981983
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 222,
+        "totalUnique": 7,
+        "unique": {
+          "0,0,1": 47,
+          "0,1,1": 16,
+          "0,1,0": 144,
+          "0,0,2": 2,
+          "0,2,0": 8,
+          "0,3,0": 1,
+          "0,3,1": 4
+        },
+        "uniquenessRatio": 0.03153153153153153
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.3558558558558558,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 301,
+        "total": 222,
+        "totalUnique": 6,
+        "unique": {
+          "1": 184,
+          "2": 20,
+          "3": 4,
+          "4": 9,
+          "5": 1,
+          "6": 4
+        },
+        "uniquenessRatio": 0.02702702702702703,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          2,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          6,
+          6,
+          6,
+          6,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          ".header__menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 2,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.02702702702702703
+      },
+      "keyframes": {
+        "total": 4,
+        "totalUnique": 2,
+        "unique": {
+          "0%": 2,
+          "to": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "prefixed": {
+        "total": 12,
+        "totalUnique": 12,
+        "unique": {
+          "[type=button]::-moz-focus-inner": 1,
+          "[type=reset]::-moz-focus-inner": 1,
+          "[type=submit]::-moz-focus-inner": 1,
+          "button::-moz-focus-inner": 1,
+          "[type=button]:-moz-focusring": 1,
+          "[type=reset]:-moz-focusring": 1,
+          "[type=submit]:-moz-focusring": 1,
+          "button:-moz-focusring": 1,
+          "[type=number]::-webkit-inner-spin-button": 1,
+          "[type=number]::-webkit-outer-spin-button": 1,
+          "[type=search]::-webkit-search-decoration": 1,
+          "::-webkit-file-upload-button": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.05405405405405406
+      },
+      "combinators": {
+        "total": 6,
+        "totalUnique": 1,
+        "unique": {
+          " ": 6
+        },
+        "uniquenessRatio": 0.16666666666666666
+      }
+    },
+    "declarations": {
+      "total": 575,
+      "totalUnique": 272,
+      "uniquenessRatio": 0.47304347826086957,
+      "unique": {
+        "total": 272,
+        "ratio": 0.47304347826086957
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 575
+      }
+    },
+    "properties": {
+      "total": 575,
+      "totalUnique": 70,
+      "unique": {
+        "line-height": 17,
+        "-webkit-text-size-adjust": 1,
+        "display": 30,
+        "font-size": 44,
+        "margin": 19,
+        "box-sizing": 5,
+        "height": 19,
+        "overflow": 6,
+        "font-family": 15,
+        "background-color": 19,
+        "border-bottom": 2,
+        "text-decoration": 7,
+        "font-weight": 15,
+        "position": 12,
+        "vertical-align": 3,
+        "bottom": 3,
+        "top": 7,
+        "border-style": 2,
+        "text-transform": 5,
+        "-webkit-appearance": 4,
+        "padding": 30,
+        "outline": 1,
+        "color": 26,
+        "max-width": 4,
+        "white-space": 1,
+        "outline-offset": 1,
+        "font": 1,
+        "letter-spacing": 14,
+        "margin-top": 13,
+        "text-align": 20,
+        "font-style": 10,
+        "flex-shrink": 2,
+        "width": 25,
+        "background": 5,
+        "padding-bottom": 5,
+        "margin-bottom": 37,
+        "padding-left": 5,
+        "padding-right": 3,
+        "align-items": 7,
+        "border": 14,
+        "border-radius": 21,
+        "cursor": 10,
+        "margin-left": 7,
+        "box-shadow": 2,
+        "list-style": 4,
+        "gap": 6,
+        "margin-right": 6,
+        "overflow-x": 1,
+        "scroll-behavior": 1,
+        "scroll-snap-type": 1,
+        "flex": 1,
+        "scroll-snap-align": 1,
+        "justify-content": 8,
+        "transform": 11,
+        "opacity": 7,
+        "transition": 4,
+        "animation": 2,
+        "place-content": 1,
+        "right": 3,
+        "padding-top": 1,
+        "flex-direction": 4,
+        "min-height": 1,
+        "left": 3,
+        "z-index": 3,
+        "inset": 1,
+        "visibility": 2,
+        "content": 1,
+        "list-style-type": 1,
+        "--ReggaeOne": 1,
+        "--MPLUSRounded1c": 1
+      },
+      "uniquenessRatio": 0.12173913043478261,
+      "prefixed": {
+        "total": 5,
+        "totalUnique": 2,
+        "unique": {
+          "-webkit-text-size-adjust": 1,
+          "-webkit-appearance": 4
+        },
+        "uniquenessRatio": 0.4,
+        "ratio": 0.008695652173913044
+      },
+      "custom": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "--ReggaeOne": 1,
+          "--MPLUSRounded1c": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.0034782608695652175,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0121739130434784,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 582
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 52,
+        "totalUnique": 16,
+        "unique": {
+          "transparent": 1,
+          "ButtonText": 1,
+          "#ffe4e1": 3,
+          "#000": 9,
+          "#b22222": 3,
+          "#fff": 17,
+          "rgba(0,0,0,.1)": 1,
+          "#333": 1,
+          "#d9534f": 3,
+          "#c9302c": 1,
+          "#777": 2,
+          "#deb887": 1,
+          "#ccc": 2,
+          "#b30000": 4,
+          "#f08080": 2,
+          "rgba(0,0,0,.2)": 1
+        },
+        "uniquenessRatio": 0.3076923076923077,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 19,
+            "totalUnique": 10,
+            "unique": {
+              "transparent": 1,
+              "#ffe4e1": 3,
+              "#b22222": 2,
+              "#fff": 2,
+              "#d9534f": 3,
+              "#c9302c": 1,
+              "#777": 1,
+              "#deb887": 1,
+              "#b30000": 4,
+              "#f08080": 1
+            },
+            "uniquenessRatio": 0.5263157894736842
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "ButtonText": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 22,
+            "totalUnique": 3,
+            "unique": {
+              "#000": 9,
+              "#fff": 12,
+              "#333": 1
+            },
+            "uniquenessRatio": 0.13636363636363635
+          },
+          "background": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "#b22222": 1,
+              "#f08080": 1,
+              "#fff": 2
+            },
+            "uniquenessRatio": 0.75
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "rgba(0,0,0,.1)": 1,
+              "rgba(0,0,0,.2)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "#777": 1,
+              "#fff": 1,
+              "#ccc": 2
+            },
+            "uniquenessRatio": 0.75
+          }
+        },
+        "formats": {
+          "total": 52,
+          "totalUnique": 5,
+          "unique": {
+            "transparent": 1,
+            "system": 1,
+            "hex6": 17,
+            "hex3": 31,
+            "rgba": 2
+          },
+          "uniquenessRatio": 0.09615384615384616
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 14,
+        "totalUnique": 6,
+        "unique": {
+          "monospace,monospace": 2,
+          "var(--MPLUSRounded1c)": 1,
+          "Reggae One": 2,
+          "Rounded Mplus\\ 1c": 6,
+          "Rounded Mplus\\ 1c Bold": 1,
+          "Raleway": 2
+        },
+        "uniquenessRatio": 0.42857142857142855
+      },
+      "fontSizes": {
+        "total": 44,
+        "totalUnique": 16,
+        "unique": {
+          "2em": 3,
+          "1em": 5,
+          "80%": 1,
+          "75%": 1,
+          "100%": 1,
+          "13px": 6,
+          "24px": 8,
+          "17px": 3,
+          "11px": 2,
+          "18px": 3,
+          "1.2rem": 2,
+          "14px": 2,
+          "16px": 2,
+          "1.2em": 1,
+          "1.5em": 3,
+          "var(--fs-s)": 1
+        },
+        "uniquenessRatio": 0.36363636363636365
+      },
+      "lineHeights": {
+        "total": 17,
+        "totalUnique": 6,
+        "unique": {
+          "0": 1,
+          "1.15": 2,
+          "normal": 11,
+          "40px": 1,
+          "132%": 1,
+          "1.5": 1
+        },
+        "uniquenessRatio": 0.35294117647058826
+      },
+      "zindexes": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "1": 1,
+          "10": 1,
+          "1000": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "0 0 10px rgba(0,0,0,.1)": 1,
+          "0 2px 5px rgba(0,0,0,.2)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 21,
+        "totalUnique": 8,
+        "unique": {
+          "8px": 6,
+          "5px": 7,
+          "10px": 3,
+          "30px": 1,
+          "25px": 1,
+          "50%": 1,
+          "4px": 1,
+          "2px": 1
+        },
+        "uniquenessRatio": 0.38095238095238093,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 21,
+            "totalUnique": 8,
+            "unique": {
+              "8px": 6,
+              "5px": 7,
+              "10px": 3,
+              "30px": 1,
+              "25px": 1,
+              "50%": 1,
+              "4px": 1,
+              "2px": 1
+            },
+            "uniquenessRatio": 0.38095238095238093
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 7,
+          "totalUnique": 2,
+          "unique": {
+            ".3s": 6,
+            ".4s": 1
+          },
+          "uniquenessRatio": 0.2857142857142857
+        },
+        "timingFunctions": {
+          "total": 7,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 5,
+            "ease-in-out": 2
+          },
+          "uniquenessRatio": 0.2857142857142857
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 258,
+        "totalUnique": 7,
+        "unique": {
+          "em": 20,
+          "px": 225,
+          "turn": 1,
+          "rem": 2,
+          "s": 7,
+          "vw": 1,
+          "deg": 2
+        },
+        "uniquenessRatio": 0.027131782945736434,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 40,
+            "totalUnique": 3,
+            "unique": {
+              "em": 12,
+              "px": 26,
+              "rem": 2
+            },
+            "uniquenessRatio": 0.075
+          },
+          "margin": {
+            "total": 15,
+            "totalUnique": 2,
+            "unique": {
+              "em": 3,
+              "px": 12
+            },
+            "uniquenessRatio": 0.13333333333333333
+          },
+          "bottom": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "em": 1,
+              "px": 2
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "top": {
+            "total": 5,
+            "totalUnique": 2,
+            "unique": {
+              "em": 1,
+              "px": 4
+            },
+            "uniquenessRatio": 0.4
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 31,
+            "totalUnique": 2,
+            "unique": {
+              "em": 3,
+              "px": 28
+            },
+            "uniquenessRatio": 0.06451612903225806
+          },
+          "outline-offset": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "letter-spacing": {
+            "total": 14,
+            "totalUnique": 1,
+            "unique": {
+              "px": 14
+            },
+            "uniquenessRatio": 0.07142857142857142
+          },
+          "margin-top": {
+            "total": 13,
+            "totalUnique": 1,
+            "unique": {
+              "px": 13
+            },
+            "uniquenessRatio": 0.07692307692307693
+          },
+          "height": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "width": {
+            "total": 15,
+            "totalUnique": 1,
+            "unique": {
+              "px": 15
+            },
+            "uniquenessRatio": 0.06666666666666667
+          },
+          "padding-bottom": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "margin-bottom": {
+            "total": 36,
+            "totalUnique": 1,
+            "unique": {
+              "px": 36
+            },
+            "uniquenessRatio": 0.027777777777777776
+          },
+          "padding-left": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "padding-right": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "border-radius": {
+            "total": 20,
+            "totalUnique": 1,
+            "unique": {
+              "px": 20
+            },
+            "uniquenessRatio": 0.05
+          },
+          "margin-left": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "box-shadow": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "gap": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "margin-right": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "border": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "transform": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "turn": 1,
+              "vw": 1,
+              "deg": 2
+            },
+            "uniquenessRatio": 0.75
+          },
+          "max-width": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transition": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "s": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "animation": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "line-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "right": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "min-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 577
+      },
+      "keywords": {
+        "total": 47,
+        "totalUnique": 3,
+        "unique": {
+          "none": 23,
+          "inherit": 3,
+          "auto": 21
+        },
+        "uniquenessRatio": 0.06382978723404255
+      }
+    },
+    "__meta__": {
+      "parseTime": 4,
+      "analyzeTime": 5,
+      "total": 9
+    }
+  }
+}
