@@ -3,31 +3,93 @@
     {
       "file": "http://127.0.0.1:5500/",
       "title": "Cinémagny",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "icone croix"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagnes_p1.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "imageFilmParasite"
+        },
+        {
+          "src": "assets/img/pupille_affiche.webp",
+          "alt": "imageFilmPupille"
+        },
+        {
+          "src": "assets/img/the_neighbors_window-affiche.png",
+          "alt": "imageFilmTnw"
+        },
+        {
+          "src": "/assets/icon/icon-flèche_gauche.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icon/icon-fleche_droit.svg",
+          "alt": "icon flèche droite"
+        },
+        {
+          "src": "/assets/icon/icon-ufc.png",
+          "alt": "icon-itu"
+        },
+        {
+          "src": "/assets/icon/icon-MMI_montbéliard.png",
+          "alt": "icon-mmi"
+        },
+        {
+          "src": "/assets/icon/logo_departement_vosges_2016.svg.png",
+          "alt": "icon-vosges"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 157,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 5,
-        "header": 5,
-        "div": 23,
-        "button": 4,
-        "img": 21,
-        "a": 35,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "h3": 6,
-        "p": 14,
-        "h2": 4,
-        "footer": 1
-      },
       "externalLinks": 9,
       "internalLinks": 23,
       "deadLinks": 3,
@@ -42,52 +104,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h3",
-          "text": "12 au 16 novembre 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Les Film à la Une"
-        },
-        {
-          "tag": "h2",
-          "text": "Formules & Tarifs"
-        },
-        {
-          "tag": "h3",
-          "text": "1 Jour - Immersion Express"
-        },
-        {
-          "tag": "h3",
-          "text": "2 Jours - Expérience Cinéphile"
-        },
-        {
-          "tag": "h3",
-          "text": "3 Jours - Séjour Cinématographique"
-        },
-        {
-          "tag": "h3",
-          "text": "4 Jours - Pass Festival Complet"
-        },
-        {
-          "tag": "h3",
-          "text": "5 Jours - Immersion Totale"
-        },
-        {
-          "tag": "h2",
-          "text": "Notre Engagement Écoresponsable"
-        },
-        {
-          "tag": "h2",
-          "text": "Nos Partenaires"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -172,7 +188,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.71,
+        "performance": 0.84,
         "accessibility": 0.94,
         "bestPractices": 0.96,
         "seo": 0.82,
@@ -443,31 +459,85 @@
     {
       "file": "http://127.0.0.1:5500/festival.html",
       "title": "Festival",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagnes_p2.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-montain.svg",
+          "alt": "icon petites motagnes"
+        },
+        {
+          "src": "/assets/icon/icon-planet.svg",
+          "alt": "icon planète"
+        },
+        {
+          "src": "/assets/img//img-equipe_moi.webp",
+          "alt": "image d'une personne de l'équipe"
+        },
+        {
+          "src": "/assets/img/img-equipe_1.webp",
+          "alt": "image d'une personne de l'équipe"
+        },
+        {
+          "src": "/assets/img/img-equipe_2.webp",
+          "alt": "image d'une personne de l'équipe"
+        },
+        {
+          "src": "/assets/img/img-equipe_3.webp",
+          "alt": "image d'une personne de l'équipe"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 124,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 3,
-        "header": 3,
-        "div": 13,
-        "button": 2,
-        "img": 19,
-        "a": 20,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "h3": 5,
-        "p": 17,
-        "h2": 2,
-        "footer": 1
-      },
       "externalLinks": 6,
       "internalLinks": 11,
       "deadLinks": 3,
@@ -482,40 +552,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "12 au 16 novembre 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Le Rendez-vous dans les Vosges"
-        },
-        {
-          "tag": "h2",
-          "text": "Notre Équipe"
-        },
-        {
-          "tag": "h3",
-          "text": "Andréa Mestre"
-        },
-        {
-          "tag": "h3",
-          "text": "Cyril Gane"
-        },
-        {
-          "tag": "h3",
-          "text": "Cédric Johns"
-        },
-        {
-          "tag": "h3",
-          "text": "Manon Fiori"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -840,31 +876,189 @@
     {
       "file": "http://127.0.0.1:5500/programme.html",
       "title": "Programme",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagnes_p3.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-camera.svg",
+          "alt": "icon caméra"
+        },
+        {
+          "src": "/assets/img/honeyland-affiche.webp",
+          "alt": "affiche honeyland"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "affiche Parasite"
+        },
+        {
+          "src": "/assets/img/gardiennes-affiche.jpg",
+          "alt": "Affiche les gardiennes"
+        },
+        {
+          "src": "/assets/img/ma_loute-film.png",
+          "alt": "Affiche Ma loute"
+        },
+        {
+          "src": "/assets/img/pupille_affiche.webp",
+          "alt": "Affiche Pupille"
+        },
+        {
+          "src": "/assets/img/your_name-affiche.jpg",
+          "alt": "Affiche Your name"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "imageFilmParasite"
+        },
+        {
+          "src": "assets/img/pupille_affiche.webp",
+          "alt": "imageFilmPupille"
+        },
+        {
+          "src": "assets/img/the_neighbors_window-affiche.png",
+          "alt": "imageFilmTnw"
+        },
+        {
+          "src": "/assets/icon/icon-flèche_gauche.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icon/icon-fleche_droit.svg",
+          "alt": "icon flèche droite"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "imageFilmParasite"
+        },
+        {
+          "src": "assets/img/pupille_affiche.webp",
+          "alt": "imageFilmPupille"
+        },
+        {
+          "src": "assets/img/the_neighbors_window-affiche.png",
+          "alt": "imageFilmTnw"
+        },
+        {
+          "src": "/assets/icon/icon-flèche_gauche.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icon/icon-fleche_droit.svg",
+          "alt": "icon flèche droite"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "imageFilmParasite"
+        },
+        {
+          "src": "assets/img/pupille_affiche.webp",
+          "alt": "imageFilmPupille"
+        },
+        {
+          "src": "assets/img/the_neighbors_window-affiche.png",
+          "alt": "imageFilmTnw"
+        },
+        {
+          "src": "/assets/icon/icon-flèche_gauche.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icon/icon-fleche_droit.svg",
+          "alt": "icon flèche droite"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "imageFilmParasite"
+        },
+        {
+          "src": "assets/img/pupille_affiche.webp",
+          "alt": "imageFilmPupille"
+        },
+        {
+          "src": "assets/img/the_neighbors_window-affiche.png",
+          "alt": "imageFilmTnw"
+        },
+        {
+          "src": "/assets/icon/icon-flèche_gauche.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icon/icon-fleche_droit.svg",
+          "alt": "icon flèche droite"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "imageFilmParasite"
+        },
+        {
+          "src": "assets/img/pupille_affiche.webp",
+          "alt": "imageFilmPupille"
+        },
+        {
+          "src": "assets/img/the_neighbors_window-affiche.png",
+          "alt": "imageFilmTnw"
+        },
+        {
+          "src": "/assets/icon/icon-flèche_gauche.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icon/icon-fleche_droit.svg",
+          "alt": "icon flèche droite"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 204,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 7,
-        "header": 7,
-        "div": 24,
-        "button": 2,
-        "img": 45,
-        "a": 52,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "p": 10,
-        "h2": 11,
-        "h4": 6,
-        "footer": 1
-      },
       "externalLinks": 6,
       "internalLinks": 42,
       "deadLinks": 4,
@@ -879,80 +1073,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Programme"
-        },
-        {
-          "tag": "h2",
-          "text": "Liste des Films"
-        },
-        {
-          "tag": "h4",
-          "text": "Honeyland"
-        },
-        {
-          "tag": "h4",
-          "text": "Parasite"
-        },
-        {
-          "tag": "h4",
-          "text": "Les gardiennes"
-        },
-        {
-          "tag": "h4",
-          "text": "Ma Loute"
-        },
-        {
-          "tag": "h4",
-          "text": "Pupille"
-        },
-        {
-          "tag": "h4",
-          "text": "Your name"
-        },
-        {
-          "tag": "h2",
-          "text": "Jour 1"
-        },
-        {
-          "tag": "h2",
-          "text": "Lundi 12 novembre"
-        },
-        {
-          "tag": "h2",
-          "text": "Jour 1"
-        },
-        {
-          "tag": "h2",
-          "text": "Lundi 12 novembre"
-        },
-        {
-          "tag": "h2",
-          "text": "Jour 1"
-        },
-        {
-          "tag": "h2",
-          "text": "Lundi 12 novembre"
-        },
-        {
-          "tag": "h2",
-          "text": "Jour 1"
-        },
-        {
-          "tag": "h2",
-          "text": "Lundi 12 novembre"
-        },
-        {
-          "tag": "h2",
-          "text": "Jour 1"
-        },
-        {
-          "tag": "h2",
-          "text": "Lundi 12 novembre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1082,7 +1202,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.78,
         "accessibility": 0.94,
         "bestPractices": 0.96,
         "seo": 0.82,
@@ -1365,31 +1485,77 @@
     {
       "file": "http://127.0.0.1:5500/rencontre.html",
       "title": "Rencontre",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagne_p4.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-clap.svg",
+          "alt": "icon caméra"
+        },
+        {
+          "src": "/assets/img/xavier_beauvois-realisateur.webp",
+          "alt": "image réalisateur "
+        },
+        {
+          "src": "/assets/img/yves_robert-realisateur.webp",
+          "alt": "image réalisateur "
+        },
+        {
+          "src": "/assets/img/jeanne_herry-realisatrice.jpg",
+          "alt": "image réalisateur "
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 111,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 2,
-        "header": 1,
-        "div": 10,
-        "button": 2,
-        "img": 17,
-        "a": 22,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "p": 13,
-        "article": 3,
-        "h2": 1,
-        "footer": 1
-      },
       "externalLinks": 6,
       "internalLinks": 13,
       "deadLinks": 3,
@@ -1404,16 +1570,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Rencontre"
-        },
-        {
-          "tag": "h2",
-          "text": "Le réalisateur"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1443,7 +1599,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.83,
+        "performance": 0.79,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.82,
@@ -1696,31 +1852,65 @@
     {
       "file": "http://127.0.0.1:5500/billetterie.html",
       "title": "Billetterie",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagnes_p2.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-tickets.svg",
+          "alt": "icon tickets"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 142,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 2,
-        "header": 2,
-        "div": 22,
-        "button": 2,
-        "img": 14,
-        "a": 25,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "p": 29,
-        "h2": 1,
-        "h3": 5,
-        "footer": 1
-      },
       "externalLinks": 6,
       "internalLinks": 11,
       "deadLinks": 8,
@@ -1735,36 +1925,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Billetterie"
-        },
-        {
-          "tag": "h2",
-          "text": "Formules & Tarifs"
-        },
-        {
-          "tag": "h3",
-          "text": "1 Jour - Immersion Express"
-        },
-        {
-          "tag": "h3",
-          "text": "2 Jours - Expérience Cinéphile"
-        },
-        {
-          "tag": "h3",
-          "text": "3 Jours - Séjour Cinématographique"
-        },
-        {
-          "tag": "h3",
-          "text": "4 Jours - Pass Festival Complet"
-        },
-        {
-          "tag": "h3",
-          "text": "5 Jours - Immersion Totale"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1814,7 +1974,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.7,
+        "performance": 0.89,
         "accessibility": 1,
         "bestPractices": 0.96,
         "seo": 0.82,
@@ -2049,30 +2209,65 @@
     {
       "file": "http://127.0.0.1:5500/ecoresponsabilite.html",
       "title": "Infos Pratiques",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagnes_p2.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-planet.svg",
+          "alt": "icon petites motagnes"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 107,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 4,
-        "header": 4,
-        "div": 7,
-        "button": 2,
-        "img": 14,
-        "a": 20,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "p": 13,
-        "h2": 3,
-        "footer": 1
-      },
       "externalLinks": 6,
       "internalLinks": 11,
       "deadLinks": 3,
@@ -2087,24 +2282,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Éco-resposabilité"
-        },
-        {
-          "tag": "h2",
-          "text": "Réduction des Déchets"
-        },
-        {
-          "tag": "h2",
-          "text": "Réduction des Déchets"
-        },
-        {
-          "tag": "h2",
-          "text": "Sensibilisation à l'écologie"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2149,7 +2326,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.85,
+        "performance": 0.91,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.82,
@@ -2378,30 +2555,69 @@
     {
       "file": "http://127.0.0.1:5500/infospratique.html",
       "title": "Infos Pratiques",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagnes_p5.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-location.svg",
+          "alt": "icon petites motagnes"
+        },
+        {
+          "src": "/assets/img/carte-infos.webp",
+          "alt": "crate du lieu"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 102,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 4,
-        "header": 4,
-        "div": 6,
-        "button": 2,
-        "img": 15,
-        "a": 21,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "h2": 3,
-        "p": 7,
-        "footer": 1
-      },
       "externalLinks": 7,
       "internalLinks": 11,
       "deadLinks": 3,
@@ -2416,24 +2632,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Infos Pratiques"
-        },
-        {
-          "tag": "h2",
-          "text": "Optez pour le Covoiturage !"
-        },
-        {
-          "tag": "h2",
-          "text": "Prenez les Transports en Commun"
-        },
-        {
-          "tag": "h2",
-          "text": "Venez au Festival à Vélo !"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2713,33 +2911,85 @@
     {
       "file": "http://127.0.0.1:5500/contact.html",
       "title": "Cinémagny",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/img-montagne_p4.avif",
+          "alt": "montagne"
+        },
+        {
+          "src": "/assets/icon/icon-line-white.svg",
+          "alt": "ligne blache"
+        },
+        {
+          "src": "/assets/icon/icon-location.svg",
+          "alt": "icon localisation"
+        },
+        {
+          "src": "/assets/icon/icon-phone.svg",
+          "alt": "icon téléphone"
+        },
+        {
+          "src": "/assets/icon/icon-mail.svg",
+          "alt": "icon mail"
+        },
+        {
+          "src": "/assets/icon/icon-instagramnoir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebooknoir.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "assets/icon/icon-twitternoir.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 111,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 1,
-        "header": 1,
-        "div": 10,
-        "button": 3,
-        "img": 19,
-        "a": 24,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "h1": 1,
-        "p": 4,
-        "form": 1,
-        "label": 4,
-        "input": 3,
-        "textarea": 1,
-        "footer": 1
-      },
       "externalLinks": 7,
       "internalLinks": 11,
       "deadLinks": 6,
@@ -2754,12 +3004,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Contact"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2774,7 +3018,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.87,
+        "performance": 0.92,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.82,
@@ -3033,33 +3277,61 @@
     {
       "file": "http://127.0.0.1:5500/templatefilm.html",
       "title": "Parasite",
+      "images": [
+        {
+          "src": "/assets/icon/icon-menu.svg",
+          "alt": "iconMenu"
+        },
+        {
+          "src": "/assets/icon/logo-festival_cinemagny.svg",
+          "alt": "logoFestival"
+        },
+        {
+          "src": "/assets/icon/icon-magasin.svg",
+          "alt": "panier"
+        },
+        {
+          "src": "/assets/icon/icon-croix.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon instagram"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon twitter"
+        },
+        {
+          "src": "/assets/img/parasite_affiche.png",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/bong-joon-ho-realisateur.jpg",
+          "alt": "image réalisateur Parasite"
+        },
+        {
+          "src": "/assets/icon/icon-instagram.svg",
+          "alt": "icon-intagram"
+        },
+        {
+          "src": "/assets/icon/icon-facebook.svg",
+          "alt": "icon-facebook"
+        },
+        {
+          "src": "/assets/icon/icon-twitter.svg",
+          "alt": "icon-twitter"
+        },
+        {
+          "src": "/assets/img/white_montains.svg",
+          "alt": "montagne design"
+        }
+      ],
       "totalTags": 98,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "main": 1,
-        "section": 1,
-        "header": 1,
-        "div": 6,
-        "button": 2,
-        "img": 13,
-        "a": 20,
-        "nav": 1,
-        "ul": 4,
-        "li": 18,
-        "article": 2,
-        "h2": 2,
-        "p": 9,
-        "time": 1,
-        "video": 1,
-        "source": 1,
-        "footer": 1
-      },
       "externalLinks": 6,
       "internalLinks": 11,
       "deadLinks": 3,
@@ -3074,16 +3346,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Parasite"
-        },
-        {
-          "tag": "h2",
-          "text": "Le réalisateur"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3195,7 +3457,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/assets/vid%C3%A9o/PARASITE-bandeannonceofficielle.mp4",
-            "resourceSize": 134772,
+            "resourceSize": 69236,
             "mimeType": "video/mp4",
             "resourceType": "Media"
           },
@@ -3304,6 +3566,12 @@
           {
             "url": "http://127.0.0.1:5500/assets/vid%C3%A9o/PARASITE-bandeannonceofficielle.mp4",
             "resourceSize": 109859,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/vid%C3%A9o/PARASITE-bandeannonceofficielle.mp4",
+            "resourceSize": 196608,
             "mimeType": "video/mp4",
             "resourceType": "Media"
           },
@@ -5767,9 +6035,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 7,
-      "analyzeTime": 10,
-      "total": 17
+      "parseTime": 3,
+      "analyzeTime": 4,
+      "total": 7
     }
   }
 }

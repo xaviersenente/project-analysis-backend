@@ -3,33 +3,185 @@
     {
       "file": "http://127.0.0.1:5501/",
       "title": "Cinémagny",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/icons/buy.svg",
+          "alt": "Icône achat"
+        },
+        {
+          "src": "assets/icons/buy.svg",
+          "alt": "Icône achat"
+        },
+        {
+          "src": "assets/icons/buy.svg",
+          "alt": "Icône achat"
+        },
+        {
+          "src": "assets/icons/ticket.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/livre.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/img/le_voyage_de_chiiro.png",
+          "alt": "Image d'illustration du film le voyage de chihiro"
+        },
+        {
+          "src": "assets/img/fool_time_job.png",
+          "alt": "Image d'illustration du film fool time job"
+        },
+        {
+          "src": "assets/img/letrange_noel_de_monsieur_jack.png",
+          "alt": "Image d'illustration du film l'étrange noël de monsieur jack"
+        },
+        {
+          "src": "assets/img/festival_1_card.png",
+          "alt": "Image d'illustration du festivam"
+        },
+        {
+          "src": "assets/img/un_homme_en_colere.png",
+          "alt": "Image d'illustration du film un homme en colère"
+        },
+        {
+          "src": "assets/img/hypnotic.png",
+          "alt": "Image d'illustration du film hypnotic"
+        },
+        {
+          "src": "assets/img/rebel_ridge.png",
+          "alt": "Image d'illustration du film rebel ridge"
+        },
+        {
+          "src": "assets/img/the_dark_knight.png",
+          "alt": "Image d'illustration du film the dark knight"
+        },
+        {
+          "src": "assets/img/interstellar.png",
+          "alt": "Image d'illustration du film interstellar"
+        },
+        {
+          "src": "assets/img/2001.png",
+          "alt": "Image d'illustration du film 2001, l'odysée de l'espace"
+        },
+        {
+          "src": "assets/img/seul_sur_mars.png",
+          "alt": "Image d'illustration du film seul sur mars"
+        },
+        {
+          "src": "assets/img/festival_dehors_1.png",
+          "alt": "Image d'illustration du festivval"
+        },
+        {
+          "src": "assets/img/le_dine_de_con.png",
+          "alt": "Image d'illustration du film le dîner de con"
+        },
+        {
+          "src": "assets/img/astérix_et_obélix.png",
+          "alt": "Image d'illustration du film astérix et obélix : mission cléopatre"
+        },
+        {
+          "src": "assets/img/un_ptit_truc_en_plus.png",
+          "alt": "Image d'illustration du film un p'tit truc en plus"
+        },
+        {
+          "src": "assets/img/oss117.png",
+          "alt": "Image d'illustration du film oss 117"
+        },
+        {
+          "src": "assets/img/sully.png",
+          "alt": "Image d'illustration du film sully"
+        },
+        {
+          "src": "assets/img/12_homme_en_colere.png",
+          "alt": "Image d'illustration du film 12 homme en colère"
+        },
+        {
+          "src": "assets/img/shutter_island.png",
+          "alt": "Image d'illustration du film shutter island"
+        },
+        {
+          "src": "assets/img/festival_2_card.png",
+          "alt": "Image d'illustration de la fête de fin de festival "
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "Flèche gauche"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "Flèche droite"
+        },
+        {
+          "src": "assets/icons/calendrier.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/img/gilles_cuvelier.png",
+          "alt": "Photo de profile de Gille Cuvelier"
+        },
+        {
+          "src": "assets/img/anais_orsi.png",
+          "alt": "Photo de profile de Aniïs Orsi"
+        },
+        {
+          "src": "assets/icons/profile.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 169,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 25,
-        "a": 23,
-        "img": 44,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 16,
-        "h1": 1,
-        "section": 1,
-        "article": 4,
-        "h2": 4,
-        "h3": 16,
-        "p": 6,
-        "strong": 2,
-        "footer": 1,
-        "script": 3
-      },
       "externalLinks": 0,
       "internalLinks": 14,
       "deadLinks": 9,
@@ -44,92 +196,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Billeterie"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 3 premiers jours"
-        },
-        {
-          "tag": "h3",
-          "text": "25€"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 3 derniers jours"
-        },
-        {
-          "tag": "h3",
-          "text": "28€"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 5 jours"
-        },
-        {
-          "tag": "h3",
-          "text": "45€"
-        },
-        {
-          "tag": "h2",
-          "text": "À Propos"
-        },
-        {
-          "tag": "h2",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h3",
-          "text": "Premier jour dédier à l'annimation"
-        },
-        {
-          "tag": "h3",
-          "text": "Deuxième jour dédier à l'annimation"
-        },
-        {
-          "tag": "h3",
-          "text": "Troisième jour dédier à l'annimation"
-        },
-        {
-          "tag": "h3",
-          "text": "Quatrième jour dédier à l'annimation"
-        },
-        {
-          "tag": "h3",
-          "text": "Dernier jour dédier à l'annimation"
-        },
-        {
-          "tag": "h2",
-          "text": "Partenaire"
-        },
-        {
-          "tag": "h3",
-          "text": "Gilles Cuvelier"
-        },
-        {
-          "tag": "h3",
-          "text": "Anaïs Orsi"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -264,7 +330,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.72,
+        "performance": 0.76,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -279,7 +345,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -548,6 +614,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 616,
             "mimeType": "text/css",
@@ -709,32 +781,89 @@
     {
       "file": "http://127.0.0.1:5501/a_propos.html",
       "title": "Cinémagny - À Propos",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/img/ciema.png",
+          "alt": "image de cinéma"
+        },
+        {
+          "src": "assets/img/festival_dehors_1.png",
+          "alt": "Image du festival"
+        },
+        {
+          "src": "assets/img/festival_dehors_2.png",
+          "alt": "Image du festival"
+        },
+        {
+          "src": "assets/img/chateaux_de_la_rosemontoise.png",
+          "alt": "Image du Châteaux de la Rosemontoise"
+        },
+        {
+          "src": "assets/img/espace_de_le_tuilerie.png",
+          "alt": "Image de l'escpace de la tuilerie"
+        },
+        {
+          "src": "assets/img/salle_de_conseil_municipal.png",
+          "alt": "Image de la salle du consiel municipal"
+        },
+        {
+          "src": "assets/img/espace_mazarin.png",
+          "alt": "Image de l'espace mazarin"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 105,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 11,
-        "a": 17,
-        "img": 20,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 16,
-        "h1": 1,
-        "section": 1,
-        "article": 1,
-        "h2": 1,
-        "p": 10,
-        "footer": 1,
-        "h3": 3,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 8,
       "deadLinks": 9,
@@ -749,28 +878,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Du 12 au 16 novembre"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -810,7 +917,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.81,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -825,7 +932,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -952,6 +1059,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1117,32 +1230,181 @@
     {
       "file": "http://127.0.0.1:5501/films.html",
       "title": "Cinémagny - Films",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/icons/filter.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône ajouter"
+        },
+        {
+          "src": "assets/img/le_voyage_de_chiiro.png",
+          "alt": "Imge d'illustration du film Le voyahe de chihiro"
+        },
+        {
+          "src": "assets/img/un_homme_en_colere.png",
+          "alt": "Imge d'illustration du film un homme en colère"
+        },
+        {
+          "src": "assets/img/sully.png",
+          "alt": "Imge d'illustration du film Sully"
+        },
+        {
+          "src": "assets/img/fool_time_job.png",
+          "alt": "Imge d'illustration du film fool time job"
+        },
+        {
+          "src": "assets/img/un_ptit_truc_en_plus.png",
+          "alt": "Imge d'illustration du film un p'tit truc en plus"
+        },
+        {
+          "src": "assets/img/12_homme_en_colere.png",
+          "alt": "Imge d'illustration du film 12 homme en colère"
+        },
+        {
+          "src": "assets/img/interstellar.png",
+          "alt": "Imge d'illustration du film interstellar"
+        },
+        {
+          "src": "assets/img/seul_sur_mars.png",
+          "alt": "Imge d'illustration du film seul sur mars"
+        },
+        {
+          "src": "assets/img/le_dine_de_con.png",
+          "alt": "Imge d'illustration du film le dîner de con"
+        },
+        {
+          "src": "assets/img/2001.png",
+          "alt": "Imge d'illustration du film 2001, l'odyssée de l'espace"
+        },
+        {
+          "src": "assets/img/astérix_et_obélix.png",
+          "alt": "Imge d'illustration du film astérix et obélix : mission cléopatre"
+        },
+        {
+          "src": "assets/img/oss117.png",
+          "alt": "Imge d'illustration du film oss 117"
+        },
+        {
+          "src": "assets/img/hypnotic.png",
+          "alt": "Imge d'illustration du film hypnotic"
+        },
+        {
+          "src": "assets/img/rebel_ridge.png",
+          "alt": "Imge d'illustration du film rebel ridge"
+        },
+        {
+          "src": "assets/img/shutter_island.png",
+          "alt": "Imge d'illustration du film shutter island"
+        },
+        {
+          "src": "assets/img/letrange_noel_de_monsieur_jack.png",
+          "alt": "Imge d'illustration du film l'étrange de monsieur jack"
+        },
+        {
+          "src": "assets/img/the_dark_knight.png",
+          "alt": "Imge d'illustration du film the dark knight"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 204,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 31,
-        "a": 34,
-        "img": 43,
-        "button": 2,
-        "span": 1,
-        "nav": 1,
-        "ul": 7,
-        "li": 28,
-        "h1": 1,
-        "section": 1,
-        "h2": 1,
-        "h3": 23,
-        "p": 12,
-        "article": 1,
-        "footer": 1,
-        "script": 3
-      },
       "externalLinks": 0,
       "internalLinks": 25,
       "deadLinks": 9,
@@ -1157,108 +1419,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Les films de cette année"
-        },
-        {
-          "tag": "h3",
-          "text": "Genre"
-        },
-        {
-          "tag": "h3",
-          "text": "Horraire"
-        },
-        {
-          "tag": "h3",
-          "text": "Lieux"
-        },
-        {
-          "tag": "h3",
-          "text": "Le voyage de Chihiro"
-        },
-        {
-          "tag": "h3",
-          "text": "Un homme en colère"
-        },
-        {
-          "tag": "h3",
-          "text": "Sull"
-        },
-        {
-          "tag": "h3",
-          "text": "(fool time) Job"
-        },
-        {
-          "tag": "h3",
-          "text": "Un p'tit truc en plus"
-        },
-        {
-          "tag": "h3",
-          "text": "12 hommes en colère"
-        },
-        {
-          "tag": "h3",
-          "text": "Interstellar"
-        },
-        {
-          "tag": "h3",
-          "text": "Seul sur Mars"
-        },
-        {
-          "tag": "h3",
-          "text": "Le dîner de con"
-        },
-        {
-          "tag": "h3",
-          "text": "2001, l'odyssée de l'espace"
-        },
-        {
-          "tag": "h3",
-          "text": "Astérix et Obélix : Mission Cléopatre"
-        },
-        {
-          "tag": "h3",
-          "text": "OSS 117"
-        },
-        {
-          "tag": "h3",
-          "text": "Hypnotic"
-        },
-        {
-          "tag": "h3",
-          "text": "Rebel Ridge"
-        },
-        {
-          "tag": "h3",
-          "text": "Shutter Island"
-        },
-        {
-          "tag": "h3",
-          "text": "L'étrange noël de monsieur jack"
-        },
-        {
-          "tag": "h3",
-          "text": "The Dark Knight"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1452,7 +1612,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1661,6 +1821,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 616,
             "mimeType": "text/css",
@@ -1822,33 +1988,237 @@
     {
       "file": "http://127.0.0.1:5501/programmation.html",
       "title": "Cinémagny - Programmation",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/icons/filter.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/icons/plus.svg",
+          "alt": "Icône d'ajout"
+        },
+        {
+          "src": "assets/img/le_voyage_de_chiiro.png",
+          "alt": "Image d'illustration du film Le voyage de Chihiro"
+        },
+        {
+          "src": "assets/img/fool_time_job.png",
+          "alt": "Image d'illustration du film (fool time) Job"
+        },
+        {
+          "src": "assets/img/letrange_noel_de_monsieur_jack.png",
+          "alt": "Image d'illustration du film L'étrange noël de monsieur Jack"
+        },
+        {
+          "src": "assets/img/festival_1_card.png",
+          "alt": "Image d'illustration de l'Interventions sur le climat"
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/img/un_homme_en_colere.png",
+          "alt": "Image d'illustration du film Un homme en colère"
+        },
+        {
+          "src": "assets/img/hypnotic.png",
+          "alt": "Image d'illustration du film Hypnotic"
+        },
+        {
+          "src": "assets/img/rebel_ridge.png",
+          "alt": "Image d'illustration du film Rebel Ridge"
+        },
+        {
+          "src": "assets/img/the_dark_knight.png",
+          "alt": "Image d'illustration du film The Dark Knight"
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/img/interstellar.png",
+          "alt": "Image d'illustration du film Interstellar"
+        },
+        {
+          "src": "assets/img/2001.png",
+          "alt": "Image d'illustration du film2001, l'odyssée de l'espace"
+        },
+        {
+          "src": "assets/img/seul_sur_mars.png",
+          "alt": "Image d'illustration du film seul dur mars"
+        },
+        {
+          "src": "assets/img/festival_1_card.png",
+          "alt": "Image d'illustration de l'Interventions sur le réchauffement climatique"
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/img/le_dine_de_con.png",
+          "alt": "Image d'illustration du film le dîner de con"
+        },
+        {
+          "src": "assets/img/astérix_et_obélix.png",
+          "alt": "Image d'illustration du film Astérix et Obélix : Mission Cléopatre"
+        },
+        {
+          "src": "assets/img/un_ptit_truc_en_plus.png",
+          "alt": "Image d'illustration du film un p'tit truc en plus"
+        },
+        {
+          "src": "assets/img/oss117.png",
+          "alt": "Image d'illustration du film Oss 117"
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/img/sully.png",
+          "alt": "Image d'illustration du film sully"
+        },
+        {
+          "src": "assets/img/12_homme_en_colere.png",
+          "alt": "Image d'illustration du film 12 homme en colère"
+        },
+        {
+          "src": "assets/img/shutter_island.png",
+          "alt": "Image d'illustration du film Shutter island"
+        },
+        {
+          "src": "assets/img/festival_2_card.png",
+          "alt": "Image d'illustration de la Fête de fin de festival"
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/fleche.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 314,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 74,
-        "a": 18,
-        "img": 57,
-        "button": 12,
-        "span": 6,
-        "nav": 1,
-        "ul": 7,
-        "li": 28,
-        "h1": 1,
-        "section": 1,
-        "h2": 1,
-        "h3": 31,
-        "p": 52,
-        "article": 1,
-        "br": 5,
-        "footer": 1,
-        "script": 4
-      },
       "externalLinks": 0,
       "internalLinks": 9,
       "deadLinks": 9,
@@ -1863,140 +2233,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "La programmation des films de cete année"
-        },
-        {
-          "tag": "h3",
-          "text": "Genre"
-        },
-        {
-          "tag": "h3",
-          "text": "Horraire"
-        },
-        {
-          "tag": "h3",
-          "text": "Lieux"
-        },
-        {
-          "tag": "h3",
-          "text": "Films d'annimation Jour 1"
-        },
-        {
-          "tag": "h3",
-          "text": "Le voyage de Chihiro"
-        },
-        {
-          "tag": "h3",
-          "text": "(fool time) Job"
-        },
-        {
-          "tag": "h3",
-          "text": "L'étrange noël de monsieur Jack"
-        },
-        {
-          "tag": "h3",
-          "text": "Interventions sur le climat"
-        },
-        {
-          "tag": "h3",
-          "text": "Films d'action Jour 2"
-        },
-        {
-          "tag": "h3",
-          "text": "Un homme en colère"
-        },
-        {
-          "tag": "h3",
-          "text": "Hypnotic"
-        },
-        {
-          "tag": "h3",
-          "text": "Rebel Ridge"
-        },
-        {
-          "tag": "h3",
-          "text": "The Dark Knight"
-        },
-        {
-          "tag": "h3",
-          "text": "Films sur l'espace Jour 3"
-        },
-        {
-          "tag": "h3",
-          "text": "Interstellar"
-        },
-        {
-          "tag": "h3",
-          "text": "2001, l'odyssée de l'espace"
-        },
-        {
-          "tag": "h3",
-          "text": "Seul sur Mars"
-        },
-        {
-          "tag": "h3",
-          "text": "Interventions sur le réchauffement climatique"
-        },
-        {
-          "tag": "h3",
-          "text": "Films humoristique Jour 4"
-        },
-        {
-          "tag": "h3",
-          "text": "Le dîner de con"
-        },
-        {
-          "tag": "h3",
-          "text": "Astérix et Obélix : Mission Cléopatre"
-        },
-        {
-          "tag": "h3",
-          "text": "Un p'tit truc en plus"
-        },
-        {
-          "tag": "h3",
-          "text": "OSS 117"
-        },
-        {
-          "tag": "h3",
-          "text": "Films sérieux Jour 5"
-        },
-        {
-          "tag": "h3",
-          "text": "Sully"
-        },
-        {
-          "tag": "h3",
-          "text": "12 hommes en colère"
-        },
-        {
-          "tag": "h3",
-          "text": "Shutter island"
-        },
-        {
-          "tag": "h3",
-          "text": "Fête de fin de festival"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2212,7 +2448,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2457,6 +2693,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 616,
             "mimeType": "text/css",
@@ -2618,32 +2860,77 @@
     {
       "file": "http://127.0.0.1:5501/invites.html",
       "title": "Cinémagny - Invités",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/img/gilles_cuvelier.png",
+          "alt": "Photo de Gilles Cuvelier"
+        },
+        {
+          "src": "assets/img/anais_orsi.png",
+          "alt": "Photo de Anaïs Orsi"
+        },
+        {
+          "src": "assets/img/francois_gemenne.png",
+          "alt": "Photo de François Gemenne"
+        },
+        {
+          "src": "assets/img/alexandre_gromes.png",
+          "alt": "Photo de Alexandre Gromes"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 104,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 11,
-        "a": 21,
-        "img": 17,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 16,
-        "h1": 1,
-        "section": 1,
-        "article": 1,
-        "h2": 1,
-        "h3": 7,
-        "p": 4,
-        "footer": 1,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 12,
       "deadLinks": 9,
@@ -2658,44 +2945,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Tout nos invités de cette année"
-        },
-        {
-          "tag": "h3",
-          "text": "Gilles Cuvelier"
-        },
-        {
-          "tag": "h3",
-          "text": "Anaïs Orsi"
-        },
-        {
-          "tag": "h3",
-          "text": "François Gemenne"
-        },
-        {
-          "tag": "h3",
-          "text": "Alexandre Gromes"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2755,7 +3004,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.86,
+        "performance": 0.89,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -2770,7 +3019,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2879,6 +3128,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3044,32 +3299,93 @@
     {
       "file": "http://127.0.0.1:5501/info_pratiques.html",
       "title": "Cinémagny - Infos Pratiques",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/icons/ticket.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/img/chateaux_de_la_rosemontoise.png",
+          "alt": "Image du chateaux de la rosemontoise"
+        },
+        {
+          "src": "assets/img/espace_de_le_tuilerie.png",
+          "alt": "Iage de l'espace de la tuileire"
+        },
+        {
+          "src": "assets/img/salle_de_conseil_municipal.png",
+          "alt": "Image de la salle du consiel municipale"
+        },
+        {
+          "src": "assets/img/espace_mazarin.png",
+          "alt": "Image de l'espace Marazin"
+        },
+        {
+          "src": "assets/icons/defilement_gauche.svg",
+          "alt": "Flèche gauche"
+        },
+        {
+          "src": "assets/icons/defilement_droite.svg",
+          "alt": "Flèche Droite"
+        },
+        {
+          "src": "assets/icons/mail.svg",
+          "alt": "Icône envoyer"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 136,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 16,
-        "a": 19,
-        "img": 21,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 5,
-        "li": 20,
-        "h1": 1,
-        "section": 1,
-        "article": 3,
-        "h2": 3,
-        "h3": 13,
-        "p": 11,
-        "footer": 1,
-        "script": 3
-      },
       "externalLinks": 0,
       "internalLinks": 10,
       "deadLinks": 9,
@@ -3084,76 +3400,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Tarifs"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 3 premiers jours"
-        },
-        {
-          "tag": "h3",
-          "text": "25€"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 3 derniers jours"
-        },
-        {
-          "tag": "h3",
-          "text": "28€"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 5 jours"
-        },
-        {
-          "tag": "h3",
-          "text": "45€"
-        },
-        {
-          "tag": "h2",
-          "text": "Lieux"
-        },
-        {
-          "tag": "h2",
-          "text": "FAQ"
-        },
-        {
-          "tag": "h3",
-          "text": "Quels types de films seront projetés lors du festival ?"
-        },
-        {
-          "tag": "h3",
-          "text": "Où se déroule le festival à Giromagny ?"
-        },
-        {
-          "tag": "h3",
-          "text": "Y a-t-il des activités en lien avec l'écologie pendant le festival ?"
-        },
-        {
-          "tag": "h3",
-          "text": "Comment puis-je acheter mes billets pour le festival ?"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3263,7 +3509,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.88,
+        "performance": 0.9,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3278,7 +3524,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3417,6 +3663,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3582,33 +3834,65 @@
     {
       "file": "http://127.0.0.1:5501/contact.html",
       "title": "Cinémagny - Contact",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/icons/send.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 97,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 6,
-        "a": 17,
-        "img": 14,
-        "button": 2,
-        "span": 1,
-        "nav": 1,
-        "ul": 5,
-        "li": 20,
-        "h1": 1,
-        "section": 1,
-        "form": 1,
-        "label": 4,
-        "input": 3,
-        "textarea": 1,
-        "footer": 1,
-        "h3": 3,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 8,
       "deadLinks": 9,
@@ -3623,24 +3907,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3686,7 +3952,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.94,
+        "performance": 0.93,
         "accessibility": 0.94,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3701,7 +3967,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3792,6 +4058,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3951,32 +4223,69 @@
     {
       "file": "http://127.0.0.1:5501/invite.html",
       "title": "Cinémagny - Anaïs Orsi",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/img/entete/anais_orsi_entete.png",
+          "alt": "Photo De Anaïs Orsi"
+        },
+        {
+          "src": "assets/icons/fleche.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 92,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 6,
-        "a": 18,
-        "img": 15,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 16,
-        "h1": 1,
-        "section": 1,
-        "article": 3,
-        "h2": 3,
-        "p": 2,
-        "footer": 1,
-        "h3": 3,
-        "script": 2
-      },
       "externalLinks": 1,
       "internalLinks": 8,
       "deadLinks": 9,
@@ -3991,36 +4300,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Anaïs Orsi"
-        },
-        {
-          "tag": "h2",
-          "text": "Biographie"
-        },
-        {
-          "tag": "h2",
-          "text": "Interventions"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -4095,7 +4374,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4192,6 +4471,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4351,34 +4636,73 @@
     {
       "file": "http://127.0.0.1:5501/film.html",
       "title": "Cinémagny - Le voyage de Chihiro",
+      "images": [
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/livre_blanc.svg",
+          "alt": "Icône livre"
+        },
+        {
+          "src": "assets/icons/billet_blanc.svg",
+          "alt": "Icône billet"
+        },
+        {
+          "src": "assets/icons/films_blanc.svg",
+          "alt": "Icône films"
+        },
+        {
+          "src": "assets/icons/clalendar_blanc.svg",
+          "alt": "Icône calendrier"
+        },
+        {
+          "src": "assets/icons/profile_blanc.svg",
+          "alt": "Icône profile"
+        },
+        {
+          "src": "assets/icons/about_blanc.svg",
+          "alt": "Icône information"
+        },
+        {
+          "src": "assets/icons/mail_blanc.svg",
+          "alt": "Icône contact"
+        },
+        {
+          "src": "assets/img/entete/le_voyage_de_chihiro_entete.png",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/fleche.svg",
+          "alt": "Icône de fleche"
+        },
+        {
+          "src": "assets/icons/fleche.svg",
+          "alt": "Icône de flèche"
+        },
+        {
+          "src": "assets/icons/logo/logo.svg",
+          "alt": "Logo de Cinémagny"
+        },
+        {
+          "src": "assets/icons/resau/svgexport-49.svg",
+          "alt": "Icône de Instagramme"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-facebook.svg",
+          "alt": "Icône de Facebook"
+        },
+        {
+          "src": "assets/icons/resau/ic_baseline-tiktok.svg",
+          "alt": "Icône de Tik Tok"
+        },
+        {
+          "src": "assets/icons/resau/mdi_youtube.svg",
+          "alt": "Icône de Youtube"
+        }
+      ],
       "totalTags": 110,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 3,
-        "link": 6,
-        "title": 1,
-        "body": 1,
-        "header": 1,
-        "div": 6,
-        "a": 19,
-        "img": 16,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 5,
-        "li": 20,
-        "h1": 1,
-        "section": 1,
-        "article": 5,
-        "h2": 5,
-        "p": 3,
-        "iframe": 1,
-        "strong": 4,
-        "footer": 1,
-        "h3": 3,
-        "script": 3
-      },
       "externalLinks": 2,
       "internalLinks": 8,
       "deadLinks": 9,
@@ -4393,44 +4717,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Cinémagny"
-        },
-        {
-          "tag": "h2",
-          "text": "Le voyage de Chihiro"
-        },
-        {
-          "tag": "h2",
-          "text": "Synopsis"
-        },
-        {
-          "tag": "h2",
-          "text": "Bande-annonce"
-        },
-        {
-          "tag": "h2",
-          "text": "Info"
-        },
-        {
-          "tag": "h2",
-          "text": "Biographie : Hayao Miyazaki"
-        },
-        {
-          "tag": "h3",
-          "text": "Menu"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous Suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -4537,7 +4823,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/styles.css",
-            "resourceSize": 937,
+            "resourceSize": 970,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4639,13 +4925,19 @@
           },
           {
             "url": "https://www.youtube.com/embed/5-cro68n7CE",
-            "resourceSize": 101819,
+            "resourceSize": 101526,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 41793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4830,13 +5122,13 @@
           },
           {
             "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
-            "resourceSize": 94177,
+            "resourceSize": 93457,
             "mimeType": "application/json+protobuf",
             "resourceType": "XHR"
           },
           {
-            "url": "https://www.google.com/js/th/8p-ZUt2O_r6IumY5TzUY2RZ4QvEtVfvf_MYYDjqPK3M.js",
-            "resourceSize": 54903,
+            "url": "https://www.google.com/js/th/ga5zxKXcpt3UeeH3-hk2EUAajHTFNllVLrJAQ_s-Fqc.js",
+            "resourceSize": 55286,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -4865,7 +5157,7 @@
             "resourceType": "XHR"
           },
           {
-            "url": "https://www.youtube.com/generate_204?yKckgA",
+            "url": "https://www.youtube.com/generate_204?OBrEZw",
             "resourceSize": 0,
             "mimeType": "text/plain",
             "resourceType": "Image"
@@ -4908,15 +5200,15 @@
           },
           {
             "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-            "resourceSize": 0,
-            "mimeType": "text/plain",
-            "resourceType": "Preflight"
-          },
-          {
-            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
             "resourceSize": 131,
             "mimeType": "text/plain",
             "resourceType": "XHR"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 0,
+            "mimeType": "text/plain",
+            "resourceType": "Preflight"
           },
           {
             "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
@@ -6831,9 +7123,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 3,
+      "parseTime": 2,
       "analyzeTime": 3,
-      "total": 6
+      "total": 5
     }
   }
 }

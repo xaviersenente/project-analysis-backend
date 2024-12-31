@@ -6,6 +6,28 @@ import { analyze } from "@projectwallace/css-analyzer";
 import path from "path";
 import fs from "fs/promises";
 
+axios.defaults.timeout = 5000; // Timeout de 5 secondes pour éviter les blocages
+
+/**
+ * Vérifie si un chemin correspond à normalize.css
+ * @param {string} importPath - Le chemin d'import CSS.
+ * @returns {boolean} - Retourne true si c'est normalize.css.
+ */
+const isNormalizeCSS = (importPath) => /normalize\.css$/i.test(importPath);
+
+/**
+ * Supprime les imports de normalize.css dans le CSS brut.
+ * @param {string} cssContent - Le contenu CSS initial.
+ * @returns {string} - Le contenu CSS sans les imports normalize.css.
+ */
+const removeNormalizeCSSImports = (cssContent) => {
+  const normalizeRegex = /@import\s+['"]?([^'"]*normalize\.css)['"]?;/gi;
+  return cssContent.replace(normalizeRegex, (match) => {
+    console.log(`🗑️ Suppression de l'import Normalize.css : ${match}`);
+    return "";
+  });
+};
+
 /**
  * Remplace les @import distants et relatifs par le contenu du fichier CSS correspondant,
  * en ignorant les @import provenant de Google Fonts.
@@ -14,8 +36,10 @@ import fs from "fs/promises";
  * @returns {Promise<string>} - CSS avec les imports inlinés.
  */
 const inlineRemoteCSS = async (cssContent, currentUrl) => {
-  const importRegex = /@import\s+(?:url\()?["'](https?:\/\/.*?)["']\)?;/g;
-  const relativeImportRegex = /@import\s+["'](.*?)["'];/g;
+  console.log(`🔍 Début du traitement des imports CSS pour : ${currentUrl}`);
+
+  const importRegex = /@import\s+(?:url\()?['"]?(https?:\/\/.*?)['"]?\)?;/g;
+  const relativeImportRegex = /@import\s+['"]?(.*?)['"]?;/g;
 
   let match;
 
@@ -23,14 +47,13 @@ const inlineRemoteCSS = async (cssContent, currentUrl) => {
   while ((match = importRegex.exec(cssContent)) !== null) {
     const importUrl = match[1];
 
-    // 🛑 Ignorer les Google Fonts
     if (importUrl.includes("fonts.googleapis.com")) {
-      console.log(`⚠️ Ignoré : ${importUrl}`);
+      console.log(`⚠️ Ignoré (absolu) : ${importUrl}`);
       continue;
     }
 
-    console.log(`🔄 Téléchargement de ${importUrl}`);
     try {
+      console.log(`🔄 Téléchargement de ${importUrl}`);
       const response = await axios.get(importUrl);
       cssContent = cssContent.replace(match[0], response.data);
     } catch (error) {
@@ -44,29 +67,21 @@ const inlineRemoteCSS = async (cssContent, currentUrl) => {
   // 📦 Gestion des imports relatifs
   while ((match = relativeImportRegex.exec(cssContent)) !== null) {
     const relativePath = match[1];
-    let resolvedUrl;
 
     try {
-      if (relativePath.startsWith("/")) {
-        // 📍 Cas des imports root-relatifs
-        resolvedUrl = new URL(relativePath, currentUrl).href;
-      } else {
-        // 📍 Cas des imports relatifs
-        const currentDir = path.dirname(currentUrl);
-        resolvedUrl = new URL(relativePath, `${currentDir}/`).href;
-      }
-
+      let resolvedUrl = new URL(relativePath, currentUrl).href;
       console.log(`🔄 Téléchargement de ${resolvedUrl}`);
       const response = await axios.get(resolvedUrl);
       cssContent = cssContent.replace(match[0], response.data);
     } catch (error) {
       console.error(
-        `❌ Échec du téléchargement de ${resolvedUrl}:`,
+        `❌ Échec du téléchargement de ${relativePath}:`,
         error.message
       );
     }
   }
 
+  console.log(`✅ Fin du traitement des imports CSS pour : ${currentUrl}`);
   return cssContent;
 };
 
@@ -77,8 +92,9 @@ const inlineRemoteCSS = async (cssContent, currentUrl) => {
  * @returns {Promise<string>} - CSS compilé et minifié.
  */
 export const compileCSS = async (htmlContent, baseUrl) => {
+  console.log(`🔧 Début de la compilation CSS avec baseUrl : ${baseUrl}`);
   const cssLinkMatch = htmlContent.match(
-    /<link.*?href=["'](.*?\.css)["'].*?>/i
+    /<link.*?href=['"](.*?\.css)['"].*?>/i
   );
   if (!cssLinkMatch) {
     throw new Error("No CSS file found in the HTML.");
@@ -87,26 +103,33 @@ export const compileCSS = async (htmlContent, baseUrl) => {
   const cssUrl = new URL(cssLinkMatch[1], baseUrl).href;
   console.log(`🔗 URL du fichier CSS détectée : ${cssUrl}`);
 
-  const cssResponse = await axios.get(cssUrl);
-  let cssContent = cssResponse.data;
+  try {
+    const cssResponse = await axios.get(cssUrl);
+    let cssContent = cssResponse.data;
 
-  // Remplacer les imports par leur contenu en utilisant l'URL actuelle
-  cssContent = await inlineRemoteCSS(cssContent, cssUrl);
+    // Supprimer les imports normalize.css
+    cssContent = removeNormalizeCSSImports(cssContent);
 
-  // Compiler avec PostCSS et minifier avec cssnano
-  const tempFilePath = path.resolve("temp.css");
-  await fs.writeFile(tempFilePath, cssContent);
+    cssContent = await inlineRemoteCSS(cssContent, cssUrl);
 
-  console.log(`📂 Chemin temporaire pour le CSS : ${tempFilePath}`);
+    const tempFilePath = path.resolve("temp.css");
+    await fs.writeFile(tempFilePath, cssContent);
 
-  const compiledCss = await postcss([postcssImport(), cssnano()]).process(
-    cssContent,
-    { from: tempFilePath }
-  );
+    console.log(`📂 Chemin temporaire pour le CSS : ${tempFilePath}`);
 
-  await fs.unlink(tempFilePath);
+    const compiledCss = await postcss([postcssImport(), cssnano()]).process(
+      cssContent,
+      { from: tempFilePath }
+    );
 
-  return compiledCss.css;
+    await fs.unlink(tempFilePath);
+
+    console.log(`✅ Compilation et minification terminées.`);
+    return compiledCss.css;
+  } catch (error) {
+    console.error(`❌ Erreur lors de la compilation CSS :`, error.message);
+    throw error;
+  }
 };
 
 /**
@@ -115,11 +138,13 @@ export const compileCSS = async (htmlContent, baseUrl) => {
  * @returns {object} - Le résultat de l'analyse Project Wallace.
  */
 export const analyzeCSS = async (css) => {
+  console.log(`🔍 Analyse du CSS en cours...`);
   try {
     const analysisResult = await analyze(css);
+    console.log(`✅ Analyse réussie.`);
     return analysisResult;
   } catch (error) {
-    console.error("Error analyzing CSS with Project Wallace:", error);
+    console.error("❌ Error analyzing CSS with Project Wallace:", error);
     return { error: "Failed to analyze CSS" };
   }
 };

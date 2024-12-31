@@ -3,34 +3,89 @@
     {
       "file": "http://127.0.0.1:5501/",
       "title": "Ca va trailer",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_accueil.webp",
+          "alt": "bandeaux_accueil"
+        },
+        {
+          "src": "/assets/partenaire/accueil_arte.webp",
+          "alt": "partner_arte"
+        },
+        {
+          "src": "/assets/partenaire/accueil_rcf-radio.webp",
+          "alt": "partner_rcf-radio"
+        },
+        {
+          "src": "/assets/partenaire/accueil_france3.webp",
+          "alt": "partner_france3"
+        },
+        {
+          "src": "/assets/partenaire/accueil_canon.webp",
+          "alt": "partner_canon"
+        },
+        {
+          "src": "/assets/partenaire/accueil_credit-agricole.webp",
+          "alt": "partner_credit-agricole"
+        },
+        {
+          "src": "/assets/partenaire/accueil_wwf.webp",
+          "alt": "partner_wwf"
+        },
+        {
+          "src": "/assets/partenaire/accueil_salomon.webp",
+          "alt": "partner_salomon"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 114,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 25,
-        "img": 20,
-        "h3": 8,
-        "button": 1,
-        "span": 2,
-        "nav": 1,
-        "ul": 1,
-        "li": 7,
-        "div": 19,
-        "p": 9,
-        "main": 1,
-        "h1": 1,
-        "section": 3,
-        "h2": 2,
-        "hr": 1,
-        "footer": 1,
-        "br": 1
-      },
       "externalLinks": 0,
       "internalLinks": 12,
       "deadLinks": 13,
@@ -45,52 +100,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Ça va Trail’er"
-        },
-        {
-          "tag": "h2",
-          "text": "La prochaine édition de “Ça va trailer” ce déroulera du 15 au 21 avril\n          2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Programme"
-        },
-        {
-          "tag": "h3",
-          "text": "Invité"
-        },
-        {
-          "tag": "h3",
-          "text": "Billeterie"
-        },
-        {
-          "tag": "h3",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h2",
-          "text": "NOS PARTENAIRES"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -165,7 +174,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.87,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.82,
@@ -180,7 +189,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -313,6 +322,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -454,34 +469,81 @@
     {
       "file": "http://127.0.0.1:5501/invites.html",
       "title": "Ca va trailer",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_invite.webp",
+          "alt": "bandeaux_invite"
+        },
+        {
+          "src": "/assets/jury/invite_killian-jornet.webp",
+          "alt": "Killian-Jornet"
+        },
+        {
+          "src": "/assets/jury/invite_sebastien-chaigneau.webp",
+          "alt": "Sebastien Chaigneau"
+        },
+        {
+          "src": "/assets/jury/invite_aurelien-dunaud-pallaz.webp",
+          "alt": "Aurelien Dunaud pallaz"
+        },
+        {
+          "src": "/assets/jury/invite_julien-chorier.webp",
+          "alt": "Julien Chorier"
+        },
+        {
+          "src": "/assets/jury/emelie-frosberg_portrait1.webp",
+          "alt": "Emelie Frosberg"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 127,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 25,
-        "img": 18,
-        "h3": 9,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 3,
-        "li": 22,
-        "div": 9,
-        "p": 10,
-        "main": 1,
-        "section": 4,
-        "h2": 4,
-        "hr": 1,
-        "article": 5,
-        "footer": 1,
-        "br": 1
-      },
       "externalLinks": 0,
       "internalLinks": 10,
       "deadLinks": 15,
@@ -496,60 +558,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Invités"
-        },
-        {
-          "tag": "h2",
-          "text": "JURY"
-        },
-        {
-          "tag": "h3",
-          "text": "Kilian Jornet – Légende du trail et alpinisme"
-        },
-        {
-          "tag": "h3",
-          "text": "Sébastien Chaigneau – Légende du trail running"
-        },
-        {
-          "tag": "h3",
-          "text": "Aurélien Dunand-Pallaz – Ultra-trailer professionnel"
-        },
-        {
-          "tag": "h3",
-          "text": "Julien Chorier – Cinéaste et coureur"
-        },
-        {
-          "tag": "h3",
-          "text": "Emelie Forsberg – Athlète et experte en nutrition"
-        },
-        {
-          "tag": "h2",
-          "text": "RÉALISATEURS"
-        },
-        {
-          "tag": "h2",
-          "text": "ATLÈTES"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -679,7 +687,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -800,6 +808,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -941,33 +955,89 @@
     {
       "file": "http://127.0.0.1:5501/programme.html",
       "title": "Ca va trailer",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_programme.webp",
+          "alt": "bandeaux_programme"
+        },
+        {
+          "src": "/assets/programme/programme_lundi.webp",
+          "alt": "programme lundi"
+        },
+        {
+          "src": "/assets/programme/programme_mardi.webp",
+          "alt": "programme mardi"
+        },
+        {
+          "src": "/assets/programme/programme_mercredi.webp",
+          "alt": "programme mercredi"
+        },
+        {
+          "src": "/assets/programme/programme_jeudi.webp",
+          "alt": "programme jeudi"
+        },
+        {
+          "src": "/assets/programme/programme_vendredi.webp",
+          "alt": "programme vendredi"
+        },
+        {
+          "src": "/assets/programme/programme_samedi.webp",
+          "alt": "programme samedi"
+        },
+        {
+          "src": "/assets/programme/programme_dimanche.webp",
+          "alt": "programme dimanche"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 130,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 22,
-        "img": 20,
-        "h3": 12,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 10,
-        "div": 27,
-        "p": 14,
-        "main": 1,
-        "section": 2,
-        "h2": 2,
-        "hr": 2,
-        "footer": 1,
-        "br": 1
-      },
       "externalLinks": 0,
       "internalLinks": 10,
       "deadLinks": 12,
@@ -982,64 +1052,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Programme"
-        },
-        {
-          "tag": "h3",
-          "text": "Lundi 15 avril 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Mardi 16 avril 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Mercredi 17 avril 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Jeudi 18 avril 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Vendredi 19 avril 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Samedi 20 avril 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Dimanche 21 avril 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Activités annexes"
-        },
-        {
-          "tag": "h3",
-          "text": "Télécharger le programme complet"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -1124,7 +1136,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.8,
+        "performance": 0.85,
         "accessibility": 0.96,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1139,7 +1151,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1272,6 +1284,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1413,35 +1431,117 @@
     {
       "file": "http://127.0.0.1:5501/films.html",
       "title": "Ça va trail'ler",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "youtube"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "strava"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "tiktok"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_films.webp",
+          "alt": "bandeaux_films"
+        },
+        {
+          "src": "/assets/films/film_vers-les-sommets.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_lenvol.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_la-course-en-tete.webp",
+          "alt": "Affiche la course en tete"
+        },
+        {
+          "src": "/assets/films/film_free-to-run.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_gold-rush.webp",
+          "alt": "Affiche gold rush"
+        },
+        {
+          "src": "/assets/films/film_return-to-leadville.webp",
+          "alt": "Affiche leadville"
+        },
+        {
+          "src": "/assets/films/film_tempo-ii.webp",
+          "alt": "Affiche tempo-ii"
+        },
+        {
+          "src": "/assets/films/film_trailbound-alaska.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_for-the-love-of-mary.webp",
+          "alt": "Affiche for-the-love-of-mary"
+        },
+        {
+          "src": "/assets/films/film_pic-a-pic.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_lombre-du-sommet.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_horizons-infini.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_nuit-blanche.webp",
+          "alt": "Affiche nuit blanche"
+        },
+        {
+          "src": "/assets/films/film_lenvol.webp",
+          "alt": "Affiche vers les sommets"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 296,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 34,
-        "img": 27,
-        "h3": 18,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 1,
-        "li": 7,
-        "div": 79,
-        "p": 47,
-        "main": 1,
-        "section": 2,
-        "h2": 2,
-        "hr": 1,
-        "article": 14,
-        "br": 34,
-        "strong": 14,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 10,
       "deadLinks": 24,
@@ -1456,88 +1556,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Les films"
-        },
-        {
-          "tag": "h2",
-          "text": "Liste des films"
-        },
-        {
-          "tag": "h3",
-          "text": "VERS LES SOMMETS"
-        },
-        {
-          "tag": "h3",
-          "text": "L'ENVOL"
-        },
-        {
-          "tag": "h3",
-          "text": "LA COURSE EN TÊTE"
-        },
-        {
-          "tag": "h3",
-          "text": "FREE TO RUN"
-        },
-        {
-          "tag": "h3",
-          "text": "THE GOLD RUSH"
-        },
-        {
-          "tag": "h3",
-          "text": "RETURN TO LEADVILLE"
-        },
-        {
-          "tag": "h3",
-          "text": "TEMPO II"
-        },
-        {
-          "tag": "h3",
-          "text": "TRAILBOUND ALASKA"
-        },
-        {
-          "tag": "h3",
-          "text": "FOR THE LOVE OF MARY"
-        },
-        {
-          "tag": "h3",
-          "text": "PIC A PIC"
-        },
-        {
-          "tag": "h3",
-          "text": "L'OMBRE DU SOMMET"
-        },
-        {
-          "tag": "h3",
-          "text": "HORIZONS INFINI"
-        },
-        {
-          "tag": "h3",
-          "text": "NUIT BLANCHE"
-        },
-        {
-          "tag": "h3",
-          "text": "TERMINORIUM"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -1737,7 +1755,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1910,6 +1928,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 260,
             "mimeType": "text/css",
@@ -2047,33 +2071,61 @@
     {
       "file": "http://127.0.0.1:5501/a-propos.html",
       "title": "Ca va trailer",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_a-propos.webp",
+          "alt": "bandeaux_a-propos"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 106,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 20,
-        "img": 13,
-        "h3": 4,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 19,
-        "div": 12,
-        "p": 10,
-        "main": 1,
-        "section": 2,
-        "h2": 4,
-        "hr": 1,
-        "footer": 1,
-        "br": 1
-      },
       "externalLinks": 0,
       "internalLinks": 9,
       "deadLinks": 11,
@@ -2088,40 +2140,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "À propos"
-        },
-        {
-          "tag": "h2",
-          "text": "Notre Histoire"
-        },
-        {
-          "tag": "h2",
-          "text": "Notre Équipe"
-        },
-        {
-          "tag": "h2",
-          "text": "Chartre : L'esprit de l'édition 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -2176,7 +2194,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.83,
+        "performance": 0.89,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2191,7 +2209,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2282,6 +2300,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2423,36 +2447,89 @@
     {
       "file": "http://127.0.0.1:5501/infos-pratiques.html",
       "title": "Ca va trailer",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_infos-pratiques.webp",
+          "alt": "bandeaux_a-propos"
+        },
+        {
+          "src": "/assets/lieux/infos-pratiques_carte-france.webp",
+          "alt": "Carte france"
+        },
+        {
+          "src": "/assets/lieux/infos-pratiques_carte-parc.webp",
+          "alt": "Carte park"
+        },
+        {
+          "src": "/assets/lieux/infos-pratiques_parc-img1.webp",
+          "alt": "Image du parc 1"
+        },
+        {
+          "src": "/assets/lieux/infos-pratiques_parc-img2.webp",
+          "alt": "Image du parc 2"
+        },
+        {
+          "src": "/assets/lieux/infos-pratiques_parc-img3.webp",
+          "alt": "Image du parc 3"
+        },
+        {
+          "src": "/assets/icons/icon_arrowcarrousel-gauche.svg",
+          "alt": "Flèche gauche"
+        },
+        {
+          "src": "/assets/icons/icon_arrowcarrousel.svg",
+          "alt": "Flèche droite"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 153,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 1,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 21,
-        "img": 20,
-        "h3": 9,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 6,
-        "li": 25,
-        "div": 25,
-        "p": 12,
-        "main": 1,
-        "section": 2,
-        "h2": 1,
-        "hr": 1,
-        "br": 11,
-        "figure": 1,
-        "figcaption": 1,
-        "ol": 1,
-        "footer": 1
-      },
       "externalLinks": 1,
       "internalLinks": 9,
       "deadLinks": 11,
@@ -2467,48 +2544,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h3",
-          "text": "Accessibilité pour tous"
-        },
-        {
-          "tag": "h3",
-          "text": "Un cadre naturel au parc de la Douce"
-        },
-        {
-          "tag": "h3",
-          "text": "Hébergement"
-        },
-        {
-          "tag": "h3",
-          "text": "Transport"
-        },
-        {
-          "tag": "h3",
-          "text": "FAQ"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -2599,7 +2634,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2732,6 +2767,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2873,37 +2914,81 @@
     {
       "file": "http://127.0.0.1:5501/contact.html",
       "title": "Ca va trailer",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_infos-pratiques.webp",
+          "alt": "bandeaux_a-propos"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "youtube"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "strava"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "tiktok"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 118,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 20,
-        "img": 18,
-        "h3": 4,
-        "button": 2,
-        "span": 3,
-        "nav": 1,
-        "ul": 1,
-        "li": 7,
-        "div": 20,
-        "p": 12,
-        "main": 1,
-        "section": 2,
-        "h2": 2,
-        "hr": 1,
-        "form": 1,
-        "label": 4,
-        "input": 3,
-        "textarea": 1,
-        "br": 3,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 9,
       "deadLinks": 11,
@@ -2918,32 +3003,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous contacter"
-        },
-        {
-          "tag": "h2",
-          "text": "Formulaire de Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -3003,7 +3062,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3094,6 +3153,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3235,34 +3300,65 @@
     {
       "file": "http://127.0.0.1:5501/killian-jornet.html",
       "title": "Ça va trail'ler",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_kilian-jornet.webp",
+          "alt": "bandeaux_a-propos"
+        },
+        {
+          "src": "/assets/jury/invite_killian-jornet.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 116,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 20,
-        "img": 14,
-        "h3": 6,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 7,
-        "li": 24,
-        "div": 15,
-        "p": 6,
-        "main": 1,
-        "section": 2,
-        "h2": 2,
-        "hr": 1,
-        "ol": 2,
-        "footer": 1,
-        "br": 1
-      },
       "externalLinks": 0,
       "internalLinks": 9,
       "deadLinks": 11,
@@ -3277,40 +3373,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Kilian Jornet"
-        },
-        {
-          "tag": "h2",
-          "text": "Kilian Jornet"
-        },
-        {
-          "tag": "h3",
-          "text": "Biographie"
-        },
-        {
-          "tag": "h3",
-          "text": "Intervention - Vendredi 19 avril"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -3365,7 +3427,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.83,
+        "performance": 0.87,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3380,7 +3442,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3477,6 +3539,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3618,37 +3686,69 @@
     {
       "file": "http://127.0.0.1:5501/vers-le-sommet.html",
       "title": "Ça va trail'ler",
+      "images": [
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-noir.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-noir.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-noir.svg",
+          "alt": "youtube"
+        },
+        {
+          "src": "/assets/icons/icon_strava-noir.svg",
+          "alt": "strava"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-noir.svg",
+          "alt": "tiktok"
+        },
+        {
+          "src": "/assets/bandeaux_pages/bandeaux_films.webp",
+          "alt": "bandeaux_films"
+        },
+        {
+          "src": "/assets/films/film_vers-les-sommets.webp",
+          "alt": "affiche vers les sommets"
+        },
+        {
+          "src": "/assets/films/film_vers-les-sommets.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/icon_logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/icon_facebook-blanc.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/icons/icon_insta-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_youtube-blanc.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "/assets/icons/icon_strava-blanc.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/icons/icon_tiktok-blanc.svg",
+          "alt": "twitter"
+        }
+      ],
       "totalTags": 106,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 1,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 20,
-        "img": 15,
-        "h3": 8,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 9,
-        "div": 15,
-        "p": 11,
-        "main": 1,
-        "section": 2,
-        "h2": 1,
-        "hr": 1,
-        "br": 3,
-        "strong": 1,
-        "dialog": 1,
-        "video": 1,
-        "source": 1,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 9,
       "deadLinks": 11,
@@ -3663,44 +3763,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h3",
-          "text": "Ça va trail'ler"
-        },
-        {
-          "tag": "h2",
-          "text": "Vers le Sommet"
-        },
-        {
-          "tag": "h3",
-          "text": "VERS LES SOMMET"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos du réalisateur : Jean-Baptiste Bieuville"
-        },
-        {
-          "tag": "h3",
-          "text": "Critiques et distinctions"
-        },
-        {
-          "tag": "h3",
-          "text": "Événement exclusif : Rencontre avec Jean-Baptiste Bieuville"
-        },
-        {
-          "tag": "h3",
-          "text": "Ça va trail'er"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "MENTIONS LÉGALES"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 3,
@@ -3775,7 +3837,7 @@
           },
           {
             "url": "http://127.0.0.1:5501/src/css/style.css",
-            "resourceSize": 909,
+            "resourceSize": 951,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3864,12 +3926,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/video/teaser_vers-les-sommets.mp4",
-            "resourceSize": 1048576,
-            "mimeType": "video/mp4",
-            "resourceType": "Media"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
             "resourceSize": 3832,
             "mimeType": "text/css",
@@ -3878,6 +3934,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
             "resourceSize": 1227,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4000,6 +4062,12 @@
             "resourceSize": 1106,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/video/teaser_vers-les-sommets.mp4",
+            "resourceSize": 1048576,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5501/assets/video/teaser_vers-les-sommets.mp4",
@@ -6291,9 +6359,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 2,
-      "analyzeTime": 3,
-      "total": 5
+      "parseTime": 6,
+      "analyzeTime": 6,
+      "total": 12
     }
   }
 }

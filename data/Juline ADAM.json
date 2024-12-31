@@ -3,35 +3,64 @@
     {
       "file": "http://127.0.0.1:5502/",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/img/image-page_accueil.jpg",
+          "alt": "Projection festival"
+        },
+        {
+          "src": "/assets/img/ticket-programmation.webp",
+          "alt": "3 tickets de films"
+        },
+        {
+          "src": "/assets/img/cinema-invite.webp",
+          "alt": "personnes dans un cinéma avec une fenêtre qui donne sur la Tour Eiffel"
+        },
+        {
+          "src": "/assets/img/info-pratiques.webp",
+          "alt": "i dans un rond"
+        },
+        {
+          "src": "/assets/img/apropos.webp",
+          "alt": "cinéma en plein air avec écran géant"
+        },
+        {
+          "src": "/assets/img/delice-dasie.webp",
+          "alt": "logo Délice d'Asie"
+        },
+        {
+          "src": "/assets/img/subway.webp",
+          "alt": "logo Subway"
+        },
+        {
+          "src": "/assets/img/boulanger.webp",
+          "alt": "logo Boulanger"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 91,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 2,
-        "a": 13,
-        "img": 13,
-        "button": 2,
-        "span": 1,
-        "nav": 1,
-        "ul": 6,
-        "li": 20,
-        "section": 9,
-        "h1": 1,
-        "h3": 2,
-        "p": 3,
-        "strong": 1,
-        "main": 1,
-        "h2": 4,
-        "footer": 1
-      },
       "externalLinks": 0,
-      "internalLinks": 10,
+      "internalLinks": 9,
+      "deadLinks": 4,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -43,36 +72,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival des Films d'Animation Japonais"
-        },
-        {
-          "tag": "h3",
-          "text": "Venez faire des rencontres uniques et partager votre passion !"
-        },
-        {
-          "tag": "h2",
-          "text": "La programmation"
-        },
-        {
-          "tag": "h2",
-          "text": "Invités"
-        },
-        {
-          "tag": "h2",
-          "text": "Informations pratiques"
-        },
-        {
-          "tag": "h2",
-          "text": "Le Festival (À propos)"
-        },
-        {
-          "tag": "h3",
-          "text": "Nos partenaires :"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -347,33 +346,32 @@
     {
       "file": "http://127.0.0.1:5502/apropos.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 66,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 3,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 2,
-        "a": 9,
-        "img": 5,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 14,
-        "main": 1,
-        "section": 4,
-        "h1": 1,
-        "h2": 3,
-        "p": 7,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 6,
+      "deadLinks": 3,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -385,24 +383,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Le Festival (À propos)"
-        },
-        {
-          "tag": "h2",
-          "text": "Historique : Présentation du festival"
-        },
-        {
-          "tag": "h2",
-          "text": "Équipe : Organisateurs et équipe technique"
-        },
-        {
-          "tag": "h2",
-          "text": "Charte : Valeurs et thématique de l’édition"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -432,7 +412,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.88,
+        "performance": 0.97,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -589,35 +569,100 @@
     {
       "file": "http://127.0.0.1:5502/programmation.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/img/yn.webp",
+          "alt": "affiche du film Your name."
+        },
+        {
+          "src": "/assets/img/chateau.webp",
+          "alt": "affiche du film Le Chateau Ambulant"
+        },
+        {
+          "src": "/assets/img/totoro.webp",
+          "alt": "affiche du film Mon Voisin Totoro"
+        },
+        {
+          "src": "/assets/img/chihiro.webp",
+          "alt": "affiche du film Le Voyage de Chihiro"
+        },
+        {
+          "src": "/assets/img/enfantsdt.webp",
+          "alt": "affiche du film Les Enfants du Temps"
+        },
+        {
+          "src": "/assets/icones/icon_arrowcarrousel.svg",
+          "alt": "flèche gauche"
+        },
+        {
+          "src": "/assets/icones/icon_arrowcarrousel.svg",
+          "alt": "flèche droite"
+        },
+        {
+          "src": "/assets/img/enfantsdutemps.webp",
+          "alt": "extrait du film Les enfants du temps"
+        },
+        {
+          "src": "/assets/img/enfantsdutemps.webp",
+          "alt": "affiche film enfants du temps"
+        },
+        {
+          "src": "/assets/img/totoro2.webp",
+          "alt": "extrait du film Mon voisin Totoro"
+        },
+        {
+          "src": "/assets/img/monoke.webp",
+          "alt": "extrait du film Princesse Mononoké"
+        },
+        {
+          "src": "/assets/img/voyage-chihiro.webp",
+          "alt": "extrait du film Le voyage de Chihiro"
+        },
+        {
+          "src": "/assets/img/kiki-sorciere.webp",
+          "alt": "extrait du film Kiki la petite sorcière"
+        },
+        {
+          "src": "/assets/img/your-name.webp",
+          "alt": "extrait du film Your Name."
+        },
+        {
+          "src": "/assets/img/suzume.webp",
+          "alt": "extrait du film Suzume"
+        },
+        {
+          "src": "/assets/img/chateau-ambulant.webp",
+          "alt": "extrait du film Le Château ambulant"
+        },
+        {
+          "src": "/assets/img/perfect-blue.webp",
+          "alt": "extrait du film Perfect Blue"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 153,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 4,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 9,
-        "a": 19,
-        "img": 22,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 12,
-        "li": 40,
-        "main": 1,
-        "section": 11,
-        "h1": 1,
-        "h2": 12,
-        "article": 3,
-        "h3": 3,
-        "dialog": 1,
-        "footer": 1
-      },
       "externalLinks": 0,
-      "internalLinks": 16,
+      "internalLinks": 9,
+      "deadLinks": 10,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -629,72 +674,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "La programmation"
-        },
-        {
-          "tag": "h2",
-          "text": "Différents stands sont mis en place avec :"
-        },
-        {
-          "tag": "h2",
-          "text": "Quelques exemples de films diffusés :"
-        },
-        {
-          "tag": "h2",
-          "text": "Programmation en fonction des jours :"
-        },
-        {
-          "tag": "h3",
-          "text": "11 juillet 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Les Enfants du temps"
-        },
-        {
-          "tag": "h2",
-          "text": "Mon Voisin Totoro"
-        },
-        {
-          "tag": "h2",
-          "text": "Princesse Mononoké"
-        },
-        {
-          "tag": "h3",
-          "text": "12 juillet 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Le Voyage de Chihiro"
-        },
-        {
-          "tag": "h2",
-          "text": "Kiki la petite sorcière"
-        },
-        {
-          "tag": "h2",
-          "text": "Your Name."
-        },
-        {
-          "tag": "h3",
-          "text": "1 juillet 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Suzume"
-        },
-        {
-          "tag": "h2",
-          "text": "Le Château ambulant"
-        },
-        {
-          "tag": "h2",
-          "text": "Perfect Blue"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -855,7 +834,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.8,
+        "performance": 0.82,
         "accessibility": 0.95,
         "bestPractices": 1,
         "seo": 0.91,
@@ -1102,34 +1081,36 @@
     {
       "file": "http://127.0.0.1:5502/infospratiques.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/img/l'atraxion.webp",
+          "alt": "image de l'axtraxion de belfort"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 88,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 3,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 2,
-        "a": 9,
-        "img": 6,
-        "button": 2,
-        "span": 1,
-        "nav": 1,
-        "ul": 6,
-        "li": 21,
-        "main": 1,
-        "section": 9,
-        "h1": 1,
-        "h2": 5,
-        "p": 10,
-        "strong": 1,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 6,
+      "deadLinks": 3,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1141,32 +1122,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Informations pratiques"
-        },
-        {
-          "tag": "h2",
-          "text": "Tarifs du festival"
-        },
-        {
-          "tag": "h2",
-          "text": "Lieu :"
-        },
-        {
-          "tag": "h2",
-          "text": "Hébergement :"
-        },
-        {
-          "tag": "h2",
-          "text": "Transport :"
-        },
-        {
-          "tag": "h2",
-          "text": "FAQ :"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1400,36 +1355,32 @@
     {
       "file": "http://127.0.0.1:5502/inscriptions.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 75,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 3,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 6,
-        "a": 9,
-        "img": 5,
-        "button": 2,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 14,
-        "main": 1,
-        "section": 5,
-        "h1": 1,
-        "h2": 2,
-        "form": 1,
-        "label": 4,
-        "input": 4,
-        "p": 2,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 6,
+      "deadLinks": 3,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1441,20 +1392,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Inscriptions et tarifs"
-        },
-        {
-          "tag": "h2",
-          "text": "Pour s'inscrire au festival, remplissez le formulaire suivant :"
-        },
-        {
-          "tag": "h2",
-          "text": "Tarifs du festival :"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1484,7 +1421,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.88,
         "accessibility": 0.96,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1641,35 +1578,40 @@
     {
       "file": "http://127.0.0.1:5502/contact.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/icones/tiktok-black.svg",
+          "alt": "logo tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-black.svg",
+          "alt": "logo instagram"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 69,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 3,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 7,
-        "a": 9,
-        "img": 7,
-        "button": 2,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 8,
-        "main": 1,
-        "section": 6,
-        "h1": 1,
-        "h2": 2,
-        "form": 1,
-        "label": 4,
-        "input": 4,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 6,
+      "deadLinks": 3,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1681,20 +1623,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Contact"
-        },
-        {
-          "tag": "h2",
-          "text": "Nos réseaux sociaux :"
-        },
-        {
-          "tag": "h2",
-          "text": "Inscrivez-vous pour recevoir des offres et informations\n                exclusives :"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1729,7 +1657,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.88,
         "accessibility": 0.96,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1898,33 +1826,40 @@
     {
       "file": "http://127.0.0.1:5502/enfantsdutemps.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/img/enfantsdutps1.webp",
+          "alt": "extrait du film Les enfants du temps"
+        },
+        {
+          "src": "/assets/img/enfantsdutps2.webp",
+          "alt": "extrait du film Les enfants du temps"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 66,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 3,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 2,
-        "a": 11,
-        "img": 7,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 8,
-        "main": 1,
-        "section": 8,
-        "h1": 1,
-        "h2": 4,
-        "p": 4,
-        "footer": 1
-      },
       "externalLinks": 2,
       "internalLinks": 6,
+      "deadLinks": 3,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -1936,28 +1871,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Les Enfants du temps"
-        },
-        {
-          "tag": "h2",
-          "text": "Durée : 1h53"
-        },
-        {
-          "tag": "h2",
-          "text": "Genre : Cinéma de fantasy/Romance"
-        },
-        {
-          "tag": "h2",
-          "text": "Date de sortie : 2019"
-        },
-        {
-          "tag": "h2",
-          "text": "En découvrir plus :"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2192,33 +2105,40 @@
     {
       "file": "http://127.0.0.1:5502/monvoisintotoro.html",
       "title": "Festival des Films d'Animation Japonais",
+      "images": [
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "logo du festival"
+        },
+        {
+          "src": "/assets/img/totoro1.webp",
+          "alt": "extrait du film Mon voisin Totoro"
+        },
+        {
+          "src": "/assets/img/totoro2.0.webp",
+          "alt": "extrait du film Mon voisin Totoro"
+        },
+        {
+          "src": "/assets/icones/logo.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "/assets/img/fleurs-footer.webp",
+          "alt": "image de fleur de cerisier"
+        },
+        {
+          "src": "/assets/icones/tiktok-logo.svg",
+          "alt": "logo Tiktok"
+        },
+        {
+          "src": "/assets/icones/insta-logo.svg",
+          "alt": "logo Instagram"
+        }
+      ],
       "totalTags": 65,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 2,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "div": 2,
-        "a": 11,
-        "img": 7,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 8,
-        "main": 1,
-        "section": 8,
-        "h1": 1,
-        "h2": 4,
-        "p": 4,
-        "footer": 1
-      },
       "externalLinks": 2,
       "internalLinks": 6,
+      "deadLinks": 3,
       "favicon": true,
       "mailtoLinks": 0,
       "viewport": true,
@@ -2230,28 +2150,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Mon voisin Totoro"
-        },
-        {
-          "tag": "h2",
-          "text": "Durée : 1h35"
-        },
-        {
-          "tag": "h2",
-          "text": "Genre : Cinéma de fantasy/Aventure"
-        },
-        {
-          "tag": "h2",
-          "text": "Date de sortie : 1998"
-        },
-        {
-          "tag": "h2",
-          "text": "En découvrir plus :"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2317,7 +2215,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.88,
+        "performance": 0.89,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2532,13 +2430,13 @@
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 805,
-      "linesOfCode": 2,
-      "size": 13963,
-      "complexity": 2039,
+      "sourceLinesOfCode": 696,
+      "linesOfCode": 1,
+      "size": 12174,
+      "complexity": 1776,
       "comments": {
-        "total": 1,
-        "size": 72
+        "total": 0,
+        "size": 0
       },
       "embeddedContent": {
         "total": 0,
@@ -2649,7 +2547,7 @@
       }
     },
     "rules": {
-      "total": 170,
+      "total": 138,
       "empty": {
         "total": 0,
         "ratio": 0
@@ -2657,44 +2555,12 @@
       "sizes": {
         "min": 2,
         "max": 17,
-        "mean": 4.711764705882353,
+        "mean": 5.0144927536231885,
         "mode": 3,
-        "median": 3,
+        "median": 4,
         "range": 15,
-        "sum": 801,
+        "sum": 692,
         "items": [
-          3,
-          2,
-          3,
-          4,
-          3,
-          2,
-          4,
-          3,
-          5,
-          2,
-          6,
-          2,
-          2,
-          2,
-          9,
-          3,
-          3,
-          5,
-          6,
-          5,
-          2,
-          7,
-          2,
-          2,
-          4,
-          3,
-          3,
-          2,
-          3,
-          2,
-          2,
-          3,
           6,
           7,
           5,
@@ -2834,17 +2700,17 @@
           4,
           3
         ],
-        "total": 170,
+        "total": 138,
         "totalUnique": 14,
         "unique": {
-          "2": 41,
-          "3": 45,
-          "4": 19,
-          "5": 15,
-          "6": 12,
-          "7": 9,
+          "2": 29,
+          "3": 35,
+          "4": 16,
+          "5": 12,
+          "6": 10,
+          "7": 8,
           "8": 7,
-          "9": 6,
+          "9": 5,
           "10": 7,
           "11": 1,
           "12": 3,
@@ -2852,49 +2718,17 @@
           "15": 1,
           "17": 1
         },
-        "uniquenessRatio": 0.08235294117647059
+        "uniquenessRatio": 0.10144927536231885
       },
       "selectors": {
         "min": 1,
-        "max": 5,
-        "mean": 1.3294117647058823,
+        "max": 4,
+        "mean": 1.2463768115942029,
         "mode": 1,
         "median": 1,
-        "range": 4,
-        "sum": 226,
+        "range": 3,
+        "sum": 172,
         "items": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          3,
-          1,
-          2,
-          1,
-          1,
-          1,
-          5,
-          2,
-          2,
-          4,
-          4,
-          4,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
           1,
           1,
           2,
@@ -3034,58 +2868,25 @@
           1,
           1
         ],
-        "total": 170,
-        "totalUnique": 5,
+        "total": 138,
+        "totalUnique": 4,
         "unique": {
-          "1": 140,
-          "2": 15,
-          "3": 5,
-          "4": 9,
-          "5": 1
+          "1": 120,
+          "2": 8,
+          "3": 4,
+          "4": 6
         },
-        "uniquenessRatio": 0.029411764705882353
+        "uniquenessRatio": 0.028985507246376812
       },
       "declarations": {
         "min": 1,
         "max": 16,
-        "mean": 3.3823529411764706,
-        "mode": 1,
-        "median": 2,
+        "mean": 3.7681159420289854,
+        "mode": 2,
+        "median": 2.5,
         "range": 15,
-        "sum": 575,
+        "sum": 520,
         "items": [
-          2,
-          1,
-          2,
-          3,
-          2,
-          1,
-          3,
-          1,
-          2,
-          1,
-          4,
-          1,
-          1,
-          1,
-          4,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          6,
-          1,
-          1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
-          1,
-          1,
           5,
           6,
           3,
@@ -3225,15 +3026,15 @@
           3,
           2
         ],
-        "total": 170,
+        "total": 138,
         "totalUnique": 14,
         "unique": {
-          "1": 51,
-          "2": 45,
-          "3": 21,
-          "4": 12,
+          "1": 32,
+          "2": 37,
+          "3": 19,
+          "4": 10,
           "5": 8,
-          "6": 7,
+          "6": 6,
           "7": 6,
           "8": 4,
           "9": 9,
@@ -3243,13 +3044,13 @@
           "14": 1,
           "16": 1
         },
-        "uniquenessRatio": 0.08235294117647059
+        "uniquenessRatio": 0.10144927536231885
       }
     },
     "selectors": {
-      "total": 222,
-      "totalUnique": 189,
-      "uniquenessRatio": 0.8513513513513513,
+      "total": 168,
+      "totalUnique": 145,
+      "uniquenessRatio": 0.8630952380952381,
       "specificity": {
         "min": [
           0,
@@ -3263,13 +3064,13 @@
         ],
         "sum": [
           0,
-          191,
-          71
+          170,
+          26
         ],
         "mean": [
           0,
-          0.8603603603603603,
-          0.31981981981981983
+          1.0119047619047619,
+          0.15476190476190477
         ],
         "mode": [
           0,
@@ -3282,276 +3083,6 @@
           0
         ],
         "items": [
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            2
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            2,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            0,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            0,
-            1
-          ],
           [
             0,
             0,
@@ -4393,93 +3924,38 @@
             0
           ]
         ],
-        "total": 222,
+        "total": 168,
         "totalUnique": 7,
         "unique": {
-          "0,0,1": 47,
-          "0,1,1": 16,
-          "0,1,0": 144,
-          "0,0,2": 2,
-          "0,2,0": 8,
+          "0,0,1": 12,
+          "0,1,0": 137,
+          "0,1,1": 8,
+          "0,2,0": 5,
+          "0,0,2": 1,
           "0,3,0": 1,
           "0,3,1": 4
         },
-        "uniquenessRatio": 0.03153153153153153
+        "uniquenessRatio": 0.041666666666666664
       },
       "complexity": {
         "min": 1,
         "max": 6,
-        "mean": 1.3558558558558558,
+        "mean": 1.2380952380952381,
         "mode": 1,
         "median": 1,
         "range": 5,
-        "sum": 301,
-        "total": 222,
-        "totalUnique": 6,
+        "sum": 208,
+        "total": 168,
+        "totalUnique": 5,
         "unique": {
-          "1": 184,
-          "2": 20,
-          "3": 4,
-          "4": 9,
+          "1": 149,
+          "2": 12,
+          "3": 2,
           "5": 1,
           "6": 4
         },
-        "uniquenessRatio": 0.02702702702702703,
+        "uniquenessRatio": 0.02976190476190476,
         "items": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          1,
-          4,
-          4,
-          4,
-          3,
-          4,
-          4,
-          4,
-          3,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          4,
-          4,
-          2,
-          4,
-          2,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -4667,7 +4143,7 @@
           ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
         },
         "uniquenessRatio": 0.6666666666666666,
-        "ratio": 0.02702702702702703
+        "ratio": 0.03571428571428571
       },
       "keyframes": {
         "total": 4,
@@ -4679,24 +4155,11 @@
         "uniquenessRatio": 0.5
       },
       "prefixed": {
-        "total": 12,
-        "totalUnique": 12,
-        "unique": {
-          "[type=button]::-moz-focus-inner": 1,
-          "[type=reset]::-moz-focus-inner": 1,
-          "[type=submit]::-moz-focus-inner": 1,
-          "button::-moz-focus-inner": 1,
-          "[type=button]:-moz-focusring": 1,
-          "[type=reset]:-moz-focusring": 1,
-          "[type=submit]:-moz-focusring": 1,
-          "button:-moz-focusring": 1,
-          "[type=number]::-webkit-inner-spin-button": 1,
-          "[type=number]::-webkit-outer-spin-button": 1,
-          "[type=search]::-webkit-search-decoration": 1,
-          "::-webkit-file-upload-button": 1
-        },
-        "uniquenessRatio": 1,
-        "ratio": 0.05405405405405406
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
       },
       "combinators": {
         "total": 6,
@@ -4708,12 +4171,12 @@
       }
     },
     "declarations": {
-      "total": 575,
-      "totalUnique": 272,
-      "uniquenessRatio": 0.47304347826086957,
+      "total": 520,
+      "totalUnique": 239,
+      "uniquenessRatio": 0.4596153846153846,
       "unique": {
-        "total": 272,
-        "ratio": 0.47304347826086957
+        "total": 239,
+        "ratio": 0.4596153846153846
       },
       "importants": {
         "total": 0,
@@ -4730,45 +4193,27 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 575
+        "sum": 520
       }
     },
     "properties": {
-      "total": 575,
-      "totalUnique": 70,
+      "total": 520,
+      "totalUnique": 63,
       "unique": {
-        "line-height": 17,
-        "-webkit-text-size-adjust": 1,
-        "display": 30,
-        "font-size": 44,
-        "margin": 19,
-        "box-sizing": 5,
-        "height": 19,
-        "overflow": 6,
-        "font-family": 15,
-        "background-color": 19,
-        "border-bottom": 2,
-        "text-decoration": 7,
-        "font-weight": 15,
-        "position": 12,
-        "vertical-align": 3,
-        "bottom": 3,
-        "top": 7,
-        "border-style": 2,
-        "text-transform": 5,
-        "-webkit-appearance": 4,
-        "padding": 30,
-        "outline": 1,
-        "color": 26,
-        "max-width": 4,
-        "white-space": 1,
-        "outline-offset": 1,
-        "font": 1,
+        "background-color": 18,
+        "font-family": 12,
+        "font-size": 38,
+        "margin": 17,
+        "padding": 26,
+        "font-weight": 14,
         "letter-spacing": 14,
         "margin-top": 13,
         "text-align": 20,
+        "color": 25,
         "font-style": 10,
+        "line-height": 14,
         "flex-shrink": 2,
+        "height": 17,
         "width": 25,
         "background": 5,
         "padding-bottom": 5,
@@ -4779,9 +4224,13 @@
         "border": 14,
         "border-radius": 21,
         "cursor": 10,
+        "display": 25,
+        "text-transform": 4,
         "margin-left": 7,
         "box-shadow": 2,
+        "text-decoration": 5,
         "list-style": 4,
+        "max-width": 3,
         "gap": 6,
         "margin-right": 6,
         "overflow-x": 1,
@@ -4792,32 +4241,36 @@
         "justify-content": 8,
         "transform": 11,
         "opacity": 7,
+        "overflow": 3,
         "transition": 4,
         "animation": 2,
         "place-content": 1,
+        "position": 11,
         "right": 3,
+        "top": 6,
+        "vertical-align": 1,
         "padding-top": 1,
         "flex-direction": 4,
+        "box-sizing": 2,
+        "bottom": 2,
         "min-height": 1,
         "left": 3,
         "z-index": 3,
         "inset": 1,
         "visibility": 2,
+        "border-bottom": 1,
         "content": 1,
         "list-style-type": 1,
         "--ReggaeOne": 1,
         "--MPLUSRounded1c": 1
       },
-      "uniquenessRatio": 0.12173913043478261,
+      "uniquenessRatio": 0.12115384615384615,
       "prefixed": {
-        "total": 5,
-        "totalUnique": 2,
-        "unique": {
-          "-webkit-text-size-adjust": 1,
-          "-webkit-appearance": 4
-        },
-        "uniquenessRatio": 0.4,
-        "ratio": 0.008695652173913044
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
       },
       "custom": {
         "total": 2,
@@ -4827,7 +4280,7 @@
           "--MPLUSRounded1c": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.0034782608695652175,
+        "ratio": 0.0038461538461538464,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -4846,20 +4299,18 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.0121739130434784,
+        "mean": 1.0038461538461538,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 582
+        "sum": 522
       }
     },
     "values": {
       "colors": {
-        "total": 52,
-        "totalUnique": 16,
+        "total": 50,
+        "totalUnique": 14,
         "unique": {
-          "transparent": 1,
-          "ButtonText": 1,
           "#ffe4e1": 3,
           "#000": 9,
           "#b22222": 3,
@@ -4875,13 +4326,12 @@
           "#f08080": 2,
           "rgba(0,0,0,.2)": 1
         },
-        "uniquenessRatio": 0.3076923076923077,
+        "uniquenessRatio": 0.28,
         "itemsPerContext": {
           "background-color": {
-            "total": 19,
-            "totalUnique": 10,
+            "total": 18,
+            "totalUnique": 9,
             "unique": {
-              "transparent": 1,
               "#ffe4e1": 3,
               "#b22222": 2,
               "#fff": 2,
@@ -4892,15 +4342,7 @@
               "#b30000": 4,
               "#f08080": 1
             },
-            "uniquenessRatio": 0.5263157894736842
-          },
-          "outline": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "ButtonText": 1
-            },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.5
           },
           "color": {
             "total": 22,
@@ -4943,16 +4385,14 @@
           }
         },
         "formats": {
-          "total": 52,
-          "totalUnique": 5,
+          "total": 50,
+          "totalUnique": 3,
           "unique": {
-            "transparent": 1,
-            "system": 1,
             "hex6": 17,
             "hex3": 31,
             "rgba": 2
           },
-          "uniquenessRatio": 0.09615384615384616
+          "uniquenessRatio": 0.06
         }
       },
       "gradients": {
@@ -4962,27 +4402,21 @@
         "uniquenessRatio": 0
       },
       "fontFamilies": {
-        "total": 14,
-        "totalUnique": 6,
+        "total": 12,
+        "totalUnique": 5,
         "unique": {
-          "monospace,monospace": 2,
           "var(--MPLUSRounded1c)": 1,
           "Reggae One": 2,
           "Rounded Mplus\\ 1c": 6,
           "Rounded Mplus\\ 1c Bold": 1,
           "Raleway": 2
         },
-        "uniquenessRatio": 0.42857142857142855
+        "uniquenessRatio": 0.4166666666666667
       },
       "fontSizes": {
-        "total": 44,
-        "totalUnique": 16,
+        "total": 38,
+        "totalUnique": 13,
         "unique": {
-          "2em": 3,
-          "1em": 5,
-          "80%": 1,
-          "75%": 1,
-          "100%": 1,
           "13px": 6,
           "24px": 8,
           "17px": 3,
@@ -4992,23 +4426,23 @@
           "14px": 2,
           "16px": 2,
           "1.2em": 1,
+          "2em": 2,
           "1.5em": 3,
+          "1em": 3,
           "var(--fs-s)": 1
         },
-        "uniquenessRatio": 0.36363636363636365
+        "uniquenessRatio": 0.34210526315789475
       },
       "lineHeights": {
-        "total": 17,
-        "totalUnique": 6,
+        "total": 14,
+        "totalUnique": 4,
         "unique": {
-          "0": 1,
-          "1.15": 2,
           "normal": 11,
           "40px": 1,
           "132%": 1,
           "1.5": 1
         },
-        "uniquenessRatio": 0.35294117647058826
+        "uniquenessRatio": 0.2857142857142857
       },
       "zindexes": {
         "total": 3,
@@ -5100,80 +4534,28 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 258,
+        "total": 247,
         "totalUnique": 7,
         "unique": {
-          "em": 20,
-          "px": 225,
+          "px": 223,
+          "em": 11,
           "turn": 1,
           "rem": 2,
           "s": 7,
           "vw": 1,
           "deg": 2
         },
-        "uniquenessRatio": 0.027131782945736434,
+        "uniquenessRatio": 0.02834008097165992,
         "itemsPerContext": {
           "font-size": {
-            "total": 40,
+            "total": 37,
             "totalUnique": 3,
             "unique": {
-              "em": 12,
               "px": 26,
-              "rem": 2
+              "rem": 2,
+              "em": 9
             },
-            "uniquenessRatio": 0.075
-          },
-          "margin": {
-            "total": 15,
-            "totalUnique": 2,
-            "unique": {
-              "em": 3,
-              "px": 12
-            },
-            "uniquenessRatio": 0.13333333333333333
-          },
-          "bottom": {
-            "total": 3,
-            "totalUnique": 2,
-            "unique": {
-              "em": 1,
-              "px": 2
-            },
-            "uniquenessRatio": 0.6666666666666666
-          },
-          "top": {
-            "total": 5,
-            "totalUnique": 2,
-            "unique": {
-              "em": 1,
-              "px": 4
-            },
-            "uniquenessRatio": 0.4
-          },
-          "outline": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
-          "padding": {
-            "total": 31,
-            "totalUnique": 2,
-            "unique": {
-              "em": 3,
-              "px": 28
-            },
-            "uniquenessRatio": 0.06451612903225806
-          },
-          "outline-offset": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.08108108108108109
           },
           "letter-spacing": {
             "total": 14,
@@ -5247,6 +4629,14 @@
             },
             "uniquenessRatio": 0.05
           },
+          "padding": {
+            "total": 28,
+            "totalUnique": 1,
+            "unique": {
+              "px": 28
+            },
+            "uniquenessRatio": 0.03571428571428571
+          },
           "margin-left": {
             "total": 7,
             "totalUnique": 1,
@@ -5262,6 +4652,15 @@
               "px": 3
             },
             "uniquenessRatio": 0.3333333333333333
+          },
+          "margin": {
+            "total": 14,
+            "totalUnique": 2,
+            "unique": {
+              "px": 12,
+              "em": 2
+            },
+            "uniquenessRatio": 0.14285714285714285
           },
           "gap": {
             "total": 5,
@@ -5337,6 +4736,14 @@
             },
             "uniquenessRatio": 0.3333333333333333
           },
+          "top": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
           "padding-top": {
             "total": 1,
             "totalUnique": 1,
@@ -5344,6 +4751,14 @@
               "px": 1
             },
             "uniquenessRatio": 1
+          },
+          "bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
           },
           "min-height": {
             "total": 1,
@@ -5370,23 +4785,22 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 577
+        "sum": 522
       },
       "keywords": {
-        "total": 47,
-        "totalUnique": 3,
+        "total": 36,
+        "totalUnique": 2,
         "unique": {
-          "none": 23,
-          "inherit": 3,
-          "auto": 21
+          "auto": 19,
+          "none": 17
         },
-        "uniquenessRatio": 0.06382978723404255
+        "uniquenessRatio": 0.05555555555555555
       }
     },
     "__meta__": {
-      "parseTime": 4,
-      "analyzeTime": 5,
-      "total": 9
+      "parseTime": 2,
+      "analyzeTime": 6,
+      "total": 8
     }
   }
 }

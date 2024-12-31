@@ -3,33 +3,105 @@
     {
       "file": "http://127.0.0.1:5500/",
       "title": "Sci'fi Stival",
+      "images": [
+        {
+          "src": "assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "assets/imgAcceuilHeader.webp",
+          "alt": "Image principale"
+        },
+        {
+          "src": "assets/ticket.svg",
+          "alt": "Billetterie"
+        },
+        {
+          "src": "assets/calendar.svg",
+          "alt": "Programme"
+        },
+        {
+          "src": "assets/informations.svg",
+          "alt": "Informations"
+        },
+        {
+          "src": "assets/carrousselInterstellar.webp",
+          "alt": "Affiche Interstellar"
+        },
+        {
+          "src": "assets/carrousselAlien.webp",
+          "alt": "Affiche Alien"
+        },
+        {
+          "src": "assets/carrousselDune.webp",
+          "alt": "Affiche Dune"
+        },
+        {
+          "src": "assets/carrousselOsiris.webp",
+          "alt": "Affiche Osiris"
+        },
+        {
+          "src": "assets/imgAccueil1.webp",
+          "alt": "Image du festival"
+        },
+        {
+          "src": "assets/imgAccueil2.webp",
+          "alt": "Image des invités"
+        },
+        {
+          "src": "assets/imgAccueil3.webp",
+          "alt": "Image de la programmation"
+        },
+        {
+          "src": "assets/institutfr.webp",
+          "alt": "Partenaire Institut Fr"
+        },
+        {
+          "src": "assets/cnc.webp",
+          "alt": "Partenaire CNC"
+        },
+        {
+          "src": "assets/creditcoop.webp",
+          "alt": "Partenaire Crédit Coopératif"
+        },
+        {
+          "src": "assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 138,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 26,
-        "a": 24,
-        "img": 24,
-        "nav": 1,
-        "ul": 3,
-        "li": 13,
-        "h4": 8,
-        "h3": 4,
-        "section": 2,
-        "h2": 3,
-        "br": 3,
-        "p": 2,
-        "main": 1,
-        "button": 5,
-        "span": 4,
-        "script": 2,
-        "footer": 1
-      },
       "externalLinks": 8,
       "internalLinks": 12,
       "deadLinks": 4,
@@ -44,68 +116,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de Science-Fiction  15 au 19 Mars 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Le Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h3",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Nos Partenaires"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -231,7 +241,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.92,
         "accessibility": 0.91,
         "bestPractices": 1,
         "seo": 0.91,
@@ -246,7 +256,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -397,6 +407,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -556,34 +572,85 @@
     {
       "file": "http://127.0.0.1:5500/html/festival.html",
       "title": "Le Festival Sci-Fi Festival",
+      "images": [
+        {
+          "src": "/assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "/assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "/assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "/assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "/assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "/assets/imgMenu.webp",
+          "alt": "Image header"
+        },
+        {
+          "src": "/assets/pagefestival1.webp",
+          "alt": "Poster de film"
+        },
+        {
+          "src": "/assets/pagefestival2.webp",
+          "alt": "Concert Sci-Fi"
+        },
+        {
+          "src": "/assets/employe_1.webp",
+          "alt": "Thomas Morel"
+        },
+        {
+          "src": "/assets/employe_2.webp",
+          "alt": "Sophie Lemine"
+        },
+        {
+          "src": "/assets/employe_3.webp",
+          "alt": "Lucas Perrin"
+        },
+        {
+          "src": "/assets/employe_4.webp",
+          "alt": "Alice Dupuy"
+        },
+        {
+          "src": "/assets/employe_5.webp",
+          "alt": "Camille Roche"
+        },
+        {
+          "src": "/assets/employe_6.webp",
+          "alt": "Julien Garnier"
+        },
+        {
+          "src": "/assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 124,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 18,
-        "a": 18,
-        "img": 19,
-        "nav": 1,
-        "ul": 3,
-        "li": 13,
-        "h4": 8,
-        "h3": 1,
-        "main": 1,
-        "section": 4,
-        "h1": 1,
-        "p": 6,
-        "h5": 6,
-        "h6": 6,
-        "script": 2,
-        "footer": 1,
-        "h2": 2,
-        "br": 2
-      },
       "externalLinks": 8,
       "internalLinks": 7,
       "deadLinks": 3,
@@ -598,104 +665,6 @@
         "h5": 6,
         "h6": 6
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h1",
-          "text": "Le Festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Notre équipe"
-        },
-        {
-          "tag": "h5",
-          "text": "Thomas Morel"
-        },
-        {
-          "tag": "h6",
-          "text": "Coordinateur logistique"
-        },
-        {
-          "tag": "h5",
-          "text": "Sophie Lemine"
-        },
-        {
-          "tag": "h6",
-          "text": "Directrice artistique"
-        },
-        {
-          "tag": "h5",
-          "text": "Lucas Perrin"
-        },
-        {
-          "tag": "h6",
-          "text": "Coordinateur des bénévoles"
-        },
-        {
-          "tag": "h5",
-          "text": "Alice Dupuy"
-        },
-        {
-          "tag": "h6",
-          "text": "Chargée de communication"
-        },
-        {
-          "tag": "h5",
-          "text": "Camille Roche"
-        },
-        {
-          "tag": "h6",
-          "text": "Responsable des partenariats"
-        },
-        {
-          "tag": "h5",
-          "text": "Julien Garnier"
-        },
-        {
-          "tag": "h6",
-          "text": "Rédacteur technique"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -835,7 +804,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.9,
+        "performance": 0.94,
         "accessibility": 0.97,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -850,7 +819,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -971,6 +940,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1130,33 +1105,73 @@
     {
       "file": "http://127.0.0.1:5500/html/invites.html",
       "title": "Invités Sci-Fi Festival",
+      "images": [
+        {
+          "src": "/assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "/assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "/assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "/assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "/assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "/assets/imgMenu.webp",
+          "alt": "Image header"
+        },
+        {
+          "src": "/assets/realisateur1.webp",
+          "alt": "Jean Dupont"
+        },
+        {
+          "src": "/assets/realisateur2.webp",
+          "alt": "Sophie Lemaitre"
+        },
+        {
+          "src": "/assets/acteur1.webp",
+          "alt": "Sam Rockwell"
+        },
+        {
+          "src": "/assets/jury1.webp",
+          "alt": "Anne Bernard"
+        },
+        {
+          "src": "/assets/jury2.webp",
+          "alt": "Arnaud Clément"
+        },
+        {
+          "src": "/assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 116,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 15,
-        "a": 21,
-        "img": 16,
-        "nav": 1,
-        "ul": 3,
-        "li": 13,
-        "h4": 12,
-        "h3": 1,
-        "main": 1,
-        "section": 3,
-        "h1": 2,
-        "p": 8,
-        "span": 1,
-        "script": 2,
-        "footer": 1,
-        "h2": 2,
-        "br": 2
-      },
       "externalLinks": 8,
       "internalLinks": 10,
       "deadLinks": 3,
@@ -1171,76 +1186,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h1",
-          "text": "Invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Jean Dupont"
-        },
-        {
-          "tag": "h4",
-          "text": "Sophie Lemaitre"
-        },
-        {
-          "tag": "h4",
-          "text": "Sam Rockwell"
-        },
-        {
-          "tag": "h1",
-          "text": "Notre jury"
-        },
-        {
-          "tag": "h4",
-          "text": "Anne Bernard"
-        },
-        {
-          "tag": "h4",
-          "text": "Arnaud Clément"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1365,7 +1310,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1468,6 +1413,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1633,32 +1584,57 @@
     {
       "file": "http://127.0.0.1:5500/html/infos.html",
       "title": "Infos Sci-Fi Festival",
+      "images": [
+        {
+          "src": "/assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "/assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "/assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "/assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "/assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "/assets/imgMenu.webp",
+          "alt": "Image header"
+        },
+        {
+          "src": "/assets/pageinfocarte.webp",
+          "alt": "Carte de Belfort"
+        },
+        {
+          "src": "/assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 116,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 13,
-        "a": 18,
-        "img": 12,
-        "nav": 1,
-        "ul": 4,
-        "li": 16,
-        "h4": 7,
-        "h3": 8,
-        "main": 1,
-        "section": 5,
-        "h1": 1,
-        "p": 11,
-        "script": 2,
-        "footer": 1,
-        "h2": 2,
-        "br": 2
-      },
       "externalLinks": 8,
       "internalLinks": 7,
       "deadLinks": 3,
@@ -1673,80 +1649,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h1",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 1 jour"
-        },
-        {
-          "tag": "h3",
-          "text": "Pass 3 jours"
-        },
-        {
-          "tag": "h3",
-          "text": "Comment réserver ?"
-        },
-        {
-          "tag": "h3",
-          "text": "Conditions d’accès"
-        },
-        {
-          "tag": "h3",
-          "text": "Accès et transport"
-        },
-        {
-          "tag": "h3",
-          "text": "Hébergement"
-        },
-        {
-          "tag": "h3",
-          "text": "Restauration"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1871,7 +1773,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.96,
+        "performance": 0.91,
         "accessibility": 0.97,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1886,7 +1788,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1965,6 +1867,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2124,33 +2032,73 @@
     {
       "file": "http://127.0.0.1:5500/html/programme.html",
       "title": "Programme Sci-Fi Festival",
+      "images": [
+        {
+          "src": "/assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "/assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "/assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "/assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "/assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "/assets/imgMenu.webp",
+          "alt": "Image header"
+        },
+        {
+          "src": "/assets/bladerunnerprogramme.webp",
+          "alt": "Affiche de Blade Runner"
+        },
+        {
+          "src": "/assets/concertprogramme.webp",
+          "alt": "Concert Musiques cultes SF"
+        },
+        {
+          "src": "/assets/moonprogramme.webp",
+          "alt": "Affiche de Moon"
+        },
+        {
+          "src": "/assets/vastnightprogramme.webp",
+          "alt": "Affiche The Vast of Night"
+        },
+        {
+          "src": "/assets/telechargementpdf.svg",
+          "alt": "Télécharger"
+        },
+        {
+          "src": "/assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 136,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 19,
-        "a": 19,
-        "img": 16,
-        "nav": 1,
-        "ul": 3,
-        "li": 13,
-        "h4": 14,
-        "h3": 4,
-        "main": 1,
-        "section": 6,
-        "h1": 1,
-        "p": 19,
-        "span": 1,
-        "script": 2,
-        "footer": 1,
-        "h2": 2,
-        "br": 2
-      },
       "externalLinks": 8,
       "internalLinks": 8,
       "deadLinks": 3,
@@ -2165,92 +2113,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h1",
-          "text": "Programme"
-        },
-        {
-          "tag": "h3",
-          "text": "Vendredi 14 mars 2025"
-        },
-        {
-          "tag": "h4",
-          "text": "Séances spéciales"
-        },
-        {
-          "tag": "h4",
-          "text": "17h : Masterclass - \"Créer des mondes futuristes\""
-        },
-        {
-          "tag": "h3",
-          "text": "Samedi 15 mars 2025"
-        },
-        {
-          "tag": "h4",
-          "text": "Séances spéciales"
-        },
-        {
-          "tag": "h4",
-          "text": "11h : Rencontre - \"La place de l'intelligence artificielle dans le cinéma\""
-        },
-        {
-          "tag": "h4",
-          "text": "17h : Avant-première - \"Courts-métrages de SF réalisés par de jeunes talents locaux\""
-        },
-        {
-          "tag": "h3",
-          "text": "Dimanche 16 mars 2025"
-        },
-        {
-          "tag": "h4",
-          "text": "Séances spéciales"
-        },
-        {
-          "tag": "h4",
-          "text": "17h : Conférence – \"Les grandes sagas SF et leur impact culturel\"es\""
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2385,7 +2247,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.91,
+        "performance": 0.9,
         "accessibility": 0.97,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2400,7 +2262,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2503,6 +2365,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2662,39 +2530,65 @@
     {
       "file": "http://127.0.0.1:5500/html/contact.html",
       "title": "Contact Sci-Fi Festival",
+      "images": [
+        {
+          "src": "/assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "/assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "/assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "/assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "/assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "/assets/imgMenu.webp",
+          "alt": "Image header"
+        },
+        {
+          "src": "/assets/messages.svg",
+          "alt": "Icon Messages"
+        },
+        {
+          "src": "/assets/callcalling.svg",
+          "alt": "Icon Téléphone"
+        },
+        {
+          "src": "/assets/house.svg",
+          "alt": "Icon Maison"
+        },
+        {
+          "src": "/assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 118,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 12,
-        "a": 19,
-        "img": 14,
-        "nav": 1,
-        "ul": 3,
-        "li": 13,
-        "h4": 13,
-        "h3": 2,
-        "main": 1,
-        "section": 4,
-        "h1": 1,
-        "h2": 3,
-        "form": 1,
-        "label": 4,
-        "input": 3,
-        "textarea": 1,
-        "button": 1,
-        "span": 1,
-        "b": 3,
-        "script": 2,
-        "footer": 1,
-        "p": 1,
-        "br": 2
-      },
       "externalLinks": 9,
       "internalLinks": 7,
       "deadLinks": 3,
@@ -2709,84 +2603,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h1",
-          "text": "Nous contacter"
-        },
-        {
-          "tag": "h2",
-          "text": "Vous avez des questions ou un avis à partager ? Contactez-nous !"
-        },
-        {
-          "tag": "h3",
-          "text": "Formulaire de contact"
-        },
-        {
-          "tag": "h4",
-          "text": "Écrivez-nous"
-        },
-        {
-          "tag": "h4",
-          "text": "serviceclient@offstage.fr"
-        },
-        {
-          "tag": "h4",
-          "text": "Téléphonez-nous"
-        },
-        {
-          "tag": "h4",
-          "text": "01 86 47 80 04"
-        },
-        {
-          "tag": "h4",
-          "text": "Adresse postale"
-        },
-        {
-          "tag": "h4",
-          "text": "MAIS de QUAR av Laurencie, 90000 Belfort"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2911,7 +2727,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.91,
+        "performance": 0.92,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2926,7 +2742,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3017,6 +2833,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3176,33 +2998,53 @@
     {
       "file": "http://127.0.0.1:5500/html/ficheinvites.html",
       "title": "Fiche invités Sci-Fi Festival",
+      "images": [
+        {
+          "src": "/assets/logo.svg",
+          "alt": "Logo Festival"
+        },
+        {
+          "src": "/assets/facebookFonce.svg",
+          "alt": "Icon Facebook"
+        },
+        {
+          "src": "/assets/instagramfonce.svg",
+          "alt": "Icon Instagram"
+        },
+        {
+          "src": "/assets/twitterfonce.svg",
+          "alt": "Icon twitter"
+        },
+        {
+          "src": "/assets/youtubefonce.svg",
+          "alt": "Icon Youtube"
+        },
+        {
+          "src": "/assets/afficheInvité1.webp",
+          "alt": "Sam Rockwell"
+        },
+        {
+          "src": "/assets/logo.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/facebookClair.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/instagramclair.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/twitterclair.svg",
+          "alt": "Twitter"
+        },
+        {
+          "src": "/assets/youtubeclair.svg",
+          "alt": "Youtube"
+        }
+      ],
       "totalTags": 94,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 5,
-        "body": 1,
-        "header": 1,
-        "div": 9,
-        "a": 18,
-        "img": 11,
-        "nav": 1,
-        "ul": 3,
-        "li": 13,
-        "h4": 8,
-        "h3": 1,
-        "main": 1,
-        "section": 3,
-        "h1": 1,
-        "p": 5,
-        "span": 1,
-        "script": 2,
-        "footer": 1,
-        "h2": 2,
-        "br": 2
-      },
       "externalLinks": 8,
       "internalLinks": 7,
       "deadLinks": 3,
@@ -3217,56 +3059,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h4",
-          "text": "Le festival"
-        },
-        {
-          "tag": "h4",
-          "text": "Les invités"
-        },
-        {
-          "tag": "h4",
-          "text": "Infos pratiques"
-        },
-        {
-          "tag": "h4",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h4",
-          "text": "Les films"
-        },
-        {
-          "tag": "h4",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nous suivre"
-        },
-        {
-          "tag": "h1",
-          "text": "Sam Rockwell"
-        },
-        {
-          "tag": "h4",
-          "text": "Intervention durant le festival"
-        },
-        {
-          "tag": "h2",
-          "text": "Festival de science fiction"
-        },
-        {
-          "tag": "h4",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h2",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3361,7 +3153,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1159,
+            "resourceSize": 1192,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3434,6 +3226,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap",
             "resourceSize": 5906,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 0,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -5908,9 +5706,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 2,
+      "parseTime": 4,
       "analyzeTime": 4,
-      "total": 6
+      "total": 8
     }
   }
 }

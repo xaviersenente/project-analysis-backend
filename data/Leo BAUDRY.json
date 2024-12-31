@@ -3,39 +3,81 @@
     {
       "file": "http://127.0.0.1:5500/",
       "title": "Page d'accueil",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_accueil_festival.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/icons/Calendrier.svg",
+          "alt": "Icône de calendrier"
+        },
+        {
+          "src": "/assets/img/decathlon.webp",
+          "alt": "Decathlon"
+        },
+        {
+          "src": "/assets/img/ISFF.webp",
+          "alt": "Festival Clermont Court"
+        },
+        {
+          "src": "/assets/img/logo-vectoriel-ville-de-belfort.webp",
+          "alt": "Ville de Belfort"
+        },
+        {
+          "src": "/assets/img/est_republicain.webp",
+          "alt": "L'Est Républicain"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 170,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 36,
-        "img": 18,
-        "h2": 5,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 8,
-        "li": 27,
-        "div": 11,
-        "section": 5,
-        "h1": 1,
-        "h3": 3,
-        "p": 5,
-        "strong": 6,
-        "em": 3,
-        "hr": 6,
-        "details": 4,
-        "summary": 4,
-        "h4": 5,
-        "footer": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 5,
       "internalLinks": 23,
       "deadLinks": 8,
@@ -50,72 +92,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Ça va trai'ler !"
-        },
-        {
-          "tag": "h3",
-          "text": "Du 25 au 21 avril 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "Découvrez l'alliance du cinéma et du sport"
-        },
-        {
-          "tag": "h2",
-          "text": "Découvrez notre programmation !"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Ça va Trai'ler\", c'est :"
-        },
-        {
-          "tag": "h4",
-          "text": "Découvrez le programme complet du festival \"Ça va trai'ler\" !"
-        },
-        {
-          "tag": "h4",
-          "text": "Découvrez la liste des films en compétition pour le festival \"Ça va Trai'ler\" !"
-        },
-        {
-          "tag": "h4",
-          "text": "Découvrez la liste des invités du festival \"Ça va Trai'ler\" !"
-        },
-        {
-          "tag": "h4",
-          "text": "Apprenez tout ce qu'il y a à savoir sur l'événement !"
-        },
-        {
-          "tag": "h2",
-          "text": "Nos partenaires"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -230,7 +206,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.79,
+        "performance": 0.92,
         "accessibility": 0.89,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -245,7 +221,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -318,6 +294,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -507,37 +489,93 @@
     {
       "file": "http://127.0.0.1:5500/festival.html",
       "title": "Page festival",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_festival.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/img/photo_caroussel_1.webp",
+          "alt": "Un couple de coureurs"
+        },
+        {
+          "src": "assets/img/photo_caroussel_2.webp",
+          "alt": "Le lieu de projection"
+        },
+        {
+          "src": "assets/img/photo_caroussel_3.webp",
+          "alt": "Un coureur pendant un trail"
+        },
+        {
+          "src": "assets/img/photo_caroussel_4.webp",
+          "alt": "Le mythe de sissyphe"
+        },
+        {
+          "src": "assets/img/photo_caroussel_5.webp",
+          "alt": "Une famille heureuse dans notre événement"
+        },
+        {
+          "src": "/assets/icons/fleche_carousel.svg",
+          "alt": "fleche gauche"
+        },
+        {
+          "src": "/assets/icons/fleche_carousel.svg",
+          "alt": "fleche droite"
+        },
+        {
+          "src": "assets/img/arbre_main.webp",
+          "alt": "Image d'une main tenant une pousse d'arbre"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 201,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 26,
-        "img": 21,
-        "h2": 8,
-        "button": 3,
-        "span": 1,
-        "nav": 3,
-        "ul": 8,
-        "li": 28,
-        "div": 12,
-        "section": 7,
-        "h1": 1,
-        "p": 15,
-        "em": 17,
-        "strong": 22,
-        "hr": 6,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 17,
       "deadLinks": 8,
@@ -552,64 +590,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Le Festival"
-        },
-        {
-          "tag": "h2",
-          "text": "Présentation"
-        },
-        {
-          "tag": "h2",
-          "text": "Nos origines"
-        },
-        {
-          "tag": "h2",
-          "text": "Objectifs"
-        },
-        {
-          "tag": "h2",
-          "text": "Carousel d'images du festival"
-        },
-        {
-          "tag": "h2",
-          "text": "L'équipe"
-        },
-        {
-          "tag": "h2",
-          "text": "Pourquoi participer ?"
-        },
-        {
-          "tag": "h2",
-          "text": "Engagements écologiques et sociaux"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -739,7 +719,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -812,6 +792,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1019,37 +1005,61 @@
     {
       "file": "http://127.0.0.1:5500/programmation.html",
       "title": "Page programmation",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_programme.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 274,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 24,
-        "img": 13,
-        "h2": 6,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 13,
-        "li": 47,
-        "div": 4,
-        "section": 14,
-        "h1": 1,
-        "p": 13,
-        "em": 20,
-        "h3": 10,
-        "strong": 62,
-        "hr": 12,
-        "h4": 9,
-        "h5": 5,
-        "footer": 1,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 15,
       "deadLinks": 8,
@@ -1064,132 +1074,6 @@
         "h5": 5,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Le programme"
-        },
-        {
-          "tag": "h2",
-          "text": "Programme par journée"
-        },
-        {
-          "tag": "h3",
-          "text": "Mardi 15/04  : Projection d'ouverture et ateliers de rencontre avec des réalisateurs."
-        },
-        {
-          "tag": "h3",
-          "text": "Mercredi 16/04 : Courses sportives en plein air + projections thématiques."
-        },
-        {
-          "tag": "h3",
-          "text": "Jeudi 17/04 : Conférences sur le cinéma et le sport + démonstrations sportives."
-        },
-        {
-          "tag": "h3",
-          "text": "Vendredi 18/04 : Projections de films en compétition + activités sportives participatives."
-        },
-        {
-          "tag": "h3",
-          "text": "Samedi 19/04 : Remise de prix et soirée festive."
-        },
-        {
-          "tag": "h3",
-          "text": "Dimanche 20/04 : Clôture du festival."
-        },
-        {
-          "tag": "h3",
-          "text": "Lundi 21/04 : Activités libres."
-        },
-        {
-          "tag": "h2",
-          "text": "Rencontres"
-        },
-        {
-          "tag": "h4",
-          "text": "Rencontre avec les créateurs primés : L'art du court-métrage."
-        },
-        {
-          "tag": "h5",
-          "text": "Invité : Sam Karmann (Omnibus)."
-        },
-        {
-          "tag": "h4",
-          "text": "L'animation comme outil de narration et de satire."
-        },
-        {
-          "tag": "h5",
-          "text": "Invités : Laurent Witz et Alexandre Espigares (Mr Hublot)"
-        },
-        {
-          "tag": "h4",
-          "text": "Hommage aux classiques intemporels."
-        },
-        {
-          "tag": "h5",
-          "text": "Focus sur les œuvres qui ont façonné le genre :"
-        },
-        {
-          "tag": "h4",
-          "text": "Session interactive : Questions au public."
-        },
-        {
-          "tag": "h4",
-          "text": "Atelier découverte."
-        },
-        {
-          "tag": "h2",
-          "text": "Précisions"
-        },
-        {
-          "tag": "h3",
-          "text": "Le festival se déroulera du 15 au 21 avril 2025."
-        },
-        {
-          "tag": "h4",
-          "text": "Projections de courts-métrages :"
-        },
-        {
-          "tag": "h4",
-          "text": "Sessions sportives :"
-        },
-        {
-          "tag": "h4",
-          "text": "Ateliers interactifs :"
-        },
-        {
-          "tag": "h2",
-          "text": "Informations pratiques"
-        },
-        {
-          "tag": "h2",
-          "text": "Apprenez-en plus !"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -1419,7 +1303,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.9,
+        "performance": 0.95,
         "accessibility": 0.89,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1434,7 +1318,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1501,6 +1385,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1684,37 +1574,109 @@
     {
       "file": "http://127.0.0.1:5500/liste_films.html",
       "title": "Liste des films",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_programme.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/img/Poster_omnibus.webp",
+          "alt": "Poster du film 'Omnibus'"
+        },
+        {
+          "src": "assets/img/Poster_Mr_Hublot.webp",
+          "alt": "Poster du film 'Mr Hublot'"
+        },
+        {
+          "src": "assets/img/Poster_Logorama.webp",
+          "alt": "Poster du film 'Logorama'"
+        },
+        {
+          "src": "assets/img/Poster_le_Poulet.webp",
+          "alt": "Poster du film 'Le Poulet'"
+        },
+        {
+          "src": "assets/img/Poster_La_Riviere_du_hibou.webp",
+          "alt": "Poster du film 'La rivière du hibou'"
+        },
+        {
+          "src": "assets/img/Poster_Heureux_Anniversaire.webp",
+          "alt": "Poster du film 'Heureux Anniversaire'"
+        },
+        {
+          "src": "assets/img/Poster_Histoire_d_un_poisson_rouge.webp",
+          "alt": "Poster du film 'Histoire d'un poisson rouge'"
+        },
+        {
+          "src": "assets/img/Poster_La_Jetee.webp",
+          "alt": "Poster du film 'La Jetée'"
+        },
+        {
+          "src": "assets/img/Poster_Le_Voyage_dans_la_Lune.webp",
+          "alt": "Poster du film 'Le Voyage dans la Lune'"
+        },
+        {
+          "src": "assets/img/Poster_Vincent.webp",
+          "alt": "Poster du film 'Vincent'"
+        },
+        {
+          "src": "assets/img/Poster_Emilie_Muller.webp",
+          "alt": "Poster du film 'Emilie Muller'"
+        },
+        {
+          "src": "assets/img/Poster_L_accordeur.webp",
+          "alt": "Poster du film 'L'accordeur'"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 180,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 33,
-        "img": 25,
-        "h2": 2,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 6,
-        "li": 19,
-        "div": 4,
-        "section": 14,
-        "h1": 1,
-        "p": 12,
-        "em": 12,
-        "strong": 14,
-        "hr": 12,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 13,
       "deadLinks": 19,
@@ -1729,40 +1691,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Films"
-        },
-        {
-          "tag": "h2",
-          "text": "Découvrez les films"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -1817,7 +1745,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.8,
+        "performance": 0.89,
         "accessibility": 0.91,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -1832,7 +1760,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1905,6 +1833,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2106,37 +2040,77 @@
     {
       "file": "http://127.0.0.1:5500/liste_invites.html",
       "title": "Liste des invités",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_invites.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/img/Invite_Sam_Karmann.webp",
+          "alt": "'Photo de Sam Karmann'"
+        },
+        {
+          "src": "assets/img/Invite_Laurent_Witz.webp",
+          "alt": "'Photo de Laurent WITZ'"
+        },
+        {
+          "src": "assets/img/Invite_Francois_Alaux.webp",
+          "alt": "'Photo de François ALAUX'"
+        },
+        {
+          "src": "assets/img/Invite_Clovis_Cornillac.webp",
+          "alt": "'Photo de Clovis CORNILLAC'"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 121,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 25,
-        "img": 17,
-        "h2": 2,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 6,
-        "li": 19,
-        "div": 4,
-        "section": 5,
-        "h1": 1,
-        "p": 4,
-        "strong": 4,
-        "em": 4,
-        "hr": 4,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 13,
       "deadLinks": 11,
@@ -2151,40 +2125,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Invités"
-        },
-        {
-          "tag": "h2",
-          "text": "Découvrez les invités"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -2239,7 +2179,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.88,
+        "performance": 0.94,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2254,7 +2194,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2327,6 +2267,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2528,37 +2474,65 @@
     {
       "file": "http://127.0.0.1:5500/infos_pratiques.html",
       "title": "Page informations pratiques",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_informations_pratiques.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/img/carte_belfort.webp",
+          "alt": "Carte de Belfort"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 153,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 22,
-        "img": 14,
-        "h2": 5,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 7,
-        "li": 22,
-        "div": 4,
-        "section": 5,
-        "h1": 1,
-        "p": 13,
-        "strong": 15,
-        "em": 14,
-        "hr": 5,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 2,
       "internalLinks": 12,
       "deadLinks": 8,
@@ -2573,52 +2547,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Informations pratiques"
-        },
-        {
-          "tag": "h2",
-          "text": "Réservation"
-        },
-        {
-          "tag": "h2",
-          "text": "Localisation"
-        },
-        {
-          "tag": "h2",
-          "text": "Adresse complète"
-        },
-        {
-          "tag": "h2",
-          "text": "Comment s'y rendre ?"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -2708,7 +2636,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.83,
+        "performance": 0.89,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2723,7 +2651,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2790,6 +2718,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2979,41 +2913,81 @@
     {
       "file": "http://127.0.0.1:5500/page_contact.html",
       "title": "Page contact",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_contact.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/icons/facebook_black.svg",
+          "alt": "Lien Facebook"
+        },
+        {
+          "src": "assets/icons/instagram_black.svg",
+          "alt": "Lien Instagram"
+        },
+        {
+          "src": "assets/icons/twitter_black.svg",
+          "alt": "Lien Twitter"
+        },
+        {
+          "src": "assets/icons/youtube_black.svg",
+          "alt": "Lien Youtube"
+        },
+        {
+          "src": "assets/icons/tiktok_black.svg",
+          "alt": "Lien Tiktok"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 157,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 28,
-        "img": 18,
-        "h2": 4,
-        "button": 2,
-        "span": 1,
-        "nav": 2,
-        "ul": 9,
-        "li": 32,
-        "div": 4,
-        "section": 4,
-        "h1": 1,
-        "p": 5,
-        "strong": 8,
-        "em": 3,
-        "form": 1,
-        "label": 4,
-        "input": 3,
-        "textarea": 1,
-        "hr": 3,
-        "address": 3,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2
-      },
       "externalLinks": 1,
       "internalLinks": 14,
       "deadLinks": 13,
@@ -3028,48 +3002,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Contact"
-        },
-        {
-          "tag": "h2",
-          "text": "Formulaire de contact"
-        },
-        {
-          "tag": "h2",
-          "text": "Coordonnées"
-        },
-        {
-          "tag": "h2",
-          "text": "Réseaux sociaux"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -3149,7 +3081,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.91,
+        "performance": 0.96,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3164,7 +3096,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3231,6 +3163,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3414,35 +3352,61 @@
     {
       "file": "http://127.0.0.1:5500/billeterie.html",
       "title": "Page billeterie artificielle",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_accueil_festival.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 100,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 22,
-        "img": 13,
-        "h2": 2,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 6,
-        "li": 19,
-        "div": 4,
-        "section": 2,
-        "h1": 1,
-        "hr": 2,
-        "h3": 3,
-        "h4": 2,
-        "p": 1,
-        "footer": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 13,
       "deadLinks": 8,
@@ -3457,48 +3421,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Fausse Billeterie"
-        },
-        {
-          "tag": "h2",
-          "text": "Ceci est une fausse billeterie !"
-        },
-        {
-          "tag": "h3",
-          "text": "Il n'y a pas de vrai festival, donc pas de billets à vendre."
-        },
-        {
-          "tag": "h4",
-          "text": "Il s'agit d'un exercice pour s'entraîner à créer des liens entre les pages d'un site web."
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -3568,7 +3490,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.85,
+        "performance": 0.93,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3583,7 +3505,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3650,6 +3572,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3833,35 +3761,61 @@
     {
       "file": "http://127.0.0.1:5500/mentions_legales.html",
       "title": "Page mentions légales",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_accueil_festival.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 124,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 27,
-        "img": 13,
-        "h2": 2,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 6,
-        "li": 19,
-        "div": 4,
-        "section": 4,
-        "h1": 1,
-        "hr": 4,
-        "h3": 5,
-        "p": 8,
-        "h4": 2,
-        "address": 7,
-        "footer": 1,
-        "h5": 2
-      },
       "externalLinks": 1,
       "internalLinks": 18,
       "deadLinks": 8,
@@ -3876,56 +3830,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Mentions Légales"
-        },
-        {
-          "tag": "h2",
-          "text": "Voici les mentions légales :"
-        },
-        {
-          "tag": "h3",
-          "text": "Propriétaire :"
-        },
-        {
-          "tag": "h4",
-          "text": "Afin de me contacter :"
-        },
-        {
-          "tag": "h3",
-          "text": "Hébergeur :"
-        },
-        {
-          "tag": "h3",
-          "text": "Directeur de la publication :"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -4015,7 +3919,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.8,
+        "performance": 0.93,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -4030,7 +3934,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4097,6 +4001,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4280,38 +4190,65 @@
     {
       "file": "http://127.0.0.1:5500/presentation_film.html",
       "title": "Présentation du film",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_presentation_film.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/img/Poster_omnibus.webp",
+          "alt": "Poster du film"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 131,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 21,
-        "img": 14,
-        "h2": 5,
-        "button": 1,
-        "span": 1,
-        "nav": 2,
-        "ul": 6,
-        "li": 19,
-        "div": 4,
-        "section": 5,
-        "h1": 1,
-        "hr": 4,
-        "p": 9,
-        "em": 9,
-        "strong": 7,
-        "video": 1,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 12,
       "deadLinks": 8,
@@ -4326,52 +4263,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Présentation du film"
-        },
-        {
-          "tag": "h2",
-          "text": "Présentation de \"Omnibus\""
-        },
-        {
-          "tag": "h2",
-          "text": "Synopsis"
-        },
-        {
-          "tag": "h2",
-          "text": "Bande-Annonce"
-        },
-        {
-          "tag": "h2",
-          "text": "Biographie du réalisateur"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -4461,7 +4352,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.9,
+        "performance": 0.95,
         "accessibility": 0.91,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -4476,7 +4367,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4553,8 +4444,20 @@
             "resourceType": "Image"
           },
           {
+            "url": "http://127.0.0.1:5500/assets/video/ba_omnibus.mp4",
+            "resourceSize": 790136,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4691,12 +4594,6 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/video/ba_omnibus.mp4",
-            "resourceSize": 134776,
-            "mimeType": "video/mp4",
-            "resourceType": "Media"
-          },
-          {
             "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
             "resourceSize": 547,
             "mimeType": "image/svg+xml",
@@ -4780,37 +4677,85 @@
     {
       "file": "http://127.0.0.1:5500/presentation_invite.html",
       "title": "Présentation de l'invité",
+      "images": [
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo"
+        },
+        {
+          "src": "assets/img/Menu-top.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "Icone Instagram"
+        },
+        {
+          "src": "/assets/icons/youtube.svg",
+          "alt": "Icone Youtube"
+        },
+        {
+          "src": "/assets/icons/twitter.svg",
+          "alt": "Icone Twitter"
+        },
+        {
+          "src": "assets/img/Menu-bot.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/img/page_presentation_invites.webp",
+          "alt": "Entête"
+        },
+        {
+          "src": "assets/img/Invite_Sam_Karmann.webp",
+          "alt": "Photo de Sam KARMANN"
+        },
+        {
+          "src": "assets/img/Invite_Sam_Karmann.webp",
+          "alt": "Photo de Sam KARMANN"
+        },
+        {
+          "src": "assets/img/Invite_Sam_Karmann3.webp",
+          "alt": "Photo de Sam KARMANN"
+        },
+        {
+          "src": "assets/img/Invite_Sam_Karmann5.webp",
+          "alt": "Photo de Sam KARMANN"
+        },
+        {
+          "src": "/assets/icons/fleche_carousel.svg",
+          "alt": "fleche gauche"
+        },
+        {
+          "src": "/assets/icons/fleche_carousel.svg",
+          "alt": "fleche droite"
+        },
+        {
+          "src": "assets/icons/logo64.svg",
+          "alt": "Logo du festival"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "Logo Instagram"
+        },
+        {
+          "src": "assets/icons/youtube.svg",
+          "alt": "Logo Youtube"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "Logo Twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "Logo Facebook"
+        },
+        {
+          "src": "assets/icons/tiktok.svg",
+          "alt": "Logo Tiktok"
+        }
+      ],
       "totalTags": 143,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 6,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 24,
-        "img": 19,
-        "h2": 5,
-        "button": 3,
-        "span": 1,
-        "nav": 3,
-        "ul": 7,
-        "li": 22,
-        "div": 10,
-        "section": 3,
-        "h1": 1,
-        "hr": 4,
-        "p": 7,
-        "em": 8,
-        "strong": 3,
-        "footer": 1,
-        "h3": 2,
-        "h4": 1,
-        "h5": 2,
-        "address": 1
-      },
       "externalLinks": 1,
       "internalLinks": 15,
       "deadLinks": 8,
@@ -4825,52 +4770,6 @@
         "h5": 2,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h2",
-          "text": "Ça va Trai'ler"
-        },
-        {
-          "tag": "h1",
-          "text": "Présentation de l'invité"
-        },
-        {
-          "tag": "h2",
-          "text": "Présentation de Sam KARMANN"
-        },
-        {
-          "tag": "h2",
-          "text": "Biographie"
-        },
-        {
-          "tag": "h2",
-          "text": "Apparitions"
-        },
-        {
-          "tag": "h2",
-          "text": "Carousel d'images de Sam KARMANN"
-        },
-        {
-          "tag": "h3",
-          "text": "Festival"
-        },
-        {
-          "tag": "h3",
-          "text": "\"Ça va trai'ler !\""
-        },
-        {
-          "tag": "h4",
-          "text": "Menu"
-        },
-        {
-          "tag": "h5",
-          "text": "Contact"
-        },
-        {
-          "tag": "h5",
-          "text": "Nous suivre"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 2,
@@ -4950,7 +4849,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.91,
+        "performance": 0.93,
         "accessibility": 0.92,
         "bestPractices": 1,
         "seo": 0.91,
@@ -4965,7 +4864,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1146,
+            "resourceSize": 1179,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -5044,6 +4943,12 @@
           {
             "url": "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 25777,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },

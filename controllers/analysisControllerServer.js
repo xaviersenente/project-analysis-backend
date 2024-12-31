@@ -3,7 +3,7 @@ import path from "path";
 import { HtmlCrawler } from "../services/fileScannerService.js";
 import {
   analyzeHTML,
-  extractTitleFromHTML,
+  extractTitleAndImagesFromHTML,
   analyzeAllPages,
   runLighthouse,
 } from "../services/analysisService.js";
@@ -44,14 +44,14 @@ export const scanUrl = async (req, res) => {
       // Stocker le contenu HTML pour l'analyse globale
       allHtmlContents.push(htmlContent);
 
-      const title = await extractTitleFromHTML(fileUrl);
+      const titleAndImg = extractTitleAndImagesFromHTML(htmlContent);
       const htmlAnalysisResult = analyzeHTML(htmlContent);
       const lighthouseReport = await runLighthouse(fileUrl);
       const validationErrors = await validateHTML(htmlContent);
 
       fileResults.push({
         file: fileUrl,
-        title,
+        ...titleAndImg,
         ...htmlAnalysisResult,
         validationErrors,
         lighthouseReport,

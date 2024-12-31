@@ -1,0 +1,3436 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Festival du films d’animation japonais animēshon",
+      "images": [
+        {
+          "src": "/assets/icons/LOGO.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/img/Acccueil.webp",
+          "alt": "image representant des décord du japon en style animé"
+        },
+        {
+          "src": "/assets/img/festival.webp",
+          "alt": "image d'un festival en style anime"
+        },
+        {
+          "src": "/assets/icons/fleche2.svg",
+          "alt": "fleche du bouton"
+        },
+        {
+          "src": "/assets/img/calendrier.webp",
+          "alt": "image calendrier style anime"
+        },
+        {
+          "src": "/assets/icons/fleche2.svg",
+          "alt": "fleche du bouton"
+        },
+        {
+          "src": "/assets/img/billetteries.webp",
+          "alt": "Deux personne s'embrassant devant un billet de cinéma géant en style animé"
+        },
+        {
+          "src": "/assets/icons/fleche2.svg",
+          "alt": "fleche du bouton"
+        },
+        {
+          "src": "/assets/img/région.webp",
+          "alt": "Logo région bourgogne_franche-comté"
+        },
+        {
+          "src": "/assets/img/grdbelfort.webp",
+          "alt": "logo grand belfort"
+        },
+        {
+          "src": "/assets/img/TourismeBelfort.webp",
+          "alt": "Logo belfort tourisme"
+        },
+        {
+          "src": "/assets/img/glenat.webp",
+          "alt": "logo glénat"
+        },
+        {
+          "src": "/assets/img/kinépolis.webp",
+          "alt": "logo kinépolis"
+        },
+        {
+          "src": "/assets/img/kissa.webp",
+          "alt": "logo kissa sanctuary"
+        },
+        {
+          "src": "/assets/img/gakkdento.webp",
+          "alt": "logo gakkodento"
+        },
+        {
+          "src": "/assets/img/necronomicon.webp",
+          "alt": "logo necronomicon"
+        },
+        {
+          "src": "/assets/icons/logo_mmi.svg",
+          "alt": "Logo MMI"
+        },
+        {
+          "src": "/assets/icons/TIKTOK.svg",
+          "alt": "Tiktok"
+        },
+        {
+          "src": "/assets/icons/Linkedin.svg",
+          "alt": "Linkedin"
+        },
+        {
+          "src": "/assets/icons/FACEBOOK.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/icons/INSTAGRAM.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/icons/YOUTUBE.svg",
+          "alt": "Youtube"
+        },
+        {
+          "src": "/assets/icons/LOGO.svg",
+          "alt": "logo"
+        }
+      ],
+      "totalTags": 114,
+      "externalLinks": 14,
+      "internalLinks": 8,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 2,
+        "h5": 1,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Bienvenue chez animēshon !",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Bienvenue chez animēshon !",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Bienvenue chez animēshon !",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Programme",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "billetterie",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "billetterie",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Partenaires",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Partenaires",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 4,
+          "text": "Navigation",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Mentions légales",
+          "tag": "section"
+        },
+        {
+          "level": 4,
+          "text": "Mentions légales",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Festival du films d’animation japonais animēshon",
+          "tag": "section"
+        },
+        {
+          "level": 5,
+          "text": "Festival du films d’animation japonais animēshon",
+          "tag": "h5"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 79,
+          "lastColumn": 84,
+          "firstColumn": 21,
+          "message": "Attribute “loading” not allowed on element “a” at this point.",
+          "extract": "          <a href=\"programmation.html\" class=\"button-link\" loading=\"lazy\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 64
+        },
+        {
+          "type": "error",
+          "lastLine": 112,
+          "lastColumn": 81,
+          "firstColumn": 29,
+          "message": "Attribute “loading” not allowed on element “a” at this point.",
+          "extract": "      <li><a href=\"https://www.grandbelfort.fr\" loading=\"lazy\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 53
+        },
+        {
+          "type": "error",
+          "lastLine": 118,
+          "lastColumn": 106,
+          "firstColumn": 29,
+          "message": "Attribute “loading” not allowed on element “a” at this point.",
+          "extract": "      <li><a href=\"https://kinepolis.fr/cinémas/kinepolis-belfort/info/\" loading=\"lazy\"><img\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 78
+        },
+        {
+          "type": "error",
+          "lastLine": 120,
+          "lastColumn": 95,
+          "firstColumn": 29,
+          "message": "Attribute “loading” not allowed on element “a” at this point.",
+          "extract": "      <li><a href=\"https://www.facebook.com/kissa.sanctuary/\" loading=\"lazy\"><img\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 67
+        },
+        {
+          "type": "error",
+          "lastLine": 128,
+          "lastColumn": 15,
+          "firstColumn": 9,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": ">\n        </main>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 37,
+          "firstColumn": 13,
+          "message": "Unclosed element “section”.",
+          "extract": "          <section class=\"section\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "lastLine": 200,
+          "lastColumn": 8,
+          "firstColumn": 1,
+          "message": "Stray start tag “script”.",
+          "extract": ">\n</body>\n<script>\n    c",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.69,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 11704,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1759,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/LOGO.svg",
+            "resourceSize": 1334503,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Acccueil.webp",
+            "resourceSize": 128514,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/festival.webp",
+            "resourceSize": 111482,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/fleche2.svg",
+            "resourceSize": 47163,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/calendrier.webp",
+            "resourceSize": 42612,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/kin%C3%A9polis.webp",
+            "resourceSize": 4108,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/kissa.webp",
+            "resourceSize": 2422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo_mmi.svg",
+            "resourceSize": 14794,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/TIKTOK.svg",
+            "resourceSize": 2029,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Linkedin.svg",
+            "resourceSize": 2347,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/FACEBOOK.svg",
+            "resourceSize": 2196,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/INSTAGRAM.svg",
+            "resourceSize": 4690,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/YOUTUBE.svg",
+            "resourceSize": 2612,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap",
+            "resourceSize": 118686,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 726,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1528,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 43,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 735,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1962,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 151,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/a_propos.css",
+            "resourceSize": 334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/event.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 194,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/programmation.css",
+            "resourceSize": 671,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/accueil.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/caroussel.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/filmographie.css",
+            "resourceSize": 263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/notosansjp/v53/-F62fjtqLzI2JPCgQBnw7HFYwQgP-FVthw.woff2",
+            "resourceSize": 25120,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alexandria/v3/UMBXrPdDqW66y0Y2usFeai3dA5E64Bc.woff2",
+            "resourceSize": 26576,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/notosansjp/v53/-F62fjtqLzI2JPCgQBnw7HFYzwgP-FVth9IU.woff2",
+            "resourceSize": 8016,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/billetteries.webp",
+            "resourceSize": 76708,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/LOGO.svg",
+            "resourceSize": 1334503,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/programmation.html",
+      "title": "Festival du films d’animation japonais animēshon",
+      "images": [
+        {
+          "src": "/assets/icons/LOGO.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/img/calendrier.webp",
+          "alt": "un calendrier"
+        },
+        {
+          "src": "/assets/img/calendrier.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/Programme.svg",
+          "alt": "icone calendrier"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/lieu.svg",
+          "alt": "icone lieu"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/img/totoro.webp",
+          "alt": "un calendrier"
+        },
+        {
+          "src": "/assets/img/totoro.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icons/Programme.svg",
+          "alt": "icone calendrier"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/lieu.svg",
+          "alt": "icone lieu"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/img/chateau.webp",
+          "alt": "un calendrier"
+        },
+        {
+          "src": "/assets/img/chateau.webp",
+          "alt": "affiche film chateau dans le ciel"
+        },
+        {
+          "src": "/assets/icons/Programme.svg",
+          "alt": "icone calendrier"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/lieu.svg",
+          "alt": "icone lieu"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/icons/horloge.svg",
+          "alt": "icone horloge"
+        },
+        {
+          "src": "/assets/img/demons.webp",
+          "alt": "un calendrier"
+        },
+        {
+          "src": "/assets/img/demons.webp",
+          "alt": "affiche demons slayer"
+        },
+        {
+          "src": "/assets/icons/logo_mmi.svg",
+          "alt": "Logo MMI"
+        },
+        {
+          "src": "/assets/icons/TIKTOK.svg",
+          "alt": "Tiktok"
+        },
+        {
+          "src": "/assets/icons/Linkedin.svg",
+          "alt": "Linkedin"
+        },
+        {
+          "src": "/assets/icons/FACEBOOK.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/icons/INSTAGRAM.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/icons/YOUTUBE.svg",
+          "alt": "Youtube"
+        },
+        {
+          "src": "/assets/icons/LOGO.svg",
+          "alt": "logo"
+        }
+      ],
+      "totalTags": 172,
+      "externalLinks": 6,
+      "internalLinks": 6,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 4,
+        "h2": 17,
+        "h3": 0,
+        "h4": 2,
+        "h5": 1,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Programmation",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1 : Vendredi 11 juillet 2025",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Jour 1 : Vendredi 11 juillet 2025",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "14H00: ouverture du festival",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "16h00 : Film d’ouverture : Your name",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "17h30 : Making-of – \"Les coulisses de l'animation japonaise\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "19h00 : Rencontre & Dédicaces",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "21h00 : Projection en plein air – \"Mon Voisin Totoro\"",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jour 2 : Samedi 12 juillet 2025",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Jour 2 : Samedi 12 juillet 2025",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "10H00 : Atelier – \"Initiation à l'animation japonaise\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "12h30 : Atelier – \"Initiation à l'animation japonaise\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "14H00 : Projection – \"Film en avant-première\"Film : Belle (Ryû to\n                    Sobakasu\n                    no\n                    Hime)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "16h30 : Discussion – \"L’avenir de l’animation japonaise\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "18h30 : Projection – \"Film spécial\"Film : Akira",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "21h30 : Projection en plein air – \"Le Château dans le ciel\"",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jour 3 : Dimanche 13 juillet 2025",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Jour 3 : Dimanche 13 juillet 2025",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "10H30: Atelier – \"Les métiers de l'animation japonaise\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "12h30 : Pause déjeuner & Rencontre créateurs",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "14H00 : Projection – \"Film en exclusivité\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "16h30 : Discussion – \"L’avenir de l’animation japonaise\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "18h30 : Projection – \"Film spécial\"Film : Akira",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "21h30 : Projection en plein air – \"Le Château dans le ciel\"",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 4,
+          "text": "Navigation",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Mentions légales",
+          "tag": "section"
+        },
+        {
+          "level": 4,
+          "text": "Mentions légales",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Festival du films d’animation japonais animēshon",
+          "tag": "section"
+        },
+        {
+          "level": 5,
+          "text": "Festival du films d’animation japonais animēshon",
+          "tag": "h5"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 102,
+          "lastColumn": 30,
+          "firstColumn": 9,
+          "message": "Duplicate ID “lightbox”.",
+          "extract": ">\n        <dialog id=\"lightbox\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 128,
+          "lastColumn": 18,
+          "firstColumn": 13,
+          "message": "Stray end tag “div”.",
+          "extract": "          </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 160,
+          "lastColumn": 30,
+          "firstColumn": 9,
+          "message": "Duplicate ID “lightbox”.",
+          "extract": ">\n        <dialog id=\"lightbox\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 183,
+          "lastColumn": 18,
+          "firstColumn": 13,
+          "message": "Stray end tag “div”.",
+          "extract": "          </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 216,
+          "lastColumn": 30,
+          "firstColumn": 9,
+          "message": "Duplicate ID “lightbox”.",
+          "extract": ">\n        <dialog id=\"lightbox\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 219,
+          "lastColumn": 9,
+          "message": "Saw “<” when expecting an attribute name. Probable cause: Missing “>” immediately before.",
+          "extract": "ramme\"\n        <button class=\"",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 219,
+          "firstLine": 218,
+          "lastColumn": 36,
+          "firstColumn": 5,
+          "message": "Attribute “alt” not allowed on element “a” at this point.",
+          "extract": "main>\n    <a href=\"/path/to/your/document.pdf\" download alt=\"bouton téléchargement programme\"\n        <button class=\"button-link\">Téléch",
+          "hiliteStart": 10,
+          "hiliteLength": 120
+        },
+        {
+          "type": "error",
+          "lastLine": 219,
+          "firstLine": 218,
+          "lastColumn": 36,
+          "firstColumn": 5,
+          "message": "Attribute “<button” not allowed on element “a” at this point.",
+          "extract": "main>\n    <a href=\"/path/to/your/document.pdf\" download alt=\"bouton téléchargement programme\"\n        <button class=\"button-link\">Téléch",
+          "hiliteStart": 10,
+          "hiliteLength": 120
+        },
+        {
+          "type": "error",
+          "lastLine": 219,
+          "lastColumn": 69,
+          "firstColumn": 61,
+          "message": "Stray end tag “button”.",
+          "extract": " Programme</button>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.68,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/programmation.html",
+            "resourceSize": 15716,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/lightbox.css",
+            "resourceSize": 755,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1759,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/LOGO.svg",
+            "resourceSize": 1334503,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/calendrier.webp",
+            "resourceSize": 42612,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/horloge.svg",
+            "resourceSize": 27127,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/lieu.svg",
+            "resourceSize": 19539,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/totoro.webp",
+            "resourceSize": 29154,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/chateau.webp",
+            "resourceSize": 44150,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Programme.svg",
+            "resourceSize": 23699,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/demons.webp",
+            "resourceSize": 61516,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo_mmi.svg",
+            "resourceSize": 14794,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/TIKTOK.svg",
+            "resourceSize": 2029,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Linkedin.svg",
+            "resourceSize": 2347,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/FACEBOOK.svg",
+            "resourceSize": 2196,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/INSTAGRAM.svg",
+            "resourceSize": 4690,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/YOUTUBE.svg",
+            "resourceSize": 2612,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap",
+            "resourceSize": 118686,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 726,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1528,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 43,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 735,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1962,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 151,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/a_propos.css",
+            "resourceSize": 334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/event.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 194,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/programmation.css",
+            "resourceSize": 671,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/accueil.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/caroussel.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/filmographie.css",
+            "resourceSize": 263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alexandria/v3/UMBXrPdDqW66y0Y2usFeai3dA5E64Bc.woff2",
+            "resourceSize": 26576,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/notosansjp/v53/-F62fjtqLzI2JPCgQBnw7HFYwQgP-FVthw.woff2",
+            "resourceSize": 25120,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/notosansjp/v53/-F62fjtqLzI2JPCgQBnw7HFYzwgP-FVth9IU.woff2",
+            "resourceSize": 8016,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/LOGO.svg",
+            "resourceSize": 1334503,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/Filmographie.html",
+      "title": "Festival du films d’animation japonais animēshon",
+      "images": [
+        {
+          "src": "/assets/icons/LOGO.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/img/image17.webp",
+          "alt": "image de Hayao Miyazak version animé"
+        },
+        {
+          "src": "/assets/img/nausicaa.webp",
+          "alt": "Affiche film Nausicaä"
+        },
+        {
+          "src": "/assets/img/chateau.webp",
+          "alt": "Affiche film chateau dans le cuel"
+        },
+        {
+          "src": "/assets/img/totoro_filmographie.webp",
+          "alt": "Affiche du film Mon Voisin Totoro (1988)"
+        },
+        {
+          "src": "/assets/img/sorcière.webp",
+          "alt": "Affiche du film Kiki la Petite Sorcière (1989)"
+        },
+        {
+          "src": "/assets/img/porco.webp",
+          "alt": "Affiche film Porco Rosso (1992)"
+        },
+        {
+          "src": "/assets/img/mononoke.webp",
+          "alt": "Affiche film Princesse Mononoké (1997)"
+        },
+        {
+          "src": "/assets/img/chihiro.webp",
+          "alt": "Affiche film Le Voyage de Chihiro (2001)"
+        },
+        {
+          "src": "/assets/img/chateauambulant.webp",
+          "alt": "Affiche film le chateau ambulant"
+        },
+        {
+          "src": "/assets/icons/icon_arrowcarrousel.svg",
+          "alt": "fleche gauche"
+        },
+        {
+          "src": "/assets/icons/icon_arrowcarrousel.svg",
+          "alt": "fleche droite"
+        },
+        {
+          "src": "/assets/icons/logo_mmi.svg",
+          "alt": "Logo MMI"
+        },
+        {
+          "src": "/assets/icons/TIKTOK.svg",
+          "alt": "Tiktok"
+        },
+        {
+          "src": "/assets/icons/Linkedin.svg",
+          "alt": "Linkedin"
+        },
+        {
+          "src": "/assets/icons/FACEBOOK.svg",
+          "alt": "Facebook"
+        },
+        {
+          "src": "/assets/icons/INSTAGRAM.svg",
+          "alt": "Instagram"
+        },
+        {
+          "src": "/assets/icons/YOUTUBE.svg",
+          "alt": "Youtube"
+        },
+        {
+          "src": "/assets/icons/LOGO.svg",
+          "alt": "logo"
+        }
+      ],
+      "totalTags": 123,
+      "externalLinks": 6,
+      "internalLinks": 6,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 0,
+        "h3": 8,
+        "h4": 2,
+        "h5": 1,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Ce film, réalisé avant la création officielle du Studio Ghibli,\n                        est souvent\n                        considéré comme le prélude spirituel du studio. Il raconte l'histoire de Nausicaä, une jeune\n                        princesse qui\n                        lutte pour préserver un monde en déclin face à une guerre destructrice.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ce film, réalisé avant la création officielle du Studio Ghibli,\n                        est souvent\n                        considéré comme le prélude spirituel du studio. Il raconte l'histoire de Nausicaä, une jeune\n                        princesse qui\n                        lutte pour préserver un monde en déclin face à une guerre destructrice.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le premier film officiellement produit par le Studio Ghibli,\n                        une aventure\n                        épique sur un jeune garçon et une fille à la recherche d'une île flottante légendaire appelée\n                        Laputa.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le premier film officiellement produit par le Studio Ghibli,\n                        une aventure\n                        épique sur un jeune garçon et une fille à la recherche d'une île flottante légendaire appelée\n                        Laputa.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Ce film emblématique raconte l'histoire de deux jeunes filles\n                        qui\n                        découvrent des créatures magiques, dont le célèbre Totoro, après avoir emménagé à la campagne.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ce film emblématique raconte l'histoire de deux jeunes filles\n                        qui\n                        découvrent des créatures magiques, dont le célèbre Totoro, après avoir emménagé à la campagne.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "L'histoire d'une jeune sorcière en formation qui part vivre\n                        seule dans une\n                        ville côtière pour apprendre à devenir indépendante.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "L'histoire d'une jeune sorcière en formation qui part vivre\n                        seule dans une\n                        ville côtière pour apprendre à devenir indépendante.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Situé dans l'Italie des années 1920, ce film suit les aventures\n                        de Porco,\n                        un pilote de chasse transformé en cochon, qui combat les pirates de l'air.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Situé dans l'Italie des années 1920, ce film suit les aventures\n                        de Porco,\n                        un pilote de chasse transformé en cochon, qui combat les pirates de l'air.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Un chef-d'œuvre épique qui explore la relation entre les\n                        humains et la\n                        nature à travers la lutte entre une jeune princesse élevée par des loups et un prince humain en\n                        quête de\n                        réconciliation.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Un chef-d'œuvre épique qui explore la relation entre les\n                        humains et la\n                        nature à travers la lutte entre une jeune princesse élevée par des loups et un prince humain en\n                        quête de\n                        réconciliation.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Ce film acclamé par la critique et primé aux Oscars raconte\n                        l'histoire de\n                        Chihiro, une jeune fille qui se retrouve piégée dans un mystérieux monde spirituel et doit\n                        retrouver ses\n                        parents transformés en porcs.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ce film acclamé par la critique et primé aux Oscars raconte\n                        l'histoire de\n                        Chihiro, une jeune fille qui se retrouve piégée dans un mystérieux monde spirituel et doit\n                        retrouver ses\n                        parents transformés en porcs.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Ce film acclamé par la critique et primé aux Oscars raconte\n                        l'histoire de\n                        Chihiro, une jeune fille qui se retrouve piégée dans un mystérieux monde spirituel et doit\n                        retrouver ses\n                        parents transformés en porcs.",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ce film acclamé par la critique et primé aux Oscars raconte\n                        l'histoire de\n                        Chihiro, une jeune fille qui se retrouve piégée dans un mystérieux monde spirituel et doit\n                        retrouver ses\n                        parents transformés en porcs.",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 4,
+          "text": "Navigation",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Mentions légales",
+          "tag": "section"
+        },
+        {
+          "level": 4,
+          "text": "Mentions légales",
+          "tag": "h4"
+        },
+        {
+          "level": 1,
+          "text": "Festival du films d’animation japonais animēshon",
+          "tag": "section"
+        },
+        {
+          "level": 5,
+          "text": "Festival du films d’animation japonais animēshon",
+          "tag": "h5"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 44,
+          "lastColumn": 61,
+          "firstColumn": 5,
+          "message": "The “aria-labelledby” attribute must point to an element in the same document.",
+          "extract": "tion>\n    <div class=\"carousel\" aria-labelledby=\"carousel-heading\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.68,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/Filmographie.html",
+            "resourceSize": 12742,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 4242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1759,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/LOGO.svg",
+            "resourceSize": 1334503,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image17.webp",
+            "resourceSize": 77518,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nausicaa.webp",
+            "resourceSize": 71520,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/chateau.webp",
+            "resourceSize": 44150,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/totoro_filmographie.webp",
+            "resourceSize": 98408,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/sorci%C3%A8re.webp",
+            "resourceSize": 57412,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/porco.webp",
+            "resourceSize": 47682,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mononoke.webp",
+            "resourceSize": 104256,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/chihiro.webp",
+            "resourceSize": 51212,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/chateauambulant.webp",
+            "resourceSize": 59556,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/icon_arrowcarrousel.svg",
+            "resourceSize": 1995,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo_mmi.svg",
+            "resourceSize": 14794,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/TIKTOK.svg",
+            "resourceSize": 2029,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Linkedin.svg",
+            "resourceSize": 2347,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/FACEBOOK.svg",
+            "resourceSize": 2196,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/INSTAGRAM.svg",
+            "resourceSize": 4690,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/YOUTUBE.svg",
+            "resourceSize": 2612,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap",
+            "resourceSize": 118686,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 726,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1528,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 43,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 735,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1962,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 151,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/a_propos.css",
+            "resourceSize": 334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/event.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 194,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/programmation.css",
+            "resourceSize": 671,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/accueil.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/caroussel.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/filmographie.css",
+            "resourceSize": 263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alexandria/v3/UMBXrPdDqW66y0Y2usFeai3dA5E64Bc.woff2",
+            "resourceSize": 26576,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/notosansjp/v53/-F62fjtqLzI2JPCgQBnw7HFYwQgP-FVthw.woff2",
+            "resourceSize": 25120,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/notosansjp/v53/-F62fjtqLzI2JPCgQBnw7HFYzwgP-FVth9IU.woff2",
+            "resourceSize": 8016,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/LOGO.svg",
+            "resourceSize": 1334503,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "button",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "video",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span",
+      "hr"
+    ],
+    "otherTagsUsage": {
+      "div": 43,
+      "span": 3,
+      "hr": 1
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 299,
+      "linesOfCode": 1,
+      "size": 5821,
+      "complexity": 806,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 64,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 22,
+        "mean": 4.65625,
+        "mode": 3,
+        "median": 4,
+        "range": 20,
+        "sum": 298,
+        "items": [
+          22,
+          4,
+          5,
+          6,
+          5,
+          3,
+          4,
+          5,
+          3,
+          2,
+          10,
+          4,
+          9,
+          2,
+          4,
+          5,
+          3,
+          10,
+          2,
+          10,
+          2,
+          2,
+          3,
+          4,
+          2,
+          4,
+          2,
+          4,
+          5,
+          3,
+          2,
+          5,
+          14,
+          3,
+          5,
+          3,
+          4,
+          6,
+          7,
+          12,
+          2,
+          2,
+          5,
+          4,
+          4,
+          3,
+          3,
+          2,
+          4,
+          9,
+          4,
+          7,
+          4,
+          5,
+          2,
+          5,
+          4,
+          2,
+          2,
+          4,
+          2,
+          2,
+          3,
+          4
+        ],
+        "total": 64,
+        "totalUnique": 11,
+        "unique": {
+          "2": 16,
+          "3": 10,
+          "4": 16,
+          "5": 10,
+          "6": 2,
+          "7": 2,
+          "9": 2,
+          "10": 3,
+          "12": 1,
+          "14": 1,
+          "22": 1
+        },
+        "uniquenessRatio": 0.171875
+      },
+      "selectors": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.375,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 88,
+        "items": [
+          1,
+          3,
+          1,
+          2,
+          1,
+          1,
+          2,
+          3,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          6,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 64,
+        "totalUnique": 5,
+        "unique": {
+          "1": 50,
+          "2": 8,
+          "3": 4,
+          "4": 1,
+          "6": 1
+        },
+        "uniquenessRatio": 0.078125
+      },
+      "declarations": {
+        "min": 1,
+        "max": 21,
+        "mean": 3.28125,
+        "mode": 1,
+        "median": 2,
+        "range": 20,
+        "sum": 210,
+        "items": [
+          21,
+          1,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          2,
+          1,
+          6,
+          3,
+          8,
+          1,
+          3,
+          4,
+          2,
+          9,
+          1,
+          9,
+          1,
+          1,
+          2,
+          2,
+          1,
+          3,
+          1,
+          3,
+          3,
+          2,
+          1,
+          4,
+          13,
+          2,
+          4,
+          2,
+          3,
+          4,
+          6,
+          9,
+          1,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          1,
+          2,
+          8,
+          3,
+          1,
+          3,
+          4,
+          1,
+          4,
+          2,
+          1,
+          1,
+          3,
+          1,
+          1,
+          2,
+          3
+        ],
+        "total": 64,
+        "totalUnique": 9,
+        "unique": {
+          "1": 18,
+          "2": 17,
+          "3": 11,
+          "4": 9,
+          "6": 2,
+          "8": 2,
+          "9": 3,
+          "13": 1,
+          "21": 1
+        },
+        "uniquenessRatio": 0.140625
+      }
+    },
+    "selectors": {
+      "total": 88,
+      "totalUnique": 72,
+      "uniquenessRatio": 0.8181818181818182,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          73,
+          51
+        ],
+        "mean": [
+          0,
+          0.8295454545454546,
+          0.5795454545454546
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0.5
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 88,
+        "totalUnique": 8,
+        "unique": {
+          "0,1,0": 41,
+          "0,0,0": 1,
+          "0,0,1": 18,
+          "0,0,2": 7,
+          "0,1,1": 15,
+          "0,2,0": 1,
+          "0,3,0": 1,
+          "0,3,1": 4
+        },
+        "uniquenessRatio": 0.09090909090909091
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.7613636363636365,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 155,
+        "total": 88,
+        "totalUnique": 6,
+        "unique": {
+          "1": 60,
+          "2": 4,
+          "3": 18,
+          "4": 1,
+          "5": 1,
+          "6": 4
+        },
+        "uniquenessRatio": 0.06818181818181818,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          6,
+          6,
+          6,
+          6,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          ".menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 2,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.06818181818181818
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 23,
+        "totalUnique": 2,
+        "unique": {
+          " ": 21,
+          ">": 2
+        },
+        "uniquenessRatio": 0.08695652173913043
+      }
+    },
+    "declarations": {
+      "total": 210,
+      "totalUnique": 138,
+      "uniquenessRatio": 0.6571428571428571,
+      "unique": {
+        "total": 138,
+        "ratio": 0.6571428571428571
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 210
+      }
+    },
+    "properties": {
+      "total": 210,
+      "totalUnique": 68,
+      "unique": {
+        "--black": 1,
+        "--gray": 1,
+        "--blue": 1,
+        "--green": 1,
+        "--white": 1,
+        "--gradient": 1,
+        "--fs-xs": 1,
+        "--fs-s": 1,
+        "--fs-md": 1,
+        "--fs-lg": 1,
+        "--fs-xl": 1,
+        "--fs-2xl": 1,
+        "--fs-3xl": 1,
+        "--fs-4xl": 1,
+        "--font-sans-serif": 2,
+        "--space1x": 1,
+        "--space2x": 1,
+        "--space3x": 1,
+        "--space4x": 1,
+        "--space5x": 1,
+        "box-sizing": 1,
+        "background-color": 5,
+        "font-weight": 6,
+        "margin-top": 4,
+        "overflow-x": 1,
+        "font-family": 7,
+        "line-height": 2,
+        "color": 8,
+        "font-size": 9,
+        "text-align": 6,
+        "text-transform": 1,
+        "background": 10,
+        "transition": 4,
+        "padding": 15,
+        "appearance": 1,
+        "border": 2,
+        "cursor": 1,
+        "outline": 1,
+        "list-style": 3,
+        "margin": 7,
+        "overflow": 2,
+        "position": 6,
+        "clip": 1,
+        "height": 6,
+        "width": 7,
+        "display": 15,
+        "max-width": 2,
+        "align-items": 5,
+        "justify-content": 7,
+        "left": 3,
+        "top": 5,
+        "margin-bottom": 4,
+        "border-top": 1,
+        "flex-direction": 3,
+        "gap": 3,
+        "text-decoration": 3,
+        "inset": 1,
+        "transform": 4,
+        "visibility": 2,
+        "z-index": 2,
+        "border-bottom": 2,
+        "padding-bottom": 3,
+        "border-radius": 1,
+        "content": 1,
+        "padding-top": 1,
+        "padding-left": 1,
+        "margin-left": 2,
+        "margin-right": 2
+      },
+      "uniquenessRatio": 0.3238095238095238,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 21,
+        "totalUnique": 20,
+        "unique": {
+          "--black": 1,
+          "--gray": 1,
+          "--blue": 1,
+          "--green": 1,
+          "--white": 1,
+          "--gradient": 1,
+          "--fs-xs": 1,
+          "--fs-s": 1,
+          "--fs-md": 1,
+          "--fs-lg": 1,
+          "--fs-xl": 1,
+          "--fs-2xl": 1,
+          "--fs-3xl": 1,
+          "--fs-4xl": 1,
+          "--font-sans-serif": 2,
+          "--space1x": 1,
+          "--space2x": 1,
+          "--space3x": 1,
+          "--space4x": 1,
+          "--space5x": 1
+        },
+        "uniquenessRatio": 0.9523809523809523,
+        "ratio": 0.1,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.1,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 231
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 27,
+        "totalUnique": 11,
+        "unique": {
+          "#000": 6,
+          "#898989": 1,
+          "#5fbafe": 1,
+          "#01ab27": 1,
+          "#fff": 2,
+          "rgba(95,186,254,.6)": 1,
+          "rgba(105,211,129,.5)": 1,
+          "rgba(95,186,254,.8)": 1,
+          "rgba(105,211,129,.8)": 1,
+          "#98d3ff": 6,
+          "#bceac6": 6
+        },
+        "uniquenessRatio": 0.4074074074074074,
+        "itemsPerContext": {
+          "--black": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gray": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#898989": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#5fbafe": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--green": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#01ab27": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--white": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gradient": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "rgba(95,186,254,.6)": 1,
+              "rgba(105,211,129,.5)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "background": {
+            "total": 14,
+            "totalUnique": 4,
+            "unique": {
+              "rgba(95,186,254,.8)": 1,
+              "rgba(105,211,129,.8)": 1,
+              "#98d3ff": 6,
+              "#bceac6": 6
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 27,
+          "totalUnique": 3,
+          "unique": {
+            "hex3": 8,
+            "hex6": 15,
+            "rgba": 4
+          },
+          "uniquenessRatio": 0.1111111111111111
+        }
+      },
+      "gradients": {
+        "total": 8,
+        "totalUnique": 3,
+        "unique": {
+          "radial-gradient(184.83% 194.44% at 105.85% 4.1%,rgba(95,186,254,.6) 46.89%,rgba(105,211,129,.5) 58.93%)": 1,
+          "radial-gradient(184.83% 194.44% at 105.85% 4.1%,rgba(95,186,254,.8) 46.89%,rgba(105,211,129,.8) 58.93%)": 1,
+          "radial-gradient(184.83% 194.44% at 105.85% 4.1%,#98d3ff 46.89%,#bceac6 58.93%)": 6
+        },
+        "uniquenessRatio": 0.375
+      },
+      "fontFamilies": {
+        "total": 7,
+        "totalUnique": 4,
+        "unique": {
+          "Noto Sans JP,sans-serif": 2,
+          "Alexandria,sans-serif": 3,
+          "noto-sans,sans-serif": 1,
+          "Alexandria": 1
+        },
+        "uniquenessRatio": 0.5714285714285714
+      },
+      "fontSizes": {
+        "total": 9,
+        "totalUnique": 7,
+        "unique": {
+          "24px": 1,
+          "20px": 1,
+          "16px": 3,
+          "1.5rem": 1,
+          "1rem": 1,
+          "var(--fs-xl)": 1,
+          "var(--fs-s)": 1
+        },
+        "uniquenessRatio": 0.7777777777777778
+      },
+      "lineHeights": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "1.1": 1,
+          "1.4": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "zindexes": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "1": 1,
+          "10": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "2px": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "2px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 4,
+          "totalUnique": 2,
+          "unique": {
+            ".3s": 3,
+            ".4s": 1
+          },
+          "uniquenessRatio": 0.5
+        },
+        "timingFunctions": {
+          "total": 4,
+          "totalUnique": 1,
+          "unique": {
+            "ease-in-out": 4
+          },
+          "uniquenessRatio": 0.25
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 62,
+        "totalUnique": 5,
+        "unique": {
+          "rem": 18,
+          "px": 37,
+          "s": 4,
+          "vw": 1,
+          "deg": 2
+        },
+        "uniquenessRatio": 0.08064516129032258,
+        "itemsPerContext": {
+          "--fs-xs": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-s": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-2xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-3xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-4xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space1x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space2x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space3x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space4x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space5x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "font-size": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "px": 5,
+              "rem": 2
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "transition": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "s": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding": {
+            "total": 8,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 6,
+              "px": 2
+            },
+            "uniquenessRatio": 0.25
+          },
+          "height": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "px": 2,
+              "rem": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "width": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "gap": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "px": 1,
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "transform": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "vw": 1,
+              "deg": 2
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "border-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 209
+      },
+      "keywords": {
+        "total": 13,
+        "totalUnique": 2,
+        "unique": {
+          "none": 10,
+          "auto": 3
+        },
+        "uniquenessRatio": 0.15384615384615385
+      }
+    },
+    "__meta__": {
+      "parseTime": 6,
+      "analyzeTime": 5,
+      "total": 11
+    }
+  }
+}

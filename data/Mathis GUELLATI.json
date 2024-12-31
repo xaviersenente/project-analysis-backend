@@ -1,0 +1,6159 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "/assets/icons/ellipse12.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/left_arrow.svg",
+          "alt": "fleche gauche"
+        },
+        {
+          "src": "assets/icons/right_arrow.svg",
+          "alt": "fleche droite"
+        },
+        {
+          "src": "/assets/icons/ellipse13.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 136,
+      "externalLinks": 1,
+      "internalLinks": 19,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 14,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Présentation",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Programme",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Vendredi soir",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Samedi matin",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Samedi midi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Samedi après-midi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Samedi soir",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche matin",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche midi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche après-midi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche soir",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Localisation",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Billeterie",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Partenaires",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 148,
+          "lastColumn": 69,
+          "firstColumn": 39,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "ill__btn\"><a class=\"bill__link\" href=\"#\">Billet",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.83,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 11927,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carroussel.js",
+            "resourceSize": 707,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/ellipse12.svg",
+            "resourceSize": 1627,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/left_arrow.svg",
+            "resourceSize": 1679,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/right_arrow.svg",
+            "resourceSize": 1678,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/ellipse13.svg",
+            "resourceSize": 2098,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/line1.svg",
+            "resourceSize": 2421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.9168438544643!2d6.3559013124593084!3d46.904353771013554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478dbcc118659001%3A0xf206867d65ee7909!2s1945%20Rue%20de%20Morteau%2C%2025300%20Pontarlier!5e0!3m2!1sfr!2sfr!4v1733929574323!5m2!1sfr!2sfr",
+            "resourceSize": 2237,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://maps.gstatic.com/maps-api-v3/embed/js/59/3a/intl/fr_ALL/init_embed.js",
+            "resourceSize": 250325,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=fr&region=fr&callback=onApiLoad",
+            "resourceSize": 11868,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
+            "resourceSize": 3103,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
+            "resourceSize": 2675,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/main.js",
+            "resourceSize": 242509,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+            "resourceSize": 3,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/common.js",
+            "resourceSize": 274056,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/util.js",
+            "resourceSize": 193507,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/map.js",
+            "resourceSize": 81739,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/overlay.js",
+            "resourceSize": 3487,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 6020,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i8684770&2i5907292&2e1&3u16&4m2&1u330&2u450&5m6&1e0&5sfr&6sfr&10b1&12b1&14i47083502&client=google-maps-embed&token=37545",
+            "resourceSize": 33323,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/onion.js",
+            "resourceSize": 30520,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search_impl.js",
+            "resourceSize": 3523,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/programme.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 130,
+      "externalLinks": 1,
+      "internalLinks": 9,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 12,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "27/06/25",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "28/06/25",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "29/06/25",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Vendredi 27 juin 2025",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Soirée :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Samedi 28 juin 2025",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matin :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Midi :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "après-midi :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Soirée :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche 29 juin 2025",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matin :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Midi :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "après-midi :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Soirée :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.88,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/programme.html",
+            "resourceSize": 13661,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/apropos.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 71,
+      "externalLinks": 1,
+      "internalLinks": 9,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "À propos de Miaullywood",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À propos de l'équipe",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Notre charte : des valeurs et engagements qui guident le festival :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.91,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/apropos.html",
+            "resourceSize": 7700,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/contact.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/icons/twitter_violet.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook_violet.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram_violet.svg",
+          "alt": "instagram"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 77,
+      "externalLinks": 1,
+      "internalLinks": 9,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Contact",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Nos coordonnées",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Nos réseaux",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 64,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Stray end tag “div”.",
+          "extract": "tton>\n    </div>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 73,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Stray end tag “div”.",
+          "extract": "/div>\n    </div>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 83,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Stray end tag “div”.",
+          "extract": "/div>\n    </div>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.9,
+        "accessibility": 0.85,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/contact.html",
+            "resourceSize": 6185,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter_violet.svg",
+            "resourceSize": 1778,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook_violet.svg",
+            "resourceSize": 1760,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram_violet.svg",
+            "resourceSize": 2761,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/film.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/image/flow.jpg",
+          "alt": "ma vie de chat"
+        },
+        {
+          "src": "assets/image/ma_vie_de_chat.jpg",
+          "alt": "ma vie de chat"
+        },
+        {
+          "src": "assets/image/chat_potte.jpg",
+          "alt": "chat potte"
+        },
+        {
+          "src": "assets/image/chat_au_musee.jpg",
+          "alt": "chat_au_musée"
+        },
+        {
+          "src": "assets/image/mon_chat_&_moi.jpg",
+          "alt": "chat_au_musée"
+        },
+        {
+          "src": "assets/icons/left_arrow.svg",
+          "alt": "fleche gauche"
+        },
+        {
+          "src": "assets/icons/right_arrow.svg",
+          "alt": "fleche droite"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 77,
+      "externalLinks": 1,
+      "internalLinks": 10,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 1,
+        "h3": 5,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Liste des films en compétitions :",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Flow, le chat qui n’avait plus peur de l’eau",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Croquette le chat merveilleux",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Les Chats au musée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Croquette le chat merveilleux",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mon chat et moi, la grande aventure de Rroû",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.83,
+        "accessibility": 0.9,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/film.html",
+            "resourceSize": 7582,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carroussel.js",
+            "resourceSize": 707,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/flow.jpg",
+            "resourceSize": 64012,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/ma_vie_de_chat.jpg",
+            "resourceSize": 82911,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/chat_potte.jpg",
+            "resourceSize": 86538,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/chat_au_musee.jpg",
+            "resourceSize": 128109,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/mon_chat_&_moi.jpg",
+            "resourceSize": 85798,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/left_arrow.svg",
+            "resourceSize": 1679,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/right_arrow.svg",
+            "resourceSize": 1678,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/invites.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 99,
+      "externalLinks": 1,
+      "internalLinks": 10,
+      "deadLinks": 5,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Réalisateurs :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Associations de protection animale :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Personnalités et experts :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Gints ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 50,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Mark V",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 66,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Associ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 75,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Sociét",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 91,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Ceyda ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 100,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Représ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.9,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/invites.html",
+            "resourceSize": 8022,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/accordeon.js",
+            "resourceSize": 498,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/infospratique.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 173,
+      "externalLinks": 1,
+      "internalLinks": 10,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Nos tarifs",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lieux",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Hébergement :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Transport",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "FAQ",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 84,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Cinéma",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 91,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Parc S",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 98,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Espace",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 188,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Le fes",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 194,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Puis-j",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 200,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Les li",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 206,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Y aura",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 212,
+          "lastColumn": 47,
+          "firstColumn": 26,
+          "message": "Element “p” not allowed as child of element “summary” in this context. (Suppressing further errors from this subtree.)",
+          "extract": " <summary><p class=\"para__lieu\">Puis-j",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "lastLine": 220,
+          "lastColumn": 65,
+          "firstColumn": 36,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "act.html\"><button class=\"btn info__btn\">Nous c",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.91,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/infospratique.html",
+            "resourceSize": 12969,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/accordeon.js",
+            "resourceSize": 498,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/flow.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "assets/image/flow.jpg",
+          "alt": "Affiche du film Flow"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 80,
+      "externalLinks": 1,
+      "internalLinks": 10,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Affiche du film Flow",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Synopsis du film Flow",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Bande-annonce du film Flow",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Infos techniques du film Flow",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Infos techniques du film Flow",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 65,
+          "lastColumn": 102,
+          "firstColumn": 17,
+          "message": "Bad value “assets/video/FLOW Bande Annonce VF (2024) Nouvelle.mp4” for attribute “src” on element “source”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <source src=\"assets/video/FLOW Bande Annonce VF (2024) Nouvelle.mp4\" type=\"video/mp4\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 86
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.91,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/flow.html",
+            "resourceSize": 7094,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/flow.jpg",
+            "resourceSize": 64012,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/video/FLOW%20Bande%20Annonce%20VF%20(2024)%20Nouvelle.mp4",
+            "resourceSize": 1117816,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/zilbalodis.html",
+      "title": "Miaullywood",
+      "images": [
+        {
+          "src": "assets/icons/paw.svg",
+          "alt": "Miaullywood"
+        },
+        {
+          "src": "/assets/icons/up.svg",
+          "alt": "Back to top"
+        },
+        {
+          "src": "/assets/image/Zilbalodis.jpg",
+          "alt": "image de Gints Zilbalodis"
+        },
+        {
+          "src": "assets/icons/twitter.svg",
+          "alt": "twitter"
+        },
+        {
+          "src": "assets/icons/facebook.svg",
+          "alt": "facebook"
+        },
+        {
+          "src": "assets/icons/instagram.svg",
+          "alt": "No alt"
+        }
+      ],
+      "totalTags": 67,
+      "externalLinks": 1,
+      "internalLinks": 10,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Gints Zilbalodis :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Bio :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Filmographie sélective :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Miaullywood",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.88,
+        "accessibility": 0.91,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/zilbalodis.html",
+            "resourceSize": 5995,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1258,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 858,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/up.svg",
+            "resourceSize": 1747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/Zilbalodis.jpg",
+            "resourceSize": 366347,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/twitter.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/facebook.svg",
+            "resourceSize": 1763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/instagram.svg",
+            "resourceSize": 2783,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Coiny&display=swap",
+            "resourceSize": 1515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap",
+            "resourceSize": 2370,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap",
+            "resourceSize": 4610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utilitaire/variable.css",
+            "resourceSize": 558,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/localisation.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/partenaires.css",
+            "resourceSize": 493,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/programme.css",
+            "resourceSize": 1731,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/presentation.css",
+            "resourceSize": 1125,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/accueil/billeterie.css",
+            "resourceSize": 628,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/a_propos/apropos.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/contact.css",
+            "resourceSize": 1487,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/coordonnees.css",
+            "resourceSize": 383,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/contact/reseaux.css",
+            "resourceSize": 446,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/films.css",
+            "resourceSize": 1215,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/films/flow/flow.css",
+            "resourceSize": 942,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/infos/info.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/invite.css",
+            "resourceSize": 225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/invite/zilbalodis/zilbalodis.css",
+            "resourceSize": 279,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/programm/programme.css",
+            "resourceSize": 757,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 546,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 589,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/menu.css",
+            "resourceSize": 2067,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/button.css",
+            "resourceSize": 260,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/carroussel.css",
+            "resourceSize": 771,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composant/accord%C3%A9on.css",
+            "resourceSize": 1086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PUwcGFWNOITd.woff2",
+            "resourceSize": 15476,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/aclonica/v23/K2FyfZJVlfNNSEBXGY7UAo-KBSLy.woff2",
+            "resourceSize": 16348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/comfortaa/v45/1Ptsg8LJRfWJmhDAuUs4TYFqL_KWxQ.woff2",
+            "resourceSize": 30580,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/paw.svg",
+            "resourceSize": 4810,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "footer",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "span",
+      "div"
+    ],
+    "otherTagsUsage": {
+      "span": 9,
+      "div": 210
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 741,
+      "linesOfCode": 1,
+      "size": 12747,
+      "complexity": 1917,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Coiny&display=swap\")": 1,
+          "url(\"https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&display=swap\")": 1,
+          "url(\"https://fonts.googleapis.com/css2?family=Aclonica&family=Coiny&family=Comfortaa:wght@300..700&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "@keyframes rotate": 1,
+          "@keyframes rotate_sortie": 1
+        },
+        "uniquenessRatio": 1,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 5,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 5
+      }
+    },
+    "rules": {
+      "total": 170,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 22,
+        "mean": 4.329411764705882,
+        "mode": 2,
+        "median": 4,
+        "range": 20,
+        "sum": 736,
+        "items": [
+          22,
+          4,
+          2,
+          4,
+          5,
+          2,
+          2,
+          3,
+          7,
+          4,
+          6,
+          4,
+          4,
+          4,
+          7,
+          4,
+          8,
+          2,
+          2,
+          6,
+          2,
+          4,
+          8,
+          2,
+          8,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          11,
+          2,
+          6,
+          3,
+          8,
+          4,
+          6,
+          2,
+          11,
+          5,
+          2,
+          7,
+          4,
+          8,
+          4,
+          3,
+          4,
+          3,
+          3,
+          2,
+          5,
+          8,
+          2,
+          4,
+          2,
+          3,
+          8,
+          2,
+          4,
+          5,
+          2,
+          7,
+          2,
+          4,
+          5,
+          8,
+          2,
+          2,
+          5,
+          8,
+          5,
+          3,
+          4,
+          5,
+          2,
+          2,
+          2,
+          7,
+          3,
+          2,
+          5,
+          4,
+          5,
+          4,
+          2,
+          2,
+          2,
+          5,
+          6,
+          3,
+          5,
+          5,
+          4,
+          4,
+          4,
+          2,
+          3,
+          5,
+          3,
+          2,
+          4,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          4,
+          6,
+          2,
+          2,
+          2,
+          2,
+          4,
+          4,
+          7,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3,
+          3,
+          5,
+          5,
+          4,
+          2,
+          2,
+          5,
+          6,
+          2,
+          7,
+          5,
+          5,
+          13,
+          9,
+          7,
+          4,
+          9,
+          5,
+          11,
+          2,
+          11,
+          3,
+          5,
+          4,
+          2,
+          2,
+          8,
+          3,
+          5,
+          2,
+          7,
+          5,
+          5,
+          4,
+          2,
+          6,
+          3,
+          6,
+          9,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 170,
+        "totalUnique": 11,
+        "unique": {
+          "2": 54,
+          "3": 19,
+          "4": 33,
+          "5": 26,
+          "6": 10,
+          "7": 9,
+          "8": 10,
+          "9": 3,
+          "11": 4,
+          "13": 1,
+          "22": 1
+        },
+        "uniquenessRatio": 0.06470588235294118
+      },
+      "selectors": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.1176470588235294,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 190,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 170,
+        "totalUnique": 3,
+        "unique": {
+          "1": 153,
+          "2": 14,
+          "3": 3
+        },
+        "uniquenessRatio": 0.01764705882352941
+      },
+      "declarations": {
+        "min": 1,
+        "max": 21,
+        "mean": 3.211764705882353,
+        "mode": 1,
+        "median": 3,
+        "range": 20,
+        "sum": 546,
+        "items": [
+          21,
+          3,
+          1,
+          3,
+          4,
+          1,
+          1,
+          2,
+          6,
+          3,
+          5,
+          2,
+          3,
+          3,
+          6,
+          3,
+          7,
+          1,
+          1,
+          5,
+          1,
+          3,
+          7,
+          1,
+          7,
+          5,
+          4,
+          2,
+          3,
+          3,
+          4,
+          10,
+          1,
+          5,
+          2,
+          7,
+          3,
+          5,
+          1,
+          10,
+          4,
+          1,
+          6,
+          3,
+          7,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1,
+          4,
+          7,
+          1,
+          3,
+          1,
+          2,
+          6,
+          1,
+          3,
+          4,
+          1,
+          6,
+          1,
+          3,
+          4,
+          7,
+          1,
+          1,
+          4,
+          7,
+          4,
+          2,
+          3,
+          4,
+          1,
+          1,
+          1,
+          6,
+          2,
+          1,
+          4,
+          2,
+          4,
+          1,
+          1,
+          1,
+          1,
+          4,
+          4,
+          2,
+          4,
+          4,
+          3,
+          1,
+          3,
+          1,
+          2,
+          4,
+          2,
+          1,
+          3,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          3,
+          5,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          6,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          4,
+          4,
+          2,
+          1,
+          1,
+          4,
+          5,
+          1,
+          6,
+          4,
+          4,
+          12,
+          8,
+          6,
+          3,
+          8,
+          4,
+          9,
+          1,
+          10,
+          2,
+          2,
+          2,
+          1,
+          1,
+          7,
+          2,
+          4,
+          1,
+          6,
+          3,
+          4,
+          2,
+          1,
+          5,
+          1,
+          5,
+          8,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 170,
+        "totalUnique": 12,
+        "unique": {
+          "1": 59,
+          "2": 24,
+          "3": 25,
+          "4": 25,
+          "5": 9,
+          "6": 10,
+          "7": 9,
+          "8": 3,
+          "9": 1,
+          "10": 3,
+          "12": 1,
+          "21": 1
+        },
+        "uniquenessRatio": 0.07058823529411765
+      }
+    },
+    "selectors": {
+      "total": 186,
+      "totalUnique": 162,
+      "uniquenessRatio": 0.8709677419354839,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          192,
+          39
+        ],
+        "mean": [
+          0,
+          1.032258064516129,
+          0.20967741935483872
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 186,
+        "totalUnique": 8,
+        "unique": {
+          "0,1,0": 147,
+          "0,0,1": 9,
+          "0,1,1": 17,
+          "0,2,0": 4,
+          "0,3,0": 1,
+          "0,3,1": 5,
+          "0,0,2": 1,
+          "0,1,3": 2
+        },
+        "uniquenessRatio": 0.043010752688172046
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.3602150537634408,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 253,
+        "total": 186,
+        "totalUnique": 5,
+        "unique": {
+          "1": 156,
+          "2": 15,
+          "3": 7,
+          "5": 2,
+          "6": 6
+        },
+        "uniquenessRatio": 0.026881720430107527,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          5,
+          6,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 8,
+        "totalUnique": 5,
+        "unique": {
+          ".menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 3,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2,
+          ".menu[aria-expanded=false]": 1
+        },
+        "uniquenessRatio": 0.625,
+        "ratio": 0.043010752688172046
+      },
+      "keyframes": {
+        "total": 4,
+        "totalUnique": 2,
+        "unique": {
+          "0%": 2,
+          "to": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 13,
+        "totalUnique": 1,
+        "unique": {
+          " ": 13
+        },
+        "uniquenessRatio": 0.07692307692307693
+      }
+    },
+    "declarations": {
+      "total": 546,
+      "totalUnique": 234,
+      "uniquenessRatio": 0.42857142857142855,
+      "unique": {
+        "total": 234,
+        "ratio": 0.42857142857142855
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 546
+      }
+    },
+    "properties": {
+      "total": 546,
+      "totalUnique": 71,
+      "unique": {
+        "--b": 1,
+        "--bc": 1,
+        "--j": 1,
+        "--mc": 1,
+        "--v": 1,
+        "--footer": 1,
+        "--texte": 1,
+        "--number": 1,
+        "--b3": 1,
+        "--b1-b2": 1,
+        "--h3": 1,
+        "--h1-h2": 1,
+        "--s": 1,
+        "--space": 1,
+        "--body1": 1,
+        "--body2": 1,
+        "--body3": 1,
+        "--header1": 1,
+        "--header2": 1,
+        "--header3": 1,
+        "--small-text": 1,
+        "background-color": 28,
+        "color": 28,
+        "font-family": 22,
+        "font-size": 24,
+        "margin-left": 23,
+        "position": 18,
+        "top": 8,
+        "z-index": 14,
+        "margin": 34,
+        "text-decoration": 8,
+        "border-radius": 31,
+        "height": 20,
+        "margin-top": 22,
+        "padding-bottom": 22,
+        "padding-top": 16,
+        "text-align": 21,
+        "content": 12,
+        "display": 32,
+        "width": 29,
+        "justify-content": 13,
+        "padding": 14,
+        "margin-bottom": 7,
+        "right": 5,
+        "background": 4,
+        "left": 4,
+        "float": 3,
+        "margin-right": 6,
+        "border": 5,
+        "box-shadow": 1,
+        "box-sizing": 1,
+        "gap": 5,
+        "appearance": 1,
+        "transform": 11,
+        "align-items": 5,
+        "font-weight": 3,
+        "text-shadow": 1,
+        "flex-direction": 1,
+        "inset": 2,
+        "transition": 5,
+        "visibility": 3,
+        "list-style": 1,
+        "opacity": 2,
+        "overflow-x": 1,
+        "scroll-snap-type": 1,
+        "flex": 1,
+        "scroll-snap-align": 1,
+        "overflow": 1,
+        "list-style-type": 1,
+        "animation": 3,
+        "transform-origin": 1
+      },
+      "uniquenessRatio": 0.13003663003663005,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 21,
+        "totalUnique": 21,
+        "unique": {
+          "--b": 1,
+          "--bc": 1,
+          "--j": 1,
+          "--mc": 1,
+          "--v": 1,
+          "--footer": 1,
+          "--texte": 1,
+          "--number": 1,
+          "--b3": 1,
+          "--b1-b2": 1,
+          "--h3": 1,
+          "--h1-h2": 1,
+          "--s": 1,
+          "--space": 1,
+          "--body1": 1,
+          "--body2": 1,
+          "--body3": 1,
+          "--header1": 1,
+          "--header2": 1,
+          "--header3": 1,
+          "--small-text": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.038461538461538464,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0384615384615385,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 567
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 11,
+        "totalUnique": 10,
+        "unique": {
+          "#f1e8d9": 1,
+          "#9dd1e9": 1,
+          "#ffd1a6": 1,
+          "#ffb866": 1,
+          "#e1748c": 1,
+          "#391700": 1,
+          "#b78bc0": 1,
+          "rgba(0,0,0,.25)": 1,
+          "transparent": 2,
+          "red": 1
+        },
+        "uniquenessRatio": 0.9090909090909091,
+        "itemsPerContext": {
+          "--b": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f1e8d9": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#9dd1e9": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--j": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ffd1a6": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--mc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ffb866": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--v": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#e1748c": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--footer": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#391700": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--texte": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#b78bc0": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "box-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.25)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "red": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 11,
+          "totalUnique": 4,
+          "unique": {
+            "hex6": 7,
+            "rgba": 1,
+            "transparent": 2,
+            "named": 1
+          },
+          "uniquenessRatio": 0.36363636363636365
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 22,
+        "totalUnique": 6,
+        "unique": {
+          "var(--body3)": 3,
+          "var(--header2)": 3,
+          "var(--header3)": 5,
+          "var(--body2)": 5,
+          "var(--body1)": 2,
+          "var(--header1)": 4
+        },
+        "uniquenessRatio": 0.2727272727272727
+      },
+      "fontSizes": {
+        "total": 24,
+        "totalUnique": 7,
+        "unique": {
+          "var(--h1-h2)": 8,
+          "var(--h3)": 6,
+          "var(--b3)": 2,
+          "var(--b1-b2)": 5,
+          "15px": 1,
+          "var(--s)": 1,
+          "24px": 1
+        },
+        "uniquenessRatio": 0.2916666666666667
+      },
+      "lineHeights": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "zindexes": {
+        "total": 14,
+        "totalUnique": 7,
+        "unique": {
+          "0": 1,
+          "1": 2,
+          "2": 5,
+          "3": 1,
+          "5": 2,
+          "6": 1,
+          "10": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "textShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0 0 15px var(--b)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "boxShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0 4px 4px rgba(0,0,0,.25)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 31,
+        "totalUnique": 7,
+        "unique": {
+          "30px 30px 0 0": 6,
+          "30px": 10,
+          "20px": 10,
+          "10px": 1,
+          "50px": 1,
+          "2px": 2,
+          "50%": 1
+        },
+        "uniquenessRatio": 0.22580645161290322,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 31,
+            "totalUnique": 7,
+            "unique": {
+              "30px 30px 0 0": 6,
+              "30px": 10,
+              "20px": 10,
+              "10px": 1,
+              "50px": 1,
+              "2px": 2,
+              "50%": 1
+            },
+            "uniquenessRatio": 0.22580645161290322
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 8,
+          "totalUnique": 4,
+          "unique": {
+            ".3s": 3,
+            ".4s": 2,
+            ".5s": 1,
+            ".2s": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "timingFunctions": {
+          "total": 8,
+          "totalUnique": 3,
+          "unique": {
+            "ease-in-out": 3,
+            "ease": 3,
+            "linear": 2
+          },
+          "uniquenessRatio": 0.375
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 265,
+        "totalUnique": 5,
+        "unique": {
+          "rem": 7,
+          "px": 243,
+          "vw": 1,
+          "s": 8,
+          "deg": 6
+        },
+        "uniquenessRatio": 0.018867924528301886,
+        "itemsPerContext": {
+          "--number": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--b3": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--b1-b2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--h3": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--h1-h2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--s": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-left": {
+            "total": 19,
+            "totalUnique": 1,
+            "unique": {
+              "px": 19
+            },
+            "uniquenessRatio": 0.05263157894736842
+          },
+          "margin": {
+            "total": 44,
+            "totalUnique": 1,
+            "unique": {
+              "px": 44
+            },
+            "uniquenessRatio": 0.022727272727272728
+          },
+          "border-radius": {
+            "total": 36,
+            "totalUnique": 1,
+            "unique": {
+              "px": 36
+            },
+            "uniquenessRatio": 0.027777777777777776
+          },
+          "height": {
+            "total": 20,
+            "totalUnique": 1,
+            "unique": {
+              "px": 20
+            },
+            "uniquenessRatio": 0.05
+          },
+          "margin-top": {
+            "total": 22,
+            "totalUnique": 1,
+            "unique": {
+              "px": 22
+            },
+            "uniquenessRatio": 0.045454545454545456
+          },
+          "padding-bottom": {
+            "total": 22,
+            "totalUnique": 1,
+            "unique": {
+              "px": 22
+            },
+            "uniquenessRatio": 0.045454545454545456
+          },
+          "padding-top": {
+            "total": 16,
+            "totalUnique": 1,
+            "unique": {
+              "px": 16
+            },
+            "uniquenessRatio": 0.0625
+          },
+          "width": {
+            "total": 22,
+            "totalUnique": 1,
+            "unique": {
+              "px": 22
+            },
+            "uniquenessRatio": 0.045454545454545456
+          },
+          "padding": {
+            "total": 14,
+            "totalUnique": 1,
+            "unique": {
+              "px": 14
+            },
+            "uniquenessRatio": 0.07142857142857142
+          },
+          "margin-bottom": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "margin-right": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "top": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "gap": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "font-size": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "text-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "transform": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "vw": 1,
+              "deg": 6
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "transition": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "s": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "animation": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 546
+      },
+      "keywords": {
+        "total": 30,
+        "totalUnique": 2,
+        "unique": {
+          "none": 15,
+          "auto": 15
+        },
+        "uniquenessRatio": 0.06666666666666667
+      }
+    },
+    "__meta__": {
+      "parseTime": 3,
+      "analyzeTime": 5,
+      "total": 8
+    }
+  }
+}

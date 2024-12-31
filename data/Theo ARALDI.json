@@ -3,34 +3,105 @@
     {
       "file": "http://127.0.0.1:5500/",
       "title": "CinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image 2.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 3.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 4.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 5.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image100.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/icon_arrowcarrousel.svg",
+          "alt": "fleche gauche"
+        },
+        {
+          "src": "/assets/icon_arrowcarrousel.svg",
+          "alt": "fleche droite"
+        },
+        {
+          "src": "/assets/image 70.webp",
+          "alt": "région"
+        },
+        {
+          "src": "/assets/image 71.webp",
+          "alt": "Belfort"
+        },
+        {
+          "src": "/assets/image 72.webp",
+          "alt": "pass"
+        },
+        {
+          "src": "/assets/image 73.webp",
+          "alt": "univ"
+        },
+        {
+          "src": "/assets/image 74.webp",
+          "alt": "prefet"
+        },
+        {
+          "src": "/assets/image 75.webp",
+          "alt": "coca"
+        },
+        {
+          "src": "/assets/image 76.webp",
+          "alt": "natais"
+        },
+        {
+          "src": "/assets/image 77.webp",
+          "alt": "teisseire"
+        },
+        {
+          "src": "/assets/image 78.webp",
+          "alt": "ecoprod"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 120,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 1,
-        "link": 1,
-        "script": 2,
-        "body": 1,
-        "header": 1,
-        "a": 16,
-        "img": 24,
-        "button": 3,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 29,
-        "h1": 1,
-        "section": 1,
-        "center": 6,
-        "b": 6,
-        "h2": 1,
-        "h3": 5,
-        "footer": 1,
-        "p": 1
-      },
       "externalLinks": 0,
       "internalLinks": 16,
       "deadLinks": 0,
@@ -45,36 +116,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Vivez la magie du grand écran en plein air ! Avec une sélection de films variée, des classiques aux nouveautés, profitez de soirées inoubliables sous un ciel étoilé."
-        },
-        {
-          "tag": "h3",
-          "text": "Partenaires institutionnels"
-        },
-        {
-          "tag": "h3",
-          "text": "Sponsors"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -782,31 +823,41 @@
     {
       "file": "http://127.0.0.1:5500/inscription.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/img.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 65,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 8,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 6,
-        "h1": 1,
-        "h2": 1,
-        "h3": 5,
-        "p": 2,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -821,36 +872,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Inscription"
-        },
-        {
-          "tag": "h3",
-          "text": "Deviens exposant Juillet 2025"
-        },
-        {
-          "tag": "h3",
-          "text": "Télécharge ton dossier de candidature et renvoie-le-nous. Nous reviendrons vers toi après avoir effectué la sélection des exposants !"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1164,31 +1185,37 @@
     {
       "file": "http://127.0.0.1:5500/billetterie.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 58,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 7,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 3,
-        "h1": 1,
-        "h2": 1,
-        "footer": 1,
-        "h3": 3,
-        "p": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -1203,28 +1230,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Billetterie"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1522,31 +1527,41 @@
     {
       "file": "http://127.0.0.1:5500/apropos.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image 6.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 62,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 8,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 4,
-        "h1": 1,
-        "h2": 1,
-        "h3": 5,
-        "footer": 1,
-        "p": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -1561,36 +1576,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "Le festival de cinéma éco-responsable qui se concentre sur la projection de films d'auteur et de documentaires abordant des sujets environnementaux et sociétaux. Il se déroule principalement en plein air, proposant une expérience immersive au cœur de la nature."
-        },
-        {
-          "tag": "h3",
-          "text": "Le festival se déroulera sur la presqu'île du Malsaucy, un superbe environnement naturel à proximité de Belfort. Non seulement cet endroit propose un cadre super pour les projections en plein air, et il renforce également notre dévouement envers la durabilité et la préservation de l'environnement."
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1914,31 +1899,89 @@
     {
       "file": "http://127.0.0.1:5500/programe.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image 8.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 9.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 10.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 11.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 12.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 13.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 14.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 15.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 16.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 17.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 66.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image-2.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image-3.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 104,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 12,
-        "img": 20,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 17,
-        "h1": 1,
-        "h2": 18,
-        "p": 2,
-        "footer": 1,
-        "h3": 3
-      },
       "externalLinks": 0,
       "internalLinks": 12,
       "deadLinks": 0,
@@ -1953,96 +1996,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Programe"
-        },
-        {
-          "tag": "h2",
-          "text": "Samedi 05 juillet"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Le Peuple Migrateur\" (2001) 13h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"La Terre vue du ciel\" (2004) 15h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"La Terre vue du ciel\" (2004) 17h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Avatar\" (2009) 20h"
-        },
-        {
-          "tag": "h2",
-          "text": "Dimanche 06 juillet"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Une vérité qui dérange\" (2006)  13h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Planète Terre\" (2006) 15h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Cowspiracy: The Sustainability Secret\" (2014) 17h"
-        },
-        {
-          "tag": "h2",
-          "text": "Lundi 07 juillet"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Les Saisons\" (2015) 13h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"I Am Greta\" (2020) 15h"
-        },
-        {
-          "tag": "h2",
-          "text": "\"Avatar 2 la voie de l'eau\" (2020) 16h30"
-        },
-        {
-          "tag": "h2",
-          "text": "Rencontre"
-        },
-        {
-          "tag": "h2",
-          "text": "James Cameron 5 juilllet"
-        },
-        {
-          "tag": "h2",
-          "text": "Greta Thunberg 6 juilllet"
-        },
-        {
-          "tag": "h2",
-          "text": "Adrien Antoine\n            7 juilllet"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -2653,32 +2606,37 @@
     {
       "file": "http://127.0.0.1:5500/contact.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 79,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 7,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 12,
-        "h1": 1,
-        "h2": 1,
-        "h3": 7,
-        "input": 4,
-        "p": 5,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -2693,44 +2651,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "Nom"
-        },
-        {
-          "tag": "h3",
-          "text": "Prénom"
-        },
-        {
-          "tag": "h3",
-          "text": "Email"
-        },
-        {
-          "tag": "h3",
-          "text": "Message"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3058,31 +2978,53 @@
     {
       "file": "http://127.0.0.1:5500/infospratiques.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image 7.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 67.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 68.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 69.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 110,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 11,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 4,
-        "li": 20,
-        "main": 1,
-        "div": 18,
-        "h1": 1,
-        "p": 13,
-        "h3": 6,
-        "h2": 4,
-        "footer": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -3097,52 +3039,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h3",
-          "text": "Adresse : 7 Rue du Malsaucy 90300 Sermamagny"
-        },
-        {
-          "tag": "h3",
-          "text": "Le cinéNature se déroulera le 5,6et7 juillet 2025"
-        },
-        {
-          "tag": "h2",
-          "text": "HÔTELS PARTENAIRES"
-        },
-        {
-          "tag": "h2",
-          "text": "Campanile Belfort-Montbéliard***\n                    La JonxionAvenue de la Gare TGV90400 MerouxSite web03 84 19 08 97"
-        },
-        {
-          "tag": "h2",
-          "text": "HOTEL BEST WESTERN\n                    9 avenue Wilson90000 BelfortSite web03 84 21 59 45"
-        },
-        {
-          "tag": "h2",
-          "text": "Camping de l’Étang des Forges \n                    de Belfort ***\n                    Env. à 6 km du festivalSite web03 84 22 54 92"
-        },
-        {
-          "tag": "h3",
-          "text": "PRIVILÉGIEZ L’ÉCO-MOBILITÉ\n                    Le festival du CinéNature se déroule sur la presqu’île du Malsaucy, un site protégé situé à 7 km de Belfort.Afin de limiter les impacts environnementaux et réduire le temps de venue sur le site, le festival développe un dispositif de navettes train et bus gratuits entre la gare TGV Belfort-Montbéliard, la gare Belfort-Ville, le camping et le site du festival.Le CinéNature encouragent et recommandent d’utiliser des moyens de transport alternatifs à la voiture, tels que le vélo ou les transports en commun."
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3564,31 +3460,49 @@
     {
       "file": "http://127.0.0.1:5500/invites.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image 66.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image-2.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image-3.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 67,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 12,
-        "img": 10,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 5,
-        "h1": 1,
-        "h2": 4,
-        "footer": 1,
-        "h3": 3,
-        "p": 1
-      },
       "externalLinks": 0,
       "internalLinks": 12,
       "deadLinks": 0,
@@ -3603,40 +3517,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Invités"
-        },
-        {
-          "tag": "h2",
-          "text": "James Cameron"
-        },
-        {
-          "tag": "h2",
-          "text": "Greta Thunberg"
-        },
-        {
-          "tag": "h2",
-          "text": "Adrien Antoine"
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -3997,32 +3877,45 @@
     {
       "file": "http://127.0.0.1:5500/Film%20avatar.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image 64.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "assets/image 66.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 70,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 9,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 3,
-        "h1": 1,
-        "h2": 4,
-        "h3": 9,
-        "video": 1,
-        "footer": 1,
-        "p": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -4037,64 +3930,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Film Avatar"
-        },
-        {
-          "tag": "h2",
-          "text": "Synopsis du film"
-        },
-        {
-          "tag": "h3",
-          "text": "Sur le monde extraterrestre luxuriant de Pandora vivent les Na'vi, des êtres qui semblent primitifs, mais qui sont très évolués. Jake Sully, un ancien Marine paralysé, redevient mobile grâce à un tel Avatar et tombe amoureux d'une femme Na'vi. Alors qu'un lien avec elle grandit, il est entraîné dans une bataille pour la survie de son monde."
-        },
-        {
-          "tag": "h2",
-          "text": "infos technique"
-        },
-        {
-          "tag": "h3",
-          "text": "Avatar\n            Version originaleAvatar\n            Version françaiseAvatar\n            Année2009\n            OrigineÉtats-Unis\n            Durée162 minutes\n            ScenarioJames Cameron\n            DistributionSam WorthingtonSigourney WeaverZoe SaldanaGiovanni Ribisi\n            ProductionJames CameronJon Landau\n            Direction de la photographieMauro Fiore\n            Bande originaleJames Horner\n            MontageJames CameronJohn RefouaStephen Rivkin\n            Studio(s)20th Century Fox"
-        },
-        {
-          "tag": "h2",
-          "text": "Réalisateur : James Cameron"
-        },
-        {
-          "tag": "h3",
-          "text": "James Cameron est un réalisateur, scénariste et producteur canadien né le 16 août 1954 à Kapuskasing, en Ontario. Reconnu comme l'un des cinéastes les plus influents de l'histoire du cinéma, il est célèbre pour ses films mêlant science-fiction, technologie de pointe et récits épiques."
-        },
-        {
-          "tag": "h3",
-          "text": "Après avoir étudié la physique et l'anglais, Cameron se lance dans le cinéma en tant qu'artiste de décors miniatures et spécialiste des effets visuels. Sa carrière décolle en 1984 avec \"The Terminator\", un film de science-fiction devenu culte. Il enchaîne avec des œuvres marquantes comme \"Aliens\" (1986), \"The Abyss\" (1989) et \"Terminator 2: Judgment Day\" (1991), connu pour ses avancées dans les effets spéciaux."
-        },
-        {
-          "tag": "h3",
-          "text": "En 1997, il réalise \"Titanic\", un drame romantique qui devient le film le plus lucratif de l'époque et remporte 11 Oscars, dont celui du meilleur réalisateur. En 2009, il révolutionne l'industrie avec \"Avatar\", premier film à franchir la barre des 2 milliards de dollars de recettes grâce à sa technologie de capture de mouvement et de 3D immersive."
-        },
-        {
-          "tag": "h3",
-          "text": "James Cameron est également un explorateur des océans passionné, ayant participé à plusieurs expéditions sous-marines. Il reste une figure majeure de l'innovation cinématographique, continuant à repousser les limites techniques et narratives du 7ᵉ art."
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -4415,7 +4250,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/assets/Bande%20Annonce%20AVATAR.mp4",
-            "resourceSize": 1117813,
+            "resourceSize": 589824,
             "mimeType": "video/mp4",
             "resourceType": "Media"
           },
@@ -4527,31 +4362,41 @@
     {
       "file": "http://127.0.0.1:5500/InviteAdrien%20Antoine.html",
       "title": "CinéNatureCinéNature",
+      "images": [
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "assets/image-3.webp",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/image 63.webp",
+          "alt": "Logo CinéNature"
+        },
+        {
+          "src": "/assets/facebook.webp",
+          "alt": "facebook"
+        },
+        {
+          "src": "/assets/instagram.webp",
+          "alt": "instagram"
+        },
+        {
+          "src": "/assets/TikTok.webp",
+          "alt": "TikTok"
+        },
+        {
+          "src": "/assets/youtube.webp",
+          "alt": "youtube"
+        }
+      ],
       "totalTags": 66,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 6,
-        "title": 2,
-        "link": 2,
-        "script": 3,
-        "body": 1,
-        "header": 1,
-        "a": 11,
-        "img": 8,
-        "button": 1,
-        "span": 1,
-        "nav": 1,
-        "ul": 2,
-        "li": 7,
-        "main": 1,
-        "div": 3,
-        "h1": 1,
-        "h2": 2,
-        "h3": 9,
-        "footer": 1,
-        "p": 1
-      },
       "externalLinks": 0,
       "internalLinks": 11,
       "deadLinks": 0,
@@ -4566,56 +4411,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "Festival CinéNature"
-        },
-        {
-          "tag": "h2",
-          "text": "Adrien Antoine"
-        },
-        {
-          "tag": "h3",
-          "text": "Adrien Antoine est un acteur et doubleur français né le 29 avril 1980. Il est surtout connu pour son travail dans le domaine du doublage, prêtant sa voix à de nombreux personnages célèbres. Il est notamment la voix française régulière de Henry Cavill (Superman dans l’univers DC), Chris Hemsworth (Thor dans l’univers Marvel) et de l’acteur Jensen Ackles dans la série \"Supernatural\".\n        Il a également doublé des personnages emblématiques dans des films d'animation et des jeux vidéo, consolidant sa place parmi les plus grands talents du doublage en France."
-        },
-        {
-          "tag": "h2",
-          "text": "Liste des films"
-        },
-        {
-          "tag": "h3",
-          "text": "Superman / Henry Cavill dans l'univers DC\n            Sa voix puissante et chaleureuse a donné vie au Superman d'Henry Cavill dans des films comme \"Man of Steel\", \"Batman v Superman\" et \"Justice League\". Sa performance incarne parfaitement l'autorité et l'humanité du super-héros."
-        },
-        {
-          "tag": "h3",
-          "text": "Thor / Chris Hemsworth dans l'univers Marvel\n            Adrien Antoine prête sa voix au Thor charismatique de Chris Hemsworth dans la saga \"Thor\" et les films \"Avengers\". Son interprétation mêle gravité et humour, capturant l'évolution du personnage d'un dieu arrogant à un héros attachant."
-        },
-        {
-          "tag": "h3",
-          "text": "Dean Winchester / Jensen Ackles dans Supernatural\n            Dans cette série culte, il double Dean Winchester, un chasseur de démons à la fois sarcastique et profondément émotionnel. Sa voix apporte une profondeur et une intensité qui ont conquis les fans de la série."
-        },
-        {
-          "tag": "h3",
-          "text": "Batman / Bruce Wayne dans les jeux vidéo\n            Adrien Antoine a prêté sa voix à Batman dans plusieurs jeux vidéo, notamment dans la série \"Batman: Arkham\". Il réussit à transmettre la dualité du personnage entre justicier impitoyable et humain vulnérable."
-        },
-        {
-          "tag": "h3",
-          "text": "Rôle dans l'animation\n            Il a aussi doublé des personnages animés marquants, comme Sam dans \"Totally Spies!\" ou des héros dans des films d’animation populaires, renforçant son statut de voix familière auprès de toutes les générations.\n            Ces rôles illustrent la polyvalence et le charisme vocal d'Adrien Antoine, qui continue de laisser une empreinte durable dans l'univers du doublage français."
-        },
-        {
-          "tag": "h3",
-          "text": "Contact"
-        },
-        {
-          "tag": "h3",
-          "text": "À propos"
-        },
-        {
-          "tag": "h3",
-          "text": "7 Rue du Malsaucy 90300 Sermamagny BUT MMI Araldi Théo"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -6806,8 +6601,8 @@
       }
     },
     "__meta__": {
-      "parseTime": 1,
-      "analyzeTime": 3,
+      "parseTime": 2,
+      "analyzeTime": 2,
       "total": 4
     }
   }

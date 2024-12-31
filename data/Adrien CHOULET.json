@@ -3,36 +3,21 @@
     {
       "file": "http://127.0.0.1:5500/",
       "title": "Ciné Echos",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 176,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 48,
-        "button": 3,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 21,
-        "svg": 7,
-        "path": 7,
-        "span": 40,
-        "header": 1,
-        "img": 3,
-        "main": 1,
-        "video": 1,
-        "section": 3,
-        "h2": 4,
-        "h3": 5,
-        "p": 5,
-        "footer": 1,
-        "ul": 1,
-        "li": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 7,
       "deadLinks": 14,
@@ -47,48 +32,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h2",
-          "text": "Interstellar"
-        },
-        {
-          "tag": "h2",
-          "text": "Un petit truc en +"
-        },
-        {
-          "tag": "h2",
-          "text": "Programmation"
-        },
-        {
-          "tag": "h3",
-          "text": "Vendredi 5 septembre"
-        },
-        {
-          "tag": "h3",
-          "text": "Samedi 6 septembre"
-        },
-        {
-          "tag": "h2",
-          "text": "Héricourt"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -224,7 +167,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -278,7 +221,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/assets/video/null.mp4",
-            "resourceSize": 1179648,
+            "resourceSize": 1114112,
             "mimeType": "video/mp4",
             "resourceType": "Media"
           },
@@ -330,35 +273,45 @@
     {
       "file": "http://127.0.0.1:5500/lefestival.html",
       "title": "Ciné Echos",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "assets/img/Festi4.png",
+          "alt": "Festival image 4"
+        },
+        {
+          "src": "assets/img/Festi2.png",
+          "alt": "Festival image 2"
+        },
+        {
+          "src": "assets/img/Festi3.png",
+          "alt": "Festival image 3"
+        },
+        {
+          "src": "assets/img/Festi1.png",
+          "alt": "Festival image 1"
+        },
+        {
+          "src": "assets/img/Festi5.png",
+          "alt": "Festival image 5"
+        },
+        {
+          "src": "assets/img/Festi6.png",
+          "alt": "Festival image 6"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 119,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 26,
-        "button": 2,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 22,
-        "svg": 7,
-        "path": 7,
-        "span": 6,
-        "header": 1,
-        "img": 9,
-        "main": 1,
-        "h2": 1,
-        "p": 6,
-        "iframe": 1,
-        "footer": 1,
-        "h3": 3,
-        "ul": 1,
-        "li": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 7,
       "deadLinks": 15,
@@ -373,28 +326,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h2",
-          "text": "2K25"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -510,7 +441,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -610,14 +541,14 @@
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
-            "resourceSize": 2675,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
+            "resourceSize": 3103,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
-            "resourceSize": 3103,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
+            "resourceSize": 2675,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -664,16 +595,16 @@
             "resourceType": "Image"
           },
           {
+            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i271802&2i183090&2e1&3u11&4m2&1u372&2u200&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&client=google-maps-embed&token=80092",
+            "resourceSize": 16691,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/favicons/favicons.png",
             "resourceSize": 411,
             "mimeType": "image/png",
             "resourceType": "Other"
-          },
-          {
-            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i271802&2i183090&2e1&3u11&4m2&1u372&2u200&5m6&1e0&5sfr-FR&6sus&10b1&12b1&14i47083502&client=google-maps-embed&token=103882",
-            "resourceSize": 16691,
-            "mimeType": "image/png",
-            "resourceType": "Image"
           },
           {
             "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/onion.js",
@@ -693,34 +624,33 @@
     {
       "file": "http://127.0.0.1:5500/programmation.html",
       "title": "Ciné Echos",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/img/Festi4.png",
+          "alt": "Image 1"
+        },
+        {
+          "src": "./assets/img/Festi5.png",
+          "alt": "Image 2"
+        },
+        {
+          "src": "./assets/img/Festi2.png",
+          "alt": "Image 3"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 153,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 39,
-        "button": 4,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 21,
-        "svg": 7,
-        "path": 7,
-        "span": 30,
-        "header": 1,
-        "img": 6,
-        "main": 1,
-        "h2": 1,
-        "p": 6,
-        "footer": 1,
-        "h3": 3,
-        "ul": 1,
-        "li": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 7,
       "deadLinks": 14,
@@ -735,28 +665,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h2",
-          "text": "2K25"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -852,7 +760,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -922,34 +830,21 @@
     {
       "file": "http://127.0.0.1:5500/interstellar.html",
       "title": "Ciné Echos",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 133,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 32,
-        "button": 3,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 21,
-        "svg": 7,
-        "path": 7,
-        "span": 19,
-        "header": 1,
-        "img": 3,
-        "main": 1,
-        "h2": 1,
-        "h3": 5,
-        "p": 6,
-        "footer": 1,
-        "ul": 1,
-        "li": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 7,
       "deadLinks": 14,
@@ -964,36 +859,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h2",
-          "text": "Interstellar"
-        },
-        {
-          "tag": "h3",
-          "text": "LE FILM"
-        },
-        {
-          "tag": "h3",
-          "text": "Héricourt"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1099,7 +964,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1151,34 +1016,21 @@
     {
       "file": "http://127.0.0.1:5500/upte.html",
       "title": "Ciné Echos",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 133,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 32,
-        "button": 3,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 21,
-        "svg": 7,
-        "path": 7,
-        "span": 19,
-        "header": 1,
-        "img": 3,
-        "main": 1,
-        "h2": 1,
-        "h3": 5,
-        "p": 6,
-        "footer": 1,
-        "ul": 1,
-        "li": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 7,
       "deadLinks": 14,
@@ -1193,36 +1045,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h2",
-          "text": "Un petit truc en +"
-        },
-        {
-          "tag": "h3",
-          "text": "LE FILM"
-        },
-        {
-          "tag": "h3",
-          "text": "Héricourt"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1328,7 +1150,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1380,34 +1202,21 @@
     {
       "file": "http://127.0.0.1:5500/plan.html",
       "title": "Ciné Echos",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 184,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 57,
-        "button": 8,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 27,
-        "svg": 7,
-        "path": 7,
-        "span": 26,
-        "header": 1,
-        "img": 3,
-        "main": 1,
-        "h2": 6,
-        "p": 11,
-        "footer": 1,
-        "h3": 3,
-        "ul": 1,
-        "li": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 7,
       "deadLinks": 20,
@@ -1422,48 +1231,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h2",
-          "text": "Fictionstage"
-        },
-        {
-          "tag": "h2",
-          "text": "Comicstage"
-        },
-        {
-          "tag": "h2",
-          "text": "Zone Festival"
-        },
-        {
-          "tag": "h2",
-          "text": "Merch"
-        },
-        {
-          "tag": "h2",
-          "text": "Restauration"
-        },
-        {
-          "tag": "h2",
-          "text": "Zone Parking"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1584,7 +1351,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1636,36 +1403,21 @@
     {
       "file": "http://127.0.0.1:5500/chat.html",
       "title": "Ciné Echos - Chat",
+      "images": [
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/Component 1.png",
+          "alt": "Logo Ciné Echos"
+        },
+        {
+          "src": "./assets/icons/socialIcons.png",
+          "alt": "sociaux"
+        }
+      ],
       "totalTags": 100,
-      "uniqueTags": {
-        "html": 1,
-        "head": 1,
-        "meta": 2,
-        "title": 1,
-        "link": 7,
-        "body": 1,
-        "div": 15,
-        "button": 3,
-        "h1": 1,
-        "br": 1,
-        "nav": 4,
-        "a": 21,
-        "svg": 6,
-        "path": 6,
-        "span": 7,
-        "header": 1,
-        "img": 3,
-        "main": 1,
-        "form": 1,
-        "input": 1,
-        "textarea": 1,
-        "footer": 1,
-        "h3": 3,
-        "ul": 1,
-        "li": 4,
-        "p": 4,
-        "script": 2
-      },
       "externalLinks": 0,
       "internalLinks": 16,
       "deadLinks": 5,
@@ -1680,24 +1432,6 @@
         "h5": 0,
         "h6": 0
       },
-      "headingsStructure": [
-        {
-          "tag": "h1",
-          "text": "CINEECHOS"
-        },
-        {
-          "tag": "h3",
-          "text": "MENU"
-        },
-        {
-          "tag": "h3",
-          "text": "CONTACT"
-        },
-        {
-          "tag": "h3",
-          "text": "NOUS SUIVRE"
-        }
-      ],
       "outlineStructure": [
         {
           "level": 1,
@@ -1788,7 +1522,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 952,
+            "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3987,9 +3721,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 6,
-      "analyzeTime": 8,
-      "total": 14
+      "parseTime": 4,
+      "analyzeTime": 4,
+      "total": 8
     }
   }
 }
