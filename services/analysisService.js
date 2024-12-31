@@ -81,18 +81,6 @@ export const runLighthouse = async (url) => {
     output: "json",
     port: chrome.port,
     emulatedFormFactor: "mobile", // Configuration pour le mode mobile
-    // throttlingMethod: "devtools", // Utilisation du mode DevTools pour la simulation
-    // throttling: {
-    //   // Simulation d'une connexion 4G (les valeurs sont basées sur un test classique de Google)
-    //   rttMs: 40, // Round-trip time en ms
-    //   throughputKbps: 1500, // Débit en kbps
-    //   requestLatencyMs: 20, // Latence des requêtes en ms
-    //   downloadThroughputKbps: 1500, // Débit de téléchargement en kbps
-    //   uploadThroughputKbps: 1500, // Débit d'upload en kbps
-    // },
-    // // Pour simuler un serveur distant, vous pouvez ajuster le paramètre `simulated`
-    // emulatedUserAgent:
-    //   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
   };
 
   try {
@@ -149,7 +137,7 @@ export const analyzeHTML = (htmlContent) => {
   // Initialise les statistiques d'analyse du HTML
   const result = {
     totalTags: 0, // Nombre total de balises
-    uniqueTags: {}, // Nombre d'occurrences de chaque balise unique
+    // uniqueTags: {}, // Nombre d'occurrences de chaque balise unique
     externalLinks: 0, // Liens externes
     internalLinks: 0, // Liens internes
     deadLinks: 0, // Liens morts (<a href=""> ou <a href="#">)
@@ -165,7 +153,7 @@ export const analyzeHTML = (htmlContent) => {
       h5: 0,
       h6: 0,
     },
-    headingsStructure: [], // Structure des titres avec ordre et texte
+    // headingsStructure: [], // Structure des titres avec ordre et texte
     outlineStructure: [], // Structure de la page (sections, titres)
   };
 
@@ -175,7 +163,7 @@ export const analyzeHTML = (htmlContent) => {
     result.totalTags++;
 
     // Compte les balises uniques
-    result.uniqueTags[tag] = (result.uniqueTags[tag] || 0) + 1;
+    // result.uniqueTags[tag] = (result.uniqueTags[tag] || 0) + 1;
 
     // Analyse des liens
     if (tag === "a") {
@@ -199,10 +187,10 @@ export const analyzeHTML = (htmlContent) => {
     // Compte les titres (h1 à h6) et enregistre leur structure
     if (/^h[1-6]$/.test(tag)) {
       result.headings[tag]++;
-      result.headingsStructure.push({
-        tag: tag,
-        text: $(el).text().trim(),
-      });
+      // result.headingsStructure.push({
+      //   tag: tag,
+      //   text: $(el).text().trim(),
+      // });
 
       // Ajoute la structure des titres à l'outline
       result.outlineStructure.push({
@@ -234,18 +222,21 @@ export const analyzeHTML = (htmlContent) => {
 
 /**
  * Extrait le titre d'une page HTML à partir de son URL.
- * @param {string} fileUrl - L'URL du fichier HTML à récupérer et analyser.
- * @return {Promise<string|null>} - Une promesse qui résout vers le texte du titre de la page, ou `null` en cas d'erreur.
+ * @param {string} htmlContent - Le contenu HTML sous forme de chaîne à analyser.
  */
-export const extractTitleFromHTML = async (fileUrl) => {
-  try {
-    const response = await axios.get(fileUrl);
-    const $ = cheerio.load(response.data);
-    return $("title").text();
-  } catch (error) {
-    console.error("Error extracting title:", error);
-    return null;
-  }
+export const extractTitleAndImagesFromHTML = (htmlContent) => {
+  const $ = cheerio.load(htmlContent);
+
+  const title = $("title").text() || null;
+
+  const images = [];
+  $("img").each((index, img) => {
+    const src = $(img).attr("src") || "No src";
+    const alt = $(img).attr("alt") || "No alt";
+    images.push({ src, alt });
+  });
+
+  return { title, images };
 };
 
 /**
