@@ -1,0 +1,5570 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Index.html",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/imageentree1.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/imageentree2.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/imageentree3.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/image1.webp",
+          "alt": "Lunettes sur un carnet"
+        },
+        {
+          "src": "/assets/img/image2.webp",
+          "alt": "film kingsman"
+        },
+        {
+          "src": "/assets/img/image3.webp",
+          "alt": "réalisateur"
+        },
+        {
+          "src": "/assets/img/image4.webp",
+          "alt": "livre"
+        },
+        {
+          "src": "/assets/img/image5.webp",
+          "alt": "livre"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 128,
+      "externalLinks": 1,
+      "internalLinks": 20,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 5,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Voyez l'avenir, aujourd'hui",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "LES LUNETTES",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "LES LUNETTES",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "KINGSMAN",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "KINGSMAN",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "MATTHEW VAUGHN",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "MATTHEW VAUGHN",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "CULT EYEWEAR",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "CULT EYEWEAR",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "LUNETTES DU STYLE",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "LUNETTES DU STYLE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 182,
+          "lastColumn": 9,
+          "firstColumn": 1,
+          "message": "Stray end tag “footer”.",
+          "extract": "v>\n</div>\n</footer>\n<!-- ",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.91,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 9779,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 539,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/imageentree1.webp",
+            "resourceSize": 50734,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/imageentree2.webp",
+            "resourceSize": 10072,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/imageentree3.webp",
+            "resourceSize": 3686,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image1.webp",
+            "resourceSize": 8242,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image2.webp",
+            "resourceSize": 19046,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image3.webp",
+            "resourceSize": 8366,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image4.webp",
+            "resourceSize": 13010,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image5.webp",
+            "resourceSize": 16698,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/lunettes.html",
+      "title": "les lunettes",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/filtreintropage.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/anciennelunette.webp",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/lunette3D.webp",
+          "alt": "lunette 3D"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/anciencasqueRV.webp",
+          "alt": "casque vr"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/googleglasses.webp",
+          "alt": "google glasses"
+        },
+        {
+          "src": "/assets/img/rayban.webp",
+          "alt": "rayban stories"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/lunetteactuelle.webp",
+          "alt": "lunettes actuelles"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/realitemixte.webp",
+          "alt": "lunette/casque en réalité mixte"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/lentille.webp",
+          "alt": "lentilles connectées"
+        },
+        {
+          "src": "/assets/icons/flechebas.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/ia.webp",
+          "alt": "implant connecté"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 137,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 9,
+        "h2": 9,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "CHRONOLOGIE",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "13 ème siècle",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Première lunette",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "1838",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Lunette 3D",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "1968",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Casque réalité virtuelle",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "2013-2021",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Google glasses, Rayban stories",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Aujourd'hui",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "lunettes actuelles de corrections",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "2050",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Lunette/casque en réalité mixte",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "2070",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Lentilles connectées",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "3000",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Implant connecté",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 62,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=\"/assets/im",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 68,
+          "lastColumn": 51,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        },
+        {
+          "type": "error",
+          "lastLine": 78,
+          "lastColumn": 51,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        },
+        {
+          "type": "error",
+          "lastLine": 81,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=\"/assets/im",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 88,
+          "lastColumn": 55,
+          "firstColumn": 17,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        },
+        {
+          "type": "error",
+          "lastLine": 91,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=\"/assets/im",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 99,
+          "lastColumn": 51,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        },
+        {
+          "type": "error",
+          "lastLine": 102,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 111,
+          "lastColumn": 79,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img class=\"chronologie__fleche\" src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 67
+        },
+        {
+          "type": "error",
+          "lastLine": 113,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=\"/assets/im",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 119,
+          "lastColumn": 55,
+          "firstColumn": 17,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        },
+        {
+          "type": "error",
+          "lastLine": 122,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=\"/assets/im",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 129,
+          "lastColumn": 55,
+          "firstColumn": 17,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/icons/flechebas.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        },
+        {
+          "type": "error",
+          "lastLine": 132,
+          "lastColumn": 42,
+          "message": "No space between attributes.",
+          "extract": "ronologie__img\"src=\"/assets/im",
+          "hiliteStart": 15,
+          "hiliteLength": 1
+        },
+        {
+          "type": "error",
+          "lastLine": 183,
+          "lastColumn": 13,
+          "firstColumn": 5,
+          "message": "Stray end tag “footer”.",
+          "extract": "/div>\n    </footer>\n<!-- ",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 0.85,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/lunettes.html",
+            "resourceSize": 11388,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/filtreintropage.webp",
+            "resourceSize": 14042,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/anciennelunette.webp",
+            "resourceSize": 20606,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flechebas.svg",
+            "resourceSize": 1662,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunette3D.webp",
+            "resourceSize": 60140,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/anciencasqueRV.webp",
+            "resourceSize": 60104,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/googleglasses.webp",
+            "resourceSize": 35946,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/rayban.webp",
+            "resourceSize": 36882,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunetteactuelle.webp",
+            "resourceSize": 31730,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/realitemixte.webp",
+            "resourceSize": 66958,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lentille.webp",
+            "resourceSize": 75412,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ia.webp",
+            "resourceSize": 103114,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/video/videolunette.mp4",
+            "resourceSize": 168,
+            "mimeType": "text/html",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/kingsman.html",
+      "title": "Kingsman",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-kingsman.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/bandeannonceimage.webp",
+          "alt": "personnage sur chaîse"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/img/kingsman1.webp",
+          "alt": "kingsman1"
+        },
+        {
+          "src": "/assets/img/kingsman2.webp",
+          "alt": "kingsman1"
+        },
+        {
+          "src": "/assets/img/kingsman3.webp",
+          "alt": "kingsman1"
+        },
+        {
+          "src": "/assets/img/taronegerton.webp",
+          "alt": "taron egerton"
+        },
+        {
+          "src": "/assets/img/colinfirth.webp",
+          "alt": "colin firth"
+        },
+        {
+          "src": "/assets/img/markstrong.webp",
+          "alt": "mark strong"
+        },
+        {
+          "src": "/assets/img/lunettevisionX.webp",
+          "alt": "lunette visionX"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 144,
+      "externalLinks": 4,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 5,
+        "h4": 2,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "SYNOPSIS",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "L'INTÉRÊT DES LUNETTES",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "PRINCIPE MORAL",
+          "tag": "h3"
+        },
+        {
+          "level": 4,
+          "text": "DISTRIBUTION",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "SUGGESTION FUTURE",
+          "tag": "h4"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 64,
+          "lastColumn": 90,
+          "firstColumn": 5,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": "img\">\n    <figcaption class=\"legende__texte\" href=\"https://www.youtube.com/watch?v=uHOzXu4FgTs\">Kingsm",
+          "hiliteStart": 10,
+          "hiliteLength": 86
+        },
+        {
+          "type": "error",
+          "lastLine": 179,
+          "lastColumn": 9,
+          "firstColumn": 1,
+          "message": "Stray end tag “footer”.",
+          "extract": "v>\n</div>\n</footer>\n</foo",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        },
+        {
+          "type": "error",
+          "lastLine": 180,
+          "lastColumn": 9,
+          "firstColumn": 1,
+          "message": "Stray end tag “footer”.",
+          "extract": "</footer>\n</footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.97,
+        "accessibility": 0.91,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/kingsman.html",
+            "resourceSize": 10915,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-kingsman.webp",
+            "resourceSize": 38368,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/bandeannonceimage.webp",
+            "resourceSize": 25778,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/kingsman1.webp",
+            "resourceSize": 14632,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/kingsman2.webp",
+            "resourceSize": 16360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/kingsman3.webp",
+            "resourceSize": 15702,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/taronegerton.webp",
+            "resourceSize": 7042,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/colinfirth.webp",
+            "resourceSize": 7572,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/markstrong.webp",
+            "resourceSize": 4626,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettevisionX.webp",
+            "resourceSize": 28502,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/matthewvaughn.html",
+      "title": "Matthew Vaughn",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-MV.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/matthewvaughn1.webp",
+          "alt": "matthew vaughn"
+        },
+        {
+          "src": "/assets/img/film1.webp",
+          "alt": "film 1"
+        },
+        {
+          "src": "/assets/img/film2.webp",
+          "alt": "film 2"
+        },
+        {
+          "src": "/assets/img/film3.webp",
+          "alt": "film 3"
+        },
+        {
+          "src": "/assets/img/film4.webp",
+          "alt": "film 4"
+        },
+        {
+          "src": "/assets/img/film5.webp",
+          "alt": "film 5"
+        },
+        {
+          "src": "/assets/icons/flechecarrousel.svg",
+          "alt": "No alt"
+        },
+        {
+          "src": "/assets/img/matthewvaughn2.webp",
+          "alt": "matthew vaughn"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 136,
+      "externalLinks": 6,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "BIOGRAPHIE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "FILMOGRAPHIE",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "VAUGHN CHOISIT LES LUNETTES",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 63,
+          "lastColumn": 99,
+          "firstColumn": 13,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": "          <figcaption class=\"legende__texte\" href=\"https://fr.wikipedia.org/wiki/Matthew_Vaughn\">Matthe",
+          "hiliteStart": 10,
+          "hiliteLength": 87
+        },
+        {
+          "type": "error",
+          "lastLine": 95,
+          "lastColumn": 83,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img class=\"courrousel_fleche\" src=\"/assets/icons/flechecarrousel.svg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 71
+        },
+        {
+          "type": "error",
+          "lastLine": 109,
+          "lastColumn": 95,
+          "firstColumn": 9,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": ">\n        <figcaption class=\"legende__texte\" href=\"https://fr.wikipedia.org/wiki/Matthew_Vaughn\">Matthe",
+          "hiliteStart": 10,
+          "hiliteLength": 87
+        },
+        {
+          "type": "error",
+          "lastLine": 165,
+          "lastColumn": 13,
+          "firstColumn": 5,
+          "message": "Stray end tag “footer”.",
+          "extract": "/div>\n    </footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.85,
+        "bestPractices": 0.96,
+        "seo": 0.82,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/matthewvaughn.html",
+            "resourceSize": 11830,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-MV.webp",
+            "resourceSize": 20082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/matthewvaughn1.webp",
+            "resourceSize": 17278,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film1.webp",
+            "resourceSize": 44814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film2.webp",
+            "resourceSize": 33878,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film3.webp",
+            "resourceSize": 35806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film4.webp",
+            "resourceSize": 34558,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film5.webp",
+            "resourceSize": 37136,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flechecarrousel.svg",
+            "resourceSize": 1733,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/matthewvaughn2.webp",
+            "resourceSize": 20468,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/culteyewear.html",
+      "title": "Cult Eyewear",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-livre.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/culteyewear1.webp",
+          "alt": "culteyewear"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/img/culteyewear2.webp",
+          "alt": "dessin lunette"
+        },
+        {
+          "src": "/assets/img/culteyewear3.webp",
+          "alt": "lunette"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 115,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "LE LIVRE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "MODERNITÉ",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "HANDLEY ET LE FUTUR",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "FORCE DU LIVRE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 64,
+          "lastColumn": 125,
+          "firstColumn": 9,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": ">\n        <figcaption class=\"legende__texte\" href=\"https://www.amazon.com/Cult-Eyewear-Worlds-Enduring-Classics/dp/1858945097\">Cult E",
+          "hiliteStart": 10,
+          "hiliteLength": 117
+        },
+        {
+          "type": "error",
+          "lastLine": 144,
+          "lastColumn": 13,
+          "firstColumn": 5,
+          "message": "Stray end tag “footer”.",
+          "extract": "/div>\n    </footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.91,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/culteyewear.html",
+            "resourceSize": 9877,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-livre.webp",
+            "resourceSize": 20170,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/culteyewear1.webp",
+            "resourceSize": 17040,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/culteyewear2.webp",
+            "resourceSize": 18656,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/culteyewear3.webp",
+            "resourceSize": 15704,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/lunettesdustyle.html",
+      "title": "Lunettes du style",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-lunettesdestyle.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/img/lunettesdustyle1.webp",
+          "alt": "lunettes du style - do not do"
+        },
+        {
+          "src": "/assets/img/lunettesdustyle2.webp",
+          "alt": "lunettes du style - do not do"
+        },
+        {
+          "src": "/assets/img/lunettesdustyle3.webp",
+          "alt": "lunettes du style - do not do"
+        },
+        {
+          "src": "/assets/img/lunettesdustyle4.webp",
+          "alt": "lunettes du style - do not do"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 128,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "LA MUSIQUE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "LES ARTISTES",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "MODE CONTEMPORAINE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 52,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Stray end tag “div”.",
+          "extract": "/nav>\n    </div>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 64,
+          "lastColumn": 98,
+          "firstColumn": 13,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": "          <figcaption class=\"legende__texte\" href=\"https://www.youtube.com/watch?v=JCsRTBETTzw\">Lunett",
+          "hiliteStart": 10,
+          "hiliteLength": 86
+        },
+        {
+          "type": "error",
+          "lastLine": 87,
+          "lastColumn": 96,
+          "firstColumn": 9,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": ">\n        <figcaption class=\"legende__texte\" href=\"https://www.instagram.com/donotdomusic/?hl=fr\">Do not",
+          "hiliteStart": 10,
+          "hiliteLength": 88
+        },
+        {
+          "type": "error",
+          "lastLine": 98,
+          "lastColumn": 96,
+          "firstColumn": 9,
+          "message": "Attribute “href” not allowed on element “figcaption” at this point.",
+          "extract": ">\n        <figcaption class=\"legende__texte\" href=\"https://www.instagram.com/donotdomusic/?hl=fr\">Do not",
+          "hiliteStart": 10,
+          "hiliteLength": 88
+        },
+        {
+          "type": "error",
+          "lastLine": 155,
+          "lastColumn": 9,
+          "firstColumn": 1,
+          "message": "Stray end tag “footer”.",
+          "extract": "v>\n</div>\n</footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.97,
+        "accessibility": 0.91,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/lunettesdustyle.html",
+            "resourceSize": 10286,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-lunettesdestyle.webp",
+            "resourceSize": 33018,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettesdustyle1.webp",
+            "resourceSize": 25928,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettesdustyle2.webp",
+            "resourceSize": 16702,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettesdustyle3.webp",
+            "resourceSize": 10380,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettesdustyle4.webp",
+            "resourceSize": 26888,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "À propos",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-apropos.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 87,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 112,
+          "lastColumn": 13,
+          "firstColumn": 5,
+          "message": "Stray end tag “footer”.",
+          "extract": "/div>\n    </footer>\n<!-- ",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.89,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 6991,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-apropos.webp",
+            "resourceSize": 12668,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autresprojets.html",
+      "title": "Autres Projets",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-autreprojets.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/icons/elois.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/florian.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/alice.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/solene.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/ethan.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/valentine.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/evan.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/mathis.svg",
+          "alt": "logochaussure"
+        },
+        {
+          "src": "/assets/icons/flecheblanche.svg",
+          "alt": "fleche"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 132,
+      "externalLinks": 1,
+      "internalLinks": 23,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 168,
+          "lastColumn": 13,
+          "firstColumn": 5,
+          "message": "Stray end tag “footer”.",
+          "extract": "/div>\n    </footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.89,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autresprojets.html",
+            "resourceSize": 9557,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-autreprojets.webp",
+            "resourceSize": 41672,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/elois.svg",
+            "resourceSize": 11252,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/flecheblanche.svg",
+            "resourceSize": 2116,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/florian.svg",
+            "resourceSize": 54347,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/alice.svg",
+            "resourceSize": 258409,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/solene.svg",
+            "resourceSize": 334154,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/ethan.svg",
+            "resourceSize": 20447,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/valentine.svg",
+            "resourceSize": 45111,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/evan.svg",
+            "resourceSize": 87316,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mathis.svg",
+            "resourceSize": 18888,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/introglossaire.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 88,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 4,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 5,
+          "text": "Verres bifocaux :",
+          "tag": "h5"
+        },
+        {
+          "level": 5,
+          "text": "Verres progressifs :",
+          "tag": "h5"
+        },
+        {
+          "level": 5,
+          "text": "Réalité virtuelle :",
+          "tag": "h5"
+        },
+        {
+          "level": 5,
+          "text": "Réalité mixte :",
+          "tag": "h5"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 124,
+          "lastColumn": 13,
+          "firstColumn": 5,
+          "message": "Stray end tag “footer”.",
+          "extract": "/div>\n    </footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 7657,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/introglossaire.webp",
+            "resourceSize": 14550,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact",
+      "images": [
+        {
+          "src": "/assets/icons/logo-header.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/imagelangue.svg",
+          "alt": "logo"
+        },
+        {
+          "src": "/assets/icons/menu.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/icons/croix.svg",
+          "alt": "menu"
+        },
+        {
+          "src": "/assets/img/intro-contact.webp",
+          "alt": "image d'entrée"
+        },
+        {
+          "src": "/assets/icons/mail.svg",
+          "alt": "lettre"
+        },
+        {
+          "src": "/assets/icons/logofooter.svg",
+          "alt": "Oeil"
+        }
+      ],
+      "totalTags": 89,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 5,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "futurvision",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "nom",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "nom",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "prenom",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "prenom",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "mail",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "mail",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "message",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "message",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AUTRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 121,
+          "lastColumn": 9,
+          "firstColumn": 1,
+          "message": "Stray end tag “footer”.",
+          "extract": "v>\n</div>\n</footer>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.89,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 6704,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 539,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logo-header.svg",
+            "resourceSize": 5018,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/imagelangue.svg",
+            "resourceSize": 5901,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/menu.svg",
+            "resourceSize": 1908,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/croix.svg",
+            "resourceSize": 1668,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro-contact.webp",
+            "resourceSize": 9424,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/mail.svg",
+            "resourceSize": 64048,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/logofooter.svg",
+            "resourceSize": 3987,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap",
+            "resourceSize": 1302,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/fonts.css",
+            "resourceSize": 240,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 275,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1077,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paragraphe.css",
+            "resourceSize": 998,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1009,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 294,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autresprojets.css",
+            "resourceSize": 534,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/legende.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/exergue.css",
+            "resourceSize": 262,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/palette.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/image.css",
+            "resourceSize": 254,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 114,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chronologie.css",
+            "resourceSize": 506,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhf-LyYh4y0YzA.woff2",
+            "resourceSize": 13040,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/fonts/amiko-regular-webfont.woff2",
+            "resourceSize": 19276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2",
+            "resourceSize": 7832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "button",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "header",
+      "footer",
+      "blockquote",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 228,
+      "br": 131
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 321,
+      "linesOfCode": 1,
+      "size": 6044,
+      "complexity": 831,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": [
+          {
+            "font-family": "amikoregular",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(../../fonts/amiko-regular-webfont.woff2) format(\"woff2\"),url(../../fonts/amiko-regular-webfont.woff) format(\"woff\")"
+          }
+        ],
+        "uniquenessRatio": 1
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Faster+One&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 2,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 2
+      }
+    },
+    "rules": {
+      "total": 66,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 13,
+        "mean": 4.7727272727272725,
+        "mode": 2,
+        "median": 4.5,
+        "range": 11,
+        "sum": 315,
+        "items": [
+          5,
+          7,
+          3,
+          4,
+          8,
+          6,
+          5,
+          6,
+          5,
+          6,
+          3,
+          6,
+          6,
+          5,
+          3,
+          4,
+          2,
+          3,
+          6,
+          5,
+          2,
+          5,
+          3,
+          2,
+          6,
+          5,
+          2,
+          2,
+          6,
+          5,
+          2,
+          3,
+          13,
+          4,
+          5,
+          10,
+          4,
+          4,
+          2,
+          12,
+          4,
+          4,
+          10,
+          2,
+          5,
+          9,
+          2,
+          7,
+          7,
+          5,
+          6,
+          2,
+          11,
+          3,
+          6,
+          4,
+          6,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          5,
+          2,
+          4
+        ],
+        "total": 66,
+        "totalUnique": 12,
+        "unique": {
+          "2": 13,
+          "3": 11,
+          "4": 9,
+          "5": 12,
+          "6": 11,
+          "7": 3,
+          "8": 1,
+          "9": 1,
+          "10": 2,
+          "11": 1,
+          "12": 1,
+          "13": 1
+        },
+        "uniquenessRatio": 0.18181818181818182
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0909090909090908,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 72,
+        "items": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "total": 66,
+        "totalUnique": 2,
+        "unique": {
+          "1": 60,
+          "2": 6
+        },
+        "uniquenessRatio": 0.030303030303030304
+      },
+      "declarations": {
+        "min": 1,
+        "max": 12,
+        "mean": 3.6818181818181817,
+        "mode": 2.5,
+        "median": 3.5,
+        "range": 11,
+        "sum": 243,
+        "items": [
+          4,
+          6,
+          2,
+          2,
+          7,
+          4,
+          4,
+          5,
+          4,
+          5,
+          2,
+          5,
+          5,
+          4,
+          2,
+          3,
+          1,
+          2,
+          5,
+          4,
+          1,
+          4,
+          2,
+          1,
+          5,
+          4,
+          1,
+          1,
+          5,
+          4,
+          1,
+          2,
+          12,
+          3,
+          4,
+          9,
+          2,
+          3,
+          1,
+          11,
+          2,
+          3,
+          9,
+          1,
+          4,
+          8,
+          1,
+          6,
+          6,
+          4,
+          5,
+          1,
+          10,
+          2,
+          4,
+          3,
+          5,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          4,
+          1,
+          3
+        ],
+        "total": 66,
+        "totalUnique": 12,
+        "unique": {
+          "1": 14,
+          "2": 13,
+          "3": 6,
+          "4": 14,
+          "5": 9,
+          "6": 3,
+          "7": 1,
+          "8": 1,
+          "9": 2,
+          "10": 1,
+          "11": 1,
+          "12": 1
+        },
+        "uniquenessRatio": 0.18181818181818182
+      }
+    },
+    "selectors": {
+      "total": 72,
+      "totalUnique": 64,
+      "uniquenessRatio": 0.8888888888888888,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          2,
+          0
+        ],
+        "sum": [
+          0,
+          71,
+          7
+        ],
+        "mean": [
+          0,
+          0.9861111111111112,
+          0.09722222222222222
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 72,
+        "totalUnique": 4,
+        "unique": {
+          "0,1,0": 64,
+          "0,0,1": 2,
+          "0,2,0": 1,
+          "0,1,1": 5
+        },
+        "uniquenessRatio": 0.05555555555555555
+      },
+      "complexity": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.1666666666666667,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 84,
+        "total": 72,
+        "totalUnique": 2,
+        "unique": {
+          "1": 66,
+          "3": 6
+        },
+        "uniquenessRatio": 0.027777777777777776,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          ".headermenu[aria-hidden=false]": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.013888888888888888
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 5,
+        "totalUnique": 1,
+        "unique": {
+          " ": 5
+        },
+        "uniquenessRatio": 0.2
+      }
+    },
+    "declarations": {
+      "total": 247,
+      "totalUnique": 116,
+      "uniquenessRatio": 0.46963562753036436,
+      "unique": {
+        "total": 116,
+        "ratio": 0.46963562753036436
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 247
+      }
+    },
+    "properties": {
+      "total": 247,
+      "totalUnique": 44,
+      "unique": {
+        "font-family": 23,
+        "font-style": 2,
+        "font-weight": 3,
+        "src": 1,
+        "--font-primary": 1,
+        "--font-secondary": 1,
+        "--font-tertiary": 1,
+        "--font-quaternary": 1,
+        "color": 25,
+        "font-size": 24,
+        "margin-bottom": 17,
+        "margin-left": 21,
+        "margin-top": 13,
+        "text-transform": 1,
+        "height": 5,
+        "max-width": 1,
+        "display": 15,
+        "flex-direction": 3,
+        "left": 1,
+        "padding": 8,
+        "right": 1,
+        "z-index": 4,
+        "background": 2,
+        "position": 2,
+        "top": 1,
+        "width": 6,
+        "transform": 2,
+        "transition": 1,
+        "text-align": 8,
+        "align-items": 4,
+        "justify-content": 4,
+        "gap": 3,
+        "margin-right": 12,
+        "visibility": 1,
+        "line-height": 1,
+        "list-style-type": 1,
+        "text-decoration": 6,
+        "padding-bottom": 1,
+        "padding-top": 1,
+        "margin": 3,
+        "background-color": 7,
+        "border-radius": 7,
+        "align-self": 1,
+        "cursor": 1
+      },
+      "uniquenessRatio": 0.17813765182186234,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 4,
+        "totalUnique": 4,
+        "unique": {
+          "--font-primary": 1,
+          "--font-secondary": 1,
+          "--font-tertiary": 1,
+          "--font-quaternary": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.016194331983805668,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0161943319838056,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 251
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 38,
+        "totalUnique": 8,
+        "unique": {
+          "#fff": 12,
+          "#1c2735": 13,
+          "#3e5b6e": 1,
+          "#51798e": 1,
+          "#6090a8": 8,
+          "#284356": 1,
+          "#d9d9d9": 1,
+          "#b6ccd7": 1
+        },
+        "uniquenessRatio": 0.21052631578947367,
+        "itemsPerContext": {
+          "color": {
+            "total": 25,
+            "totalUnique": 4,
+            "unique": {
+              "#fff": 12,
+              "#1c2735": 9,
+              "#6090a8": 3,
+              "#d9d9d9": 1
+            },
+            "uniquenessRatio": 0.16
+          },
+          "background": {
+            "total": 6,
+            "totalUnique": 5,
+            "unique": {
+              "#1c2735": 2,
+              "#3e5b6e": 1,
+              "#51798e": 1,
+              "#6090a8": 1,
+              "#284356": 1
+            },
+            "uniquenessRatio": 0.8333333333333334
+          },
+          "background-color": {
+            "total": 7,
+            "totalUnique": 3,
+            "unique": {
+              "#1c2735": 2,
+              "#6090a8": 4,
+              "#b6ccd7": 1
+            },
+            "uniquenessRatio": 0.42857142857142855
+          }
+        },
+        "formats": {
+          "total": 38,
+          "totalUnique": 2,
+          "unique": {
+            "hex3": 12,
+            "hex6": 26
+          },
+          "uniquenessRatio": 0.05263157894736842
+        }
+      },
+      "gradients": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "linear-gradient(180deg,#1c2735,#3e5b6e,#51798e)": 1,
+          "linear-gradient(180deg,#6090a8,#284356,#1c2735)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 23,
+        "totalUnique": 5,
+        "unique": {
+          "amikoregular": 9,
+          "var(--font-secondary)": 5,
+          "var(--font-tertiary)": 1,
+          "var(--font-primary)": 6,
+          "allertastencil": 2
+        },
+        "uniquenessRatio": 0.21739130434782608
+      },
+      "fontSizes": {
+        "total": 24,
+        "totalUnique": 6,
+        "unique": {
+          "32px": 1,
+          "15px": 13,
+          "20px": 4,
+          "13px": 4,
+          "17px": 1,
+          "35px": 1
+        },
+        "uniquenessRatio": 0.25
+      },
+      "lineHeights": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "30px": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "zindexes": {
+        "total": 4,
+        "totalUnique": 3,
+        "unique": {
+          "1000": 2,
+          "2000": 1,
+          "3000": 1
+        },
+        "uniquenessRatio": 0.75
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 7,
+        "totalUnique": 3,
+        "unique": {
+          "10px": 1,
+          "30px": 2,
+          "50px": 4
+        },
+        "uniquenessRatio": 0.42857142857142855,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 7,
+            "totalUnique": 3,
+            "unique": {
+              "10px": 1,
+              "30px": 2,
+              "50px": 4
+            },
+            "uniquenessRatio": 0.42857142857142855
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            ".3s": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "timingFunctions": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "ease-in-out": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 129,
+        "totalUnique": 4,
+        "unique": {
+          "px": 119,
+          "deg": 2,
+          "s": 1,
+          "rem": 7
+        },
+        "uniquenessRatio": 0.031007751937984496,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 24,
+            "totalUnique": 1,
+            "unique": {
+              "px": 24
+            },
+            "uniquenessRatio": 0.041666666666666664
+          },
+          "margin-bottom": {
+            "total": 17,
+            "totalUnique": 1,
+            "unique": {
+              "px": 17
+            },
+            "uniquenessRatio": 0.058823529411764705
+          },
+          "margin-left": {
+            "total": 21,
+            "totalUnique": 2,
+            "unique": {
+              "px": 20,
+              "rem": 1
+            },
+            "uniquenessRatio": 0.09523809523809523
+          },
+          "margin-top": {
+            "total": 13,
+            "totalUnique": 1,
+            "unique": {
+              "px": 13
+            },
+            "uniquenessRatio": 0.07692307692307693
+          },
+          "height": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding": {
+            "total": 13,
+            "totalUnique": 2,
+            "unique": {
+              "px": 7,
+              "rem": 6
+            },
+            "uniquenessRatio": 0.15384615384615385
+          },
+          "background": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transition": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "s": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "gap": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin-right": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "line-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "border-radius": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "width": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 247
+      },
+      "keywords": {
+        "total": 7,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 1,
+          "none": 6
+        },
+        "uniquenessRatio": 0.2857142857142857
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 3,
+      "total": 5
+    }
+  }
+}
