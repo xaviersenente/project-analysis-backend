@@ -233,7 +233,8 @@ export const extractTitleAndImagesFromHTML = (htmlContent) => {
   $("img").each((index, img) => {
     const src = $(img).attr("src") || "No src";
     const alt = $(img).attr("alt") || "No alt";
-    images.push({ src, alt });
+    const ariaHidden = $(img).attr("aria-hidden") || "✕";
+    images.push({ src, alt, ariaHidden });
   });
 
   return { title, images };
