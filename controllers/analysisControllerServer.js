@@ -39,7 +39,17 @@ export const scanUrl = async (req, res) => {
     console.log("✅ CSS analysé avec succès.");
 
     for (const fileUrl of htmlFiles) {
-      const htmlContent = await axios.get(fileUrl).then((res) => res.data);
+      const response = await axios.get(fileUrl);
+      const contentType = response.headers["content-type"];
+
+      if (!contentType || !contentType.includes("text/html")) {
+        console.warn(
+          `⚠️ Le contenu à ${fileUrl} n'est pas du HTML : ${contentType}`
+        );
+        continue; // Passe au fichier suivant
+      }
+
+      const htmlContent = response.data;
 
       // Stocker le contenu HTML pour l'analyse globale
       allHtmlContents.push(htmlContent);

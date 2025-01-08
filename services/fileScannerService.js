@@ -10,7 +10,10 @@ export const HtmlCrawler = (baseUrl) => {
 
     // Éviter les ressources non-HTML
     crawler.addFetchCondition((queueItem) => {
-      return queueItem.url.match(/\.html$/) || queueItem.path.endsWith("/");
+      const isHtmlFile = queueItem.url.match(/\.html?$/i); // .html ou .htm
+      const endsWithSlash = queueItem.path.endsWith("/");
+
+      return isHtmlFile || endsWithSlash;
     });
 
     crawler.on("fetchcomplete", (queueItem) => {
