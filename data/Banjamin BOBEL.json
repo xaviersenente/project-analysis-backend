@@ -1,0 +1,3927 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Accueil",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/radiumfall.webp",
+          "alt": "radiumfall",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nucleaire.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/intoeternity.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nolan.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lacentrale.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/radio.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 90,
+      "externalLinks": 0,
+      "internalLinks": 21,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 5,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "LES DECHETS RADIOACTIF",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "Matière radioactif",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Into Eternity par Michael Madsen",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Christopher Nolan",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "La Centrale par Élisabeth Filhol",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "\"Radioactivity\" par Kraftwerk",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 84,
+          "firstColumn": 57,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 22,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 22,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "firstLine": 22,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">L",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">L",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">L",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.88,
+        "accessibility": 0.92,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 6042,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/radiumfall.webp",
+            "resourceSize": 76092,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nucleaire.webp",
+            "resourceSize": 31056,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intoeternity.webp",
+            "resourceSize": 23742,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nolan.webp",
+            "resourceSize": 11562,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lacentrale.webp",
+            "resourceSize": 32872,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/radio.webp",
+            "resourceSize": 40958,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/anybody/v11/VuJudNvK2Ib2ppdWYq311GH32hxIv0sd5iDrWdTYR-zR.woff2",
+            "resourceSize": 24112,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/matiere.html",
+      "title": "Frise",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/matireredarioactof.webp",
+          "alt": "radiumfall",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/frise.webp",
+          "alt": "frise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 77,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 4,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Frises",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Histoire des incidents",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "nucléaire",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les déchets",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "radioactif",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 17,
+          "lastColumn": 93,
+          "firstColumn": 66,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "firstLine": 24,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/matiere.html",
+            "resourceSize": 5752,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/matireredarioactof.webp",
+            "resourceSize": 81826,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/frise.webp",
+            "resourceSize": 178418,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/film.html",
+      "title": "Film",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/film.webp",
+          "alt": "radiumfall",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/film1.webp",
+          "alt": "intoeternity",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/film2.webp",
+          "alt": "intoeternity",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/film3.webp",
+          "alt": "intoeternity",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche1.webp",
+          "alt": "affiche1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche2.webp",
+          "alt": "affiche2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche3.webp",
+          "alt": "affiche3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 101,
+      "externalLinks": 3,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "autres",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "film",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 17,
+          "lastColumn": 84,
+          "firstColumn": 57,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 60,
+          "firstColumn": 56,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ALLISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALLI",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "firstLine": 24,
+          "lastColumn": 12,
+          "firstColumn": 61,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 25,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/film.html",
+            "resourceSize": 9039,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film.webp",
+            "resourceSize": 71896,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film1.webp",
+            "resourceSize": 57234,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film2.webp",
+            "resourceSize": 24046,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/film3.webp",
+            "resourceSize": 43168,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affiche1.webp",
+            "resourceSize": 50096,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affiche2.webp",
+            "resourceSize": 45688,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affiche3.webp",
+            "resourceSize": 86112,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/video/trailer_fr.mp4",
+            "resourceSize": 166,
+            "mimeType": "text/html",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/anybody/v11/VuJudNvK2Ib2ppdWYq311GH32hxIv0sd5iDrWdTYR-zR.woff2",
+            "resourceSize": 24112,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/Realisateur.html",
+      "title": "Réalisateur",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/réalisateur.webp",
+          "alt": "Realisateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nolan1.webp",
+          "alt": "Christopher Nolan",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nolan2.webp",
+          "alt": "Christopher Nolan Oppenheimer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nolan3.webp",
+          "alt": "Christopher Nolan camera",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nolan4.webp",
+          "alt": "Christopher nolan cesar",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 77,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 16,
+          "lastColumn": 87,
+          "firstColumn": 60,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "firstLine": 23,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/Realisateur.html",
+            "resourceSize": 6913,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/re%CC%81alisateur.webp",
+            "resourceSize": 77146,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nolan1.webp",
+            "resourceSize": 25150,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nolan2.webp",
+            "resourceSize": 12552,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nolan3.webp",
+            "resourceSize": 21062,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nolan4.webp",
+            "resourceSize": 13272,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/livre.html",
+      "title": "Livre",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/livre.webp",
+          "alt": "Realisateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/livre1.webp",
+          "alt": "Livre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/livre2.webp",
+          "alt": "Auteur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/livre3.webp",
+          "alt": "Centrale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 78,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 16,
+          "lastColumn": 83,
+          "firstColumn": 56,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "firstLine": 23,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/livre.html",
+            "resourceSize": 6811,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/livre.webp",
+            "resourceSize": 73592,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/livre1.webp",
+            "resourceSize": 31000,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/livre2.webp",
+            "resourceSize": 12120,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/livre3.webp",
+            "resourceSize": 18720,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/musique.html",
+      "title": "Musique",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/musique.webp",
+          "alt": "Musique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/musique1.webp",
+          "alt": "Kraftwerk",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/musique2.webp",
+          "alt": "pochette album",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/musique3.webp",
+          "alt": "Centrale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/musique4.webp",
+          "alt": "Centrale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 79,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 16,
+          "lastColumn": 84,
+          "firstColumn": 57,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "firstLine": 23,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/musique.html",
+            "resourceSize": 6714,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/musique.webp",
+            "resourceSize": 72534,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/musique1.webp",
+            "resourceSize": 35490,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/musique2.webp",
+            "resourceSize": 22864,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/musique3.webp",
+            "resourceSize": 15736,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/musique4.webp",
+            "resourceSize": 17516,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "A propos",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/apropos.webp",
+          "alt": "A propos",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/moi.webp",
+          "alt": "moi",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 92,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "A Propos de moi",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 16,
+          "lastColumn": 84,
+          "firstColumn": 57,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "firstLine": 23,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 24,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 7442,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/apropos.webp",
+            "resourceSize": 67382,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/moi.webp",
+            "resourceSize": 39920,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autreprojet.html",
+      "title": "Autres projets",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/autreprojet.webp",
+          "alt": "autreprojet",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ecodenim.webp",
+          "alt": "ecodenim",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/gametime.webp",
+          "alt": "gametime",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/dronex.webp",
+          "alt": "dronex",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/silent.webp",
+          "alt": "silentage",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/radiopaul.webp",
+          "alt": "Aft'Hertz",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/train.webp",
+          "alt": "Train MagLev",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/clavex.webp",
+          "alt": "clavex",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hypervision.webp",
+          "alt": "hypervision",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 8,
+      "internalLinks": 13,
+      "deadLinks": 3,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Autres projet",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "EcoDenim",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "GameTime",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "DroneXplorer",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "SilentAge",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Aft'Hertz",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Train MagLev",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Clavex",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "HyperVision",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 91,
+          "firstColumn": 64,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 22,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 22,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "firstLine": 22,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.87,
+        "accessibility": 0.92,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autreprojet.html",
+            "resourceSize": 6349,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/autreprojet.webp",
+            "resourceSize": 63602,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ecodenim.webp",
+            "resourceSize": 65912,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/gametime.webp",
+            "resourceSize": 16850,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dronex.webp",
+            "resourceSize": 11196,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/silent.webp",
+            "resourceSize": 10596,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/radiopaul.webp",
+            "resourceSize": 43844,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/train.webp",
+            "resourceSize": 76682,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/clavex.webp",
+            "resourceSize": 11384,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hypervision.webp",
+            "resourceSize": 19344,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/anybody/v11/VuJudNvK2Ib2ppdWYq311GH32hxIv0sd5iDrWdTYR-zR.woff2",
+            "resourceSize": 24112,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/glossaire.webp",
+          "alt": "Music",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 85,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 53,
+          "lastColumn": 87,
+          "firstColumn": 60,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 60,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 60,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 61,
+          "firstLine": 60,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 61,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 61,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 61,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 5669,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/glossaire.webp",
+            "resourceSize": 78326,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Accueil",
+      "images": [
+        {
+          "src": "/assets/icon/logo.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/fr.svg",
+          "alt": "Langue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menuburger.svg",
+          "alt": "Menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icons.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 90,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contactez-nous",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contactez-nous",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "Nos Informations",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "RADIUMFALL",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 86,
+          "firstColumn": 59,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "__header\"><button aria-label=\"Langue\"><img s",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 22,
+          "lastColumn": 59,
+          "firstColumn": 55,
+          "message": "End tag “li” seen, but there were open elements.",
+          "extract": "ÉALISATEUR</li>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 22,
+          "lastColumn": 43,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "      <li><a href=\"Realisateur.html\">RÉALIS",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "firstLine": 22,
+          "lastColumn": 12,
+          "firstColumn": 60,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "ATEUR</li>\n            <li><a",
+          "hiliteStart": 10,
+          "hiliteLength": 13
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "lastLine": 23,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"livre.html\">LIVRE<",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 0.93,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 5132,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 815,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1951,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/fr.svg",
+            "resourceSize": 1869,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menuburger.svg",
+            "resourceSize": 1789,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icons.svg",
+            "resourceSize": 2255,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi.svg",
+            "resourceSize": 14795,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/c/dd2c3e93d1b39581d84483c4ba986298?family=Coluna",
+            "resourceSize": 1110,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+            "resourceSize": 7495,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6310,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 6411,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 235,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 1171,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "resourceSize": 2,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1201,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1544,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff",
+            "resourceSize": 18456,
+            "mimeType": "application/x-font-woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/anybody/v11/VuJudNvK2Ib2ppdWYq311GH32hxIv0sd5iDrWdTYR-zR.woff2",
+            "resourceSize": 24112,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.svg",
+            "resourceSize": 1814,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "em"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "br",
+      "hr"
+    ],
+    "otherTagsUsage": {
+      "div": 77,
+      "br": 86,
+      "hr": 10
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 7,
+      "linesOfCode": 1,
+      "size": 638,
+      "complexity": 19,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": [
+          {
+            "font-display": "swap",
+            "font-family": "Coluna",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.eot?#iefix)format(\"embedded-opentype\"),url(https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff)format(\"woff\"),url(https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.woff2)format(\"woff2\"),url(https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.ttf)format(\"truetype\"),url(https://db.onlinewebfonts.com/t/dd2c3e93d1b39581d84483c4ba986298.svg#Coluna)format(\"svg\")"
+          }
+        ],
+        "uniquenessRatio": 1
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 0,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "selectors": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "declarations": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "selectors": {
+      "total": 0,
+      "totalUnique": 0,
+      "uniquenessRatio": 0,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          0,
+          0
+        ],
+        "sum": [
+          0,
+          0,
+          0
+        ],
+        "mean": [
+          0,
+          0,
+          0
+        ],
+        "mode": [
+          0,
+          0,
+          0
+        ],
+        "median": [
+          0,
+          0,
+          0
+        ],
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "items": []
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "declarations": {
+      "total": 6,
+      "totalUnique": 6,
+      "uniquenessRatio": 1,
+      "unique": {
+        "total": 6,
+        "ratio": 1
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 6
+      }
+    },
+    "properties": {
+      "total": 6,
+      "totalUnique": 5,
+      "unique": {
+        "font-display": 1,
+        "font-family": 1,
+        "font-style": 1,
+        "font-weight": 1,
+        "src": 2
+      },
+      "uniquenessRatio": 0.8333333333333334,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 6
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {},
+        "formats": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "Coluna": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontSizes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "lineHeights": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 6
+      },
+      "keywords": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 1,
+      "total": 2
+    }
+  }
+}

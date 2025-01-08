@@ -6,65 +6,79 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_sablier_1.webp",
-          "alt": "Photo d'un sablier"
+          "alt": "Photo d'un sablier",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_poster_tdtest.webp",
-          "alt": "Poster du film"
+          "alt": "Poster du film",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_realisateur.webp",
-          "alt": "Photo du réalisateur"
+          "alt": "Photo du réalisateur",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_livre.webp",
-          "alt": "Photo du livre"
+          "alt": "Photo du livre",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_musique.webp",
-          "alt": "Photo de la pochette de la musique"
+          "alt": "Photo de la pochette de la musique",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 154,
       "externalLinks": 1,
-      "internalLinks": 23,
-      "deadLinks": 6,
+      "internalLinks": 24,
+      "deadLinks": 5,
       "favicon": true,
       "mailtoLinks": 1,
       "viewport": true,
@@ -170,7 +184,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.65,
+        "performance": 0.96,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -179,13 +193,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/",
-            "resourceSize": 11907,
+            "resourceSize": 12091,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -202,38 +216,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/photo_sablier_1.webp",
             "resourceSize": 112710,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_poster_tdtest.webp",
-            "resourceSize": 262090,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_realisateur.webp",
-            "resourceSize": 56630,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_livre.webp",
-            "resourceSize": 218874,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_musique.webp",
-            "resourceSize": 110774,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -287,7 +277,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -305,7 +295,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -316,26 +306,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -347,7 +343,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -383,7 +379,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -394,14 +390,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -420,6 +410,12 @@
           {
             "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
             "resourceSize": 34296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37676,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -448,6 +444,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5500/assets/img/photo_poster_tdtest.webp",
+            "resourceSize": 262090,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/favicons/site.webmanifest",
             "resourceSize": 263,
             "mimeType": "application/manifest+json",
@@ -468,75 +470,93 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_sablier_1.webp",
-          "alt": "Photo d'un sablier"
+          "alt": "Photo d'un sablier",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_carousel_obj_1.webp",
-          "alt": "Sablier classique"
+          "alt": "Sablier classique",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/photo_carousel_obj_2.webp",
-          "alt": "Sablier raffiné"
+          "alt": "Sablier raffiné",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/photo_carousel_obj_3.webp",
-          "alt": "Sablier ancien"
+          "alt": "Sablier ancien",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/photo_carousel_obj_4.webp",
-          "alt": "Sablier classique"
+          "alt": "Sablier classique",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/photo_carousel_obj_5.webp",
-          "alt": "Sablier en bois riche"
+          "alt": "Sablier en bois riche",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/fleche_carousel.svg",
-          "alt": "fleche gauche"
+          "alt": "fleche gauche",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/fleche_carousel.svg",
-          "alt": "fleche droite"
+          "alt": "fleche droite",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/frise_verticale.svg",
-          "alt": "Frise"
+          "alt": "Frise",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du festival"
+          "alt": "Logo du festival",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 202,
@@ -660,20 +680,20 @@
       "lighthouseReport": {
         "performance": 0.91,
         "accessibility": 0.9,
-        "bestPractices": 0.96,
+        "bestPractices": 1,
         "seo": 0.91,
         "viewport": 1,
-        "errors": 0,
+        "errors": 1,
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/presentation_objet.html",
-            "resourceSize": 16258,
+            "resourceSize": 16348,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -696,8 +716,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -763,7 +783,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -781,7 +801,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -792,26 +812,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -823,7 +849,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -859,7 +885,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -870,14 +896,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -930,14 +950,14 @@
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
-            "resourceSize": 7740,
+            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37676,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -980,47 +1000,58 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_livre.webp",
-          "alt": "Photo du livre"
+          "alt": "Photo du livre",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/ville_abandonnee.webp",
-          "alt": "Illustration d'une ville abandonnée"
+          "alt": "Illustration d'une ville abandonnée",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 172,
@@ -1122,7 +1153,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.88,
+        "performance": 0.99,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1131,13 +1162,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/livre.html",
-            "resourceSize": 12833,
+            "resourceSize": 12953,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1154,21 +1185,9 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_livre.webp",
-            "resourceSize": 218874,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/ville_abandonnee.webp",
-            "resourceSize": 114780,
-            "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
@@ -1221,7 +1240,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1239,7 +1258,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1250,26 +1269,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1281,7 +1306,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1317,7 +1342,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1328,14 +1353,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -1358,6 +1377,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37676,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
@@ -1374,6 +1399,12 @@
             "resourceSize": 35468,
             "mimeType": "font/woff2",
             "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/photo_livre.webp",
+            "resourceSize": 218874,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
           },
           {
             "url": "http://127.0.0.1:5500/assets/favicons/site.webmanifest",
@@ -1396,43 +1427,53 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_poster_tdtest.webp",
-          "alt": "Poster du film 'Le Jour où la Terre s'arrêta'"
+          "alt": "Poster du film 'Le Jour où la Terre s'arrêta'",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 158,
@@ -1539,7 +1580,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.9,
+        "performance": 0.88,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1548,13 +1589,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/film.html",
-            "resourceSize": 12683,
+            "resourceSize": 12807,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1571,20 +1612,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/poster_le_jour_ou_la_terre_s_arreta.webp",
             "resourceSize": 19708,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_poster_tdtest.webp",
-            "resourceSize": 262090,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -1619,12 +1654,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://leo-baudry.fr/videos/le_jour_ou_la_terre_s_arreta.mp4",
-            "resourceSize": 80172,
-            "mimeType": "video/mp4",
-            "resourceType": "Media"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
             "resourceSize": 82974,
             "mimeType": "text/css",
@@ -1644,7 +1673,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1662,7 +1691,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1673,26 +1702,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1704,7 +1739,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1740,9 +1775,15 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://leo-baudry.fr/videos/le_jour_ou_la_terre_s_arreta.mp4",
+            "resourceSize": 72811,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/top_part_menu.webp",
@@ -1751,14 +1792,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -1795,6 +1830,12 @@
           {
             "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
             "resourceSize": 34296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37676,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -1855,79 +1896,98 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/madmax1.webp",
-          "alt": "Poster de Mad Max 1"
+          "alt": "Poster de Mad Max 1",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/madmax2.webp",
-          "alt": "Poster de Mad Max 2"
+          "alt": "Poster de Mad Max 2",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/madmax3.webp",
-          "alt": "Poster de Mad Max"
+          "alt": "Poster de Mad Max",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/fleche_carousel.svg",
-          "alt": "fleche gauche"
+          "alt": "fleche gauche",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/fleche_carousel.svg",
-          "alt": "fleche droite"
+          "alt": "fleche droite",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/photo_realisateur.webp",
-          "alt": "Photo de George Miller"
+          "alt": "Photo de George Miller",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/georgemillerbio.webp",
-          "alt": "Photo du réalisateur"
+          "alt": "Photo du réalisateur",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/madmax1.webp",
-          "alt": "Poster du film Mad Max 1"
+          "alt": "Poster du film Mad Max 1",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/madmax2.webp",
-          "alt": "Poster du film Mad Max 2"
+          "alt": "Poster du film Mad Max 2",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/madmax3.webp",
-          "alt": "Poster du film Mad Max : Fury Road"
+          "alt": "Poster du film Mad Max : Fury Road",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 232,
@@ -2093,13 +2153,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/realisateur.html",
-            "resourceSize": 17850,
+            "resourceSize": 17921,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2128,8 +2188,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -2183,7 +2243,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2201,7 +2261,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2212,26 +2272,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2243,7 +2309,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2279,7 +2345,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2290,14 +2356,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -2320,6 +2380,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37676,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
@@ -2334,12 +2400,6 @@
           {
             "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
             "resourceSize": 45036,
-            "mimeType": "font/woff2",
-            "resourceType": "Font"
-          },
-          {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2394,47 +2454,58 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_musique.webp",
-          "alt": "Photo de la cover de la musique 'No Surprises'"
+          "alt": "Photo de la cover de la musique 'No Surprises'",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/photo_ok_computer_album.webp",
-          "alt": "Poster de l'album OK Computer"
+          "alt": "Poster de l'album OK Computer",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 163,
@@ -2536,22 +2607,22 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.92,
+        "performance": 0.96,
         "accessibility": 0.87,
-        "bestPractices": 0.96,
+        "bestPractices": 0.75,
         "seo": 0.91,
         "viewport": 1,
         "errors": 0,
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/musique.html",
-            "resourceSize": 12516,
+            "resourceSize": 12604,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2568,20 +2639,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/photo_musique.webp",
             "resourceSize": 110774,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/photo_ok_computer_album.webp",
-            "resourceSize": 103848,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -2635,7 +2700,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2653,7 +2718,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2664,26 +2729,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2695,7 +2766,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2731,7 +2802,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2742,14 +2813,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -2768,6 +2833,12 @@
           {
             "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
             "resourceSize": 34296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37676,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2796,6 +2867,138 @@
             "resourceType": "Font"
           },
           {
+            "url": "https://open.spotify.com/embed/track/10nyNJ6zNy2YVYLrcwLccB?utm_source=generator",
+            "resourceSize": 8439,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c8b444df094279e70d0ed856",
+            "resourceSize": 35559,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/a08ddad2c5f96b8b.css",
+            "resourceSize": 42349,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/70e0617d3b51d137.css",
+            "resourceSize": 27779,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/a52ba028f527d7a1.css",
+            "resourceSize": 8896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/webpack-128136f8f0b5ab7b.js",
+            "resourceSize": 6111,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/framework-86d82187d09e5b58.js",
+            "resourceSize": 140343,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/main-8837eea5a6d3b805.js",
+            "resourceSize": 126147,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/pages/_app-5b729ae4895d973a.js",
+            "resourceSize": 431035,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/3c0167eb-b298cecda65d003c.js",
+            "resourceSize": 325430,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/79028396-27d9904786559c95.js",
+            "resourceSize": 8728,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/5212-d81d7abed8c5ef90.js",
+            "resourceSize": 9431,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/4158-db49951e358f59e6.js",
+            "resourceSize": 393024,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/8356-458d2842245d1f50.js",
+            "resourceSize": 115224,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/pages/track/%5Bid%5D-85cd785a821a4599.js",
+            "resourceSize": 5468,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/31efcaed-2155-4505-b3c5-f9c2db76c0a7/_buildManifest.js",
+            "resourceSize": 2428,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/31efcaed-2155-4505-b3c5-f9c2db76c0a7/_ssgManifest.js",
+            "resourceSize": 77,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://encore.scdn.co/fonts/SpotifyMixUI-Bold-4264b799009b1db5c491778b1bc8e5b7.woff2",
+            "resourceSize": 41412,
+            "mimeType": "font/woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://encore.scdn.co/fonts/SpotifyMixUI-Regular-cc3b1de388efa4cbca6c75cebc24585e.woff2",
+            "resourceSize": 35596,
+            "mimeType": "font/woff",
+            "resourceType": "Font"
+          },
+          {
+            "url": "blob:https://open.spotify.com/c44cb37f-6c6b-4147-b03a-261a82a2f1ff",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://o22381.ingest.us.sentry.io/api/4505164808585216/envelope/?sentry_version=7&sentry_key=4cc707ab12ea4779b417479c0550a5cb&sentry_client=sentry.javascript.nextjs%2F8.45.0",
+            "resourceSize": 2,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://apresolve.spotify.com/?type=dealer&type=spclient",
+            "resourceSize": 273,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/favicons/site.webmanifest",
             "resourceSize": 263,
             "mimeType": "application/manifest+json",
@@ -2806,6 +3009,78 @@
             "resourceSize": 15406,
             "mimeType": "image/x-icon",
             "resourceType": "Other"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/6838.c65d202779d26aa2.js",
+            "resourceSize": 47464,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/846.9b308e92f3835867.js",
+            "resourceSize": 763,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://apresolve.spotify.com/?type=dealer&type=spclient",
+            "resourceSize": 273,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/1213.373a2fefb16c1376.js",
+            "resourceSize": 6667,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/6143.97b52a65d0200892.js",
+            "resourceSize": 320020,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/spotify_player_o.87135689429257b0.js",
+            "resourceSize": 15457,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://web-sdk-assets.spotifycdn.com/bandwidth_sampling_data?no-cache=0.8996234511150367",
+            "resourceSize": 1,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
+            "resourceSize": 13,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
+            "resourceSize": 13,
+            "mimeType": "application/json",
+            "resourceType": "Fetch"
+          },
+          {
+            "url": "https://web-sdk-assets.spotifycdn.com/bandwidth_sampling_data?no-cache=0.8996234511150367",
+            "resourceSize": 700000,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Fetch"
           }
         ]
       }
@@ -2816,39 +3091,48 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 120,
@@ -2919,13 +3203,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/contact.html",
-            "resourceSize": 9331,
+            "resourceSize": 9380,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2942,8 +3226,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -2997,7 +3281,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3015,7 +3299,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3026,26 +3310,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3057,7 +3347,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3093,7 +3383,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3104,14 +3394,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -3184,43 +3468,57 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/icons/ping_map.svg",
+          "alt": "-",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 128,
-      "externalLinks": 1,
+      "totalTags": 132,
+      "externalLinks": 2,
       "internalLinks": 18,
       "deadLinks": 5,
       "favicon": true,
@@ -3299,7 +3597,7 @@
       "validationErrors": [],
       "lighthouseReport": {
         "performance": 0.99,
-        "accessibility": 0.94,
+        "accessibility": 0.9,
         "bestPractices": 0.96,
         "seo": 0.91,
         "viewport": 1,
@@ -3307,13 +3605,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/about.html",
-            "resourceSize": 9892,
+            "resourceSize": 10577,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3330,8 +3628,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/ping_map.svg",
+            "resourceSize": 2133,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -3385,7 +3689,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3403,7 +3707,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3414,26 +3718,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3445,7 +3755,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3481,7 +3791,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3492,14 +3802,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -3546,16 +3850,286 @@
             "resourceType": "Font"
           },
           {
+            "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.7148973368207!2d6.801779926919957!3d47.49546717117989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4792172655793f9f%3A0x1b3b0f76560084ad!2sD%C3%A9partement%20MMI%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1736237645156!5m2!1sfr!2sfr",
+            "resourceSize": 2511,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://maps.gstatic.com/maps-api-v3/embed/js/59/3a/intl/fr_ALL/init_embed.js",
+            "resourceSize": 250325,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=fr&region=fr&callback=onApiLoad",
+            "resourceSize": 11868,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
+            "resourceSize": 3103,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
+            "resourceSize": 2675,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/main.js",
+            "resourceSize": 242509,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+            "resourceSize": 3,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/common.js",
+            "resourceSize": 274056,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/util.js",
+            "resourceSize": 193507,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/map.js",
+            "resourceSize": 81739,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/overlay.js",
+            "resourceSize": 3487,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 6020,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/favicons/site.webmanifest",
             "resourceSize": 263,
             "mimeType": "application/manifest+json",
             "resourceType": "Manifest"
           },
           {
+            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i4352693&2i2933375&2e1&3u15&4m2&1u371&2u222&5m6&1e0&5sfr&6sfr&10b1&12b1&14i47083502&client=google-maps-embed&token=80719",
+            "resourceSize": 17268,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/onion.js",
+            "resourceSize": 30520,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search_impl.js",
+            "resourceSize": 3523,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/favicons/favicon.ico",
             "resourceSize": 15406,
             "mimeType": "image/x-icon",
             "resourceType": "Other"
+          },
+          {
+            "url": "https://maps.gstatic.com/mapfiles/openhand_8_8.cur",
+            "resourceSize": 326,
+            "mimeType": "image/bmp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+            "resourceSize": 13060,
+            "mimeType": "application/json+protobuf",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17003!3i11459!4i256!2m3!1e0!2sm!3i715472551!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=103560",
+            "resourceSize": 10298,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17002!3i11459!4i256!2m3!1e0!2sm!3i715472575!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=109975",
+            "resourceSize": 6666,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17002!3i11458!4i256!2m3!1e0!2sm!3i715472563!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=103802",
+            "resourceSize": 14668,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17003!3i11458!4i256!2m3!1e0!2sm!3i715472563!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=119685",
+            "resourceSize": 14590,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17004!3i11458!4i256!2m3!1e0!2sm!3i715472563!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=4497",
+            "resourceSize": 14004,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17004!3i11459!4i256!2m3!1e0!2sm!3i715472551!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=119443",
+            "resourceSize": 8864,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i17002!3i11458!1m4!1m3!1i15!2i17002!3i11459!1m4!1m3!1i15!2i17003!3i11458!1m4!1m3!1i15!2i17003!3i11459!1m4!1m3!1i15!2i17004!3i11458!1m4!1m3!1i15!2i17004!3i11459!2m3!1e0!2sm!3i715472587!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=88897",
+            "resourceSize": 6146,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/controls.js",
+            "resourceSize": 101542,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text_old:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=fr",
+            "resourceSize": 307,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans_old:400,500,700|Google+Sans+Text_old:400,500,700&lang=fr",
+            "resourceSize": 42845,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 1734,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%20…",
+            "resourceSize": 638,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 170,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 170,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 170,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 120,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 120,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 120,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 123,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 104,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 104,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 104,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
+            "resourceSize": 107,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+            "resourceSize": 3680,
+            "mimeType": "application/json+protobuf",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i12!2i2125!3i1432!4i256!2m1!1e1!3m12!2sfr!3sFR!5e289!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy5lOmx8cC52Om9mZg!4e0!5m1!1e3!23i47083502&client=google-maps-embed&token=112549",
+            "resourceSize": 20549,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+            "resourceSize": 13388,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+            "resourceSize": 13432,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
           }
         ]
       }
@@ -3566,42 +4140,51 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 208,
+      "totalTags": 214,
       "externalLinks": 1,
       "internalLinks": 19,
       "deadLinks": 5,
@@ -3709,13 +4292,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/glossaire.html",
-            "resourceSize": 13376,
+            "resourceSize": 13895,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3732,8 +4315,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -3787,7 +4370,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3805,7 +4388,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3816,26 +4399,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3847,7 +4436,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3883,7 +4472,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3894,14 +4483,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -3968,81 +4551,99 @@
       "images": [
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo"
+          "alt": "Logo",
+          "ariaHidden": "✕"
         },
         {
-          "src": "../assets/icons/bouton_trad.svg",
-          "alt": "Traduire en Anglais"
+          "src": "../assets/icons/translate_fr.svg",
+          "alt": "Traduire en Anglais",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/img/mountains2.webp",
-          "alt": "No alt"
+          "alt": "card projet",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/radiumfall.webp",
-          "alt": "Déchets radioactifs"
+          "alt": "Déchets radioactifs",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/ecodenim.webp",
-          "alt": "Matière de Jean"
+          "alt": "Matière de Jean",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/clavex.webp",
-          "alt": "Clavier de Piano"
+          "alt": "Clavier de Piano",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/gametime.webp",
-          "alt": "Mannette de console"
+          "alt": "Mannette de console",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/droneXplorer.webp",
-          "alt": "Drone volant"
+          "alt": "Drone volant",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/aftHertz.webp",
-          "alt": " Vieille radio"
+          "alt": " Vieille radio",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/ArchaDrive.webp",
-          "alt": "Voiture futuriste"
+          "alt": "Voiture futuriste",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/img/Train_maglev.webp",
-          "alt": "Train à lévitation magnétique"
+          "alt": "Train à lévitation magnétique",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/Logo.svg",
-          "alt": "Logo du site"
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
         },
         {
           "src": "../assets/icons/instagram.svg",
-          "alt": "Instagram"
+          "alt": "Instagram",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/youtube.svg",
-          "alt": "Youtube"
+          "alt": "Youtube",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/twitter.svg",
-          "alt": "Twitter"
+          "alt": "Twitter",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/facebook.svg",
-          "alt": "Facebook"
+          "alt": "Facebook",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/tiktok.svg",
-          "alt": "Tiktok"
+          "alt": "Tiktok",
+          "ariaHidden": "true"
         },
         {
           "src": "../assets/icons/logo_mmi_whitesvg.svg",
-          "alt": "Logo MMI"
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 162,
-      "externalLinks": 1,
+      "externalLinks": 8,
       "internalLinks": 19,
-      "deadLinks": 13,
+      "deadLinks": 6,
       "favicon": true,
       "mailtoLinks": 1,
       "viewport": true,
@@ -4077,12 +4678,12 @@
         },
         {
           "level": 1,
-          "text": "Retrouvez içi des projets similaires !",
+          "text": "Retrouvez içi des sites web similaires !",
           "tag": "section"
         },
         {
           "level": 2,
-          "text": "Retrouvez içi des projets similaires !",
+          "text": "Retrouvez içi des sites web similaires !",
           "tag": "h2"
         },
         {
@@ -4108,7 +4709,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.86,
+        "performance": 0.99,
         "accessibility": 0.96,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -4117,13 +4718,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/projets.html",
-            "resourceSize": 12485,
+            "resourceSize": 13106,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 1189,
+            "resourceSize": 1215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4140,62 +4741,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/bouton_trad.svg",
-            "resourceSize": 1879,
+            "url": "http://127.0.0.1:5500/assets/icons/translate_fr.svg",
+            "resourceSize": 4073,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/mountains2.webp",
             "resourceSize": 10630,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/radiumfall.webp",
-            "resourceSize": 81626,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/ecodenim.webp",
-            "resourceSize": 147326,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/clavex.webp",
-            "resourceSize": 27982,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/gametime.webp",
-            "resourceSize": 40824,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/droneXplorer.webp",
-            "resourceSize": 57474,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/aftHertz.webp",
-            "resourceSize": 67612,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/ArchaDrive.webp",
-            "resourceSize": 54790,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/Train_maglev.webp",
-            "resourceSize": 49590,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -4249,7 +4802,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 702,
+            "resourceSize": 758,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4267,7 +4820,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/layout/header.css",
-            "resourceSize": 741,
+            "resourceSize": 937,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4278,26 +4831,32 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/layout/404.css",
+            "resourceSize": 835,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/menu.css",
-            "resourceSize": 4717,
+            "resourceSize": 4865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 987,
+            "resourceSize": 976,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/intro.css",
-            "resourceSize": 947,
+            "resourceSize": 943,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/card.css",
-            "resourceSize": 4128,
+            "resourceSize": 3711,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4309,7 +4868,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/text.css",
-            "resourceSize": 1582,
+            "resourceSize": 1785,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4345,7 +4904,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/form.css",
-            "resourceSize": 1460,
+            "resourceSize": 1463,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4356,14 +4915,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/assets/icons/Logo.svg",
-            "resourceSize": 168,
-            "mimeType": "text/html",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu.webp",
-            "resourceSize": 10652,
+            "url": "http://127.0.0.1:5500/assets/img/bottom_part_menu2.webp",
+            "resourceSize": 7170,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -4414,6 +4967,42 @@
             "resourceSize": 35468,
             "mimeType": "font/woff2",
             "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/radiumfall.webp",
+            "resourceSize": 81626,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ecodenim.webp",
+            "resourceSize": 147326,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/clavex.webp",
+            "resourceSize": 27982,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/gametime.webp",
+            "resourceSize": 40824,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/droneXplorer.webp",
+            "resourceSize": 57474,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/aftHertz.webp",
+            "resourceSize": 67612,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
           },
           {
             "url": "http://127.0.0.1:5500/assets/favicons/site.webmanifest",
@@ -4475,7 +5064,7 @@
       "br"
     ],
     "otherTagsUsage": {
-      "div": 220,
+      "div": 222,
       "span": 10,
       "hr": 31,
       "br": 1
@@ -4483,10 +5072,10 @@
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 1021,
+      "sourceLinesOfCode": 1087,
       "linesOfCode": 1,
-      "size": 20617,
-      "complexity": 2742,
+      "size": 21836,
+      "complexity": 2925,
       "comments": {
         "total": 0,
         "size": 0
@@ -4527,7 +5116,7 @@
         "total": 6,
         "totalUnique": 6,
         "unique": {
-          "(max-width:389px)": 1,
+          "(max-width:400px)": 1,
           "(max-width:380px)": 1,
           "(max-width:343px)": 1,
           "(max-width:399px)": 1,
@@ -4603,7 +5192,7 @@
       }
     },
     "rules": {
-      "total": 192,
+      "total": 200,
       "empty": {
         "total": 0,
         "ratio": 0
@@ -4611,17 +5200,18 @@
       "sizes": {
         "min": 2,
         "max": 49,
-        "mean": 5.28125,
-        "mode": 2,
+        "mean": 5.4,
+        "mode": 3,
         "median": 4,
         "range": 47,
-        "sum": 1014,
+        "sum": 1080,
         "items": [
           49,
           2,
           2,
           2,
           10,
+          3,
           4,
           9,
           2,
@@ -4655,8 +5245,13 @@
           6,
           5,
           5,
-          4,
+          5,
           7,
+          7,
+          5,
+          14,
+          4,
+          3,
           14,
           4,
           7,
@@ -4664,10 +5259,11 @@
           9,
           7,
           3,
-          2,
+          3,
           5,
+          10,
+          6,
           9,
-          7,
           8,
           2,
           2,
@@ -4682,14 +5278,12 @@
           4,
           3,
           5,
-          5,
+          6,
           5,
           6,
           11,
           2,
           3,
-          3,
-          2,
           3,
           13,
           3,
@@ -4723,6 +5317,8 @@
           5,
           4,
           15,
+          6,
+          9,
           7,
           9,
           10,
@@ -4732,6 +5328,7 @@
           3,
           5,
           4,
+          8,
           3,
           8,
           6,
@@ -4810,41 +5407,42 @@
           8,
           2
         ],
-        "total": 192,
+        "total": 200,
         "totalUnique": 15,
         "unique": {
-          "2": 37,
-          "3": 34,
+          "2": 35,
+          "3": 36,
           "4": 30,
-          "5": 23,
-          "6": 15,
+          "5": 24,
+          "6": 18,
           "7": 18,
-          "8": 10,
-          "9": 9,
-          "10": 6,
+          "8": 11,
+          "9": 10,
+          "10": 7,
           "11": 3,
           "12": 1,
           "13": 1,
-          "14": 1,
+          "14": 2,
           "15": 3,
           "49": 1
         },
-        "uniquenessRatio": 0.078125
+        "uniquenessRatio": 0.075
       },
       "selectors": {
         "min": 1,
         "max": 8,
-        "mean": 1.28125,
+        "mean": 1.28,
         "mode": 1,
         "median": 1,
         "range": 7,
-        "sum": 246,
+        "sum": 256,
         "items": [
           1,
           1,
           1,
           1,
           4,
+          1,
           1,
           1,
           1,
@@ -4878,12 +5476,18 @@
           1,
           1,
           1,
-          1,
+          2,
           1,
           1,
           1,
           1,
           2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
           1,
           1,
           1,
@@ -4913,8 +5517,6 @@
           2,
           1,
           1,
-          1,
-          1,
           2,
           1,
           1,
@@ -4950,10 +5552,13 @@
           1,
           1,
           1,
+          1,
+          1,
           2,
           1,
           1,
           2,
+          1,
           1,
           1,
           1,
@@ -5033,32 +5638,33 @@
           2,
           1
         ],
-        "total": 192,
+        "total": 200,
         "totalUnique": 6,
         "unique": {
-          "1": 156,
-          "2": 26,
+          "1": 162,
+          "2": 28,
           "3": 7,
           "4": 1,
           "5": 1,
           "8": 1
         },
-        "uniquenessRatio": 0.03125
+        "uniquenessRatio": 0.03
       },
       "declarations": {
         "min": 1,
         "max": 48,
-        "mean": 4,
+        "mean": 4.12,
         "mode": 1,
         "median": 3,
         "range": 47,
-        "sum": 768,
+        "sum": 824,
         "items": [
           48,
           1,
           1,
           1,
           6,
+          2,
           3,
           8,
           1,
@@ -5094,6 +5700,11 @@
           4,
           3,
           6,
+          6,
+          4,
+          13,
+          2,
+          2,
           13,
           3,
           6,
@@ -5101,10 +5712,11 @@
           8,
           6,
           2,
-          1,
+          2,
           4,
+          9,
+          5,
           8,
-          6,
           5,
           1,
           1,
@@ -5119,13 +5731,11 @@
           3,
           2,
           4,
-          3,
+          4,
           4,
           5,
           10,
           1,
-          1,
-          2,
           1,
           2,
           12,
@@ -5160,6 +5770,8 @@
           4,
           3,
           14,
+          5,
+          8,
           6,
           8,
           9,
@@ -5169,6 +5781,7 @@
           2,
           3,
           3,
+          7,
           2,
           7,
           4,
@@ -5247,31 +5860,31 @@
           6,
           1
         ],
-        "total": 192,
+        "total": 200,
         "totalUnique": 14,
         "unique": {
-          "1": 45,
-          "2": 38,
-          "3": 27,
-          "4": 22,
-          "5": 11,
+          "1": 43,
+          "2": 41,
+          "3": 26,
+          "4": 24,
+          "5": 13,
           "6": 19,
-          "7": 8,
-          "8": 9,
-          "9": 3,
+          "7": 9,
+          "8": 10,
+          "9": 4,
           "10": 4,
           "12": 1,
-          "13": 2,
+          "13": 3,
           "14": 2,
           "48": 1
         },
-        "uniquenessRatio": 0.07291666666666667
+        "uniquenessRatio": 0.07
       }
     },
     "selectors": {
-      "total": 246,
-      "totalUnique": 170,
-      "uniquenessRatio": 0.6910569105691057,
+      "total": 256,
+      "totalUnique": 179,
+      "uniquenessRatio": 0.69921875,
       "specificity": {
         "min": [
           0,
@@ -5285,13 +5898,13 @@
         ],
         "sum": [
           0,
-          274,
-          49
+          285,
+          51
         ],
         "mean": [
           0,
-          1.113821138211382,
-          0.1991869918699187
+          1.11328125,
+          0.19921875
         ],
         "mode": [
           0,
@@ -5361,6 +5974,11 @@
           ],
           [
             0,
+            1,
+            0
+          ],
+          [
+            0,
             0,
             1
           ],
@@ -5591,6 +6209,41 @@
           ],
           [
             0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
             2,
             0
           ],
@@ -5641,67 +6294,7 @@
           ],
           [
             0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            3,
-            0
-          ],
-          [
-            0,
-            3,
-            1
-          ],
-          [
-            0,
-            3,
-            1
-          ],
-          [
-            0,
-            3,
-            1
-          ],
-          [
-            0,
-            3,
-            1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
+            2,
             1
           ],
           [
@@ -5713,6 +6306,16 @@
             0,
             1,
             0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
           ],
           [
             0,
@@ -5741,8 +6344,58 @@
           ],
           [
             0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
             1,
             0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
           ],
           [
             0,
@@ -5978,6 +6631,16 @@
             0,
             1,
             0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
           ],
           [
             0,
@@ -6535,37 +7198,39 @@
             0
           ]
         ],
-        "total": 246,
-        "totalUnique": 7,
+        "total": 256,
+        "totalUnique": 8,
         "unique": {
-          "0,1,0": 163,
+          "0,1,0": 171,
           "0,0,0": 1,
           "0,0,1": 18,
-          "0,1,1": 25,
+          "0,1,1": 26,
           "0,2,0": 31,
+          "0,2,1": 1,
           "0,3,0": 2,
           "0,3,1": 6
         },
-        "uniquenessRatio": 0.028455284552845527
+        "uniquenessRatio": 0.03125
       },
       "complexity": {
         "min": 1,
         "max": 6,
-        "mean": 1.556910569105691,
+        "mean": 1.5546875,
         "mode": 1,
         "median": 1,
         "range": 5,
-        "sum": 383,
-        "total": 246,
-        "totalUnique": 5,
+        "sum": 398,
+        "total": 256,
+        "totalUnique": 6,
         "unique": {
-          "1": 182,
+          "1": 190,
           "2": 13,
-          "3": 43,
+          "3": 44,
+          "4": 1,
           "5": 2,
           "6": 6
         },
-        "uniquenessRatio": 0.02032520325203252,
+        "uniquenessRatio": 0.0234375,
         "items": [
           1,
           1,
@@ -6594,6 +7259,7 @@
           1,
           1,
           1,
+          1,
           3,
           1,
           1,
@@ -6624,6 +7290,13 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           3,
           1,
           1,
@@ -6634,6 +7307,7 @@
           1,
           1,
           1,
+          4,
           2,
           1,
           2,
@@ -6702,6 +7376,7 @@
           1,
           1,
           1,
+          3,
           1,
           1,
           1,
@@ -6832,7 +7507,7 @@
           ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 3
         },
         "uniquenessRatio": 0.4444444444444444,
-        "ratio": 0.036585365853658534
+        "ratio": 0.03515625
       },
       "keyframes": {
         "total": 0,
@@ -6848,21 +7523,21 @@
         "ratio": 0
       },
       "combinators": {
-        "total": 50,
+        "total": 52,
         "totalUnique": 1,
         "unique": {
-          " ": 50
+          " ": 52
         },
-        "uniquenessRatio": 0.02
+        "uniquenessRatio": 0.019230769230769232
       }
     },
     "declarations": {
-      "total": 768,
-      "totalUnique": 357,
-      "uniquenessRatio": 0.46484375,
+      "total": 824,
+      "totalUnique": 369,
+      "uniquenessRatio": 0.44781553398058255,
       "unique": {
-        "total": 357,
-        "ratio": 0.46484375
+        "total": 369,
+        "ratio": 0.44781553398058255
       },
       "importants": {
         "total": 0,
@@ -6879,12 +7554,12 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 768
+        "sum": 824
       }
     },
     "properties": {
-      "total": 768,
-      "totalUnique": 116,
+      "total": 824,
+      "totalUnique": 118,
       "unique": {
         "--blue-blue": 1,
         "--blue-light-blue-1": 1,
@@ -6938,63 +7613,65 @@
         "max-height": 1,
         "appearance": 1,
         "background": 6,
-        "border": 11,
+        "border": 12,
         "cursor": 6,
         "outline": 1,
         "padding": 35,
+        "hyphens": 1,
+        "word-break": 1,
         "list-style": 6,
-        "margin": 20,
-        "overflow": 5,
-        "position": 30,
+        "margin": 22,
+        "overflow": 6,
+        "position": 33,
         "clip": 1,
-        "height": 30,
-        "width": 32,
-        "color": 34,
-        "background-color": 26,
+        "height": 32,
+        "width": 37,
+        "color": 36,
+        "background-color": 28,
         "max-width": 8,
-        "display": 38,
+        "display": 42,
         "flex-direction": 9,
-        "font-family": 35,
-        "gap": 14,
-        "align-items": 19,
-        "text-transform": 7,
-        "font-size": 42,
-        "line-height": 7,
+        "font-family": 37,
+        "gap": 13,
+        "align-items": 20,
+        "text-transform": 8,
+        "font-size": 45,
+        "line-height": 8,
         "border-top": 3,
-        "justify-content": 19,
+        "justify-content": 24,
         "flex": 4,
-        "text-decoration": 12,
-        "margin-bottom": 13,
-        "text-align": 26,
-        "font-weight": 17,
-        "margin-top": 7,
-        "padding-top": 7,
+        "text-decoration": 13,
+        "margin-bottom": 14,
+        "text-align": 28,
+        "font-weight": 18,
+        "margin-top": 12,
+        "padding-top": 8,
         "padding-right": 3,
         "margin-left": 5,
         "margin-right": 6,
         "padding-left": 7,
-        "left": 24,
-        "top": 23,
+        "left": 25,
+        "top": 24,
         "z-index": 6,
-        "border-radius": 14,
+        "border-radius": 17,
         "inset": 1,
-        "transform": 21,
+        "transform": 23,
         "transition": 6,
         "visibility": 2,
         "opacity": 1,
         "white-space": 2,
         "content": 3,
+        "padding-bottom": 4,
         "border-bottom": 1,
-        "padding-bottom": 2,
+        "flex-wrap": 2,
         "pointer-events": 3,
         "background-image": 9,
         "background-position": 5,
         "background-size": 6,
-        "bottom": 9,
+        "bottom": 8,
         "right": 7,
         "background-repeat": 5,
         "box-shadow": 2,
-        "flex-wrap": 1,
         "min-height": 1,
         "size": 1,
         "overflow-x": 2,
@@ -7003,7 +7680,7 @@
         "text-overflow": 1,
         "list-style-type": 1
       },
-      "uniquenessRatio": 0.15104166666666666,
+      "uniquenessRatio": 0.14320388349514562,
       "prefixed": {
         "total": 0,
         "totalUnique": 0,
@@ -7064,7 +7741,7 @@
           "--tt-h1": 1
         },
         "uniquenessRatio": 0.9791666666666666,
-        "ratio": 0.0625,
+        "ratio": 0.05825242718446602,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -7083,11 +7760,11 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.0625,
+        "mean": 1.058252427184466,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 816
+        "sum": 872
       }
     },
     "values": {
@@ -7419,36 +8096,37 @@
         "uniquenessRatio": 0
       },
       "fontFamilies": {
-        "total": 35,
+        "total": 37,
         "totalUnique": 10,
         "unique": {
           "Arial,sans-serif": 1,
-          "var(--font-sans-serif-Mulish)": 7,
+          "var(--font-sans-serif-Mulish)": 8,
           "var(--font-sans-serif-Montserrat)": 2,
           "var(--font-sans-serif-Roboto)": 4,
           "var(--font-sans-serif-DM_Sans)": 1,
-          "Open Sans": 4,
+          "Open Sans": 5,
           "var(--font-sans-serif-OpenSans)": 4,
-          "var(--font-serif-RobotoSlab)": 3,
-          "var(--font-sans-serif-Poppins)": 8,
-          "var(--font-serif-Lora)": 1
+          "var(--font-serif-RobotoSlab)": 2,
+          "var(--font-serif-Lora)": 2,
+          "var(--font-sans-serif-Poppins)": 8
         },
-        "uniquenessRatio": 0.2857142857142857
+        "uniquenessRatio": 0.2702702702702703
       },
       "fontSizes": {
-        "total": 42,
-        "totalUnique": 16,
+        "total": 45,
+        "totalUnique": 17,
         "unique": {
           "0": 2,
-          "var(--tt-btn)": 5,
+          "var(--tt-btn)": 6,
           "var(--tt-stu)": 2,
-          "var(--tt-b2)": 8,
+          "var(--tt-b2)": 9,
           "var(--tt-h3)": 8,
+          "1.2rem": 1,
+          "1.25rem": 1,
           "1rem": 1,
-          ".7rem": 1,
-          "var(--tt-h1)": 2,
+          "var(--tt-h1)": 1,
+          "var(--tt-h2)": 3,
           "var(--tt-b1)": 5,
-          "var(--tt-h2)": 2,
           "var(--tt-proj)": 1,
           "var(stu)": 1,
           "13px": 1,
@@ -7456,26 +8134,26 @@
           "14px": 1,
           "16px": 1
         },
-        "uniquenessRatio": 0.38095238095238093
+        "uniquenessRatio": 0.37777777777777777
       },
       "lineHeights": {
-        "total": 7,
+        "total": 8,
         "totalUnique": 5,
         "unique": {
           "2": 1,
           "1.6": 1,
           "1.4": 1,
-          "1.5": 3,
+          "1.5": 4,
           "1.2": 1
         },
-        "uniquenessRatio": 0.7142857142857143
+        "uniquenessRatio": 0.625
       },
       "zindexes": {
         "total": 6,
         "totalUnique": 4,
         "unique": {
-          "1": 3,
-          "10": 1,
+          "1": 2,
+          "10": 2,
           "100": 1,
           "110": 1
         },
@@ -7497,30 +8175,30 @@
         "uniquenessRatio": 1
       },
       "borderRadiuses": {
-        "total": 14,
+        "total": 17,
         "totalUnique": 6,
         "unique": {
-          "10px": 3,
+          "10px": 5,
+          "45px": 5,
           "2px": 1,
           "5px": 1,
-          "45px": 4,
           "50%": 4,
-          "4px": 1
+          "12.5px": 1
         },
-        "uniquenessRatio": 0.42857142857142855,
+        "uniquenessRatio": 0.35294117647058826,
         "itemsPerContext": {
           "border-radius": {
-            "total": 14,
+            "total": 17,
             "totalUnique": 6,
             "unique": {
-              "10px": 3,
+              "10px": 5,
+              "45px": 5,
               "2px": 1,
               "5px": 1,
-              "45px": 4,
               "50%": 4,
-              "4px": 1
+              "12.5px": 1
             },
-            "uniquenessRatio": 0.42857142857142855
+            "uniquenessRatio": 0.35294117647058826
           }
         }
       },
@@ -7558,17 +8236,17 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 223,
+        "total": 236,
         "totalUnique": 6,
         "unique": {
-          "px": 121,
-          "rem": 81,
+          "px": 127,
+          "rem": 87,
           "vw": 6,
+          "vh": 3,
           "s": 6,
-          "deg": 7,
-          "vh": 2
+          "deg": 7
         },
-        "uniquenessRatio": 0.026905829596412557,
+        "uniquenessRatio": 0.025423728813559324,
         "itemsPerContext": {
           "--space1x": {
             "total": 1,
@@ -7675,34 +8353,34 @@
             "uniquenessRatio": 1
           },
           "height": {
-            "total": 20,
+            "total": 21,
             "totalUnique": 4,
             "unique": {
-              "px": 16,
-              "rem": 1,
-              "vh": 1,
+              "px": 15,
+              "rem": 2,
+              "vh": 2,
               "vw": 2
             },
-            "uniquenessRatio": 0.2
+            "uniquenessRatio": 0.19047619047619047
           },
           "margin": {
-            "total": 12,
+            "total": 13,
             "totalUnique": 2,
             "unique": {
-              "px": 8,
+              "px": 9,
               "rem": 4
             },
-            "uniquenessRatio": 0.16666666666666666
+            "uniquenessRatio": 0.15384615384615385
           },
           "width": {
-            "total": 17,
+            "total": 19,
             "totalUnique": 3,
             "unique": {
-              "px": 13,
+              "px": 15,
               "rem": 2,
               "vw": 2
             },
-            "uniquenessRatio": 0.17647058823529413
+            "uniquenessRatio": 0.15789473684210525
           },
           "gap": {
             "total": 12,
@@ -7714,14 +8392,14 @@
             "uniquenessRatio": 0.16666666666666666
           },
           "padding": {
-            "total": 35,
+            "total": 34,
             "totalUnique": 3,
             "unique": {
-              "rem": 22,
+              "rem": 21,
               "vw": 1,
               "px": 12
             },
-            "uniquenessRatio": 0.08571428571428572
+            "uniquenessRatio": 0.08823529411764706
           },
           "border-top": {
             "total": 3,
@@ -7732,31 +8410,31 @@
             "uniquenessRatio": 0.3333333333333333
           },
           "margin-bottom": {
-            "total": 13,
+            "total": 14,
             "totalUnique": 2,
             "unique": {
-              "rem": 6,
+              "rem": 7,
               "px": 7
             },
-            "uniquenessRatio": 0.15384615384615385
+            "uniquenessRatio": 0.14285714285714285
           },
           "margin-top": {
-            "total": 7,
+            "total": 12,
             "totalUnique": 2,
             "unique": {
-              "rem": 6,
-              "px": 1
-            },
-            "uniquenessRatio": 0.2857142857142857
-          },
-          "padding-top": {
-            "total": 7,
-            "totalUnique": 2,
-            "unique": {
-              "rem": 4,
+              "rem": 9,
               "px": 3
             },
-            "uniquenessRatio": 0.2857142857142857
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "padding-top": {
+            "total": 8,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 5,
+              "px": 3
+            },
+            "uniquenessRatio": 0.25
           },
           "padding-right": {
             "total": 3,
@@ -7795,12 +8473,21 @@
             "uniquenessRatio": 0.4
           },
           "border-radius": {
-            "total": 10,
+            "total": 13,
             "totalUnique": 1,
             "unique": {
-              "px": 10
+              "px": 13
             },
-            "uniquenessRatio": 0.1
+            "uniquenessRatio": 0.07692307692307693
+          },
+          "font-size": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 3,
+              "px": 4
+            },
+            "uniquenessRatio": 0.2857142857142857
           },
           "transform": {
             "total": 9,
@@ -7829,6 +8516,14 @@
             },
             "uniquenessRatio": 0.18181818181818182
           },
+          "padding-bottom": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
           "border-bottom": {
             "total": 1,
             "totalUnique": 1,
@@ -7837,40 +8532,15 @@
             },
             "uniquenessRatio": 1
           },
-          "padding-bottom": {
-            "total": 2,
-            "totalUnique": 1,
-            "unique": {
-              "rem": 2
-            },
-            "uniquenessRatio": 0.5
-          },
-          "left": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "rem": 1
-            },
-            "uniquenessRatio": 1
-          },
           "bottom": {
-            "total": 7,
+            "total": 6,
             "totalUnique": 3,
             "unique": {
-              "px": 3,
               "rem": 3,
+              "px": 2,
               "vh": 1
             },
-            "uniquenessRatio": 0.42857142857142855
-          },
-          "font-size": {
-            "total": 6,
-            "totalUnique": 2,
-            "unique": {
-              "rem": 2,
-              "px": 4
-            },
-            "uniquenessRatio": 0.3333333333333333
+            "uniquenessRatio": 0.5
           },
           "box-shadow": {
             "total": 4,
@@ -7922,22 +8592,22 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 768
+        "sum": 824
       },
       "keywords": {
-        "total": 43,
+        "total": 46,
         "totalUnique": 2,
         "unique": {
-          "none": 29,
-          "auto": 14
+          "none": 30,
+          "auto": 16
         },
-        "uniquenessRatio": 0.046511627906976744
+        "uniquenessRatio": 0.043478260869565216
       }
     },
     "__meta__": {
-      "parseTime": 6,
-      "analyzeTime": 5,
-      "total": 11
+      "parseTime": 3,
+      "analyzeTime": 6,
+      "total": 9
     }
   }
 }

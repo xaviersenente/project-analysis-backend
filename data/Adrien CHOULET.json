@@ -1,0 +1,6705 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Drone Explorer",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 94,
+      "externalLinks": 0,
+      "internalLinks": 23,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "LA TECHNOLOGIES DES DRONES À TRAVERS LA CULTURE",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "LA TECHNOLOGIES DES DRONES À TRAVERS LA CULTURE",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "DÉCOUVRIR L'HISTOIRE DES DRONES",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "DÉCOUVRIR L'HISTOIRE DES DRONES",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "DÉCOUVRIR L'HISTOIRE DES DRONES",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "EXPLORER LE FILM ASSOCIÉS",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "EXPLORER LE FILM ASSOCIÉS",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "EN SAVOIR PLUS SUR LE LIVRE",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "EN SAVOIR PLUS SUR LE LIVRE",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "DÉCOUVRIR L'HISTOIRE DE LA MUSIQUE",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "DÉCOUVRIR L'HISTOIRE DE LA MUSIQUE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.82,
+        "accessibility": 0.93,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 6462,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10448,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dji.png",
+            "resourceSize": 433461,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articledrone.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/droneprédator.png",
+          "alt": "Drone Predator",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/dronelivraison.png",
+          "alt": "Drone Livraison",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/dronemédicale.png",
+          "alt": "Drone Médical",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/droneviticole.png",
+          "alt": "Drone Agriculture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 106,
+      "externalLinks": 0,
+      "internalLinks": 20,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "LE DRONE UNE RÉVOLUTION TECHNOLOGIQUE",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "IL EXISTE DIFFÉRENTS TYPES DE DRONE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "DRONE PREDATOR",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "DRONE LIVRAISON",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "DRONE MÉDICALE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "DRONE MÉDICALE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.83,
+        "accessibility": 0.93,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articledrone.html",
+            "resourceSize": 7581,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dronepr%C3%A9dator.png",
+            "resourceSize": 36227,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dronelivraison.png",
+            "resourceSize": 105596,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dronem%C3%A9dicale.png",
+            "resourceSize": 107107,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/droneviticole.png",
+            "resourceSize": 134493,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10448,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articlefilm.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/afficheoblivision.png",
+          "alt": "Affiche du film Oblivion",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/tomcruise.png",
+          "alt": "Tom Cruise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/morgan.png",
+          "alt": "Morgan Freeman",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/AndreaRiseborough.png",
+          "alt": "Riseborough",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/OlgaKurylenko.png",
+          "alt": "Olga Kurylenko",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/NikolajCoster.png",
+          "alt": "Nikolaj Coster",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Melissaleo.png",
+          "alt": "Melissa Leo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 111,
+      "externalLinks": 0,
+      "internalLinks": 20,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "OBLIVION, UNE VISION FUTURISTE DES DRONES",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "SYNOPSIS",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "SYNOPSIS",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "DISTRIBUTION",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "DISTRIBUTION",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.73,
+        "accessibility": 0.93,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articlefilm.html",
+            "resourceSize": 9006,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/afficheoblivision.png",
+            "resourceSize": 102580,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/tomcruise.png",
+            "resourceSize": 34450,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/morgan.png",
+            "resourceSize": 50962,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/AndreaRiseborough.png",
+            "resourceSize": 366608,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/OlgaKurylenko.png",
+            "resourceSize": 193527,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/NikolajCoster.png",
+            "resourceSize": 139370,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Melissaleo.png",
+            "resourceSize": 380379,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articler%C3%A9al.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/joseph.png",
+          "alt": "Joseph Kosinski",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/topgun.png",
+          "alt": "Maverick",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/afficheoblivision.png",
+          "alt": "Oblivion",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/american.png",
+          "alt": "TRON: Legacy",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/topgun.png",
+          "alt": "TRON: Legacy",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 96,
+      "externalLinks": 0,
+      "internalLinks": 20,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "JOSEPH KOSINSKI, MAITRE DE LA SCIENCE-FICTION",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "JOSEPH KOSINSKI, MAITRE DE LA SCIENCE-FICTION",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.91,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articler%C3%A9al.html",
+            "resourceSize": 6598,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/joseph.png",
+            "resourceSize": 37286,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/topgun.png",
+            "resourceSize": 19544,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/afficheoblivision.png",
+            "resourceSize": 102580,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/american.png",
+            "resourceSize": 32508,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articlelivre.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/dronewarfare.png",
+          "alt": "Couverture du livre Drone Warfare",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 85,
+      "externalLinks": 0,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "DRONE WARFARE DE MEDEA BENJAMIN",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.91,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articlelivre.html",
+            "resourceSize": 7644,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dronewarfare.png",
+            "resourceSize": 118100,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articlemusique.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/daftpunk.png",
+          "alt": "Daft Punk TRON Legacy",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 81,
+      "externalLinks": 0,
+      "internalLinks": 20,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "THE GRID DE DAFT PUNK",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 0.91,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articlemusique.html",
+            "resourceSize": 5743,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/daftpunk.png",
+            "resourceSize": 108520,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/frisechrono.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone1.png",
+          "alt": "Cible aérienne",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone2.png",
+          "alt": "Bogue de Kettering",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone3.png",
+          "alt": "DH 82B Reine des abeilles",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone4.png",
+          "alt": "Falconnier MQM-57",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone5.png",
+          "alt": "Moucheron 750",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone6.png",
+          "alt": "Predator RQ-1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drone7.png",
+          "alt": "Parrot AR Drone",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 119,
+      "externalLinks": 0,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 10,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "FRISE CHRONOLOGIQUE",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "CIBLE AÉRIENNE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "BOGUE DE KETTERING",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "DH 82B REINE DES ABEILLES",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "FALCONNIER MQM-57",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MOUCHERON 750",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "PREDATOR RQ-1",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "PARROT AR DRONE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 0.91,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/frisechrono.html",
+            "resourceSize": 8066,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone1.png",
+            "resourceSize": 64746,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone2.png",
+            "resourceSize": 68794,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone3.png",
+            "resourceSize": 72760,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone4.png",
+            "resourceSize": 57654,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone5.png",
+            "resourceSize": 57768,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone6.png",
+            "resourceSize": 47818,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drone7.png",
+            "resourceSize": 35446,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/m%C3%A9dia.html",
+      "title": "Drone Explorer",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/daftpunk.png",
+          "alt": "Tron Music",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 86,
+      "externalLinks": 0,
+      "internalLinks": 21,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "MEDIA",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "MEDIA",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "BA OBLIVION",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "BA OBLIVION",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "ÉCOUTER UN EXTRAIT DE LA MUSIQUE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 55,
+          "lastColumn": 125,
+          "firstColumn": 13,
+          "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+          "extract": "          <iframe src=\"https://www.youtube.com/embed/XmIIgE7eSak\" title=\"Oblivion Trailer\" frameborder=\"0\" allowfullscreen></ifra",
+          "hiliteStart": 10,
+          "hiliteLength": 113
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.94,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/m%C3%A9dia.html",
+            "resourceSize": 5549,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/daftpunk.png",
+            "resourceSize": 108520,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://www.youtube.com/embed/XmIIgE7eSak",
+            "resourceSize": 102036,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero-bg.jpg",
+            "resourceSize": 161,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://www.youtube.com/s/player/a5032d18/www-player.css",
+            "resourceSize": 405468,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://www.youtube.com/s/player/a5032d18/player_ias.vflset/fr_FR/embed.js",
+            "resourceSize": 33895,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.youtube.com/s/player/a5032d18/www-embed-player.vflset/www-embed-player.js",
+            "resourceSize": 340652,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.youtube.com/s/player/a5032d18/player_ias.vflset/fr_FR/base.js",
+            "resourceSize": 2521819,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://googleads.g.doubleclick.net/pagead/id",
+            "resourceSize": 0,
+            "mimeType": "text/html"
+          },
+          {
+            "url": "https://static.doubleclick.net/instream/ad_status.js",
+            "resourceSize": 29,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
+            "resourceSize": 93785,
+            "mimeType": "application/json+protobuf",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://www.google.com/js/th/w98ULYEoiI-DoSZcfqb0Q-CcsV5bW44r6AwpUhfXUEY.js",
+            "resourceSize": 55153,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://i.ytimg.com/vi/XmIIgE7eSak/default.jpg",
+            "resourceSize": 3339,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq…",
+            "resourceSize": 175,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://yt3.ggpht.com/_XxIsLgks3G7PJ1Yhfq6GWBeDr2PfYIi9xrbz-7AnsaiutSh6pItq4odcQgXRAvCn1KuGqlj4g=s68-c-k-c0x00ffffff-no-rj",
+            "resourceSize": 2743,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+            "resourceSize": 100,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://www.youtube.com/generate_204?lC3LPA",
+            "resourceSize": 0,
+            "mimeType": "text/plain",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 131,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 0,
+            "mimeType": "text/plain",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          },
+          {
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+            "resourceSize": 94,
+            "mimeType": "application/json+protobuf",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 131,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 0,
+            "mimeType": "text/plain",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 131,
+            "mimeType": "text/plain",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+            "resourceSize": 0,
+            "mimeType": "text/plain",
+            "resourceType": "Preflight"
+          },
+          {
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+            "resourceSize": 28,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/formulairedecontact.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 91,
+      "externalLinks": 0,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "CONTACT",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.91,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/formulairedecontact.html",
+            "resourceSize": 6090,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/adrien.png",
+          "alt": "Photo de profil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 86,
+      "externalLinks": 0,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "À PROPOS DE MOI",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 0.91,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 5811,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/adrien.png",
+            "resourceSize": 10634,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10444,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zUtBhPNqw73oHt4D4hXRAy7g.woff2",
+            "resourceSize": 30712,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 117,
+      "externalLinks": 0,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 13,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "GLOSSAIRE",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "DRONE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "SYSTÈME EMBARQUÉ",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "INTELLIGENCE ARTIFICIELLE (IA)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "RÉALITÉ AUGMENTÉE (RA)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "ROBOTIQUE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "LOITERING MUNITION",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "SURVEILLANCE AÉRIENNE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "AGRICULTURE DE PRÉCISION",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "FPV (FIRST PERSON VIEW)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "LIDAR (LIGHT DETECTION AND RANGING)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "UAV (UNMANNED AERIAL VEHICLE)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "RÉGLEMENTATION AÉRIENNE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "TÉLÉPILOTAGE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.93,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 9151,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10448,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autreprojet.html",
+      "title": "Drone Explorer - Oblivion",
+      "images": [
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Banjamin.png",
+          "alt": "Benjamin BOBEL",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/maelie.png",
+          "alt": "Maelie ADDARIO",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nedim.png",
+          "alt": "Nedim HALEPOVIC",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/kilian.png",
+          "alt": "Kilian BREUIL",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/leo.png",
+          "alt": "Baudry Léo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/socialIcons.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logosite.png",
+          "alt": "Drone Explorer",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 102,
+      "externalLinks": 0,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AUTRES PROJETS",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Benjamin BOBEL",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Maelie ADDARIO",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Nedim HALEPOVIC",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Kilian BREUIL",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Baudry Léo",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "MENU",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.93,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autreprojet.html",
+            "resourceSize": 6483,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1573,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 696,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logosite.png",
+            "resourceSize": 5523,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/script.js",
+            "resourceSize": 3343,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Banjamin.png",
+            "resourceSize": 8215,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/maelie.png",
+            "resourceSize": 3263,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nedim.png",
+            "resourceSize": 5186,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/kilian.png",
+            "resourceSize": 8435,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/leo.png",
+            "resourceSize": 5285,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/socialIcons.png",
+            "resourceSize": 1899,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/ucd0xds.css",
+            "resourceSize": 3327,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 62228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 3078,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1730,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/menu.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cards.css",
+            "resourceSize": 1072,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 463,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2015,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/contact.css",
+            "resourceSize": 179,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/cast.css",
+            "resourceSize": 280,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autre.css",
+            "resourceSize": 2286,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 650,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/intro.css",
+            "resourceSize": 1022,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "resourceSize": 1181,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/content.css",
+            "resourceSize": 308,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/book.css",
+            "resourceSize": 765,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/music.css",
+            "resourceSize": 542,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/project.css",
+            "resourceSize": 572,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "resourceSize": 663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=ucd0xds&ht=tk&f=310.311.318.319&a=171462738&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 10544,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 10448,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zatBhPNqw73oTd4jQmfxI.woff2",
+            "resourceSize": 26588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jost/v18/92zUtBhPNqw73oHt4D4hXRAy7g.woff2",
+            "resourceSize": 30712,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/fav.png",
+            "resourceSize": 804,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "video",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 200,
+      "span": 27
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 684,
+      "linesOfCode": 1,
+      "size": 13061,
+      "complexity": 1809,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 4,
+        "totalUnique": 4,
+        "unique": [
+          {
+            "font-display": "auto",
+            "font-family": "ethnocentric",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/73909f/00000000000000007735965a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/73909f/00000000000000007735965a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff\"),url(https://use.typekit.net/af/73909f/00000000000000007735965a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "ethnocentric",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/d35a6a/00000000000000007735965b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/d35a6a/00000000000000007735965b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"woff\"),url(https://use.typekit.net/af/d35a6a/00000000000000007735965b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "ethnocentric",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "700",
+            "src": "url(https://use.typekit.net/af/9939ea/00000000000000007735966c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"woff2\"),url(https://use.typekit.net/af/9939ea/00000000000000007735966c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"woff\"),url(https://use.typekit.net/af/9939ea/00000000000000007735966c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "ethnocentric",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "700",
+            "src": "url(https://use.typekit.net/af/586966/00000000000000007735966f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format(\"woff2\"),url(https://use.typekit.net/af/586966/00000000000000007735966f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format(\"woff\"),url(https://use.typekit.net/af/586966/00000000000000007735966f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format(\"opentype\")"
+          }
+        ],
+        "uniquenessRatio": 1
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 8,
+        "totalUnique": 3,
+        "unique": {
+          "(min-width:768px)": 1,
+          "screen and (max-width:768px)": 1,
+          "(max-width:768px)": 6
+        },
+        "uniquenessRatio": 0.375,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 12,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 12
+      }
+    },
+    "rules": {
+      "total": 167,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 11,
+        "mean": 3.8802395209580838,
+        "mode": 2,
+        "median": 4,
+        "range": 9,
+        "sum": 648,
+        "items": [
+          2,
+          4,
+          6,
+          2,
+          5,
+          4,
+          2,
+          5,
+          4,
+          2,
+          3,
+          3,
+          4,
+          4,
+          4,
+          3,
+          5,
+          3,
+          2,
+          2,
+          7,
+          2,
+          4,
+          3,
+          3,
+          2,
+          7,
+          8,
+          2,
+          4,
+          2,
+          5,
+          2,
+          2,
+          2,
+          3,
+          4,
+          3,
+          3,
+          3,
+          5,
+          5,
+          4,
+          3,
+          3,
+          3,
+          8,
+          2,
+          5,
+          4,
+          4,
+          4,
+          3,
+          4,
+          11,
+          5,
+          9,
+          7,
+          3,
+          3,
+          2,
+          10,
+          11,
+          2,
+          11,
+          2,
+          9,
+          2,
+          4,
+          4,
+          5,
+          2,
+          4,
+          2,
+          3,
+          4,
+          3,
+          2,
+          5,
+          2,
+          6,
+          5,
+          2,
+          3,
+          2,
+          6,
+          2,
+          4,
+          5,
+          2,
+          3,
+          2,
+          4,
+          2,
+          3,
+          3,
+          4,
+          5,
+          7,
+          6,
+          3,
+          5,
+          7,
+          2,
+          5,
+          3,
+          2,
+          4,
+          2,
+          2,
+          5,
+          4,
+          4,
+          7,
+          6,
+          6,
+          4,
+          4,
+          4,
+          7,
+          4,
+          8,
+          6,
+          4,
+          2,
+          6,
+          5,
+          2,
+          2,
+          2,
+          4,
+          2,
+          4,
+          2,
+          3,
+          4,
+          5,
+          4,
+          4,
+          3,
+          4,
+          2,
+          2,
+          4,
+          4,
+          5,
+          4,
+          4,
+          2,
+          2,
+          2,
+          2,
+          4,
+          4,
+          2,
+          2,
+          4,
+          2,
+          4,
+          4,
+          5,
+          5,
+          5,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 167,
+        "totalUnique": 10,
+        "unique": {
+          "2": 51,
+          "3": 26,
+          "4": 44,
+          "5": 22,
+          "6": 8,
+          "7": 7,
+          "8": 3,
+          "9": 2,
+          "10": 1,
+          "11": 3
+        },
+        "uniquenessRatio": 0.059880239520958084
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0538922155688624,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 176,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 167,
+        "totalUnique": 2,
+        "unique": {
+          "1": 158,
+          "2": 9
+        },
+        "uniquenessRatio": 0.011976047904191617
+      },
+      "declarations": {
+        "min": 1,
+        "max": 10,
+        "mean": 2.8263473053892216,
+        "mode": 1,
+        "median": 3,
+        "range": 9,
+        "sum": 472,
+        "items": [
+          1,
+          3,
+          5,
+          1,
+          4,
+          3,
+          1,
+          4,
+          3,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          4,
+          2,
+          1,
+          1,
+          6,
+          1,
+          3,
+          2,
+          1,
+          1,
+          6,
+          7,
+          1,
+          3,
+          1,
+          4,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          2,
+          4,
+          4,
+          3,
+          2,
+          2,
+          2,
+          7,
+          1,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2,
+          10,
+          4,
+          8,
+          6,
+          2,
+          1,
+          1,
+          9,
+          9,
+          1,
+          10,
+          1,
+          8,
+          1,
+          3,
+          3,
+          4,
+          1,
+          3,
+          1,
+          2,
+          3,
+          2,
+          1,
+          4,
+          1,
+          5,
+          4,
+          1,
+          2,
+          1,
+          5,
+          1,
+          3,
+          4,
+          1,
+          2,
+          1,
+          3,
+          1,
+          2,
+          2,
+          3,
+          4,
+          6,
+          5,
+          2,
+          3,
+          6,
+          1,
+          4,
+          2,
+          1,
+          3,
+          1,
+          1,
+          4,
+          2,
+          3,
+          6,
+          5,
+          5,
+          3,
+          3,
+          3,
+          6,
+          3,
+          7,
+          5,
+          3,
+          1,
+          5,
+          4,
+          1,
+          1,
+          1,
+          3,
+          1,
+          2,
+          1,
+          2,
+          3,
+          4,
+          3,
+          3,
+          2,
+          3,
+          1,
+          1,
+          3,
+          3,
+          4,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          1,
+          3,
+          3,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 167,
+        "totalUnique": 10,
+        "unique": {
+          "1": 54,
+          "2": 27,
+          "3": 41,
+          "4": 21,
+          "5": 8,
+          "6": 7,
+          "7": 3,
+          "8": 2,
+          "9": 2,
+          "10": 2
+        },
+        "uniquenessRatio": 0.059880239520958084
+      }
+    },
+    "selectors": {
+      "total": 176,
+      "totalUnique": 134,
+      "uniquenessRatio": 0.7613636363636364,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          2,
+          2
+        ],
+        "sum": [
+          0,
+          186,
+          63
+        ],
+        "mean": [
+          0,
+          1.0568181818181819,
+          0.35795454545454547
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "total": 176,
+        "totalUnique": 7,
+        "unique": {
+          "0,1,0": 106,
+          "0,0,1": 5,
+          "0,1,1": 45,
+          "0,1,2": 4,
+          "0,1,3": 1,
+          "0,2,0": 14,
+          "0,2,2": 1
+        },
+        "uniquenessRatio": 0.03977272727272727
+      },
+      "complexity": {
+        "min": 1,
+        "max": 7,
+        "mean": 1.7556818181818181,
+        "mode": 1,
+        "median": 1,
+        "range": 6,
+        "sum": 309,
+        "total": 176,
+        "totalUnique": 6,
+        "unique": {
+          "1": 111,
+          "2": 12,
+          "3": 47,
+          "5": 4,
+          "6": 1,
+          "7": 1
+        },
+        "uniquenessRatio": 0.03409090909090909,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          5,
+          7,
+          3,
+          5,
+          5,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3,
+          5,
+          6,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          1,
+          1,
+          3,
+          1,
+          3,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          3,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          3
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 58,
+        "totalUnique": 1,
+        "unique": {
+          " ": 58
+        },
+        "uniquenessRatio": 0.017241379310344827
+      }
+    },
+    "declarations": {
+      "total": 496,
+      "totalUnique": 212,
+      "uniquenessRatio": 0.4274193548387097,
+      "unique": {
+        "total": 212,
+        "ratio": 0.4274193548387097
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 496
+      }
+    },
+    "properties": {
+      "total": 496,
+      "totalUnique": 58,
+      "unique": {
+        "font-display": 4,
+        "font-family": 7,
+        "font-stretch": 4,
+        "font-style": 7,
+        "font-weight": 14,
+        "src": 4,
+        "background-color": 22,
+        "color": 33,
+        "padding": 38,
+        "display": 31,
+        "flex-direction": 10,
+        "gap": 17,
+        "margin": 29,
+        "max-width": 16,
+        "text-align": 17,
+        "font-size": 35,
+        "margin-bottom": 19,
+        "text-transform": 6,
+        "list-style": 1,
+        "text-decoration": 8,
+        "transition": 8,
+        "line-height": 10,
+        "margin-top": 10,
+        "justify-content": 7,
+        "align-items": 8,
+        "height": 18,
+        "width": 24,
+        "border-bottom": 3,
+        "padding-bottom": 2,
+        "background": 7,
+        "border": 5,
+        "cursor": 4,
+        "left": 3,
+        "position": 8,
+        "top": 2,
+        "z-index": 1,
+        "list-style-type": 1,
+        "border-top": 1,
+        "border-radius": 19,
+        "object-fit": 2,
+        "transform": 1,
+        "overflow": 2,
+        "flex-shrink": 1,
+        "min-width": 1,
+        "background-position": 1,
+        "background-size": 1,
+        "right": 1,
+        "align-self": 1,
+        "grid-template-columns": 2,
+        "margin-right": 4,
+        "flex": 4,
+        "box-shadow": 2,
+        "padding-left": 3,
+        "padding-right": 1,
+        "padding-top": 1,
+        "margin-left": 2,
+        "content": 2,
+        "border-left": 1
+      },
+      "uniquenessRatio": 0.11693548387096774,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 496
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 70,
+        "totalUnique": 21,
+        "unique": {
+          "#000": 5,
+          "#fff": 24,
+          "hsla(0,0%,100%,.1)": 2,
+          "#333": 4,
+          "#0047ab": 12,
+          "#555": 2,
+          "#111": 1,
+          "rgba(0,0,0,.8)": 1,
+          "#f5f5f5": 3,
+          "rgba(0,0,0,.5)": 2,
+          "#06c": 2,
+          "transparent": 2,
+          "#003380": 1,
+          "#002d6b": 1,
+          "#004999": 1,
+          "#666": 1,
+          "#ccc": 1,
+          "#036": 2,
+          "#121212": 1,
+          "rgba(0,0,0,.3)": 1,
+          "rgba(0,0,0,.1)": 1
+        },
+        "uniquenessRatio": 0.3,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 22,
+            "totalUnique": 14,
+            "unique": {
+              "#000": 2,
+              "#fff": 3,
+              "#555": 1,
+              "hsla(0,0%,100%,.1)": 1,
+              "#f5f5f5": 2,
+              "#06c": 2,
+              "transparent": 2,
+              "#003380": 1,
+              "#0047ab": 3,
+              "#002d6b": 1,
+              "#004999": 1,
+              "#ccc": 1,
+              "#036": 1,
+              "#121212": 1
+            },
+            "uniquenessRatio": 0.6363636363636364
+          },
+          "color": {
+            "total": 33,
+            "totalUnique": 6,
+            "unique": {
+              "#fff": 18,
+              "#0047ab": 8,
+              "#000": 2,
+              "#666": 1,
+              "#036": 1,
+              "#333": 3
+            },
+            "uniquenessRatio": 0.18181818181818182
+          },
+          "border-bottom": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "hsla(0,0%,100%,.1)": 1,
+              "#333": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#555": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 6,
+            "totalUnique": 5,
+            "unique": {
+              "#111": 1,
+              "rgba(0,0,0,.8)": 1,
+              "rgba(0,0,0,.5)": 2,
+              "#000": 1,
+              "#f5f5f5": 1
+            },
+            "uniquenessRatio": 0.8333333333333334
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "rgba(0,0,0,.3)": 1,
+              "rgba(0,0,0,.1)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#0047ab": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 70,
+          "totalUnique": 5,
+          "unique": {
+            "hex3": 42,
+            "hsla": 2,
+            "hex6": 19,
+            "rgba": 5,
+            "transparent": 2
+          },
+          "uniquenessRatio": 0.07142857142857142
+        }
+      },
+      "gradients": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5))": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 7,
+        "totalUnique": 3,
+        "unique": {
+          "ethnocentric": 4,
+          "ethnocentric,sans-serif": 1,
+          "Jost,sans-serif": 2
+        },
+        "uniquenessRatio": 0.42857142857142855
+      },
+      "fontSizes": {
+        "total": 35,
+        "totalUnique": 13,
+        "unique": {
+          "1rem": 6,
+          ".9rem": 7,
+          "2rem": 4,
+          "24px": 2,
+          "1.2rem": 3,
+          "16px": 1,
+          "13px": 1,
+          "30px": 1,
+          "14px": 3,
+          "3rem": 1,
+          "1.5rem": 4,
+          "1.1em": 1,
+          "1.1rem": 1
+        },
+        "uniquenessRatio": 0.37142857142857144
+      },
+      "lineHeights": {
+        "total": 10,
+        "totalUnique": 4,
+        "unique": {
+          "1.4": 3,
+          "30px": 1,
+          "1.5": 2,
+          "1.6": 4
+        },
+        "uniquenessRatio": 0.4
+      },
+      "zindexes": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "999": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "0 4px 8px rgba(0,0,0,.3)": 1,
+          "0 4px 8px rgba(0,0,0,.1)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 19,
+        "totalUnique": 6,
+        "unique": {
+          "0": 1,
+          "10px": 2,
+          "8px": 7,
+          "5px": 3,
+          "4px": 3,
+          "50%": 3
+        },
+        "uniquenessRatio": 0.3157894736842105,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 19,
+            "totalUnique": 6,
+            "unique": {
+              "0": 1,
+              "10px": 2,
+              "8px": 7,
+              "5px": 3,
+              "4px": 3,
+              "50%": 3
+            },
+            "uniquenessRatio": 0.3157894736842105
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 8,
+          "totalUnique": 2,
+          "unique": {
+            ".3s": 7,
+            ".5s": 1
+          },
+          "uniquenessRatio": 0.25
+        },
+        "timingFunctions": {
+          "total": 7,
+          "totalUnique": 1,
+          "unique": {
+            "ease": 7
+          },
+          "uniquenessRatio": 0.14285714285714285
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 227,
+        "totalUnique": 6,
+        "unique": {
+          "rem": 116,
+          "px": 99,
+          "s": 8,
+          "vh": 1,
+          "fr": 2,
+          "em": 1
+        },
+        "uniquenessRatio": 0.02643171806167401,
+        "itemsPerContext": {
+          "padding": {
+            "total": 44,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 36,
+              "px": 8
+            },
+            "uniquenessRatio": 0.045454545454545456
+          },
+          "gap": {
+            "total": 17,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 14,
+              "px": 3
+            },
+            "uniquenessRatio": 0.11764705882352941
+          },
+          "max-width": {
+            "total": 11,
+            "totalUnique": 1,
+            "unique": {
+              "px": 11
+            },
+            "uniquenessRatio": 0.09090909090909091
+          },
+          "font-size": {
+            "total": 35,
+            "totalUnique": 3,
+            "unique": {
+              "rem": 26,
+              "px": 8,
+              "em": 1
+            },
+            "uniquenessRatio": 0.08571428571428572
+          },
+          "margin-bottom": {
+            "total": 19,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 16,
+              "px": 3
+            },
+            "uniquenessRatio": 0.10526315789473684
+          },
+          "transition": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "s": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "margin": {
+            "total": 21,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 11,
+              "px": 10
+            },
+            "uniquenessRatio": 0.09523809523809523
+          },
+          "margin-top": {
+            "total": 10,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 5,
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "height": {
+            "total": 11,
+            "totalUnique": 2,
+            "unique": {
+              "px": 10,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.18181818181818182
+          },
+          "width": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "border-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-radius": {
+            "total": 15,
+            "totalUnique": 1,
+            "unique": {
+              "px": 15
+            },
+            "uniquenessRatio": 0.06666666666666667
+          },
+          "transform": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "line-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "grid-template-columns": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "fr": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-right": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 3,
+              "px": 1
+            },
+            "uniquenessRatio": 0.5
+          },
+          "box-shadow": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding-left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 496
+      },
+      "keywords": {
+        "total": 35,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 19,
+          "none": 16
+        },
+        "uniquenessRatio": 0.05714285714285714
+      }
+    },
+    "__meta__": {
+      "parseTime": 3,
+      "analyzeTime": 5,
+      "total": 8
+    }
+  }
+}

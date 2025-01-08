@@ -6,59 +6,73 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/img-header.webp",
-          "alt": "Photo d'un homme utilisant un casque VR"
+          "alt": "Photo d'un homme utilisant un casque VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/decoration1.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/card_objet.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/card_film.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/decoration2.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/card_realisateur.webp",
-          "alt": "Photo de Steven Spielberg"
+          "alt": "Photo de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/card_livre.webp",
-          "alt": "Photo de la couverture du livre Snow Crash"
+          "alt": "Photo de la couverture du livre Snow Crash",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/decoration3.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_accueil/card_musique.webp",
-          "alt": "Photo de la pochet de disque de Virtual Insanity"
+          "alt": "Photo de la pochet de disque de Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 105,
@@ -151,7 +165,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.86,
+        "performance": 0.94,
         "accessibility": 0.93,
         "bestPractices": 1,
         "seo": 0.91,
@@ -166,7 +180,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -304,7 +318,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -322,7 +336,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -334,7 +348,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -352,13 +366,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -407,79 +427,98 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/header.webp",
-          "alt": "Photo d'un homme utilisant un casque VR"
+          "alt": "Photo d'un homme utilisant un casque VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/img_article1.webp",
-          "alt": "Photo d'une femme portant un casque VR"
+          "alt": "Photo d'une femme portant un casque VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_1957.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_1968.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_1985.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_2012.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_2016.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_2030.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_2039.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_objet/frise_2050.webp",
-          "alt": "No alt"
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/film.webp",
-          "alt": "Photo de l'affiche du film 'Belle'"
+          "alt": "Photo de l'affiche du film 'Belle'",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/realisateur.webp",
-          "alt": "Photo de Steven Spielberg"
+          "alt": "Photo de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/livre.webp",
-          "alt": "Photo de la couverture du livre Snow Crash"
+          "alt": "Photo de la couverture du livre Snow Crash",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/musique.webp",
-          "alt": "Photo de la pochet de disque de Virtual Insanity"
+          "alt": "Photo de la pochet de disque de Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 145,
@@ -562,7 +601,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -730,7 +769,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -748,7 +787,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -760,7 +799,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -778,13 +817,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -839,78 +884,96 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_film/header.webp",
-          "alt": "Photo de l'affiche du film Belle"
+          "alt": "Photo de l'affiche du film Belle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_film/img_article1.webp",
-          "alt": "Image du film, Suzu se connecte à U pour la première fois"
+          "alt": "Image du film, Suzu se connecte à U pour la première fois",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_film/img_article2.webp",
-          "alt": "Image du film, Suzu est dans le monde virtuel de U"
+          "alt": "Image du film, Suzu est dans le monde virtuel de U",
+          "ariaHidden": "✕"
         },
         {
-          "src": "/assets/img/article_film/carousel1.webp",
-          "alt": "Affiche de Ghost in the Shell"
+          "src": "/assets/img/article_film/carousel_ghost-in-the-shell.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "/assets/img/article_film/carousel2.webp",
-          "alt": "Affiche de Ready Player One"
+          "src": "/assets/img/article_film/carousel_ready-player-one.webp",
+          "alt": "Affiche de Ready Player One",
+          "ariaHidden": "✕"
         },
         {
-          "src": "/assets/img/article_film/carousel3.webp",
-          "alt": "Affiche de The Matrix"
+          "src": "/assets/img/article_film/carousel_matrix.webp",
+          "alt": "Affiche de The Matrix",
+          "ariaHidden": "✕"
         },
         {
-          "src": "/assets/img/article_film/carousel4.webp",
-          "alt": "Affiche de Tron"
+          "src": "/assets/img/article_film/carousel_tron.webp",
+          "alt": "Affiche de Tron",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/fleche.svg",
-          "alt": "fleche gauche"
+          "alt": "fleche gauche",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/fleche.svg",
-          "alt": "fleche droite"
+          "alt": "fleche droite",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/objet.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/realisateur.webp",
-          "alt": "Photo de Steven Spielberg"
+          "alt": "Photo de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/livre.webp",
-          "alt": "Photo de la couverture du livre Snow Crash"
+          "alt": "Photo de la couverture du livre Snow Crash",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/musique.webp",
-          "alt": "Photo de la pochet de disque de Virtual Insanity"
+          "alt": "Photo de la pochet de disque de Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 132,
+      "totalTags": 142,
       "externalLinks": 2,
       "internalLinks": 16,
       "deadLinks": 0,
@@ -955,17 +1018,7 @@
       "validationErrors": [
         {
           "type": "error",
-          "lastLine": 130,
-          "lastColumn": 118,
-          "firstColumn": 17,
-          "message": "Bad value “/assets/video/BELLE bande annonce VF ( film animation 2022) Louane.mp4” for attribute “src” on element “source”: Illegal character in path segment: space is not allowed.",
-          "extract": "          <source src=\"/assets/video/BELLE bande annonce VF ( film animation 2022) Louane.mp4\" type=\"video/mp4\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 102
-        },
-        {
-          "type": "error",
-          "lastLine": 221,
+          "lastLine": 229,
           "lastColumn": 16,
           "firstColumn": 13,
           "message": "Stray end tag “a”.",
@@ -975,22 +1028,22 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.87,
+        "performance": 0.86,
         "accessibility": 0.96,
-        "bestPractices": 0.93,
+        "bestPractices": 0.79,
         "seo": 0.91,
         "viewport": 1,
-        "errors": 0,
+        "errors": 1,
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/article_film.html",
-            "resourceSize": 13924,
+            "resourceSize": 14552,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1025,26 +1078,26 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel1.webp",
-            "resourceSize": 37788,
+            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel_ghost-in-the-shell.webp",
+            "resourceSize": 29578,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel2.webp",
-            "resourceSize": 40952,
+            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel_ready-player-one.webp",
+            "resourceSize": 31988,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel3.webp",
-            "resourceSize": 41136,
+            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel_matrix.webp",
+            "resourceSize": 33472,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel4.webp",
-            "resourceSize": 22290,
+            "url": "http://127.0.0.1:5500/assets/img/article_film/carousel_tron.webp",
+            "resourceSize": 15062,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -1097,6 +1150,12 @@
             "resourceType": "Image"
           },
           {
+            "url": "http://valentine-guillot.fr/video/belle_trailer_fr.mp4",
+            "resourceSize": 183870,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 7196,
             "mimeType": "text/css",
@@ -1146,7 +1205,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1164,7 +1223,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1176,7 +1235,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1194,7 +1253,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1205,16 +1264,16 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/before-index.css",
-            "resourceSize": 1396,
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/video/BELLE%20bande%20annonce%20VF%20(%20film%20animation%202022)%20Louane.mp4",
-            "resourceSize": 224,
-            "mimeType": "text/html",
-            "resourceType": "Media"
+            "url": "http://127.0.0.1:5500/src/css/components/before-index.css",
+            "resourceSize": 1396,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
           },
           {
             "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
@@ -1297,55 +1356,68 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_realisateur/header.webp",
-          "alt": "Photo de Steven Spielberg"
+          "alt": "Photo de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_realisateur/img_article1.webp",
-          "alt": "Photo de Steven Spielberg au Golden Globes 2023"
+          "alt": "Photo de Steven Spielberg au Golden Globes 2023",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_realisateur/img_article2.webp",
-          "alt": "Image du film Ready Player One"
+          "alt": "Image du film Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_realisateur/img_article3.webp",
-          "alt": "Photo de Steven Spielberg lors d’une interview pour Ready Player One"
+          "alt": "Photo de Steven Spielberg lors d’une interview pour Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/objet.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/film.webp",
-          "alt": "Photo de l'affiche du film 'Belle'"
+          "alt": "Photo de l'affiche du film 'Belle'",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/livre.webp",
-          "alt": "Photo de la couverture du livre Snow Crash"
+          "alt": "Photo de la couverture du livre Snow Crash",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/musique.webp",
-          "alt": "Photo de la pochet de disque de Virtual Insanity"
+          "alt": "Photo de la pochet de disque de Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 118,
@@ -1408,7 +1480,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.98,
+        "performance": 0.92,
         "accessibility": 0.95,
         "bestPractices": 1,
         "seo": 0.91,
@@ -1423,7 +1495,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1555,7 +1627,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1573,7 +1645,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1585,7 +1657,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1603,13 +1675,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1664,55 +1742,68 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_livre/header.webp",
-          "alt": "Photo d'une des couvertures du livre Snow Crash"
+          "alt": "Photo d'une des couvertures du livre Snow Crash",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_livre/img_article1.webp",
-          "alt": "Photo de Neal Stephenson"
+          "alt": "Photo de Neal Stephenson",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_livre/img_article2.webp",
-          "alt": "Une des première couverture de “Snow Crash”"
+          "alt": "Une des première couverture de “Snow Crash”",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_livre/img_article3.webp",
-          "alt": "Illustration inspiré du livre “Snow Crash”"
+          "alt": "Illustration inspiré du livre “Snow Crash”",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/objet.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/film.webp",
-          "alt": "Photo de l'affiche du film 'Belle'"
+          "alt": "Photo de l'affiche du film 'Belle'",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/realisateur.webp",
-          "alt": "Photo de Steven Spielberg"
+          "alt": "Photo de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/musique.webp",
-          "alt": "Photo de la pochet de disque de Virtual Insanity"
+          "alt": "Photo de la pochet de disque de Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 118,
@@ -1790,7 +1881,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1922,7 +2013,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1940,7 +2031,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1952,7 +2043,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1970,13 +2061,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2031,58 +2128,71 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_musique/header.webp",
-          "alt": "Photo de la pochette du titre Virtual Insanity"
+          "alt": "Photo de la pochette du titre Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_musique/img_article1.webp",
-          "alt": "Photo de Jamiroquai"
+          "alt": "Photo de Jamiroquai",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_musique/img_article2.webp",
-          "alt": "Pochette d’album de Virtual Insanity"
+          "alt": "Pochette d’album de Virtual Insanity",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/article_musique/img_article3.webp",
-          "alt": "Photo d'un concert de Jamiroquai"
+          "alt": "Photo d'un concert de Jamiroquai",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/objet.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/film.webp",
-          "alt": "Photo de l'affiche du film 'Belle'"
+          "alt": "Photo de l'affiche du film 'Belle'",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/realisateur.webp",
-          "alt": "Photo de Steven Spielberg"
+          "alt": "Photo de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/mini_cards/livre.webp",
-          "alt": "Photo de la couverture du livre Snow Crash"
+          "alt": "Photo de la couverture du livre Snow Crash",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 121,
+      "totalTags": 122,
       "externalLinks": 3,
       "internalLinks": 16,
       "deadLinks": 0,
@@ -2132,7 +2242,7 @@
       "validationErrors": [
         {
           "type": "error",
-          "lastLine": 208,
+          "lastLine": 209,
           "lastColumn": 16,
           "firstColumn": 13,
           "message": "Stray end tag “a”.",
@@ -2142,7 +2252,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.94,
+        "performance": 0.93,
         "accessibility": 0.95,
         "bestPractices": 1,
         "seo": 0.91,
@@ -2151,13 +2261,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/article_musique.html",
-            "resourceSize": 12920,
+            "resourceSize": 13048,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2240,6 +2350,12 @@
             "resourceType": "Image"
           },
           {
+            "url": "https://valentine-guillot.fr/mp3/jamiroquai-virtual-insanity.mp3",
+            "resourceSize": 1596970,
+            "mimeType": "audio/mpeg",
+            "resourceType": "Media"
+          },
+          {
             "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
             "resourceSize": 7196,
             "mimeType": "text/css",
@@ -2289,7 +2405,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2307,7 +2423,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2319,7 +2435,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2337,7 +2453,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2348,10 +2464,22 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "http://127.0.0.1:5500/src/css/components/before-index.css",
             "resourceSize": 1396,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
           },
           {
             "url": "https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9WlhyyTh89Y.woff2",
@@ -2378,6 +2506,18 @@
             "resourceType": "Font"
           },
           {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 180,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 354,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
             "resourceSize": 436,
             "mimeType": "application/manifest+json",
@@ -2398,27 +2538,33 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_autre/header.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 69,
@@ -2476,7 +2622,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2566,7 +2712,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2584,7 +2730,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2596,7 +2742,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2614,13 +2760,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2669,65 +2821,79 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_autre/header.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-future'up.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-histoireducinema.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-futurosneakers.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-futurvision.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-hermet.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-vinystory.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-vestigefutur.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
-          "src": "No src",
-          "alt": "No alt"
+          "src": "/assets/img/page_autre/logo-futurepay.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 99,
-      "externalLinks": 1,
+      "externalLinks": 9,
       "internalLinks": 12,
-      "deadLinks": 8,
+      "deadLinks": 0,
       "favicon": true,
       "mailtoLinks": 1,
       "viewport": true,
@@ -2754,86 +2920,6 @@
       "validationErrors": [
         {
           "type": "error",
-          "lastLine": 85,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 90,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 95,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 100,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 105,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 110,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 115,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
-          "lastLine": 120,
-          "lastColumn": 35,
-          "firstColumn": 17,
-          "message": "Bad value “” for attribute “src” on element “img”: Must be non-empty.",
-          "extract": "          <img src=\"\" alt=\"\">\n     ",
-          "hiliteStart": 10,
-          "hiliteLength": 19
-        },
-        {
-          "type": "error",
           "lastLine": 146,
           "lastColumn": 16,
           "firstColumn": 13,
@@ -2844,7 +2930,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.94,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.91,
@@ -2853,13 +2939,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/autres_projets.html",
-            "resourceSize": 7626,
+            "resourceSize": 8549,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2878,6 +2964,54 @@
           {
             "url": "http://127.0.0.1:5500/assets/img/page_autre/header.webp",
             "resourceSize": 28866,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-future'up.webp",
+            "resourceSize": 2996,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-histoireducinema.webp",
+            "resourceSize": 642,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-futurosneakers.webp",
+            "resourceSize": 1360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-futurvision.webp",
+            "resourceSize": 2760,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-hermet.webp",
+            "resourceSize": 1282,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-vinystory.webp",
+            "resourceSize": 2796,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-vestigefutur.webp",
+            "resourceSize": 3210,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/page_autre/logo-futurepay.webp",
+            "resourceSize": 764,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
@@ -2949,7 +3083,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2967,7 +3101,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2979,7 +3113,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2997,13 +3131,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3052,30 +3192,36 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_autre/header.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 72,
+      "totalTags": 80,
       "externalLinks": 1,
       "internalLinks": 12,
       "deadLinks": 0,
@@ -3105,7 +3251,7 @@
       "validationErrors": [
         {
           "type": "error",
-          "lastLine": 107,
+          "lastLine": 112,
           "lastColumn": 16,
           "firstColumn": 13,
           "message": "Stray end tag “a”.",
@@ -3115,7 +3261,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.92,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 0.91,
@@ -3124,13 +3270,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/glossaire.html",
-            "resourceSize": 6516,
+            "resourceSize": 7461,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3220,7 +3366,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3238,7 +3384,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3250,7 +3396,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3268,13 +3414,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3323,27 +3475,33 @@
       "images": [
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "Logo de Vestiges VR"
+          "alt": "Logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/page_autre/header.webp",
-          "alt": "Photo d'un casque de réalité virtuelle"
+          "alt": "Photo d'un casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/logo.svg",
-          "alt": "logo de Vestiges VR"
+          "alt": "logo de Vestiges VR",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/e-mail.svg",
-          "alt": "Icone e-mail"
+          "alt": "Icone e-mail",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/tiktok.svg",
-          "alt": "Icone tik tok"
+          "alt": "Icone tik tok",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icone/instagram.svg",
-          "alt": "Icone instagram"
+          "alt": "Icone instagram",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 86,
@@ -3391,7 +3549,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.92,
+        "performance": 0.99,
         "accessibility": 0.95,
         "bestPractices": 1,
         "seo": 0.91,
@@ -3406,7 +3564,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 825,
+            "resourceSize": 865,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3496,7 +3654,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/hero.css",
-            "resourceSize": 1942,
+            "resourceSize": 1941,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3514,7 +3672,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
-            "resourceSize": 1160,
+            "resourceSize": 1239,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3526,7 +3684,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/lien.css",
-            "resourceSize": 765,
+            "resourceSize": 858,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3544,13 +3702,19 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/glossaire.css",
-            "resourceSize": 170,
+            "resourceSize": 246,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
             "resourceSize": 896,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/otherprojects.css",
+            "resourceSize": 717,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3629,12 +3793,8 @@
       "em",
       "strong"
     ],
-    "obsoleteTags": [
-      "b"
-    ],
-    "obsoleteTagsUsage": {
-      "b": 3
-    },
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
     "otherTags": [
       "div",
       "span",
@@ -3642,16 +3802,16 @@
     ],
     "otherTagsUsage": {
       "div": 162,
-      "span": 45,
-      "br": 22
+      "span": 52,
+      "br": 24
     }
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 676,
+      "sourceLinesOfCode": 712,
       "linesOfCode": 1,
-      "size": 11955,
-      "complexity": 1833,
+      "size": 12623,
+      "complexity": 1932,
       "comments": {
         "total": 0,
         "size": 0
@@ -3761,7 +3921,7 @@
       }
     },
     "rules": {
-      "total": 137,
+      "total": 146,
       "empty": {
         "total": 0,
         "ratio": 0
@@ -3769,11 +3929,11 @@
       "sizes": {
         "min": 2,
         "max": 16,
-        "mean": 4.927007299270073,
+        "mean": 4.86986301369863,
         "mode": 3,
         "median": 4,
         "range": 14,
-        "sum": 675,
+        "sum": 711,
         "items": [
           16,
           7,
@@ -3856,6 +4016,7 @@
           3,
           4,
           3,
+          3,
           5,
           3,
           2,
@@ -3876,6 +4037,7 @@
           3,
           9,
           8,
+          4,
           4,
           4,
           2,
@@ -3898,11 +4060,18 @@
           3,
           3,
           3,
+          3,
           4,
           4,
           4,
           4,
           8,
+          2,
+          3,
+          5,
+          2,
+          4,
+          10,
           7,
           4,
           6,
@@ -3913,32 +4082,32 @@
           8,
           4
         ],
-        "total": 137,
+        "total": 146,
         "totalUnique": 12,
         "unique": {
-          "2": 19,
-          "3": 34,
-          "4": 30,
-          "5": 9,
+          "2": 21,
+          "3": 37,
+          "4": 32,
+          "5": 10,
           "6": 9,
           "7": 6,
           "8": 17,
           "9": 5,
-          "10": 2,
+          "10": 3,
           "11": 4,
           "13": 1,
           "16": 1
         },
-        "uniquenessRatio": 0.08759124087591241
+        "uniquenessRatio": 0.0821917808219178
       },
       "selectors": {
         "min": 1,
         "max": 3,
-        "mean": 1.145985401459854,
+        "mean": 1.1369863013698631,
         "mode": 1,
         "median": 1,
         "range": 2,
-        "sum": 157,
+        "sum": 166,
         "items": [
           1,
           1,
@@ -4021,6 +4190,31 @@
           1,
           1,
           1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           2,
           1,
           1,
@@ -4029,22 +4223,6 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
           1,
           1,
           1,
@@ -4078,23 +4256,23 @@
           2,
           1
         ],
-        "total": 137,
+        "total": 146,
         "totalUnique": 3,
         "unique": {
-          "1": 119,
+          "1": 128,
           "2": 16,
           "3": 2
         },
-        "uniquenessRatio": 0.021897810218978103
+        "uniquenessRatio": 0.02054794520547945
       },
       "declarations": {
         "min": 1,
         "max": 15,
-        "mean": 3.781021897810219,
+        "mean": 3.732876712328767,
         "mode": 2,
         "median": 3,
         "range": 14,
-        "sum": 518,
+        "sum": 545,
         "items": [
           15,
           6,
@@ -4177,6 +4355,7 @@
           2,
           3,
           2,
+          2,
           3,
           2,
           1,
@@ -4197,6 +4376,7 @@
           2,
           8,
           7,
+          3,
           3,
           3,
           1,
@@ -4219,11 +4399,18 @@
           2,
           2,
           2,
+          2,
           3,
           3,
           3,
           3,
           7,
+          1,
+          2,
+          4,
+          1,
+          3,
+          9,
           6,
           3,
           5,
@@ -4234,29 +4421,29 @@
           6,
           3
         ],
-        "total": 137,
+        "total": 146,
         "totalUnique": 12,
         "unique": {
-          "1": 23,
-          "2": 34,
-          "3": 28,
-          "4": 11,
+          "1": 25,
+          "2": 37,
+          "3": 30,
+          "4": 12,
           "5": 5,
           "6": 8,
           "7": 15,
           "8": 6,
-          "9": 4,
+          "9": 5,
           "10": 1,
           "12": 1,
           "15": 1
         },
-        "uniquenessRatio": 0.08759124087591241
+        "uniquenessRatio": 0.0821917808219178
       }
     },
     "selectors": {
-      "total": 157,
-      "totalUnique": 131,
-      "uniquenessRatio": 0.8343949044585988,
+      "total": 166,
+      "totalUnique": 140,
+      "uniquenessRatio": 0.8433734939759037,
       "specificity": {
         "min": [
           0,
@@ -4270,13 +4457,13 @@
         ],
         "sum": [
           0,
-          160,
-          70
+          169,
+          75
         ],
         "mean": [
           0,
-          1.019108280254777,
-          0.445859872611465
+          1.0180722891566265,
+          0.45180722891566266
         ],
         "mode": [
           0,
@@ -4777,6 +4964,56 @@
           [
             0,
             1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
             0
           ],
           [
@@ -4837,16 +5074,6 @@
           [
             0,
             1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
             1
           ],
           [
@@ -4858,36 +5085,6 @@
             0,
             1,
             0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            1
-          ],
-          [
-            0,
-            1,
-            1
           ],
           [
             0,
@@ -5018,6 +5215,41 @@
             0,
             1,
             0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
           ],
           [
             0,
@@ -5075,38 +5307,38 @@
             1
           ]
         ],
-        "total": 157,
+        "total": 166,
         "totalUnique": 7,
         "unique": {
-          "0,1,0": 93,
+          "0,1,0": 97,
           "0,0,1": 8,
-          "0,1,1": 42,
+          "0,1,1": 47,
           "0,2,0": 1,
           "0,3,0": 1,
           "0,3,1": 4,
           "0,1,2": 8
         },
-        "uniquenessRatio": 0.044585987261146494
+        "uniquenessRatio": 0.04216867469879518
       },
       "complexity": {
         "min": 1,
         "max": 6,
-        "mean": 1.6751592356687899,
+        "mean": 1.6927710843373494,
         "mode": 1,
         "median": 1,
         "range": 5,
-        "sum": 263,
-        "total": 157,
+        "sum": 281,
+        "total": 166,
         "totalUnique": 6,
         "unique": {
-          "1": 101,
-          "2": 28,
-          "3": 15,
+          "1": 105,
+          "2": 29,
+          "3": 19,
           "4": 8,
           "5": 1,
           "6": 4
         },
-        "uniquenessRatio": 0.03821656050955414,
+        "uniquenessRatio": 0.03614457831325301,
         "items": [
           1,
           1,
@@ -5205,6 +5437,7 @@
           1,
           1,
           3,
+          3,
           1,
           1,
           1,
@@ -5229,6 +5462,7 @@
           2,
           2,
           1,
+          1,
           3,
           1,
           3,
@@ -5254,6 +5488,13 @@
           1,
           1,
           1,
+          1,
+          2,
+          1,
+          1,
+          3,
+          3,
+          3,
           2,
           1,
           3,
@@ -5284,7 +5525,7 @@
           ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
         },
         "uniquenessRatio": 0.6666666666666666,
-        "ratio": 0.03821656050955414
+        "ratio": 0.03614457831325301
       },
       "keyframes": {
         "total": 0,
@@ -5300,22 +5541,22 @@
         "ratio": 0
       },
       "combinators": {
-        "total": 27,
+        "total": 31,
         "totalUnique": 2,
         "unique": {
-          " ": 17,
+          " ": 21,
           ">": 10
         },
-        "uniquenessRatio": 0.07407407407407407
+        "uniquenessRatio": 0.06451612903225806
       }
     },
     "declarations": {
-      "total": 518,
-      "totalUnique": 229,
-      "uniquenessRatio": 0.4420849420849421,
+      "total": 545,
+      "totalUnique": 240,
+      "uniquenessRatio": 0.44036697247706424,
       "unique": {
-        "total": 229,
-        "ratio": 0.4420849420849421
+        "total": 240,
+        "ratio": 0.44036697247706424
       },
       "importants": {
         "total": 0,
@@ -5332,11 +5573,11 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 518
+        "sum": 545
       }
     },
     "properties": {
-      "total": 518,
+      "total": 545,
       "totalUnique": 63,
       "unique": {
         "--blanc": 1,
@@ -5354,45 +5595,45 @@
         "--Montserrat": 1,
         "--Exo": 1,
         "--BebasNeue": 1,
-        "background-color": 17,
-        "color": 22,
+        "background-color": 18,
+        "color": 24,
         "font-family": 18,
         "font-size": 18,
-        "font-weight": 9,
+        "font-weight": 11,
         "overflow-x": 1,
-        "text-decoration": 3,
-        "height": 30,
+        "text-decoration": 4,
+        "height": 32,
         "max-width": 2,
         "align-items": 11,
-        "display": 41,
+        "display": 43,
         "justify-content": 12,
         "left": 7,
-        "padding-top": 13,
+        "padding-top": 14,
         "position": 22,
         "top": 7,
-        "width": 36,
+        "width": 38,
         "z-index": 21,
-        "padding-right": 13,
+        "padding-right": 14,
         "opacity": 1,
-        "margin-top": 10,
-        "margin-left": 11,
-        "padding-bottom": 19,
+        "margin-top": 12,
+        "margin-left": 12,
+        "padding-bottom": 20,
         "place-items": 1,
         "margin-bottom": 7,
-        "margin-right": 5,
-        "padding-left": 17,
+        "margin-right": 7,
+        "padding-left": 18,
         "flex-direction": 2,
         "inset": 8,
-        "padding": 8,
+        "padding": 10,
         "transform": 5,
         "transition": 2,
         "visibility": 2,
         "background": 11,
         "border": 2,
-        "border-radius": 14,
-        "content": 20,
+        "border-radius": 15,
+        "content": 21,
         "overflow": 3,
-        "margin": 30,
+        "margin": 32,
         "mix-blend-mode": 8,
         "text-align": 5,
         "right": 1,
@@ -5403,7 +5644,7 @@
         "font-style": 1,
         "float": 2
       },
-      "uniquenessRatio": 0.12162162162162163,
+      "uniquenessRatio": 0.11559633027522936,
       "prefixed": {
         "total": 0,
         "totalUnique": 0,
@@ -5432,7 +5673,7 @@
           "--BebasNeue": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.02895752895752896,
+        "ratio": 0.027522935779816515,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -5451,11 +5692,11 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.028957528957529,
+        "mean": 1.0275229357798166,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 533
+        "sum": 560
       }
     },
     "values": {
@@ -5596,28 +5837,28 @@
         "uniquenessRatio": 0
       },
       "borderRadiuses": {
-        "total": 14,
+        "total": 15,
         "totalUnique": 5,
         "unique": {
           "2px": 1,
-          "50px": 7,
+          "50px": 8,
           "5px": 4,
           "10px": 1,
           "40px": 1
         },
-        "uniquenessRatio": 0.35714285714285715,
+        "uniquenessRatio": 0.3333333333333333,
         "itemsPerContext": {
           "border-radius": {
-            "total": 14,
+            "total": 15,
             "totalUnique": 5,
             "unique": {
               "2px": 1,
-              "50px": 7,
+              "50px": 8,
               "5px": 4,
               "10px": 1,
               "40px": 1
             },
-            "uniquenessRatio": 0.35714285714285715
+            "uniquenessRatio": 0.3333333333333333
           }
         }
       },
@@ -5652,17 +5893,17 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 233,
+        "total": 251,
         "totalUnique": 6,
         "unique": {
           "rem": 7,
-          "px": 220,
+          "px": 238,
           "vw": 1,
           "s": 2,
           "deg": 2,
           "turn": 1
         },
-        "uniquenessRatio": 0.02575107296137339,
+        "uniquenessRatio": 0.02390438247011952,
         "itemsPerContext": {
           "--fs-xxs": {
             "total": 1,
@@ -5721,60 +5962,60 @@
             "uniquenessRatio": 1
           },
           "padding-top": {
-            "total": 13,
+            "total": 14,
             "totalUnique": 1,
             "unique": {
-              "px": 13
+              "px": 14
             },
-            "uniquenessRatio": 0.07692307692307693
+            "uniquenessRatio": 0.07142857142857142
           },
           "padding-right": {
-            "total": 13,
+            "total": 14,
             "totalUnique": 1,
             "unique": {
-              "px": 13
+              "px": 14
             },
-            "uniquenessRatio": 0.07692307692307693
+            "uniquenessRatio": 0.07142857142857142
           },
           "margin-top": {
-            "total": 9,
+            "total": 11,
             "totalUnique": 1,
             "unique": {
-              "px": 9
+              "px": 11
             },
-            "uniquenessRatio": 0.1111111111111111
+            "uniquenessRatio": 0.09090909090909091
           },
           "margin-left": {
-            "total": 10,
+            "total": 11,
             "totalUnique": 1,
             "unique": {
-              "px": 10
+              "px": 11
             },
-            "uniquenessRatio": 0.1
+            "uniquenessRatio": 0.09090909090909091
           },
           "height": {
-            "total": 22,
+            "total": 24,
             "totalUnique": 1,
             "unique": {
-              "px": 22
+              "px": 24
             },
-            "uniquenessRatio": 0.045454545454545456
+            "uniquenessRatio": 0.041666666666666664
           },
           "padding-bottom": {
-            "total": 18,
+            "total": 19,
             "totalUnique": 1,
             "unique": {
-              "px": 18
+              "px": 19
             },
-            "uniquenessRatio": 0.05555555555555555
+            "uniquenessRatio": 0.05263157894736842
           },
           "width": {
-            "total": 26,
+            "total": 27,
             "totalUnique": 1,
             "unique": {
-              "px": 26
+              "px": 27
             },
-            "uniquenessRatio": 0.038461538461538464
+            "uniquenessRatio": 0.037037037037037035
           },
           "margin-bottom": {
             "total": 7,
@@ -5785,28 +6026,28 @@
             "uniquenessRatio": 0.14285714285714285
           },
           "margin-right": {
-            "total": 5,
+            "total": 7,
             "totalUnique": 1,
             "unique": {
-              "px": 5
+              "px": 7
             },
-            "uniquenessRatio": 0.2
+            "uniquenessRatio": 0.14285714285714285
           },
           "padding-left": {
-            "total": 17,
+            "total": 18,
             "totalUnique": 1,
             "unique": {
-              "px": 17
+              "px": 18
             },
-            "uniquenessRatio": 0.058823529411764705
+            "uniquenessRatio": 0.05555555555555555
           },
           "padding": {
-            "total": 24,
+            "total": 29,
             "totalUnique": 1,
             "unique": {
-              "px": 24
+              "px": 29
             },
-            "uniquenessRatio": 0.041666666666666664
+            "uniquenessRatio": 0.034482758620689655
           },
           "transform": {
             "total": 4,
@@ -5827,12 +6068,12 @@
             "uniquenessRatio": 0.5
           },
           "border-radius": {
-            "total": 14,
+            "total": 15,
             "totalUnique": 1,
             "unique": {
-              "px": 14
+              "px": 15
             },
-            "uniquenessRatio": 0.07142857142857142
+            "uniquenessRatio": 0.06666666666666667
           },
           "top": {
             "total": 2,
@@ -5899,22 +6140,22 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 518
+        "sum": 545
       },
       "keywords": {
-        "total": 10,
+        "total": 11,
         "totalUnique": 2,
         "unique": {
           "none": 5,
-          "auto": 5
+          "auto": 6
         },
-        "uniquenessRatio": 0.2
+        "uniquenessRatio": 0.18181818181818182
       }
     },
     "__meta__": {
-      "parseTime": 3,
+      "parseTime": 2,
       "analyzeTime": 4,
-      "total": 7
+      "total": 6
     }
   }
 }

@@ -6,70 +6,61 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil.webp",
-          "alt": "Ville virtuelle futuriste"
+          "alt": "Ville virtuelle futuriste",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-spark.svg",
-          "alt": "Spark"
+          "alt": "Spark",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil-casque.webp",
-          "alt": "Casque de réalité virtuelle"
+          "alt": "Casque de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil-casque2.webp",
-          "alt": "VR Casque"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-blanc.svg",
-          "alt": "bouton blanc plus d'infos"
+          "alt": "VR Casque",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil-RPO.webp",
-          "alt": "Ready Player One"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-blanc.svg",
-          "alt": "bouton blanc plus d'infos"
+          "alt": "Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil-age_of_em.webp",
-          "alt": "The Age of Em"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-blanc.svg",
-          "alt": "bouton blanc plus d'infos"
+          "alt": "The Age of Em",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil-virtual_self.webp",
-          "alt": "Virtual Self"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-blanc.svg",
-          "alt": "bouton blanc plus d'infos"
+          "alt": "Virtual Self",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-accueil-spielberg.webp",
-          "alt": "Steven Spielberg"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-blanc.svg",
-          "alt": "bouton blanc plus d'infos"
+          "alt": "Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 106,
+      "totalTags": 111,
       "externalLinks": 1,
       "internalLinks": 19,
       "deadLinks": 0,
@@ -174,7 +165,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.71,
+        "performance": 0.72,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -183,13 +174,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/",
-            "resourceSize": 9747,
+            "resourceSize": 9722,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -233,12 +224,6 @@
             "url": "http://127.0.0.1:5500/assets/img/image-accueil-casque2.webp",
             "resourceSize": 21668,
             "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-blanc.svg",
-            "resourceSize": 6855,
-            "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
@@ -291,7 +276,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -344,6 +329,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -370,39 +361,48 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-objet-VR1.webp",
-          "alt": "Images de représentation de casques de réalité virtuelle"
+          "alt": "Images de représentation de casques de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-objet-VR2.webp",
-          "alt": "Images de représentation de casques de réalité virtuelle"
+          "alt": "Images de représentation de casques de réalité virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-objet-schema.webp",
-          "alt": "Schéma de Morton Heilig"
+          "alt": "Schéma de Morton Heilig",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-objet-monde_virtuel.webp",
-          "alt": "Immersion dans un monde virtuel interactif"
+          "alt": "Immersion dans un monde virtuel interactif",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-objet-site_historique.webp",
-          "alt": "Enfants visitant un site historique dans un monde virtuel"
+          "alt": "Enfants visitant un site historique dans un monde virtuel",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-objet-robot.webp",
-          "alt": "Combinaison de réalité virtuelle intégrale"
+          "alt": "Combinaison de réalité virtuelle intégrale",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 92,
@@ -555,7 +555,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -645,7 +645,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -692,6 +692,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -724,35 +730,43 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-frise.svg",
-          "alt": "dessin en pointillé représentant une frise chronologique verticale"
+          "alt": "dessin en pointillé représentant une frise chronologique verticale",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-frise-2024.webp",
-          "alt": "Casque de réalité virtuelle actuel"
+          "alt": "Casque de réalité virtuelle actuel",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-frise-2051.webp",
-          "alt": "Casque de réalité virtuelle façon casque de moto"
+          "alt": "Casque de réalité virtuelle façon casque de moto",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-frise-2076.webp",
-          "alt": "Casque de réalité virtuelle avec capsule en forme d'oeuf"
+          "alt": "Casque de réalité virtuelle avec capsule en forme d'oeuf",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-frise-2104.webp",
-          "alt": "Casque de réalité virtuelle intégral"
+          "alt": "Casque de réalité virtuelle intégral",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 96,
@@ -795,7 +809,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.75,
+        "performance": 0.72,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -810,7 +824,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -894,7 +908,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -941,6 +955,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -967,46 +987,46 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-film-RPO1.webp",
-          "alt": "Affiche du film Ready Player One"
+          "alt": "Affiche du film Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-film-RPO2.webp",
-          "alt": "Affiche du film Ready Player One"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-BA.svg",
-          "alt": "Bande annonce Ready Player One"
+          "alt": "Affiche du film Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-film-oasis.webp",
-          "alt": "Recréation de l'OASIS"
+          "alt": "Recréation de l'OASIS",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-film-persoVR.webp",
-          "alt": "Personnage artificiel portant un casque de réalité\n                        virtuelle"
+          "alt": "Personnage artificiel portant un casque de réalité\n                        virtuelle",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-film-RPO3.webp",
-          "alt": "Affiche du film Ready Player One"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-spielberg.svg",
-          "alt": "Page sur Steven Spielberg"
+          "alt": "Affiche du film Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 101,
+      "totalTags": 104,
       "externalLinks": 2,
       "internalLinks": 18,
       "deadLinks": 0,
@@ -1101,7 +1121,7 @@
         },
         {
           "type": "error",
-          "lastLine": 120,
+          "lastLine": 121,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -1111,7 +1131,7 @@
         },
         {
           "type": "error",
-          "lastLine": 144,
+          "lastLine": 145,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -1121,7 +1141,7 @@
         },
         {
           "type": "error",
-          "lastLine": 165,
+          "lastLine": 166,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -1131,7 +1151,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.66,
+        "performance": 0.7,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1140,13 +1160,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/film.html",
-            "resourceSize": 12150,
+            "resourceSize": 12298,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1187,12 +1207,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-BA.svg",
-            "resourceSize": 7132,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
             "url": "http://127.0.0.1:5500/assets/img/image-film-oasis.webp",
             "resourceSize": 48350,
             "mimeType": "image/webp",
@@ -1208,12 +1222,6 @@
             "url": "http://127.0.0.1:5500/assets/img/image-film-RPO3.webp",
             "resourceSize": 32738,
             "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-spielberg.svg",
-            "resourceSize": 11191,
-            "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
@@ -1242,7 +1250,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1289,6 +1297,36 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://juline-adam.fr/video/bande_annonce_rpo_vf.mp4",
+            "resourceSize": 368171,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -1307,6 +1345,24 @@
             "resourceType": "Font"
           },
           {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/icones/icone-logo.svg",
             "resourceSize": 1331387,
             "mimeType": "image/svg+xml",
@@ -1321,90 +1377,106 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-matrix.webp",
-          "alt": "affiche du film Matrix"
+          "alt": "affiche du film Matrix",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-matrix.webp",
-          "alt": "affiche du film Matrix"
+          "alt": "affiche du film Matrix",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-tron.webp",
-          "alt": "affiche du film Tron"
+          "alt": "affiche du film Tron",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-tron.webp",
-          "alt": "affiche du film Tron"
+          "alt": "affiche du film Tron",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-inception.webp",
-          "alt": "affiche du film Inception"
+          "alt": "affiche du film Inception",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-inception.webp",
-          "alt": "affiche du film Inception"
+          "alt": "affiche du film Inception",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-sword_art.webp",
-          "alt": "affiche du film Sword Art Online: Ordinal Scale"
+          "alt": "affiche du film Sword Art Online: Ordinal Scale",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-sword_art.webp",
-          "alt": "affiche du film Sword Art Online: Ordinal Scale"
+          "alt": "affiche du film Sword Art Online: Ordinal Scale",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-13thfloor.webp",
-          "alt": "affiche du film The Thirteenth Floor"
+          "alt": "affiche du film The Thirteenth Floor",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-13thfloor.webp",
-          "alt": "affiche du film The Thirteenth Floor"
+          "alt": "affiche du film The Thirteenth Floor",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icon_arrowcarrousel.svg",
-          "alt": "flèche gauche"
+          "alt": "flèche gauche",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icon_arrowcarrousel.svg",
-          "alt": "flèche droite"
+          "alt": "flèche droite",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-matrix2.webp",
-          "alt": "Extrait du film Matrix"
+          "alt": "Extrait du film Matrix",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-tron2.webp",
-          "alt": "Extrait du film Tron"
+          "alt": "Extrait du film Tron",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-inception2.webp",
-          "alt": "Extrait du film Inception"
+          "alt": "Extrait du film Inception",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-sword_art2.webp",
-          "alt": "Extrait du film Sword Art Online : Ordinal Scale"
+          "alt": "Extrait du film Sword Art Online : Ordinal Scale",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-galerie-13thfloor2.webp",
-          "alt": "Extrait du film The Thirteenth Floor"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-spielberg.svg",
-          "alt": "Page sur Steven Spielberg"
+          "alt": "Extrait du film The Thirteenth Floor",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 145,
+      "totalTags": 146,
       "externalLinks": 1,
       "internalLinks": 15,
       "deadLinks": 0,
@@ -1624,7 +1696,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.71,
+        "performance": 0.7,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1633,13 +1705,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/galerie.html",
-            "resourceSize": 15013,
+            "resourceSize": 15060,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1734,12 +1806,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-spielberg.svg",
-            "resourceSize": 11191,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap",
             "resourceSize": 416,
             "mimeType": "text/css",
@@ -1765,7 +1831,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1812,6 +1878,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -1844,46 +1916,51 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-livre-AOE1.webp",
-          "alt": "Affiche du livre The Age of Em"
+          "alt": "Affiche du livre The Age of Em",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-livre-AOE2.webp",
-          "alt": "Affiche du livre The Age of Em"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-tedtalks.svg",
-          "alt": "Ted Talks portant sur The Age of Em"
+          "alt": "Affiche du livre The Age of Em",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-livre-persoweb.webp",
-          "alt": "Personnage humain virtuel connecté numériquement"
+          "alt": "Personnage humain virtuel connecté numériquement",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-livre-cerveau.webp",
-          "alt": "Cerveau humain connecté à un environnement virtuel"
+          "alt": "Cerveau humain connecté à un environnement virtuel",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-livre-ems.webp",
-          "alt": "Représentation des « Ems »"
+          "alt": "Représentation des « Ems »",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-livre-amour.webp",
-          "alt": "Expression de sentiments entre deux robots"
+          "alt": "Expression de sentiments entre deux robots",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 103,
+      "totalTags": 105,
       "externalLinks": 2,
       "internalLinks": 15,
       "deadLinks": 0,
@@ -1988,7 +2065,7 @@
         },
         {
           "type": "error",
-          "lastLine": 72,
+          "lastLine": 73,
           "lastColumn": 50,
           "firstColumn": 13,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -1998,7 +2075,7 @@
         },
         {
           "type": "error",
-          "lastLine": 105,
+          "lastLine": 106,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2008,7 +2085,7 @@
         },
         {
           "type": "error",
-          "lastLine": 126,
+          "lastLine": 127,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2018,7 +2095,7 @@
         },
         {
           "type": "error",
-          "lastLine": 146,
+          "lastLine": 147,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2028,7 +2105,7 @@
         },
         {
           "type": "error",
-          "lastLine": 173,
+          "lastLine": 174,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2038,7 +2115,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.74,
+        "performance": 0.7,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2047,13 +2124,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/livre.html",
-            "resourceSize": 12480,
+            "resourceSize": 12538,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2091,12 +2168,6 @@
             "url": "http://127.0.0.1:5500/assets/img/image-livre-AOE2.webp",
             "resourceSize": 37668,
             "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-tedtalks.svg",
-            "resourceSize": 4391,
-            "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
@@ -2149,7 +2220,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2196,6 +2267,36 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://juline-adam.fr/video/ted_talks.mp4",
+            "resourceSize": 497127,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -2214,6 +2315,24 @@
             "resourceType": "Font"
           },
           {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/icones/icone-logo.svg",
             "resourceSize": 1331387,
             "mimeType": "image/svg+xml",
@@ -2228,50 +2347,56 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-GV1.webp",
-          "alt": "Extrait du clip vidéo de Ghost Voice par Virtual Self"
+          "alt": "Extrait du clip vidéo de Ghost Voice par Virtual Self",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-GV2.webp",
-          "alt": "Extrait du clip vidéo de Ghost Voice par Virtual Self"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-ecouter_musique.svg",
-          "alt": "Écouter la musique Ghost Voices de Virtual Sel"
+          "alt": "Extrait du clip vidéo de Ghost Voice par Virtual Self",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-perso_casque.webp",
-          "alt": "Personnage portant un casque audio dans un monde virtuel"
+          "alt": "Personnage portant un casque audio dans un monde virtuel",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-note.webp",
-          "alt": "Note de musique dans un monde virtuel"
+          "alt": "Note de musique dans un monde virtuel",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-fete.webp",
-          "alt": "Salle de fête ambiance musique électronique"
+          "alt": "Salle de fête ambiance musique électronique",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-robot.webp",
-          "alt": "Personnage à moitié humain, à moitié robot"
+          "alt": "Personnage à moitié humain, à moitié robot",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-musique-cerveau.webp",
-          "alt": "Représentation des images mentales"
+          "alt": "Représentation des images mentales",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 116,
+      "totalTags": 118,
       "externalLinks": 2,
       "internalLinks": 21,
       "deadLinks": 0,
@@ -2376,7 +2501,7 @@
         },
         {
           "type": "error",
-          "lastLine": 105,
+          "lastLine": 106,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2386,7 +2511,7 @@
         },
         {
           "type": "error",
-          "lastLine": 132,
+          "lastLine": 133,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2396,7 +2521,7 @@
         },
         {
           "type": "error",
-          "lastLine": 157,
+          "lastLine": 158,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2406,7 +2531,7 @@
         },
         {
           "type": "error",
-          "lastLine": 181,
+          "lastLine": 182,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2416,7 +2541,7 @@
         },
         {
           "type": "error",
-          "lastLine": 202,
+          "lastLine": 203,
           "lastColumn": 57,
           "firstColumn": 17,
           "message": "Element “figcaption” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
@@ -2435,13 +2560,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/musique.html",
-            "resourceSize": 13627,
+            "resourceSize": 13685,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2479,12 +2604,6 @@
             "url": "http://127.0.0.1:5500/assets/img/image-musique-GV2.webp",
             "resourceSize": 18210,
             "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-ecouter_musique.svg",
-            "resourceSize": 8378,
-            "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
@@ -2543,7 +2662,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2590,6 +2709,24 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://juline-adam.fr/audio/ghost_voices_audio.mp3",
+            "resourceSize": 79850,
+            "mimeType": "audio/mpeg",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -2608,6 +2745,18 @@
             "resourceType": "Font"
           },
           {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 180,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 354,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/icones/icone-logo.svg",
             "resourceSize": 1331387,
             "mimeType": "image/svg+xml",
@@ -2622,46 +2771,51 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-realisateur-spielberg1.webp",
-          "alt": "Portrait de Steven Spielberg"
+          "alt": "Portrait de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-realisateur-speilberg2.webp",
-          "alt": "Affiches de films de Steven Spielberg"
+          "alt": "Affiches de films de Steven Spielberg",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-realisateur-jaws.webp",
-          "alt": "Affiche du film Les Dents de la mer (Jaws)"
+          "alt": "Affiche du film Les Dents de la mer (Jaws)",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-realisateur-fille_rouge.webp",
-          "alt": "Affiche du film La Liste de Schindler"
+          "alt": "Affiche du film La Liste de Schindler",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-realisateur-matrix.webp",
-          "alt": "Affiche du film Minority Report"
+          "alt": "Affiche du film Minority Report",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-realisateur-RPO.webp",
-          "alt": "Extrait du film Ready Player One"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-galerie_films.svg",
-          "alt": "Galerie de films"
+          "alt": "Extrait du film Ready Player One",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 100,
+      "totalTags": 101,
       "externalLinks": 1,
       "internalLinks": 17,
       "deadLinks": 0,
@@ -2805,13 +2959,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/realisateur.html",
-            "resourceSize": 11910,
+            "resourceSize": 11965,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2876,12 +3030,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-galerie_films.svg",
-            "resourceSize": 9852,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap",
             "resourceSize": 416,
             "mimeType": "text/css",
@@ -2907,7 +3055,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2954,6 +3102,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -2986,29 +3140,24 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-violet.svg",
-          "alt": "Soumettre le formulaire"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-plussurmoi.svg",
-          "alt": "En apprendre plus sur moi "
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 75,
+      "totalTags": 77,
       "externalLinks": 1,
       "internalLinks": 15,
-      "deadLinks": 0,
+      "deadLinks": 1,
       "favicon": true,
       "mailtoLinks": 1,
       "viewport": true,
@@ -3040,7 +3189,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.75,
+        "performance": 0.71,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -3049,13 +3198,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/contact.html",
-            "resourceSize": 7088,
+            "resourceSize": 7121,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3080,18 +3229,6 @@
           {
             "url": "http://127.0.0.1:5500/assets/icones/icone-langue.svg",
             "resourceSize": 2464,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-violet.svg",
-            "resourceSize": 4714,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-plussurmoi.svg",
-            "resourceSize": 9763,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -3121,7 +3258,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3168,6 +3305,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -3194,15 +3337,18 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
       "totalTags": 90,
@@ -3265,7 +3411,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3313,7 +3459,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3366,6 +3512,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -3392,26 +3544,26 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/img/image-apropos-avatar.webp",
-          "alt": "Avatar"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-contact.svg",
-          "alt": "Page contact"
+          "alt": "Avatar",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 66,
+      "totalTags": 67,
       "externalLinks": 1,
       "internalLinks": 15,
       "deadLinks": 0,
@@ -3451,7 +3603,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.75,
+        "performance": 0.72,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3460,13 +3612,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/apropos.html",
-            "resourceSize": 6480,
+            "resourceSize": 6500,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3501,12 +3653,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-contact.svg",
-            "resourceSize": 5830,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap",
             "resourceSize": 416,
             "mimeType": "text/css",
@@ -3532,7 +3678,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3579,6 +3725,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -3605,59 +3757,22 @@
       "images": [
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-langue.svg",
-          "alt": "icone de changement de langue"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-cinario.svg",
-          "alt": "Bouton projet Cinario"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-virtual_existence.svg",
-          "alt": "Bouton projet Virtual Existence"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-aurizon.svg",
-          "alt": "Bouton projet Aurizon"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-ocularia.svg",
-          "alt": "Bouton projet Ocularia"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-money_timeline.svg",
-          "alt": "Bouton projet Money Timeline"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-luminae.svg",
-          "alt": "Bouton projet Luminae"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-board.svg",
-          "alt": "Bouton projet Board Xvolution"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-penngo.svg",
-          "alt": "Bouton projet Pen N' Go"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-crypto_clock.svg",
-          "alt": "Bouton projet Cypto Clock"
-        },
-        {
-          "src": "/assets/icones/icone-bouton-bochiball.svg",
-          "alt": "Bouton projet Bochiball"
+          "alt": "icone de changement de langue",
+          "ariaHidden": "✕"
         },
         {
           "src": "/assets/icones/icone-logo.svg",
-          "alt": "VirtualSpark Logo"
+          "alt": "VirtualSpark Logo",
+          "ariaHidden": "✕"
         }
       ],
-      "totalTags": 100,
-      "externalLinks": 11,
+      "totalTags": 95,
+      "externalLinks": 8,
       "internalLinks": 14,
       "deadLinks": 0,
       "favicon": true,
@@ -3711,7 +3826,7 @@
         },
         {
           "type": "error",
-          "lastLine": 139,
+          "lastLine": 119,
           "lastColumn": 14,
           "firstColumn": 5,
           "message": "End tag “section” seen, but there were open elements.",
@@ -3731,7 +3846,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.71,
+        "performance": 0.75,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 0.91,
@@ -3740,13 +3855,13 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5500/fr/autresprojets.html",
-            "resourceSize": 10949,
+            "resourceSize": 8483,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
             "url": "http://127.0.0.1:5500/src/css/style.css",
-            "resourceSize": 719,
+            "resourceSize": 761,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3771,66 +3886,6 @@
           {
             "url": "http://127.0.0.1:5500/assets/icones/icone-langue.svg",
             "resourceSize": 2464,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-cinario.svg",
-            "resourceSize": 4721,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-virtual_existence.svg",
-            "resourceSize": 6015,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-aurizon.svg",
-            "resourceSize": 4545,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-ocularia.svg",
-            "resourceSize": 5279,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-money_timeline.svg",
-            "resourceSize": 4291,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-luminae.svg",
-            "resourceSize": 3480,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-board.svg",
-            "resourceSize": 7410,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-penngo.svg",
-            "resourceSize": 4727,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-crypto_clock.svg",
-            "resourceSize": 7448,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icones/icone-bouton-bochiball.svg",
-            "resourceSize": 5609,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
@@ -3860,7 +3915,7 @@
           },
           {
             "url": "http://127.0.0.1:5500/src/css/base/main.css",
-            "resourceSize": 3746,
+            "resourceSize": 3979,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3907,6 +3962,12 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "http://127.0.0.1:5500/src/css/components/bouton.css",
+            "resourceSize": 2354,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
             "url": "https://fonts.gstatic.com/s/raleway/v34/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
             "resourceSize": 43224,
             "mimeType": "font/woff2",
@@ -3948,6 +4009,7 @@
       "button",
       "textarea",
       "img",
+      "video",
       "a",
       "em",
       "strong",
@@ -3960,8 +4022,7 @@
     ],
     "tagsMissing": [
       "blockquote",
-      "figure",
-      "video"
+      "figure"
     ],
     "obsoleteTags": [
       "u"
@@ -3975,17 +4036,17 @@
       "br"
     ],
     "otherTagsUsage": {
-      "div": 137,
-      "span": 26,
+      "div": 134,
+      "span": 64,
       "br": 14
     }
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 595,
+      "sourceLinesOfCode": 689,
       "linesOfCode": 1,
-      "size": 10860,
-      "complexity": 1583,
+      "size": 12789,
+      "complexity": 1843,
       "comments": {
         "total": 0,
         "size": 0
@@ -4099,19 +4160,19 @@
       }
     },
     "rules": {
-      "total": 107,
+      "total": 121,
       "empty": {
         "total": 0,
         "ratio": 0
       },
       "sizes": {
         "min": 2,
-        "max": 17,
-        "mean": 5.5233644859813085,
+        "max": 21,
+        "mean": 5.661157024793388,
         "mode": 3,
         "median": 4,
-        "range": 15,
-        "sum": 591,
+        "range": 19,
+        "sum": 685,
         "items": [
           3,
           4,
@@ -4120,6 +4181,9 @@
           4,
           7,
           3,
+          2,
+          3,
+          4,
           3,
           3,
           7,
@@ -4219,15 +4283,26 @@
           3,
           2,
           17,
-          4
+          4,
+          20,
+          4,
+          5,
+          2,
+          3,
+          21,
+          4,
+          5,
+          2,
+          3,
+          16
         ],
-        "total": 107,
-        "totalUnique": 13,
+        "total": 121,
+        "totalUnique": 16,
         "unique": {
-          "2": 12,
-          "3": 23,
-          "4": 19,
-          "5": 11,
+          "2": 15,
+          "3": 26,
+          "4": 22,
+          "5": 13,
           "6": 8,
           "7": 7,
           "8": 7,
@@ -4236,18 +4311,21 @@
           "11": 2,
           "12": 2,
           "13": 3,
-          "17": 1
+          "16": 1,
+          "17": 1,
+          "20": 1,
+          "21": 1
         },
-        "uniquenessRatio": 0.12149532710280374
+        "uniquenessRatio": 0.1322314049586777
       },
       "selectors": {
         "min": 1,
         "max": 3,
-        "mean": 1.1775700934579438,
+        "mean": 1.165289256198347,
         "mode": 1,
         "median": 1,
         "range": 2,
-        "sum": 126,
+        "sum": 141,
         "items": [
           1,
           1,
@@ -4257,6 +4335,9 @@
           1,
           1,
           1,
+          2,
+          1,
+          1,
           1,
           1,
           2,
@@ -4348,6 +4429,17 @@
           1,
           3,
           2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -4357,23 +4449,23 @@
           1,
           1
         ],
-        "total": 107,
+        "total": 121,
         "totalUnique": 3,
         "unique": {
-          "1": 90,
-          "2": 15,
+          "1": 103,
+          "2": 16,
           "3": 2
         },
-        "uniquenessRatio": 0.028037383177570093
+        "uniquenessRatio": 0.024793388429752067
       },
       "declarations": {
         "min": 1,
-        "max": 16,
-        "mean": 4.345794392523365,
+        "max": 20,
+        "mean": 4.4958677685950414,
         "mode": 2,
         "median": 3,
-        "range": 15,
-        "sum": 465,
+        "range": 19,
+        "sum": 544,
         "items": [
           2,
           3,
@@ -4382,6 +4474,9 @@
           2,
           6,
           2,
+          1,
+          1,
+          3,
           2,
           2,
           6,
@@ -4481,15 +4576,26 @@
           2,
           1,
           16,
-          3
+          3,
+          19,
+          3,
+          4,
+          1,
+          2,
+          20,
+          3,
+          4,
+          1,
+          2,
+          15
         ],
-        "total": 107,
-        "totalUnique": 12,
+        "total": 121,
+        "totalUnique": 15,
         "unique": {
-          "1": 13,
-          "2": 27,
-          "3": 17,
-          "4": 9,
+          "1": 17,
+          "2": 29,
+          "3": 20,
+          "4": 11,
           "5": 8,
           "6": 8,
           "7": 7,
@@ -4497,15 +4603,18 @@
           "9": 4,
           "10": 3,
           "12": 3,
-          "16": 1
+          "15": 1,
+          "16": 1,
+          "19": 1,
+          "20": 1
         },
-        "uniquenessRatio": 0.11214953271028037
+        "uniquenessRatio": 0.12396694214876033
       }
     },
     "selectors": {
-      "total": 122,
-      "totalUnique": 99,
-      "uniquenessRatio": 0.8114754098360656,
+      "total": 137,
+      "totalUnique": 112,
+      "uniquenessRatio": 0.8175182481751825,
       "specificity": {
         "min": [
           0,
@@ -4519,13 +4628,13 @@
         ],
         "sum": [
           2,
-          119,
-          29
+          136,
+          33
         ],
         "mean": [
-          0.01639344262295082,
-          0.9754098360655737,
-          0.23770491803278687
+          0.014598540145985401,
+          0.9927007299270073,
+          0.24087591240875914
         ],
         "mode": [
           0,
@@ -4542,6 +4651,26 @@
             0,
             1,
             0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
           ],
           [
             0,
@@ -5147,42 +5276,102 @@
             0,
             1,
             0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
           ]
         ],
-        "total": 122,
+        "total": 137,
         "totalUnique": 9,
         "unique": {
-          "0,1,0": 91,
-          "0,0,1": 11,
+          "0,1,0": 98,
+          "0,0,1": 15,
           "0,1,1": 11,
           "1,0,0": 1,
           "1,0,1": 1,
           "0,0,2": 1,
-          "0,2,0": 1,
-          "0,3,0": 1,
+          "0,2,0": 3,
+          "0,3,0": 3,
           "0,3,1": 4
         },
-        "uniquenessRatio": 0.07377049180327869
+        "uniquenessRatio": 0.06569343065693431
       },
       "complexity": {
         "min": 1,
         "max": 6,
-        "mean": 1.360655737704918,
+        "mean": 1.3795620437956204,
         "mode": 1,
         "median": 1,
         "range": 5,
-        "sum": 166,
-        "total": 122,
-        "totalUnique": 5,
+        "sum": 189,
+        "total": 137,
+        "totalUnique": 6,
         "unique": {
-          "1": 103,
-          "2": 8,
+          "1": 114,
+          "2": 10,
           "3": 6,
+          "4": 2,
           "5": 1,
           "6": 4
         },
-        "uniquenessRatio": 0.040983606557377046,
+        "uniquenessRatio": 0.043795620437956206,
         "items": [
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -5304,6 +5493,17 @@
           1,
           1,
           1,
+          1,
+          1,
+          2,
+          1,
+          4,
+          1,
+          1,
+          2,
+          1,
+          4,
+          1,
           1
         ]
       },
@@ -5315,7 +5515,7 @@
           "#lightbox img": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.01639344262295082
+        "ratio": 0.014598540145985401
       },
       "accessibility": {
         "total": 6,
@@ -5327,7 +5527,7 @@
           ".header__menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
         },
         "uniquenessRatio": 0.6666666666666666,
-        "ratio": 0.04918032786885246
+        "ratio": 0.043795620437956206
       },
       "keyframes": {
         "total": 4,
@@ -5346,25 +5546,25 @@
         "ratio": 0
       },
       "combinators": {
-        "total": 10,
+        "total": 12,
         "totalUnique": 1,
         "unique": {
-          " ": 10
+          " ": 12
         },
-        "uniquenessRatio": 0.1
+        "uniquenessRatio": 0.08333333333333333
       }
     },
     "declarations": {
-      "total": 465,
-      "totalUnique": 237,
-      "uniquenessRatio": 0.5096774193548387,
+      "total": 544,
+      "totalUnique": 259,
+      "uniquenessRatio": 0.47610294117647056,
       "unique": {
-        "total": 237,
-        "ratio": 0.5096774193548387
+        "total": 259,
+        "ratio": 0.47610294117647056
       },
       "importants": {
         "total": 1,
-        "ratio": 0.002150537634408602,
+        "ratio": 0.001838235294117647,
         "inKeyframes": {
           "total": 0,
           "ratio": 0
@@ -5373,63 +5573,64 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.0021505376344086,
+        "mean": 1.0018382352941178,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 466
+        "sum": 545
       }
     },
     "properties": {
-      "total": 465,
+      "total": 544,
       "totalUnique": 69,
       "unique": {
         "--Orbitron": 1,
         "--Raleway": 1,
-        "background-color": 8,
-        "font-family": 19,
-        "padding": 15,
-        "color": 20,
+        "background-color": 13,
+        "font-family": 22,
+        "padding": 18,
+        "color": 25,
         "margin": 10,
-        "font-size": 30,
-        "font-weight": 21,
+        "font-size": 35,
+        "font-weight": 24,
         "letter-spacing": 21,
         "font-style": 15,
-        "line-height": 20,
-        "text-align": 15,
-        "text-decoration": 5,
-        "height": 15,
+        "line-height": 22,
+        "text-align": 16,
+        "text-decoration": 8,
         "max-width": 5,
-        "display": 22,
+        "height": 17,
+        "padding-bottom": 4,
+        "padding-top": 3,
+        "width": 24,
+        "display": 25,
         "object-fit": 3,
-        "width": 21,
-        "margin-bottom": 16,
-        "margin-top": 15,
+        "margin-bottom": 19,
+        "margin-top": 18,
         "flex-wrap": 1,
-        "justify-content": 10,
-        "border-radius": 10,
-        "text-transform": 2,
-        "align-items": 16,
+        "justify-content": 12,
+        "border-radius": 13,
+        "text-transform": 5,
+        "align-items": 18,
         "gap": 5,
         "flex-shrink": 4,
         "margin-left": 10,
-        "margin-right": 7,
+        "margin-right": 10,
         "flex-direction": 8,
-        "border": 6,
+        "border": 8,
         "overflow": 2,
         "overflow-x": 1,
-        "padding-bottom": 2,
         "scroll-behavior": 1,
-        "box-shadow": 2,
+        "box-shadow": 7,
         "flex": 1,
         "padding-left": 4,
         "padding-right": 2,
-        "transition": 6,
+        "transition": 11,
         "max-height": 2,
-        "transform": 12,
+        "transform": 16,
         "opacity": 7,
         "animation": 2,
-        "cursor": 3,
+        "cursor": 5,
         "place-content": 1,
         "position": 5,
         "right": 1,
@@ -5437,7 +5638,6 @@
         "vertical-align": 1,
         "background-size": 1,
         "left": 2,
-        "padding-top": 1,
         "z-index": 4,
         "word-wrap": 2,
         "background": 5,
@@ -5454,7 +5654,7 @@
         "text-underline-offset": 1,
         "text-underline-position": 1
       },
-      "uniquenessRatio": 0.14838709677419354,
+      "uniquenessRatio": 0.12683823529411764,
       "prefixed": {
         "total": 0,
         "totalUnique": 0,
@@ -5470,7 +5670,7 @@
           "--Raleway": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.004301075268817204,
+        "ratio": 0.003676470588235294,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -5489,35 +5689,39 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.0043010752688173,
+        "mean": 1.0036764705882353,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 467
+        "sum": 546
       }
     },
     "values": {
       "colors": {
-        "total": 35,
-        "totalUnique": 11,
+        "total": 52,
+        "totalUnique": 15,
         "unique": {
           "#0d2a53": 2,
-          "#fff": 21,
+          "#fff": 26,
           "#1a2a3a": 1,
           "#efede7": 2,
           "#f3f3f3": 1,
           "rgba(0,0,0,.2)": 1,
-          "#000": 3,
+          "#000": 5,
           "#777": 1,
           "#2c3bc1": 1,
           "#a1cdf9": 1,
-          "#483d8b": 1
+          "#483d8b": 1,
+          "#5a2dbb": 4,
+          "rgba(0,0,0,.1)": 3,
+          "rgba(0,0,0,.15)": 2,
+          "#639": 1
         },
-        "uniquenessRatio": 0.3142857142857143,
+        "uniquenessRatio": 0.28846153846153844,
         "itemsPerContext": {
           "background-color": {
-            "total": 8,
-            "totalUnique": 8,
+            "total": 13,
+            "totalUnique": 11,
             "unique": {
               "#0d2a53": 1,
               "#1a2a3a": 1,
@@ -5526,36 +5730,42 @@
               "#2c3bc1": 1,
               "#a1cdf9": 1,
               "#483d8b": 1,
-              "#000": 1
+              "#000": 1,
+              "#fff": 2,
+              "#5a2dbb": 2,
+              "#639": 1
             },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.8461538461538461
           },
           "color": {
-            "total": 19,
+            "total": 24,
             "totalUnique": 2,
             "unique": {
-              "#fff": 18,
-              "#000": 1
+              "#fff": 21,
+              "#000": 3
             },
-            "uniquenessRatio": 0.10526315789473684
+            "uniquenessRatio": 0.08333333333333333
           },
           "border": {
-            "total": 3,
-            "totalUnique": 3,
+            "total": 5,
+            "totalUnique": 4,
             "unique": {
               "#efede7": 1,
               "#777": 1,
-              "#fff": 1
+              "#fff": 1,
+              "#5a2dbb": 2
             },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.8
           },
           "box-shadow": {
-            "total": 1,
-            "totalUnique": 1,
+            "total": 6,
+            "totalUnique": 3,
             "unique": {
-              "rgba(0,0,0,.2)": 1
+              "rgba(0,0,0,.2)": 1,
+              "rgba(0,0,0,.1)": 3,
+              "rgba(0,0,0,.15)": 2
             },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.5
           },
           "background": {
             "total": 4,
@@ -5569,14 +5779,14 @@
           }
         },
         "formats": {
-          "total": 35,
+          "total": 52,
           "totalUnique": 3,
           "unique": {
-            "hex6": 9,
-            "hex3": 25,
-            "rgba": 1
+            "hex6": 13,
+            "hex3": 33,
+            "rgba": 6
           },
-          "uniquenessRatio": 0.08571428571428572
+          "uniquenessRatio": 0.057692307692307696
         }
       },
       "gradients": {
@@ -5588,17 +5798,17 @@
         "uniquenessRatio": 1
       },
       "fontFamilies": {
-        "total": 19,
+        "total": 22,
         "totalUnique": 2,
         "unique": {
-          "var(--Raleway)": 15,
+          "var(--Raleway)": 18,
           "var(--Orbitron)": 4
         },
-        "uniquenessRatio": 0.10526315789473684
+        "uniquenessRatio": 0.09090909090909091
       },
       "fontSizes": {
-        "total": 30,
-        "totalUnique": 16,
+        "total": 35,
+        "totalUnique": 18,
         "unique": {
           "4em": 1,
           "1.375rem": 3,
@@ -5615,20 +5825,23 @@
           ".813rem": 2,
           "1.2em": 1,
           "20px": 1,
-          ".9em": 2
+          ".9em": 2,
+          "11px": 3,
+          "18px": 2
         },
-        "uniquenessRatio": 0.5333333333333333
+        "uniquenessRatio": 0.5142857142857142
       },
       "lineHeights": {
-        "total": 20,
-        "totalUnique": 4,
+        "total": 22,
+        "totalUnique": 5,
         "unique": {
+          "1": 2,
           "132%": 17,
           "168%": 1,
           "40px": 1,
           "0%": 1
         },
-        "uniquenessRatio": 0.2
+        "uniquenessRatio": 0.22727272727272727
       },
       "zindexes": {
         "total": 4,
@@ -5647,59 +5860,64 @@
         "uniquenessRatio": 0
       },
       "boxShadows": {
-        "total": 1,
-        "totalUnique": 1,
+        "total": 6,
+        "totalUnique": 3,
         "unique": {
-          "0 4px 8px rgba(0,0,0,.2)": 1
+          "0 4px 8px rgba(0,0,0,.2)": 1,
+          "0 4px 6px rgba(0,0,0,.1)": 3,
+          "0 6px 8px rgba(0,0,0,.15)": 2
         },
-        "uniquenessRatio": 1
+        "uniquenessRatio": 0.5
       },
       "borderRadiuses": {
-        "total": 10,
-        "totalUnique": 6,
+        "total": 13,
+        "totalUnique": 7,
         "unique": {
-          "10px": 5,
+          "10px": 7,
           "5px": 1,
           "30px": 1,
           "25px": 1,
           "50%": 1,
-          "2px": 1
+          "2px": 1,
+          "8px": 1
         },
-        "uniquenessRatio": 0.6,
+        "uniquenessRatio": 0.5384615384615384,
         "itemsPerContext": {
           "border-radius": {
-            "total": 10,
-            "totalUnique": 6,
+            "total": 13,
+            "totalUnique": 7,
             "unique": {
-              "10px": 5,
+              "10px": 7,
               "5px": 1,
               "30px": 1,
               "25px": 1,
               "50%": 1,
-              "2px": 1
+              "2px": 1,
+              "8px": 1
             },
-            "uniquenessRatio": 0.6
+            "uniquenessRatio": 0.5384615384615384
           }
         }
       },
       "animations": {
         "durations": {
-          "total": 9,
-          "totalUnique": 2,
+          "total": 15,
+          "totalUnique": 3,
           "unique": {
-            ".3s": 8,
-            ".4s": 1
+            ".3s": 13,
+            ".4s": 1,
+            ".2s": 1
           },
-          "uniquenessRatio": 0.2222222222222222
+          "uniquenessRatio": 0.2
         },
         "timingFunctions": {
-          "total": 9,
+          "total": 15,
           "totalUnique": 2,
           "unique": {
-            "ease": 7,
+            "ease": 13,
             "ease-in-out": 2
           },
-          "uniquenessRatio": 0.2222222222222222
+          "uniquenessRatio": 0.13333333333333333
         }
       },
       "prefixes": {
@@ -5715,28 +5933,28 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 204,
+        "total": 253,
         "totalUnique": 7,
         "unique": {
           "em": 6,
-          "px": 162,
+          "px": 205,
           "rem": 21,
           "vw": 2,
-          "s": 9,
+          "s": 15,
           "turn": 1,
           "deg": 3
         },
-        "uniquenessRatio": 0.03431372549019608,
+        "uniquenessRatio": 0.02766798418972332,
         "itemsPerContext": {
           "font-size": {
-            "total": 30,
+            "total": 35,
             "totalUnique": 3,
             "unique": {
               "em": 6,
               "rem": 21,
-              "px": 3
+              "px": 8
             },
-            "uniquenessRatio": 0.1
+            "uniquenessRatio": 0.08571428571428572
           },
           "letter-spacing": {
             "total": 21,
@@ -5746,13 +5964,29 @@
             },
             "uniquenessRatio": 0.047619047619047616
           },
-          "padding": {
-            "total": 18,
+          "padding-bottom": {
+            "total": 4,
             "totalUnique": 1,
             "unique": {
-              "px": 18
+              "px": 4
             },
-            "uniquenessRatio": 0.05555555555555555
+            "uniquenessRatio": 0.25
+          },
+          "padding-top": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding": {
+            "total": 26,
+            "totalUnique": 1,
+            "unique": {
+              "px": 26
+            },
+            "uniquenessRatio": 0.038461538461538464
           },
           "margin": {
             "total": 14,
@@ -5772,20 +6006,20 @@
             "uniquenessRatio": 0.16666666666666666
           },
           "margin-bottom": {
-            "total": 16,
+            "total": 19,
             "totalUnique": 1,
             "unique": {
-              "px": 16
+              "px": 19
             },
-            "uniquenessRatio": 0.0625
+            "uniquenessRatio": 0.05263157894736842
           },
           "margin-top": {
-            "total": 15,
+            "total": 18,
             "totalUnique": 1,
             "unique": {
-              "px": 15
+              "px": 18
             },
-            "uniquenessRatio": 0.06666666666666667
+            "uniquenessRatio": 0.05555555555555555
           },
           "max-width": {
             "total": 1,
@@ -5796,12 +6030,12 @@
             "uniquenessRatio": 1
           },
           "border-radius": {
-            "total": 9,
+            "total": 12,
             "totalUnique": 1,
             "unique": {
-              "px": 9
+              "px": 12
             },
-            "uniquenessRatio": 0.1111111111111111
+            "uniquenessRatio": 0.08333333333333333
           },
           "gap": {
             "total": 5,
@@ -5828,36 +6062,28 @@
             "uniquenessRatio": 0.1111111111111111
           },
           "margin-right": {
-            "total": 7,
+            "total": 10,
             "totalUnique": 1,
             "unique": {
-              "px": 7
+              "px": 10
             },
-            "uniquenessRatio": 0.14285714285714285
+            "uniquenessRatio": 0.1
           },
           "border": {
-            "total": 4,
+            "total": 6,
             "totalUnique": 1,
             "unique": {
-              "px": 4
+              "px": 6
             },
-            "uniquenessRatio": 0.25
-          },
-          "padding-bottom": {
-            "total": 2,
-            "totalUnique": 1,
-            "unique": {
-              "px": 2
-            },
-            "uniquenessRatio": 0.5
+            "uniquenessRatio": 0.16666666666666666
           },
           "box-shadow": {
-            "total": 2,
+            "total": 12,
             "totalUnique": 1,
             "unique": {
-              "px": 2
+              "px": 12
             },
-            "uniquenessRatio": 0.5
+            "uniquenessRatio": 0.08333333333333333
           },
           "flex": {
             "total": 1,
@@ -5884,12 +6110,12 @@
             "uniquenessRatio": 0.5
           },
           "transition": {
-            "total": 7,
+            "total": 13,
             "totalUnique": 1,
             "unique": {
-              "s": 7
+              "s": 13
             },
-            "uniquenessRatio": 0.14285714285714285
+            "uniquenessRatio": 0.07692307692307693
           },
           "max-height": {
             "total": 1,
@@ -5900,14 +6126,15 @@
             "uniquenessRatio": 1
           },
           "transform": {
-            "total": 4,
-            "totalUnique": 3,
+            "total": 6,
+            "totalUnique": 4,
             "unique": {
               "turn": 1,
               "vw": 1,
-              "deg": 2
+              "deg": 2,
+              "px": 2
             },
-            "uniquenessRatio": 0.75
+            "uniquenessRatio": 0.6666666666666666
           },
           "animation": {
             "total": 2,
@@ -5941,14 +6168,6 @@
             },
             "uniquenessRatio": 0.3333333333333333
           },
-          "padding-top": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "px": 1
-            },
-            "uniquenessRatio": 1
-          },
           "background": {
             "total": 1,
             "totalUnique": 1,
@@ -5974,22 +6193,22 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 480
+        "sum": 559
       },
       "keywords": {
-        "total": 23,
+        "total": 30,
         "totalUnique": 2,
         "unique": {
-          "none": 12,
-          "auto": 11
+          "none": 15,
+          "auto": 15
         },
-        "uniquenessRatio": 0.08695652173913043
+        "uniquenessRatio": 0.06666666666666667
       }
     },
     "__meta__": {
-      "parseTime": 6,
-      "analyzeTime": 7,
-      "total": 13
+      "parseTime": 3,
+      "analyzeTime": 4,
+      "total": 7
     }
   }
 }
