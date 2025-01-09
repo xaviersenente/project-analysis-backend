@@ -1,0 +1,5544 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Robopture - Accueil",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_accueil.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image 2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 121,
+      "externalLinks": 3,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Robopture",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Robopture",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Notre Site",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Notre Site",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Film : Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.93,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 9403,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_accueil.webp",
+            "resourceSize": 33962,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_itp.webp",
+            "resourceSize": 11882,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_Tr3.webp",
+            "resourceSize": 25680,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Image_MB.webp",
+            "resourceSize": 10548,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_livre.webp",
+            "resourceSize": 90516,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_musique.webp",
+            "resourceSize": 101570,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/roman.html",
+      "title": "Robopture - Roman",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/roman1.webp",
+          "alt": "Image description",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/roman2.webp",
+          "alt": "Image description",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image 2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 137,
+      "externalLinks": 3,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 1,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Five night at freddy's into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Five night at freddy's into the pit",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Film : Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 87,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "Start tag “body” seen but an element of the same type was already open.",
+          "extract": "\n\n        <body>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.88,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/roman.html",
+            "resourceSize": 12906,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_itp.webp",
+            "resourceSize": 11882,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/roman1.webp",
+            "resourceSize": 6164,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/roman2.webp",
+            "resourceSize": 27154,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/film.html",
+      "title": "Robopture - Film",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/TR1.webp",
+          "alt": "Image à droite",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/TR2.webp",
+          "alt": "Image à gauche",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 142,
+      "externalLinks": 3,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Transformers 3",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 120,
+          "lastColumn": 88,
+          "firstColumn": 84,
+          "message": "End tag “br”.",
+          "extract": " Megatron.</br>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 126,
+          "lastColumn": 30,
+          "firstColumn": 26,
+          "message": "End tag “br”.",
+          "extract": " bataille.</br>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 132,
+          "lastColumn": 30,
+          "firstColumn": 26,
+          "message": "End tag “br”.",
+          "extract": " Autobots.</br>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 175,
+          "firstLine": 174,
+          "lastColumn": 37,
+          "firstColumn": 17,
+          "message": "Bad value “http://alex-ringenbach.fr/video/Transformers 3 - Bande Annonce Officielle 2 - VF.mp4” for attribute “src” on element “source”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <source src=\"http://alex-ringenbach.fr/video/Transformers 3 - Bande Annonce Officielle 2 - VF.mp4\"\n                    type=\"video/mp4\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 136
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.93,
+        "bestPractices": 0.79,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/film.html",
+            "resourceSize": 12510,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_Tr3.webp",
+            "resourceSize": 25680,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/TR1.webp",
+            "resourceSize": 25754,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/TR2.webp",
+            "resourceSize": 17982,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://alex-ringenbach.fr/video/Transformers%203%20-%20Bande%20Annonce%20Officielle%202%20-%20VF.mp4",
+            "resourceSize": 147027,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/R%C3%A9alisateur.html",
+      "title": "Robopture - Roman",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MB-1.webp",
+          "alt": "Image description",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MB-2.webp",
+          "alt": "Image description",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image 2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 140,
+      "externalLinks": 3,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 1,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Micheal Bay",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Micheal Bay",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Film : Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 87,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "Start tag “body” seen but an element of the same type was already open.",
+          "extract": "\n\n        <body>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/R%C3%A9alisateur.html",
+            "resourceSize": 13264,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Image_MB.webp",
+            "resourceSize": 10548,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MB-1.webp",
+            "resourceSize": 16712,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MB-2.webp",
+            "resourceSize": 51576,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/livre.html",
+      "title": "Robopture - Accueil",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image 2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 125,
+      "externalLinks": 3,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "les humains les robots et la paix",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "les humains les robots et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Film : Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.93,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/livre.html",
+            "resourceSize": 11456,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_livre.webp",
+            "resourceSize": 90516,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_itp.webp",
+            "resourceSize": 11882,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_Tr3.webp",
+            "resourceSize": 25680,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Image_MB.webp",
+            "resourceSize": 10548,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/musique.html",
+      "title": "Robopture - Film",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique-1.webp",
+          "alt": "Image à droite",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique-2.webp",
+          "alt": "Image à gauche",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique-3.webp",
+          "alt": "Image description",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image 2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 144,
+      "externalLinks": 3,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roméo lies of p OST",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roméo lies of p OST",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Film : Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.93,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/musique.html",
+            "resourceSize": 12907,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_musique.webp",
+            "resourceSize": 101570,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Musique-1.webp",
+            "resourceSize": 8380,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Musique-2.webp",
+            "resourceSize": 8472,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Musique-3.webp",
+            "resourceSize": 37714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/frise.html",
+      "title": "Robopture - Accueil",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-1.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-2.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-3.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-4.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-5.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-5.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-7.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-8.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-9.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-10.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise-11.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_itp.webp",
+          "alt": "Image 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_Tr3.webp",
+          "alt": "Image 2",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Image_MB.webp",
+          "alt": "Image 3",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_livre.webp",
+          "alt": "Image 4",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_musique.webp",
+          "alt": "Image 5",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_frise.webp",
+          "alt": "Image 6",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 159,
+      "externalLinks": 3,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise chronologique",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Frise chronologique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Les robots",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Les robots",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Roman : into the pit",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Roman : into the pit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Film : Transformers 3",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réalisateur : Michael Bay",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Livre : Les hommes les robot et la paix",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Musique : Roméo thème",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Frise : les premiers robots",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.78,
+        "accessibility": 0.93,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/frise.html",
+            "resourceSize": 13787,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_frise.webp",
+            "resourceSize": 5406,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-1.webp",
+            "resourceSize": 6002,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-2.webp",
+            "resourceSize": 5248,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-3.webp",
+            "resourceSize": 8642,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-4.webp",
+            "resourceSize": 4264,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-5.webp",
+            "resourceSize": 5292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-7.webp",
+            "resourceSize": 5366,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-8.webp",
+            "resourceSize": 8984,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Frise-9.webp",
+            "resourceSize": 2480,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Robopture - Accueil",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_contact.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 100,
+      "externalLinks": 3,
+      "internalLinks": 13,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 13,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contactez le Support",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 175,
+          "lastColumn": 7,
+          "firstColumn": 1,
+          "message": "End tag for  “body” seen, but there were unclosed elements.",
+          "extract": "</script>\n</body>\n\n</ht",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 79,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Unclosed element “main”.",
+          "extract": "ript>\n    <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 7405,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_contact.webp",
+            "resourceSize": 30442,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Robopture - Accueil",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_glossaire.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 94,
+      "externalLinks": 3,
+      "internalLinks": 13,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 8546,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_glossaire.webp",
+            "resourceSize": 4312,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "Robopture - A Propos",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_glossaire.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 93,
+      "externalLinks": 3,
+      "internalLinks": 13,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À propos",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "À propos",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 7833,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_glossaire.webp",
+            "resourceSize": 4312,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autresprojets.html",
+      "title": "Robopture - Autres Projets",
+      "images": [
+        {
+          "src": "/assets/logos/logo.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/drapeau_anglais.webp",
+          "alt": "Logo Robopture",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image_AP.webp",
+          "alt": "Image principale",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/Préhonos.webp",
+          "alt": "Logo Levignis",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/Sonic relics.webp",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/Levignis.webp",
+          "alt": "Logo Levignis",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/CosmaNova.webp",
+          "alt": "Logo CosmoNova",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/HoloVisio.webp",
+          "alt": "Logo HoloVisio",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/ChronoRide.webp",
+          "alt": "Logo ChronoRide",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/GreenDouch'.webp",
+          "alt": "Logo GreenDouch'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/Pulse.webp",
+          "alt": "Logo Pulse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/Rebirth.webp",
+          "alt": "Logo Rebirth",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/PubNéoRétro.webp",
+          "alt": "Logo Pub Néo Rétro",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/BoardBeyond.webp",
+          "alt": "Logo Pub Néo Rétro",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/échos_du_futur.webp",
+          "alt": "Logo Pub Néo Rétro",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/NextWear.webp",
+          "alt": "Logo Pub Néo Rétro",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/facebook1.avif",
+          "alt": "Logo Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/instagram1.avif",
+          "alt": "Logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/logos/logo-MMI.webp",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 141,
+      "externalLinks": 13,
+      "internalLinks": 14,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 12,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "nav"
+        },
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Roman",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Film",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Livre",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Musique",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres projets",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Autres projets",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 83,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "The “main” element must not appear as a descendant of the “main” element.",
+          "extract": ">\n        <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 83,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "A document must not include more than one visible “main” element.",
+          "extract": ">\n        <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 94,
+          "lastColumn": 105,
+          "firstColumn": 21,
+          "message": "Bad value “/assets/logos/Sonic relics.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/logos/Sonic relics.webp\" alt=\"Logo Sonic Relics\" class=\"band-logo\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 85
+        },
+        {
+          "type": "error",
+          "lastLine": 173,
+          "lastColumn": 15,
+          "firstColumn": 9,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": ">\n        </main>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 84,
+          "lastColumn": 41,
+          "firstColumn": 13,
+          "message": "Unclosed element “div”.",
+          "extract": "          <div class=\"bands-container\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 241,
+          "lastColumn": 7,
+          "firstColumn": 1,
+          "message": "End tag for  “body” seen, but there were unclosed elements.",
+          "extract": "</script>\n</body>\n\n</ht",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 78,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Unclosed element “main”.",
+          "extract": "ript>\n    <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autresprojets.html",
+            "resourceSize": 10927,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap",
+            "resourceSize": 5249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo.webp",
+            "resourceSize": 2814,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/drapeau_anglais.webp",
+            "resourceSize": 7922,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 367,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image_AP.webp",
+            "resourceSize": 14626,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/Pr%C3%A9honos.webp",
+            "resourceSize": 5168,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/Sonic%20relics.webp",
+            "resourceSize": 4090,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/Levignis.webp",
+            "resourceSize": 4380,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/CosmaNova.webp",
+            "resourceSize": 1650,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/HoloVisio.webp",
+            "resourceSize": 6328,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/ChronoRide.webp",
+            "resourceSize": 3124,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/GreenDouch'.webp",
+            "resourceSize": 2688,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/Pulse.webp",
+            "resourceSize": 3144,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/Rebirth.webp",
+            "resourceSize": 3408,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/PubN%C3%A9oR%C3%A9tro.webp",
+            "resourceSize": 3430,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/BoardBeyond.webp",
+            "resourceSize": 4750,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/%C3%A9chos_du_futur.webp",
+            "resourceSize": 4448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/NextWear.webp",
+            "resourceSize": 5004,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/facebook1.avif",
+            "resourceSize": 1388,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/instagram1.avif",
+            "resourceSize": 1913,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/logos/logo-MMI.webp",
+            "resourceSize": 1448,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 368,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 773,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 4033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 934,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 188,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 532,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ1On4KCFtpe4.woff2",
+            "resourceSize": 13316,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdPQxPqMQ0bX8.woff2",
+            "resourceSize": 12696,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 466,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 154,
+      "br": 3
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 285,
+      "linesOfCode": 1,
+      "size": 4628,
+      "complexity": 767,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "screen and (max-width:390px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 59,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 15,
+        "mean": 4.813559322033898,
+        "mode": 4,
+        "median": 4,
+        "range": 13,
+        "sum": 284,
+        "items": [
+          6,
+          3,
+          4,
+          5,
+          6,
+          4,
+          2,
+          8,
+          5,
+          4,
+          3,
+          10,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          4,
+          9,
+          4,
+          6,
+          2,
+          10,
+          8,
+          4,
+          2,
+          5,
+          5,
+          6,
+          9,
+          4,
+          4,
+          4,
+          4,
+          2,
+          5,
+          2,
+          2,
+          2,
+          2,
+          2,
+          5,
+          4,
+          5,
+          4,
+          4,
+          15,
+          8,
+          2,
+          9,
+          2,
+          2,
+          3,
+          2,
+          9,
+          13,
+          6,
+          2
+        ],
+        "total": 59,
+        "totalUnique": 10,
+        "unique": {
+          "2": 14,
+          "3": 6,
+          "4": 15,
+          "5": 8,
+          "6": 5,
+          "8": 3,
+          "9": 4,
+          "10": 2,
+          "13": 1,
+          "15": 1
+        },
+        "uniquenessRatio": 0.1694915254237288
+      },
+      "selectors": {
+        "min": 1,
+        "max": 4,
+        "mean": 1.1016949152542372,
+        "mode": 1,
+        "median": 1,
+        "range": 3,
+        "sum": 65,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          1
+        ],
+        "total": 59,
+        "totalUnique": 3,
+        "unique": {
+          "1": 55,
+          "2": 3,
+          "4": 1
+        },
+        "uniquenessRatio": 0.05084745762711865
+      },
+      "declarations": {
+        "min": 1,
+        "max": 14,
+        "mean": 3.711864406779661,
+        "mode": 2,
+        "median": 3,
+        "range": 13,
+        "sum": 219,
+        "items": [
+          5,
+          2,
+          3,
+          4,
+          5,
+          2,
+          1,
+          7,
+          4,
+          3,
+          2,
+          9,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          3,
+          8,
+          3,
+          5,
+          1,
+          9,
+          7,
+          3,
+          1,
+          4,
+          4,
+          5,
+          8,
+          3,
+          3,
+          2,
+          3,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          3,
+          4,
+          3,
+          3,
+          14,
+          7,
+          1,
+          8,
+          1,
+          1,
+          2,
+          1,
+          8,
+          12,
+          2,
+          1
+        ],
+        "total": 59,
+        "totalUnique": 10,
+        "unique": {
+          "1": 14,
+          "2": 9,
+          "3": 14,
+          "4": 7,
+          "5": 4,
+          "7": 3,
+          "8": 4,
+          "9": 2,
+          "12": 1,
+          "14": 1
+        },
+        "uniquenessRatio": 0.1694915254237288
+      }
+    },
+    "selectors": {
+      "total": 65,
+      "totalUnique": 50,
+      "uniquenessRatio": 0.7692307692307693,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          1,
+          0,
+          1
+        ],
+        "sum": [
+          4,
+          56,
+          24
+        ],
+        "mean": [
+          0.06153846153846154,
+          0.8615384615384616,
+          0.36923076923076925
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 65,
+        "totalUnique": 9,
+        "unique": {
+          "0,0,1": 7,
+          "0,0,2": 1,
+          "0,1,0": 41,
+          "1,0,0": 3,
+          "0,1,1": 7,
+          "0,2,1": 1,
+          "1,0,1": 1,
+          "0,2,0": 2,
+          "0,1,3": 2
+        },
+        "uniquenessRatio": 0.13846153846153847
+      },
+      "complexity": {
+        "min": 1,
+        "max": 7,
+        "mean": 1.5538461538461539,
+        "mode": 1,
+        "median": 1,
+        "range": 6,
+        "sum": 101,
+        "total": 65,
+        "totalUnique": 5,
+        "unique": {
+          "1": 51,
+          "2": 2,
+          "3": 9,
+          "5": 1,
+          "7": 2
+        },
+        "uniquenessRatio": 0.07692307692307693,
+        "items": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          5,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          7,
+          3,
+          7,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 4,
+        "totalUnique": 4,
+        "unique": {
+          "#banner": 1,
+          "#green-strip": 1,
+          "#green-strip h3": 1,
+          "#description": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.06153846153846154
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 17,
+        "totalUnique": 1,
+        "unique": {
+          " ": 17
+        },
+        "uniquenessRatio": 0.058823529411764705
+      }
+    },
+    "declarations": {
+      "total": 219,
+      "totalUnique": 130,
+      "uniquenessRatio": 0.593607305936073,
+      "unique": {
+        "total": 130,
+        "ratio": 0.593607305936073
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 219
+      }
+    },
+    "properties": {
+      "total": 219,
+      "totalUnique": 50,
+      "unique": {
+        "background-color": 12,
+        "color": 17,
+        "padding": 11,
+        "text-align": 7,
+        "width": 19,
+        "font-size": 12,
+        "line-height": 2,
+        "display": 11,
+        "gap": 2,
+        "justify-content": 6,
+        "border-radius": 7,
+        "height": 13,
+        "object-fit": 4,
+        "box-sizing": 1,
+        "min-height": 1,
+        "align-items": 6,
+        "flex-direction": 3,
+        "background": 4,
+        "border": 4,
+        "box-shadow": 5,
+        "margin": 8,
+        "font-family": 3,
+        "font-weight": 3,
+        "left": 3,
+        "position": 6,
+        "top": 5,
+        "z-index": 3,
+        "transform": 4,
+        "cursor": 3,
+        "text-decoration": 2,
+        "text-shadow": 1,
+        "margin-top": 3,
+        "max-width": 5,
+        "margin-left": 3,
+        "margin-right": 5,
+        "padding-left": 1,
+        "margin-bottom": 1,
+        "transition": 1,
+        "right": 1,
+        "list-style": 1,
+        "--violet": 1,
+        "--blanc": 1,
+        "--noir": 1,
+        "--titre": 1,
+        "--sous-titre": 1,
+        "--texte": 1,
+        "--prévention": 1,
+        "--grand-titre": 1,
+        "flex-wrap": 1,
+        "overflow-x": 1
+      },
+      "uniquenessRatio": 0.228310502283105,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 8,
+        "totalUnique": 8,
+        "unique": {
+          "--violet": 1,
+          "--blanc": 1,
+          "--noir": 1,
+          "--titre": 1,
+          "--sous-titre": 1,
+          "--texte": 1,
+          "--prévention": 1,
+          "--grand-titre": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.0365296803652968,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0365296803652968,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 227
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 24,
+        "totalUnique": 14,
+        "unique": {
+          "rgba(0,0,0,.1)": 5,
+          "hsla(0,0%,100%,.8)": 1,
+          "#b771eb": 3,
+          "#fff": 1,
+          "#ffee07": 1,
+          "rgba(0,0,0,.8)": 1,
+          "rgba(183,113,235,.2)": 1,
+          "#000": 4,
+          "#6a0dad": 1,
+          "#f4f4f4": 2,
+          "#333": 1,
+          "#888": 1,
+          "#f8f4f4": 1,
+          "#1c182f": 1
+        },
+        "uniquenessRatio": 0.5833333333333334,
+        "itemsPerContext": {
+          "box-shadow": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.1)": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "background-color": {
+            "total": 6,
+            "totalUnique": 4,
+            "unique": {
+              "hsla(0,0%,100%,.8)": 1,
+              "#b771eb": 2,
+              "rgba(183,113,235,.2)": 1,
+              "#f4f4f4": 2
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "color": {
+            "total": 9,
+            "totalUnique": 6,
+            "unique": {
+              "#fff": 1,
+              "#ffee07": 1,
+              "#000": 4,
+              "#6a0dad": 1,
+              "#333": 1,
+              "#888": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "text-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.8)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--violet": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#b771eb": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blanc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f8f4f4": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--noir": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#1c182f": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 24,
+          "totalUnique": 4,
+          "unique": {
+            "rgba": 7,
+            "hsla": 1,
+            "hex6": 9,
+            "hex3": 7
+          },
+          "uniquenessRatio": 0.16666666666666666
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "Inter,serif": 1,
+          "Arial,sans-serif": 1,
+          "Inria Sans,serif": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontSizes": {
+        "total": 12,
+        "totalUnique": 9,
+        "unique": {
+          "1em": 3,
+          "var(--b2)": 1,
+          "1.8em": 1,
+          "3em": 1,
+          "2em": 2,
+          "1.2em": 1,
+          "1.5em": 1,
+          ".9em": 1,
+          "2.5em": 1
+        },
+        "uniquenessRatio": 0.75
+      },
+      "lineHeights": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "1.6": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "zindexes": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "10": 1,
+          "1000": 1,
+          "2000": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "2px 2px 4px rgba(0,0,0,.8)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "boxShadows": {
+        "total": 5,
+        "totalUnique": 3,
+        "unique": {
+          "0 0 10px rgba(0,0,0,.1)": 3,
+          "0 2px 5px rgba(0,0,0,.1)": 1,
+          "0 4px 6px rgba(0,0,0,.1)": 1
+        },
+        "uniquenessRatio": 0.6
+      },
+      "borderRadiuses": {
+        "total": 7,
+        "totalUnique": 6,
+        "unique": {
+          "50%": 1,
+          "20px": 1,
+          "5px": 1,
+          "0 30px 30px 0": 1,
+          "30px 0 0 30px": 1,
+          "8px": 2
+        },
+        "uniquenessRatio": 0.8571428571428571,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 7,
+            "totalUnique": 6,
+            "unique": {
+              "50%": 1,
+              "20px": 1,
+              "5px": 1,
+              "0 30px 30px 0": 1,
+              "30px 0 0 30px": 1,
+              "8px": 2
+            },
+            "uniquenessRatio": 0.8571428571428571
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            ".5s": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "timingFunctions": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "ease-in-out": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 81,
+        "totalUnique": 4,
+        "unique": {
+          "px": 68,
+          "em": 11,
+          "vh": 1,
+          "s": 1
+        },
+        "uniquenessRatio": 0.04938271604938271,
+        "itemsPerContext": {
+          "padding": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "font-size": {
+            "total": 11,
+            "totalUnique": 1,
+            "unique": {
+              "em": 11
+            },
+            "uniquenessRatio": 0.09090909090909091
+          },
+          "gap": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "height": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "width": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "min-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "vh": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-radius": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "box-shadow": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "margin": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "text-shadow": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin-top": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "max-width": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transition": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "s": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--titre": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--sous-titre": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--texte": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--prévention": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--grand-titre": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 219
+      },
+      "keywords": {
+        "total": 17,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 9,
+          "none": 8
+        },
+        "uniquenessRatio": 0.11764705882352941
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 3,
+      "total": 4
+    }
+  }
+}

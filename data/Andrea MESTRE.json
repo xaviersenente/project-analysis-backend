@@ -1,0 +1,6351 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "La Console de la Psyché Interactive",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo du site pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône de croix pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_quadrillage-img.png",
+          "alt": "Image de néon quadrillage",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/img/console.webp",
+          "alt": "Image de la console de la psyché Interactive",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-bandersnatch.webp",
+          "alt": "Affiche du film Bandersnatch",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-enders_game.webp",
+          "alt": "Couverture du livre Ender's Game",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/realisateur-cronenberg.webp",
+          "alt": "Photo de David Cronenberg",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-tron_legacy.webp",
+          "alt": "Affiche du film Tron: Legacy",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 160,
+      "externalLinks": 8,
+      "internalLinks": 24,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Console de la Psyché Interactive (CPI)",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Console de la Psyché Interactive (CPI)",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Nos recherches",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos recherches",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "La découverte de la console de la psyché Interactive",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "La découverte de la console de la psyché Interactive",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Bandersnatch, Le Jeu de la Décision et de la Conscience",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Bandersnatch, Le Jeu de la Décision et de la Conscience",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ender's Game, Manuel de Stratégie Militaire du Passé",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Ender's Game, Manuel de Stratégie Militaire du Passé",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "David Cronenberg, Visionnaire du Futur et de la Psyché",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "David Cronenberg, Visionnaire du Futur et de la Psyché",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "La Bande Sonore de Tron Legacy, Une Exploration de la Psyché",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "La Bande Sonore de Tron Legacy, Une Exploration de la Psyché",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.9,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 16893,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_quadrillage-img.png",
+            "resourceSize": 884303,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/console.webp",
+            "resourceSize": 5444,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articleconsole.html",
+      "title": "La Découverte de la Console de la Psyché Interative",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icon-console.webp",
+          "alt": "Icône de la console",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/img/decouverte_console.webp",
+          "alt": "Découverte de la console par les archéologues en 2150",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/schema_manette.webp",
+          "alt": "Schéma de la manette connectée à distance",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/shema_console.webp",
+          "alt": "Schéma de la Console de la Psyché Interactive",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/console_ness.webp",
+          "alt": "Console de la Psyché Interactive du 21ᵉ siècle",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_bleu1.webp",
+          "alt": " ligne de néon bleu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_bleu2.webp",
+          "alt": " ligne de néon bleu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/img/console.webp",
+          "alt": "Console de la Psyché Interactive du 21ᵉ siècle",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_bleu3.webp",
+          "alt": " ligne de néon bleu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 166,
+      "externalLinks": 8,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "La Découverte de la Console",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "La Découverte de la Console",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Une Découverte Archéologique Remarquable",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Une Découverte Archéologique Remarquable",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un Outil de Stimulation Mentale",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Un Outil de Stimulation Mentale",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Une Nouvelle Hypothèse : La Manipulation psychologique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Une Nouvelle Hypothèse : La Manipulation psychologique",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Frise Chronologique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Frise Chronologique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "La première CPI fin du 20ᵉ siècles",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Le premier jeu à choix  début du 21ᵉ siècles",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Apparition de la CPI telle que nous connaissons 2013",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Fin de la CPI remplacer par des nouvelles technologies fin 2080",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articleconsole.html",
+            "resourceSize": 20361,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-console.webp",
+            "resourceSize": 14112,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_bleu1.webp",
+            "resourceSize": 21150,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_bleu2.webp",
+            "resourceSize": 18524,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_bleu3.webp",
+            "resourceSize": 13566,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+            "resourceSize": 68348,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nbivNm4I81PZQ.woff2",
+            "resourceSize": 3584,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/decouverte_console.webp",
+            "resourceSize": 39490,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articlefilm.html",
+      "title": "Le Jeu de la Décision et de la Conscience",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icon-papillion.webp",
+          "alt": "Icone de papillion bleu pixelisé",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-ghost_in_the_shell.webp",
+          "alt": "Affcihe Ghost in the Shell",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-matrix.webp",
+          "alt": "Affiche Matrix",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-aclockworkorange.webp",
+          "alt": "Affiche Orange Mécanique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-inception.webp",
+          "alt": "Affiche Inception",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/prev__btn.svg",
+          "alt": "bouton précédent",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/next_btn.svg",
+          "alt": "bouton suivant",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 185,
+      "externalLinks": 14,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 7,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Jeu de la Décision et de la Conscience",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Le Jeu de la Décision et de la Conscience",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Bandersnatch",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Un Puzzle Technologique et Psychologique du Passé",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Un Puzzle Technologique et Psychologique du Passé",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Entraînement Psychologique et Illusion de Choix",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Entraînement Psychologique et Illusion de Choix",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Nos autres ressources",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos autres ressources",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "GHOST IN THE SHELL, MAMORU OSHII",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "MATRIX, LANA ET LILLY WACHOWSKI",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Orange Mécanique, Stanley Kubrick",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Inception, Christopher Nolan",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articlefilm.html",
+            "resourceSize": 21593,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-papillion.webp",
+            "resourceSize": 8298,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/prev__btn.svg",
+            "resourceSize": 3193,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/next_btn.svg",
+            "resourceSize": 3198,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/video/bandersnatchande_annonce.mp4",
+            "resourceSize": 180,
+            "mimeType": "text/html",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELaw9pWs39pvnRPA.woff2",
+            "resourceSize": 7068,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articlelivre.html",
+      "title": "Le Manuel de Stratégie Militaire du Passé",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icon-livre.webp",
+          "alt": "Icone d'un livre ouvert pixelisé",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-enders_game.webp",
+          "alt": "Couverture du livre Ender's Game",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 128,
+      "externalLinks": 9,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Manuel de Stratégie Militaire du Passé",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Manuel de Stratégie Militaire du Passé",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Ender’s Game",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Le Manuel de Formation des Jeunes Élites et la CPI",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Le Manuel de Formation des Jeunes Élites et la CPI",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un Outil de Domination Mentale",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Un Outil de Domination Mentale",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articlelivre.html",
+            "resourceSize": 14387,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-livre.webp",
+            "resourceSize": 3206,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affiche-enders_game.webp",
+            "resourceSize": 22632,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articlerealisateur.html",
+      "title": "Le Visionnaire du Futur et de la Psyché Humaine",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/icon-cerveau.webp",
+          "alt": "Icone d'un cerveau pixelisé",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/realisateur-cronenberg.webp",
+          "alt": "Photographie en noir et blanc de David Cronenberg",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-videodrome.webp",
+          "alt": "Affcihe du film Videodrome de David Cronenberg",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-existenz.webp",
+          "alt": "Affcihe du film eXistenZ de David Cronenberg",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 149,
+      "externalLinks": 12,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Visionnaire du Futur",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Le Visionnaire du Futur",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "David Cronenberg",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "L'Influence de Cronenberg sur la Technologie et la Psyché",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'Influence de Cronenberg sur la Technologie et la Psyché",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Analyse des Œuvres Clés",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Analyse des Œuvres Clés",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "L'Héritage de Cronenberg dans notre Étude",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'Héritage de Cronenberg dans notre Étude",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articlerealisateur.html",
+            "resourceSize": 16680,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/icon-cerveau.webp",
+            "resourceSize": 6968,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4n0q2lgwslOqpF_6gQ8kELawRZWMf6hPvhPQ.woff2",
+            "resourceSize": 12956,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/realisateur-cronenberg.webp",
+            "resourceSize": 5530,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/articleson.html",
+      "title": "Une Exploration de la Psyché Humaine",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "false"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche-tron.webp",
+          "alt": "Image couverture de l'album de la bande originale de Tron: Legacy",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 124,
+      "externalLinks": 9,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Une Exploration de la Psyché Humaine",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Une Exploration de la Psyché Humaine",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Tron: Legacy",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Analyse des Morceaux : Une Réflexion sur la Psyché Humaine",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Analyse des Morceaux : Une Réflexion sur la Psyché Humaine",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Impact Culturel et Thématique : Une Révélation sur la Technologie",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Impact Culturel et Thématique : Une Révélation sur la Technologie",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/articleson.html",
+            "resourceSize": 13296,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affiche-tron.webp",
+            "resourceSize": 25182,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "false"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 119,
+      "externalLinks": 8,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.96,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 11367,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autresprojets.html",
+      "title": "Autres Projets",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'acceuil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 157,
+      "externalLinks": 17,
+      "internalLinks": 16,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autresprojets.html",
+            "resourceSize": 14808,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon.svg",
+            "resourceSize": 2268,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "À Propos",
+      "images": [
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo pour retourner à l'accueil",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/menu.webp",
+          "alt": "Icône du menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu",
+          "ariaHidden": "false"
+        },
+        {
+          "src": "/assets/icon/croix.webp",
+          "alt": "Icône pour fermer le menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/neon_bleu.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_bleu.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_bleu.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_bleu.svg",
+          "alt": "néon de séparation",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/neon_rose.svg",
+          "alt": "Barre de séparation du menu en néon rose",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icon/logo.webp",
+          "alt": "Logo de notre site web",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/mmi-logo.webp",
+          "alt": "Icône MMI Montbéliard",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/facebook.webp",
+          "alt": "Icône de Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/tiktok.webp",
+          "alt": "Icône de TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icon/instagram.webp",
+          "alt": "Icône d'Instagram",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 122,
+      "externalLinks": 8,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Glossaire",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 12810,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 866,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1226,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/logo.webp",
+            "resourceSize": 3964,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/menu.webp",
+            "resourceSize": 148,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_rose.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/croix.webp",
+            "resourceSize": 400,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/facebook.webp",
+            "resourceSize": 1082,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/instagram.webp",
+            "resourceSize": 1292,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/tiktok.webp",
+            "resourceSize": 806,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/neon_bleu.svg",
+            "resourceSize": 2266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icon/mmi-logo.webp",
+            "resourceSize": 2894,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap",
+            "resourceSize": 9334,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2269,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2461,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1577,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 1973,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/hero.css",
+            "resourceSize": 3086,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 2017,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "resourceSize": 5644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/ficheprojet.css",
+            "resourceSize": 1812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frisechrono.css",
+            "resourceSize": 1183,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 627,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 1228,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond_etoiles.webp",
+            "resourceSize": 10422,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2",
+            "resourceSize": 4716,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMT-Dfq9PrNX0.woff2",
+            "resourceSize": 11672,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELawFpWs39pvk.woff2",
+            "resourceSize": 11296,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/site.webmanifest",
+            "resourceSize": 263,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon_io/favicon-32x32.png",
+            "resourceSize": 1125,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "h3",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "br",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 226,
+      "br": 32,
+      "span": 10
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 803,
+      "linesOfCode": 1,
+      "size": 19454,
+      "complexity": 2031,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "@keyframes clignoter": 1,
+          "@keyframes animation": 1
+        },
+        "uniquenessRatio": 1,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 3,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 3
+      }
+    },
+    "rules": {
+      "total": 177,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 31,
+        "mean": 4.519774011299435,
+        "mode": 2,
+        "median": 4,
+        "range": 29,
+        "sum": 800,
+        "items": [
+          31,
+          3,
+          2,
+          4,
+          7,
+          4,
+          5,
+          3,
+          2,
+          2,
+          4,
+          3,
+          5,
+          3,
+          3,
+          3,
+          5,
+          3,
+          2,
+          5,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          5,
+          5,
+          2,
+          7,
+          11,
+          4,
+          4,
+          2,
+          3,
+          5,
+          5,
+          3,
+          3,
+          3,
+          3,
+          6,
+          2,
+          5,
+          2,
+          6,
+          5,
+          5,
+          4,
+          4,
+          4,
+          7,
+          5,
+          4,
+          6,
+          8,
+          10,
+          3,
+          5,
+          7,
+          2,
+          5,
+          8,
+          5,
+          7,
+          3,
+          6,
+          4,
+          4,
+          5,
+          4,
+          3,
+          10,
+          4,
+          3,
+          2,
+          6,
+          3,
+          2,
+          3,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          4,
+          4,
+          4,
+          2,
+          4,
+          2,
+          4,
+          3,
+          17,
+          2,
+          9,
+          5,
+          2,
+          7,
+          2,
+          7,
+          2,
+          7,
+          7,
+          3,
+          6,
+          4,
+          7,
+          2,
+          8,
+          2,
+          2,
+          8,
+          2,
+          3,
+          7,
+          3,
+          4,
+          6,
+          2,
+          3,
+          2,
+          4,
+          4,
+          5,
+          5,
+          4,
+          4,
+          6,
+          4,
+          8,
+          2,
+          2,
+          2,
+          2,
+          2,
+          8,
+          6,
+          3,
+          8,
+          7,
+          3,
+          6,
+          5,
+          5,
+          4,
+          9,
+          6,
+          6,
+          2,
+          8,
+          2,
+          3,
+          2,
+          6,
+          2,
+          7,
+          3,
+          4,
+          6,
+          4,
+          7,
+          5,
+          6,
+          9,
+          8,
+          2,
+          8,
+          4,
+          2,
+          5,
+          5,
+          2,
+          5
+        ],
+        "total": 177,
+        "totalUnique": 12,
+        "unique": {
+          "2": 43,
+          "3": 33,
+          "4": 29,
+          "5": 25,
+          "6": 15,
+          "7": 14,
+          "8": 10,
+          "9": 3,
+          "10": 2,
+          "11": 1,
+          "17": 1,
+          "31": 1
+        },
+        "uniquenessRatio": 0.06779661016949153
+      },
+      "selectors": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.1638418079096045,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 206,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 177,
+        "totalUnique": 3,
+        "unique": {
+          "1": 151,
+          "2": 23,
+          "3": 3
+        },
+        "uniquenessRatio": 0.01694915254237288
+      },
+      "declarations": {
+        "min": 1,
+        "max": 30,
+        "mean": 3.3559322033898304,
+        "mode": 1,
+        "median": 3,
+        "range": 29,
+        "sum": 594,
+        "items": [
+          30,
+          2,
+          1,
+          3,
+          5,
+          3,
+          4,
+          1,
+          1,
+          1,
+          3,
+          1,
+          4,
+          2,
+          2,
+          2,
+          4,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          4,
+          3,
+          1,
+          6,
+          10,
+          3,
+          3,
+          1,
+          2,
+          4,
+          4,
+          1,
+          2,
+          2,
+          2,
+          5,
+          1,
+          4,
+          1,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          6,
+          4,
+          3,
+          5,
+          7,
+          9,
+          1,
+          4,
+          6,
+          1,
+          4,
+          7,
+          4,
+          6,
+          1,
+          3,
+          3,
+          3,
+          4,
+          3,
+          1,
+          9,
+          3,
+          2,
+          1,
+          5,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          1,
+          3,
+          2,
+          16,
+          1,
+          8,
+          4,
+          1,
+          6,
+          1,
+          6,
+          1,
+          6,
+          6,
+          1,
+          3,
+          3,
+          6,
+          1,
+          6,
+          1,
+          1,
+          6,
+          1,
+          2,
+          6,
+          2,
+          2,
+          5,
+          1,
+          2,
+          1,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          4,
+          3,
+          7,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7,
+          5,
+          2,
+          7,
+          5,
+          2,
+          5,
+          4,
+          3,
+          3,
+          8,
+          5,
+          4,
+          1,
+          7,
+          1,
+          2,
+          1,
+          5,
+          1,
+          6,
+          2,
+          3,
+          4,
+          3,
+          6,
+          4,
+          5,
+          6,
+          7,
+          1,
+          7,
+          3,
+          1,
+          4,
+          4,
+          1,
+          4
+        ],
+        "total": 177,
+        "totalUnique": 12,
+        "unique": {
+          "1": 53,
+          "2": 26,
+          "3": 31,
+          "4": 25,
+          "5": 12,
+          "6": 15,
+          "7": 8,
+          "8": 2,
+          "9": 2,
+          "10": 1,
+          "16": 1,
+          "30": 1
+        },
+        "uniquenessRatio": 0.06779661016949153
+      }
+    },
+    "selectors": {
+      "total": 200,
+      "totalUnique": 158,
+      "uniquenessRatio": 0.79,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          2,
+          0
+        ],
+        "sum": [
+          0,
+          186,
+          23
+        ],
+        "mean": [
+          0,
+          0.93,
+          0.115
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 200,
+        "totalUnique": 6,
+        "unique": {
+          "0,1,0": 179,
+          "0,0,1": 14,
+          "0,2,0": 2,
+          "0,1,1": 1,
+          "0,0,2": 2,
+          "0,1,2": 2
+        },
+        "uniquenessRatio": 0.03
+      },
+      "complexity": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.08,
+        "mode": 1,
+        "median": 1,
+        "range": 4,
+        "sum": 216,
+        "total": 200,
+        "totalUnique": 4,
+        "unique": {
+          "1": 193,
+          "2": 2,
+          "3": 3,
+          "5": 2
+        },
+        "uniquenessRatio": 0.02,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          ".menu[aria-hidden=false]": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.005
+      },
+      "keyframes": {
+        "total": 6,
+        "totalUnique": 3,
+        "unique": {
+          "0%": 2,
+          "50%": 2,
+          "to": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          " ": 4
+        },
+        "uniquenessRatio": 0.25
+      }
+    },
+    "declarations": {
+      "total": 594,
+      "totalUnique": 305,
+      "uniquenessRatio": 0.5134680134680135,
+      "unique": {
+        "total": 305,
+        "ratio": 0.5134680134680135
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 594
+      }
+    },
+    "properties": {
+      "total": 594,
+      "totalUnique": 87,
+      "unique": {
+        "--black": 1,
+        "--gray": 1,
+        "--white": 1,
+        "--purple": 1,
+        "--darkblue": 1,
+        "--blue": 1,
+        "--pink": 1,
+        "--buttoncolor": 1,
+        "--lightblue": 1,
+        "--font-family-title": 1,
+        "--font-family-chapo": 1,
+        "--font-family-text": 1,
+        "--font-size-button": 1,
+        "--font-size-legende": 1,
+        "--font-size-body2": 1,
+        "--font-size-body1": 1,
+        "--font-size-body": 1,
+        "--font-size-chapo": 1,
+        "--font-size-subtitle": 1,
+        "--font-size-title": 1,
+        "--font-size-time": 1,
+        "--font-size-header": 1,
+        "--font-size-small-title": 1,
+        "--font-weight-light": 1,
+        "--font-weidght-big": 1,
+        "--space-img": 1,
+        "--space-chapo": 1,
+        "--space-button": 1,
+        "--space-title": 1,
+        "--space-page": 1,
+        "padding-left": 8,
+        "padding-right": 4,
+        "background-color": 2,
+        "font-size": 30,
+        "line-height": 9,
+        "text-align": 22,
+        "color": 9,
+        "font-family": 24,
+        "font-weight": 10,
+        "letter-spacing": 7,
+        "margin": 14,
+        "text-transform": 10,
+        "text-decoration": 2,
+        "list-style-type": 1,
+        "margin-top": 26,
+        "padding-top": 14,
+        "margin-bottom": 27,
+        "padding-bottom": 8,
+        "margin-left": 7,
+        "margin-right": 5,
+        "font-style": 1,
+        "background-size": 3,
+        "height": 8,
+        "padding": 22,
+        "background-attachment": 2,
+        "background-image": 2,
+        "background-position": 2,
+        "overflow": 3,
+        "position": 14,
+        "width": 37,
+        "bottom": 2,
+        "left": 8,
+        "opacity": 4,
+        "transform": 5,
+        "z-index": 2,
+        "align-items": 10,
+        "display": 23,
+        "justify-content": 19,
+        "top": 6,
+        "flex-direction": 13,
+        "right": 3,
+        "gap": 10,
+        "background": 9,
+        "border": 24,
+        "box-shadow": 22,
+        "cursor": 7,
+        "text-shadow": 31,
+        "transition": 6,
+        "visibility": 2,
+        "inset": 1,
+        "border-radius": 15,
+        "animation": 4,
+        "overflow-x": 1,
+        "scroll-behavior": 1,
+        "scroll-snap-type": 1,
+        "scrollbar-width": 1,
+        "scroll-snap-align": 1
+      },
+      "uniquenessRatio": 0.14646464646464646,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 30,
+        "totalUnique": 30,
+        "unique": {
+          "--black": 1,
+          "--gray": 1,
+          "--white": 1,
+          "--purple": 1,
+          "--darkblue": 1,
+          "--blue": 1,
+          "--pink": 1,
+          "--buttoncolor": 1,
+          "--lightblue": 1,
+          "--font-family-title": 1,
+          "--font-family-chapo": 1,
+          "--font-family-text": 1,
+          "--font-size-button": 1,
+          "--font-size-legende": 1,
+          "--font-size-body2": 1,
+          "--font-size-body1": 1,
+          "--font-size-body": 1,
+          "--font-size-chapo": 1,
+          "--font-size-subtitle": 1,
+          "--font-size-title": 1,
+          "--font-size-time": 1,
+          "--font-size-header": 1,
+          "--font-size-small-title": 1,
+          "--font-weight-light": 1,
+          "--font-weidght-big": 1,
+          "--space-img": 1,
+          "--space-chapo": 1,
+          "--space-button": 1,
+          "--space-title": 1,
+          "--space-page": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.050505050505050504,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0505050505050506,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 624
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 27,
+        "totalUnique": 12,
+        "unique": {
+          "#000": 1,
+          "#bfbfbf": 1,
+          "#f5f5f5": 1,
+          "#541c94": 1,
+          "#44449c": 1,
+          "#2b53d5": 1,
+          "#b401b3": 1,
+          "#50cee1": 1,
+          "#5ddbac": 1,
+          "hsla(0,0%,100%,.7)": 4,
+          "#fff": 4,
+          "transparent": 10
+        },
+        "uniquenessRatio": 0.4444444444444444,
+        "itemsPerContext": {
+          "--black": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gray": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#bfbfbf": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--white": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f5f5f5": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--purple": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#541c94": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--darkblue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#44449c": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#2b53d5": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--pink": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#b401b3": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--buttoncolor": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#50cee1": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--lightblue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#5ddbac": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 11,
+            "totalUnique": 2,
+            "unique": {
+              "hsla(0,0%,100%,.7)": 4,
+              "transparent": 7
+            },
+            "uniquenessRatio": 0.18181818181818182
+          },
+          "box-shadow": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "background": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          }
+        },
+        "formats": {
+          "total": 27,
+          "totalUnique": 4,
+          "unique": {
+            "hex3": 5,
+            "hex6": 8,
+            "hsla": 4,
+            "transparent": 10
+          },
+          "uniquenessRatio": 0.14814814814814814
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 24,
+        "totalUnique": 3,
+        "unique": {
+          "var(--font-family-title)": 15,
+          "var(--font-family-text)": 5,
+          "var(--font-family-chapo)": 4
+        },
+        "uniquenessRatio": 0.125
+      },
+      "fontSizes": {
+        "total": 30,
+        "totalUnique": 10,
+        "unique": {
+          "var(--font-size-title)": 2,
+          "var(--font-size-subtitle)": 3,
+          "var(--font-size-body2)": 6,
+          "var(--font-size-time)": 5,
+          "var(--font-size-chapo)": 2,
+          "var(--font-size-legende)": 2,
+          "var(--font-size-header)": 1,
+          "var(--font-size-body)": 2,
+          "var(--font-size-button)": 3,
+          "var(--font-size-small-title)": 4
+        },
+        "uniquenessRatio": 0.3333333333333333
+      },
+      "lineHeights": {
+        "total": 9,
+        "totalUnique": 4,
+        "unique": {
+          "170%": 1,
+          "150%": 5,
+          "130%": 2,
+          "1.5": 1
+        },
+        "uniquenessRatio": 0.4444444444444444
+      },
+      "zindexes": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "0": 1,
+          "1": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 31,
+        "totalUnique": 21,
+        "unique": {
+          "0 0 15px var(--buttoncolor),0 0 10px var(--buttoncolor),0 0 20px var(--buttoncolor),0 0 40px var(--buttoncolor)": 3,
+          "0 0 15px var(--pink),0 0 10px var(--pink),0 0 20px var(--pink),0 0 40px var(--pink)": 2,
+          "0 0 15px var(--darkblue),0 0 10px var(--darkblue),0 0 20px var(--darkblue),0 0 40px var(--darkblue)": 4,
+          "0 0 15px var(--purple),0 0 10px var(--purple),0 0 20px var(--purple),0 0 40px var(--purple)": 2,
+          "0 0 15px var(--lightblue),0 0 10px var(--lightblue),0 0 20px var(--lightblue),0 0 40px var(--lightblue)": 3,
+          "0 0 10px var(--buttoncolor),0 0 20px var(--buttoncolor),0 0 30px var(--buttoncolor),0 0 20px var(--buttoncolor)": 1,
+          "0 0 5px var(--buttoncolor),0 0 10px var(--buttoncolor),0 0 15px var(--buttoncolor),0 0 15px var(--buttoncolor)": 1,
+          "0 0 10px var(--pink),0 0 20px var(--pink),0 0 30px var(--pink),0 0 20px var(--pink)": 1,
+          "0 0 40px var(--buttoncolor),0 0 80px var(--buttoncolor)": 1,
+          "0 0 10px var(--pink),0 0 10px var(--pink)": 1,
+          "0 0 10px var(--blue),0 0 10px var(--blue)": 1,
+          "0 0 10px var(--purple),0 0 10px var(--purple),0 0 20px var(--purple)": 1,
+          "0 0 10px var(--lightblue),0 0 10px var(--lightblue)": 1,
+          "0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor)": 2,
+          "0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor)": 1,
+          "0 0 40px var(--pink)": 1,
+          "0 0 15px var(--purple),0 0 10px var(--purple),0 0 10px var(--purple),0 0 10px var(--purple)": 1,
+          "0 0 10px var(--purple),0 0 20px var(--purple),0 0 30px var(--purple),0 0 20px var(--purple)": 1,
+          "0 0 5px var(--purple),0 0 10px var(--purple),0 0 15px var(--purple),0 0 15px var(--purple)": 1,
+          "0 0 10px var(--black),0 0 20px var(--black),0 0 30px var(--black),0 0 20px var(--black)": 1,
+          "0 0 15px var(--darkblue),0 0 10px var(--darkblue),0 0 10px var(--darkblue),0 0 10px var(--darkblue)": 1
+        },
+        "uniquenessRatio": 0.6774193548387096
+      },
+      "boxShadows": {
+        "total": 22,
+        "totalUnique": 18,
+        "unique": {
+          "0 0 5px #fff": 4,
+          "0 0 10px var(--pink),0 0 10px var(--pink),0 0 10px var(--pink),0 0 10px var(--pink)": 1,
+          "0 0 10px var(--blue),0 0 10px var(--blue),0 0 10px var(--blue),0 0 10px var(--blue)": 1,
+          "0 0 10px var(--purple),0 0 10px var(--purple),0 0 10px var(--purple),0 0 10px var(--purple)": 1,
+          "0 0 10px var(--lightblue),0 0 10px var(--lightblue),0 0 10px var(--lightblue),0 0 10px var(--lightblue)": 1,
+          "0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor)": 1,
+          "0 0 10px var(--pink),0 0 10px var(--pink)": 1,
+          "0 0 10px var(--blue),0 0 10px var(--blue)": 1,
+          "0 0 10px var(--purple),0 0 10px var(--purple)": 1,
+          "0 0 10px var(--lightblue),0 0 10px var(--lightblue)": 1,
+          "0 0 10px var(--buttoncolor),0 0 10px var(--buttoncolor)": 1,
+          "0 0 15px var(--buttoncolor)": 1,
+          "0 0 10px var(--lightblue),0 0 10px var(--lightblue),0 0 10px var(--lightblue)": 2,
+          "0 0 10px var(--pink),0 0 20px var(--pink),0 0 20px var(--pink)": 1,
+          "0 0 10px var(--lightblue),0 0 20px var(--lightblue),0 0 20px var(--lightblue)": 1,
+          "0 0 10px var(--blue),0 0 20px var(--blue),0 0 20px var(--blue)": 1,
+          "0 0 10px var(--purple),0 0 30px var(--purple),0 0 30px var(--purple)": 1,
+          "0 0 15px var(--pink)": 1
+        },
+        "uniquenessRatio": 0.8181818181818182
+      },
+      "borderRadiuses": {
+        "total": 15,
+        "totalUnique": 5,
+        "unique": {
+          "15px": 11,
+          "50px": 1,
+          "8px": 1,
+          "10px": 1,
+          "20px": 1
+        },
+        "uniquenessRatio": 0.3333333333333333,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 15,
+            "totalUnique": 5,
+            "unique": {
+              "15px": 11,
+              "50px": 1,
+              "8px": 1,
+              "10px": 1,
+              "20px": 1
+            },
+            "uniquenessRatio": 0.3333333333333333
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 11,
+          "totalUnique": 4,
+          "unique": {
+            ".3s": 3,
+            "0s": 2,
+            ".8s": 3,
+            ".2s": 3
+          },
+          "uniquenessRatio": 0.36363636363636365
+        },
+        "timingFunctions": {
+          "total": 6,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 5,
+            "ease-in-out": 1
+          },
+          "uniquenessRatio": 0.3333333333333333
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 389,
+        "totalUnique": 3,
+        "unique": {
+          "px": 376,
+          "vh": 1,
+          "s": 12
+        },
+        "uniquenessRatio": 0.007712082262210797,
+        "itemsPerContext": {
+          "--font-size-button": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-legende": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-body2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-body1": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-body": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-chapo": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-subtitle": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-title": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-time": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-header": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--font-size-small-title": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space-img": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space-chapo": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space-button": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space-title": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space-page": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "letter-spacing": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "margin-top": {
+            "total": 20,
+            "totalUnique": 1,
+            "unique": {
+              "px": 20
+            },
+            "uniquenessRatio": 0.05
+          },
+          "margin-bottom": {
+            "total": 14,
+            "totalUnique": 1,
+            "unique": {
+              "px": 14
+            },
+            "uniquenessRatio": 0.07142857142857142
+          },
+          "margin-left": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "margin-right": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "background-size": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "height": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "vh": 1,
+              "px": 6
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "margin": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "width": {
+            "total": 35,
+            "totalUnique": 1,
+            "unique": {
+              "px": 35
+            },
+            "uniquenessRatio": 0.02857142857142857
+          },
+          "padding-bottom": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "left": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "top": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "padding-top": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "right": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "gap": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "border": {
+            "total": 21,
+            "totalUnique": 1,
+            "unique": {
+              "px": 21
+            },
+            "uniquenessRatio": 0.047619047619047616
+          },
+          "box-shadow": {
+            "total": 54,
+            "totalUnique": 1,
+            "unique": {
+              "px": 54
+            },
+            "uniquenessRatio": 0.018518518518518517
+          },
+          "padding": {
+            "total": 27,
+            "totalUnique": 1,
+            "unique": {
+              "px": 27
+            },
+            "uniquenessRatio": 0.037037037037037035
+          },
+          "padding-right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "text-shadow": {
+            "total": 108,
+            "totalUnique": 1,
+            "unique": {
+              "px": 108
+            },
+            "uniquenessRatio": 0.009259259259259259
+          },
+          "transition": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "s": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "padding-left": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "border-radius": {
+            "total": 15,
+            "totalUnique": 1,
+            "unique": {
+              "px": 15
+            },
+            "uniquenessRatio": 0.06666666666666667
+          },
+          "animation": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "s": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 594
+      },
+      "keywords": {
+        "total": 8,
+        "totalUnique": 2,
+        "unique": {
+          "none": 7,
+          "auto": 1
+        },
+        "uniquenessRatio": 0.25
+      }
+    },
+    "__meta__": {
+      "parseTime": 3,
+      "analyzeTime": 5,
+      "total": 8
+    }
+  }
+}

@@ -1,0 +1,3475 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "AI Evolution - Le cerveau artificiel",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Cerveau Bleu.png",
+          "alt": "Cerveau Artificiel",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Cerveau bleu gris.png",
+          "alt": "Cerveau Technologique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Humain moitie cerveau.png",
+          "alt": "Comparaison Cerveau",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 99,
+      "externalLinks": 0,
+      "internalLinks": 16,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Le Cerveau Artificiel :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Le Cerveau Artificiel :",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "La prochaine frontière de l'intelligence",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Une intelligence inspirée du cerveau humain",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Une intelligence inspirée du cerveau humain",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Comparaison entre cerveau humain et IA",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Comparaison entre cerveau humain et IA",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "ARTICLE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "EX MACHINA",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "LIVRE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "MUSIQUE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 1,
+          "lastColumn": 16,
+          "firstColumn": 1,
+          "message": "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.",
+          "extract": "<html lang=\"fr\">\n<head",
+          "hiliteStart": 0,
+          "hiliteLength": 16
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "The “main” element must not appear as a descendant of the “main” element.",
+          "extract": "main>\n    <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "A document must not include more than one visible “main” element.",
+          "extract": "main>\n    <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 48,
+          "lastColumn": 77,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/Cerveau Bleu.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/Cerveau Bleu.png\" alt=\"Cerveau Artificiel\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 65
+        },
+        {
+          "type": "error",
+          "lastLine": 59,
+          "lastColumn": 85,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/Cerveau bleu gris.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/Cerveau bleu gris.png\" alt=\"Cerveau Technologique\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 73
+        },
+        {
+          "type": "error",
+          "lastLine": 69,
+          "lastColumn": 87,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/Humain moitie cerveau.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/Humain moitie cerveau.png\" alt=\"Comparaison Cerveau\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        },
+        {
+          "type": "error",
+          "lastLine": 186,
+          "lastColumn": 7,
+          "firstColumn": 1,
+          "message": "End tag for  “body” seen, but there were unclosed elements.",
+          "extract": "</script>\n</body>\n</htm",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 42,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Unclosed element “main”.",
+          "extract": ">\n</nav>\n\n<main>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.69,
+        "accessibility": 1,
+        "bestPractices": 0.86,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 7513,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 1514,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Cerveau%20Bleu.png",
+            "resourceSize": 139308,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Cerveau%20bleu%20gris.png",
+            "resourceSize": 182381,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Humain%20moitie%20cerveau.png",
+            "resourceSize": 238692,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article.html",
+      "title": "Article - Cerveau Artificiel",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Technologie du cerveau artificiel.png",
+          "alt": "Technologie du Cerveau Artificiel",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ia dans la medecine.png",
+          "alt": "IA dans la Médecine",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Ia dans la logistique.png",
+          "alt": "IA dans la Logistique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Robots autonomes en fabrication.png",
+          "alt": "Robots autonomes",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ethique et ia.png",
+          "alt": "Éthique et IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 95,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 6,
+        "h2": 0,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Fonctionnalités du Cerveau Artificiel",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Fonctionnalités du Cerveau Artificiel",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Diagnostic Médical Assisté par l’IA",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Diagnostic Médical Assisté par l’IA",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Robots Autonomes dans la Logistique et la Fabrication",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Robots Autonomes dans la Logistique et la Fabrication",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Robots autonomes dans la logistique et la fabrication :",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Robots autonomes dans la logistique et la fabrication :",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Éthique et Cerveaux Artificiels",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Éthique et Cerveaux Artificiels",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 1,
+          "lastColumn": 16,
+          "firstColumn": 1,
+          "message": "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.",
+          "extract": "<html lang=\"fr\">\n<head",
+          "hiliteStart": 0,
+          "hiliteLength": 16
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "The “main” element must not appear as a descendant of the “main” element.",
+          "extract": "main>\n    <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "A document must not include more than one visible “main” element.",
+          "extract": "main>\n    <main>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 50,
+          "lastColumn": 113,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/Technologie du cerveau artificiel.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/Technologie du cerveau artificiel.png\" alt=\"Technologie du Cerveau Artificiel\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 101
+        },
+        {
+          "type": "error",
+          "lastLine": 65,
+          "lastColumn": 85,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/ia dans la medecine.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/ia dans la medecine.png\" alt=\"IA dans la Médecine\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 73
+        },
+        {
+          "type": "error",
+          "lastLine": 79,
+          "lastColumn": 89,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/Ia dans la logistique.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/Ia dans la logistique.png\" alt=\"IA dans la Logistique\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 77
+        },
+        {
+          "type": "error",
+          "lastLine": 88,
+          "lastColumn": 94,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/Robots autonomes en fabrication.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/Robots autonomes en fabrication.png\" alt=\"Robots autonomes\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 82
+        },
+        {
+          "type": "error",
+          "lastLine": 99,
+          "lastColumn": 73,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/ethique et ia.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/ethique et ia.png\" alt=\"Éthique et IA\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 61
+        },
+        {
+          "type": "error",
+          "lastLine": 182,
+          "lastColumn": 7,
+          "firstColumn": 1,
+          "message": "End tag for  “body” seen, but there were unclosed elements.",
+          "extract": "</script>\n</body>\n</htm",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 40,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Unclosed element “main”.",
+          "extract": ">\n</nav>\n\n<main>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.76,
+        "accessibility": 0.97,
+        "bestPractices": 0.86,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article.html",
+            "resourceSize": 7496,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/article.css",
+            "resourceSize": 1557,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Technologie%20du%20cerveau%20artificiel.png",
+            "resourceSize": 271552,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ia%20dans%20la%20medecine.png",
+            "resourceSize": 144922,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Ia%20dans%20la%20logistique.png",
+            "resourceSize": 178813,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Robots%20autonomes%20en%20fabrication.png",
+            "resourceSize": 162303,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ethique%20et%20ia.png",
+            "resourceSize": 171,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/film.html",
+      "title": "AI Evolution - Le cerveau artificiel",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/filmposter.png",
+          "alt": "Affiche du film Ex Machina",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/avaside.png",
+          "alt": "Ava",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/calebside.png",
+          "alt": "Caleb",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nathan.png",
+          "alt": "Nathan",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ava.png",
+          "alt": "Ava",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/caleb.png",
+          "alt": "Caleb",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/alex garland.png",
+          "alt": "Alex Garland",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Personnages principaux",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Personnages principaux",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Réalisateur",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Réalisateur",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Bande annonce officielle",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Bande annonce officielle",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Réception et impact",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Réception et impact",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 99,
+          "lastColumn": 71,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/alex garland.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/alex garland.png\" alt=\"Alex Garland\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 59
+        },
+        {
+          "type": "error",
+          "lastLine": 109,
+          "lastColumn": 102,
+          "firstColumn": 13,
+          "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+          "extract": "          <iframe src=\"https://www.youtube.com/watch?v=EoQuVnKhxaM\" frameborder=\"0\" allowfullscreen></ifra",
+          "hiliteStart": 10,
+          "hiliteLength": 90
+        },
+        {
+          "type": "error",
+          "lastLine": 120,
+          "lastColumn": 11,
+          "firstColumn": 5,
+          "message": "Stray end tag “main”.",
+          "extract": "tion>\n    </main>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 0.93,
+        "bestPractices": 0.68,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/film.html",
+            "resourceSize": 9653,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/film.css",
+            "resourceSize": 3874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/filmposter.png",
+            "resourceSize": 74347,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/avaside.png",
+            "resourceSize": 20981,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/calebside.png",
+            "resourceSize": 23616,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nathan.png",
+            "resourceSize": 10278,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ava.png",
+            "resourceSize": 7704,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/caleb.png",
+            "resourceSize": 9079,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/alex%20garland.png",
+            "resourceSize": 7192,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=EoQuVnKhxaM",
+            "resourceSize": 0,
+            "mimeType": "application/binary"
+          },
+          {
+            "url": "https://m.youtube.com/watch?v=EoQuVnKhxaM",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNEAAABkBAMAAABayruYAAAAJFBMVEUAAADa2tr/////9/e6urpTU…",
+            "resourceSize": 3002,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACY4AAADCCAMAAADT9DSoAAAANlBMVEUAAADa2tr/////9/e5ubn39…",
+            "resourceSize": 4758,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQAQMAAADdiHD7AAAABlBMVEUAAABTU1OoaSf/AAAAAXRST…",
+            "resourceSize": 170,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/galerie.html",
+      "title": "Galerie",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/exmachina2015.png",
+          "alt": "Ex Machina",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/bladegunner.png",
+          "alt": "Blade Runner",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/a.i artificial intelligence.png",
+          "alt": "A.I. Artificial Intelligence",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/trans.png",
+          "alt": "Transcendence",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 85,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Ex Machina (2015)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Blade Runner (1982)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "A.I. Artificial Intelligence (2001)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Transcendence (2014)",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 63,
+          "lastColumn": 110,
+          "firstColumn": 21,
+          "message": "Bad value “/assets/img/a.i artificial intelligence.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/a.i artificial intelligence.png\" alt=\"A.I. Artificial Intelligence\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 90
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/galerie.html",
+            "resourceSize": 5970,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/galerie.css",
+            "resourceSize": 1712,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/exmachina2015.png",
+            "resourceSize": 86532,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/bladegunner.png",
+            "resourceSize": 115159,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/a.i%20artificial%20intelligence.png",
+            "resourceSize": 63547,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/trans.png",
+            "resourceSize": 97292,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/livre.html",
+      "title": "Superintelligence - Nick Bostrom",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Superintelligence.png",
+          "alt": "Couverture du livre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/nickboston.png",
+          "alt": "Photo de Nick Bostrom",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 89,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 2,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Superintelligence : Paths, Dangers, Strategies",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Superintelligence : Paths, Dangers, Strategies",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Auteur",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Auteur",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Impact Culturel",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Impact Culturel",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Start tag “body” seen but an element of the same type was already open.",
+          "extract": "v>\n</nav>\n<body>\n  \n  ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/livre.html",
+            "resourceSize": 6517,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/livre.css",
+            "resourceSize": 1828,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Superintelligence.png",
+            "resourceSize": 116864,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/nickboston.png",
+            "resourceSize": 17070,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/musique.html",
+      "title": "AI Evolution - Musique",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/computerworld.png",
+          "alt": "Image de Computer World",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 86,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 2,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Computer World de Kraftwerk",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Computer World de Kraftwerk",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Paroles et Signification",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Paroles et Signification",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Popularité",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Popularité",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/musique.html",
+            "resourceSize": 7521,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/musique.css",
+            "resourceSize": 1459,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/computerworld.png",
+            "resourceSize": 88469,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/frise.html",
+      "title": "Frise Chronologique",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/testdetuning.png",
+          "alt": "Test de Turing",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/conférence.png",
+          "alt": "Conférence de Dartmouth",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/deepblue.png",
+          "alt": "Deep Blue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/siri.png",
+          "alt": "Siri est lancé",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/alpha.png",
+          "alt": "AlphaGo bat Lee Sedol",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/gpt2.png",
+          "alt": "GPT-3 est lancé",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Frise",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "Test de Turing",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Conférence de Dartmouth",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Deep Blue vs. Garry Kasparov",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Siri est lancé",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "AlphaGo bat Lee Sedol",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "GPT-3 est lancé",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 40,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Start tag “body” seen but an element of the same type was already open.",
+          "extract": "v>\n</nav>\n<body>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.84,
+        "accessibility": 0.97,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/frise.html",
+            "resourceSize": 7121,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 2111,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/testdetuning.png",
+            "resourceSize": 4448,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/conf%C3%A9rence.png",
+            "resourceSize": 15727,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/deepblue.png",
+            "resourceSize": 42952,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/siri.png",
+            "resourceSize": 27756,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/alpha.png",
+            "resourceSize": 23766,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/gpt2.png",
+            "resourceSize": 31889,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autresprojets.html",
+      "title": "AI Evolution - Musique",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 92,
+      "externalLinks": 6,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 6,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Autres projets à découvrir!",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Autres projets à découvrir!",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "01",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Mathis Juillard",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "02",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Manolia Kocaoglu",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "03",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Victor Landwerlin",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "04",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Lucas Lebars",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "05",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Ugo Lippi",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "06",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Myliana Jolivet",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 1,
+          "lastColumn": 16,
+          "firstColumn": 1,
+          "message": "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.",
+          "extract": "<html lang=\"fr\">\n\n<hea",
+          "hiliteStart": 0,
+          "hiliteLength": 16
+        },
+        {
+          "type": "error",
+          "lastLine": 114,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Stray end tag “div”.",
+          "extract": "</script>\n</div>\n<!-- ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.86,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autresprojets.html",
+            "resourceSize": 5726,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/autresprojets.css",
+            "resourceSize": 1225,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "AI Evolution - Musique",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/IA.png",
+          "alt": "IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/algorithme.png",
+          "alt": "Algorithme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/resaux.png",
+          "alt": "Réseaux de Neurones",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/robotique.png",
+          "alt": "Robotique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/visionparoridnateur.png",
+          "alt": "Vision par Ordinateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ethique de l'ia.png",
+          "alt": "Éthique de l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 98,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 3,
+          "text": "Intelligence Artificielle (IA)",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Algorithme",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Réseaux de Neurones",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Robotique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Vision par Ordinateur",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Éthique de l'IA",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Start tag “body” seen but an element of the same type was already open.",
+          "extract": "\n</nav>\n\n\n<body>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 86,
+          "lastColumn": 81,
+          "firstColumn": 17,
+          "message": "Bad value “/assets/img/ethique de l'ia.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/ethique de l'ia.png\" alt=\"Éthique de l'IA\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 65
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.97,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 6796,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/glossaire.css",
+            "resourceSize": 1419,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/IA.png",
+            "resourceSize": 37920,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/algorithme.png",
+            "resourceSize": 56221,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/resaux.png",
+            "resourceSize": 17032,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/robotique.png",
+            "resourceSize": 41128,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/visionparoridnateur.png",
+            "resourceSize": 50779,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ethique%20de%20l'ia.png",
+            "resourceSize": 56845,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "Frise Chronologique",
+      "images": [
+        {
+          "src": "/assets/img/Logo.png",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ukflag.png",
+          "alt": "English",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/aproposdemoi.png",
+          "alt": "Illustration Intelligence Artificielle",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/instagram.jpg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/X.jpg",
+          "alt": "X",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facebook.jpg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 82,
+      "externalLinks": 0,
+      "internalLinks": 12,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 4,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "AI Evolution",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Bienvenue sur notre plateforme dédiée à l'exploration de l'intelligence artificielle !",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Bienvenue sur notre plateforme dédiée à l'exploration de l'intelligence artificielle !",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "À propos de moi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Notre Philosophie",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Notre Mission",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Contactez-nous",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "CONTACT",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "NOUS SUIVRE",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 40,
+          "lastColumn": 6,
+          "firstColumn": 1,
+          "message": "Start tag “body” seen but an element of the same type was already open.",
+          "extract": "v>\n</nav>\n<body>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.93,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 6772,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/apropos.css",
+            "resourceSize": 1419,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 958,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 2678,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo.png",
+            "resourceSize": 10812,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ukflag.png",
+            "resourceSize": 2006,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/aproposdemoi.png",
+            "resourceSize": 184374,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/instagram.jpg",
+            "resourceSize": 5943,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/X.jpg",
+            "resourceSize": 5238,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facebook.jpg",
+            "resourceSize": 3560,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 190,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/header.js",
+            "resourceSize": 987,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "blockquote",
+      "ul",
+      "li",
+      "button",
+      "img",
+      "a",
+      "em",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "video"
+    ],
+    "obsoleteTags": [
+      "b"
+    ],
+    "obsoleteTagsUsage": {
+      "b": 3
+    },
+    "otherTags": [
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 153,
+      "br": 10
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 56,
+      "linesOfCode": 1,
+      "size": 982,
+      "complexity": 153,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 0,
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0
+      }
+    },
+    "rules": {
+      "total": 11,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 11,
+        "mean": 5.090909090909091,
+        "mode": 5,
+        "median": 5,
+        "range": 9,
+        "sum": 56,
+        "items": [
+          4,
+          5,
+          2,
+          6,
+          2,
+          5,
+          6,
+          5,
+          7,
+          11,
+          3
+        ],
+        "total": 11,
+        "totalUnique": 7,
+        "unique": {
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 3,
+          "6": 2,
+          "7": 1,
+          "11": 1
+        },
+        "uniquenessRatio": 0.6363636363636364
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0909090909090908,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 12,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 11,
+        "totalUnique": 2,
+        "unique": {
+          "1": 10,
+          "2": 1
+        },
+        "uniquenessRatio": 0.18181818181818182
+      },
+      "declarations": {
+        "min": 1,
+        "max": 10,
+        "mean": 4,
+        "mode": 3.25,
+        "median": 4,
+        "range": 9,
+        "sum": 44,
+        "items": [
+          3,
+          4,
+          1,
+          5,
+          1,
+          3,
+          5,
+          4,
+          6,
+          10,
+          2
+        ],
+        "total": 11,
+        "totalUnique": 7,
+        "unique": {
+          "1": 2,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 1,
+          "10": 1
+        },
+        "uniquenessRatio": 0.6363636363636364
+      }
+    },
+    "selectors": {
+      "total": 12,
+      "totalUnique": 12,
+      "uniquenessRatio": 1,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          2,
+          0
+        ],
+        "sum": [
+          0,
+          9,
+          7
+        ],
+        "mean": [
+          0,
+          0.75,
+          0.5833333333333334
+        ],
+        "mode": [
+          0,
+          1,
+          1
+        ],
+        "median": [
+          0,
+          1,
+          1
+        ],
+        "items": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "total": 12,
+        "totalUnique": 5,
+        "unique": {
+          "0,0,0": 1,
+          "0,0,1": 3,
+          "0,1,0": 3,
+          "0,1,1": 4,
+          "0,2,0": 1
+        },
+        "uniquenessRatio": 0.4166666666666667
+      },
+      "complexity": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.75,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 21,
+        "total": 12,
+        "totalUnique": 3,
+        "unique": {
+          "1": 7,
+          "2": 1,
+          "3": 4
+        },
+        "uniquenessRatio": 0.25,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          2
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          " ": 4
+        },
+        "uniquenessRatio": 0.25
+      }
+    },
+    "declarations": {
+      "total": 44,
+      "totalUnique": 38,
+      "uniquenessRatio": 0.8636363636363636,
+      "unique": {
+        "total": 38,
+        "ratio": 0.8636363636363636
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 44
+      }
+    },
+    "properties": {
+      "total": 44,
+      "totalUnique": 22,
+      "unique": {
+        "box-sizing": 1,
+        "margin": 4,
+        "padding": 4,
+        "background-color": 1,
+        "color": 6,
+        "font-family": 1,
+        "line-height": 1,
+        "font-weight": 2,
+        "margin-top": 1,
+        "padding-top": 1,
+        "text-align": 4,
+        "margin-bottom": 2,
+        "border-radius": 3,
+        "display": 2,
+        "height": 1,
+        "max-width": 2,
+        "background": 3,
+        "box-shadow": 1,
+        "font-size": 1,
+        "text-decoration": 1,
+        "transition": 1,
+        "transform": 1
+      },
+      "uniquenessRatio": 0.5,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 44
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 14,
+        "totalUnique": 10,
+        "unique": {
+          "#000": 2,
+          "#fff": 2,
+          "#00bcd4": 3,
+          "#ddd": 1,
+          "#1e1e1e": 1,
+          "#036": 1,
+          "rgba(0,0,0,.5)": 1,
+          "#bbb": 1,
+          "#0c1516": 1,
+          "#008ba3": 1
+        },
+        "uniquenessRatio": 0.7142857142857143,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 6,
+            "totalUnique": 4,
+            "unique": {
+              "#fff": 2,
+              "#00bcd4": 2,
+              "#ddd": 1,
+              "#bbb": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "background": {
+            "total": 6,
+            "totalUnique": 6,
+            "unique": {
+              "#1e1e1e": 1,
+              "#036": 1,
+              "#00bcd4": 1,
+              "#0c1516": 1,
+              "#008ba3": 1,
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "box-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.5)": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 14,
+          "totalUnique": 3,
+          "unique": {
+            "hex3": 7,
+            "hex6": 6,
+            "rgba": 1
+          },
+          "uniquenessRatio": 0.21428571428571427
+        }
+      },
+      "gradients": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "linear-gradient(180deg,#1e1e1e,#036)": 1,
+          "linear-gradient(90deg,#00bcd4,#0c1516)": 1,
+          "linear-gradient(90deg,#008ba3,#000)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "Arial,sans-serif": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontSizes": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "1rem": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "lineHeights": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "1.8": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0 4px 8px rgba(0,0,0,.5)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "10px": 2,
+          "5px": 1
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "10px": 2,
+              "5px": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            ".5s": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "timingFunctions": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "ease": 2
+          },
+          "uniquenessRatio": 0.5
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 24,
+        "totalUnique": 4,
+        "unique": {
+          "px": 18,
+          "deg": 3,
+          "rem": 1,
+          "s": 2
+        },
+        "uniquenessRatio": 0.16666666666666666,
+        "itemsPerContext": {
+          "padding": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "margin-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border-radius": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "max-width": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "font-size": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "transition": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 44
+      },
+      "keywords": {
+        "total": 4,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 3,
+          "none": 1
+        },
+        "uniquenessRatio": 0.5
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 1,
+      "total": 2
+    }
+  }
+}

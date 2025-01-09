@@ -1,0 +1,5872 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Accueil",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/accueil.webp",
+          "alt": "Personne portant des lunettes futuristes et technologique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunettesfuturistepetites.webp",
+          "alt": "Robot avec des lunettes futuristes",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/marvelpetite.webp",
+          "alt": "Image du logo Marvel",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/spidermanpetite.webp",
+          "alt": "Affiche du film Spider-Man Far From Home",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/jonwattspetite.webp",
+          "alt": "Image du réalisateur Jon Watts",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/missionimpossiblepetite.webp",
+          "alt": "Image de la cover de la musique The Plot Thickens",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 113,
+      "externalLinks": 3,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Optic 3000",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Les lunettes futuristes",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Les lunettes futuristes",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Les lunettes futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Marvel Univers",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Marvel Univers",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Spider-Man Far From Home",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Spider-Man Far From Home",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jon Watts",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Jon Watts",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "The Plot Thickens",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "The Plot Thickens",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 249,
+          "firstLine": 243,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.81,
+        "accessibility": 0.91,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 11635,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/accueil.webp",
+            "resourceSize": 46674,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettesfuturistepetites.webp",
+            "resourceSize": 64912,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/marvelpetite.webp",
+            "resourceSize": 8144,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/spidermanpetite.webp",
+            "resourceSize": 53804,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/objet.html",
+      "title": "Les lunettes futuristes",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunettes-futuristes.webp",
+          "alt": "Gros plan sur une personne portant des lunettes futuristes",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Lunettes-avec-ecrans-ultra-haute-resolution-et-assistant-virtuel-integre.webp",
+          "alt": "Image d'une personne portant des lunettes avec écrans ultra haute résolution et assistant virtuel intégré",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Capacites-de-vision-avancées-et-connectivité-totale.webp",
+          "alt": "Image montrant une paire de lunettes futuristes avec des verres affichant des icônes numériques. Chaque verre affiche plusieurs icônes lumineuses représentant diverses applications et fonctionnalités, telles que la musique, les messages, les graphiques, et les paramètres. Les lunettes sont équipées de caméras sur les côtés des verres. L'ensemble donne une impression de technologie avancée et de réalité augmentée. ",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Durabilite-et-materiaux-de-haute-technologie.webp",
+          "alt": "Image montre des lunettes futuristes avec des montures en fibre de carbone, symbolisant la durabilité. Les verres affichent des icônes numériques représentant diverses fonctionnalités de haute technologie.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/besicles.webp",
+          "alt": "Besicles",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/monocle.webp",
+          "alt": "Monocle",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunettecorneetcuir.webp",
+          "alt": "Lunettes en corne et en cuir",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunettetempe.webp",
+          "alt": "Lunettes à tempe",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/verredoublefoyer.webp",
+          "alt": "Verre double foyer",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/binocles.webp",
+          "alt": "Binocles",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/pincenez.webp",
+          "alt": "Pince-nez",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/monoclefeminin.webp",
+          "alt": "Monocle féminin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facemainlong.webp",
+          "alt": "Face-à-main (à long manche et sans corde)",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/facemaincourt.webp",
+          "alt": "Face-à-main (à petit manche et corde)",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunettefil.webp",
+          "alt": "Lunette-fil/lunette-cheveu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunetteaujourdhui.webp",
+          "alt": "Lunette d’aujourd’hui",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/appleglass.webp",
+          "alt": "Apple Glass",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lunettesfutur.webp",
+          "alt": "Lunette intelligente",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 171,
+      "externalLinks": 3,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 20,
+        "h3": 17,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les lunettes futuristes de l'an 3000",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Lunettes avec écrans ultra haute résolution et assistant virtuel intégré",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Une surveillance santé de pointe",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Capacités de vision avancées et connectivité totale",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Durabilité et matériaux de haute technologie",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Frise Chronologique",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "1500",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "1500",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Besicles en cuir",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1520",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Monocle",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1550",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Lunettes en corne et en cuir",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1752",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Lunettes à tempe",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1784",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Verre double foyer",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1835",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Binocles",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1850",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Pince-nez",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1855",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Monocle féminin",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1895",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Face-à-main (à long manche et sans corde)",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1895",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Face-à-main (à petit manche et corde)",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "1925",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Lunette-fil/lunette-cheveu",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "2000",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Lunette d’aujourd’hui",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "2030",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Apple Glass",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "3000",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Lunette intelligente",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "À lire aussi :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 313,
+          "firstLine": 307,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.84,
+        "accessibility": 0.96,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/objet.html",
+            "resourceSize": 17024,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettes-futuristes.webp",
+            "resourceSize": 141802,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Lunettes-avec-ecrans-ultra-haute-resolution-et-assistant-virtuel-integre.webp",
+            "resourceSize": 71764,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Capacites-de-vision-avanc%C3%A9es-et-connectivit%C3%A9-totale.webp",
+            "resourceSize": 44480,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Durabilite-et-materiaux-de-haute-technologie.webp",
+            "resourceSize": 61912,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/besicles.webp",
+            "resourceSize": 3860,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/monocle.webp",
+            "resourceSize": 4202,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettecorneetcuir.webp",
+            "resourceSize": 6118,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettetempe.webp",
+            "resourceSize": 2160,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/verredoublefoyer.webp",
+            "resourceSize": 2240,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/binocles.webp",
+            "resourceSize": 7000,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/pincenez.webp",
+            "resourceSize": 2380,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/monoclefeminin.webp",
+            "resourceSize": 20200,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facemainlong.webp",
+            "resourceSize": 6128,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/facemaincourt.webp",
+            "resourceSize": 4424,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettefil.webp",
+            "resourceSize": 2630,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunetteaujourdhui.webp",
+            "resourceSize": 5188,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/appleglass.webp",
+            "resourceSize": 3560,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lunettesfutur.webp",
+            "resourceSize": 7226,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/frise.avif",
+            "resourceSize": 1419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/livre.html",
+      "title": "Univers Marvel",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/marvel.avif",
+          "alt": "Logo Marvel",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/le grand livre des lunettes.webp",
+          "alt": "Première de couverture du livre 'Le Grand Livre des lunettes'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Marvel Cinematic Universe Vol.1.webp",
+          "alt": "Première de couverture du livre 'Dans les coulisses du Marvel Cinematic Universe'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Marvel Cinematic Universe Vol.2.webp",
+          "alt": "Première de couverture du livre 'Dans les coulisses du Marvel Cinematic Universe Volume 2'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Marvel lencyclopedie.webp",
+          "alt": "Première de couverture du livre 'Marvel l'encyclopédie'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/La realite virtuelle.webp",
+          "alt": "Première de couverture du livre 'La réalité virtuelle démystifiée'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 118,
+      "externalLinks": 3,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Marvel Univers: Une plongée dans l'Empire de Stark Industries",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "L'Empire de Stark Industries",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lien avec les lunettes futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Livres similaires",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Livres similaires",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire aussi :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 138,
+          "lastColumn": 187,
+          "firstColumn": 62,
+          "message": "Bad value “/assets/img/le grand livre des lunettes.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "em\"></div><img src=\"/assets/img/le grand livre des lunettes.webp\" alt=\"Première de couverture du livre 'Le Grand Livre des lunettes'\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 126
+        },
+        {
+          "type": "error",
+          "lastLine": 142,
+          "lastColumn": 211,
+          "firstColumn": 62,
+          "message": "Bad value “/assets/img/Marvel Cinematic Universe Vol.1.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "em\"></div><img src=\"/assets/img/Marvel Cinematic Universe Vol.1.webp\" alt=\"Première de couverture du livre 'Dans les coulisses du Marvel Cinematic Universe'\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 150
+        },
+        {
+          "type": "error",
+          "lastLine": 146,
+          "lastColumn": 220,
+          "firstColumn": 62,
+          "message": "Bad value “/assets/img/Marvel Cinematic Universe Vol.2.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "em\"></div><img src=\"/assets/img/Marvel Cinematic Universe Vol.2.webp\" alt=\"Première de couverture du livre 'Dans les coulisses du Marvel Cinematic Universe Volume 2'\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 159
+        },
+        {
+          "type": "error",
+          "lastLine": 150,
+          "lastColumn": 174,
+          "firstColumn": 62,
+          "message": "Bad value “/assets/img/Marvel lencyclopedie.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "em\"></div><img src=\"/assets/img/Marvel lencyclopedie.webp\" alt=\"Première de couverture du livre 'Marvel l'encyclopédie'\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 113
+        },
+        {
+          "type": "error",
+          "lastLine": 154,
+          "lastColumn": 185,
+          "firstColumn": 62,
+          "message": "Bad value “/assets/img/La realite virtuelle.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "em\"></div><img src=\"/assets/img/La realite virtuelle.webp\" alt=\"Première de couverture du livre 'La réalité virtuelle démystifiée'\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 124
+        },
+        {
+          "type": "error",
+          "lastLine": 228,
+          "firstLine": 222,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        },
+        {
+          "type": "error",
+          "lastLine": 133,
+          "lastColumn": 69,
+          "firstColumn": 13,
+          "message": "The “aria-labelledby” attribute must point to an element in the same document.",
+          "extract": "          <div class=\"carousel\" aria-labelledby=\"carousel-heading\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.96,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/livre.html",
+            "resourceSize": 12803,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/marvel.avif",
+            "resourceSize": 11519,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/le%20grand%20livre%20des%20lunettes.webp",
+            "resourceSize": 28780,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Marvel%20Cinematic%20Universe%20Vol.1.webp",
+            "resourceSize": 26226,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Marvel%20Cinematic%20Universe%20Vol.2.webp",
+            "resourceSize": 19798,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Marvel%20lencyclopedie.webp",
+            "resourceSize": 44726,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/La%20realite%20virtuelle.webp",
+            "resourceSize": 18312,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/film.html",
+      "title": "Spider-Man Far From Home",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/spider-manfarfromhome.webp",
+          "alt": "Affiche du film Spider-Man Far From Home",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 92,
+      "externalLinks": 3,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Spider-Man Far From Home Héritage et Technologie de Stark",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Synopsis du film",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les lunettes de Tony Stark: EDITH",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lien avec les lunettes futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Bande annonce",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire aussi :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 128,
+          "lastColumn": 122,
+          "firstColumn": 13,
+          "message": "Bad value “https://ugo-lippi.fr/video/Spider-Man Far From Home - Bande-annonce 2 - VF.mp4” for attribute “src” on element “source”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <source src=\"https://ugo-lippi.fr/video/Spider-Man Far From Home - Bande-annonce 2 - VF.mp4\" type=\"video/mp4\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 110
+        },
+        {
+          "type": "error",
+          "lastLine": 193,
+          "firstLine": 187,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 0.96,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/film.html",
+            "resourceSize": 10253,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/spider-manfarfromhome.webp",
+            "resourceSize": 143274,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://ugo-lippi.fr/video/Spider-Man%20Far%20From%20Home%20-%20Bande-annonce%202%20-%20VF.mp4",
+            "resourceSize": 167848,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/realisateur.html",
+      "title": "Jon Watts",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/jonwatts.webp",
+          "alt": "Image de Jon Watts",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 88,
+      "externalLinks": 3,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Jon Watts De Clown à Spider-Man",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Biographie de Jon Watts",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lien avec les lunettes futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire aussi :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 188,
+          "firstLine": 182,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.96,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/realisateur.html",
+            "resourceSize": 10288,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/jonwatts.webp",
+            "resourceSize": 35932,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/musique.html",
+      "title": "The Plot Thickens",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/theplotthickens.webp",
+          "alt": "Image de la cover de la musique The Plot Thickens",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 86,
+      "externalLinks": 3,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "The Plot Thickens Un Chef-d'œuvre Musical pour Mission Impossible 7",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Une Composition Captivante",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les Lunettes Futuristes en Scène",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lien avec les Lunettes Futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 184,
+          "firstLine": 178,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.96,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/musique.html",
+            "resourceSize": 10088,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/theplotthickens.webp",
+            "resourceSize": 55056,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/galerie.html",
+      "title": "Galerie",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/imagegalerie.webp",
+          "alt": "Image de la galerie",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affichespidermanfarfromhome.webp",
+          "alt": "Affiche du film Spider-Man Far From Home",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affichemissionimpossible.webp",
+          "alt": "Affiche du film Mission Impossible Dead Reckoning Partie 1",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affichereadyplayerone.webp",
+          "alt": "Affiche du film Ready Player One",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affichekingsman.webp",
+          "alt": "Affiche du film Kingsman Services Secrets",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/afficheminorityreport.webp",
+          "alt": "Affiche du film Mission Minority Report",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 82,
+      "externalLinks": 3,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Galerie",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 93,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "Stray end tag “div”.",
+          "extract": ">\n        </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 158,
+          "firstLine": 152,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.84,
+        "accessibility": 0.94,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/galerie.html",
+            "resourceSize": 7828,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/imagegalerie.webp",
+            "resourceSize": 115004,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affichespidermanfarfromhome.webp",
+            "resourceSize": 83240,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affichemissionimpossible.webp",
+            "resourceSize": 105622,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affichereadyplayerone.webp",
+            "resourceSize": 116492,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affichekingsman.webp",
+            "resourceSize": 66884,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/afficheminorityreport.webp",
+            "resourceSize": 50346,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/accueil.webp",
+          "alt": "Affiche du glossaire",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 100,
+      "externalLinks": 3,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 188,
+          "firstLine": 182,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 8536,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/accueil.webp",
+            "resourceSize": 46674,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/accueil.webp",
+          "alt": "Personne portant des lunettes futuristes et technologique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 90,
+      "externalLinks": 3,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contactez-nous",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Contactez-nous",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 98,
+          "lastColumn": 12,
+          "firstColumn": 7,
+          "message": "Stray end tag “div”.",
+          "extract": "iv>\n      </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 107,
+          "lastColumn": 66,
+          "firstColumn": 17,
+          "message": "Duplicate ID “name”.",
+          "extract": "          <input type=\"text\" id=\"name\" name=\"name\" required>\n    \n",
+          "hiliteStart": 10,
+          "hiliteLength": 50
+        },
+        {
+          "type": "error",
+          "lastLine": 174,
+          "firstLine": 168,
+          "lastColumn": 18,
+          "firstColumn": 17,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                  src=\"/assets/icons/MMI.svg\"\n                  aria-hidden=\"true\"\n                  alt=\"\"\n                  width=\"53.07\"\n                  height=\"38\"\n                />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 193
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.92,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 7965,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/accueil.webp",
+            "resourceSize": 46674,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "A propos",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/accueil.webp",
+          "alt": "Personne portant des lunettes futuristes et technologique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 79,
+      "externalLinks": 3,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "A propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À propos",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "À propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 105,
+          "lastColumn": 12,
+          "firstColumn": 6,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": "</p>\n     </main>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 91,
+          "lastColumn": 35,
+          "firstColumn": 9,
+          "message": "Unclosed element “section”.",
+          "extract": ">\n        <section class=\"container\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "lastLine": 160,
+          "firstLine": 154,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 8260,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/accueil.webp",
+            "resourceSize": 46674,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autresprojets.html",
+      "title": "Autres projets",
+      "images": [
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Changementlangue.svg",
+          "alt": "Changement de langue pour passer le site en anglais",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/accueil.webp",
+          "alt": "Image de la galerie",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/eva.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/myliana.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/lucas.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/victor.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/manolia.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/mathis.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/youssef.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/enzo.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Logo.svg",
+          "alt": "Logo d'Optic 3000",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/Instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/MMI.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 94,
+      "externalLinks": 10,
+      "internalLinks": 15,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Autres projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Ugo LIPPI",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Ugo LIPPI",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe B2",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "ugolippi25@gmail.com",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 93,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "Stray end tag “div”.",
+          "extract": ">\n        </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 163,
+          "firstLine": 157,
+          "lastColumn": 20,
+          "firstColumn": 19,
+          "message": "Bad value “53.07” for attribute “width” on element “img”: Expected a digit but saw “.” instead.",
+          "extract": "          <img\n                    src=\"/assets/icons/MMI.svg\"\n                    aria-hidden=\"true\"\n                    alt=\"\"\n                    width=\"53.07\"\n                    height=\"38\"\n                  />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 205
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.94,
+        "bestPractices": 1,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autresprojets.html",
+            "resourceSize": 8450,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 645,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1292,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Logo.svg",
+            "resourceSize": 151421,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Changementlangue.svg",
+            "resourceSize": 110230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/accueil.webp",
+            "resourceSize": 46674,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/eva.webp",
+            "resourceSize": 26822,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/myliana.avif",
+            "resourceSize": 6160,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lucas.avif",
+            "resourceSize": 3147,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/victor.webp",
+            "resourceSize": 8534,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/manolia.avif",
+            "resourceSize": 16355,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mathis.avif",
+            "resourceSize": 22192,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/youssef.webp",
+            "resourceSize": 15802,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/enzo.webp",
+            "resourceSize": 40980,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/Instagram.svg",
+            "resourceSize": 846710,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/MMI.svg",
+            "resourceSize": 14383,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap",
+            "resourceSize": 5848,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6138,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 785,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 2367,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 2392,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 515,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 850,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1314,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapo.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 281,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/card.css",
+            "resourceSize": 1297,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 832,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carrousel.css",
+            "resourceSize": 920,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 610,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/alegreya/v36/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2",
+            "resourceSize": 43832,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0ZJCZ4c.woff2",
+            "resourceSize": 12308,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/favicon.svg",
+            "resourceSize": 151763,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "em"
+    ],
+    "obsoleteTags": [
+      "u"
+    ],
+    "obsoleteTagsUsage": {
+      "u": 22
+    },
+    "otherTags": [
+      "div",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 138,
+      "span": 11
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 501,
+      "linesOfCode": 1,
+      "size": 9405,
+      "complexity": 1379,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 101,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 30,
+        "mean": 4.97029702970297,
+        "mode": 3,
+        "median": 4,
+        "range": 28,
+        "sum": 502,
+        "items": [
+          30,
+          4,
+          5,
+          5,
+          3,
+          2,
+          4,
+          3,
+          2,
+          7,
+          4,
+          4,
+          3,
+          8,
+          4,
+          4,
+          2,
+          2,
+          4,
+          8,
+          4,
+          2,
+          4,
+          2,
+          3,
+          3,
+          7,
+          7,
+          3,
+          7,
+          7,
+          3,
+          7,
+          7,
+          3,
+          7,
+          7,
+          3,
+          7,
+          7,
+          2,
+          6,
+          11,
+          4,
+          4,
+          2,
+          5,
+          3,
+          7,
+          7,
+          2,
+          2,
+          6,
+          11,
+          3,
+          3,
+          3,
+          3,
+          4,
+          11,
+          2,
+          2,
+          5,
+          4,
+          9,
+          4,
+          4,
+          6,
+          3,
+          6,
+          11,
+          7,
+          8,
+          2,
+          8,
+          4,
+          4,
+          10,
+          2,
+          6,
+          3,
+          6,
+          7,
+          8,
+          3,
+          3,
+          2,
+          5,
+          5,
+          2,
+          8,
+          3,
+          4,
+          5,
+          8,
+          4,
+          2,
+          2,
+          4,
+          2,
+          2
+        ],
+        "total": 101,
+        "totalUnique": 11,
+        "unique": {
+          "2": 20,
+          "3": 19,
+          "4": 20,
+          "5": 7,
+          "6": 6,
+          "7": 15,
+          "8": 7,
+          "9": 1,
+          "10": 1,
+          "11": 4,
+          "30": 1
+        },
+        "uniquenessRatio": 0.10891089108910891
+      },
+      "selectors": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.1584158415841583,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 117,
+        "items": [
+          1,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 101,
+        "totalUnique": 3,
+        "unique": {
+          "1": 88,
+          "2": 10,
+          "3": 3
+        },
+        "uniquenessRatio": 0.0297029702970297
+      },
+      "declarations": {
+        "min": 1,
+        "max": 29,
+        "mean": 3.8118811881188117,
+        "mode": 1,
+        "median": 3,
+        "range": 28,
+        "sum": 385,
+        "items": [
+          29,
+          1,
+          4,
+          3,
+          2,
+          1,
+          3,
+          1,
+          1,
+          6,
+          3,
+          3,
+          1,
+          7,
+          3,
+          3,
+          1,
+          1,
+          3,
+          7,
+          3,
+          1,
+          2,
+          1,
+          2,
+          2,
+          6,
+          6,
+          2,
+          6,
+          6,
+          2,
+          6,
+          6,
+          2,
+          6,
+          6,
+          2,
+          6,
+          6,
+          1,
+          4,
+          10,
+          2,
+          3,
+          1,
+          4,
+          2,
+          6,
+          6,
+          1,
+          1,
+          5,
+          10,
+          2,
+          2,
+          2,
+          2,
+          3,
+          8,
+          1,
+          1,
+          2,
+          2,
+          8,
+          3,
+          3,
+          5,
+          2,
+          5,
+          10,
+          6,
+          7,
+          1,
+          7,
+          3,
+          3,
+          9,
+          1,
+          5,
+          2,
+          5,
+          5,
+          7,
+          1,
+          2,
+          1,
+          3,
+          4,
+          1,
+          7,
+          2,
+          3,
+          4,
+          7,
+          3,
+          1,
+          1,
+          3,
+          1,
+          1
+        ],
+        "total": 101,
+        "totalUnique": 11,
+        "unique": {
+          "1": 24,
+          "2": 20,
+          "3": 18,
+          "4": 5,
+          "5": 6,
+          "6": 14,
+          "7": 7,
+          "8": 2,
+          "9": 1,
+          "10": 3,
+          "29": 1
+        },
+        "uniquenessRatio": 0.10891089108910891
+      }
+    },
+    "selectors": {
+      "total": 117,
+      "totalUnique": 103,
+      "uniquenessRatio": 0.8803418803418803,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          114,
+          52
+        ],
+        "mean": [
+          0,
+          0.9743589743589743,
+          0.4444444444444444
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "total": 117,
+        "totalUnique": 8,
+        "unique": {
+          "0,1,0": 60,
+          "0,0,0": 1,
+          "0,0,1": 17,
+          "0,1,1": 29,
+          "0,2,1": 2,
+          "0,2,0": 3,
+          "0,3,0": 1,
+          "0,3,1": 4
+        },
+        "uniquenessRatio": 0.06837606837606838
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.7008547008547008,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 199,
+        "total": 117,
+        "totalUnique": 6,
+        "unique": {
+          "1": 78,
+          "2": 12,
+          "3": 20,
+          "4": 2,
+          "5": 1,
+          "6": 4
+        },
+        "uniquenessRatio": 0.05128205128205128,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          2,
+          3,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          6,
+          6,
+          6,
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          ".menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 2,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.05128205128205128
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 26,
+        "totalUnique": 2,
+        "unique": {
+          " ": 18,
+          ">": 8
+        },
+        "uniquenessRatio": 0.07692307692307693
+      }
+    },
+    "declarations": {
+      "total": 383,
+      "totalUnique": 196,
+      "uniquenessRatio": 0.5117493472584856,
+      "unique": {
+        "total": 196,
+        "ratio": 0.5117493472584856
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 383
+      }
+    },
+    "properties": {
+      "total": 383,
+      "totalUnique": 93,
+      "unique": {
+        "--bleu-fonce": 1,
+        "--bleu-clair": 1,
+        "--bleu": 1,
+        "--violet": 1,
+        "--vert-deau": 1,
+        "--rose": 1,
+        "--noir": 1,
+        "--blanc": 1,
+        "--gris": 1,
+        "--h1": 1,
+        "--h2": 1,
+        "--h3": 1,
+        "--menu": 1,
+        "--body": 1,
+        "--small-text": 1,
+        "--chapo": 1,
+        "--footer": 1,
+        "--font-oxanium": 1,
+        "--font-alegreya": 1,
+        "--line-height110": 1,
+        "--line-height150": 1,
+        "--space1x": 1,
+        "--space2x": 1,
+        "--space3x": 1,
+        "--space4x": 1,
+        "--space5x": 1,
+        "--space6x": 1,
+        "--space7x": 1,
+        "--space8x": 1,
+        "box-sizing": 1,
+        "background-color": 19,
+        "font-family": 7,
+        "font-size": 20,
+        "line-height": 3,
+        "font-weight": 3,
+        "color": 17,
+        "-webkit-appearance": 1,
+        "appearance": 1,
+        "background": 8,
+        "border": 7,
+        "cursor": 3,
+        "padding": 14,
+        "list-style": 2,
+        "margin": 5,
+        "padding-bottom": 9,
+        "padding-left": 2,
+        "padding-right": 3,
+        "overflow": 4,
+        "height": 14,
+        "position": 21,
+        "width": 19,
+        "clip": 1,
+        "white-space": 1,
+        "padding-top": 3,
+        "display": 26,
+        "flex-wrap": 1,
+        "justify-content": 10,
+        "align-items": 6,
+        "flex-direction": 7,
+        "text-decoration": 7,
+        "margin-bottom": 6,
+        "max-width": 4,
+        "content": 7,
+        "inset": 8,
+        "mix-blend-mode": 10,
+        "z-index": 11,
+        "filter": 5,
+        "object-fit": 5,
+        "left": 2,
+        "top": 4,
+        "transition": 5,
+        "gap": 3,
+        "margin-left": 3,
+        "margin-right": 2,
+        "margin-block-end": 1,
+        "margin-block-start": 1,
+        "letter-spacing": 1,
+        "opacity": 2,
+        "visibility": 2,
+        "margin-top": 2,
+        "transform": 4,
+        "text-align": 3,
+        "border-radius": 7,
+        "box-shadow": 2,
+        "align-self": 1,
+        "overflow-x": 1,
+        "scroll-snap-type": 1,
+        "flex": 1,
+        "scroll-snap-align": 1,
+        "background-image": 1,
+        "background-position": 1,
+        "background-repeat": 1,
+        "background-size": 1
+      },
+      "uniquenessRatio": 0.24281984334203655,
+      "prefixed": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "-webkit-appearance": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.0026109660574412533
+      },
+      "custom": {
+        "total": 29,
+        "totalUnique": 29,
+        "unique": {
+          "--bleu-fonce": 1,
+          "--bleu-clair": 1,
+          "--bleu": 1,
+          "--violet": 1,
+          "--vert-deau": 1,
+          "--rose": 1,
+          "--noir": 1,
+          "--blanc": 1,
+          "--gris": 1,
+          "--h1": 1,
+          "--h2": 1,
+          "--h3": 1,
+          "--menu": 1,
+          "--body": 1,
+          "--small-text": 1,
+          "--chapo": 1,
+          "--footer": 1,
+          "--font-oxanium": 1,
+          "--font-alegreya": 1,
+          "--line-height110": 1,
+          "--line-height150": 1,
+          "--space1x": 1,
+          "--space2x": 1,
+          "--space3x": 1,
+          "--space4x": 1,
+          "--space5x": 1,
+          "--space6x": 1,
+          "--space7x": 1,
+          "--space8x": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.07571801566579635,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0783289817232375,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 413
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 10,
+        "totalUnique": 10,
+        "unique": {
+          "#10158d": 1,
+          "#14d4f4": 1,
+          "#2594f7": 1,
+          "#812df3": 1,
+          "#20ddcf": 1,
+          "#dd33fe": 1,
+          "#000": 1,
+          "#fff": 1,
+          "#f3f3f3": 1,
+          "rgba(0,0,0,.2)": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "--bleu-fonce": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#10158d": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu-clair": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#14d4f4": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#2594f7": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--violet": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#812df3": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--vert-deau": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#20ddcf": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--rose": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#dd33fe": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--noir": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blanc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gris": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f3f3f3": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "box-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.2)": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 10,
+          "totalUnique": 3,
+          "unique": {
+            "hex6": 7,
+            "hex3": 2,
+            "rgba": 1
+          },
+          "uniquenessRatio": 0.3
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 7,
+        "totalUnique": 2,
+        "unique": {
+          "var(--font-alegreya)": 6,
+          "var(--font-oxanium)": 1
+        },
+        "uniquenessRatio": 0.2857142857142857
+      },
+      "fontSizes": {
+        "total": 20,
+        "totalUnique": 9,
+        "unique": {
+          "var(--body)": 6,
+          "var(--h1)": 1,
+          "var(--h2)": 2,
+          "var(--h3)": 6,
+          "var(--small-text)": 1,
+          "var(--footer)": 1,
+          "var(--menu)": 1,
+          "var(--chapo)": 1,
+          "18px": 1
+        },
+        "uniquenessRatio": 0.45
+      },
+      "lineHeights": {
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "150%": 2,
+          "110%": 1
+        },
+        "uniquenessRatio": 0.6666666666666666
+      },
+      "zindexes": {
+        "total": 11,
+        "totalUnique": 6,
+        "unique": {
+          "1": 5,
+          "2": 2,
+          "3": 1,
+          "10": 1,
+          "20": 1,
+          "-1": 1
+        },
+        "uniquenessRatio": 0.5454545454545454
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "0 4px 8px var(--noir)": 1,
+          "0 0 15px rgba(0,0,0,.2)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 7,
+        "totalUnique": 4,
+        "unique": {
+          "10px": 2,
+          "var(--space1x)": 2,
+          "5px": 2,
+          "30px": 1
+        },
+        "uniquenessRatio": 0.5714285714285714,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 7,
+            "totalUnique": 4,
+            "unique": {
+              "10px": 2,
+              "var(--space1x)": 2,
+              "5px": 2,
+              "30px": 1
+            },
+            "uniquenessRatio": 0.5714285714285714
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 5,
+          "totalUnique": 2,
+          "unique": {
+            ".3s": 3,
+            ".4s": 2
+          },
+          "uniquenessRatio": 0.4
+        },
+        "timingFunctions": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "ease-in-out": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 71,
+        "totalUnique": 5,
+        "unique": {
+          "rem": 8,
+          "px": 54,
+          "s": 5,
+          "deg": 3,
+          "vh": 1
+        },
+        "uniquenessRatio": 0.07042253521126761,
+        "itemsPerContext": {
+          "--h1": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--h2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--h3": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--menu": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--body": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--small-text": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--chapo": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--footer": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space1x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space2x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space3x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space4x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space5x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space6x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space7x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space8x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "height": {
+            "total": 5,
+            "totalUnique": 2,
+            "unique": {
+              "px": 4,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.4
+          },
+          "width": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "margin": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-bottom": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "transition": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "s": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "padding-bottom": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transform": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding-right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border-radius": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "padding": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "box-shadow": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "max-width": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "font-size": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "gap": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 383
+      },
+      "keywords": {
+        "total": 19,
+        "totalUnique": 3,
+        "unique": {
+          "none": 13,
+          "inherit": 1,
+          "auto": 5
+        },
+        "uniquenessRatio": 0.15789473684210525
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 3,
+      "total": 5
+    }
+  }
+}

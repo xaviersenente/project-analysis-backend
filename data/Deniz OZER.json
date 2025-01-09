@@ -1,0 +1,5253 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Sonic Relics",
+      "images": [
+        {
+          "src": "/assets/img/hero.avif",
+          "alt": "bordure sombre craquelure dorée",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/parti-transi.avif",
+          "alt": "Décor Notes de Musique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/intro.avif",
+          "alt": "Tourne-disque",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article1.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 119,
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "deadLinks": 4,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Sonic Relics",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Sonic Relics",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Fonctionnalités phares de Sonic Relics",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Fonctionnalités phares de Sonic Relics",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Nous vous conseillons de commencer dès maintenant avec ceci :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nous vous conseillons de commencer dès maintenant avec ceci :",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Du phonographe à l'IA : L'évolution des lecteurs de musique à travers\n                        les\n                        âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Nos avantages",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos avantages",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 45,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 47,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 49,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 51,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 53,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.97,
+        "accessibility": 0.92,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 9530,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero.avif",
+            "resourceSize": 17518,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/parti-transi.avif",
+            "resourceSize": 53765,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/intro.avif",
+            "resourceSize": 23826,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/transi.avif",
+            "resourceSize": 11954,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article1.avif",
+            "resourceSize": 86732,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/coin-hg.avif",
+            "resourceSize": 19126,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/coin-bd.avif",
+            "resourceSize": 18824,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-objet.html",
+      "title": "Article objet",
+      "images": [
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hero-article.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/article1.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article2.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile3.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile4.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article5.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 128,
+      "externalLinks": 0,
+      "internalLinks": 14,
+      "deadLinks": 5,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les lecteurs de musique",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "De la musique numérique à la symbiose cérébrale",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les lecteurs de musique ont connu des transformations radicales. De la radio aux\n            plateformes de\n            streaming,\n            ces objets ont évolué au fil des décennies. Aujourd’hui, des technologies comme l’IA et Neuralink\n            redéfinissent leur futur.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Notre frise de l'évolution des lecteurs de musique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire également :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                            Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                            Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine\n                                    Réinventèrent la Musique",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine\n                                    Réinventèrent la Musique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration\n                                    Symphonique\n                                    au Cœur du Cinéma Moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration\n                                    Symphonique\n                                    au Cœur du Cinéma Moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 39,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 45,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 47,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 61,
+          "lastColumn": 83,
+          "firstColumn": 79,
+          "message": "End tag “h1” seen, but there were open elements.",
+          "extract": " cérébrale</h1>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 171,
+          "lastColumn": 47,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "          <a href=\"article-musique.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "lastLine": 216,
+          "lastColumn": 14,
+          "firstColumn": 9,
+          "message": "End tag “div” seen, but there were open elements.",
+          "extract": ">\n        </div>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 171,
+          "lastColumn": 47,
+          "firstColumn": 17,
+          "message": "Unclosed element “a”.",
+          "extract": "          <a href=\"article-musique.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "lastLine": 234,
+          "lastColumn": 36,
+          "firstColumn": 25,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "      <li><a href=\"#\">Archiv",
+          "hiliteStart": 10,
+          "hiliteLength": 12
+        },
+        {
+          "type": "error",
+          "lastLine": 234,
+          "lastColumn": 36,
+          "firstColumn": 25,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "      <li><a href=\"#\">Archiv",
+          "hiliteStart": 10,
+          "hiliteLength": 12
+        },
+        {
+          "type": "error",
+          "lastLine": 234,
+          "lastColumn": 36,
+          "firstColumn": 25,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "      <li><a href=\"#\">Archiv",
+          "hiliteStart": 10,
+          "hiliteLength": 12
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.79,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-objet.html",
+            "resourceSize": 14546,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero-article.avif",
+            "resourceSize": 36419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article1.avif",
+            "resourceSize": 86732,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article2.avif",
+            "resourceSize": 34501,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile3.avif",
+            "resourceSize": 23957,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile4.avif",
+            "resourceSize": 8049,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article5.avif",
+            "resourceSize": 12476,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-film.html",
+      "title": "Article objet",
+      "images": [
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hero-article.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/article1.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article1.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile3.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile4.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article5.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 124,
+      "externalLinks": 0,
+      "internalLinks": 12,
+      "deadLinks": 5,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Concert",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Le Concert : quand la musique transcende les frontières",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Le film Le Concert met en scène une symphonie à la fois musicale et humaine. À\n            travers l’histoire d’un orchestre en quête de rédemption, il célèbre la puissance de la musique comme\n            vecteur d’émotions et de connexions humaines, tout en posant une question essentielle : quel est le rôle de\n            la musique dans nos vies, à l’ère des lecteurs numériques et du streaming ?",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire également :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la\n                                        Machine\n                                        Réinventèrent la Musique",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la\n                                        Machine\n                                        Réinventèrent la Musique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Christopher Nolan et Hans Zimmer : Une\n                                            Collaboration\n                                            Symphonique\n                                            au Cœur du Cinéma Moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Christopher Nolan et Hans Zimmer : Une\n                                            Collaboration\n                                            Symphonique\n                                            au Cœur du Cinéma Moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 39,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 45,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 47,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 63,
+          "lastColumn": 91,
+          "firstColumn": 87,
+          "message": "End tag “h1” seen, but there were open elements.",
+          "extract": "frontières</h1>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 135,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "          <a href=\"article-livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 135,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "          <a href=\"article-livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 135,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "          <a href=\"article-livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 0.84,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-film.html",
+            "resourceSize": 15280,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero-article.avif",
+            "resourceSize": 36419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article1.avif",
+            "resourceSize": 86732,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile3.avif",
+            "resourceSize": 23957,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile4.avif",
+            "resourceSize": 8049,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article5.avif",
+            "resourceSize": 12476,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-livre.html",
+      "title": "Article objet",
+      "images": [
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hero-article.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/artcile3.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/paysage.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article1.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article2.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile4.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article5.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 126,
+      "externalLinks": 0,
+      "internalLinks": 15,
+      "deadLinks": 4,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Sirmarillion",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Dans Le Silmarillion, l’œuvre fondatrice de l’univers de Tolkien, la musique joue un\n            rôle crucial dans la création du monde. À travers le chant, l’univers de La Terre du Milieu voit le jour,\n            rappelant la puissance créatrice du son, un thème que l’on peut rapprocher de l’évolution des lecteurs de\n            musique modernes.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire également :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine\n                                    Réinventèrent la Musique",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine\n                                    Réinventèrent la Musique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration\n                                    Symphonique\n                                    au Cœur du Cinéma Moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration\n                                    Symphonique\n                                    au Cœur du Cinéma Moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 39,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 45,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 47,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 63,
+          "lastColumn": 92,
+          "firstColumn": 88,
+          "message": "End tag “h1” seen, but there were open elements.",
+          "extract": "lmarillion</h1>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 155,
+          "lastColumn": 47,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "          <a href=\"article-musique.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "lastLine": 155,
+          "lastColumn": 47,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "          <a href=\"article-musique.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "lastLine": 155,
+          "lastColumn": 47,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "          <a href=\"article-musique.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.77,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-livre.html",
+            "resourceSize": 14598,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero-article.avif",
+            "resourceSize": 36419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile3.avif",
+            "resourceSize": 23957,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/paysage.avif",
+            "resourceSize": 27069,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article1.avif",
+            "resourceSize": 86732,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article2.avif",
+            "resourceSize": 34501,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile4.avif",
+            "resourceSize": 8049,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article5.avif",
+            "resourceSize": 12476,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-musique.html",
+      "title": "Article objet",
+      "images": [
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hero-article.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/artcile4.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/phonograph.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article1.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile3.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article2.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article5.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 126,
+      "externalLinks": 0,
+      "internalLinks": 15,
+      "deadLinks": 4,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "The Last Chord",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine Réinventèrent la Musique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "En 1899, Arthur Sullivan, compositeur britannique renommé, assista à un moment qui\n            allait changer l'histoire de la musique : la première fois qu'un enregistrement fut joué sur un phonographe.\n            Avec son morceau \"The Last Chord\", il lança une révolution musicale, reliant le génie humain à la\n            technologie naissante.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire également :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de\n                                    Musique à\n                                    Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de\n                                    Musique à\n                                    Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration\n                                    Symphonique\n                                    au Cœur du Cinéma Moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration\n                                    Symphonique\n                                    au Cœur du Cinéma Moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 39,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 45,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 47,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 63,
+          "lastColumn": 116,
+          "firstColumn": 112,
+          "message": "End tag “h1” seen, but there were open elements.",
+          "extract": "la Musique</h1>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 135,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "Start tag “a” seen but an element of the same type was already open.",
+          "extract": "          <a href=\"article-livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 135,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": "          <a href=\"article-livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "lastLine": 135,
+          "lastColumn": 45,
+          "firstColumn": 17,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "          <a href=\"article-livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.77,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-musique.html",
+            "resourceSize": 14954,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero-article.avif",
+            "resourceSize": 36419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile4.avif",
+            "resourceSize": 8049,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/phonograph.avif",
+            "resourceSize": 11256,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article1.avif",
+            "resourceSize": 86732,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile3.avif",
+            "resourceSize": 23957,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article2.avif",
+            "resourceSize": 34501,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article5.avif",
+            "resourceSize": 12476,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-real.html",
+      "title": "Article objet",
+      "images": [
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hero-article.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/article5.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/affiche.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article1.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile3.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/artcile4.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/article2.avif",
+          "alt": "Phonographe à l'IA",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 123,
+      "externalLinks": 0,
+      "internalLinks": 13,
+      "deadLinks": 4,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Christopher Nolan",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Christopher Nolan et Hans Zimmer : Une Collaboration Symphonique au Cœur du Cinéma\n        Moderne",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Christopher Nolan et Hans Zimmer forment l'un des duos les plus influents du cinéma\n            moderne. Leur collaboration, débutée avec Batman Begins, a donné naissance à des bandes-son mémorables,\n            amplifiant les émotions et les thèmes profonds de films comme Inception et Interstellar.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À lire également :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                                Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La musique comme fondation du monde dans Le Silmarillion",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine\n                            Réinventèrent la Musique",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le Dernier Accord : Quand Arthur Sullivan et la Machine\n                            Réinventèrent la Musique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                            Travers les Âges",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Du Phonographe à l’IA : L’Évolution des Lecteurs de Musique à\n                            Travers les Âges",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 39,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 41,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 43,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 45,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 47,
+          "lastColumn": 39,
+          "firstColumn": 17,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 64,
+          "lastColumn": 20,
+          "firstColumn": 16,
+          "message": "End tag “h1” seen, but there were open elements.",
+          "extract": "   Moderne</h1>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 5
+        },
+        {
+          "type": "error",
+          "lastLine": 138,
+          "lastColumn": 12,
+          "firstColumn": 9,
+          "message": "End tag “a” violates nesting rules.",
+          "extract": ">\n        </a>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 4
+        },
+        {
+          "type": "error",
+          "lastLine": 138,
+          "lastColumn": 12,
+          "firstColumn": 9,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": ">\n        </a>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 4
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.84,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-real.html",
+            "resourceSize": 14280,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero-article.avif",
+            "resourceSize": 36419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article5.avif",
+            "resourceSize": 12476,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/affiche.avif",
+            "resourceSize": 14938,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article1.avif",
+            "resourceSize": 86732,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile3.avif",
+            "resourceSize": 23957,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artcile4.avif",
+            "resourceSize": 8049,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/article2.avif",
+            "resourceSize": 34501,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Sonic Relics",
+      "images": [
+        {
+          "src": "/assets/img/hero.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logo.avif",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/parti-transi.avif",
+          "alt": "Décor Notes de Musique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/InstaBleu.avif",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/TwitBleu.avif",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/LinkBleu.avif",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/transi.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/logo.avif",
+          "alt": "Logo Sonic Relics",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/fleche-haut.avif",
+          "alt": "up arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "../assets/img/mmi-blanc.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 109,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 4,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contactez-nous",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Contactez-nous",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Menu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 40,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 42,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 44,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 46,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 48,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 50,
+          "lastColumn": 43,
+          "firstColumn": 21,
+          "message": "Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <div class=\"white-bar\"></div>",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.93,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 7853,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 784,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hero.avif",
+            "resourceSize": 17518,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.avif",
+            "resourceSize": 4608,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 766,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/parti-transi.avif",
+            "resourceSize": 53765,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/transi.avif",
+            "resourceSize": 11954,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/InstaBleu.avif",
+            "resourceSize": 2761,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/TwitBleu.avif",
+            "resourceSize": 6342,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/LinkBleu.avif",
+            "resourceSize": 1557,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-haut.avif",
+            "resourceSize": 3038,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/mmi-blanc.avif",
+            "resourceSize": 5063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/basic.css",
+            "resourceSize": 195,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/footer.css",
+            "resourceSize": 1665,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/header.css",
+            "resourceSize": 551,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/paralax.css",
+            "resourceSize": 736,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 1220,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/no-scroll.css",
+            "resourceSize": 51,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/white-bar.css",
+            "resourceSize": 128,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 545,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/about.css",
+            "resourceSize": 1434,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/features.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/recommended.css",
+            "resourceSize": 1013,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 639,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/advantages.css",
+            "resourceSize": 746,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article-hero.css",
+            "resourceSize": 406,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 2064,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/barre-noire.css",
+            "resourceSize": 385,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulaire.css",
+            "resourceSize": 1094,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/vendors/normalize.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/assets/img/hero.avif",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/web-app-manifest-192x192.png",
+            "resourceSize": 38506,
+            "mimeType": "image/png",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "video",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 196,
+      "span": 7
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 557,
+      "linesOfCode": 1,
+      "size": 9653,
+      "complexity": 1492,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 0,
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0
+      }
+    },
+    "rules": {
+      "total": 110,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 16,
+        "mean": 5.0636363636363635,
+        "mode": 2.5,
+        "median": 4,
+        "range": 14,
+        "sum": 557,
+        "items": [
+          4,
+          4,
+          2,
+          3,
+          13,
+          7,
+          4,
+          6,
+          2,
+          6,
+          7,
+          5,
+          4,
+          4,
+          3,
+          7,
+          4,
+          2,
+          3,
+          4,
+          2,
+          13,
+          2,
+          7,
+          8,
+          3,
+          10,
+          9,
+          5,
+          14,
+          2,
+          11,
+          3,
+          6,
+          2,
+          3,
+          3,
+          6,
+          2,
+          3,
+          6,
+          15,
+          4,
+          3,
+          2,
+          2,
+          10,
+          8,
+          6,
+          4,
+          4,
+          3,
+          6,
+          4,
+          6,
+          3,
+          3,
+          2,
+          2,
+          4,
+          5,
+          9,
+          8,
+          5,
+          3,
+          3,
+          16,
+          3,
+          3,
+          8,
+          6,
+          5,
+          3,
+          2,
+          2,
+          2,
+          8,
+          7,
+          6,
+          3,
+          6,
+          6,
+          2,
+          5,
+          2,
+          7,
+          5,
+          6,
+          3,
+          2,
+          5,
+          7,
+          3,
+          4,
+          2,
+          2,
+          5,
+          2,
+          9,
+          7,
+          6,
+          4,
+          10,
+          10,
+          4,
+          9,
+          3,
+          3,
+          4,
+          2
+        ],
+        "total": 110,
+        "totalUnique": 14,
+        "unique": {
+          "2": 22,
+          "3": 22,
+          "4": 16,
+          "5": 9,
+          "6": 14,
+          "7": 8,
+          "8": 5,
+          "9": 4,
+          "10": 4,
+          "11": 1,
+          "13": 2,
+          "14": 1,
+          "15": 1,
+          "16": 1
+        },
+        "uniquenessRatio": 0.12727272727272726
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.1,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 121,
+        "items": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 110,
+        "totalUnique": 2,
+        "unique": {
+          "1": 99,
+          "2": 11
+        },
+        "uniquenessRatio": 0.01818181818181818
+      },
+      "declarations": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.963636363636364,
+        "mode": 1,
+        "median": 3,
+        "range": 14,
+        "sum": 436,
+        "items": [
+          3,
+          3,
+          1,
+          1,
+          12,
+          6,
+          3,
+          5,
+          1,
+          4,
+          5,
+          3,
+          3,
+          3,
+          2,
+          6,
+          3,
+          1,
+          2,
+          3,
+          1,
+          12,
+          1,
+          6,
+          7,
+          2,
+          9,
+          8,
+          4,
+          13,
+          1,
+          10,
+          2,
+          5,
+          1,
+          2,
+          2,
+          5,
+          1,
+          2,
+          5,
+          14,
+          3,
+          2,
+          1,
+          1,
+          9,
+          7,
+          5,
+          3,
+          3,
+          2,
+          4,
+          3,
+          5,
+          2,
+          2,
+          1,
+          1,
+          3,
+          4,
+          8,
+          7,
+          4,
+          2,
+          2,
+          15,
+          2,
+          2,
+          7,
+          5,
+          4,
+          2,
+          1,
+          1,
+          1,
+          7,
+          6,
+          4,
+          2,
+          5,
+          5,
+          1,
+          3,
+          1,
+          6,
+          4,
+          4,
+          2,
+          1,
+          4,
+          6,
+          2,
+          2,
+          1,
+          1,
+          3,
+          1,
+          8,
+          6,
+          5,
+          3,
+          8,
+          9,
+          3,
+          8,
+          2,
+          2,
+          3,
+          1
+        ],
+        "total": 110,
+        "totalUnique": 14,
+        "unique": {
+          "1": 23,
+          "2": 22,
+          "3": 18,
+          "4": 10,
+          "5": 11,
+          "6": 7,
+          "7": 5,
+          "8": 5,
+          "9": 3,
+          "10": 1,
+          "12": 2,
+          "13": 1,
+          "14": 1,
+          "15": 1
+        },
+        "uniquenessRatio": 0.12727272727272726
+      }
+    },
+    "selectors": {
+      "total": 121,
+      "totalUnique": 110,
+      "uniquenessRatio": 0.9090909090909091,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          133,
+          23
+        ],
+        "mean": [
+          0,
+          1.0991735537190082,
+          0.19008264462809918
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 121,
+        "totalUnique": 7,
+        "unique": {
+          "0,0,0": 1,
+          "0,1,0": 88,
+          "0,0,1": 4,
+          "0,2,1": 4,
+          "0,3,1": 2,
+          "0,1,1": 13,
+          "0,2,0": 9
+        },
+        "uniquenessRatio": 0.05785123966942149
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.5206611570247934,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 184,
+        "total": 121,
+        "totalUnique": 6,
+        "unique": {
+          "1": 93,
+          "2": 3,
+          "3": 19,
+          "4": 3,
+          "5": 2,
+          "6": 1
+        },
+        "uniquenessRatio": 0.049586776859504134,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          4,
+          5,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          1,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3,
+          1,
+          2,
+          3,
+          3,
+          5,
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 27,
+        "totalUnique": 1,
+        "unique": {
+          " ": 27
+        },
+        "uniquenessRatio": 0.037037037037037035
+      }
+    },
+    "declarations": {
+      "total": 436,
+      "totalUnique": 233,
+      "uniquenessRatio": 0.5344036697247706,
+      "unique": {
+        "total": 233,
+        "ratio": 0.5344036697247706
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 436
+      }
+    },
+    "properties": {
+      "total": 436,
+      "totalUnique": 55,
+      "unique": {
+        "box-sizing": 4,
+        "margin": 20,
+        "padding": 16,
+        "max-width": 5,
+        "width": 34,
+        "height": 18,
+        "align-items": 7,
+        "background-color": 13,
+        "color": 23,
+        "display": 14,
+        "font-family": 8,
+        "gap": 4,
+        "grid-template-columns": 1,
+        "margin-bottom": 28,
+        "margin-left": 23,
+        "margin-right": 9,
+        "text-align": 13,
+        "grid-column": 2,
+        "justify-content": 6,
+        "margin-top": 20,
+        "cursor": 6,
+        "transition": 5,
+        "transform": 4,
+        "flex-direction": 2,
+        "padding-left": 9,
+        "font-size": 33,
+        "font-weight": 10,
+        "text-transform": 2,
+        "line-height": 6,
+        "list-style": 3,
+        "text-decoration": 5,
+        "padding-bottom": 6,
+        "box-shadow": 3,
+        "left": 5,
+        "position": 14,
+        "top": 5,
+        "z-index": 8,
+        "background-image": 4,
+        "background-position": 2,
+        "background-repeat": 3,
+        "background-size": 3,
+        "background-attachment": 1,
+        "background": 2,
+        "min-height": 1,
+        "padding-right": 8,
+        "overflow": 2,
+        "flex": 1,
+        "border": 4,
+        "bottom": 1,
+        "right": 1,
+        "text-shadow": 2,
+        "padding-top": 4,
+        "border-bottom": 1,
+        "border-top": 1,
+        "border-radius": 1
+      },
+      "uniquenessRatio": 0.12614678899082568,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 436
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 48,
+        "totalUnique": 18,
+        "unique": {
+          "#000": 8,
+          "#fff": 11,
+          "gold": 2,
+          "gray": 1,
+          "rgba(0,0,0,.8)": 2,
+          "rgba(0,0,0,.1)": 1,
+          "#daa520": 9,
+          "rgba(58,57,57,.5)": 1,
+          "#856514": 1,
+          "#ffb106": 2,
+          "hsla(0,0%,100%,.2)": 2,
+          "#f5f5f5": 1,
+          "rgba(0,0,0,.9)": 1,
+          "#d4af37": 1,
+          "rgba(212,175,55,.5)": 1,
+          "#1a1a1a": 1,
+          "rgba(212,175,55,.8)": 1,
+          "rgba(0,0,0,.6)": 2
+        },
+        "uniquenessRatio": 0.375,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 13,
+            "totalUnique": 8,
+            "unique": {
+              "#000": 3,
+              "rgba(0,0,0,.8)": 2,
+              "#856514": 1,
+              "#fff": 2,
+              "hsla(0,0%,100%,.2)": 2,
+              "#f5f5f5": 1,
+              "rgba(0,0,0,.9)": 1,
+              "#1a1a1a": 1
+            },
+            "uniquenessRatio": 0.6153846153846154
+          },
+          "color": {
+            "total": 23,
+            "totalUnique": 7,
+            "unique": {
+              "#fff": 9,
+              "gold": 2,
+              "gray": 1,
+              "#daa520": 4,
+              "#ffb106": 2,
+              "rgba(0,0,0,.6)": 2,
+              "#000": 3
+            },
+            "uniquenessRatio": 0.30434782608695654
+          },
+          "box-shadow": {
+            "total": 3,
+            "totalUnique": 3,
+            "unique": {
+              "rgba(0,0,0,.1)": 1,
+              "rgba(212,175,55,.5)": 1,
+              "rgba(212,175,55,.8)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "rgba(58,57,57,.5)": 1,
+              "#daa520": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "#daa520": 2,
+              "#d4af37": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "text-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#daa520": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#daa520": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 48,
+          "totalUnique": 5,
+          "unique": {
+            "hex3": 19,
+            "named": 3,
+            "rgba": 9,
+            "hex6": 15,
+            "hsla": 2
+          },
+          "uniquenessRatio": 0.10416666666666667
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 8,
+        "totalUnique": 6,
+        "unique": {
+          "Arial,sans-serif": 2,
+          "Arial,Helvetica,sans-serif": 1,
+          "Times New Roman,serif": 1,
+          "inter,serif": 2,
+          "acumin-pro,sans-serif": 1,
+          "Inter,serif": 1
+        },
+        "uniquenessRatio": 0.75
+      },
+      "fontSizes": {
+        "total": 33,
+        "totalUnique": 14,
+        "unique": {
+          "45px": 4,
+          "25px": 3,
+          "200%": 1,
+          "400%": 1,
+          "24px": 1,
+          "80px": 1,
+          "75px": 1,
+          "18px": 1,
+          "100px": 2,
+          "30px": 6,
+          "40px": 4,
+          "35px": 2,
+          "50px": 2,
+          "60px": 4
+        },
+        "uniquenessRatio": 0.42424242424242425
+      },
+      "lineHeights": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          "1.6": 2,
+          "1.5": 1,
+          "70px": 1,
+          "65px": 2
+        },
+        "uniquenessRatio": 0.6666666666666666
+      },
+      "zindexes": {
+        "total": 8,
+        "totalUnique": 5,
+        "unique": {
+          "1": 2,
+          "10": 2,
+          "15": 1,
+          "20": 1,
+          "-1": 2
+        },
+        "uniquenessRatio": 0.625
+      },
+      "textShadows": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "50px 50px 50px 50px #000": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "boxShadows": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "0 2px 5px rgba(0,0,0,.1)": 1,
+          "0 0 10px rgba(212,175,55,.5)": 1,
+          "0 0 15px rgba(212,175,55,.8)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "5px": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "5px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 5,
+          "totalUnique": 2,
+          "unique": {
+            ".3s": 4,
+            ".5s": 1
+          },
+          "uniquenessRatio": 0.4
+        },
+        "timingFunctions": {
+          "total": 5,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 4,
+            "ease-in-out": 1
+          },
+          "uniquenessRatio": 0.4
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 233,
+        "totalUnique": 4,
+        "unique": {
+          "px": 223,
+          "fr": 3,
+          "s": 5,
+          "vh": 2
+        },
+        "uniquenessRatio": 0.017167381974248927,
+        "itemsPerContext": {
+          "max-width": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "gap": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "grid-template-columns": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "fr": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin-bottom": {
+            "total": 28,
+            "totalUnique": 1,
+            "unique": {
+              "px": 28
+            },
+            "uniquenessRatio": 0.03571428571428571
+          },
+          "margin-left": {
+            "total": 21,
+            "totalUnique": 1,
+            "unique": {
+              "px": 21
+            },
+            "uniquenessRatio": 0.047619047619047616
+          },
+          "margin-right": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "padding": {
+            "total": 16,
+            "totalUnique": 1,
+            "unique": {
+              "px": 16
+            },
+            "uniquenessRatio": 0.0625
+          },
+          "margin-top": {
+            "total": 17,
+            "totalUnique": 1,
+            "unique": {
+              "px": 17
+            },
+            "uniquenessRatio": 0.058823529411764705
+          },
+          "width": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "transition": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "s": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "font-size": {
+            "total": 31,
+            "totalUnique": 1,
+            "unique": {
+              "px": 31
+            },
+            "uniquenessRatio": 0.03225806451612903
+          },
+          "height": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "px": 6,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "box-shadow": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "margin": {
+            "total": 30,
+            "totalUnique": 1,
+            "unique": {
+              "px": 30
+            },
+            "uniquenessRatio": 0.03333333333333333
+          },
+          "min-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "vh": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "top": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding-right": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "line-height": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "text-shadow": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "padding-left": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "padding-top": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding-bottom": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 436
+      },
+      "keywords": {
+        "total": 16,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 7,
+          "none": 9
+        },
+        "uniquenessRatio": 0.125
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 4,
+      "total": 6
+    }
+  }
+}

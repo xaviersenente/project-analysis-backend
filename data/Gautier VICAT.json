@@ -1,0 +1,4616 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5502/fr/",
+      "title": "Accueil",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Accueil1.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Accueil2.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise1.webp",
+          "alt": "image de défibrilateurs",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/JohnQ1.webp",
+          "alt": "Affiche du film John Q",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/cronenberg1.webp",
+          "alt": "Photo de Cronenberg",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Rythme1.webp",
+          "alt": "Couverture du livre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique1.webp",
+          "alt": "Couverture du titre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 115,
+      "externalLinks": 1,
+      "internalLinks": 20,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Pulse : Au Cœur de la Technologie et de la Vie",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Découvrez les Défibrillateurs Automatiques Implantables :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Plongez Dans \"John Q\"",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Découvrez l'univers de David Cronenberg :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Explorez \"Rythme cardiaque, rythme de vie\" :",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Écouter \"Heartbeats\" de José González :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.7,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/",
+            "resourceSize": 9873,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Accueil1.webp",
+            "resourceSize": 27752,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Accueil2.webp",
+            "resourceSize": 85056,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Frise1.webp",
+            "resourceSize": 32084,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/JohnQ1.webp",
+            "resourceSize": 37328,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/cronenberg1.webp",
+            "resourceSize": 29284,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Rythme1.webp",
+            "resourceSize": 9224,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Musique1.webp",
+            "resourceSize": 29006,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/dai.html",
+      "title": "DAI",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/DAI1.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/DAI2.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/DAI3.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/DAI4.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/DAI5.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise1.webp",
+          "alt": "image de défibrilateurs",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 103,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les Défibrillateurs Automatiques Implantables : Sauvegarder le Cœur, Protéger la Vie",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "L’Histoire des Défibrillateurs : Des Origines à Aujourd’hui",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L’évolution des Défibrillateurs : Vers des Appareils Personnalisés",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les Limites des Défibrillateurs Actuels : Les Reliques de Demain",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les DAI du Futur : Vers des Appareils Intelligents et Prédictifs",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Découvrez l’histoire des DAI sous forme de frise",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.72,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/dai.html",
+            "resourceSize": 10889,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/DAI1.webp",
+            "resourceSize": 19706,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/DAI2.webp",
+            "resourceSize": 67154,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/DAI3.webp",
+            "resourceSize": 17272,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/DAI4.webp",
+            "resourceSize": 36094,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/DAI5.webp",
+            "resourceSize": 76866,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Frise1.webp",
+            "resourceSize": 32084,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/johnq.html",
+      "title": "JohnQ",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/JohnQ1.webp",
+          "alt": "Affiche du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/JohnQ2.webp",
+          "alt": "image du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/JohnQ3.webp",
+          "alt": "image du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/JohnQ4.webp",
+          "alt": "image du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Films.webp",
+          "alt": "image de films",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "John Q : Un Combat pour la Vie face à un Système Impitoyable",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "\"John Q\" : Un Père Face à l’Injustice Médicale",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Un Film qui Interroge le Système de Santé",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les Thématiques Universelles de Vie et de Mort",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "\"John Q\" et le Parallèle avec les DAI",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Découvrez D’autres films Palpitants",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 67,
+          "lastColumn": 62,
+          "firstColumn": 9,
+          "message": "Bad value “100%” for attribute “width” on element “video”: Expected a digit but saw “%” instead.",
+          "extract": ">\n        <video class=\"ba\" controls width=\"100%\" height=\"auto\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 54
+        },
+        {
+          "type": "error",
+          "lastLine": 67,
+          "lastColumn": 62,
+          "firstColumn": 9,
+          "message": "Bad value “auto” for attribute “height” on element “video”: Expected a digit but saw “a” instead.",
+          "extract": ">\n        <video class=\"ba\" controls width=\"100%\" height=\"auto\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 54
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.76,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/johnq.html",
+            "resourceSize": 10537,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/ba_johnq.mp4",
+            "resourceSize": 659060,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/ba_johnq.mp4",
+            "resourceSize": 123246,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/JohnQ1.webp",
+            "resourceSize": 37328,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/JohnQ2.webp",
+            "resourceSize": 31798,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/JohnQ3.webp",
+            "resourceSize": 17436,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/JohnQ4.webp",
+            "resourceSize": 34032,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Films.webp",
+            "resourceSize": 132610,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/cronenberg.html",
+      "title": "Cronenberg",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Cronenberg1.webp",
+          "alt": "image de cronenberg",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Cronenberg2.webp",
+          "alt": "image du film la mouche",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Cronenberg3.webp",
+          "alt": "image de dead ringers",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Cronenberg4.webp",
+          "alt": "image d'un squelette",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 93,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "David Cronenberg : Cinéma et Médecine à la Croisée des Chemins",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "La Médecine au Cinéma",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Transformation et Identité",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "DAI et la Technologie Médicale",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Frontière entre Vie et Mort",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.79,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/cronenberg.html",
+            "resourceSize": 10021,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Cronenberg1.webp",
+            "resourceSize": 29284,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Cronenberg2.webp",
+            "resourceSize": 27504,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Cronenberg3.webp",
+            "resourceSize": 44276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Cronenberg4.webp",
+            "resourceSize": 19452,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/rythme.html",
+      "title": "Rythme",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Rythme1.webp",
+          "alt": "image du livre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Rythme2.webp",
+          "alt": "image de la vie",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Rythme3.webp",
+          "alt": "image d'un coeur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Rythme4.webp",
+          "alt": "image du rythme cardiaque",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Rythme5.webp",
+          "alt": "image d'un coeur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Livres.webp",
+          "alt": "image d'une bibliothèque",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 103,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Rythme Cardiaque, Rythme de Vie",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Une Exploration de l’Interconnexion",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L’Importance de la Santé Cardiaque",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Rythmes de Vie et Émotions",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Une Réflexion sur l’Existence",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Découvrez d’autres livres intéressants.",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.74,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/rythme.html",
+            "resourceSize": 10455,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Rythme1.webp",
+            "resourceSize": 9224,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Rythme2.webp",
+            "resourceSize": 43360,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Rythme3.webp",
+            "resourceSize": 38948,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Rythme4.webp",
+            "resourceSize": 7442,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Rythme5.webp",
+            "resourceSize": 27012,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Livres.webp",
+            "resourceSize": 64322,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/musique.html",
+      "title": "Heartbeats",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique1.webp",
+          "alt": "image de la musique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique2.webp",
+          "alt": "image symbolisant la vie",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique3.webp",
+          "alt": "image de rythmes",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique4.webp",
+          "alt": "image d'une personne écoutant la musique'",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Musique5.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 97,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Heartbeats de Joze Gonzalez",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Une Exploration de la Vie à Travers le Rythme",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Les Rythmes de l’Existence",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L’Impact des Émotions",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Une Réflexion sur la Mort et la Vie",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.76,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/musique.html",
+            "resourceSize": 10224,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Musique1.webp",
+            "resourceSize": 29006,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Musique2.webp",
+            "resourceSize": 21016,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Musique3.webp",
+            "resourceSize": 29998,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Musique4.webp",
+            "resourceSize": 15766,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Musique5.webp",
+            "resourceSize": 41044,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/glossaire.html",
+      "title": "Glossaire",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 103,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 10,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Pulse :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Pulse :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "MMI (Métiers du Multimédia et de l'Internet) :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "MMI (Métiers du Multimédia et de l'Internet) :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Rythme cardiaque :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Rythme cardiaque :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Défibrillateur automatique implantable (DAI) :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Défibrillateur automatique implantable (DAI) :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Musique émotionnelle :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Musique émotionnelle :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Immersion sensorielle :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Immersion sensorielle :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Symphonie :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Symphonie :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Collaboration :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Collaboration :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Interaction visuelle :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Interaction visuelle :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Projet créatif :",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Projet créatif :",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/glossaire.html",
+            "resourceSize": 8485,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/about.html",
+      "title": "About",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/About.webp",
+          "alt": "Logo de Pulse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBleu.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBleu.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBleu.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 1,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 2,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "À propos de Pulse",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Contactez-nous",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Contactez-nous",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Découvrez d’autres Projets",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.81,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/about.html",
+            "resourceSize": 9297,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBleu.svg",
+            "resourceSize": 2636,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBleu.svg",
+            "resourceSize": 2199,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBleu.svg",
+            "resourceSize": 2270,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/About.webp",
+            "resourceSize": 21890,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/frise.html",
+      "title": "frise",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise1.webp",
+          "alt": "image d'un défibrilateur",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 111,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les Défibrillateurs Automatiques Implantables : Depuis 1980",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Présentation des Défibrillateurs Automatiques Implantables (DAI)",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/frise.html",
+            "resourceSize": 9696,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Frise1.webp",
+            "resourceSize": 32084,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/others.html",
+      "title": "Others",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 140,
+      "externalLinks": 11,
+      "internalLinks": 15,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Autres Projets",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "La console de la Psyché Interactive",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L’ère des prothèses",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "The CavesCleaner",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "OmniSphère",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Echoes of AI",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Humain sur mesure",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "ArchEVE",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Neuromni-Link",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Futurbanisme",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "ChainMaster",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L'héritier de la protection",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/others.html",
+            "resourceSize": 10158,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/films.html",
+      "title": "Films",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Films.webp",
+          "alt": "image de films",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Affiche1.webp",
+          "alt": "Affiche du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Affiche2.webp",
+          "alt": "Affiche du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Affiche3.webp",
+          "alt": "Affiche du film",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Affiche4.webp",
+          "alt": "Couverture du livre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Affiche5.webp",
+          "alt": "Couverture du titre",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 112,
+      "externalLinks": 6,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Luttes et Sacrifices : Films Inspirés",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "My Sister's Keeper (2009)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "The Pursuit of Happyness (2006)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Lorenzo’s Oil (1992)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Philadelphia (1993)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "A Time to Kill (1996)",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.68,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/films.html",
+            "resourceSize": 9669,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Films.webp",
+            "resourceSize": 132610,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Affiche1.webp",
+            "resourceSize": 59816,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Affiche2.webp",
+            "resourceSize": 53166,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Affiche3.webp",
+            "resourceSize": 67506,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Affiche4.webp",
+            "resourceSize": 54278,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Affiche5.webp",
+            "resourceSize": 89110,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5502/fr/pages/livres.html",
+      "title": "Livres",
+      "images": [
+        {
+          "src": "/assets/icons/logo.svg",
+          "alt": "Logo du site",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Livres.webp",
+          "alt": "Image d'une bibliothèque",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Caroussel1.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Carousel2.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Carousel3.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Logowhite.webp",
+          "alt": "Logo fond blanc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/InstaBlanc.svg",
+          "alt": "logo Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/TwitBlanc.svg",
+          "alt": "logo Twitter",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/LinkBlanc.svg",
+          "alt": "logo Linkedin",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/mmi_logo_quadri_white1.svg",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 86,
+      "externalLinks": 4,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 2,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Sélection de Livres : Échos de Vie et de Santé",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Navigation",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Mentions légal",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.9,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5502/fr/pages/livres.html",
+            "resourceSize": 7681,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://use.typekit.net/lud8nze.css",
+            "resourceSize": 8233,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/style.css",
+            "resourceSize": 378,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/js/script.js",
+            "resourceSize": 410,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/logo.svg",
+            "resourceSize": 87675,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Livres.webp",
+            "resourceSize": 64322,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Caroussel1.webp",
+            "resourceSize": 34750,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Carousel2.webp",
+            "resourceSize": 48386,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Carousel3.webp",
+            "resourceSize": 33878,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/Logowhite.webp",
+            "resourceSize": 2852,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/InstaBlanc.svg",
+            "resourceSize": 2639,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/TwitBlanc.svg",
+            "resourceSize": 2203,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/LinkBlanc.svg",
+            "resourceSize": 2168,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/icons/mmi_logo_quadri_white1.svg",
+            "resourceSize": 10885,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/vendors/normalize.css",
+            "resourceSize": 6139,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
+            "resourceSize": 206,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/footer.css",
+            "resourceSize": 1289,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
+            "resourceSize": 1361,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/header.css",
+            "resourceSize": 386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/drop.css",
+            "resourceSize": 1935,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
+            "resourceSize": 341,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
+            "resourceSize": 630,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/card.css",
+            "resourceSize": 1205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
+            "resourceSize": 1189,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/frise.css",
+            "resourceSize": 856,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5502/src/css/components/livres.css",
+            "resourceSize": 537,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://p.typekit.net/p.css?s=1&k=lud8nze&ht=tk&f=25496.25497.58117.58120.58121.26053.26054.26056.26062.26067.51811.55314&a=169098217&app=typekit&e=css",
+            "resourceSize": 5,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "resourceSize": 27888,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "resourceSize": 28040,
+            "mimeType": "application/font-woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 201,
+      "span": 49,
+      "br": 2
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 92,
+      "linesOfCode": 1,
+      "size": 6716,
+      "complexity": 244,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 12,
+        "totalUnique": 12,
+        "unique": [
+          {
+            "font-display": "auto",
+            "font-family": "stevie-sans",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "700",
+            "src": "url(https://use.typekit.net/af/1c305e/00000000000000007735a6b3/30/l?subset_id=2&fvd=n7&v=3) format(\"woff2\"),url(https://use.typekit.net/af/1c305e/00000000000000007735a6b3/30/d?subset_id=2&fvd=n7&v=3) format(\"woff\"),url(https://use.typekit.net/af/1c305e/00000000000000007735a6b3/30/a?subset_id=2&fvd=n7&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "stevie-sans",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/083076/00000000000000007735a699/30/l?subset_id=2&fvd=n4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/083076/00000000000000007735a699/30/d?subset_id=2&fvd=n4&v=3) format(\"woff\"),url(https://use.typekit.net/af/083076/00000000000000007735a699/30/a?subset_id=2&fvd=n4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "stevie-sans",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "700",
+            "src": "url(https://use.typekit.net/af/14ab80/000000000000000077572318/30/l?subset_id=2&fvd=i7&v=3) format(\"woff2\"),url(https://use.typekit.net/af/14ab80/000000000000000077572318/30/d?subset_id=2&fvd=i7&v=3) format(\"woff\"),url(https://use.typekit.net/af/14ab80/000000000000000077572318/30/a?subset_id=2&fvd=i7&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "stevie-sans",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "100",
+            "src": "url(https://use.typekit.net/af/c65c2b/000000000000000077572319/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3) format(\"woff2\"),url(https://use.typekit.net/af/c65c2b/000000000000000077572319/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3) format(\"woff\"),url(https://use.typekit.net/af/c65c2b/000000000000000077572319/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "stevie-sans",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/5bfcc4/00000000000000007757231c/30/l?subset_id=2&fvd=i4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/5bfcc4/00000000000000007757231c/30/d?subset_id=2&fvd=i4&v=3) format(\"woff\"),url(https://use.typekit.net/af/5bfcc4/00000000000000007757231c/30/a?subset_id=2&fvd=i4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "acumin-pro",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "700",
+            "src": "url(https://use.typekit.net/af/5de54d/00000000000000007735d404/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"woff2\"),url(https://use.typekit.net/af/5de54d/00000000000000007735d404/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"woff\"),url(https://use.typekit.net/af/5de54d/00000000000000007735d404/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "acumin-pro",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "700",
+            "src": "url(https://use.typekit.net/af/1f8306/00000000000000007735d408/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format(\"woff2\"),url(https://use.typekit.net/af/1f8306/00000000000000007735d408/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format(\"woff\"),url(https://use.typekit.net/af/1f8306/00000000000000007735d408/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "acumin-pro",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/68e565/00000000000000007735d411/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/68e565/00000000000000007735d411/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"woff\"),url(https://use.typekit.net/af/68e565/00000000000000007735d411/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "acumin-pro",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff\"),url(https://use.typekit.net/af/b5aa46/00000000000000007735d431/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "acumin-pro",
+            "font-stretch": "normal",
+            "font-style": "italic",
+            "font-weight": "100",
+            "src": "url(https://use.typekit.net/af/fafd25/00000000000000007735d443/30/l?subset_id=2&fvd=i1&v=3) format(\"woff2\"),url(https://use.typekit.net/af/fafd25/00000000000000007735d443/30/d?subset_id=2&fvd=i1&v=3) format(\"woff\"),url(https://use.typekit.net/af/fafd25/00000000000000007735d443/30/a?subset_id=2&fvd=i1&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "cinema-script",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/0e613b/0000000000000000774ba05a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/0e613b/0000000000000000774ba05a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff\"),url(https://use.typekit.net/af/0e613b/0000000000000000774ba05a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"opentype\")"
+          },
+          {
+            "font-display": "auto",
+            "font-family": "inter-variable",
+            "font-stretch": "normal",
+            "font-style": "normal",
+            "font-weight": "400",
+            "src": "url(https://use.typekit.net/af/0accda/00000000000000007750957d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff2\"),url(https://use.typekit.net/af/0accda/00000000000000007750957d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"woff\"),url(https://use.typekit.net/af/0accda/00000000000000007750957d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format(\"opentype\")"
+          }
+        ],
+        "uniquenessRatio": 1
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 12,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 12
+      }
+    },
+    "rules": {
+      "total": 4,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 2,
+        "mean": 2,
+        "mode": 2,
+        "median": 2,
+        "range": 0,
+        "sum": 8,
+        "items": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          "2": 4
+        },
+        "uniquenessRatio": 0.25
+      },
+      "selectors": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 4,
+        "items": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          "1": 4
+        },
+        "uniquenessRatio": 0.25
+      },
+      "declarations": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 4,
+        "items": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          "1": 4
+        },
+        "uniquenessRatio": 0.25
+      }
+    },
+    "selectors": {
+      "total": 4,
+      "totalUnique": 4,
+      "uniquenessRatio": 1,
+      "specificity": {
+        "min": [
+          0,
+          1,
+          0
+        ],
+        "max": [
+          0,
+          1,
+          0
+        ],
+        "sum": [
+          0,
+          4,
+          0
+        ],
+        "mean": [
+          0,
+          1,
+          0
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          "0,1,0": 4
+        },
+        "uniquenessRatio": 0.25
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 4,
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          "1": 4
+        },
+        "uniquenessRatio": 0.25,
+        "items": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "declarations": {
+      "total": 76,
+      "totalUnique": 27,
+      "uniquenessRatio": 0.35526315789473684,
+      "unique": {
+        "total": 27,
+        "ratio": 0.35526315789473684
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 76
+      }
+    },
+    "properties": {
+      "total": 76,
+      "totalUnique": 6,
+      "unique": {
+        "font-display": 12,
+        "font-family": 16,
+        "font-stretch": 12,
+        "font-style": 12,
+        "font-weight": 12,
+        "src": 12
+      },
+      "uniquenessRatio": 0.07894736842105263,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 76
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {},
+        "formats": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 16,
+        "totalUnique": 8,
+        "unique": {
+          "stevie-sans": 5,
+          "acumin-pro": 5,
+          "cinema-script": 1,
+          "inter-variable": 1,
+          "stevie-sans,sans-serif": 1,
+          "acumin-pro,sans-serif": 1,
+          "cinema-script,sans-serif": 1,
+          "inter-variable,sans-serif": 1
+        },
+        "uniquenessRatio": 0.5
+      },
+      "fontSizes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "lineHeights": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 76
+      },
+      "keywords": {
+        "total": 12,
+        "totalUnique": 1,
+        "unique": {
+          "auto": 12
+        },
+        "uniquenessRatio": 0.08333333333333333
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 2,
+      "total": 4
+    }
+  }
+}

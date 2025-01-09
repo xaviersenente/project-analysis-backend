@@ -1,0 +1,5865 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5501/fr/",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/GradientImgHero.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Background_accueil_img.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Articles/Baton_de_parole.webp",
+          "alt": "Le bâton de parole : un symbole d'écoute",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Articles/Le_Discours_d_un_roi.webp",
+          "alt": "Le Discours d'un roi",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Articles/Sidney_Lumet.webp",
+          "alt": "Sidney Lumet",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Articles/Le_Cercle.webp",
+          "alt": "Le Cercle - Dave Eggers",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Articles/The_Sound_of_Silence.webp",
+          "alt": "The Sound of Silence - Simon & Garfunkel",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 109,
+      "externalLinks": 4,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Echoes of Dialogue",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Le bâton de parole : un symbole d'écoute",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Le bâton de parole : un symbole d'écoute",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le Discours d’un roi (2010)",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Le Discours d’un roi (2010)",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Sidney Lumet",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Sidney Lumet",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le Cercle - Dave Eggers",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Le Cercle - Dave Eggers",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "The Sound of Silence - Simon & Garfunkel",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "The Sound of Silence - Simon & Garfunkel",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.83,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/",
+            "resourceSize": 11102,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/GradientImgHero.webp",
+            "resourceSize": 136826,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_accueil_img.webp",
+            "resourceSize": 11666,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Articles/Baton_de_parole.webp",
+            "resourceSize": 31354,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Articles/Le_Discours_d_un_roi.webp",
+            "resourceSize": 13580,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Articles/Sidney_Lumet.webp",
+            "resourceSize": 18426,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Articles/Le_Cercle.webp",
+            "resourceSize": 15670,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Articles/The_Sound_of_Silence.webp",
+            "resourceSize": 30834,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Le_baton_de_parole.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Baton_de_parole.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise/Baton_de_parole.webp",
+          "alt": "Image du bâton de parole",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise/Conque.webp",
+          "alt": "Image du conque",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise/Sceptre_royal.webp",
+          "alt": "Image du sceptre royal",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise/Telephone_d_alexander_graham_bell.webp",
+          "alt": "Image du téléphone d'd’Alexander Graham Bell",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise/Microphone_de_radio.webp",
+          "alt": "Image du microphone de radio",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Frise/Bouton_mute.webp",
+          "alt": "Image du bouton mute",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 158,
+      "externalLinks": 4,
+      "internalLinks": 18,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 7,
+        "h3": 5,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le bâton de parole",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Le bâton de parole: Un outil de communication ancestral",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un symbole de la parole partagée",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Un symbole de la parole partagée",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La fonction du bâton de parole dans les sociétés traditionnelles",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La fonction du bâton de parole dans les sociétés traditionnelles",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le bâton de parole, source d’inspiration pour la communication moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le bâton de parole, source d’inspiration pour la communication moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Pour en savoir plus sur l’histoire du bâton de parole et son impact culturel",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Pour en savoir plus sur l’histoire du bâton de parole et son impact culturel",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le bâton de parole, source d’inspiration pour la communication moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le bâton de parole, source d’inspiration pour la communication moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "3000 av. J.-C.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "1000 av. J.-C.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "500 ap. J.-C.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "1876",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "1920",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "2000s",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Le_baton_de_parole.html",
+            "resourceSize": 16255,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Baton_de_parole.webp",
+            "resourceSize": 39590,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Frise/Baton_de_parole.webp",
+            "resourceSize": 18430,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Frise/Conque.webp",
+            "resourceSize": 8902,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Frise/Sceptre_royal.webp",
+            "resourceSize": 4140,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Frise/Telephone_d_alexander_graham_bell.webp",
+            "resourceSize": 12942,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Frise/Microphone_de_radio.webp",
+            "resourceSize": 20874,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Frise/Bouton_mute.webp",
+            "resourceSize": 19854,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://eva-lacroix.fr/videos/Coup_d_oeil_sur_le_baton_parole.mp4",
+            "resourceSize": 303847,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Pttg83HX_SGhgqk2jovaqRFB_ie.woff2",
+            "resourceSize": 32412,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Le_Discours_d_un_roi.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Le_Discours_d_un_roi_image_du_film.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Galerie/Network.webp",
+          "alt": "/",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Galerie/Inglourious_Basterds.webp",
+          "alt": "/",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Galerie/Le_Discours_d_un_roi.webp",
+          "alt": "/",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/arrow.svg",
+          "alt": "fleche gauche",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/arrow.svg",
+          "alt": "fleche droite",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 151,
+      "externalLinks": 4,
+      "internalLinks": 18,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 6,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Discours d'un Roi",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Le Discours d’un Roi : Quand la parole devient une arme de pouvoir",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "La voix d’un roi face à l’Histoire",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La voix d’un roi face à l’Histoire",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La radio, un nouveau pouvoir",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La radio, un nouveau pouvoir",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La parole comme instrument de leadership",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La parole comme instrument de leadership",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Une réflexion sur la communication moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Une réflexion sur la communication moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Bande annonce",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Bande annonce",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Galerie de films sur le pouvoir de la parole :",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Galerie de films sur le pouvoir de la parole :",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.86,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Le_Discours_d_un_roi.html",
+            "resourceSize": 15365,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Le_Discours_d_un_roi_image_du_film.webp",
+            "resourceSize": 25416,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Galerie/Network.webp",
+            "resourceSize": 18754,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Galerie/Inglourious_Basterds.webp",
+            "resourceSize": 24060,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Galerie/Le_Discours_d_un_roi.webp",
+            "resourceSize": 27694,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/arrow.svg",
+            "resourceSize": 1735,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://eva-lacroix.fr/videos/Le_Discours_d_un_roi_Bande_Annonce.mp4",
+            "resourceSize": 175851,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Pttg83HX_SGhgqk2jovaqRFB_ie.woff2",
+            "resourceSize": 32412,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
+            "resourceSize": 37356,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Sidney_Lumet.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Sidney_Lumet_1.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Sidney_Lumet_2.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 136,
+      "externalLinks": 4,
+      "internalLinks": 18,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 4,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Sidney Lumet",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Sidney Lumet: Le réalisateur qui a fait de la parole une arme de vérité",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un maître du dialogue et de la confrontation verbale",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Un maître du dialogue et de la confrontation verbale",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La parole au cœur de la justice",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La parole au cœur de la justice",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le cinéma de Lumet, une réflexion sur l’humanité",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le cinéma de Lumet, une réflexion sur l’humanité",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Un réalisateur engagé dans la vérité",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Sidney_Lumet.html",
+            "resourceSize": 13210,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Sidney_Lumet_1.webp",
+            "resourceSize": 20818,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Sidney_Lumet_2.webp",
+            "resourceSize": 23742,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Pttg83HX_SGhgqk2jovaqRFB_ie.woff2",
+            "resourceSize": 32412,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Le_Cercle.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Le_Cercle.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 133,
+      "externalLinks": 4,
+      "internalLinks": 18,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 4,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Cercle",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Le Cercle : Quand la communication devient surveillance",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un monde hyperconnecté, une vie privée en péril",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Un monde hyperconnecté, une vie privée en péril",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La transparence comme instrument de contrôle",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La transparence comme instrument de contrôle",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La communication omniprésente, une parole qui se vide de son sens",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "La communication omniprésente, une parole qui se vide de son sens",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Un réalisateur engagé dans la vérité",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Le_Cercle.html",
+            "resourceSize": 13017,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Le_Cercle.webp",
+            "resourceSize": 22464,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Pttg83HX_SGhgqk2jovaqRFB_ie.woff2",
+            "resourceSize": 32412,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
+            "resourceSize": 37356,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/The_Sound_of_Silence.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/The_Sound_of_Silence.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/arrow_spotify.svg",
+          "alt": "Flèche",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/spotify.svg",
+          "alt": "Logo Spotify",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/arrow.svg",
+          "alt": "Arrow",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Jeunes_avec_casques.webp",
+          "alt": "#",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 140,
+      "externalLinks": 5,
+      "internalLinks": 18,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 4,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "The Sound of Silence",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "The Sound of Silence : Le cri silencieux d’une société déconnectée",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le silence comme expression de l’isolement",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le silence comme expression de l’isolement",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Une critique de la société moderne",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Une critique de la société moderne",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le silence, une parole en soi",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le silence, une parole en soi",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Un réalisateur engagé dans la vérité",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 92,
+          "lastColumn": 18,
+          "firstColumn": 13,
+          "message": "End tag “div” seen, but there were open elements.",
+          "extract": "          </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
+        },
+        {
+          "type": "error",
+          "lastLine": 89,
+          "lastColumn": 55,
+          "firstColumn": 17,
+          "message": "Unclosed element “audio”.",
+          "extract": "          <audio class=\"section__audio\" controls>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/The_Sound_of_Silence.html",
+            "resourceSize": 14282,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/The_Sound_of_Silence.webp",
+            "resourceSize": 106320,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/arrow_spotify.svg",
+            "resourceSize": 1735,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/spotify.svg",
+            "resourceSize": 130831,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/arrow.svg",
+            "resourceSize": 1735,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Jeunes_avec_casques.webp",
+            "resourceSize": 31692,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://eva-lacroix.fr/audios/Simon_&_Garfunkel-The_Sounds_of_Silence.mp3",
+            "resourceSize": 1584362,
+            "mimeType": "audio/mpeg",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Pttg83HX_SGhgqk2jovaqRFB_ie.woff2",
+            "resourceSize": 32412,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 180,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 354,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Autres_projets.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 102,
+      "externalLinks": 10,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 0,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Autres projets",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Optic 3000",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Optic 3000",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Hat'era",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Hat'era",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Famille d'hier",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Famille d'hier",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Au fil des lames",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Au fil des lames",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Echoes of time",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Echoes of time",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Cerveau Artificielle",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Cerveau Artificielle",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Autres_projets.html",
+            "resourceSize": 9611,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Contact.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 88,
+      "externalLinks": 4,
+      "internalLinks": 14,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Contact.html",
+            "resourceSize": 8039,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 30092,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/Glossaire.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 89,
+      "externalLinks": 4,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 4,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Bâton de parole",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Bâton de parole",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Bouton mute",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Bouton mute",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Communication publique",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Communication publique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Surveillance numérique",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Surveillance numérique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/Glossaire.html",
+            "resourceSize": 8509,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/A_propos.html",
+      "title": "Echoes of Dialogue",
+      "images": [
+        {
+          "src": "/assets/img/Background_pages.webp",
+          "alt": "Image en background",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_clair.svg",
+          "alt": "Logo Echoes of Dialogue",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/langue_fr.svg",
+          "alt": "Passer en langue anglaise",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/logo_fonce_petit.svg",
+          "alt": "Logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/icons/linkedin.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/instagram.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        },
+        {
+          "src": "/assets/icons/facebook.svg",
+          "alt": "No alt",
+          "ariaHidden": "true"
+        }
+      ],
+      "totalTags": 87,
+      "externalLinks": 4,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 3,
+        "h4": 4,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "À Propos",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Qui suis-je ?",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Qui suis-je ?",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Pourquoi ce projet ?",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Pourquoi ce projet ?",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Mon approche du projet",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Mon approche du projet",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "nav"
+        },
+        {
+          "level": 4,
+          "text": "Menu",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Mentions Légales",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Me suivre",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.98,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/A_propos.html",
+            "resourceSize": 9060,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "resourceSize": 666,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 1056,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/Background_pages.webp",
+            "resourceSize": 22714,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_clair.svg",
+            "resourceSize": 104882,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/langue_fr.svg",
+            "resourceSize": 2068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/logo_fonce_petit.svg",
+            "resourceSize": 100804,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/linkedin.svg",
+            "resourceSize": 2132,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/instagram.svg",
+            "resourceSize": 3321,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/icons/facebook.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap",
+            "resourceSize": 7641,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/vendors/normalize.css",
+            "resourceSize": 6371,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 788,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "resourceSize": 1864,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/media.css",
+            "resourceSize": 53,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 380,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 2421,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "resourceSize": 1141,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "resourceSize": 2847,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/button.css",
+            "resourceSize": 692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/cards.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "resourceSize": 846,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/gallery.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "resourceSize": 1123,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35468,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/site.webmanifest",
+            "resourceSize": 457,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "button",
+      "img",
+      "video",
+      "a",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "em"
+    ],
+    "obsoleteTags": [
+      "i"
+    ],
+    "obsoleteTagsUsage": {
+      "i": 3
+    },
+    "otherTags": [
+      "div",
+      "span",
+      "hr",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 122,
+      "span": 10,
+      "hr": 10,
+      "br": 5
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 547,
+      "linesOfCode": 1,
+      "size": 10858,
+      "complexity": 1447,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 112,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 25,
+        "mean": 4.875,
+        "mode": 4,
+        "median": 4,
+        "range": 23,
+        "sum": 546,
+        "items": [
+          25,
+          4,
+          3,
+          2,
+          3,
+          10,
+          6,
+          7,
+          6,
+          7,
+          2,
+          6,
+          7,
+          4,
+          8,
+          3,
+          4,
+          9,
+          2,
+          4,
+          2,
+          3,
+          6,
+          4,
+          5,
+          8,
+          3,
+          5,
+          3,
+          15,
+          2,
+          3,
+          9,
+          4,
+          6,
+          9,
+          3,
+          9,
+          12,
+          2,
+          2,
+          5,
+          4,
+          2,
+          3,
+          4,
+          7,
+          5,
+          6,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          7,
+          2,
+          7,
+          2,
+          2,
+          2,
+          6,
+          3,
+          4,
+          6,
+          4,
+          7,
+          7,
+          5,
+          3,
+          2,
+          2,
+          5,
+          4,
+          5,
+          3,
+          7,
+          16,
+          4,
+          4,
+          2,
+          7,
+          2,
+          4,
+          7,
+          2,
+          2,
+          3,
+          3,
+          3,
+          7,
+          3,
+          8,
+          5,
+          4,
+          2,
+          2,
+          5,
+          7,
+          3,
+          5,
+          4,
+          3,
+          4,
+          5,
+          4,
+          2,
+          6,
+          4,
+          3,
+          9,
+          2
+        ],
+        "total": 112,
+        "totalUnique": 13,
+        "unique": {
+          "2": 22,
+          "3": 21,
+          "4": 23,
+          "5": 11,
+          "6": 9,
+          "7": 13,
+          "8": 3,
+          "9": 5,
+          "10": 1,
+          "12": 1,
+          "15": 1,
+          "16": 1,
+          "25": 1
+        },
+        "uniquenessRatio": 0.11607142857142858
+      },
+      "selectors": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.1517857142857142,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 129,
+        "items": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 112,
+        "totalUnique": 3,
+        "unique": {
+          "1": 99,
+          "2": 9,
+          "3": 4
+        },
+        "uniquenessRatio": 0.026785714285714284
+      },
+      "declarations": {
+        "min": 1,
+        "max": 24,
+        "mean": 3.7232142857142856,
+        "mode": 1,
+        "median": 3,
+        "range": 23,
+        "sum": 417,
+        "items": [
+          24,
+          1,
+          2,
+          1,
+          2,
+          9,
+          3,
+          6,
+          5,
+          6,
+          1,
+          5,
+          6,
+          3,
+          6,
+          2,
+          2,
+          8,
+          1,
+          3,
+          1,
+          2,
+          5,
+          3,
+          3,
+          7,
+          2,
+          4,
+          2,
+          14,
+          1,
+          2,
+          8,
+          3,
+          5,
+          8,
+          2,
+          8,
+          9,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          3,
+          6,
+          4,
+          5,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          6,
+          1,
+          5,
+          1,
+          1,
+          1,
+          4,
+          2,
+          3,
+          5,
+          3,
+          6,
+          6,
+          4,
+          1,
+          1,
+          1,
+          4,
+          3,
+          4,
+          2,
+          6,
+          15,
+          3,
+          3,
+          1,
+          6,
+          1,
+          3,
+          6,
+          1,
+          1,
+          1,
+          2,
+          2,
+          6,
+          2,
+          7,
+          4,
+          3,
+          1,
+          1,
+          3,
+          6,
+          2,
+          4,
+          3,
+          2,
+          3,
+          4,
+          3,
+          1,
+          5,
+          3,
+          2,
+          8,
+          1
+        ],
+        "total": 112,
+        "totalUnique": 12,
+        "unique": {
+          "1": 25,
+          "2": 22,
+          "3": 23,
+          "4": 9,
+          "5": 8,
+          "6": 13,
+          "7": 2,
+          "8": 5,
+          "9": 2,
+          "14": 1,
+          "15": 1,
+          "24": 1
+        },
+        "uniquenessRatio": 0.10714285714285714
+      }
+    },
+    "selectors": {
+      "total": 129,
+      "totalUnique": 112,
+      "uniquenessRatio": 0.8682170542635659,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          122,
+          36
+        ],
+        "mean": [
+          0,
+          0.9457364341085271,
+          0.27906976744186046
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "total": 129,
+        "totalUnique": 10,
+        "unique": {
+          "0,1,0": 93,
+          "0,0,0": 1,
+          "0,0,1": 16,
+          "0,0,2": 2,
+          "0,1,2": 1,
+          "0,1,1": 9,
+          "0,2,0": 1,
+          "0,3,0": 1,
+          "0,3,1": 4,
+          "0,2,1": 1
+        },
+        "uniquenessRatio": 0.07751937984496124
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.3255813953488371,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 171,
+        "total": 129,
+        "totalUnique": 5,
+        "unique": {
+          "1": 110,
+          "2": 10,
+          "3": 4,
+          "5": 1,
+          "6": 4
+        },
+        "uniquenessRatio": 0.03875968992248062,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          6,
+          6,
+          6,
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          ".menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 2,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.046511627906976744
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 6,
+        "totalUnique": 1,
+        "unique": {
+          " ": 6
+        },
+        "uniquenessRatio": 0.16666666666666666
+      }
+    },
+    "declarations": {
+      "total": 417,
+      "totalUnique": 202,
+      "uniquenessRatio": 0.4844124700239808,
+      "unique": {
+        "total": 202,
+        "ratio": 0.4844124700239808
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 417
+      }
+    },
+    "properties": {
+      "total": 417,
+      "totalUnique": 80,
+      "unique": {
+        "--blanc": 1,
+        "--bleu-clair": 1,
+        "--bleu-foncé": 1,
+        "--bleu-inter": 1,
+        "--filtre-image": 1,
+        "--fond-cards": 1,
+        "--fond-slide": 1,
+        "--gris": 1,
+        "--noir": 1,
+        "--pattern": 1,
+        "--fs-xs": 1,
+        "--fs-s": 1,
+        "--fs-m": 1,
+        "-fs-l": 1,
+        "--fs-xl": 1,
+        "--fs-xxl": 1,
+        "--Butler": 1,
+        "--Montserrat": 1,
+        "--Mulish": 1,
+        "--space1x": 1,
+        "--space2x": 1,
+        "--space3x": 1,
+        "--space4x": 1,
+        "--space5x": 1,
+        "box-sizing": 1,
+        "background-color": 7,
+        "overflow-x": 2,
+        "scroll-behavior": 1,
+        "list-style": 2,
+        "margin-bottom": 20,
+        "bottom": 1,
+        "height": 16,
+        "left": 5,
+        "max-height": 1,
+        "position": 7,
+        "top": 5,
+        "width": 19,
+        "z-index": 4,
+        "font-family": 10,
+        "font-style": 7,
+        "font-weight": 14,
+        "color": 15,
+        "font-size": 22,
+        "line-height": 8,
+        "margin-left": 10,
+        "margin-right": 13,
+        "text-align": 4,
+        "content": 8,
+        "display": 34,
+        "margin-top": 29,
+        "letter-spacing": 3,
+        "text-transform": 4,
+        "max-width": 2,
+        "align-items": 9,
+        "justify-content": 8,
+        "padding": 7,
+        "padding-top": 5,
+        "background": 10,
+        "margin": 23,
+        "text-decoration": 6,
+        "gap": 5,
+        "padding-bottom": 3,
+        "padding-left": 2,
+        "object-fit": 1,
+        "flex-direction": 5,
+        "inset": 1,
+        "overflow": 1,
+        "padding-right": 1,
+        "transform": 7,
+        "transition": 2,
+        "visibility": 2,
+        "border": 4,
+        "border-top": 1,
+        "border-radius": 8,
+        "mix-blend-mode": 3,
+        "box-shadow": 1,
+        "align-self": 1,
+        "scroll-snap-type": 1,
+        "flex": 1,
+        "scroll-snap-align": 1
+      },
+      "uniquenessRatio": 0.19184652278177458,
+      "prefixed": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "-fs-l": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.002398081534772182
+      },
+      "custom": {
+        "total": 23,
+        "totalUnique": 23,
+        "unique": {
+          "--blanc": 1,
+          "--bleu-clair": 1,
+          "--bleu-foncé": 1,
+          "--bleu-inter": 1,
+          "--filtre-image": 1,
+          "--fond-cards": 1,
+          "--fond-slide": 1,
+          "--gris": 1,
+          "--noir": 1,
+          "--pattern": 1,
+          "--fs-xs": 1,
+          "--fs-s": 1,
+          "--fs-m": 1,
+          "--fs-xl": 1,
+          "--fs-xxl": 1,
+          "--Butler": 1,
+          "--Montserrat": 1,
+          "--Mulish": 1,
+          "--space1x": 1,
+          "--space2x": 1,
+          "--space3x": 1,
+          "--space4x": 1,
+          "--space5x": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.05515587529976019,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0575539568345325,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 441
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 19,
+        "totalUnique": 13,
+        "unique": {
+          "#fff": 2,
+          "#c5e9ff": 2,
+          "#1e054e": 3,
+          "#004684": 2,
+          "#035aa68c": 1,
+          "#035aa633": 1,
+          "#ededed": 1,
+          "#c7c7c7": 1,
+          "#000": 1,
+          "#035aa640": 1,
+          "#11307a": 1,
+          "rgba(0,0,0,.25)": 1,
+          "transparent": 2
+        },
+        "uniquenessRatio": 0.6842105263157895,
+        "itemsPerContext": {
+          "--blanc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu-clair": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#c5e9ff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu-foncé": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#1e054e": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu-inter": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#004684": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--filtre-image": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#035aa68c": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fond-cards": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#035aa633": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fond-slide": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ededed": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gris": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#c7c7c7": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--noir": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--pattern": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#035aa640": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 7,
+            "totalUnique": 5,
+            "unique": {
+              "#c5e9ff": 1,
+              "#11307a": 1,
+              "#1e054e": 2,
+              "#004684": 1,
+              "transparent": 2
+            },
+            "uniquenessRatio": 0.7142857142857143
+          },
+          "box-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,.25)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 19,
+          "totalUnique": 5,
+          "unique": {
+            "hex3": 3,
+            "hex6": 10,
+            "hex8": 3,
+            "rgba": 1,
+            "transparent": 2
+          },
+          "uniquenessRatio": 0.2631578947368421
+        }
+      },
+      "gradients": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "linear-gradient(180deg,#c5e9ff,#11307a 23%,#1e054e)": 1,
+          "linear-gradient(270deg,#004684,#1e054e 77.4%)": 1,
+          "repeating-linear-gradient(to bottom,var(--bleu-foncé),var(--bleu-foncé) 4px,transparent 4px,transparent 8px)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 10,
+        "totalUnique": 3,
+        "unique": {
+          "var(--Butler)": 3,
+          "var(--Montserrat)": 2,
+          "var(--Mulish)": 5
+        },
+        "uniquenessRatio": 0.3
+      },
+      "fontSizes": {
+        "total": 22,
+        "totalUnique": 6,
+        "unique": {
+          "var(--fs-xxl)": 1,
+          "var(--fs-xl)": 2,
+          "var(--fs-m)": 3,
+          "var(--fs-xs)": 11,
+          "8px": 2,
+          "var(--fs-s)": 3
+        },
+        "uniquenessRatio": 0.2727272727272727
+      },
+      "lineHeights": {
+        "total": 8,
+        "totalUnique": 4,
+        "unique": {
+          "100%": 1,
+          "110%": 4,
+          "160%": 2,
+          "1.6": 1
+        },
+        "uniquenessRatio": 0.5
+      },
+      "zindexes": {
+        "total": 4,
+        "totalUnique": 4,
+        "unique": {
+          "1": 1,
+          "10": 1,
+          "999": 1,
+          "-1": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0 2px 4px rgba(0,0,0,.25)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 8,
+        "totalUnique": 7,
+        "unique": {
+          "0": 1,
+          "2px": 1,
+          "50px": 1,
+          "15px": 1,
+          "15px 15px 0 0": 2,
+          "20px": 1,
+          "50%": 1
+        },
+        "uniquenessRatio": 0.875,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 8,
+            "totalUnique": 7,
+            "unique": {
+              "0": 1,
+              "2px": 1,
+              "50px": 1,
+              "15px": 1,
+              "15px 15px 0 0": 2,
+              "20px": 1,
+              "50%": 1
+            },
+            "uniquenessRatio": 0.875
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            ".3s": 1,
+            ".4s": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "timingFunctions": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "ease-in-out": 2
+          },
+          "uniquenessRatio": 0.5
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 93,
+        "totalUnique": 6,
+        "unique": {
+          "rem": 6,
+          "px": 77,
+          "vh": 1,
+          "deg": 6,
+          "vw": 1,
+          "s": 2
+        },
+        "uniquenessRatio": 0.06451612903225806,
+        "itemsPerContext": {
+          "--fs-xs": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-s": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-m": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "-fs-l": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-xxl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space1x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space2x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space3x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space4x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--space5x": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "height": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "max-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "vh": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "width": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "letter-spacing": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "background": {
+            "total": 5,
+            "totalUnique": 2,
+            "unique": {
+              "deg": 2,
+              "px": 3
+            },
+            "uniquenessRatio": 0.4
+          },
+          "padding-top": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "transform": {
+            "total": 5,
+            "totalUnique": 2,
+            "unique": {
+              "vw": 1,
+              "deg": 4
+            },
+            "uniquenessRatio": 0.4
+          },
+          "transition": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-top": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-radius": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "font-size": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "gap": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 417
+      },
+      "keywords": {
+        "total": 25,
+        "totalUnique": 2,
+        "unique": {
+          "none": 13,
+          "auto": 12
+        },
+        "uniquenessRatio": 0.08
+      }
+    },
+    "__meta__": {
+      "parseTime": 4,
+      "analyzeTime": 4,
+      "total": 8
+    }
+  }
+}

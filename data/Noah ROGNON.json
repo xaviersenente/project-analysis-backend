@@ -1,0 +1,5324 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/acceuil.avif",
+          "alt": "hero",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/protheses.avif",
+          "alt": "prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/bionic.avif",
+          "alt": "prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/neuromancien.avif",
+          "alt": "prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/jamescameron.avif",
+          "alt": "prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/technologic.avif",
+          "alt": "prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 96,
+      "externalLinks": 0,
+      "internalLinks": 20,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "L'ère des prothèses",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Articles principaux",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l'humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 214,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.86,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 8688,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/acceuil.avif",
+            "resourceSize": 73412,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/protheses.avif",
+            "resourceSize": 16254,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/bionic.avif",
+            "resourceSize": 8445,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/neuromancien.avif",
+            "resourceSize": 26752,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/jamescameron.avif",
+            "resourceSize": 22440,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/technologic.avif",
+            "resourceSize": 20187,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/Lesprotheses.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/horloge.avif",
+          "alt": "horloge",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/pageprothèses.avif",
+          "alt": "prothèse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/prothèsesdenosjorus.avif",
+          "alt": "prothèse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 174,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 10,
+        "h3": 11,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Évolution des prothèses à travers les âges",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Évolution des prothèses à travers les âges",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Les premières prothèses",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Les premières prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Les prothèses modernes et bioniques",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses modernes et bioniques",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Les prothèses bioniques modernes : quand la science dépasse la fiction",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Les prothèses bioniques : une technologie de pointe",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Les prothèses bioniques : une technologie de pointe",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le cas de Tilly Lockey : Contrôle naturel des membres bioniques",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le cas de Tilly Lockey : Contrôle naturel des membres bioniques",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Intelligence artificielle : Une prothèse qui apprend",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Intelligence artificielle : Une prothèse qui apprend",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Matériaux biomimétiques : Confort, apparence et performance",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Matériaux biomimétiques : Confort, apparence et performance",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Quel avenir pour les prothèses ?",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Des prothèses qui dépassent l'humain",
+          "tag": "article"
+        },
+        {
+          "level": 1,
+          "text": "Des prothèses qui dépassent l'humain",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Des prothèses qui dépassent l'humain",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Des technologies en plein développement",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Des technologies en plein développement",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Les défis éthiques à relever",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Les défis éthiques à relever",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L'Évolution des Prothèses: De l'Antiquité à l'Ère Bionique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Légende",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 117,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "message": "Element “legend” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "e\" />\n    <legend><i>Pro",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        },
+        {
+          "type": "error",
+          "lastLine": 352,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 0.96,
+        "bestPractices": 0.79,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/Lesprotheses.html",
+            "resourceSize": 17482,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/horloge.avif",
+            "resourceSize": 811,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/pageproth%C3%A8ses.avif",
+            "resourceSize": 69350,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/proth%C3%A8sesdenosjorus.avif",
+            "resourceSize": 9590,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://noahrognon.fr/video/Neuralink.mp4",
+            "resourceSize": 145802,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v47/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/bionic.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/horloge.avif",
+          "alt": "horloge",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/bionicaffiche.avif",
+          "alt": "prothèse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/passage-du-filmbionic.avif",
+          "alt": "passage du film (BIONIC (2024))",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carrouselfilm1.avif",
+          "alt": "Ex Machina",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carrouselfilm2.avif",
+          "alt": "Ghost in the Shell",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carrouselfilm3.avif",
+          "alt": "Blade Runner",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carrouselfilm4.avif",
+          "alt": "Robocop",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 116,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Synopsis du film",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L’homme face à la machine : une compétition déséquilibrée ?",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Bande d'annonce BIONIC (2024)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Un regard sur l'avenir des prothèses",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Galerie des films corrélés",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Ex Machina (2014)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Ghost in the Shell (1995)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Blade Runner 2049 (2017)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Robocop (1987)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 244,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.92,
+        "accessibility": 0.95,
+        "bestPractices": 0.79,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/bionic.html",
+            "resourceSize": 11726,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/horloge.avif",
+            "resourceSize": 811,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/bionicaffiche.avif",
+            "resourceSize": 59280,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/passage-du-filmbionic.avif",
+            "resourceSize": 30414,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carrouselfilm1.avif",
+            "resourceSize": 8220,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carrouselfilm2.avif",
+            "resourceSize": 11135,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carrouselfilm3.avif",
+            "resourceSize": 12694,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carrouselfilm4.avif",
+            "resourceSize": 11371,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://noahrognon.fr/video/bionic.mp4",
+            "resourceSize": 217026,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v47/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/Neuromancien.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/horloge.avif",
+          "alt": "horloge",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/neuromancien.avif",
+          "alt": "prothèse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousellivre1.avif",
+          "alt": "Ex Machina",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carrouselfilm2.avif",
+          "alt": "Ghost in the Shell",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousellivre2.avif",
+          "alt": "Blade Runner",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 108,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Synopsis : Plongée dans un Futur Numérique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Augmentation Humaine : Une Vision Prophétique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Liste des oeuvres inspirées de Neuromancien",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matrix (1999))",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Ghost in the Shell (1995)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Cyberpunk 2077",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Prothèses et Cyberspace  Vers un Nouveau Corps Humain",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 229,
+          "lastColumn": 7,
+          "firstColumn": 1,
+          "message": "End tag for  “body” seen, but there were unclosed elements.",
+          "extract": "</script>\n</body>\n<butt",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "lastLine": 123,
+          "lastColumn": 32,
+          "firstColumn": 5,
+          "message": "Unclosed element “div”.",
+          "extract": ".</p>\n    <div class=\"btn__container\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "lastLine": 230,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        },
+        {
+          "type": "error",
+          "lastLine": 231,
+          "lastColumn": 7,
+          "firstColumn": 1,
+          "message": "End tag for  “html” seen, but there were unclosed elements.",
+          "extract": "</button>\n</html>",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/Neuromancien.html",
+            "resourceSize": 11364,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/horloge.avif",
+            "resourceSize": 811,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/neuromancien.avif",
+            "resourceSize": 26752,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousellivre1.avif",
+            "resourceSize": 14349,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carrouselfilm2.avif",
+            "resourceSize": 11135,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousellivre2.avif",
+            "resourceSize": 12487,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/Jamescameron.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/horloge.avif",
+          "alt": "horloge",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/jamescameron.avif",
+          "alt": "prothèse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/afficheavatar.avif",
+          "alt": "Affiche Avatar",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/afficheterminator.avif",
+          "alt": "Affiche Terminator",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/passageavatar.avif",
+          "alt": "Passage du film  Avatar",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/passageterminaor.avif",
+          "alt": "Passage du film Terminator",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 108,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "De Terminator à Avatar : redéfinir l'avenir",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Technologie et éthique : des dilemmes contemporains",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Cameron et le futur des prothèses",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 113,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "message": "Element “legend” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "/div>\n    <legend><i>Pas",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        },
+        {
+          "type": "error",
+          "lastLine": 227,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.76,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/Jamescameron.html",
+            "resourceSize": 10999,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/horloge.avif",
+            "resourceSize": 811,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/jamescameron.avif",
+            "resourceSize": 22440,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/afficheavatar.avif",
+            "resourceSize": 33469,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/afficheterminator.avif",
+            "resourceSize": 20842,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/passageavatar.avif",
+            "resourceSize": 29947,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/passageterminaor.avif",
+            "resourceSize": 25208,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/technologic.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/horloge.avif",
+          "alt": "horloge",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/technologic.avif",
+          "alt": "prothèse",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/concertDaftPunk.avif",
+          "alt": "Photo de concert de Daft Punk",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 97,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Analyse des paroles : quand la technologie rythme nos vies",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Augmentation Humaine : Une Vision Prophétique",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Technologic : une réflexion sur la fusion homme-machine",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Le rôle de Technologic dans le débat sur la technologie",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 73,
+          "lastColumn": 100,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/audio/Daft Punk - Technologic (Official Video).mp3” for attribute “src” on element “source”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <source  src=\"/assets/audio/Daft Punk - Technologic (Official Video).mp3\" type=\"audio/mpeg\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 92
+        },
+        {
+          "type": "error",
+          "lastLine": 87,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "message": "Element “legend” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "k\" />\n    <legend><i>Pho",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        },
+        {
+          "type": "error",
+          "lastLine": 209,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.74,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/technologic.html",
+            "resourceSize": 10420,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/horloge.avif",
+            "resourceSize": 811,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/technologic.avif",
+            "resourceSize": 20187,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/concertDaftPunk.avif",
+            "resourceSize": 24423,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/audio/Daft%20Punk%20-%20Technologic%20(Official%20Video).mp3",
+            "resourceSize": 1638400,
+            "mimeType": "audio/mpeg",
+            "resourceType": "Media"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 382,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 180,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiI…",
+            "resourceSize": 354,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/Glossaire.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 94,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Glossaire des termes technologiques et futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 189,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.76,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/Glossaire.html",
+            "resourceSize": 9125,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 9,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "À propos / Contact",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "À propos de moi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Le projet : L'ère des Prothèses",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Contexte universitaire",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Remerciements",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Contact",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Formulaire de contact",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 217,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.74,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 9067,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autresprojets.html",
+      "title": "L'ère des prothèses",
+      "images": [
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "Logo ère des prothèses",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/logoeredesprothèses.png",
+          "alt": "L'ère des prothèses",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 134,
+      "externalLinks": 10,
+      "internalLinks": 19,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "L'ère des prothèses",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Autres projets",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Liste des autres projets du groupe C2 :",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Voir encore",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Les prothèses : Hier, aujourd'hui et demain",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bionic (2024) : Le futur des athlètes prothétiques",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Neuromancien : La cybernétique à portée de main",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "James Cameron : L'explorateur de l’humanité augmentée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Technologic : Quand la technologie devient musique",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "L'ère des prothèses",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 227,
+          "lastColumn": 75,
+          "firstColumn": 1,
+          "message": "Stray start tag “button”.",
+          "extract": ">\n</body>\n<button id=\"scrollToTop\" class=\"scroll-to-top\" aria-label=\"Retour en haut\">↑</but",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.95,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autresprojets.html",
+            "resourceSize": 9769,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 983,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 2323,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "resourceSize": 135966,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6177,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 184,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 1568,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 224,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 648,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 1137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 2205,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/langue.css",
+            "resourceSize": 588,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/chapeau.css",
+            "resourceSize": 27,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "resourceSize": 561,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselmenu.css",
+            "resourceSize": 868,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/imformation.css",
+            "resourceSize": 249,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/citation.css",
+            "resourceSize": 239,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/frise.css",
+            "resourceSize": 518,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carouselfilm.css",
+            "resourceSize": 874,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/affichefilmjamescameron.Css",
+            "resourceSize": 245,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/formulairedecontact.css",
+            "resourceSize": 693,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/autreprojet.Css",
+            "resourceSize": 608,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fonddecranmenu.avif",
+            "resourceSize": 10692,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/footer.avif",
+            "resourceSize": 20897,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbitron/v31/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2",
+            "resourceSize": 11568,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2ljDcKYARBRn.woff2",
+            "resourceSize": 8276,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logoeredesproth%C3%A8ses.png",
+            "resourceSize": 124486,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "blockquote",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "button",
+      "img",
+      "video",
+      "a",
+      "em",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "textarea"
+    ],
+    "obsoleteTags": [
+      "i"
+    ],
+    "obsoleteTagsUsage": {
+      "i": 4
+    },
+    "otherTags": [
+      "span",
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "span": 9,
+      "div": 164,
+      "br": 13
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 495,
+      "linesOfCode": 1,
+      "size": 8781,
+      "complexity": 1341,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url(\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbit&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap\")": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "(max-width:768px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 2,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 2
+      }
+    },
+    "rules": {
+      "total": 93,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 18,
+        "mean": 5.301075268817204,
+        "mode": 2.5,
+        "median": 4,
+        "range": 16,
+        "sum": 493,
+        "items": [
+          9,
+          4,
+          3,
+          5,
+          4,
+          5,
+          3,
+          5,
+          2,
+          13,
+          3,
+          18,
+          3,
+          2,
+          4,
+          5,
+          2,
+          11,
+          5,
+          9,
+          2,
+          6,
+          7,
+          3,
+          3,
+          2,
+          3,
+          4,
+          2,
+          7,
+          6,
+          5,
+          2,
+          13,
+          3,
+          9,
+          2,
+          4,
+          3,
+          2,
+          10,
+          2,
+          13,
+          11,
+          2,
+          2,
+          3,
+          5,
+          5,
+          4,
+          11,
+          3,
+          11,
+          4,
+          4,
+          2,
+          9,
+          4,
+          2,
+          8,
+          3,
+          9,
+          8,
+          9,
+          4,
+          4,
+          3,
+          11,
+          9,
+          4,
+          7,
+          4,
+          5,
+          5,
+          8,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          4,
+          3,
+          5,
+          5,
+          6,
+          11,
+          3,
+          5,
+          5,
+          4,
+          14,
+          3
+        ],
+        "total": 93,
+        "totalUnique": 13,
+        "unique": {
+          "2": 18,
+          "3": 18,
+          "4": 15,
+          "5": 14,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 7,
+          "10": 1,
+          "11": 6,
+          "13": 3,
+          "14": 1,
+          "18": 1
+        },
+        "uniquenessRatio": 0.13978494623655913
+      },
+      "selectors": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.1397849462365592,
+        "mode": 1,
+        "median": 1,
+        "range": 2,
+        "sum": 106,
+        "items": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 93,
+        "totalUnique": 3,
+        "unique": {
+          "1": 83,
+          "2": 7,
+          "3": 3
+        },
+        "uniquenessRatio": 0.03225806451612903
+      },
+      "declarations": {
+        "min": 1,
+        "max": 17,
+        "mean": 4.161290322580645,
+        "mode": 1,
+        "median": 3,
+        "range": 16,
+        "sum": 387,
+        "items": [
+          8,
+          3,
+          2,
+          3,
+          3,
+          4,
+          1,
+          4,
+          1,
+          12,
+          2,
+          17,
+          2,
+          1,
+          3,
+          4,
+          1,
+          10,
+          4,
+          7,
+          1,
+          5,
+          6,
+          2,
+          2,
+          1,
+          2,
+          3,
+          1,
+          4,
+          5,
+          4,
+          1,
+          12,
+          2,
+          8,
+          1,
+          3,
+          2,
+          1,
+          8,
+          1,
+          12,
+          8,
+          1,
+          1,
+          2,
+          4,
+          4,
+          2,
+          10,
+          2,
+          10,
+          3,
+          3,
+          1,
+          7,
+          3,
+          1,
+          7,
+          2,
+          8,
+          7,
+          8,
+          3,
+          3,
+          2,
+          10,
+          8,
+          3,
+          6,
+          3,
+          4,
+          4,
+          7,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          3,
+          2,
+          4,
+          4,
+          5,
+          8,
+          2,
+          3,
+          4,
+          3,
+          13,
+          2
+        ],
+        "total": 93,
+        "totalUnique": 12,
+        "unique": {
+          "1": 19,
+          "2": 18,
+          "3": 16,
+          "4": 13,
+          "5": 3,
+          "6": 2,
+          "7": 5,
+          "8": 8,
+          "10": 4,
+          "12": 3,
+          "13": 1,
+          "17": 1
+        },
+        "uniquenessRatio": 0.12903225806451613
+      }
+    },
+    "selectors": {
+      "total": 106,
+      "totalUnique": 92,
+      "uniquenessRatio": 0.8679245283018868,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          112,
+          32
+        ],
+        "mean": [
+          0,
+          1.0566037735849056,
+          0.3018867924528302
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "total": 106,
+        "totalUnique": 9,
+        "unique": {
+          "0,1,0": 66,
+          "0,0,0": 1,
+          "0,0,1": 9,
+          "0,2,0": 8,
+          "0,1,1": 15,
+          "0,3,0": 1,
+          "0,3,1": 2,
+          "0,2,1": 2,
+          "0,1,2": 2
+        },
+        "uniquenessRatio": 0.08490566037735849
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.5943396226415094,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 169,
+        "total": 106,
+        "totalUnique": 6,
+        "unique": {
+          "1": 76,
+          "2": 11,
+          "3": 12,
+          "4": 2,
+          "5": 3,
+          "6": 2
+        },
+        "uniquenessRatio": 0.05660377358490566,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          6,
+          6,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          5,
+          5,
+          3,
+          3,
+          4,
+          4,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 4,
+        "totalUnique": 4,
+        "unique": {
+          ".menu[aria-hidden=false]": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:before": 1,
+          ".menu-btn[aria-expanded=true] .menu-btn__bar:after": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.03773584905660377
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          ".carouselfilm__container::-webkit-scrollbar": 1,
+          ".carouselfilm__container::-webkit-scrollbar-thumb": 1,
+          ".carouselfilm__container::-webkit-scrollbar-track": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.02830188679245283
+      },
+      "combinators": {
+        "total": 15,
+        "totalUnique": 1,
+        "unique": {
+          " ": 15
+        },
+        "uniquenessRatio": 0.06666666666666667
+      }
+    },
+    "declarations": {
+      "total": 387,
+      "totalUnique": 219,
+      "uniquenessRatio": 0.5658914728682171,
+      "unique": {
+        "total": 219,
+        "ratio": 0.5658914728682171
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 387
+      }
+    },
+    "properties": {
+      "total": 387,
+      "totalUnique": 67,
+      "unique": {
+        "--color": 1,
+        "--color-2": 1,
+        "--color-3": 1,
+        "--color-4": 1,
+        "--color-5": 1,
+        "--color-6": 1,
+        "--color-7": 1,
+        "--color-8": 1,
+        "box-sizing": 2,
+        "margin": 14,
+        "padding": 23,
+        "font-size": 20,
+        "font-weight": 9,
+        "color": 28,
+        "font-family": 12,
+        "text-align": 11,
+        "background-color": 19,
+        "border": 9,
+        "border-radius": 15,
+        "cursor": 4,
+        "display": 23,
+        "margin-top": 11,
+        "text-decoration": 6,
+        "transition": 9,
+        "align-items": 7,
+        "bottom": 1,
+        "box-shadow": 5,
+        "height": 7,
+        "justify-content": 8,
+        "position": 13,
+        "right": 3,
+        "width": 20,
+        "z-index": 9,
+        "opacity": 1,
+        "transform": 10,
+        "object-fit": 2,
+        "aspect-ratio": 1,
+        "left": 8,
+        "max-width": 3,
+        "top": 12,
+        "margin-left": 5,
+        "margin-right": 2,
+        "background": 6,
+        "flex-direction": 4,
+        "gap": 7,
+        "border-top": 1,
+        "padding-top": 1,
+        "flex-wrap": 2,
+        "background-image": 1,
+        "background-size": 1,
+        "inset": 1,
+        "visibility": 2,
+        "margin-bottom": 3,
+        "list-style": 1,
+        "content": 1,
+        "border-bottom": 2,
+        "overflow": 2,
+        "filter": 1,
+        "flex": 2,
+        "border-left": 1,
+        "font-style": 1,
+        "line-height": 1,
+        "overflow-x": 2,
+        "padding-bottom": 1,
+        "white-space": 1,
+        "-webkit-overflow-scrolling": 1,
+        "resize": 1
+      },
+      "uniquenessRatio": 0.1731266149870801,
+      "prefixed": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "-webkit-overflow-scrolling": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.002583979328165375
+      },
+      "custom": {
+        "total": 8,
+        "totalUnique": 8,
+        "unique": {
+          "--color": 1,
+          "--color-2": 1,
+          "--color-3": 1,
+          "--color-4": 1,
+          "--color-5": 1,
+          "--color-6": 1,
+          "--color-7": 1,
+          "--color-8": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.020671834625323,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0232558139534884,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 396
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 69,
+        "totalUnique": 28,
+        "unique": {
+          "#ddc9fd": 7,
+          "#91c4b0": 1,
+          "#91b1bd": 1,
+          "#264c98": 1,
+          "#00bfa6": 4,
+          "#d4e6f1": 3,
+          "#000": 2,
+          "#fff": 17,
+          "#741efc": 3,
+          "#1e499c": 2,
+          "#f0c0ff": 3,
+          "#15376d": 3,
+          "rgba(0,0,0,.2)": 3,
+          "#7b7b7b": 1,
+          "transparent": 3,
+          "#e6e6fa": 1,
+          "rgba(0,0,0,.5)": 1,
+          "#518baf": 1,
+          "#7a9fb8": 1,
+          "#4a4a4a": 1,
+          "#e1c5f6": 1,
+          "#d6b3ff": 1,
+          "rgba(0,0,0,.4)": 1,
+          "#888": 1,
+          "#444": 1,
+          "rgba(0,0,0,.3)": 1,
+          "#999": 3,
+          "#333": 1
+        },
+        "uniquenessRatio": 0.4057971014492754,
+        "itemsPerContext": {
+          "--color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ddc9fd": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-2": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#91c4b0": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-3": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#91b1bd": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-4": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#264c98": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-5": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#00bfa6": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-6": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#d4e6f1": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-7": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-8": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 27,
+            "totalUnique": 9,
+            "unique": {
+              "#00bfa6": 2,
+              "#741efc": 3,
+              "#f0c0ff": 3,
+              "#fff": 12,
+              "#7b7b7b": 1,
+              "#ddc9fd": 2,
+              "#4a4a4a": 1,
+              "#999": 2,
+              "#333": 1
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "background-color": {
+            "total": 19,
+            "totalUnique": 11,
+            "unique": {
+              "#d4e6f1": 2,
+              "#1e499c": 2,
+              "#15376d": 3,
+              "#ddc9fd": 2,
+              "#fff": 4,
+              "#e6e6fa": 1,
+              "#518baf": 1,
+              "#e1c5f6": 1,
+              "#d6b3ff": 1,
+              "#888": 1,
+              "#444": 1
+            },
+            "uniquenessRatio": 0.5789473684210527
+          },
+          "box-shadow": {
+            "total": 5,
+            "totalUnique": 3,
+            "unique": {
+              "rgba(0,0,0,.2)": 3,
+              "rgba(0,0,0,.4)": 1,
+              "rgba(0,0,0,.3)": 1
+            },
+            "uniquenessRatio": 0.6
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#00bfa6": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 5,
+            "totalUnique": 4,
+            "unique": {
+              "transparent": 2,
+              "#000": 1,
+              "#ddc9fd": 1,
+              "rgba(0,0,0,.5)": 1
+            },
+            "uniquenessRatio": 0.8
+          },
+          "border": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "transparent": 1,
+              "#ddc9fd": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#7a9fb8": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#999": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 69,
+          "totalUnique": 4,
+          "unique": {
+            "hex6": 35,
+            "hex3": 25,
+            "rgba": 6,
+            "transparent": 3
+          },
+          "uniquenessRatio": 0.057971014492753624
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 12,
+        "totalUnique": 7,
+        "unique": {
+          "Orbitron,sans-serif": 3,
+          "orbit": 1,
+          "Courier New,Courier,monospace": 1,
+          "orbitron,medium": 2,
+          "Orbit": 1,
+          "Orbit,sans-serif": 1,
+          "Lora,serif": 3
+        },
+        "uniquenessRatio": 0.5833333333333334
+      },
+      "fontSizes": {
+        "total": 20,
+        "totalUnique": 11,
+        "unique": {
+          "32px": 1,
+          "24px": 4,
+          "20px": 1,
+          "16px": 2,
+          "1rem": 3,
+          "18px": 1,
+          "\"Orbitron\",sans-serif": 1,
+          ".875rem": 1,
+          "1.5rem": 2,
+          "12px": 2,
+          "14px": 2
+        },
+        "uniquenessRatio": 0.55
+      },
+      "lineHeights": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "1.6": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "zindexes": {
+        "total": 9,
+        "totalUnique": 5,
+        "unique": {
+          "0": 1,
+          "1": 1,
+          "5": 1,
+          "10": 5,
+          "1000": 1
+        },
+        "uniquenessRatio": 0.5555555555555556
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 5,
+        "totalUnique": 5,
+        "unique": {
+          "0 4px 6px rgba(0,0,0,.2)": 1,
+          "0 4px 8px rgba(0,0,0,.2)": 1,
+          "0 2px 5px rgba(0,0,0,.2)": 1,
+          "0 4px 8px rgba(0,0,0,.4)": 1,
+          "0 4px 6px rgba(0,0,0,.3)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 15,
+        "totalUnique": 7,
+        "unique": {
+          "20px": 4,
+          "50%": 2,
+          "-20px": 1,
+          "10px": 3,
+          "5px": 1,
+          "8px": 3,
+          "12px": 1
+        },
+        "uniquenessRatio": 0.4666666666666667,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 15,
+            "totalUnique": 7,
+            "unique": {
+              "20px": 4,
+              "50%": 2,
+              "-20px": 1,
+              "10px": 3,
+              "5px": 1,
+              "8px": 3,
+              "12px": 1
+            },
+            "uniquenessRatio": 0.4666666666666667
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 10,
+          "totalUnique": 3,
+          "unique": {
+            ".3s": 8,
+            ".4s": 1,
+            ".5s": 1
+          },
+          "uniquenessRatio": 0.3
+        },
+        "timingFunctions": {
+          "total": 10,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 5,
+            "ease-in-out": 5
+          },
+          "uniquenessRatio": 0.2
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 164,
+        "totalUnique": 5,
+        "unique": {
+          "px": 144,
+          "rem": 6,
+          "s": 10,
+          "vw": 1,
+          "deg": 3
+        },
+        "uniquenessRatio": 0.03048780487804878,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 19,
+            "totalUnique": 2,
+            "unique": {
+              "px": 13,
+              "rem": 6
+            },
+            "uniquenessRatio": 0.10526315789473684
+          },
+          "padding": {
+            "total": 25,
+            "totalUnique": 1,
+            "unique": {
+              "px": 25
+            },
+            "uniquenessRatio": 0.04
+          },
+          "border-radius": {
+            "total": 13,
+            "totalUnique": 1,
+            "unique": {
+              "px": 13
+            },
+            "uniquenessRatio": 0.07692307692307693
+          },
+          "margin-top": {
+            "total": 11,
+            "totalUnique": 1,
+            "unique": {
+              "px": 11
+            },
+            "uniquenessRatio": 0.09090909090909091
+          },
+          "transition": {
+            "total": 10,
+            "totalUnique": 1,
+            "unique": {
+              "s": 10
+            },
+            "uniquenessRatio": 0.1
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "box-shadow": {
+            "total": 10,
+            "totalUnique": 1,
+            "unique": {
+              "px": 10
+            },
+            "uniquenessRatio": 0.1
+          },
+          "height": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "width": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "margin": {
+            "total": 17,
+            "totalUnique": 1,
+            "unique": {
+              "px": 17
+            },
+            "uniquenessRatio": 0.058823529411764705
+          },
+          "margin-left": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "margin-right": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "gap": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "max-width": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "transform": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "vw": 1,
+              "deg": 3
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-bottom": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "top": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "left": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 387
+      },
+      "keywords": {
+        "total": 24,
+        "totalUnique": 2,
+        "unique": {
+          "none": 16,
+          "auto": 8
+        },
+        "uniquenessRatio": 0.08333333333333333
+      }
+    },
+    "__meta__": {
+      "parseTime": 3,
+      "analyzeTime": 2,
+      "total": 5
+    }
+  }
+}

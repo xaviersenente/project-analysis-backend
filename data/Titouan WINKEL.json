@@ -1,0 +1,4231 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Futurbanisme",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo-blanc.svg",
+          "alt": "Logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ville-futuriste-neons-violet.svg",
+          "alt": "Ville futuriste avec des néons violets et des teintes de bleu.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/cinquieme-element-affiche.svg",
+          "alt": "Affiche du film Le Cinquième Element",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hunger-games-couverture.svg",
+          "alt": "Couverture du livre Hunger Games",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/luc-besson-photo.svg",
+          "alt": "Photo de Luc Besson",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/little-light-of-love.svg",
+          "alt": "Pochette d'album du song Little Light of Love.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 111,
+      "externalLinks": 1,
+      "internalLinks": 21,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "L’urbanisme futur",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "L’urbanisme futur",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "L’immeuble",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Le Cinquième Élément",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Hunger Games (roman)",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Luc Besson",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Little Light of Love",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 38,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.8,
+        "accessibility": 0.79,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 10084,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo-blanc.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fond-page-accueil-ville-futuriste.svg",
+            "resourceSize": 277487,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ville-futuriste-neons-violet.svg",
+            "resourceSize": 201946,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/cinquieme-element-affiche.svg",
+            "resourceSize": 821653,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hunger-games-couverture.svg",
+            "resourceSize": 52760,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/immeuble.html",
+      "title": "L'immeuble",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ville-futuriste-jaune-orange.svg",
+          "alt": "Ville futuriste avec des couleurs jaunes et oranges.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/phrise-chronologique.svg",
+          "alt": "Phrise chronologique représentant l'évolution de l'immeuble à travers les époques",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ville-futuriste-neons-violet-bleu.svg",
+          "alt": "Ville futuriste avec des couleurs bleues, roses, et violettes",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 88,
+      "externalLinks": 1,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "L'immeuble : Symbole de l'urbanisation moderne et de l'avenir des villes",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L'immeuble, pilier de la densification urbaine",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Vers des immeubles écologiques et intelligents",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 0.79,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/immeuble.html",
+            "resourceSize": 7838,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ville-futuriste-jaune-orange.svg",
+            "resourceSize": 119797,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/phrise-chronologique.svg",
+            "resourceSize": 276068,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ville-futuriste-neons-violet-bleu.svg",
+            "resourceSize": 129544,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/film.html",
+      "title": "Le Cinquième Elément",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image-cinquieme-element-ville-voitures-volantes.svg",
+          "alt": "Image du film Le Cinquième Elément, on voit des voitures de police volantes au milieu d'immeubles.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image-cinquieme-element-ville-macdo.svg",
+          "alt": "image d'une ville futuriste avec le logo Macdo sur la façade d'immeuble",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image-cinquieme-element-ville-personnage-sur-immeuble.svg",
+          "alt": "ville futuriste avec un personnage qui marche sur le rebord de la façade d'un immeuble",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/image-cinquieme-element-deux-personnages.svg",
+          "alt": "image des deux personnages principaux",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 103,
+      "externalLinks": 2,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "\"Le Cinquième Élément\" : Quand le futur rencontre la science-fiction",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "L’humanisation du futur : entre technologie et spiritualité",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Un héritage durable dans la culture pop",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 40,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.83,
+        "accessibility": 0.8,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/film.html",
+            "resourceSize": 10624,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/video.js",
+            "resourceSize": 415,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/cinquieme-element-bande-annonce.mp4",
+            "resourceSize": 1117816,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHgOiJM6.woff2",
+            "resourceSize": 31128,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image-cinquieme-element-ville-voitures-volantes.svg",
+            "resourceSize": 831281,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image-cinquieme-element-ville-macdo.svg",
+            "resourceSize": 80485,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image-cinquieme-element-ville-personnage-sur-immeuble.svg",
+            "resourceSize": 199437,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/livre.html",
+      "title": "Hunger Games",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hunger-games-couverture.svg",
+          "alt": "Image de la couverture du livre Hunger Games.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hunger-games-film-ville-paysage.svg",
+          "alt": "Image d'une ville futuriste de dessus avec un lever de soleil au loin.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hunger-games-film-ville-paysage2.svg",
+          "alt": "Image d'une arène futuriste avec un vaisseau en lévitation au dessus.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 100,
+      "externalLinks": 2,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 4,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "\"Hunger Games\" : Une dystopie captivante sur l’avenir de nos sociétés",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Panem : un monde dystopique fascinant",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Katniss Everdeen : symbole de résistance",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Un avertissement sur notre futur ?",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.87,
+        "accessibility": 0.8,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/livre.html",
+            "resourceSize": 9085,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHgOiJM6.woff2",
+            "resourceSize": 31128,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hunger-games-couverture.svg",
+            "resourceSize": 52760,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hunger-games-film-ville-paysage.svg",
+            "resourceSize": 543444,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hunger-games-film-ville-paysage2.svg",
+            "resourceSize": 71275,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/realisateur.html",
+      "title": "Luc Besson",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/luc-besson-photo.svg",
+          "alt": "Photo représentant Luc Besson",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/valerian-film-affiche.svg",
+          "alt": "Affiche du film Valerian. L'affiche un immense vaisseau spatial dans des couleurs orange et bleue.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/dogman-film-affiche.svg",
+          "alt": "Affiche du film Dogman. L'affiche représente deux personnage à l'air sérieux, qui semblent se trouver dans l'espace.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 99,
+      "externalLinks": 1,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Luc Besson : L'architecte visionnaire du cinéma futuriste",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Un créateur de mondes futuristes",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Une signature visuelle inimitable",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.79,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/realisateur.html",
+            "resourceSize": 8969,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHgOiJM6.woff2",
+            "resourceSize": 31128,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/luc-besson-photo.svg",
+            "resourceSize": 2911477,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/valerian-film-affiche.svg",
+            "resourceSize": 143521,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/dogman-film-affiche.svg",
+            "resourceSize": 2083257,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/musique.html",
+      "title": "Little Light of Love",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/little-light-of-love.svg",
+          "alt": "Pochette d'album du song Little Light of Love.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/eric-serra-photo.svg",
+          "alt": "Photo d'Eric Serra",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 84,
+      "externalLinks": 2,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "\"Little Light of Love\" : La bande-son iconique du futur dans Le Cinquième Élément",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Une mélodie futuriste aux sonorités uniques",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Un message d'amour et d'espoir",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.89,
+        "accessibility": 0.79,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/musique.html",
+            "resourceSize": 7549,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHgOiJM6.woff2",
+            "resourceSize": 31128,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/little-light-of-love.svg",
+            "resourceSize": 178283,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/eric-serra-photo.svg",
+            "resourceSize": 993062,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 82,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Contact",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.97,
+        "accessibility": 0.8,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 6276,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autres-projets.html",
+      "title": "Autres projets",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 105,
+      "externalLinks": 11,
+      "internalLinks": 16,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Autres projets",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.8,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autres-projets.html",
+            "resourceSize": 7690,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 84,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Glossaire",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.79,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 7660,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/a-propos.html",
+      "title": "A propos",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ville-futuriste-jaune-orange-brouillard.svg",
+          "alt": "ville futuriste dans le brouillard dans des teintes d'orange",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/cyberpunk-2077-voiture.svg",
+          "alt": "image du jeu video Cyberpunk 2077. on voit une voiture de derrière.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/cyberpunk-2077-ville-gens.svg",
+          "alt": "image du jeu video Cyberpunk 2077. on voit une rue d'une ville avec des gens.",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 85,
+      "externalLinks": 1,
+      "internalLinks": 16,
+      "deadLinks": 1,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "A propos",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 36,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.79,
+        "bestPractices": 1,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/a-propos.html",
+            "resourceSize": 7407,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ville-futuriste-jaune-orange-brouillard.svg",
+            "resourceSize": 151438,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/cyberpunk-2077-voiture.svg",
+            "resourceSize": 1217391,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/cyberpunk-2077-ville-gens.svg",
+            "resourceSize": 174078,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autres-films.html",
+      "title": "Plus de films",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/blade-runner-affiche.svg",
+          "alt": "Affiche du film Blade Runner 2049",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/tron-affiche.svg",
+          "alt": "Affiche du film Tron",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/hunger-games-film-affiche.svg",
+          "alt": "Affiche du film Hunger Games",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/labyrinthe-film-affiche.svg",
+          "alt": "Affiche du film Le Labyrinthe",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 97,
+      "externalLinks": 5,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Explorer plus de films",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 39,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.59,
+        "accessibility": 0.8,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autres-films.html",
+            "resourceSize": 9233,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/blade-runner-affiche.svg",
+            "resourceSize": 1058292,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/tron-affiche.svg",
+            "resourceSize": 94084,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hunger-games-film-affiche.svg",
+            "resourceSize": 84617,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/labyrinthe-film-affiche.svg",
+            "resourceSize": 135139,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autres-livres.html",
+      "title": "Plus de livres",
+      "images": [
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/les-monades-urbaines-livre-couverture.svg",
+          "alt": "couverture du livre Les Monades Urbaines",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/les-tours-de-samarantes-livre-couverture.svg",
+          "alt": "couverture du livre Les Tours de Samarantes",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/ravage-livre-couverture.svg",
+          "alt": "couverture du livre Ravage",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/favicon/logo.svg",
+          "alt": "logo Futurbanisme",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/MMI-logo.svg",
+          "alt": "logo MMI",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 90,
+      "externalLinks": 4,
+      "internalLinks": 17,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Explorer plus de livres",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 37,
+          "lastColumn": 56,
+          "firstColumn": 17,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"header__language-button\">FR</bu",
+          "hiliteStart": 10,
+          "hiliteLength": 40
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.81,
+        "accessibility": 0.8,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 1,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autres-livres.html",
+            "resourceSize": 8750,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/styles.css",
+            "resourceSize": 246,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&display=swap",
+            "resourceSize": 11752,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap",
+            "resourceSize": 14372,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 328,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/logo.svg",
+            "resourceSize": 2361,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/MMI-logo.svg",
+            "resourceSize": 13512,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1207,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/button.css",
+            "resourceSize": 519,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2541,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/main.css",
+            "resourceSize": 3084,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 797,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/formulaire.css",
+            "resourceSize": 476,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/hero.css",
+            "resourceSize": 781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/josefinsans/v32/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2",
+            "resourceSize": 28564,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/jaro/v6/ea8WadQwV_r_bPHWEPqP-24.woff2",
+            "resourceSize": 19148,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaPQxPqMQ0bX8.woff2",
+            "resourceSize": 12588,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/les-monades-urbaines-livre-couverture.svg",
+            "resourceSize": 242300,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/les-tours-de-samarantes-livre-couverture.svg",
+            "resourceSize": 151039,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ravage-livre-couverture.svg",
+            "resourceSize": 139855,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/favicon/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "video",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "nav",
+      "h3",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 238,
+      "br": 82
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 384,
+      "linesOfCode": 1,
+      "size": 7063,
+      "complexity": 1044,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "(min-width:768px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 1,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 1
+      }
+    },
+    "rules": {
+      "total": 75,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 21,
+        "mean": 5.1066666666666665,
+        "mode": 2,
+        "median": 4,
+        "range": 19,
+        "sum": 383,
+        "items": [
+          21,
+          6,
+          5,
+          6,
+          6,
+          2,
+          3,
+          5,
+          15,
+          8,
+          2,
+          3,
+          16,
+          2,
+          9,
+          5,
+          2,
+          2,
+          2,
+          5,
+          13,
+          4,
+          5,
+          6,
+          8,
+          8,
+          2,
+          6,
+          2,
+          4,
+          3,
+          3,
+          3,
+          6,
+          2,
+          6,
+          2,
+          3,
+          5,
+          3,
+          5,
+          5,
+          2,
+          10,
+          2,
+          5,
+          4,
+          6,
+          7,
+          3,
+          6,
+          3,
+          3,
+          2,
+          4,
+          2,
+          4,
+          2,
+          2,
+          5,
+          2,
+          2,
+          2,
+          13,
+          3,
+          6,
+          3,
+          10,
+          6,
+          2,
+          13,
+          9,
+          5,
+          2,
+          4
+        ],
+        "total": 75,
+        "totalUnique": 13,
+        "unique": {
+          "2": 21,
+          "3": 12,
+          "4": 6,
+          "5": 11,
+          "6": 11,
+          "7": 1,
+          "8": 3,
+          "9": 2,
+          "10": 2,
+          "13": 3,
+          "15": 1,
+          "16": 1,
+          "21": 1
+        },
+        "uniquenessRatio": 0.17333333333333334
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.12,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 84,
+        "items": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 75,
+        "totalUnique": 2,
+        "unique": {
+          "1": 66,
+          "2": 9
+        },
+        "uniquenessRatio": 0.02666666666666667
+      },
+      "declarations": {
+        "min": 1,
+        "max": 20,
+        "mean": 3.986666666666667,
+        "mode": 1,
+        "median": 3,
+        "range": 19,
+        "sum": 299,
+        "items": [
+          20,
+          5,
+          4,
+          4,
+          5,
+          1,
+          2,
+          4,
+          14,
+          7,
+          1,
+          2,
+          15,
+          1,
+          8,
+          4,
+          1,
+          1,
+          1,
+          4,
+          12,
+          3,
+          4,
+          4,
+          7,
+          7,
+          1,
+          4,
+          1,
+          3,
+          2,
+          2,
+          2,
+          5,
+          1,
+          4,
+          1,
+          2,
+          3,
+          2,
+          4,
+          3,
+          1,
+          8,
+          1,
+          3,
+          3,
+          5,
+          6,
+          2,
+          5,
+          2,
+          2,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          12,
+          2,
+          5,
+          2,
+          9,
+          4,
+          1,
+          12,
+          8,
+          4,
+          1,
+          3
+        ],
+        "total": 75,
+        "totalUnique": 13,
+        "unique": {
+          "1": 21,
+          "2": 12,
+          "3": 9,
+          "4": 13,
+          "5": 6,
+          "6": 1,
+          "7": 3,
+          "8": 3,
+          "9": 1,
+          "12": 3,
+          "14": 1,
+          "15": 1,
+          "20": 1
+        },
+        "uniquenessRatio": 0.17333333333333334
+      }
+    },
+    "selectors": {
+      "total": 84,
+      "totalUnique": 67,
+      "uniquenessRatio": 0.7976190476190477,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          98,
+          14
+        ],
+        "mean": [
+          0,
+          1.1666666666666667,
+          0.16666666666666666
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 84,
+        "totalUnique": 5,
+        "unique": {
+          "0,1,0": 66,
+          "0,1,1": 6,
+          "0,3,1": 6,
+          "0,2,0": 4,
+          "0,0,1": 2
+        },
+        "uniquenessRatio": 0.05952380952380952
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.5476190476190477,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 130,
+        "total": 84,
+        "totalUnique": 5,
+        "unique": {
+          "1": 68,
+          "2": 2,
+          "3": 8,
+          "5": 2,
+          "6": 4
+        },
+        "uniquenessRatio": 0.05952380952380952,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          5,
+          6,
+          6,
+          1,
+          1,
+          2,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          5,
+          6,
+          6,
+          1,
+          2,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 12,
+        "totalUnique": 1,
+        "unique": {
+          " ": 12
+        },
+        "uniquenessRatio": 0.08333333333333333
+      }
+    },
+    "declarations": {
+      "total": 299,
+      "totalUnique": 151,
+      "uniquenessRatio": 0.5050167224080268,
+      "unique": {
+        "total": 151,
+        "ratio": 0.5050167224080268
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 299
+      }
+    },
+    "properties": {
+      "total": 299,
+      "totalUnique": 54,
+      "unique": {
+        "align-items": 8,
+        "background": 1,
+        "border": 3,
+        "border-radius": 4,
+        "color": 9,
+        "cursor": 5,
+        "display": 11,
+        "font-family": 16,
+        "font-size": 20,
+        "font-style": 14,
+        "font-weight": 15,
+        "height": 12,
+        "justify-content": 6,
+        "line-height": 13,
+        "margin": 11,
+        "max-width": 1,
+        "padding": 8,
+        "text-decoration": 6,
+        "text-transform": 5,
+        "width": 15,
+        "background-color": 9,
+        "border-top": 4,
+        "margin-top": 9,
+        "position": 10,
+        "text-align": 4,
+        "list-style": 1,
+        "flex-direction": 8,
+        "text-decoration-line": 2,
+        "text-decoration-skip-ink": 2,
+        "text-decoration-style": 2,
+        "text-decoration-thickness": 2,
+        "text-underline-offset": 2,
+        "text-underline-position": 2,
+        "z-index": 10,
+        "margin-right": 4,
+        "margin-left": 4,
+        "transition": 2,
+        "transform": 5,
+        "opacity": 2,
+        "margin-bottom": 5,
+        "left": 5,
+        "padding-left": 2,
+        "padding-top": 2,
+        "top": 3,
+        "visibility": 4,
+        "bottom": 2,
+        "gap": 1,
+        "right": 1,
+        "flex-shrink": 2,
+        "max-height": 1,
+        "box-sizing": 1,
+        "background-image": 1,
+        "background-position": 1,
+        "background-size": 1
+      },
+      "uniquenessRatio": 0.1806020066889632,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 299
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 25,
+        "totalUnique": 10,
+        "unique": {
+          "#8000ff": 4,
+          "#6bd5d5": 3,
+          "#2b5555": 1,
+          "#000": 7,
+          "#ffce84": 1,
+          "#696969": 2,
+          "#ba74ff": 2,
+          "#333": 1,
+          "#a1dcc3": 2,
+          "#fff": 2
+        },
+        "uniquenessRatio": 0.4,
+        "itemsPerContext": {
+          "border": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "#8000ff": 1,
+              "#000": 2
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "color": {
+            "total": 9,
+            "totalUnique": 4,
+            "unique": {
+              "#8000ff": 3,
+              "#000": 3,
+              "#333": 1,
+              "#fff": 2
+            },
+            "uniquenessRatio": 0.4444444444444444
+          },
+          "background-color": {
+            "total": 9,
+            "totalUnique": 5,
+            "unique": {
+              "#6bd5d5": 3,
+              "#ffce84": 1,
+              "#000": 2,
+              "#ba74ff": 1,
+              "#a1dcc3": 2
+            },
+            "uniquenessRatio": 0.5555555555555556
+          },
+          "border-top": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "#2b5555": 1,
+              "#696969": 2,
+              "#ba74ff": 1
+            },
+            "uniquenessRatio": 0.75
+          }
+        },
+        "formats": {
+          "total": 25,
+          "totalUnique": 2,
+          "unique": {
+            "hex6": 15,
+            "hex3": 10
+          },
+          "uniquenessRatio": 0.08
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 29,
+        "totalUnique": 9,
+        "unique": {
+          "var(--body,\"Josefin Sans\")": 9,
+          "\"Josefin Sans\"": 9,
+          "Inria Sans": 1,
+          "Josefin Sans": 1,
+          "var(--heading,Jaro)": 3,
+          "Jaro": 3,
+          "Arial,sans-serif": 1,
+          "var(--texte,\"Inria Sans\")": 1,
+          "\"Inria Sans\"": 1
+        },
+        "uniquenessRatio": 0.3103448275862069
+      },
+      "fontSizes": {
+        "total": 20,
+        "totalUnique": 9,
+        "unique": {
+          "10px": 5,
+          "11px": 3,
+          "24px": 1,
+          "36px": 1,
+          "25px": 1,
+          "18px": 4,
+          "15px": 1,
+          "22px": 3,
+          "40px": 1
+        },
+        "uniquenessRatio": 0.45
+      },
+      "lineHeights": {
+        "total": 13,
+        "totalUnique": 1,
+        "unique": {
+          "normal": 13
+        },
+        "uniquenessRatio": 0.07692307692307693
+      },
+      "zindexes": {
+        "total": 10,
+        "totalUnique": 4,
+        "unique": {
+          "0": 1,
+          "1": 6,
+          "3": 2,
+          "4": 1
+        },
+        "uniquenessRatio": 0.4
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 4,
+        "totalUnique": 3,
+        "unique": {
+          "29px": 1,
+          "100px": 1,
+          "2px": 2
+        },
+        "uniquenessRatio": 0.75,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "29px": 1,
+              "100px": 1,
+              "2px": 2
+            },
+            "uniquenessRatio": 0.75
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            ".3s": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "timingFunctions": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "ease": 2
+          },
+          "uniquenessRatio": 0.5
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 104,
+        "totalUnique": 4,
+        "unique": {
+          "px": 97,
+          "s": 2,
+          "deg": 4,
+          "vh": 1
+        },
+        "uniquenessRatio": 0.038461538461538464,
+        "itemsPerContext": {
+          "border": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "border-radius": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "font-size": {
+            "total": 20,
+            "totalUnique": 1,
+            "unique": {
+              "px": 20
+            },
+            "uniquenessRatio": 0.05
+          },
+          "height": {
+            "total": 10,
+            "totalUnique": 2,
+            "unique": {
+              "px": 9,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.2
+          },
+          "margin": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "max-width": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "width": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "border-top": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "margin-top": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "margin-right": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin-left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transition": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transform": {
+            "total": 12,
+            "totalUnique": 2,
+            "unique": {
+              "deg": 4,
+              "px": 8
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "margin-bottom": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "padding-left": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "padding-top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "bottom": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "max-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 315
+      },
+      "keywords": {
+        "total": 18,
+        "totalUnique": 2,
+        "unique": {
+          "none": 10,
+          "auto": 8
+        },
+        "uniquenessRatio": 0.1111111111111111
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 2,
+      "total": 4
+    }
+  }
+}

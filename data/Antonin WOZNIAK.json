@@ -1,0 +1,1607 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Home",
+      "images": [
+        {
+          "src": "/assets/img/logo.png",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/United kingdom.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/France.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/icon.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousel_acceuil/mini/1.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-left.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-right.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousel_acceuil/mini/2.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-left.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-right.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousel_acceuil/mini/3.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-left.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-right.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousel_acceuil/mini/4.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-left.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-right.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/carousel_acceuil/mini/5.webp",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-left.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/Arrow-right.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 99,
+      "externalLinks": 0,
+      "internalLinks": 0,
+      "deadLinks": 11,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 3,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "CHAINMASTER",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "CHAINMASTER",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Pour les passionnez de tronçonneuse",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Qu'est-ce CHAIMASTER ?",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Contenu additionnel",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "lastLine": 14,
+          "lastColumn": 61,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/logo.png\" id=\"logoHeader\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 49
+        },
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 67,
+          "firstColumn": 13,
+          "message": "Bad value “/assets/img/United kingdom.svg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"/assets/img/United kingdom.svg\" id=\"ukLogo\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 55
+        },
+        {
+          "type": "error",
+          "lastLine": 15,
+          "lastColumn": 67,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/United kingdom.svg\" id=\"ukLogo\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 55
+        },
+        {
+          "type": "error",
+          "lastLine": 16,
+          "lastColumn": 59,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/France.svg\" id=\"frLogo\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 47
+        },
+        {
+          "type": "error",
+          "lastLine": 17,
+          "lastColumn": 60,
+          "firstColumn": 13,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/icon.svg\" id=\"MenuBarre\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 48
+        },
+        {
+          "type": "error",
+          "lastLine": 46,
+          "lastColumn": 104,
+          "firstColumn": 21,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/carousel_acceuil/mini/1.webp\" class=\"carousel-acceuil-image\"/>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "lastLine": 53,
+          "lastColumn": 51,
+          "firstColumn": 29,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"#\" class=\"mx\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "lastLine": 62,
+          "lastColumn": 106,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-left.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 74
+        },
+        {
+          "type": "error",
+          "lastLine": 68,
+          "lastColumn": 107,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-right.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        },
+        {
+          "type": "error",
+          "lastLine": 85,
+          "lastColumn": 104,
+          "firstColumn": 21,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/carousel_acceuil/mini/2.webp\" class=\"carousel-acceuil-image\"/>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "lastLine": 90,
+          "lastColumn": 106,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-left.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 74
+        },
+        {
+          "type": "error",
+          "lastLine": 96,
+          "lastColumn": 107,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-right.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        },
+        {
+          "type": "error",
+          "lastLine": 113,
+          "lastColumn": 104,
+          "firstColumn": 21,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/carousel_acceuil/mini/3.webp\" class=\"carousel-acceuil-image\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "lastLine": 118,
+          "lastColumn": 106,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-left.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 74
+        },
+        {
+          "type": "error",
+          "lastLine": 124,
+          "lastColumn": 107,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-right.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        },
+        {
+          "type": "error",
+          "lastLine": 140,
+          "lastColumn": 104,
+          "firstColumn": 21,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/carousel_acceuil/mini/4.webp\" class=\"carousel-acceuil-image\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "lastLine": 145,
+          "lastColumn": 106,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-left.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 74
+        },
+        {
+          "type": "error",
+          "lastLine": 151,
+          "lastColumn": 107,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-right.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        },
+        {
+          "type": "error",
+          "lastLine": 168,
+          "lastColumn": 104,
+          "firstColumn": 21,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/carousel_acceuil/mini/5.webp\" class=\"carousel-acceuil-image\"/>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "lastLine": 173,
+          "lastColumn": 106,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-left.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 74
+        },
+        {
+          "type": "error",
+          "lastLine": 179,
+          "lastColumn": 107,
+          "firstColumn": 33,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "          <img src=\"/assets/img/Arrow-right.svg\" style=\"width: 24px; height: 24px;\"/>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.69,
+        "accessibility": 0.78,
+        "bestPractices": 0.93,
+        "seo": 0.73,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 11556,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1964,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 6814,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 4996,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo.png",
+            "resourceSize": 229677,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/United%20kingdom.svg",
+            "resourceSize": 3922,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/France.svg",
+            "resourceSize": 2269,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/icon.svg",
+            "resourceSize": 1978,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousel_acceuil/mini/1.webp",
+            "resourceSize": 161872,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Arrow-left.svg",
+            "resourceSize": 1782,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Arrow-right.svg",
+            "resourceSize": 1782,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousel_acceuil/mini/2.webp",
+            "resourceSize": 57542,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousel_acceuil/mini/3.webp",
+            "resourceSize": 107112,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousel_acceuil/mini/4.webp",
+            "resourceSize": 68776,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousel_acceuil/mini/5.webp",
+            "resourceSize": 68488,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
+            "resourceSize": 26679,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
+            "resourceSize": 27516,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+            "resourceSize": 4851,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/chainsaw.webp",
+            "resourceSize": 3994716,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/spectral/v14/rnCs-xNNww_2s0amA9uCt23BafaPWnII.woff2",
+            "resourceSize": 15180,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/sora/v12/xMQbuFFYT72XzQUpDqW1KX4.woff2",
+            "resourceSize": 33640,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/carousel_acceuil/bg/1.webp",
+            "resourceSize": 482474,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+            "resourceSize": 73116,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "header",
+      "footer",
+      "h2",
+      "h3",
+      "p",
+      "button",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "nav",
+      "h1",
+      "blockquote",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "video",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [
+      "b"
+    ],
+    "obsoleteTagsUsage": {
+      "b": 1
+    },
+    "otherTags": [
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 42,
+      "br": 1
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 111,
+      "linesOfCode": 1,
+      "size": 1802,
+      "complexity": 267,
+      "comments": {
+        "total": 1,
+        "size": 72
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 0,
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0
+      }
+    },
+    "rules": {
+      "total": 33,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 9,
+        "mean": 3.3636363636363638,
+        "mode": 2,
+        "median": 3,
+        "range": 7,
+        "sum": 111,
+        "items": [
+          3,
+          2,
+          2,
+          3,
+          4,
+          3,
+          2,
+          4,
+          3,
+          5,
+          2,
+          6,
+          2,
+          2,
+          2,
+          9,
+          3,
+          3,
+          5,
+          6,
+          5,
+          2,
+          7,
+          2,
+          2,
+          4,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3
+        ],
+        "total": 33,
+        "totalUnique": 7,
+        "unique": {
+          "2": 13,
+          "3": 10,
+          "4": 3,
+          "5": 3,
+          "6": 2,
+          "7": 1,
+          "9": 1
+        },
+        "uniquenessRatio": 0.21212121212121213
+      },
+      "selectors": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.6666666666666667,
+        "mode": 1,
+        "median": 1,
+        "range": 4,
+        "sum": 55,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          5,
+          2,
+          2,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "total": 33,
+        "totalUnique": 5,
+        "unique": {
+          "1": 21,
+          "2": 7,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        },
+        "uniquenessRatio": 0.15151515151515152
+      },
+      "declarations": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.696969696969697,
+        "mode": 1,
+        "median": 1,
+        "range": 5,
+        "sum": 56,
+        "items": [
+          2,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          3,
+          1,
+          2,
+          1,
+          4,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          6,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "total": 33,
+        "totalUnique": 5,
+        "unique": {
+          "1": 20,
+          "2": 8,
+          "3": 2,
+          "4": 2,
+          "6": 1
+        },
+        "uniquenessRatio": 0.15151515151515152
+      }
+    },
+    "selectors": {
+      "total": 55,
+      "totalUnique": 47,
+      "uniquenessRatio": 0.8545454545454545,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          2,
+          0
+        ],
+        "sum": [
+          0,
+          21,
+          46
+        ],
+        "mean": [
+          0,
+          0.38181818181818183,
+          0.8363636363636363
+        ],
+        "mode": [
+          0,
+          0,
+          1
+        ],
+        "median": [
+          0,
+          0,
+          1
+        ],
+        "items": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "total": 55,
+        "totalUnique": 5,
+        "unique": {
+          "0,0,1": 36,
+          "0,1,1": 8,
+          "0,1,0": 7,
+          "0,0,2": 1,
+          "0,2,0": 3
+        },
+        "uniquenessRatio": 0.09090909090909091
+      },
+      "complexity": {
+        "min": 1,
+        "max": 4,
+        "mean": 1.709090909090909,
+        "mode": 1,
+        "median": 1,
+        "range": 3,
+        "sum": 94,
+        "total": 55,
+        "totalUnique": 4,
+        "unique": {
+          "1": 36,
+          "2": 8,
+          "3": 2,
+          "4": 9
+        },
+        "uniquenessRatio": 0.07272727272727272,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          2,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 12,
+        "totalUnique": 12,
+        "unique": {
+          "[type=button]::-moz-focus-inner": 1,
+          "[type=reset]::-moz-focus-inner": 1,
+          "[type=submit]::-moz-focus-inner": 1,
+          "button::-moz-focus-inner": 1,
+          "[type=button]:-moz-focusring": 1,
+          "[type=reset]:-moz-focusring": 1,
+          "[type=submit]:-moz-focusring": 1,
+          "button:-moz-focusring": 1,
+          "[type=number]::-webkit-inner-spin-button": 1,
+          "[type=number]::-webkit-outer-spin-button": 1,
+          "[type=search]::-webkit-search-decoration": 1,
+          "::-webkit-file-upload-button": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.21818181818181817
+      },
+      "combinators": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "declarations": {
+      "total": 56,
+      "totalUnique": 44,
+      "uniquenessRatio": 0.7857142857142857,
+      "unique": {
+        "total": 44,
+        "ratio": 0.7857142857142857
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 56
+      }
+    },
+    "properties": {
+      "total": 56,
+      "totalUnique": 27,
+      "unique": {
+        "line-height": 3,
+        "-webkit-text-size-adjust": 1,
+        "margin": 3,
+        "display": 5,
+        "font-size": 6,
+        "box-sizing": 3,
+        "height": 2,
+        "overflow": 3,
+        "font-family": 3,
+        "background-color": 1,
+        "border-bottom": 1,
+        "text-decoration": 2,
+        "font-weight": 1,
+        "position": 1,
+        "vertical-align": 2,
+        "bottom": 1,
+        "top": 1,
+        "border-style": 2,
+        "text-transform": 1,
+        "-webkit-appearance": 4,
+        "padding": 4,
+        "outline": 1,
+        "color": 1,
+        "max-width": 1,
+        "white-space": 1,
+        "outline-offset": 1,
+        "font": 1
+      },
+      "uniquenessRatio": 0.48214285714285715,
+      "prefixed": {
+        "total": 5,
+        "totalUnique": 2,
+        "unique": {
+          "-webkit-text-size-adjust": 1,
+          "-webkit-appearance": 4
+        },
+        "uniquenessRatio": 0.4,
+        "ratio": 0.08928571428571429
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0892857142857142,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 61
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "transparent": 1,
+          "ButtonText": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "ButtonText": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            "transparent": 1,
+            "system": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "monospace,monospace": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "fontSizes": {
+        "total": 6,
+        "totalUnique": 5,
+        "unique": {
+          "2em": 1,
+          "1em": 2,
+          "80%": 1,
+          "75%": 1,
+          "100%": 1
+        },
+        "uniquenessRatio": 0.8333333333333334
+      },
+      "lineHeights": {
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "0": 1,
+          "1.15": 2
+        },
+        "uniquenessRatio": 0.6666666666666666
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 11,
+        "totalUnique": 2,
+        "unique": {
+          "em": 9,
+          "px": 2
+        },
+        "uniquenessRatio": 0.18181818181818182,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "em": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "em": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "outline-offset": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 56
+      },
+      "keywords": {
+        "total": 11,
+        "totalUnique": 3,
+        "unique": {
+          "none": 6,
+          "inherit": 3,
+          "auto": 2
+        },
+        "uniquenessRatio": 0.2727272727272727
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 3,
+      "total": 4
+    }
+  }
+}
