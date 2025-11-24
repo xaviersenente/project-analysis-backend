@@ -9,6 +9,7 @@ import {
 } from "../services/analysisService.js";
 import { compileCSS, analyzeCSS } from "../services/cssAnalysisService.js";
 import { validateHTML } from "../services/validationService.js";
+import { performClassAnalysis } from "../services/classAnalysisService.js";
 import axios from "axios";
 
 /**
@@ -76,6 +77,7 @@ export const scanUrl = async (req, res) => {
       globalAnalysis, // Ajouter le résultat de l'analyse globale
       // compiledCss,
       cssAnalysisResult,
+      classAnalysis: performClassAnalysis(allHtmlContents, compiledCss),
     };
 
     // Étape 2 : Sauvegarde en fichier JSON
