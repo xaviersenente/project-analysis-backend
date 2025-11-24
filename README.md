@@ -20,6 +20,8 @@ Cette API backend permet d'analyser des projets web hébergés en ligne. Elle ef
 
 - Analyse HTML (structure, balises, liens)
 - Analyse CSS (compilation, minification, statistiques)
+- Analyse des classes (fréquences, unused, couverture HTML/CSS)
+- Détection BEM (blocks, elements, modifiers, violations)
 - Validation W3C
 - Audit Lighthouse (performance, accessibilité, SEO, bonnes pratiques)
 - Extraction d'images et métadonnées
@@ -30,6 +32,8 @@ Les résultats sont sauvegardés au format JSON dans le répertoire `data/` pour
 
 - **Analyse HTML complète** : détection de balises, liens internes/externes, structure des titres
 - **Analyse CSS avancée** : compilation avec PostCSS, minification, résolution des imports
+- **Analyse des classes** : fréquence, redondance, surcharge (nœuds >4 classes), unused CSS, classes HTML non définies
+- **Métriques BEM** : blocks/elements/modifiers, ratio BEM, profondeur, violations (élément ou modificateur orphelin)
 - **Validation W3C** : vérification de la conformité HTML
 - **Audit Lighthouse** : scores de performance, accessibilité, SEO et bonnes pratiques
 - **Crawling automatique** : exploration des pages HTML d'un site (jusqu'à 3 niveaux de profondeur)
@@ -146,7 +150,8 @@ Analyse un projet web à partir de son URL.
   "analysisResult": {
     "pages": [...],
     "globalAnalysis": {...},
-    "cssAnalysisResult": {...}
+    "cssAnalysisResult": {...},
+    "classAnalysis": {...}
   }
 }
 ```
@@ -309,6 +314,82 @@ Service de validation HTML W3C.
 - **Retourne** : Array d'erreurs de validation
 - **API** : https://validator.w3.org/nu/?out=json
 
+### classAnalysisService.js
+
+Service dédié à l'analyse des classes HTML/CSS et à la détection BEM.
+
+#### Fonction principale :
+
+**`performClassAnalysis(allHtmlContents, compiledCss)`**
+
+- Agrège : statistiques HTML (fréquences, surcharge), classes CSS (spécificité, complexité), comparaison (unused / undefined), métriques BEM et distribution.
+- **Retourne** : objet `classAnalysis` structuré.
+
+#### Structure `classAnalysis` (exemple simplifié) :
+
+```jsonc
+{
+  "html": {
+    "totalClassAssignments": 420,
+    "nodesWithClasses": 110,
+    "uniqueClasses": ["header", "header__logo", "btn", "btn--primary"],
+    "frequency": { "btn": 24, "btn--primary": 8 },
+    "averageClassesPerNode": 2.3,
+    "medianClassesPerNode": 2,
+    "maxClassesPerNode": 6,
+    "redundantClasses": ["btn"],
+    "highLoadNodes": 5
+  },
+  "css": {
+    "uniqueClasses": ["header", "header__logo", "btn", "btn--primary"],
+    "totalSelectors": 180,
+    "selectorsWithMultipleClasses": 35,
+    "specificity": { "average": 18.4, "max": 120 },
+    "complexSelectorsRatio": 0.185
+  },
+  "mismatch": {
+    "unusedCssClasses": ["card--featured"],
+    "undefinedHtmlClasses": ["alert--error"],
+    "coverageHtml": 0.96,
+    "coverageCss": 0.88,
+    "cssEfficiency": 0.88
+  },
+  "bem": {
+    "counts": {
+      "blocks": 5,
+      "elements": 14,
+      "modifiers": 6,
+      "elementModifiers": 3,
+      "other": 12
+    },
+    "ratios": { "bemClassesRatio": 0.74 },
+    "depth": { "max": 3, "average": 2.1 },
+    "violations": ["Element sans block: feature__item"]
+  },
+  "distribution": {
+    "prefixes": { "btn": 10, "nav": 8 },
+    "entropy": 5.32,
+    "utilityClassesRatio": 0.045
+  },
+  "meta": { "version": "1.0", "generatedAt": "2025-11-22T10:00:00.000Z" }
+}
+```
+
+#### Métriques clés :
+
+- **Redondance** : classe utilisée sur >25% des nœuds ayant une classe.
+- **HighLoadNodes** : nœuds avec >4 classes (possibles candidats simplification).
+- **Specificity** : calcul heuristique (ID*100 + classes*10 + types).
+- **Entropy** : diversité des classes (plus élevé = usage varié, trop bas = surcharge ou répétition).
+- **Violations BEM** : éléments/modificateurs orphelins.
+- **UtilityClassesRatio** : proportion de classes réputées utilitaires (`u-`, `is-`, `has-`, `js-`).
+
+#### Limites :
+
+- Classes dynamiques injectées côté client non capturées.
+- Heuristique BEM simplifiée, ne gère pas toutes les conventions avancées.
+- Spécificité approximative (ne remplace pas un analyseur dédié complet).
+
 ## 🛠️ Technologies
 
 ### Dépendances principales
@@ -375,6 +456,9 @@ Les fichiers JSON générés dans `data/` contiennent :
   },
   "cssAnalysisResult": {
     // Statistiques détaillées de Project Wallace
+  },
+  "classAnalysis": {
+    // Voir structure détaillée dans la section classAnalysisService.js
   }
 }
 ```

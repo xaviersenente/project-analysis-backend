@@ -184,7 +184,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.96,
+        "performance": 0.67,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -259,7 +259,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -402,44 +402,56 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnkaSTbQWg.woff2",
+            "resourceSize": 38560,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -678,7 +690,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.91,
+        "performance": 0.9,
         "accessibility": 0.9,
         "bestPractices": 1,
         "seo": 0.91,
@@ -765,7 +777,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -938,44 +950,56 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnkaSTbQWg.woff2",
+            "resourceSize": 38560,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
             "resourceSize": 7992,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -1222,7 +1246,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1365,38 +1389,50 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnkaSTbQWg.woff2",
+            "resourceSize": 38560,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -1580,7 +1616,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.88,
+        "performance": 0.98,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -1655,7 +1691,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1781,8 +1817,8 @@
           },
           {
             "url": "https://leo-baudry.fr/videos/le_jour_ou_la_terre_s_arreta.mp4",
-            "resourceSize": 72811,
-            "mimeType": "video/mp4",
+            "resourceSize": 0,
+            "mimeType": "",
             "resourceType": "Media"
           },
           {
@@ -1822,38 +1858,50 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnkaSTbQWg.woff2",
+            "resourceSize": 38560,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2144,7 +2192,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.98,
+        "performance": 0.97,
         "accessibility": 0.9,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -2225,7 +2273,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2368,44 +2416,56 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnkaSTbQWg.woff2",
+            "resourceSize": 38560,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2682,7 +2742,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2825,148 +2885,160 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnkaSTbQWg.woff2",
+            "resourceSize": 38560,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
             "url": "https://open.spotify.com/embed/track/10nyNJ6zNy2YVYLrcwLccB?utm_source=generator",
-            "resourceSize": 8439,
+            "resourceSize": 9937,
             "mimeType": "text/html",
             "resourceType": "Document"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/669ed4646e0452e2.css",
+            "resourceSize": 162956,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/cf1c6d6220a7d73c.css",
+            "resourceSize": 32890,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/d2deb5f295d40bcd.css",
+            "resourceSize": 9196,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/webpack-b785af8e3a8a9e71.js",
+            "resourceSize": 5864,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/framework-9a3872598bda0c6c.js",
+            "resourceSize": 190173,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/main-20c38e772edcc75a.js",
+            "resourceSize": 135033,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/pages/_app-284310146054ed25.js",
+            "resourceSize": 445193,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/e1830857-235a5a70f0d020b7.js",
+            "resourceSize": 325841,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/956ba4ca-0c87f12d5cae4c6b.js",
+            "resourceSize": 8748,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/3329-768bd70780dd3522.js",
+            "resourceSize": 12739,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/5084-94ba4d78d4a35694.js",
+            "resourceSize": 376440,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/4125-841c88e10689e0eb.js",
+            "resourceSize": 125942,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/pages/track/%5Bid%5D-674c3de2ee13f632.js",
+            "resourceSize": 5175,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/15624709-795a-4884-94b2-ec43f1ce4c6f/_buildManifest.js",
+            "resourceSize": 2839,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/15624709-795a-4884-94b2-ec43f1ce4c6f/_ssgManifest.js",
+            "resourceSize": 77,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
           },
           {
             "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c8b444df094279e70d0ed856",
             "resourceSize": 35559,
             "mimeType": "image/jpeg",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/a08ddad2c5f96b8b.css",
-            "resourceSize": 42349,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/70e0617d3b51d137.css",
-            "resourceSize": 27779,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/css/a52ba028f527d7a1.css",
-            "resourceSize": 8896,
-            "mimeType": "text/css",
-            "resourceType": "Stylesheet"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/webpack-128136f8f0b5ab7b.js",
-            "resourceSize": 6111,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/framework-86d82187d09e5b58.js",
-            "resourceSize": 140343,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/main-8837eea5a6d3b805.js",
-            "resourceSize": 126147,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/pages/_app-5b729ae4895d973a.js",
-            "resourceSize": 431035,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/3c0167eb-b298cecda65d003c.js",
-            "resourceSize": 325430,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/79028396-27d9904786559c95.js",
-            "resourceSize": 8728,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/5212-d81d7abed8c5ef90.js",
-            "resourceSize": 9431,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/4158-db49951e358f59e6.js",
-            "resourceSize": 393024,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/8356-458d2842245d1f50.js",
-            "resourceSize": 115224,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/pages/track/%5Bid%5D-85cd785a821a4599.js",
-            "resourceSize": 5468,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/31efcaed-2155-4505-b3c5-f9c2db76c0a7/_buildManifest.js",
-            "resourceSize": 2428,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/31efcaed-2155-4505-b3c5-f9c2db76c0a7/_ssgManifest.js",
-            "resourceSize": 77,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
           },
           {
             "url": "https://encore.scdn.co/fonts/SpotifyMixUI-Bold-4264b799009b1db5c491778b1bc8e5b7.woff2",
@@ -2981,22 +3053,16 @@
             "resourceType": "Font"
           },
           {
-            "url": "blob:https://open.spotify.com/c44cb37f-6c6b-4147-b03a-261a82a2f1ff",
-            "resourceSize": 0,
-            "mimeType": "",
+            "url": "blob:https://open.spotify.com/e7afe521-0531-4e64-b96b-706c43115892",
+            "resourceSize": 10329,
+            "mimeType": "text/plain",
             "resourceType": "Script"
           },
           {
-            "url": "https://o22381.ingest.us.sentry.io/api/4505164808585216/envelope/?sentry_version=7&sentry_key=4cc707ab12ea4779b417479c0550a5cb&sentry_client=sentry.javascript.nextjs%2F8.45.0",
+            "url": "https://o22381.ingest.us.sentry.io/api/4505164808585216/envelope/?sentry_version=7&sentry_key=4cc707ab12ea4779b417479c0550a5cb&sentry_client=sentry.javascript.nextjs%2F10.26.0",
             "resourceSize": 2,
             "mimeType": "application/json",
             "resourceType": "Fetch"
-          },
-          {
-            "url": "https://apresolve.spotify.com/?type=dealer&type=spclient",
-            "resourceSize": 273,
-            "mimeType": "application/json",
-            "resourceType": "XHR"
           },
           {
             "url": "http://127.0.0.1:5500/assets/favicons/site.webmanifest",
@@ -3011,76 +3077,40 @@
             "resourceType": "Other"
           },
           {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/6838.c65d202779d26aa2.js",
-            "resourceSize": 47464,
+            "url": "https://apresolve.spotify.com/?type=dealer-g2&type=spclient",
+            "resourceSize": 288,
+            "mimeType": "application/json",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/9290.e1f60ce054a11bba.js",
+            "resourceSize": 46417,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/846.9b308e92f3835867.js",
-            "resourceSize": 763,
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/6912.7625a84f2c1062c3.js",
+            "resourceSize": 785,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://apresolve.spotify.com/?type=dealer&type=spclient",
-            "resourceSize": 273,
+            "url": "https://apresolve.spotify.com/?type=dealer-g2&type=spclient",
+            "resourceSize": 288,
             "mimeType": "application/json",
             "resourceType": "Fetch"
           },
           {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/1213.373a2fefb16c1376.js",
-            "resourceSize": 6667,
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/9803.78d554f48c2d8300.js",
+            "resourceSize": 445407,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/6143.97b52a65d0200892.js",
-            "resourceSize": 320020,
+            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/spotify_player_o.c9154e69d3fc7333.js",
+            "resourceSize": 11774,
             "mimeType": "text/javascript",
             "resourceType": "Script"
-          },
-          {
-            "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/spotify_player_o.87135689429257b0.js",
-            "resourceSize": 15457,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://web-sdk-assets.spotifycdn.com/bandwidth_sampling_data?no-cache=0.8996234511150367",
-            "resourceSize": 1,
-            "mimeType": "application/octet-stream",
-            "resourceType": "Fetch"
-          },
-          {
-            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Preflight"
-          },
-          {
-            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Preflight"
-          },
-          {
-            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
-            "resourceSize": 13,
-            "mimeType": "application/json",
-            "resourceType": "Fetch"
-          },
-          {
-            "url": "https://gew1-spclient.spotify.com/gabo-receiver-service/public/v3/events",
-            "resourceSize": 13,
-            "mimeType": "application/json",
-            "resourceType": "Fetch"
-          },
-          {
-            "url": "https://web-sdk-assets.spotifycdn.com/bandwidth_sampling_data?no-cache=0.8996234511150367",
-            "resourceSize": 700000,
-            "mimeType": "application/octet-stream",
-            "resourceType": "Fetch"
           }
         ]
       }
@@ -3194,7 +3224,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.98,
         "accessibility": 0.96,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3263,7 +3293,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3406,38 +3436,44 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -3596,7 +3632,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.7,
         "accessibility": 0.9,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -3671,7 +3707,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3814,74 +3850,80 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
             "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.7148973368207!2d6.801779926919957!3d47.49546717117989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4792172655793f9f%3A0x1b3b0f76560084ad!2sD%C3%A9partement%20MMI%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1736237645156!5m2!1sfr!2sfr",
-            "resourceSize": 2511,
+            "resourceSize": 2525,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "https://maps.gstatic.com/maps-api-v3/embed/js/59/3a/intl/fr_ALL/init_embed.js",
-            "resourceSize": 250325,
+            "url": "https://maps.gstatic.com/maps-api-v3/embed/js/63/1b/intl/fr_ALL/init_embed.js",
+            "resourceSize": 232247,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
             "url": "https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=fr&region=fr&callback=onApiLoad",
-            "resourceSize": 11868,
+            "resourceSize": 12784,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/geometry.js",
-            "resourceSize": 3103,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/geometry.js",
+            "resourceSize": 6920,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search.js",
-            "resourceSize": 2675,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/search.js",
+            "resourceSize": 2643,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/main.js",
-            "resourceSize": 242509,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/main.js",
+            "resourceSize": 288892,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -3892,26 +3934,26 @@
             "resourceType": "XHR"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/common.js",
-            "resourceSize": 274056,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/common.js",
+            "resourceSize": 127845,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/util.js",
-            "resourceSize": 193507,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/util.js",
+            "resourceSize": 317087,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/map.js",
-            "resourceSize": 81739,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/map.js",
+            "resourceSize": 83864,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/overlay.js",
-            "resourceSize": 3487,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/overlay.js",
+            "resourceSize": 3460,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
@@ -3928,28 +3970,28 @@
             "resourceType": "Manifest"
           },
           {
-            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i4352693&2i2933375&2e1&3u15&4m2&1u371&2u222&5m6&1e0&5sfr&6sfr&10b1&12b1&14i47083502&client=google-maps-embed&token=80719",
-            "resourceSize": 17268,
-            "mimeType": "image/png",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/onion.js",
-            "resourceSize": 30520,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/search_impl.js",
-            "resourceSize": 3523,
-            "mimeType": "text/javascript",
-            "resourceType": "Script"
-          },
-          {
             "url": "http://127.0.0.1:5500/assets/favicons/favicon.ico",
             "resourceSize": 15406,
             "mimeType": "image/x-icon",
             "resourceType": "Other"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i4352693&2i2933375&2e1&3u15&4m2&1u371&2u222&5m6&1e0&5sfr&6sfr&10b1&12b1&14i47083502&8e1&client=google-maps-embed&token=6070",
+            "resourceSize": 15741,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/onion.js",
+            "resourceSize": 30935,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/search_impl.js",
+            "resourceSize": 3599,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
           },
           {
             "url": "https://maps.gstatic.com/mapfiles/openhand_8_8.cur",
@@ -3958,10 +4000,10 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
-            "resourceSize": 13060,
-            "mimeType": "application/json+protobuf",
-            "resourceType": "XHR"
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/log.js",
+            "resourceSize": 32847,
+            "mimeType": "text/javascript",
+            "resourceType": "Script"
           },
           {
             "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
@@ -3970,62 +4012,68 @@
             "resourceType": "Preflight"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17003!3i11459!4i256!2m3!1e0!2sm!3i715472551!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=103560",
-            "resourceSize": 10298,
+            "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+            "resourceSize": 12989,
+            "mimeType": "application/json+protobuf",
+            "resourceType": "XHR"
+          },
+          {
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17003!3i11459!4i256!2m3!1e0!2sm!3i759518654!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=26648",
+            "resourceSize": 8992,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17002!3i11459!4i256!2m3!1e0!2sm!3i715472575!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=109975",
-            "resourceSize": 6666,
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17002!3i11459!4i256!2m3!1e0!2sm!3i759518366!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=65683",
+            "resourceSize": 7310,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17002!3i11458!4i256!2m3!1e0!2sm!3i715472563!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=103802",
-            "resourceSize": 14668,
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17002!3i11458!4i256!2m3!1e0!2sm!3i759518618!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=77332",
+            "resourceSize": 14490,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17003!3i11458!4i256!2m3!1e0!2sm!3i715472563!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=119685",
-            "resourceSize": 14590,
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17003!3i11458!4i256!2m3!1e0!2sm!3i759518654!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=83749",
+            "resourceSize": 15138,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17004!3i11458!4i256!2m3!1e0!2sm!3i715472563!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=4497",
-            "resourceSize": 14004,
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17004!3i11458!4i256!2m3!1e0!2sm!3i759518654!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=126906",
+            "resourceSize": 13764,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17004!3i11459!4i256!2m3!1e0!2sm!3i715472551!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=119443",
-            "resourceSize": 8864,
+            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i15!2i17004!3i11459!4i256!2m3!1e0!2sm!3i759518654!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=69805",
+            "resourceSize": 9854,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i17002!3i11458!1m4!1m3!1i15!2i17002!3i11459!1m4!1m3!1i15!2i17003!3i11458!1m4!1m3!1i15!2i17003!3i11459!1m4!1m3!1i15!2i17004!3i11458!1m4!1m3!1i15!2i17004!3i11459!2m3!1e0!2sm!3i715472587!2m3!1e2!2sspotlit!5i1!3m12!2sfr!3sFR!5e289!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=88897",
-            "resourceSize": 6146,
+            "url": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i15!2i17002!3i11458!1m4!1m3!1i15!2i17002!3i11459!1m4!1m3!1i15!2i17003!3i11458!1m4!1m3!1i15!2i17003!3i11459!1m4!1m3!1i15!2i17004!3i11458!1m4!1m3!1i15!2i17004!3i11459!2m3!1e0!2sm!3i759518654!2m3!1e2!2sspotlit!5i1!3m13!2sfr!3sFR!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!27m15!299174093m14!14m13!1m8!1m2!1y5157209976702844831!2y1962179063573415085!2s%2Fg%2F1tff1z72!4m2!1x474954720!2x68052790!15sgcid%3Auniversity_department!2b0!3b0!6b0!8b0&client=google-maps-embed&token=19575",
+            "resourceSize": 5402,
             "mimeType": "application/json",
             "resourceType": "XHR"
           },
           {
-            "url": "https://maps.googleapis.com/maps-api-v3/api/js/59/3a/intl/fr_ALL/controls.js",
-            "resourceSize": 101542,
+            "url": "https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/fr_ALL/controls.js",
+            "resourceSize": 104947,
             "mimeType": "text/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text_old:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=fr",
+            "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=fr",
             "resourceSize": 307,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans_old:400,500,700|Google+Sans+Text_old:400,500,700&lang=fr",
-            "resourceSize": 42845,
+            "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400,500,700&lang=fr",
+            "resourceSize": 83842,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4060,74 +4108,146 @@
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 120,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 149,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 120,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 151,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 120,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 154,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 123,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 148,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 104,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 151,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 104,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 154,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 104,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 146,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%20…",
-            "resourceSize": 107,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 146,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
-            "resourceSize": 3680,
-            "mimeType": "application/json+protobuf",
-            "resourceType": "XHR"
-          },
-          {
-            "url": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i12!2i2125!3i1432!4i256!2m1!1e1!3m12!2sfr!3sFR!5e289!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy5lOmx8cC52Om9mZg!4e0!5m1!1e3!23i47083502&client=google-maps-embed&token=112549",
-            "resourceSize": 20549,
-            "mimeType": "image/jpeg",
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 149,
+            "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
-            "resourceSize": 13388,
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 149,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 149,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 152,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 152,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 152,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 155,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 119,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 119,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 119,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%20-960%2096…",
+            "resourceSize": 122,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 371,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 390,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBo…",
+            "resourceSize": 390,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
-            "resourceSize": 13432,
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           }
@@ -4352,7 +4472,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4495,38 +4615,44 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -4709,7 +4835,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.98,
         "accessibility": 0.96,
         "bestPractices": 0.96,
         "seo": 0.91,
@@ -4784,7 +4910,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
-            "resourceSize": 82974,
+            "resourceSize": 121579,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -4927,44 +5053,50 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
-            "resourceSize": 43068,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "resourceSize": 42964,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
-            "resourceSize": 34296,
+            "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2",
+            "resourceSize": 34160,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/lora/v35/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
-            "resourceSize": 37676,
+            "url": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7I_FMl_E.woff2",
+            "resourceSize": 37792,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
             "resourceSize": 7740,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
-            "resourceSize": 45036,
+            "url": "https://fonts.gstatic.com/s/opensans/v44/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "resourceSize": 45072,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/mulish/v13/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
-            "resourceSize": 30092,
+            "url": "https://fonts.gstatic.com/s/mulish/v18/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2",
+            "resourceSize": 29896,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -8605,9 +8737,778 @@
       }
     },
     "__meta__": {
-      "parseTime": 3,
+      "parseTime": 5,
       "analyzeTime": 6,
-      "total": 9
+      "total": 11
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 1387,
+      "nodesWithClasses": 1223,
+      "uniqueClasses": [
+        "header",
+        "header__link",
+        "header__logo",
+        "header__right",
+        "header__translate-btn",
+        "header__menu-btn",
+        "menu-btn",
+        "menu-btn__bar",
+        "header__menu",
+        "menu",
+        "menu__shape",
+        "menu__shape--top",
+        "menu__list",
+        "list-unstyled",
+        "menu__item",
+        "menu__link",
+        "menu__secondaire",
+        "menu__terms",
+        "menu__link--silent",
+        "menu__logo",
+        "menu__shape--bottom",
+        "hero",
+        "hero__title",
+        "hero__content",
+        "hero__text",
+        "intro",
+        "intro__title",
+        "card",
+        "card__layout",
+        "intro__text",
+        "separator",
+        "card__content",
+        "card__title",
+        "card__text",
+        "card__image-container",
+        "card__image",
+        "card__button",
+        "card__button2",
+        "card__link",
+        "footer",
+        "footer__header",
+        "footer__logo-link",
+        "footer__logo",
+        "footer__title",
+        "footer__content",
+        "footer__section",
+        "footer__menu",
+        "footer__nav-title",
+        "footer__nav-list",
+        "footer__nav-item",
+        "footer__nav-link",
+        "footer__divider",
+        "footer__info",
+        "footer__info-title",
+        "footer__info-list",
+        "footer__info-item",
+        "footer__info-link",
+        "footer__social-container",
+        "footer__social-title",
+        "footer__social-list",
+        "footer__social-item",
+        "footer__social-link",
+        "footer__social-icon",
+        "footer__bottom",
+        "footer__credits",
+        "footer__credits-link",
+        "footer__logo-mmi",
+        "footer__logo-mmi-img",
+        "text",
+        "chapo",
+        "chapo__title",
+        "text__text",
+        "text__img",
+        "text__description",
+        "carousel",
+        "carousel__heading",
+        "carousel__container",
+        "carousel__item",
+        "carousel__controls",
+        "carousel__button",
+        "carousel__button--prev",
+        "carousel__button--next",
+        "carousel__nav",
+        "carousel__nav-list",
+        "carousel__nav-item",
+        "text__title",
+        "frise",
+        "frise__image",
+        "frise__item",
+        "frise__item--sablier",
+        "frise__title",
+        "frise__text",
+        "frise__item--velo",
+        "frise__item--couteau",
+        "frise__item--torche",
+        "frise__item--bol",
+        "button",
+        "button__button",
+        "text__title2",
+        "text__video",
+        "carousel2",
+        "carousel2__heading",
+        "carousel2__container",
+        "carousel2__item",
+        "button__button2",
+        "carousel2__controls",
+        "carousel2__button",
+        "carousel2__button--prev",
+        "carousel2__button--next",
+        "carousel2__nav-item",
+        "card__white",
+        "card__text2",
+        "integration__container",
+        "form",
+        "form__title",
+        "form__texts",
+        "form__form",
+        "form__list",
+        "form__item",
+        "form__label",
+        "form__input",
+        "form__textarea",
+        "form__button",
+        "card__map-container",
+        "new-card-wrapper",
+        "new-card__container",
+        "new-card__image",
+        "new-card__content",
+        "new-card__title",
+        "new-card__author",
+        "new-card__button",
+        "text__thanks"
+      ],
+      "frequency": {
+        "header": 10,
+        "header__link": 10,
+        "header__logo": 10,
+        "header__right": 10,
+        "header__translate-btn": 10,
+        "header__menu-btn": 10,
+        "menu-btn": 10,
+        "menu-btn__bar": 10,
+        "header__menu": 10,
+        "menu": 10,
+        "menu__shape": 20,
+        "menu__shape--top": 10,
+        "menu__list": 10,
+        "list-unstyled": 20,
+        "menu__item": 50,
+        "menu__link": 90,
+        "menu__secondaire": 10,
+        "menu__terms": 10,
+        "menu__link--silent": 40,
+        "menu__logo": 10,
+        "menu__shape--bottom": 10,
+        "hero": 10,
+        "hero__title": 10,
+        "hero__content": 6,
+        "hero__text": 6,
+        "intro": 16,
+        "intro__title": 6,
+        "card": 23,
+        "card__layout": 1,
+        "intro__text": 2,
+        "separator": 31,
+        "card__content": 25,
+        "card__title": 9,
+        "card__text": 39,
+        "card__image-container": 9,
+        "card__image": 9,
+        "card__button": 4,
+        "card__button2": 2,
+        "card__link": 2,
+        "footer": 10,
+        "footer__header": 10,
+        "footer__logo-link": 10,
+        "footer__logo": 10,
+        "footer__title": 10,
+        "footer__content": 10,
+        "footer__section": 20,
+        "footer__menu": 10,
+        "footer__nav-title": 10,
+        "footer__nav-list": 10,
+        "footer__nav-item": 40,
+        "footer__nav-link": 40,
+        "footer__divider": 10,
+        "footer__info": 10,
+        "footer__info-title": 10,
+        "footer__info-list": 10,
+        "footer__info-item": 30,
+        "footer__info-link": 10,
+        "footer__social-container": 10,
+        "footer__social-title": 10,
+        "footer__social-list": 10,
+        "footer__social-item": 50,
+        "footer__social-link": 50,
+        "footer__social-icon": 50,
+        "footer__bottom": 10,
+        "footer__credits": 10,
+        "footer__credits-link": 10,
+        "footer__logo-mmi": 10,
+        "footer__logo-mmi-img": 10,
+        "text": 35,
+        "chapo": 5,
+        "chapo__title": 5,
+        "text__text": 56,
+        "text__img": 8,
+        "text__description": 13,
+        "carousel": 1,
+        "carousel__heading": 1,
+        "carousel__container": 1,
+        "carousel__item": 5,
+        "carousel__controls": 1,
+        "carousel__button": 2,
+        "carousel__button--prev": 1,
+        "carousel__button--next": 1,
+        "carousel__nav": 2,
+        "carousel__nav-list": 2,
+        "carousel__nav-item": 5,
+        "text__title": 3,
+        "frise": 1,
+        "frise__image": 1,
+        "frise__item": 5,
+        "frise__item--sablier": 1,
+        "frise__title": 5,
+        "frise__text": 5,
+        "frise__item--velo": 1,
+        "frise__item--couteau": 1,
+        "frise__item--torche": 1,
+        "frise__item--bol": 1,
+        "button": 6,
+        "button__button": 5,
+        "text__title2": 22,
+        "text__video": 1,
+        "carousel2": 1,
+        "carousel2__heading": 1,
+        "carousel2__container": 1,
+        "carousel2__item": 3,
+        "button__button2": 3,
+        "carousel2__controls": 1,
+        "carousel2__button": 2,
+        "carousel2__button--prev": 1,
+        "carousel2__button--next": 1,
+        "carousel2__nav-item": 3,
+        "card__white": 3,
+        "card__text2": 3,
+        "integration__container": 2,
+        "form": 1,
+        "form__title": 1,
+        "form__texts": 1,
+        "form__form": 1,
+        "form__list": 1,
+        "form__item": 4,
+        "form__label": 4,
+        "form__input": 3,
+        "form__textarea": 1,
+        "form__button": 1,
+        "card__map-container": 1,
+        "new-card-wrapper": 1,
+        "new-card__container": 8,
+        "new-card__image": 8,
+        "new-card__content": 8,
+        "new-card__title": 8,
+        "new-card__author": 8,
+        "new-card__button": 8,
+        "text__thanks": 1
+      },
+      "averageClassesPerNode": 1.13,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 2,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "break",
+        "list-unstyled",
+        "visuallyhidden",
+        "noscroll",
+        "footer",
+        "footer__header",
+        "footer__info-title",
+        "footer__nav-title",
+        "footer__title",
+        "footer__nav-list",
+        "footer__content",
+        "footer__section",
+        "footer__divider",
+        "footer__info",
+        "footer__menu",
+        "footer__social-container",
+        "footer__social",
+        "footer__social-title",
+        "footer__credits",
+        "footer__bottom",
+        "footer__logo-mmi",
+        "footer__logo",
+        "footer__social-icon",
+        "footer__social-item",
+        "footer__info-item",
+        "footer__social-list",
+        "header",
+        "header__menu",
+        "btn",
+        "header__logo",
+        "header__name",
+        "header__translate-btn",
+        "header__right",
+        "separator",
+        "body__404",
+        "img__404",
+        "button__404",
+        "button__404__text",
+        "menu",
+        "menu-btn",
+        "menu__link",
+        "menu__link--silent",
+        "menu__list",
+        "menu__item",
+        "menu__terms",
+        "menu-btn__bar",
+        "menu__shape",
+        "menu__shape--top",
+        "menu__shape--bottom",
+        "menu__logo",
+        "hero",
+        "hero__title",
+        "hero__content",
+        "hero__text",
+        "intro",
+        "intro__title",
+        "intro__text",
+        "intro__link",
+        "card",
+        "card__white",
+        "card__content",
+        "card__title",
+        "card__text",
+        "card__text2",
+        "card__image-container",
+        "card__link",
+        "card__image",
+        "card__button",
+        "card__button2",
+        "new-card-wrapper",
+        "new-card__container",
+        "new-card__content",
+        "new-card__title",
+        "new-card__author",
+        "new-card__image",
+        "new-card__button",
+        "card__map-container",
+        "chapo__title",
+        "text__text",
+        "text__description",
+        "text__title",
+        "text__title2",
+        "text__video",
+        "text__img",
+        "text__thanks",
+        "carousel",
+        "carousel__controls",
+        "carousel__button",
+        "carousel__button--prev",
+        "carousel__container",
+        "carousel__item",
+        "carousel__nav",
+        "carousel__nav-item",
+        "active",
+        "carousel__heading",
+        "carousel__text",
+        "carousel2",
+        "carousel2__controls",
+        "carousel2__button",
+        "carousel2__button--prev",
+        "carousel2__button--next",
+        "carousel2__container",
+        "carousel2__item",
+        "carousel2__text",
+        "carousel2__nav",
+        "carousel2__nav-item",
+        "carousel2__heading",
+        "frise",
+        "frise__image",
+        "frise__item",
+        "frise__item--sablier",
+        "frise__item--velo",
+        "frise__item--couteau",
+        "frise__item--torche",
+        "frise__item--bol",
+        "frise__text",
+        "frise__title",
+        "button__button",
+        "button__button2",
+        "button",
+        "integration__container",
+        "form",
+        "form__button",
+        "form__title",
+        "form__texts",
+        "form__list",
+        "form__item",
+        "form__label",
+        "form__input",
+        "form__textarea"
+      ],
+      "totalSelectors": 256,
+      "selectorsWithMultipleClasses": 38,
+      "specificity": {
+        "average": 10.84,
+        "max": 20
+      },
+      "complexSelectorsRatio": 0.082
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "break",
+        "visuallyhidden",
+        "noscroll",
+        "footer__social",
+        "btn",
+        "header__name",
+        "body__404",
+        "img__404",
+        "button__404",
+        "button__404__text",
+        "intro__link",
+        "active",
+        "carousel__text",
+        "carousel2__text",
+        "carousel2__nav"
+      ],
+      "undefinedHtmlClasses": [
+        "header__link",
+        "header__menu-btn",
+        "menu__secondaire",
+        "card__layout",
+        "footer__logo-link",
+        "footer__nav-item",
+        "footer__nav-link",
+        "footer__info-list",
+        "footer__info-link",
+        "footer__social-link",
+        "footer__credits-link",
+        "footer__logo-mmi-img",
+        "text",
+        "chapo",
+        "carousel__button--next",
+        "carousel__nav-list",
+        "form__form"
+      ],
+      "coverageHtml": 0.871,
+      "coverageCss": 0.885,
+      "cssEfficiency": 0.885
+    },
+    "bem": {
+      "blocks": {
+        "header": {
+          "elements": [
+            "header__link",
+            "header__logo",
+            "header__right",
+            "header__translate-btn",
+            "header__menu-btn",
+            "header__menu",
+            "header__name"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu-btn": {
+          "elements": [
+            "menu-btn__bar"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu": {
+          "elements": [
+            "menu__shape",
+            "menu__list",
+            "menu__item",
+            "menu__link",
+            "menu__secondaire",
+            "menu__terms",
+            "menu__logo"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "menu__shape--top",
+            "menu__link--silent",
+            "menu__shape--bottom"
+          ]
+        },
+        "list-unstyled": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [
+            "hero__title",
+            "hero__content",
+            "hero__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "intro": {
+          "elements": [
+            "intro__title",
+            "intro__text",
+            "intro__link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "card": {
+          "elements": [
+            "card__layout",
+            "card__content",
+            "card__title",
+            "card__text",
+            "card__image-container",
+            "card__image",
+            "card__button",
+            "card__button2",
+            "card__link",
+            "card__white",
+            "card__text2",
+            "card__map-container"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "separator": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer": {
+          "elements": [
+            "footer__header",
+            "footer__logo-link",
+            "footer__logo",
+            "footer__title",
+            "footer__content",
+            "footer__section",
+            "footer__menu",
+            "footer__nav-title",
+            "footer__nav-list",
+            "footer__nav-item",
+            "footer__nav-link",
+            "footer__divider",
+            "footer__info",
+            "footer__info-title",
+            "footer__info-list",
+            "footer__info-item",
+            "footer__info-link",
+            "footer__social-container",
+            "footer__social-title",
+            "footer__social-list",
+            "footer__social-item",
+            "footer__social-link",
+            "footer__social-icon",
+            "footer__bottom",
+            "footer__credits",
+            "footer__credits-link",
+            "footer__logo-mmi",
+            "footer__logo-mmi-img",
+            "footer__social"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "text": {
+          "elements": [
+            "text__text",
+            "text__img",
+            "text__description",
+            "text__title",
+            "text__title2",
+            "text__video",
+            "text__thanks"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "chapo": {
+          "elements": [
+            "chapo__title"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel": {
+          "elements": [
+            "carousel__heading",
+            "carousel__container",
+            "carousel__item",
+            "carousel__controls",
+            "carousel__button",
+            "carousel__nav",
+            "carousel__nav-list",
+            "carousel__nav-item",
+            "carousel__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "carousel__button--prev",
+            "carousel__button--next"
+          ]
+        },
+        "frise": {
+          "elements": [
+            "frise__image",
+            "frise__item",
+            "frise__title",
+            "frise__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "frise__item--sablier",
+            "frise__item--velo",
+            "frise__item--couteau",
+            "frise__item--torche",
+            "frise__item--bol"
+          ]
+        },
+        "button": {
+          "elements": [
+            "button__button",
+            "button__button2",
+            "button__404"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel2": {
+          "elements": [
+            "carousel2__heading",
+            "carousel2__container",
+            "carousel2__item",
+            "carousel2__controls",
+            "carousel2__button",
+            "carousel2__nav-item",
+            "carousel2__text",
+            "carousel2__nav"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "carousel2__button--prev",
+            "carousel2__button--next"
+          ]
+        },
+        "integration": {
+          "elements": [
+            "integration__container"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "form": {
+          "elements": [
+            "form__title",
+            "form__texts",
+            "form__form",
+            "form__list",
+            "form__item",
+            "form__label",
+            "form__input",
+            "form__textarea",
+            "form__button"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "new-card-wrapper": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "new-card": {
+          "elements": [
+            "new-card__container",
+            "new-card__image",
+            "new-card__content",
+            "new-card__title",
+            "new-card__author",
+            "new-card__button"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "break": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "visuallyhidden": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "noscroll": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "body": {
+          "elements": [
+            "body__404"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "img": {
+          "elements": [
+            "img__404"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "active": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 22,
+        "elements": 112,
+        "modifiers": 0,
+        "elementModifiers": 12,
+        "other": 1
+      },
+      "ratios": {
+        "bemClassesRatio": 0.993
+      },
+      "depth": {
+        "max": 3,
+        "average": 1.93
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "menu": 2,
+        "list": 1,
+        "new": 7
+      },
+      "entropy": 6.21,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-11-24T16:39:08.087Z"
     }
   }
 }

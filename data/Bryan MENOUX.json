@@ -154,7 +154,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.77,
+        "performance": 0.78,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -199,7 +199,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -312,14 +312,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -339,6 +339,56 @@
             "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Rebrith",
+      "images": [],
+      "totalTags": 13,
+      "externalLinks": 0,
+      "internalLinks": 2,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Page d'accueil",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.91,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 1872,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
             "resourceType": "Other"
           }
         ]
@@ -618,7 +668,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -731,20 +781,20 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
-            "resourceSize": 37356,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
+            "resourceSize": 37120,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -883,7 +933,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.85,
+        "performance": 0.76,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -927,14 +977,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_trailer.mp4",
-            "resourceSize": 112171,
-            "mimeType": "video/mp4",
-            "resourceType": "Media"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1041,26 +1085,31 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_trailer.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
-            "resourceSize": 37356,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
+            "resourceSize": 37120,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -1075,6 +1124,12 @@
             "resourceSize": 38426,
             "mimeType": "image/webp",
             "resourceType": "Image"
+          },
+          {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
@@ -1374,7 +1429,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1487,14 +1542,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -1684,14 +1739,8 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
-            "resourceSize": 370088,
-            "mimeType": "video/mp4",
-            "resourceType": "Media"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1798,26 +1847,37 @@
             "resourceType": "Stylesheet"
           },
           {
+            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
+          },
+          {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
             "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
-            "resourceSize": 37356,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
+            "resourceSize": 37120,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -1935,7 +1995,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.94,
+        "performance": 0.93,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1980,13 +2040,12 @@
           },
           {
             "url": "https://bryan-menoux.fr/videos/the_book_of_eli_soundtrack.mp4",
-            "resourceSize": 320491,
-            "mimeType": "video/mp4",
-            "resourceType": "Media"
+            "resourceSize": 0,
+            "mimeType": "text/html"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2099,20 +2158,20 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
-            "resourceSize": 37356,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2",
+            "resourceSize": 37120,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2127,6 +2186,12 @@
             "resourceSize": 60166,
             "mimeType": "image/webp",
             "resourceType": "Image"
+          },
+          {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
@@ -2261,7 +2326,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.92,
+        "performance": 0.85,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -2306,7 +2371,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2419,14 +2484,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2568,7 +2633,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2681,14 +2746,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -2830,7 +2895,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2943,14 +3008,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -3156,7 +3221,7 @@
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
-            "resourceSize": 22697,
+            "resourceSize": 29202,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3269,14 +3334,14 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
-            "resourceSize": 35468,
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
           {
-            "url": "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
-            "resourceSize": 38340,
+            "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+            "resourceSize": 38460,
             "mimeType": "font/woff2",
             "resourceType": "Font"
           },
@@ -5667,9 +5732,665 @@
       }
     },
     "__meta__": {
-      "parseTime": 3,
-      "analyzeTime": 4,
-      "total": 7
+      "parseTime": 7,
+      "analyzeTime": 6,
+      "total": 13
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 1169,
+      "nodesWithClasses": 1077,
+      "uniqueClasses": [
+        "header",
+        "header__mobile",
+        "header__home-link",
+        "home-link__logo",
+        "header__buttons",
+        "header__switcher",
+        "switcher__sphere",
+        "header__menu-btn",
+        "menu-btn",
+        "menu-btn__bar",
+        "header__menu",
+        "menu__list",
+        "menu__item",
+        "item__link",
+        "hero",
+        "hero--home",
+        "hero--centered",
+        "hero__logo",
+        "hero__title",
+        "hero__title--home",
+        "hero__scroll-btn",
+        "scroll-btn__logo",
+        "hero__duotone-container",
+        "hero__duotone",
+        "duotone",
+        "main",
+        "section",
+        "section--no-bar",
+        "section__chapo",
+        "article",
+        "article-card",
+        "article-card__img",
+        "article-card__content-text",
+        "article-card__content-text--right",
+        "article-card__title",
+        "article-card__excerpt",
+        "article-card__btn",
+        "uppercase",
+        "article-card__content-text--left",
+        "footer",
+        "footer__list",
+        "footer__item",
+        "footer__link",
+        "footer__register",
+        "footer__title",
+        "footer__label",
+        "footer__newsletter",
+        "footer__input",
+        "footer__btn",
+        "footer__social-network",
+        "footer__social-list",
+        "social-list__item",
+        "menu__social-link",
+        "social-link__img",
+        "footer__text",
+        "section__introduction",
+        "section__title",
+        "section__blog-entry",
+        "section__content",
+        "section__img-container",
+        "section__img",
+        "section__legend",
+        "centered",
+        "section__text",
+        "section__conclusion",
+        "section--timeline",
+        "timeline-card__container",
+        "article__timeline-card",
+        "timeline__figure",
+        "article__img",
+        "article__title",
+        "article__excerpt",
+        "arrow",
+        "timeline-card__container--right",
+        "article--timeline-end",
+        "section__video",
+        "btn",
+        "play-btn",
+        "play-btn--fr",
+        "play-btn__img",
+        "section--carousel",
+        "section__carousel-container",
+        "section__carousel-item",
+        "carousel__img",
+        "carousel__text",
+        "carousel__title",
+        "carousel__excerpt",
+        "carousel__btn-container",
+        "carousel__btn",
+        "carousel__btn--prev",
+        "carousel__btn--next",
+        "section__glossary-container",
+        "section__form",
+        "form__label",
+        "form__input",
+        "form__select",
+        "select__option",
+        "form__textarea",
+        "form__btn",
+        "section__other-projects",
+        "other-projects__link"
+      ],
+      "frequency": {
+        "header": 10,
+        "header__mobile": 10,
+        "header__home-link": 10,
+        "home-link__logo": 10,
+        "header__buttons": 10,
+        "header__switcher": 10,
+        "switcher__sphere": 10,
+        "header__menu-btn": 10,
+        "menu-btn": 10,
+        "menu-btn__bar": 10,
+        "header__menu": 10,
+        "menu__list": 10,
+        "menu__item": 90,
+        "item__link": 90,
+        "hero": 10,
+        "hero--home": 1,
+        "hero--centered": 1,
+        "hero__logo": 1,
+        "hero__title": 10,
+        "hero__title--home": 1,
+        "hero__scroll-btn": 10,
+        "scroll-btn__logo": 10,
+        "hero__duotone-container": 10,
+        "hero__duotone": 10,
+        "duotone": 10,
+        "main": 10,
+        "section": 17,
+        "section--no-bar": 11,
+        "section__chapo": 10,
+        "article": 12,
+        "article-card": 5,
+        "article-card__img": 5,
+        "article-card__content-text": 5,
+        "article-card__content-text--right": 3,
+        "article-card__title": 5,
+        "article-card__excerpt": 5,
+        "article-card__btn": 5,
+        "uppercase": 15,
+        "article-card__content-text--left": 2,
+        "footer": 10,
+        "footer__list": 10,
+        "footer__item": 30,
+        "footer__link": 30,
+        "footer__register": 10,
+        "footer__title": 20,
+        "footer__label": 10,
+        "footer__newsletter": 10,
+        "footer__input": 10,
+        "footer__btn": 10,
+        "footer__social-network": 10,
+        "footer__social-list": 10,
+        "social-list__item": 40,
+        "menu__social-link": 40,
+        "social-link__img": 40,
+        "footer__text": 20,
+        "section__introduction": 11,
+        "section__title": 36,
+        "section__blog-entry": 9,
+        "section__content": 22,
+        "section__img-container": 18,
+        "section__img": 15,
+        "section__legend": 18,
+        "centered": 15,
+        "section__text": 49,
+        "section__conclusion": 8,
+        "section--timeline": 1,
+        "timeline-card__container": 6,
+        "article__timeline-card": 12,
+        "timeline__figure": 6,
+        "article__img": 6,
+        "article__title": 7,
+        "article__excerpt": 6,
+        "arrow": 6,
+        "timeline-card__container--right": 3,
+        "article--timeline-end": 1,
+        "section__video": 3,
+        "btn": 3,
+        "play-btn": 3,
+        "play-btn--fr": 2,
+        "play-btn__img": 3,
+        "section--carousel": 2,
+        "section__carousel-container": 2,
+        "section__carousel-item": 10,
+        "carousel__img": 10,
+        "carousel__text": 10,
+        "carousel__title": 10,
+        "carousel__excerpt": 10,
+        "carousel__btn-container": 2,
+        "carousel__btn": 4,
+        "carousel__btn--prev": 2,
+        "carousel__btn--next": 2,
+        "section__glossary-container": 10,
+        "section__form": 1,
+        "form__label": 4,
+        "form__input": 2,
+        "form__select": 1,
+        "select__option": 3,
+        "form__textarea": 1,
+        "form__btn": 1,
+        "section__other-projects": 10,
+        "other-projects__link": 9
+      },
+      "averageClassesPerNode": 1.09,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 3,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "noscroll",
+        "uppercase",
+        "centered",
+        "main",
+        "main--error",
+        "error",
+        "header",
+        "header__mobile",
+        "home-link__logo",
+        "header__buttons",
+        "header__scrolled",
+        "menu-btn__bar",
+        "footer",
+        "footer__list",
+        "footer__text",
+        "footer__title",
+        "footer__label",
+        "footer__link",
+        "footer__social-list",
+        "social-link__img",
+        "footer__register",
+        "footer__newsletter",
+        "hero__duotone-container",
+        "hero__duotone",
+        "btn",
+        "header__menu-btn",
+        "menu-btn",
+        "header__switcher",
+        "switcher__sphere",
+        "switcher__sphere--active",
+        "scroll-btn__logo",
+        "footer__btn",
+        "article-card__btn",
+        "play-btn",
+        "play-btn__img",
+        "form__btn",
+        "header__menu",
+        "menu__list",
+        "menu__item",
+        "hero",
+        "hero--centered",
+        "hero__title",
+        "hero__title--home",
+        "hero__logo",
+        "hero__scroll-btn",
+        "footer__input",
+        "form__input",
+        "article",
+        "article-card",
+        "article-card__content-text",
+        "article-card__content-text--left",
+        "article-card__content-text--right",
+        "article-card__title",
+        "article-card__excerpt",
+        "section",
+        "section__title",
+        "section__blog-entry",
+        "section__legend",
+        "section__text",
+        "section__chapo",
+        "section__introduction",
+        "section__content",
+        "section__conclusion",
+        "section--timeline",
+        "section--no-bar",
+        "article__timeline-card",
+        "article__img-container",
+        "article--timeline-end",
+        "article__title",
+        "timeline-card__container",
+        "timeline-card__container--right",
+        "arrow",
+        "section--carousel",
+        "section__carousel-container",
+        "section__carousel-item",
+        "carousel__img",
+        "carousel__text",
+        "carousel__title",
+        "carousel__excerpt",
+        "carousel__btn-container",
+        "carousel__btn",
+        "section__glossary-container",
+        "section__other-projects",
+        "other-projects__link",
+        "section__form",
+        "form__label",
+        "form__textarea",
+        "form__select"
+      ],
+      "totalSelectors": 142,
+      "selectorsWithMultipleClasses": 7,
+      "specificity": {
+        "average": 10.65,
+        "max": 100
+      },
+      "complexSelectorsRatio": 0.134
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "noscroll",
+        "main--error",
+        "error",
+        "header__scrolled",
+        "switcher__sphere--active",
+        "article__img-container"
+      ],
+      "undefinedHtmlClasses": [
+        "header__home-link",
+        "item__link",
+        "hero--home",
+        "duotone",
+        "article-card__img",
+        "footer__item",
+        "footer__social-network",
+        "social-list__item",
+        "menu__social-link",
+        "section__img-container",
+        "section__img",
+        "timeline__figure",
+        "article__img",
+        "article__excerpt",
+        "section__video",
+        "play-btn--fr",
+        "carousel__btn--prev",
+        "carousel__btn--next",
+        "select__option"
+      ],
+      "coverageHtml": 0.812,
+      "coverageCss": 0.932,
+      "cssEfficiency": 0.932
+    },
+    "bem": {
+      "blocks": {
+        "header": {
+          "elements": [
+            "header__mobile",
+            "header__home-link",
+            "header__buttons",
+            "header__switcher",
+            "header__menu-btn",
+            "header__menu",
+            "header__scrolled"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "home-link": {
+          "elements": [
+            "home-link__logo"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "switcher": {
+          "elements": [
+            "switcher__sphere"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "switcher__sphere--active"
+          ]
+        },
+        "menu-btn": {
+          "elements": [
+            "menu-btn__bar"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu": {
+          "elements": [
+            "menu__list",
+            "menu__item",
+            "menu__social-link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "item": {
+          "elements": [
+            "item__link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [
+            "hero__logo",
+            "hero__title",
+            "hero__scroll-btn",
+            "hero__duotone-container",
+            "hero__duotone"
+          ],
+          "modifiers": [
+            "hero--home",
+            "hero--centered"
+          ],
+          "elementModifiers": [
+            "hero__title--home"
+          ]
+        },
+        "scroll-btn": {
+          "elements": [
+            "scroll-btn__logo"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "duotone": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "main": {
+          "elements": [],
+          "modifiers": [
+            "main--error"
+          ],
+          "elementModifiers": []
+        },
+        "section": {
+          "elements": [
+            "section__chapo",
+            "section__introduction",
+            "section__title",
+            "section__blog-entry",
+            "section__content",
+            "section__img-container",
+            "section__img",
+            "section__legend",
+            "section__text",
+            "section__conclusion",
+            "section__video",
+            "section__carousel-container",
+            "section__carousel-item",
+            "section__glossary-container",
+            "section__form",
+            "section__other-projects"
+          ],
+          "modifiers": [
+            "section--no-bar",
+            "section--timeline",
+            "section--carousel"
+          ],
+          "elementModifiers": []
+        },
+        "article": {
+          "elements": [
+            "article__timeline-card",
+            "article__img",
+            "article__title",
+            "article__excerpt",
+            "article__img-container"
+          ],
+          "modifiers": [
+            "article--timeline-end"
+          ],
+          "elementModifiers": []
+        },
+        "article-card": {
+          "elements": [
+            "article-card__img",
+            "article-card__content-text",
+            "article-card__title",
+            "article-card__excerpt",
+            "article-card__btn"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "article-card__content-text--right",
+            "article-card__content-text--left"
+          ]
+        },
+        "uppercase": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer": {
+          "elements": [
+            "footer__list",
+            "footer__item",
+            "footer__link",
+            "footer__register",
+            "footer__title",
+            "footer__label",
+            "footer__newsletter",
+            "footer__input",
+            "footer__btn",
+            "footer__social-network",
+            "footer__social-list",
+            "footer__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-list": {
+          "elements": [
+            "social-list__item"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-link": {
+          "elements": [
+            "social-link__img"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "centered": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline-card": {
+          "elements": [
+            "timeline-card__container"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "timeline-card__container--right"
+          ]
+        },
+        "timeline": {
+          "elements": [
+            "timeline__figure"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "arrow": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "play-btn": {
+          "elements": [
+            "play-btn__img"
+          ],
+          "modifiers": [
+            "play-btn--fr"
+          ],
+          "elementModifiers": []
+        },
+        "carousel": {
+          "elements": [
+            "carousel__img",
+            "carousel__text",
+            "carousel__title",
+            "carousel__excerpt",
+            "carousel__btn-container",
+            "carousel__btn"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "carousel__btn--prev",
+            "carousel__btn--next"
+          ]
+        },
+        "form": {
+          "elements": [
+            "form__label",
+            "form__input",
+            "form__select",
+            "form__textarea",
+            "form__btn"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "select": {
+          "elements": [
+            "select__option"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "other-projects": {
+          "elements": [
+            "other-projects__link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "noscroll": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "error": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 16,
+        "elements": 76,
+        "modifiers": 8,
+        "elementModifiers": 7,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1
+      },
+      "depth": {
+        "max": 3,
+        "average": 1.92
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "home": 1,
+        "menu": 2,
+        "hero": 2,
+        "scroll": 1,
+        "section": 3,
+        "article": 9,
+        "social": 2,
+        "timeline": 2,
+        "play": 3,
+        "other": 1
+      },
+      "entropy": 5.971,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-11-24T16:35:25.303Z"
     }
   }
 }
