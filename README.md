@@ -31,7 +31,16 @@ Les résultats sont sauvegardés au format JSON dans le répertoire `data/` pour
 ## ✨ Fonctionnalités
 
 - **Analyse HTML complète** : détection de balises, liens internes/externes, structure des titres
-- **Analyse CSS avancée** : compilation avec PostCSS, minification, résolution des imports
+- **Analyse CSS avancée** :
+  - Compilation avec PostCSS, minification, résolution des imports
+  - **Analyse des @import** : liste et vérification des chemins avant compilation
+  - **Détection de normalize.css** : identification automatique de son utilisation
+  - **Analyse des variables CSS** :
+    - Déclarations et utilisations
+    - Variables non utilisées
+    - Variables utilisées mais non déclarées
+    - Catégorisation automatique (couleur, typographie, spacing, layout, z-index, radius)
+    - Ratio variables / propriétés brutes
 - **Analyse des classes** : fréquence, redondance, surcharge (nœuds >4 classes), unused CSS, classes HTML non définies
 - **Métriques BEM** : blocks/elements/modifiers, ratio BEM, profondeur, violations (élément ou modificateur orphelin)
 - **Validation W3C** : vérification de la conformité HTML

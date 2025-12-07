@@ -7,7 +7,13 @@ import {
   analyzeAllPages,
   runLighthouse,
 } from "../services/analysisService.js";
-import { compileCSS, analyzeCSS } from "../services/cssAnalysisService.js";
+import {
+  compileCSS,
+  analyzeCSS,
+  analyzeImports,
+  analyzeCustomProperties,
+  analyzeTypography,
+} from "../services/cssAnalysisService.js";
 import { validateHTML } from "../services/validationService.js";
 import { performClassAnalysis } from "../services/classAnalysisService.js";
 import axios from "axios";
@@ -33,11 +39,58 @@ export const scanUrl = async (req, res) => {
     // Analyser uniquement la page d'accueil (premier fichier HTML)
     const response = await axios.get(url);
     const htmlContent = response.data;
+
+    // Extraire le CSS brut pour analyser les imports avant compilation
+    const cssLinkMatch = htmlContent.match(
+      /<link.*?href=['"](.*?\.css)['"].*?>/i
+    );
+    let cssImportsAnalysis = null;
+    let cssRawContent = "";
+
+    if (cssLinkMatch) {
+      const cssUrl = new URL(cssLinkMatch[1], url).href;
+      try {
+        const cssResponse = await axios.get(cssUrl);
+        cssRawContent = cssResponse.data;
+
+        // Analyser les imports avant la compilation
+        cssImportsAnalysis = await analyzeImports(cssRawContent, cssUrl);
+        console.log("✅ Analyse des @import réussie.");
+      } catch (error) {
+        console.error(
+          "❌ Erreur lors de l'analyse des imports CSS:",
+          error.message
+        );
+      }
+    }
+
     // Compiler et analyser le CSS de la page d'accueil uniquement
-    const compiledCss = await compileCSS(htmlContent, url);
+    const { css: compiledCss, importErrors } = await compileCSS(
+      htmlContent,
+      url
+    );
     console.log("✅ CSS compilé avec succès.");
+
+    if (importErrors.length > 0) {
+      console.warn(
+        `⚠️ ${importErrors.length} erreur(s) d'import CSS détectée(s)`
+      );
+    }
+
     const cssAnalysisResult = await analyzeCSS(compiledCss);
     console.log("✅ CSS analysé avec succès.");
+
+    // Analyser les variables CSS
+    const cssVariablesAnalysis = analyzeCustomProperties(compiledCss);
+    console.log("✅ Analyse des variables CSS réussie.");
+
+    // Analyser la typographie
+    const typographyAnalysis = analyzeTypography(
+      htmlContent,
+      cssRawContent,
+      compiledCss
+    );
+    console.log("✅ Analyse de la typographie réussie.");
 
     for (const fileUrl of htmlFiles) {
       const response = await axios.get(fileUrl);
@@ -76,7 +129,12 @@ export const scanUrl = async (req, res) => {
       pages: fileResults,
       globalAnalysis, // Ajouter le résultat de l'analyse globale
       // compiledCss,
-      cssAnalysisResult,
+      cssAnalysisResult: {
+        ...cssAnalysisResult,
+        imports: cssImportsAnalysis,
+        customProperties: cssVariablesAnalysis,
+        typography: typographyAnalysis,
+      },
       classAnalysis: performClassAnalysis(allHtmlContents, compiledCss),
     };
 

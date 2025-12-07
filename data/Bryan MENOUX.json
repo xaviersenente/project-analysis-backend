@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "file": "http://127.0.0.1:5500/fr/",
+      "file": "http://127.0.0.1:5501/fr/",
       "title": "Rebirth",
       "images": [
         {
@@ -154,7 +154,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.78,
+        "performance": 0.87,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -162,37 +162,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/",
+            "url": "http://127.0.0.1:5501/fr/",
             "resourceSize": 12191,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/train_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/train_hero.webp",
             "resourceSize": 339062,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -204,109 +204,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -324,19 +324,19 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/livre_2.webp",
+            "url": "http://127.0.0.1:5501/assets/img/livre_2.webp",
             "resourceSize": 30920,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/le_livre_deli.webp",
+            "url": "http://127.0.0.1:5501/assets/img/le_livre_deli.webp",
             "resourceSize": 51548,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -345,7 +345,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/",
+      "file": "http://127.0.0.1:5501/",
       "title": "Rebrith",
       "images": [],
       "totalTags": 13,
@@ -370,7 +370,12 @@
           "tag": "h1"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
         "performance": 1,
         "accessibility": 0.91,
@@ -380,13 +385,13 @@
         "errors": 0,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/",
+            "url": "http://127.0.0.1:5501/",
             "resourceSize": 1872,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/favicon.ico",
+            "url": "http://127.0.0.1:5501/favicon.ico",
             "resourceSize": 150,
             "mimeType": "text/html",
             "resourceType": "Other"
@@ -395,7 +400,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/les-livres.html",
+      "file": "http://127.0.0.1:5501/fr/les-livres.html",
       "title": "Rebirth",
       "images": [
         {
@@ -621,9 +626,14 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
-        "performance": 0.96,
+        "performance": 0.97,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -631,37 +641,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/les-livres.html",
+            "url": "http://127.0.0.1:5501/fr/les-livres.html",
             "resourceSize": 36953,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/livre_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/livre_hero.webp",
             "resourceSize": 38376,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -673,109 +683,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -799,19 +809,19 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/bibliotheque-nationale-richelieu.webp",
+            "url": "http://127.0.0.1:5501/assets/img/bibliotheque-nationale-richelieu.webp",
             "resourceSize": 160006,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/mark_twain.webp",
+            "url": "http://127.0.0.1:5501/assets/img/mark_twain.webp",
             "resourceSize": 22570,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -820,7 +830,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/le-livre-deli.html",
+      "file": "http://127.0.0.1:5501/fr/le-livre-deli.html",
       "title": "Rebirth",
       "images": [
         {
@@ -931,9 +941,14 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
-        "performance": 0.76,
+        "performance": 0.73,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -941,40 +956,45 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/le-livre-deli.html",
+            "url": "http://127.0.0.1:5501/fr/le-livre-deli.html",
             "resourceSize": 12599,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/le_livre_deli_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/le_livre_deli_hero.webp",
             "resourceSize": 428650,
             "mimeType": "image/webp",
             "resourceType": "Image"
+          },
+          {
+            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_trailer.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
@@ -983,114 +1003,115 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_trailer.mp4",
+            "url": "https://portfolio.bryan-menoux.fr/",
             "resourceSize": 0,
-            "mimeType": "text/html"
+            "mimeType": "",
+            "resourceType": "Media"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1114,25 +1135,19 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/play_btn.svg",
+            "url": "http://127.0.0.1:5501/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/george_rr_martin.webp",
+            "url": "http://127.0.0.1:5501/assets/img/george_rr_martin.webp",
             "resourceSize": 38426,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -1141,7 +1156,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/denis-villeneuve.html",
+      "file": "http://127.0.0.1:5501/fr/denis-villeneuve.html",
       "title": "Rebirth",
       "images": [
         {
@@ -1382,9 +1397,14 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.83,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1392,37 +1412,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/denis-villeneuve.html",
+            "url": "http://127.0.0.1:5501/fr/denis-villeneuve.html",
             "resourceSize": 18295,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/denis_villeneuve_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/denis_villeneuve_hero.webp",
             "resourceSize": 212548,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1434,109 +1454,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1554,25 +1574,25 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/blade_runner.webp",
+            "url": "http://127.0.0.1:5501/assets/img/blade_runner.webp",
             "resourceSize": 60346,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/dune.webp",
+            "url": "http://127.0.0.1:5501/assets/img/dune.webp",
             "resourceSize": 48682,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/denis_villeneuve_2.webp",
+            "url": "http://127.0.0.1:5501/assets/img/denis_villeneuve_2.webp",
             "resourceSize": 10034,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -1581,7 +1601,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/fahrenheit-451.html",
+      "file": "http://127.0.0.1:5501/fr/fahrenheit-451.html",
       "title": "Rebirth",
       "images": [
         {
@@ -1687,9 +1707,14 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.81,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1697,46 +1722,51 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/fahrenheit-451.html",
+            "url": "http://127.0.0.1:5501/fr/fahrenheit-451.html",
             "resourceSize": 13334,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/fahrenheit_451_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/fahrenheit_451_hero.webp",
             "resourceSize": 527242,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/fahrenheit_personnage.webp",
+            "url": "http://127.0.0.1:5501/assets/img/fahrenheit_personnage.webp",
             "resourceSize": 12716,
             "mimeType": "image/webp",
             "resourceType": "Image"
+          },
+          {
+            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
@@ -1745,111 +1775,106 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
-          },
-          {
-            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
-            "resourceSize": 0,
-            "mimeType": "text/html"
           },
           {
             "url": "https://portfolio.bryan-menoux.fr/",
@@ -1858,7 +1883,7 @@
             "resourceType": "Media"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1882,13 +1907,13 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/play_btn.svg",
+            "url": "http://127.0.0.1:5501/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -1897,7 +1922,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/bande-originale.html",
+      "file": "http://127.0.0.1:5501/fr/bande-originale.html",
       "title": "Rebirth",
       "images": [
         {
@@ -1993,7 +2018,12 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
         "performance": 0.93,
         "accessibility": 1,
@@ -2003,37 +2033,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/bande-originale.html",
+            "url": "http://127.0.0.1:5501/fr/bande-originale.html",
             "resourceSize": 10626,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/soundtrack_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/soundtrack_hero.webp",
             "resourceSize": 147056,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2050,109 +2080,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2176,13 +2206,13 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/play_btn.svg",
+            "url": "http://127.0.0.1:5501/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/atticus_ross.webp",
+            "url": "http://127.0.0.1:5501/assets/img/atticus_ross.webp",
             "resourceSize": 60166,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2194,7 +2224,7 @@
             "resourceType": "Media"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -2203,7 +2233,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "file": "http://127.0.0.1:5501/fr/glossaire.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2324,7 +2354,12 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
         "performance": 0.85,
         "accessibility": 1,
@@ -2334,37 +2369,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "url": "http://127.0.0.1:5501/fr/glossaire.html",
             "resourceSize": 9184,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/glossaire_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/glossaire_hero.webp",
             "resourceSize": 231736,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2376,109 +2411,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2496,7 +2531,7 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -2505,7 +2540,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "file": "http://127.0.0.1:5501/fr/contact.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2586,7 +2621,12 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
         "performance": 0.95,
         "accessibility": 1,
@@ -2596,37 +2636,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "url": "http://127.0.0.1:5501/fr/contact.html",
             "resourceSize": 8339,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/contact_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/contact_hero.webp",
             "resourceSize": 165844,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2638,109 +2678,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2758,7 +2798,7 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -2767,7 +2807,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/a-propos.html",
+      "file": "http://127.0.0.1:5501/fr/a-propos.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2848,7 +2888,12 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
         "performance": 0.95,
         "accessibility": 1,
@@ -2858,37 +2903,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/a-propos.html",
+            "url": "http://127.0.0.1:5501/fr/a-propos.html",
             "resourceSize": 8506,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/a_propos_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/a_propos_hero.webp",
             "resourceSize": 127264,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2900,109 +2945,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -3020,31 +3065,31 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/twitter_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/twitter_white.svg",
             "resourceSize": 2326,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/facebook_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/facebook_white.svg",
             "resourceSize": 1990,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/tiktok_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/tiktok_white.svg",
             "resourceSize": 1968,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/instagram_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/instagram_white.svg",
             "resourceSize": 2777,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -3053,7 +3098,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5500/fr/autres-projets.html",
+      "file": "http://127.0.0.1:5501/fr/autres-projets.html",
       "title": "Rebirth",
       "images": [
         {
@@ -3174,7 +3219,12 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "message": "Failed to validate HTML"
+        }
+      ],
       "lighthouseReport": {
         "performance": 0.95,
         "accessibility": 1,
@@ -3184,37 +3234,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5500/fr/autres-projets.html",
+            "url": "http://127.0.0.1:5501/fr/autres-projets.html",
             "resourceSize": 10036,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5500/src/js/index.js",
+            "url": "http://127.0.0.1:5501/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "url": "http://127.0.0.1:5501/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/autres_projets_hero.webp",
+            "url": "http://127.0.0.1:5501/assets/img/autres_projets_hero.webp",
             "resourceSize": 163520,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -3226,109 +3276,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "url": "http://127.0.0.1:5501/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/media/video.css",
+            "url": "http://127.0.0.1:5501/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/input.css",
+            "url": "http://127.0.0.1:5501/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/article.css",
+            "url": "http://127.0.0.1:5501/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/section.css",
+            "url": "http://127.0.0.1:5501/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/src/css/components/form.css",
+            "url": "http://127.0.0.1:5501/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -3346,7 +3396,7 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -3403,13 +3453,13 @@
   },
   "cssAnalysisResult": {
     "stylesheet": {
-      "sourceLinesOfCode": 641,
-      "linesOfCode": 1,
-      "size": 13294,
-      "complexity": 1734,
+      "sourceLinesOfCode": 656,
+      "linesOfCode": 959,
+      "size": 18539,
+      "complexity": 1823,
       "comments": {
-        "total": 0,
-        "size": 0
+        "total": 56,
+        "size": 1624
       },
       "embeddedContent": {
         "total": 0,
@@ -3516,7 +3566,7 @@
       }
     },
     "rules": {
-      "total": 119,
+      "total": 109,
       "empty": {
         "total": 0,
         "ratio": 0
@@ -3524,11 +3574,11 @@
       "sizes": {
         "min": 2,
         "max": 39,
-        "mean": 5.394957983193278,
-        "mode": 2.5,
-        "median": 4,
+        "mean": 6.027522935779817,
+        "mode": 3,
+        "median": 5,
         "range": 37,
-        "sum": 642,
+        "sum": 657,
         "items": [
           5,
           2,
@@ -3541,22 +3591,19 @@
           9,
           2,
           3,
-          10,
-          3,
+          11,
+          2,
           3,
           39,
-          6,
+          11,
           7,
           2,
-          2,
           5,
           2,
+          8,
+          4,
+          7,
           6,
-          4,
-          2,
-          4,
-          5,
-          3,
           3,
           8,
           4,
@@ -3577,16 +3624,13 @@
           14,
           5,
           3,
-          5,
-          7,
-          6,
+          10,
+          12,
+          17,
           3,
+          11,
           16,
-          3,
-          11,
-          14,
-          4,
-          4,
+          6,
           8,
           7,
           3,
@@ -3599,22 +3643,20 @@
           4,
           5,
           3,
-          5,
-          8,
+          4,
+          11,
           2,
           2,
           7,
           6,
           8,
           6,
-          2,
           6,
-          2,
-          3,
           6,
-          3,
-          2,
+          7,
+          7,
           4,
+          3,
           2,
           3,
           4,
@@ -3638,48 +3680,47 @@
           6,
           4,
           11,
-          2,
           5,
-          5,
+          8,
           3,
           12,
           3,
           3,
           3,
-          2,
           5,
-          2
+          5
         ],
-        "total": 119,
-        "totalUnique": 16,
+        "total": 109,
+        "totalUnique": 17,
         "unique": {
-          "2": 25,
-          "3": 25,
-          "4": 12,
-          "5": 15,
-          "6": 12,
-          "7": 7,
-          "8": 6,
+          "2": 18,
+          "3": 21,
+          "4": 10,
+          "5": 12,
+          "6": 11,
+          "7": 9,
+          "8": 7,
           "9": 3,
           "10": 3,
-          "11": 3,
-          "12": 2,
+          "11": 6,
+          "12": 3,
           "13": 1,
-          "14": 2,
+          "14": 1,
           "15": 1,
           "16": 1,
+          "17": 1,
           "39": 1
         },
-        "uniquenessRatio": 0.13445378151260504
+        "uniquenessRatio": 0.1559633027522936
       },
       "selectors": {
         "min": 1,
         "max": 3,
-        "mean": 1.1596638655462186,
+        "mean": 1.055045871559633,
         "mode": 1,
         "median": 1,
         "range": 2,
-        "sum": 138,
+        "sum": 115,
         "items": [
           1,
           1,
@@ -3693,20 +3734,17 @@
           1,
           1,
           1,
-          2,
-          1,
-          1,
-          1,
-          2,
           1,
           1,
           1,
           1,
           1,
-          2,
           1,
           1,
-          2,
+          1,
+          1,
+          1,
+          1,
           1,
           1,
           2,
@@ -3729,43 +3767,6 @@
           1,
           1,
           1,
-          2,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          2,
-          1,
-          1,
-          2,
-          1,
-          1,
-          2,
           1,
           1,
           1,
@@ -3790,7 +3791,6 @@
           1,
           1,
           1,
-          2,
           1,
           1,
           1,
@@ -3798,26 +3798,57 @@
           1,
           1,
           1,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1
         ],
-        "total": 119,
+        "total": 109,
         "totalUnique": 3,
         "unique": {
-          "1": 102,
-          "2": 15,
+          "1": 105,
+          "2": 2,
           "3": 2
         },
-        "uniquenessRatio": 0.025210084033613446
+        "uniquenessRatio": 0.027522935779816515
       },
       "declarations": {
         "min": 1,
         "max": 38,
-        "mean": 4.235294117647059,
-        "mode": 1.5,
-        "median": 3,
+        "mean": 4.972477064220183,
+        "mode": 2,
+        "median": 4,
         "range": 37,
-        "sum": 504,
+        "sum": 542,
         "items": [
           4,
           1,
@@ -3830,22 +3861,19 @@
           8,
           1,
           2,
-          9,
+          10,
           1,
           2,
           38,
-          5,
-          5,
-          1,
+          10,
+          6,
           1,
           4,
           1,
+          7,
+          3,
+          6,
           5,
-          2,
-          1,
-          3,
-          3,
-          2,
           2,
           6,
           3,
@@ -3866,16 +3894,13 @@
           13,
           4,
           2,
-          4,
-          5,
-          5,
-          1,
+          9,
+          11,
+          16,
+          2,
+          10,
           15,
-          2,
-          10,
-          13,
-          2,
-          3,
+          5,
           7,
           6,
           2,
@@ -3889,20 +3914,18 @@
           4,
           2,
           3,
-          7,
+          10,
           1,
           1,
           6,
           5,
           7,
           5,
-          1,
-          4,
-          1,
-          2,
-          4,
-          2,
-          1,
+          5,
+          5,
+          6,
+          6,
+          3,
           2,
           1,
           2,
@@ -3927,44 +3950,43 @@
           5,
           3,
           10,
-          1,
-          3,
           4,
+          7,
           2,
           11,
           2,
           2,
           2,
-          1,
-          3,
-          1
+          4,
+          4
         ],
-        "total": 119,
-        "totalUnique": 15,
+        "total": 109,
+        "totalUnique": 16,
         "unique": {
-          "1": 27,
-          "2": 27,
-          "3": 14,
-          "4": 11,
-          "5": 12,
-          "6": 6,
-          "7": 5,
+          "1": 18,
+          "2": 22,
+          "3": 11,
+          "4": 10,
+          "5": 11,
+          "6": 10,
+          "7": 6,
           "8": 3,
           "9": 3,
-          "10": 3,
-          "11": 2,
+          "10": 6,
+          "11": 3,
           "12": 2,
-          "13": 2,
+          "13": 1,
           "15": 1,
+          "16": 1,
           "38": 1
         },
-        "uniquenessRatio": 0.12605042016806722
+        "uniquenessRatio": 0.14678899082568808
       }
     },
     "selectors": {
-      "total": 138,
+      "total": 115,
       "totalUnique": 110,
-      "uniquenessRatio": 0.7971014492753623,
+      "uniquenessRatio": 0.9565217391304348,
       "specificity": {
         "min": [
           0,
@@ -3978,13 +4000,13 @@
         ],
         "sum": [
           1,
-          145,
+          121,
           22
         ],
         "mean": [
-          0.007246376811594203,
-          1.0507246376811594,
-          0.15942028985507245
+          0.008695652173913044,
+          1.0521739130434782,
+          0.19130434782608696
         ],
         "mode": [
           0,
@@ -4060,47 +4082,12 @@
           [
             0,
             1,
-            0
-          ],
-          [
-            0,
-            1,
             1
           ],
           [
             0,
             0,
             1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
           ],
           [
             0,
@@ -4261,31 +4248,6 @@
             0,
             3,
             1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
           ],
           [
             0,
@@ -4344,11 +4306,6 @@
           ],
           [
             0,
-            2,
-            0
-          ],
-          [
-            0,
             1,
             0
           ],
@@ -4361,36 +4318,6 @@
             0,
             1,
             1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
           ],
           [
             0,
@@ -4634,16 +4561,6 @@
           ],
           [
             0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
             2,
             0
           ],
@@ -4656,16 +4573,6 @@
             0,
             1,
             1
-          ],
-          [
-            0,
-            1,
-            0
-          ],
-          [
-            0,
-            1,
-            0
           ],
           [
             0,
@@ -4688,38 +4595,38 @@
             0
           ]
         ],
-        "total": 138,
+        "total": 115,
         "totalUnique": 8,
         "unique": {
           "0,0,0": 1,
           "0,0,1": 5,
-          "0,1,0": 109,
+          "0,1,0": 87,
           "1,0,0": 1,
           "0,1,1": 13,
           "0,3,0": 1,
           "0,3,1": 4,
-          "0,2,0": 4
+          "0,2,0": 3
         },
-        "uniquenessRatio": 0.057971014492753624
+        "uniquenessRatio": 0.06956521739130435
       },
       "complexity": {
         "min": 1,
         "max": 6,
-        "mean": 1.3695652173913044,
+        "mean": 1.4260869565217391,
         "mode": 1,
         "median": 1,
         "range": 5,
-        "sum": 189,
-        "total": 138,
+        "sum": 164,
+        "total": 115,
         "totalUnique": 5,
         "unique": {
-          "1": 116,
+          "1": 94,
           "2": 7,
-          "3": 10,
+          "3": 9,
           "5": 1,
           "6": 4
         },
-        "uniquenessRatio": 0.036231884057971016,
+        "uniquenessRatio": 0.043478260869565216,
         "items": [
           1,
           1,
@@ -4733,14 +4640,7 @@
           1,
           1,
           1,
-          1,
           3,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -4784,22 +4684,10 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          3,
           3,
           1,
           1,
           3,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -4848,13 +4736,9 @@
           1,
           1,
           1,
-          1,
-          1,
           3,
           1,
           3,
-          1,
-          1,
           1,
           1,
           1,
@@ -4868,19 +4752,19 @@
           "#first-section": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.007246376811594203
+        "ratio": 0.008695652173913044
       },
       "accessibility": {
-        "total": 7,
+        "total": 6,
         "totalUnique": 4,
         "unique": {
-          ".menu-btn[aria-expanded=false] .menu-btn__bar": 1,
-          ".menu-btn[aria-expanded=false] .menu-btn__bar:after": 2,
-          ".menu-btn[aria-expanded=false] .menu-btn__bar:before": 2,
-          ".header__menu[aria-expanded=true]": 2
+          ".menu-btn[aria-expanded=\"false\"] .menu-btn__bar": 1,
+          ".menu-btn[aria-expanded=\"false\"] .menu-btn__bar::before": 2,
+          ".menu-btn[aria-expanded=\"false\"] .menu-btn__bar::after": 2,
+          ".header__menu[aria-expanded=\"true\"]": 1
         },
-        "uniquenessRatio": 0.5714285714285714,
-        "ratio": 0.050724637681159424
+        "uniquenessRatio": 0.6666666666666666,
+        "ratio": 0.05217391304347826
       },
       "keyframes": {
         "total": 0,
@@ -4906,12 +4790,12 @@
       }
     },
     "declarations": {
-      "total": 502,
-      "totalUnique": 234,
-      "uniquenessRatio": 0.46613545816733065,
+      "total": 540,
+      "totalUnique": 237,
+      "uniquenessRatio": 0.4388888888888889,
       "unique": {
-        "total": 234,
-        "ratio": 0.46613545816733065
+        "total": 237,
+        "ratio": 0.4388888888888889
       },
       "importants": {
         "total": 0,
@@ -4928,38 +4812,38 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 502
+        "sum": 540
       }
     },
     "properties": {
-      "total": 502,
+      "total": 540,
       "totalUnique": 107,
       "unique": {
-        "box-sizing": 1,
         "margin": 3,
-        "padding": 18,
+        "padding": 19,
+        "box-sizing": 1,
         "scroll-behavior": 2,
         "font": 1,
-        "background-color": 21,
-        "border": 5,
+        "border": 6,
         "cursor": 1,
-        "height": 21,
+        "background-color": 23,
         "width": 27,
+        "height": 21,
         "overflow": 4,
         "list-style": 1,
         "text-transform": 3,
         "text-align": 3,
-        "color": 20,
-        "display": 32,
-        "flex-direction": 19,
-        "font-family": 18,
+        "font-family": 20,
+        "display": 36,
+        "flex-direction": 23,
         "gap": 23,
+        "color": 22,
         "overflow-x": 2,
         "word-wrap": 1,
         "scroll-margin-top": 1,
-        "align-items": 14,
-        "font-size": 20,
-        "justify-content": 9,
+        "justify-content": 10,
+        "align-items": 16,
+        "font-size": 23,
         "--colors-gray-1": 1,
         "--colors-gray-2": 1,
         "--colors-gray-3": 1,
@@ -4998,52 +4882,52 @@
         "--line-height-1": 1,
         "--line-height-2": 1,
         "--line-height-3": 1,
-        "left": 9,
         "position": 15,
         "top": 10,
-        "z-index": 9,
-        "font-weight": 24,
-        "font-style": 17,
-        "line-height": 16,
-        "text-decoration": 5,
+        "left": 9,
+        "z-index": 10,
+        "font-style": 21,
+        "font-weight": 25,
+        "line-height": 20,
+        "text-decoration": 6,
         "flex-wrap": 1,
         "max-width": 5,
         "content": 7,
         "inset": 3,
         "mix-blend-mode": 1,
-        "border-radius": 13,
+        "border-radius": 15,
         "transition": 3,
-        "background": 6,
         "transform": 7,
+        "background": 7,
         "user-select": 1,
-        "background-position": 2,
         "background-size": 2,
-        "letter-spacing": 2,
-        "align-self": 5,
+        "background-position": 2,
+        "letter-spacing": 3,
         "margin-top": 5,
-        "visibility": 1,
+        "align-self": 5,
+        "visibility": 2,
         "overflow-y": 1,
+        "padding-top": 2,
         "padding-left": 1,
         "padding-right": 2,
-        "padding-top": 2,
         "bottom": 2,
         "padding-bottom": 2,
         "quotes": 1,
         "scroll-snap-type": 1,
-        "min-height": 2,
         "min-width": 1,
+        "min-height": 2,
         "scroll-snap-align": 1,
         "max-height": 1,
         "object-fit": 1,
         "text-decoration-line": 1,
-        "text-decoration-skip-ink": 1,
         "text-decoration-style": 1,
+        "text-decoration-skip-ink": 1,
         "text-decoration-thickness": 1,
         "text-underline-offset": 1,
         "text-underline-position": 1,
         "margin-bottom": 1
       },
-      "uniquenessRatio": 0.21314741035856574,
+      "uniquenessRatio": 0.19814814814814816,
       "prefixed": {
         "total": 0,
         "totalUnique": 0,
@@ -5095,7 +4979,7 @@
           "--line-height-3": 1
         },
         "uniquenessRatio": 1,
-        "ratio": 0.07569721115537849,
+        "ratio": 0.07037037037037037,
         "importants": {
           "total": 0,
           "totalUnique": 0,
@@ -5114,35 +4998,36 @@
       "complexity": {
         "min": 1,
         "max": 2,
-        "mean": 1.0756972111553784,
+        "mean": 1.0703703703703704,
         "mode": 1,
         "median": 1,
         "range": 1,
-        "sum": 540
+        "sum": 578
       }
     },
     "values": {
       "colors": {
-        "total": 20,
-        "totalUnique": 15,
+        "total": 21,
+        "totalUnique": 16,
         "unique": {
-          "transparent": 3,
+          "transparent": 4,
           "#dedede": 1,
           "#acacac": 1,
           "#7a7a7a": 1,
           "#505050": 1,
           "#2f2f2f": 1,
           "#151515": 2,
-          "#fff": 3,
+          "#ffffff": 1,
           "#94bc6c": 1,
           "#30674e": 1,
           "#1e3f30": 1,
           "#142a20": 1,
           "#a4f5a0": 1,
           "#1f4300": 1,
-          "#000": 1
+          "black": 1,
+          "white": 2
         },
-        "uniquenessRatio": 0.75,
+        "uniquenessRatio": 0.7619047619047619,
         "itemsPerContext": {
           "background-color": {
             "total": 6,
@@ -5151,8 +5036,8 @@
               "transparent": 2,
               "#a4f5a0": 1,
               "#1f4300": 1,
-              "#000": 1,
-              "#fff": 1
+              "black": 1,
+              "white": 1
             },
             "uniquenessRatio": 0.8333333333333334
           },
@@ -5216,7 +5101,7 @@
             "total": 1,
             "totalUnique": 1,
             "unique": {
-              "#fff": 1
+              "#ffffff": 1
             },
             "uniquenessRatio": 1
           },
@@ -5256,28 +5141,28 @@
             "total": 1,
             "totalUnique": 1,
             "unique": {
-              "#fff": 1
+              "white": 1
             },
             "uniquenessRatio": 1
           },
           "background": {
-            "total": 1,
+            "total": 2,
             "totalUnique": 1,
             "unique": {
-              "transparent": 1
+              "transparent": 2
             },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.5
           }
         },
         "formats": {
-          "total": 20,
+          "total": 21,
           "totalUnique": 3,
           "unique": {
-            "transparent": 3,
-            "hex6": 13,
-            "hex3": 4
+            "transparent": 4,
+            "hex6": 14,
+            "named": 3
           },
-          "uniquenessRatio": 0.15
+          "uniquenessRatio": 0.14285714285714285
         }
       },
       "gradients": {
@@ -5287,26 +5172,26 @@
         "uniquenessRatio": 0
       },
       "fontFamilies": {
-        "total": 19,
+        "total": 21,
         "totalUnique": 5,
         "unique": {
-          "montserrat": 1,
+          "\"montserrat\"": 1,
           "var(--typographies-typo-2)": 4,
           "var(--typographies-typo-3)": 3,
-          "var(--typos-typo-2)": 7,
+          "var(--typos-typo-2)": 9,
           "var(--typos-typo-1)": 4
         },
-        "uniquenessRatio": 0.2631578947368421
+        "uniquenessRatio": 0.23809523809523808
       },
       "fontSizes": {
-        "total": 20,
+        "total": 23,
         "totalUnique": 12,
         "unique": {
           "var(--sizes-size-6)": 3,
-          "var(--sizes-size-2)": 3,
-          "var(--sizes-size-3)": 4,
+          "var(--sizes-size-2)": 4,
+          "var(--sizes-size-3)": 5,
           "10px": 1,
-          "var(--sizes-size-1)": 1,
+          "var(--sizes-size-1)": 2,
           "var(--sizes-size-3x)": 1,
           "var(--sizes-size-7)": 1,
           "45px": 1,
@@ -5315,28 +5200,28 @@
           "1.4rem": 1,
           "var(--font-size-6)": 1
         },
-        "uniquenessRatio": 0.6
+        "uniquenessRatio": 0.5217391304347826
       },
       "lineHeights": {
-        "total": 16,
+        "total": 20,
         "totalUnique": 3,
         "unique": {
-          "160%": 10,
+          "160%": 14,
           "110%": 3,
           "150%": 3
         },
-        "uniquenessRatio": 0.1875
+        "uniquenessRatio": 0.15
       },
       "zindexes": {
-        "total": 9,
+        "total": 10,
         "totalUnique": 4,
         "unique": {
           "1": 4,
           "2": 3,
           "5": 1,
-          "10": 1
+          "10": 2
         },
-        "uniquenessRatio": 0.4444444444444444
+        "uniquenessRatio": 0.4
       },
       "textShadows": {
         "total": 0,
@@ -5351,30 +5236,30 @@
         "uniquenessRatio": 0
       },
       "borderRadiuses": {
-        "total": 13,
+        "total": 15,
         "totalUnique": 6,
         "unique": {
           "4px": 1,
-          "var(--radius-3x)": 3,
+          "var(--radius-3x)": 4,
           "50%": 3,
           "var(--radius-1x)": 1,
           "8px": 1,
-          "var(--radius-2x)": 4
+          "var(--radius-2x)": 5
         },
-        "uniquenessRatio": 0.46153846153846156,
+        "uniquenessRatio": 0.4,
         "itemsPerContext": {
           "border-radius": {
-            "total": 13,
+            "total": 15,
             "totalUnique": 6,
             "unique": {
               "4px": 1,
-              "var(--radius-3x)": 3,
+              "var(--radius-3x)": 4,
               "50%": 3,
               "var(--radius-1x)": 1,
               "8px": 1,
-              "var(--radius-2x)": 4
+              "var(--radius-2x)": 5
             },
-            "uniquenessRatio": 0.46153846153846156
+            "uniquenessRatio": 0.4
           }
         }
       },
@@ -5383,8 +5268,8 @@
           "total": 3,
           "totalUnique": 2,
           "unique": {
-            ".3s": 2,
-            ".2s": 1
+            "0.3s": 2,
+            "0.2s": 1
           },
           "uniquenessRatio": 0.6666666666666666
         },
@@ -5410,19 +5295,19 @@
         "uniquenessRatio": 0
       },
       "units": {
-        "total": 86,
+        "total": 88,
         "totalUnique": 8,
         "unique": {
-          "px": 50,
-          "vh": 1,
+          "px": 52,
           "dvw": 13,
+          "vh": 1,
           "rem": 9,
           "dvh": 7,
           "s": 3,
           "deg": 2,
           "vw": 1
         },
-        "uniquenessRatio": 0.09302325581395349,
+        "uniquenessRatio": 0.09090909090909091,
         "itemsPerContext": {
           "scroll-margin-top": {
             "total": 1,
@@ -5431,16 +5316,6 @@
               "px": 1
             },
             "uniquenessRatio": 1
-          },
-          "height": {
-            "total": 15,
-            "totalUnique": 3,
-            "unique": {
-              "vh": 1,
-              "px": 8,
-              "dvh": 6
-            },
-            "uniquenessRatio": 0.2
           },
           "width": {
             "total": 17,
@@ -5451,6 +5326,16 @@
               "vw": 1
             },
             "uniquenessRatio": 0.17647058823529413
+          },
+          "height": {
+            "total": 15,
+            "totalUnique": 3,
+            "unique": {
+              "vh": 1,
+              "px": 8,
+              "dvh": 6
+            },
+            "uniquenessRatio": 0.2
           },
           "--sizes-size-1": {
             "total": 1,
@@ -5662,12 +5547,20 @@
             "uniquenessRatio": 0.5
           },
           "border": {
-            "total": 3,
+            "total": 4,
             "totalUnique": 1,
             "unique": {
-              "px": 3
+              "px": 4
             },
-            "uniquenessRatio": 0.3333333333333333
+            "uniquenessRatio": 0.25
+          },
+          "padding": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
           },
           "font-size": {
             "total": 3,
@@ -5678,35 +5571,27 @@
             },
             "uniquenessRatio": 0.6666666666666666
           },
-          "padding": {
-            "total": 8,
-            "totalUnique": 1,
-            "unique": {
-              "px": 8
-            },
-            "uniquenessRatio": 0.125
-          },
           "letter-spacing": {
-            "total": 2,
+            "total": 3,
             "totalUnique": 1,
             "unique": {
-              "px": 2
+              "px": 3
             },
-            "uniquenessRatio": 0.5
-          },
-          "min-height": {
-            "total": 1,
-            "totalUnique": 1,
-            "unique": {
-              "dvh": 1
-            },
-            "uniquenessRatio": 1
+            "uniquenessRatio": 0.3333333333333333
           },
           "min-width": {
             "total": 1,
             "totalUnique": 1,
             "unique": {
               "dvw": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "min-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "dvh": 1
             },
             "uniquenessRatio": 1
           }
@@ -5719,22 +5604,1166 @@
         "mode": 1,
         "median": 1,
         "range": 0,
-        "sum": 502
+        "sum": 540
       },
       "keywords": {
-        "total": 16,
+        "total": 17,
         "totalUnique": 2,
         "unique": {
-          "none": 10,
+          "none": 11,
           "auto": 6
         },
-        "uniquenessRatio": 0.125
+        "uniquenessRatio": 0.11764705882352941
       }
     },
     "__meta__": {
-      "parseTime": 7,
-      "analyzeTime": 6,
-      "total": 13
+      "parseTime": 8,
+      "analyzeTime": 7,
+      "total": 15
+    },
+    "imports": {
+      "total": 18,
+      "imports": [
+        {
+          "path": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+          "resolvedUrl": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": true,
+          "type": "google-fonts",
+          "category": "fonts",
+          "fileSize": 0
+        },
+        {
+          "path": "./base/main.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/base/main.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "base",
+          "fileSize": 1092
+        },
+        {
+          "path": "./media/video.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/media/video.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 41
+        },
+        {
+          "path": "./utils/variables.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/utils/variables.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "utils",
+          "fileSize": 1184
+        },
+        {
+          "path": "./layout/header.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/header.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 693
+        },
+        {
+          "path": "./layout/footer.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/footer.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 1311
+        },
+        {
+          "path": "./components/duotone.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/duotone.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 636
+        },
+        {
+          "path": "./components/buttons.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/buttons.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 3215
+        },
+        {
+          "path": "./components/menu.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/menu.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 967
+        },
+        {
+          "path": "./components/hero.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/hero.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 985
+        },
+        {
+          "path": "./components/input.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/input.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 276
+        },
+        {
+          "path": "./components/article.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/article.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 897
+        },
+        {
+          "path": "./components/section.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/section.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 1814
+        },
+        {
+          "path": "./components/timeline.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/timeline.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 881
+        },
+        {
+          "path": "./components/carousel.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/carousel.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 1501
+        },
+        {
+          "path": "./components/glossary.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/glossary.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 171
+        },
+        {
+          "path": "./components/other-projects.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 752
+        },
+        {
+          "path": "./components/form.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/form.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 428
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 1,
+        "externalCount": 0,
+        "relativeCount": 17,
+        "validCount": 18,
+        "invalidCount": 0,
+        "categories": {
+          "fonts": 1,
+          "base": 1,
+          "custom": 13,
+          "utils": 1,
+          "layout": 2
+        },
+        "namingIssues": {
+          "totalFiles": 17,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 97,
+        "breakdown": {
+          "validity": {
+            "score": 25,
+            "max": 25,
+            "details": "Tous les imports sont valides."
+          },
+          "organization": {
+            "score": 30,
+            "max": 30,
+            "details": "5 catégories utilisées. Bonne modularité."
+          },
+          "performance": {
+            "score": 20,
+            "max": 20,
+            "details": "18 imports. Excellente modularité (1 fichier par composant). Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 15,
+            "max": 15,
+            "details": "Conventions de nommage respectées."
+          },
+          "bestPractices": {
+            "score": 7,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "A",
+        "improvements": []
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 39,
+      "totalUsed": 29,
+      "totalUnused": 10,
+      "totalUndeclared": 4,
+      "declarations": [
+        {
+          "name": "--colors-gray-1",
+          "value": "#dedede",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--colors-gray-2",
+          "value": "#acacac",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--colors-gray-3",
+          "value": "#7a7a7a",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--colors-gray-4",
+          "value": "#505050",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--colors-gray-5",
+          "value": "#2f2f2f",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--colors-gray-6",
+          "value": "#151515",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--colors-black",
+          "value": "#151515",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--colors-white",
+          "value": "#ffffff",
+          "usageCount": 15,
+          "category": "color"
+        },
+        {
+          "name": "--colors-green-1",
+          "value": "#94bc6c",
+          "usageCount": 8,
+          "category": "color"
+        },
+        {
+          "name": "--colors-green-2",
+          "value": "#30674e",
+          "usageCount": 3,
+          "category": "color"
+        },
+        {
+          "name": "--colors-green-3",
+          "value": "#1e3f30",
+          "usageCount": 15,
+          "category": "color"
+        },
+        {
+          "name": "--colors-green-4",
+          "value": "#142a20",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--typographies-typo-1",
+          "value": "\"Poppins\"",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--typographies-typo-2",
+          "value": "\"Montserrat\"",
+          "usageCount": 4,
+          "category": "other"
+        },
+        {
+          "name": "--typographies-typo-3",
+          "value": "\"Playfair Display\"",
+          "usageCount": 3,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-1",
+          "value": "0.625rem",
+          "usageCount": 2,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-2",
+          "value": "0.8125rem",
+          "usageCount": 4,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-3",
+          "value": "1rem",
+          "usageCount": 5,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-4",
+          "value": "1.125rem",
+          "usageCount": 2,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-5",
+          "value": "1.375rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-6",
+          "value": "1.5rem",
+          "usageCount": 3,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-7",
+          "value": "2.25rem",
+          "usageCount": 1,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-8",
+          "value": "2.5rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--space-1x",
+          "value": "5px",
+          "usageCount": 4,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-2x",
+          "value": "10px",
+          "usageCount": 8,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-3x",
+          "value": "20px",
+          "usageCount": 20,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-4x",
+          "value": "35px",
+          "usageCount": 13,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-5x",
+          "value": "50px",
+          "usageCount": 4,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-6x",
+          "value": "80px",
+          "usageCount": 2,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-7x",
+          "value": "100px",
+          "usageCount": 3,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-8x",
+          "value": "150px",
+          "usageCount": 1,
+          "category": "spacing"
+        },
+        {
+          "name": "--space-9x",
+          "value": "200px",
+          "usageCount": 1,
+          "category": "spacing"
+        },
+        {
+          "name": "--radius-1x",
+          "value": "5px",
+          "usageCount": 1,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-2x",
+          "value": "10px",
+          "usageCount": 5,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-3x",
+          "value": "20px",
+          "usageCount": 4,
+          "category": "radius"
+        },
+        {
+          "name": "--line-height-1",
+          "value": "110%",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--line-height-2",
+          "value": "150%",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--line-height-3",
+          "value": "160%",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--no-bar",
+          "value": ":before {\n  width: 0",
+          "usageCount": 0,
+          "category": "other"
+        }
+      ],
+      "unusedVariables": [
+        {
+          "name": "--colors-gray-3",
+          "value": "#7a7a7a",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--colors-black",
+          "value": "#151515",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--colors-green-4",
+          "value": "#142a20",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--typographies-typo-1",
+          "value": "\"Poppins\"",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-5",
+          "value": "1.375rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--sizes-size-8",
+          "value": "2.5rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--line-height-1",
+          "value": "110%",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--line-height-2",
+          "value": "150%",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--line-height-3",
+          "value": "160%",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--no-bar",
+          "value": ":before {\n  width: 0",
+          "usageCount": 0,
+          "category": "other"
+        }
+      ],
+      "undeclaredUsages": [
+        {
+          "name": "--typos-typo-2",
+          "fallback": null
+        },
+        {
+          "name": "--sizes-size-3x",
+          "fallback": null
+        },
+        {
+          "name": "--typos-typo-1",
+          "fallback": null
+        },
+        {
+          "name": "--font-size-6",
+          "fallback": null
+        }
+      ],
+      "categorization": {
+        "color": 12,
+        "typography": 3,
+        "spacing": 9,
+        "radius": 3,
+        "other": 12
+      },
+      "detailedCategorization": {
+        "color": [
+          {
+            "name": "--colors-gray-1",
+            "value": "#dedede",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--colors-gray-2",
+            "value": "#acacac",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--colors-gray-3",
+            "value": "#7a7a7a",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--colors-gray-4",
+            "value": "#505050",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--colors-gray-5",
+            "value": "#2f2f2f",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--colors-gray-6",
+            "value": "#151515",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--colors-black",
+            "value": "#151515",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--colors-white",
+            "value": "#ffffff",
+            "usageCount": 15,
+            "category": "color"
+          },
+          {
+            "name": "--colors-green-1",
+            "value": "#94bc6c",
+            "usageCount": 8,
+            "category": "color"
+          },
+          {
+            "name": "--colors-green-2",
+            "value": "#30674e",
+            "usageCount": 3,
+            "category": "color"
+          },
+          {
+            "name": "--colors-green-3",
+            "value": "#1e3f30",
+            "usageCount": 15,
+            "category": "color"
+          },
+          {
+            "name": "--colors-green-4",
+            "value": "#142a20",
+            "usageCount": 0,
+            "category": "color"
+          }
+        ],
+        "typography": [
+          {
+            "name": "--line-height-1",
+            "value": "110%",
+            "usageCount": 0,
+            "category": "typography"
+          },
+          {
+            "name": "--line-height-2",
+            "value": "150%",
+            "usageCount": 0,
+            "category": "typography"
+          },
+          {
+            "name": "--line-height-3",
+            "value": "160%",
+            "usageCount": 0,
+            "category": "typography"
+          }
+        ],
+        "spacing": [
+          {
+            "name": "--space-1x",
+            "value": "5px",
+            "usageCount": 4,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-2x",
+            "value": "10px",
+            "usageCount": 8,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-3x",
+            "value": "20px",
+            "usageCount": 20,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-4x",
+            "value": "35px",
+            "usageCount": 13,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-5x",
+            "value": "50px",
+            "usageCount": 4,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-6x",
+            "value": "80px",
+            "usageCount": 2,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-7x",
+            "value": "100px",
+            "usageCount": 3,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-8x",
+            "value": "150px",
+            "usageCount": 1,
+            "category": "spacing"
+          },
+          {
+            "name": "--space-9x",
+            "value": "200px",
+            "usageCount": 1,
+            "category": "spacing"
+          }
+        ],
+        "radius": [
+          {
+            "name": "--radius-1x",
+            "value": "5px",
+            "usageCount": 1,
+            "category": "radius"
+          },
+          {
+            "name": "--radius-2x",
+            "value": "10px",
+            "usageCount": 5,
+            "category": "radius"
+          },
+          {
+            "name": "--radius-3x",
+            "value": "20px",
+            "usageCount": 4,
+            "category": "radius"
+          }
+        ],
+        "other": [
+          {
+            "name": "--typographies-typo-1",
+            "value": "\"Poppins\"",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--typographies-typo-2",
+            "value": "\"Montserrat\"",
+            "usageCount": 4,
+            "category": "other"
+          },
+          {
+            "name": "--typographies-typo-3",
+            "value": "\"Playfair Display\"",
+            "usageCount": 3,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-1",
+            "value": "0.625rem",
+            "usageCount": 2,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-2",
+            "value": "0.8125rem",
+            "usageCount": 4,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-3",
+            "value": "1rem",
+            "usageCount": 5,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-4",
+            "value": "1.125rem",
+            "usageCount": 2,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-5",
+            "value": "1.375rem",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-6",
+            "value": "1.5rem",
+            "usageCount": 3,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-7",
+            "value": "2.25rem",
+            "usageCount": 1,
+            "category": "other"
+          },
+          {
+            "name": "--sizes-size-8",
+            "value": "2.5rem",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--no-bar",
+            "value": ":before {\n  width: 0",
+            "usageCount": 0,
+            "category": "other"
+          }
+        ]
+      },
+      "ratio": {
+        "variableUsages": 145,
+        "rawProperties": 405,
+        "variableRatio": 0.2636363636363636
+      },
+      "score": {
+        "total": 71,
+        "breakdown": {
+          "adoption": {
+            "score": 30,
+            "max": 40,
+            "details": "26% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 23,
+            "max": 25,
+            "details": "29/39 variables utilisées (74%)."
+          },
+          "hygiene": {
+            "score": 6,
+            "max": 20,
+            "details": "Problèmes: 4 usage(s) non déclaré(s), 10 variable(s) inutilisée(s)."
+          },
+          "categories": {
+            "score": 10,
+            "max": 10,
+            "details": "4/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Bonne adoption, usages non déclarés présents."
+          }
+        },
+        "grade": "C",
+        "improvements": [
+          "Supprimer les variables inutilisées ou les mettre en usage",
+          "Déclarer toutes les variables utilisées (éviter var(--x) non déclarées)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": true,
+        "count": 1,
+        "sources": {
+          "html": 0,
+          "css": 1
+        },
+        "details": [
+          {
+            "source": "css-import",
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+            "provider": "Google Fonts"
+          }
+        ]
+      },
+      "fontFamilies": {
+        "Montserrat": {
+          "declarationCount": 5,
+          "isGlobal": true,
+          "selectors": [
+            "body",
+            ".main",
+            ".footer",
+            ".footer__btn",
+            ".menu__item"
+          ],
+          "selectorCount": 5,
+          "sizes": [
+            {
+              "size": "10px",
+              "selectors": [
+                ".footer__btn"
+              ],
+              "lineHeights": [
+                "160%"
+              ],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [],
+          "hasGenericFallback": false,
+          "genericFallback": null
+        },
+        "Playfair Display": {
+          "declarationCount": 3,
+          "isGlobal": false,
+          "selectors": [
+            ".error",
+            ".footer__label",
+            ".hero__title"
+          ],
+          "selectorCount": 3,
+          "sizes": [
+            {
+              "size": "1.5rem",
+              "selectors": [
+                ".error"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            },
+            {
+              "size": "2.25rem",
+              "selectors": [
+                ".hero__title"
+              ],
+              "lineHeights": [
+                "110%"
+              ],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 2,
+          "fallbacks": [],
+          "hasGenericFallback": false,
+          "genericFallback": null
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 21,
+        "totalFontSizeDeclarations": 21,
+        "totalLineHeightDeclarations": 20,
+        "hasGlobalFontFamily": true,
+        "globalFamilies": 1,
+        "inheritanceQuality": 0.048,
+        "averageDeclarationsPerFamily": 10.5,
+        "familiesWithFallbacks": 0,
+        "familiesWithoutGenericFallback": 2,
+        "fallbackCoverage": 0,
+        "fontSizeUnits": {
+          "units": {
+            "px": 4,
+            "rem": 9,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 13,
+          "relativeUnits": 9,
+          "relativeRatio": 0.6923076923076923
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 0,
+            "percent": 20,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 20,
+          "proportionalUnits": 20,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {
+          "Montserrat": {
+            "count": 5,
+            "selectors": [
+              "body",
+              ".main",
+              ".footer",
+              ".footer__btn",
+              ".menu__item"
+            ],
+            "isGlobal": true
+          },
+          "Playfair Display": {
+            "count": 3,
+            "selectors": [
+              ".error",
+              ".footer__label",
+              ".hero__title"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "10px": {
+            "count": 1,
+            "selectors": [
+              ".footer__btn"
+            ]
+          },
+          "1.5rem": {
+            "count": 3,
+            "selectors": [
+              ".error",
+              ".section__title",
+              ".carousel__title"
+            ]
+          },
+          "2.25rem": {
+            "count": 1,
+            "selectors": [
+              ".hero__title"
+            ]
+          },
+          "0.8125rem": {
+            "count": 4,
+            "selectors": [
+              ".footer__text",
+              ".section__blog-entry",
+              ".section__legend",
+              ".article figcaption"
+            ]
+          },
+          "1rem": {
+            "count": 5,
+            "selectors": [
+              ".footer__title",
+              ".footer__link",
+              ".article-card__excerpt",
+              ".section__text",
+              ".section__chapo"
+            ]
+          },
+          "0.625rem": {
+            "count": 2,
+            "selectors": [
+              ".article-card__btn",
+              ".play-btn"
+            ]
+          },
+          "45px": {
+            "count": 1,
+            "selectors": [
+              ".hero__title--home"
+            ]
+          },
+          "1.125rem": {
+            "count": 2,
+            "selectors": [
+              ".article-card__title",
+              ".carousel__excerpt"
+            ]
+          },
+          "20px": {
+            "count": 1,
+            "selectors": [
+              ".article--timeline-end > .article__title"
+            ]
+          },
+          "1.4rem": {
+            "count": 1,
+            "selectors": [
+              ".carousel__btn"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "160%": {
+            "count": 14
+          },
+          "110%": {
+            "count": 3
+          },
+          "150%": {
+            "count": 3
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": false,
+        "excessiveFontFamilyDeclarations": true,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": true
+      },
+      "score": {
+        "total": 48,
+        "breakdown": {
+          "webfonts": {
+            "score": 15,
+            "max": 15,
+            "details": "1 webfont(s) détectée(s). Import correct. Pas de doublons."
+          },
+          "fallbacks": {
+            "score": 0,
+            "max": 20,
+            "details": "2 police(s) sans fallback générique."
+          },
+          "inheritance": {
+            "score": 11,
+            "max": 25,
+            "details": "Police globale définie. Qualité d'héritage: 5%."
+          },
+          "sizes": {
+            "score": 7,
+            "max": 20,
+            "details": "Peu de variations de tailles. 69% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 15,
+            "max": 15,
+            "details": "Excellente couverture des line-heights. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Trop de déclarations font-family."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Ajouter des polices de secours avec familles génériques",
+          "Définir une police globale et réduire les redéclarations"
+        ]
+      }
     }
   },
   "classAnalysis": {
@@ -6044,13 +7073,25 @@
         "form__textarea",
         "form__select"
       ],
-      "totalSelectors": 142,
+      "totalSelectors": 119,
       "selectorsWithMultipleClasses": 7,
       "specificity": {
-        "average": 10.65,
+        "average": 10.77,
         "max": 100
       },
-      "complexSelectorsRatio": 0.134
+      "complexSelectorsRatio": 0.151,
+      "selectorForms": {
+        "bemSelectors": 110,
+        "pureBemSelectors": 96,
+        "pureBemSelectorsRatio": 0.807,
+        "selectorsWithAncestor": 13,
+        "selectorsWithId": 1,
+        "selectorsWithType": 12,
+        "selectorsWithAttribute": 6,
+        "ancestorsRatio": 0.109,
+        "withIdRatio": 0.008,
+        "withTypeRatio": 0.101
+      }
     },
     "mismatch": {
       "unusedCssClasses": [
@@ -6364,11 +7405,32 @@
         "other": 0
       },
       "ratios": {
-        "bemClassesRatio": 1
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0.759
       },
       "depth": {
         "max": 3,
         "average": 1.92
+      },
+      "blockStructure": {
+        "totalBlocks": 29,
+        "structuredBlocks": 22,
+        "orphanBlocks": 7,
+        "implicitBlocks": [
+          "home-link",
+          "switcher",
+          "menu",
+          "item",
+          "scroll-btn",
+          "social-list",
+          "social-link",
+          "timeline-card",
+          "timeline",
+          "carousel",
+          "form",
+          "select",
+          "other-projects"
+        ]
       },
       "violations": []
     },
@@ -6390,7 +7452,43 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-11-24T16:35:25.303Z"
+      "generatedAt": "2025-12-07T11:27:07.983Z"
+    },
+    "score": {
+      "bem": {
+        "total": 87,
+        "breakdown": {
+          "coverage": {
+            "score": 12,
+            "max": 15,
+            "details": "Couverture moyenne: 87%"
+          },
+          "selectorForms": {
+            "score": 30,
+            "max": 30,
+            "details": "Pure BEM: 81%"
+          },
+          "structure": {
+            "score": 20,
+            "max": 25,
+            "details": "Blocs structurés: 76%"
+          },
+          "elementsRatio": {
+            "score": 20,
+            "max": 20,
+            "details": "Éléments/bloc: 2.62"
+          },
+          "modifiers": {
+            "score": 5,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0.52"
+          }
+        },
+        "grade": "B",
+        "improvements": [
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
     }
   }
 }

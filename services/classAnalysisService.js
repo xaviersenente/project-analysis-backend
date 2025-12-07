@@ -1,6 +1,168 @@
 import * as cheerio from "cheerio";
 import postcss from "postcss";
 
+// BEM regex patterns – à mettre en haut du fichier
+const blockPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const elementPattern =
+  /^([a-z0-9]+(?:-[a-z0-9]+)*)__([a-z0-9]+(?:-[a-z0-9]+)*)$/;
+const blockModPattern =
+  /^([a-z0-9]+(?:-[a-z0-9]+)*)--([a-z0-9]+(?:-[a-z0-9]+)*)$/;
+const elementModPattern =
+  /^([a-z0-9]+(?:-[a-z0-9]+)*)__([a-z0-9]+(?:-[a-z0-9]+)*)--([a-z0-9]+(?:-[a-z0-9]+)*)$/;
+
+// Helper : est-ce une classe BEM ?
+const isBemClass = (cls) =>
+  blockPattern.test(cls) ||
+  elementPattern.test(cls) ||
+  blockModPattern.test(cls) ||
+  elementModPattern.test(cls);
+
+/**
+ * Calcule un score BEM/classes aligné sur le frontend.
+ * Retourne un total sur 100, breakdown, grade et recommandations.
+ * @param {object} classAnalysis - Objet retourné par performClassAnalysis
+ */
+const calculateBemClassesScore = (classAnalysis) => {
+  if (!classAnalysis) {
+    return {
+      total: 0,
+      breakdown: {},
+      grade: "F",
+      improvements: ["Aucune donnée d'analyse"],
+    };
+  }
+
+  const scores = {
+    coverage: { score: 0, max: 15, details: "" },
+    selectorForms: { score: 0, max: 30, details: "" },
+    structure: { score: 0, max: 25, details: "" },
+    elementsRatio: { score: 0, max: 20, details: "" },
+    modifiers: { score: 0, max: 10, details: "" },
+  };
+
+  // 1) Couverture HTML/CSS (15)
+  const coverageHtml = classAnalysis.mismatch?.coverageHtml || 0;
+  const coverageCss = classAnalysis.mismatch?.coverageCss || 0;
+  const averageCoverage = (coverageHtml + coverageCss) / 2;
+  if (averageCoverage >= 0.95) scores.coverage.score = 15;
+  else if (averageCoverage >= 0.85) scores.coverage.score = 12;
+  else if (averageCoverage >= 0.7) scores.coverage.score = 8;
+  else scores.coverage.score = 4;
+  scores.coverage.details = `Couverture moyenne: ${Math.round(
+    averageCoverage * 100
+  )}%`;
+
+  // 2) Pourcentage de sélecteurs Pure BEM (30)
+  const totalSelectors = classAnalysis.css?.totalSelectors || 0;
+  const pureBemSelectors =
+    classAnalysis.css?.selectorForms?.pureBemSelectors || 0;
+  if (totalSelectors > 0) {
+    const bemPercentage = (pureBemSelectors / totalSelectors) * 100;
+    if (bemPercentage >= 80) scores.selectorForms.score = 30;
+    else if (bemPercentage >= 60) scores.selectorForms.score = 24;
+    else if (bemPercentage >= 40) scores.selectorForms.score = 18;
+    else if (bemPercentage >= 25) scores.selectorForms.score = 12;
+    else scores.selectorForms.score = 6;
+    scores.selectorForms.details = `Pure BEM: ${Math.round(bemPercentage)}%`;
+  } else {
+    scores.selectorForms.details = "Aucun sélecteur CSS.";
+  }
+
+  // 3) Pourcentage de blocs structurés (25)
+  const totalBlocks = classAnalysis.bem?.blockStructure?.totalBlocks || 0;
+  const structuredBlocks =
+    classAnalysis.bem?.blockStructure?.structuredBlocks || 0;
+  if (totalBlocks > 0) {
+    const structuredPercentage = (structuredBlocks / totalBlocks) * 100;
+    if (structuredPercentage >= 80) scores.structure.score = 25;
+    else if (structuredPercentage >= 60) scores.structure.score = 20;
+    else if (structuredPercentage >= 40) scores.structure.score = 14;
+    else if (structuredPercentage >= 25) scores.structure.score = 8;
+    else scores.structure.score = 3;
+    scores.structure.details = `Blocs structurés: ${Math.round(
+      structuredPercentage
+    )}%`;
+  } else {
+    scores.structure.details = "Aucun bloc BEM identifié.";
+  }
+
+  // 4) Ratio éléments/blocs (20)
+  const elements = classAnalysis.bem?.counts?.elements || 0;
+  if (totalBlocks > 0) {
+    const elementsPerBlock = elements / totalBlocks;
+    if (elementsPerBlock >= 2 && elementsPerBlock <= 6)
+      scores.elementsRatio.score = 20;
+    else if (elementsPerBlock >= 1 && elementsPerBlock < 2)
+      scores.elementsRatio.score = 15;
+    else if (elementsPerBlock > 6 && elementsPerBlock <= 10)
+      scores.elementsRatio.score = 12;
+    else if (elementsPerBlock > 0) scores.elementsRatio.score = 8;
+    else scores.elementsRatio.score = 0;
+    scores.elementsRatio.details = `Éléments/bloc: ${Number(
+      elementsPerBlock.toFixed(2)
+    )}`;
+  } else {
+    scores.elementsRatio.details = "Pas de blocs pour calculer le ratio.";
+  }
+
+  // 5) Usage des modificateurs (10)
+  const modifiers = classAnalysis.bem?.counts?.modifiers || 0;
+  const elementModifiers = classAnalysis.bem?.counts?.elementModifiers || 0;
+  const totalModifiersCount = modifiers + elementModifiers;
+  if (totalBlocks > 0) {
+    const modifiersPerBlock = totalModifiersCount / totalBlocks;
+    if (modifiersPerBlock >= 1.5) scores.modifiers.score = 10;
+    else if (modifiersPerBlock >= 1) scores.modifiers.score = 8;
+    else if (modifiersPerBlock >= 0.5) scores.modifiers.score = 5;
+    else scores.modifiers.score = 2;
+    scores.modifiers.details = `Modificateurs/bloc: ${Number(
+      modifiersPerBlock.toFixed(2)
+    )}`;
+  } else {
+    scores.modifiers.details = "Pas de blocs pour évaluer les modificateurs.";
+  }
+
+  // Total et grade
+  const total = Object.values(scores).reduce((sum, s) => sum + s.score, 0);
+  let grade;
+  if (total >= 90) grade = "A";
+  else if (total >= 80) grade = "B";
+  else if (total >= 70) grade = "C";
+  else if (total >= 60) grade = "D";
+  else grade = "F";
+
+  // Recommandations
+  const improvements = [];
+  if (averageCoverage < 0.85)
+    improvements.push(
+      "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)"
+    );
+  if (totalSelectors > 0) {
+    const bemPct = (pureBemSelectors / totalSelectors) * 100;
+    if (bemPct < 60)
+      improvements.push(
+        "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID"
+      );
+  }
+  if (totalBlocks > 0) {
+    const structuredPct = (structuredBlocks / totalBlocks) * 100;
+    if (structuredPct < 60)
+      improvements.push(
+        "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)"
+      );
+    const elementsPerBlock = elements / totalBlocks;
+    if (!(elementsPerBlock >= 2 && elementsPerBlock <= 6))
+      improvements.push("Ajuster le ratio éléments par bloc (viser 2 à 6)");
+    const modifiersPerBlock = totalModifiersCount / totalBlocks;
+    if (modifiersPerBlock < 1)
+      improvements.push(
+        "Utiliser davantage de modificateurs pour exprimer les variantes"
+      );
+  }
+
+  return { total, breakdown: scores, grade, improvements };
+};
+
 /**
  * Extrait toutes les classes HTML sur l'ensemble des pages.
  * Retourne statistiques de fréquence et distribution par nœud.
@@ -70,16 +232,43 @@ export const extractHtmlClasses = (htmlContents) => {
 export const parseCssClasses = (compiledCss) => {
   const root = postcss.parse(compiledCss);
   const classSet = new Set();
+
   let totalSelectors = 0;
   let selectorsWithMultipleClasses = 0;
   let specificitySum = 0;
   let specificityMax = 0;
   let complexSelectors = 0;
 
+  // Nouveaux compteurs liés à BEM et à la forme des sélecteurs
+  let bemSelectors = 0; // sélecteurs qui ciblent au moins une classe BEM
+  let pureBemSelectors = 0; // sélecteurs 100% BEM-friendly
+  let selectorsWithAncestor = 0; // sélecteurs contenant un espace / combinator
+  let selectorsWithId = 0;
+  let selectorsWithType = 0;
+  let selectorsWithAttribute = 0;
+
   const classRegexGlobal = /\.([a-zA-Z0-9_-]+)/g;
 
+  // Helper : sélecteur "pur BEM" ?
+  // Exemples acceptés : `.block`, `.block__el`, `.block--mod`, `.block__el--mod`,
+  // éventuellement avec pseudo-classes/pseudo-éléments : `.block__el:hover`, `.block::before`
+  const isPureBemSelector = (selector, classes) => {
+    if (!classes.length) return false;
+    // Toutes les classes doivent être BEM
+    if (!classes.every(isBemClass)) return false;
+    // On accepte une seule classe "principale" dans le sélecteur
+    if (classes.length > 1) return false;
+    // On autorise uniquement : .class + pseudo-classes/éléments
+    const withoutPseudos = selector.replace(
+      /:{1,2}[a-zA-Z0-9_-]+(\([^)]*\))?/g,
+      ""
+    );
+    // Doit ressembler à ".block" ou ".block__el" ou ".block--mod" etc, sans espace/combinator
+    return /^\.([a-zA-Z0-9_-]+)$/.test(withoutPseudos.trim());
+  };
+
   root.walkRules((rule) => {
-    // Ignore keyframes ou règles @
+    // Ignore @keyframes
     if (
       rule.parent &&
       rule.parent.type === "atrule" &&
@@ -87,28 +276,58 @@ export const parseCssClasses = (compiledCss) => {
     ) {
       return;
     }
+
     const selectors = rule.selectors || rule.selector.split(",");
+
     for (const sel of selectors) {
       const trimmed = sel.trim();
       if (!trimmed) continue;
       totalSelectors++;
-      // Complexité heuristique
+
+      // Complexité heuristique (comme avant)
       if (/[:>+\[\]]/.test(trimmed)) complexSelectors++;
+
+      // Nouvelles détections structurelles
+      const hasAncestor = /\s|>|~|\+/.test(trimmed); // combinators ou espaces
+      const hasId = /#[-_a-zA-Z0-9]+/.test(trimmed);
+      const hasAttribute = /\[[^\]]+\]/.test(trimmed);
+
+      const typeMatches =
+        trimmed.match(/(^|[\s>+~])([a-zA-Z][a-zA-Z0-9_-]*)/g) || [];
+      // On enlève les morceaux qui contiennent . ou # pour garder les vrais type selectors
+      const typeSelectors = typeMatches.filter(
+        (t) => !t.includes(".") && !t.includes("#")
+      );
+      const hasType = typeSelectors.length > 0;
+
+      if (hasAncestor) selectorsWithAncestor++;
+      if (hasId) selectorsWithId++;
+      if (hasType) selectorsWithType++;
+      if (hasAttribute) selectorsWithAttribute++;
+
+      // Récupération des classes dans le sélecteur
       const classMatches = [...trimmed.matchAll(classRegexGlobal)].map(
         (m) => m[1]
       );
       for (const cls of classMatches) classSet.add(cls);
       if (classMatches.length > 1) selectorsWithMultipleClasses++;
 
-      // Calcul spécificité simple
+      // Calcul spécificité (comme avant, avec légère adaptation)
       const idCount = (trimmed.match(/#/g) || []).length;
       const classCount = classMatches.length;
-      const typeCount = (
-        trimmed.match(/(^|\s|>|\+|~)([a-zA-Z][a-zA-Z0-9_-]*)/g) || []
-      ).filter((t) => !t.includes("#") && !t.includes(".")).length; // approximatif
+      const typeCount = typeSelectors.length;
       const spec = idCount * 100 + classCount * 10 + typeCount;
       specificitySum += spec;
       if (spec > specificityMax) specificityMax = spec;
+
+      // BEM-aware metrics
+      const hasBemClass = classMatches.some(isBemClass);
+      if (hasBemClass) {
+        bemSelectors++;
+        if (isPureBemSelector(trimmed, classMatches)) {
+          pureBemSelectors++;
+        }
+      }
     }
   });
 
@@ -125,17 +344,30 @@ export const parseCssClasses = (compiledCss) => {
     complexSelectorsRatio: totalSelectors
       ? Number((complexSelectors / totalSelectors).toFixed(3))
       : 0,
+
+    // >>> Nouvelle partie : analyse de la "forme CSS" par rapport à BEM
+    selectorForms: {
+      bemSelectors,
+      pureBemSelectors,
+      pureBemSelectorsRatio: totalSelectors
+        ? Number((pureBemSelectors / totalSelectors).toFixed(3))
+        : 0,
+      selectorsWithAncestor,
+      selectorsWithId,
+      selectorsWithType,
+      selectorsWithAttribute,
+      ancestorsRatio: totalSelectors
+        ? Number((selectorsWithAncestor / totalSelectors).toFixed(3))
+        : 0,
+      withIdRatio: totalSelectors
+        ? Number((selectorsWithId / totalSelectors).toFixed(3))
+        : 0,
+      withTypeRatio: totalSelectors
+        ? Number((selectorsWithType / totalSelectors).toFixed(3))
+        : 0,
+    },
   };
 };
-
-// BEM regex patterns
-const blockPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const elementPattern =
-  /^([a-z0-9]+(?:-[a-z0-9]+)*)__([a-z0-9]+(?:-[a-z0-9]+)*)$/;
-const blockModPattern =
-  /^([a-z0-9]+(?:-[a-z0-9]+)*)--([a-z0-9]+(?:-[a-z0-9]+)*)$/;
-const elementModPattern =
-  /^([a-z0-9]+(?:-[a-z0-9]+)*)__([a-z0-9]+(?:-[a-z0-9]+)*)--([a-z0-9]+(?:-[a-z0-9]+)*)$/;
 
 /**
  * Calcule les métriques BEM à partir des classes HTML et CSS.
@@ -145,51 +377,44 @@ const elementModPattern =
 export const computeBemMetrics = (htmlClasses, cssClasses) => {
   const allClasses = new Set([...htmlClasses, ...cssClasses]);
   const blocks = new Map(); // blockName -> { elements:Set, modifiers:Set, elementModifiers:Set }
+  const definedBlocks = new Set(); // Blocs explicitement définis dans le CSS/HTML
   const violations = [];
+
+  const ensureBlock = (blockName) => {
+    if (!blocks.has(blockName)) {
+      blocks.set(blockName, {
+        elements: new Set(),
+        modifiers: new Set(),
+        elementModifiers: new Set(),
+      });
+    }
+    return blocks.get(blockName);
+  };
 
   const classify = (cls) => {
     if (elementModPattern.test(cls)) {
       const [, blockName, elementName, modifierName] =
         cls.match(elementModPattern);
-      if (!blocks.has(blockName))
-        blocks.set(blockName, {
-          elements: new Set(),
-          modifiers: new Set(),
-          elementModifiers: new Set(),
-        });
-      blocks.get(blockName).elements.add(`${blockName}__${elementName}`);
-      blocks.get(blockName).elementModifiers.add(cls);
+      const block = ensureBlock(blockName);
+      block.elements.add(`${blockName}__${elementName}`);
+      block.elementModifiers.add(cls);
       return "elementModifier";
     }
     if (elementPattern.test(cls)) {
       const [, blockName, elementName] = cls.match(elementPattern);
-      if (!blocks.has(blockName))
-        blocks.set(blockName, {
-          elements: new Set(),
-          modifiers: new Set(),
-          elementModifiers: new Set(),
-        });
-      blocks.get(blockName).elements.add(cls);
+      const block = ensureBlock(blockName);
+      block.elements.add(`${blockName}__${elementName}`);
       return "element";
     }
     if (blockModPattern.test(cls)) {
       const [, blockName] = cls.match(blockModPattern);
-      if (!blocks.has(blockName))
-        blocks.set(blockName, {
-          elements: new Set(),
-          modifiers: new Set(),
-          elementModifiers: new Set(),
-        });
-      blocks.get(blockName).modifiers.add(cls);
+      const block = ensureBlock(blockName);
+      block.modifiers.add(cls);
       return "modifier";
     }
     if (blockPattern.test(cls)) {
-      if (!blocks.has(cls))
-        blocks.set(cls, {
-          elements: new Set(),
-          modifiers: new Set(),
-          elementModifiers: new Set(),
-        });
+      ensureBlock(cls);
+      definedBlocks.add(cls);
       return "block";
     }
     return "other";
@@ -202,25 +427,29 @@ export const computeBemMetrics = (htmlClasses, cssClasses) => {
     elementModifier: 0,
     other: 0,
   };
+
   for (const cls of allClasses) {
     const category = classify(cls);
     categoryCount[category]++;
   }
 
-  // Violations heuristiques: modifier sans block défini (pas présent ni dans htmlClasses ni cssClasses)
+  // Violations heuristiques
   for (const cls of allClasses) {
     if (blockModPattern.test(cls)) {
-      const [_, blockName] = cls.match(blockModPattern);
-      if (!blocks.has(blockName))
+      const [, blockName] = cls.match(blockModPattern);
+      if (!blockPattern.test(blockName) && !allClasses.has(blockName)) {
         violations.push(`Modifier sans block: ${cls}`);
+      }
     }
     if (elementPattern.test(cls)) {
-      const [_, blockName] = cls.match(elementPattern);
-      if (!blocks.has(blockName)) violations.push(`Element sans block: ${cls}`);
+      const [, blockName] = cls.match(elementPattern);
+      if (!blockPattern.test(blockName) && !allClasses.has(blockName)) {
+        violations.push(`Element sans block: ${cls}`);
+      }
     }
   }
 
-  // Profondeur: block=1, element=2, elementModifier=3, modifier=2
+  // Profondeur
   const depthValues = [];
   for (const key of Object.keys(categoryCount)) {
     const depth =
@@ -249,6 +478,29 @@ export const computeBemMetrics = (htmlClasses, cssClasses) => {
     ? Number((bemClassesCount / allClasses.size).toFixed(3))
     : 0;
 
+  // <<< Nouveaux indicateurs de "pertinence" BEM côté structure
+  let structuredBlocksCount = 0;
+  let orphanBlocksCount = 0;
+  const implicitBlocks = [];
+
+  for (const [name, data] of blocks.entries()) {
+    if (!definedBlocks.has(name)) {
+      implicitBlocks.push(name);
+    }
+
+    const hasStructure =
+      data.elements.size > 0 ||
+      data.modifiers.size > 0 ||
+      data.elementModifiers.size > 0;
+    if (hasStructure) structuredBlocksCount++;
+    else orphanBlocksCount++;
+  }
+
+  const totalBlocks = blocks.size;
+  const structuredBlocksRatio = totalBlocks
+    ? Number((structuredBlocksCount / totalBlocks).toFixed(3))
+    : 0;
+
   // Transformation des blocks en objet simple
   const blocksObj = Object.fromEntries(
     [...blocks.entries()].map(([name, data]) => [
@@ -270,8 +522,20 @@ export const computeBemMetrics = (htmlClasses, cssClasses) => {
       elementModifiers: categoryCount.elementModifier,
       other: categoryCount.other,
     },
-    ratios: { bemClassesRatio },
-    depth: { max: depthMax, average: Number(depthAvg.toFixed(2)) },
+    ratios: {
+      bemClassesRatio,
+      structuredBlocksRatio,
+    },
+    depth: {
+      max: depthMax,
+      average: Number(depthAvg.toFixed(2)),
+    },
+    blockStructure: {
+      totalBlocks,
+      structuredBlocks: structuredBlocksCount,
+      orphanBlocks: orphanBlocksCount,
+      implicitBlocks,
+    },
     violations,
   };
 };
@@ -337,6 +601,18 @@ export const performClassAnalysis = (allHtmlContents, compiledCss) => {
     selectorsWithMultipleClasses: 0,
     specificity: { average: 0, max: 0 },
     complexSelectorsRatio: 0,
+    selectorForms: {
+      bemSelectors: 0,
+      pureBemSelectors: 0,
+      pureBemSelectorsRatio: 0,
+      selectorsWithAncestor: 0,
+      selectorsWithId: 0,
+      selectorsWithType: 0,
+      selectorsWithAttribute: 0,
+      ancestorsRatio: 0,
+      withIdRatio: 0,
+      withTypeRatio: 0,
+    },
   };
   if (compiledCss) {
     try {
@@ -371,7 +647,7 @@ export const performClassAnalysis = (allHtmlContents, compiledCss) => {
       )
     : 0;
 
-  return {
+  const analysis = {
     html: {
       totalClassAssignments: htmlStats.totalClassAssignments,
       nodesWithClasses: htmlStats.nodesWithClasses,
@@ -389,6 +665,7 @@ export const performClassAnalysis = (allHtmlContents, compiledCss) => {
       selectorsWithMultipleClasses: cssStats.selectorsWithMultipleClasses,
       specificity: cssStats.specificity,
       complexSelectorsRatio: cssStats.complexSelectorsRatio,
+      selectorForms: cssStats.selectorForms,
     },
     mismatch: {
       unusedCssClasses: comparisons.unusedCssClasses,
@@ -408,4 +685,7 @@ export const performClassAnalysis = (allHtmlContents, compiledCss) => {
       generatedAt: new Date().toISOString(),
     },
   };
+
+  const bemScore = calculateBemClassesScore(analysis);
+  return { ...analysis, score: { bem: bemScore } };
 };
