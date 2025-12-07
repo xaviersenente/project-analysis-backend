@@ -235,7 +235,162 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 45,
+          "lastColumn": 37,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 72,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 79,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 86,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 95,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 102,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 111,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 113,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 159,
+          "firstLine": 154,
+          "lastColumn": 12,
+          "firstColumn": 14,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "         ><img\n              class=\"section__img\"\n              src=\"/assets/img/footer_main/Lunettes_rouges.webp\"\n              alt=\"historique\"\n              href=\"frise.html\"\n          /></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 180
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 172,
+          "firstLine": 167,
+          "lastColumn": 12,
+          "firstColumn": 14,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "         ><img\n              class=\"section__img\"\n              src=\"/assets/img/footer_main/Tyler_Durden.webp\"\n              alt=\"film\"\n              href=\"film.html\"\n          /></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 170
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 185,
+          "firstLine": 180,
+          "lastColumn": 12,
+          "firstColumn": 14,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "         ><img\n              class=\"section__img\"\n              src=\"/assets/img/footer_main/tissu.webp\"\n              alt=\"livre\"\n              href=\"livre.html\"\n          /></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 165
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 198,
+          "firstLine": 193,
+          "lastColumn": 12,
+          "firstColumn": 14,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "         ><img\n              class=\"section__img\"\n              src=\"/assets/img/footer_main/Pixies.webp\"\n              alt=\"musique\"\n              href=\"musique.html\"\n          /></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 170
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130208547.html",
+          "lastLine": 212,
+          "firstLine": 207,
+          "lastColumn": 12,
+          "firstColumn": 14,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "         ><img\n              class=\"section__img\"\n              src=\"/assets/img/footer_main/Karl_Lagarfeld.webp\"\n              alt=\"réalisateur\"\n              href=\"réalisateur.html\"\n          /></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 186
         }
       ],
       "lighthouseReport": {
@@ -669,7 +824,102 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 44,
+          "lastColumn": 36,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/film.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 71,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 78,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 85,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 94,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 101,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 110,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130216406.html",
+          "lastLine": 112,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
         }
       ],
       "lighthouseReport": {
@@ -1121,7 +1371,102 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 44,
+          "lastColumn": 37,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/livre.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 71,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 78,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 85,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 94,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 101,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 110,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130224017.html",
+          "lastLine": 112,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
         }
       ],
       "lighthouseReport": {
@@ -1546,7 +1891,102 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 44,
+          "lastColumn": 39,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/musique.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 71,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 78,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 85,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 94,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 101,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 110,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130231607.html",
+          "lastLine": 112,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
         }
       ],
       "lighthouseReport": {
@@ -1956,7 +2396,135 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 7,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": "\"/>\n      <meta charset=\"UTF-8\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 49,
+          "lastColumn": 41,
+          "firstColumn": 11,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/réalisateur.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 74,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "li>\n      <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 79,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "li>\n      <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 84,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "li>\n      <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 89,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "li>\n      <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 94,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "li>\n      <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 101,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "i>\n\n      <hr class=\"menu__hr\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 103,
+          "lastColumn": 36,
+          "firstColumn": 7,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\">\n\n      <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 139,
+          "lastColumn": 11,
+          "firstColumn": 5,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": " </p>\n    </main>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 121,
+          "lastColumn": 65,
+          "firstColumn": 9,
+          "message": "Unclosed element “section”.",
+          "extract": ">\n        <section class=\"section__body\" style=\"margin-top: 90px;\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130239212.html",
+          "lastLine": 120,
+          "lastColumn": 27,
+          "firstColumn": 7,
+          "message": "Unclosed element “div”.",
+          "extract": "v>\n\n      <div class=\"section\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
         }
       ],
       "lighthouseReport": {
@@ -2426,7 +2994,113 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 7,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": "\"/>\n      <meta charset=\"UTF-8\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 47,
+          "lastColumn": 37,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/frise.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 72,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 77,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 82,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 87,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 92,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 99,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n\n        <hr class=\"menu__hr\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 101,
+          "lastColumn": 38,
+          "firstColumn": 9,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n\n        <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130246926.html",
+          "lastLine": 123,
+          "lastColumn": 10,
+          "firstColumn": 5,
+          "message": "Stray end tag “div”.",
+          "extract": "/div>\n    </div>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 6
         }
       ],
       "lighthouseReport": {
@@ -2902,7 +3576,102 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 45,
+          "lastColumn": 39,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/galerie.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 72,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 79,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 86,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 95,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 102,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 111,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130254599.html",
+          "lastLine": 113,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
         }
       ],
       "lighthouseReport": {
@@ -3424,7 +4193,268 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 44,
+          "lastColumn": 46,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 34
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 71,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 78,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 85,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 94,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 101,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 110,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 112,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 146,
+          "firstLine": 144,
+          "lastColumn": 22,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img class=\"card__image\"\n                src=\"/assets/img/autres_projets/image-1.webp\" alt=\"Cinario\"\n                class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 123
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 147,
+          "firstLine": 146,
+          "lastColumn": 56,
+          "firstColumn": 23,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "    class=\"card__image\" href =\n                https://le-cinario.noelie-ahuir.fr/en/ >\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 77
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 159,
+          "firstLine": 157,
+          "lastColumn": 33,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img class=\"card__image\"\n                src=\"/assets/img/autres_projets/image-2.webp\" alt=\"Virtual\n                Existence\" class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 133
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 160,
+          "firstLine": 159,
+          "lastColumn": 62,
+          "firstColumn": 34,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "ce\" class=\"card__image\" href =\n                https://virtual-existence.elias-aymonier.fr/ >\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 83
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 172,
+          "firstLine": 170,
+          "lastColumn": 22,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img class=\"card__image\"\n                src=\"/assets/img/autres_projets/image-3.webp\" alt=\"VirtualSpark\"\n                class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 128
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 172,
+          "lastColumn": 80,
+          "firstColumn": 23,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "    class=\"card__image\" href = http://virtualspark.juline-adam.fr/ >\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 58
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 186,
+          "firstLine": 182,
+          "lastColumn": 24,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img\n                  class=\"card__image\"\n                  src=\"/assets/img/autres_projets/image-4.webp\"\n                  alt=\"Aurizon\"\n                  class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 163
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 200,
+          "firstLine": 196,
+          "lastColumn": 24,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img\n                  class=\"card__image\"\n                  src=\"/assets/img/autres_projets/image-5.webp\"\n                  alt=\"Money Timeline\"\n                  class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 170
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 212,
+          "firstLine": 210,
+          "lastColumn": 22,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img class=\"card__image\"\n                src=\"/assets/img/autres_projets/image-6.webp\" alt=\"Luminae\"\n                class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 123
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 212,
+          "lastColumn": 79,
+          "firstColumn": 23,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "    class=\"card__image\" href = http://luminae.jules-becquelin.fr/ >\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 224,
+          "firstLine": 222,
+          "lastColumn": 33,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img class=\"card__image\"\n                src=\"/assets/img/autres_projets/image-8.webp\" alt=\"Board\n                Xvolution\" class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 131
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 225,
+          "firstLine": 224,
+          "lastColumn": 56,
+          "firstColumn": 34,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "on\" class=\"card__image\" href =\n                https://boardxvolution.netlify.app/fr/ >\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 77
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 237,
+          "firstLine": 235,
+          "lastColumn": 22,
+          "firstColumn": 17,
+          "message": "Duplicate attribute “class”.",
+          "extract": "          <img class=\"card__image\"\n                src=\"/assets/img/autres_projets/image-10.webp\" alt=\"Bochiball\"\n                class=\"card_",
+          "hiliteStart": 10,
+          "hiliteLength": 126
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130262120.html",
+          "lastLine": 238,
+          "firstLine": 237,
+          "lastColumn": 17,
+          "firstColumn": 23,
+          "message": "Attribute “href” not allowed on element “img” at this point.",
+          "extract": "    class=\"card__image\" href = https://bochiball.noah-barret.fr/fr/\n                >\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 75
         }
       ],
       "lighthouseReport": {
@@ -3846,7 +4876,113 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 5,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": ".\" />\n    <meta charset=\"UTF-8\" />\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 44,
+          "lastColumn": 39,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/contact.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 27
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 71,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 78,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 85,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 94,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 101,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 110,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <hr class=\"menu__hr\" />\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 112,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130269639.html",
+          "lastLine": 156,
+          "lastColumn": 17,
+          "firstColumn": 15,
+          "message": "Element “p” not allowed as child of element “button” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <p>Envoye",
+          "hiliteStart": 10,
+          "hiliteLength": 3
         }
       ],
       "lighthouseReport": {
@@ -4279,7 +5415,124 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 7,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": "\"/>\n      <meta charset=\"UTF-8\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 48,
+          "lastColumn": 41,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/glossaire.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 29
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 73,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 78,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 83,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 88,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 93,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 100,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n\n        <hr class=\"menu__hr\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 102,
+          "lastColumn": 38,
+          "firstColumn": 9,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n\n        <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 182,
+          "lastColumn": 11,
+          "firstColumn": 5,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": "/div>\n    </main>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130277141.html",
+          "lastLine": 121,
+          "lastColumn": 40,
+          "firstColumn": 7,
+          "message": "Unclosed element “div”.",
+          "extract": "h3>\n      <div class=\"glossaire__container\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 34
         }
       ],
       "lighthouseReport": {
@@ -4673,7 +5926,157 @@
       "validationErrors": [
         {
           "type": "error",
-          "message": "Failed to validate HTML"
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 10,
+          "lastColumn": 28,
+          "firstColumn": 7,
+          "message": "A document must not include more than one “meta” element with a “charset” attribute.",
+          "extract": "\"/>\n      <meta charset=\"UTF-8\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 47,
+          "lastColumn": 40,
+          "firstColumn": 13,
+          "message": "The element “a” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/en/a_propos.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 28
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 72,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 77,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 82,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 87,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">  \n   ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 92,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": ">\n        <hr class=\"menu__hr\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 99,
+          "lastColumn": 29,
+          "firstColumn": 9,
+          "message": "Element “hr” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n\n        <hr class=\"menu__hr\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 101,
+          "lastColumn": 38,
+          "firstColumn": 9,
+          "message": "Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n\n        <a href=\"autres_projets.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 111,
+          "lastColumn": 75,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/img/font/à propos.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img class=\"hero__img\" src=\"/assets/img/font/à propos.webp\" alt=\"\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 67
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 123,
+          "lastColumn": 23,
+          "firstColumn": 15,
+          "message": "Stray end tag “button”.",
+          "extract": "          </button>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 9
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 129,
+          "lastColumn": 11,
+          "firstColumn": 5,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": "     \n    </main>\n  \n  ",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 119,
+          "lastColumn": 40,
+          "firstColumn": 11,
+          "message": "Unclosed element “header”.",
+          "extract": "          <header class=\"section__body\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765130284665.html",
+          "lastLine": 118,
+          "lastColumn": 33,
+          "firstColumn": 9,
+          "message": "Unclosed element “section”.",
+          "extract": " \n        <section class=\"section\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
         }
       ],
       "lighthouseReport": {
@@ -6889,8 +8292,8 @@
     },
     "__meta__": {
       "parseTime": 4,
-      "analyzeTime": 6,
-      "total": 10
+      "analyzeTime": 5,
+      "total": 9
     },
     "imports": {
       "total": 14,
@@ -8490,7 +9893,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-07T11:33:06.429Z"
+      "generatedAt": "2025-12-07T17:58:05.515Z"
     },
     "score": {
       "bem": {

@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "file": "http://127.0.0.1:5501/fr/",
+      "file": "http://127.0.0.1:5502/fr/",
       "title": "Rebirth",
       "images": [
         {
@@ -162,37 +162,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/",
+            "url": "http://127.0.0.1:5502/fr/",
             "resourceSize": 12191,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/train_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/train_hero.webp",
             "resourceSize": 339062,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -204,109 +204,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -324,19 +324,19 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/livre_2.webp",
+            "url": "http://127.0.0.1:5502/assets/img/livre_2.webp",
             "resourceSize": 30920,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/le_livre_deli.webp",
+            "url": "http://127.0.0.1:5502/assets/img/le_livre_deli.webp",
             "resourceSize": 51548,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -345,7 +345,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/",
+      "file": "http://127.0.0.1:5502/",
       "title": "Rebrith",
       "images": [],
       "totalTags": 13,
@@ -370,12 +370,7 @@
           "tag": "h1"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
         "performance": 1,
         "accessibility": 0.91,
@@ -385,13 +380,13 @@
         "errors": 0,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/",
+            "url": "http://127.0.0.1:5502/",
             "resourceSize": 1872,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/favicon.ico",
+            "url": "http://127.0.0.1:5502/favicon.ico",
             "resourceSize": 150,
             "mimeType": "text/html",
             "resourceType": "Other"
@@ -400,7 +395,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/les-livres.html",
+      "file": "http://127.0.0.1:5502/fr/les-livres.html",
       "title": "Rebirth",
       "images": [
         {
@@ -626,14 +621,9 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.97,
+        "performance": 0.96,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -641,37 +631,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/les-livres.html",
+            "url": "http://127.0.0.1:5502/fr/les-livres.html",
             "resourceSize": 36953,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/livre_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/livre_hero.webp",
             "resourceSize": 38376,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -683,109 +673,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -809,19 +799,19 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/bibliotheque-nationale-richelieu.webp",
+            "url": "http://127.0.0.1:5502/assets/img/bibliotheque-nationale-richelieu.webp",
             "resourceSize": 160006,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/mark_twain.webp",
+            "url": "http://127.0.0.1:5502/assets/img/mark_twain.webp",
             "resourceSize": 22570,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -830,7 +820,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/le-livre-deli.html",
+      "file": "http://127.0.0.1:5502/fr/le-livre-deli.html",
       "title": "Rebirth",
       "images": [
         {
@@ -941,14 +931,9 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.73,
+        "performance": 0.84,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -956,37 +941,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/le-livre-deli.html",
+            "url": "http://127.0.0.1:5502/fr/le-livre-deli.html",
             "resourceSize": 12599,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/le_livre_deli_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/le_livre_deli_hero.webp",
             "resourceSize": 428650,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1003,115 +988,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
-          },
-          {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1135,19 +1114,25 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/play_btn.svg",
+            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/george_rr_martin.webp",
+            "url": "http://127.0.0.1:5502/assets/img/george_rr_martin.webp",
             "resourceSize": 38426,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -1156,7 +1141,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/denis-villeneuve.html",
+      "file": "http://127.0.0.1:5502/fr/denis-villeneuve.html",
       "title": "Rebirth",
       "images": [
         {
@@ -1397,14 +1382,9 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.83,
+        "performance": 0.89,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1412,37 +1392,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/denis-villeneuve.html",
+            "url": "http://127.0.0.1:5502/fr/denis-villeneuve.html",
             "resourceSize": 18295,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/denis_villeneuve_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/denis_villeneuve_hero.webp",
             "resourceSize": 212548,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1454,109 +1434,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1574,25 +1554,25 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/blade_runner.webp",
+            "url": "http://127.0.0.1:5502/assets/img/blade_runner.webp",
             "resourceSize": 60346,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/dune.webp",
+            "url": "http://127.0.0.1:5502/assets/img/dune.webp",
             "resourceSize": 48682,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/denis_villeneuve_2.webp",
+            "url": "http://127.0.0.1:5502/assets/img/denis_villeneuve_2.webp",
             "resourceSize": 10034,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -1601,7 +1581,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/fahrenheit-451.html",
+      "file": "http://127.0.0.1:5502/fr/fahrenheit-451.html",
       "title": "Rebirth",
       "images": [
         {
@@ -1707,14 +1687,9 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.81,
+        "performance": 0.82,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1722,51 +1697,46 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/fahrenheit-451.html",
+            "url": "http://127.0.0.1:5502/fr/fahrenheit-451.html",
             "resourceSize": 13334,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/fahrenheit_451_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/fahrenheit_451_hero.webp",
             "resourceSize": 527242,
             "mimeType": "image/webp",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/fahrenheit_personnage.webp",
+            "url": "http://127.0.0.1:5502/assets/img/fahrenheit_personnage.webp",
             "resourceSize": 12716,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
-            "resourceSize": 0,
-            "mimeType": "text/html"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
@@ -1775,115 +1745,114 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "https://portfolio.bryan-menoux.fr/",
+            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
             "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
+            "mimeType": "text/html"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -1907,13 +1876,19 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/play_btn.svg",
+            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -1922,7 +1897,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/bande-originale.html",
+      "file": "http://127.0.0.1:5502/fr/bande-originale.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2018,12 +1993,7 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
         "performance": 0.93,
         "accessibility": 1,
@@ -2033,45 +2003,40 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/bande-originale.html",
+            "url": "http://127.0.0.1:5502/fr/bande-originale.html",
             "resourceSize": 10626,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/soundtrack_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/soundtrack_hero.webp",
             "resourceSize": 147056,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_soundtrack.mp4",
-            "resourceSize": 0,
-            "mimeType": "text/html"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
@@ -2080,109 +2045,114 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_soundtrack.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2206,13 +2176,13 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/play_btn.svg",
+            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/atticus_ross.webp",
+            "url": "http://127.0.0.1:5502/assets/img/atticus_ross.webp",
             "resourceSize": 60166,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2224,7 +2194,7 @@
             "resourceType": "Media"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -2233,7 +2203,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/glossaire.html",
+      "file": "http://127.0.0.1:5502/fr/glossaire.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2354,14 +2324,9 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.85,
+        "performance": 0.92,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -2369,37 +2334,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/glossaire.html",
+            "url": "http://127.0.0.1:5502/fr/glossaire.html",
             "resourceSize": 9184,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/glossaire_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/glossaire_hero.webp",
             "resourceSize": 231736,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2411,109 +2376,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2531,7 +2496,7 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -2540,7 +2505,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/contact.html",
+      "file": "http://127.0.0.1:5502/fr/contact.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2621,12 +2586,7 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
         "performance": 0.95,
         "accessibility": 1,
@@ -2636,37 +2596,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/contact.html",
+            "url": "http://127.0.0.1:5502/fr/contact.html",
             "resourceSize": 8339,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/contact_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/contact_hero.webp",
             "resourceSize": 165844,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2678,109 +2638,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2798,7 +2758,7 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -2807,7 +2767,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/a-propos.html",
+      "file": "http://127.0.0.1:5502/fr/a-propos.html",
       "title": "Rebirth",
       "images": [
         {
@@ -2888,12 +2848,7 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
         "performance": 0.95,
         "accessibility": 1,
@@ -2903,37 +2858,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/a-propos.html",
+            "url": "http://127.0.0.1:5502/fr/a-propos.html",
             "resourceSize": 8506,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/a_propos_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/a_propos_hero.webp",
             "resourceSize": 127264,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -2945,109 +2900,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -3065,31 +3020,31 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/twitter_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/twitter_white.svg",
             "resourceSize": 2326,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/facebook_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/facebook_white.svg",
             "resourceSize": 1990,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/tiktok_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/tiktok_white.svg",
             "resourceSize": 1968,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/instagram_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/instagram_white.svg",
             "resourceSize": 2777,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -3098,7 +3053,7 @@
       }
     },
     {
-      "file": "http://127.0.0.1:5501/fr/autres-projets.html",
+      "file": "http://127.0.0.1:5502/fr/autres-projets.html",
       "title": "Rebirth",
       "images": [
         {
@@ -3219,12 +3174,7 @@
           "tag": "h3"
         }
       ],
-      "validationErrors": [
-        {
-          "type": "error",
-          "message": "Failed to validate HTML"
-        }
-      ],
+      "validationErrors": [],
       "lighthouseReport": {
         "performance": 0.95,
         "accessibility": 1,
@@ -3234,37 +3184,37 @@
         "errors": 1,
         "requests": [
           {
-            "url": "http://127.0.0.1:5501/fr/autres-projets.html",
+            "url": "http://127.0.0.1:5502/fr/autres-projets.html",
             "resourceSize": 10036,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
           {
-            "url": "http://127.0.0.1:5501/src/js/index.js",
+            "url": "http://127.0.0.1:5502/src/js/index.js",
             "resourceSize": 3270,
             "mimeType": "application/javascript",
             "resourceType": "Script"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/style.css",
+            "url": "http://127.0.0.1:5502/src/css/style.css",
             "resourceSize": 1062,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_blanc.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_blanc.svg",
             "resourceSize": 88270,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/arrow_white.svg",
+            "url": "http://127.0.0.1:5502/assets/img/arrow_white.svg",
             "resourceSize": 1713,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/autres_projets_hero.webp",
+            "url": "http://127.0.0.1:5502/assets/img/autres_projets_hero.webp",
             "resourceSize": 163520,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -3276,109 +3226,109 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/base/main.css",
+            "url": "http://127.0.0.1:5502/src/css/base/main.css",
             "resourceSize": 1092,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/media/video.css",
+            "url": "http://127.0.0.1:5502/src/css/media/video.css",
             "resourceSize": 41,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "url": "http://127.0.0.1:5502/src/css/utils/variables.css",
             "resourceSize": 1184,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/header.css",
             "resourceSize": 693,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "url": "http://127.0.0.1:5502/src/css/layout/footer.css",
             "resourceSize": 1311,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/duotone.css",
+            "url": "http://127.0.0.1:5502/src/css/components/duotone.css",
             "resourceSize": 636,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/buttons.css",
+            "url": "http://127.0.0.1:5502/src/css/components/buttons.css",
             "resourceSize": 3215,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "url": "http://127.0.0.1:5502/src/css/components/menu.css",
             "resourceSize": 967,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/hero.css",
+            "url": "http://127.0.0.1:5502/src/css/components/hero.css",
             "resourceSize": 985,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/input.css",
+            "url": "http://127.0.0.1:5502/src/css/components/input.css",
             "resourceSize": 276,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/article.css",
+            "url": "http://127.0.0.1:5502/src/css/components/article.css",
             "resourceSize": 897,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/section.css",
+            "url": "http://127.0.0.1:5502/src/css/components/section.css",
             "resourceSize": 1814,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/timeline.css",
+            "url": "http://127.0.0.1:5502/src/css/components/timeline.css",
             "resourceSize": 881,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
             "resourceSize": 1501,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/glossary.css",
+            "url": "http://127.0.0.1:5502/src/css/components/glossary.css",
             "resourceSize": 171,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+            "url": "http://127.0.0.1:5502/src/css/components/other-projects.css",
             "resourceSize": 752,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/src/css/components/form.css",
+            "url": "http://127.0.0.1:5502/src/css/components/form.css",
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/drapeau_fran%C3%A7ais.webp",
+            "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
             "resourceType": "Image"
@@ -3396,7 +3346,7 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5501/assets/img/logo_vert_clair.svg",
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
@@ -5617,9 +5567,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 8,
-      "analyzeTime": 7,
-      "total": 15
+      "parseTime": 5,
+      "analyzeTime": 4,
+      "total": 9
     },
     "imports": {
       "total": 18,
@@ -5637,7 +5587,7 @@
         },
         {
           "path": "./base/main.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/base/main.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/base/main.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5648,7 +5598,7 @@
         },
         {
           "path": "./media/video.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/media/video.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/media/video.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5659,7 +5609,7 @@
         },
         {
           "path": "./utils/variables.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/utils/variables.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/utils/variables.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5670,7 +5620,7 @@
         },
         {
           "path": "./layout/header.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/header.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/layout/header.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5681,7 +5631,7 @@
         },
         {
           "path": "./layout/footer.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/footer.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/layout/footer.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5692,7 +5642,7 @@
         },
         {
           "path": "./components/duotone.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/duotone.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/duotone.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5703,7 +5653,7 @@
         },
         {
           "path": "./components/buttons.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/buttons.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/buttons.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5714,7 +5664,7 @@
         },
         {
           "path": "./components/menu.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/menu.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/menu.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5725,7 +5675,7 @@
         },
         {
           "path": "./components/hero.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/hero.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/hero.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5736,7 +5686,7 @@
         },
         {
           "path": "./components/input.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/input.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/input.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5747,7 +5697,7 @@
         },
         {
           "path": "./components/article.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/article.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/article.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5758,7 +5708,7 @@
         },
         {
           "path": "./components/section.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/section.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/section.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5769,7 +5719,7 @@
         },
         {
           "path": "./components/timeline.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/timeline.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/timeline.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5780,7 +5730,7 @@
         },
         {
           "path": "./components/carousel.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/carousel.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/carousel.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5791,7 +5741,7 @@
         },
         {
           "path": "./components/glossary.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/glossary.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/glossary.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5802,7 +5752,7 @@
         },
         {
           "path": "./components/other-projects.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/other-projects.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/other-projects.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -5813,7 +5763,7 @@
         },
         {
           "path": "./components/form.css",
-          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/form.css",
+          "resolvedUrl": "http://127.0.0.1:5502/src/css/components/form.css",
           "mediaQuery": null,
           "isValid": true,
           "isNormalize": false,
@@ -7452,7 +7402,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-07T11:27:07.983Z"
+      "generatedAt": "2025-12-07T17:28:16.849Z"
     },
     "score": {
       "bem": {
