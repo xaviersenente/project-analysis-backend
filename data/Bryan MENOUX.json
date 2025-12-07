@@ -977,11 +977,6 @@
             "resourceType": "Image"
           },
           {
-            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_trailer.mp4",
-            "resourceSize": 0,
-            "mimeType": "text/html"
-          },
-          {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
             "resourceSize": 29202,
             "mimeType": "text/css",
@@ -1088,6 +1083,11 @@
             "resourceSize": 428,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://bryan-menoux.fr/videos/the_book_of_eli_trailer.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
           },
           {
             "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
@@ -1689,7 +1689,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.81,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -2152,6 +2152,12 @@
             "mimeType": "text/html"
           },
           {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
             "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
@@ -2186,12 +2192,6 @@
             "resourceSize": 60166,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
@@ -2326,7 +2326,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.92,
+        "performance": 0.82,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -7402,7 +7402,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-07T17:28:16.849Z"
+      "generatedAt": "2025-12-07T18:05:53.459Z"
     },
     "score": {
       "bem": {
