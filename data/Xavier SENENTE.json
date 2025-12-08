@@ -364,7 +364,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.96,
+        "performance": 0.86,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -564,6 +564,18 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5502/assets/favicons/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
+          },
+          {
             "url": "http://127.0.0.1:5502/assets/img/stat_img_01.avif",
             "resourceSize": 2118,
             "mimeType": "application/octet-stream",
@@ -634,18 +646,6 @@
             "resourceSize": 3302,
             "mimeType": "application/octet-stream",
             "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/favicons/site.webmanifest",
-            "resourceSize": 436,
-            "mimeType": "application/manifest+json",
-            "resourceType": "Manifest"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/favicons/favicon.ico",
-            "resourceSize": 15086,
-            "mimeType": "image/x-icon",
-            "resourceType": "Other"
           }
         ]
       }
@@ -749,7 +749,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.88,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 1,
@@ -1137,7 +1137,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.89,
         "accessibility": 0.93,
         "bestPractices": 0.96,
         "seo": 1,
@@ -1382,7 +1382,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.99,
+        "performance": 0.9,
         "accessibility": 0.98,
         "bestPractices": 0.96,
         "seo": 1,
@@ -1681,7 +1681,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.98,
+        "performance": 0.9,
         "accessibility": 0.98,
         "bestPractices": 0.96,
         "seo": 1,
@@ -4653,9 +4653,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 6,
-      "analyzeTime": 6,
-      "total": 12
+      "parseTime": 4,
+      "analyzeTime": 5,
+      "total": 9
     },
     "imports": {
       "total": 19,
@@ -6419,7 +6419,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-07T18:01:53.645Z"
+      "generatedAt": "2025-12-08T10:04:59.689Z"
     },
     "score": {
       "bem": {
@@ -6456,6 +6456,23 @@
           "Utiliser davantage de modificateurs pour exprimer les variantes"
         ]
       }
+    }
+  },
+  "validationScore": {
+    "total": 100,
+    "breakdown": {
+      "errorPenalty": 0,
+      "warningPenalty": 0
+    },
+    "grade": "A",
+    "improvements": [
+      "Excellent ! Code HTML parfaitement valide."
+    ],
+    "stats": {
+      "totalErrors": 0,
+      "totalWarnings": 0,
+      "averageErrors": 0,
+      "pagesAnalyzed": 5
     }
   }
 }

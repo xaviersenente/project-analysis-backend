@@ -154,7 +154,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.87,
+        "performance": 0.74,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -324,6 +324,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
+            "resourceSize": 88838,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          },
+          {
             "url": "http://127.0.0.1:5502/assets/img/livre_2.webp",
             "resourceSize": 30920,
             "mimeType": "image/webp",
@@ -334,12 +340,6 @@
             "resourceSize": 51548,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
-            "resourceSize": 88838,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
           }
         ]
       }
@@ -623,7 +623,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.96,
+        "performance": 0.79,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -799,6 +799,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
+            "resourceSize": 88838,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          },
+          {
             "url": "http://127.0.0.1:5502/assets/img/bibliotheque-nationale-richelieu.webp",
             "resourceSize": 160006,
             "mimeType": "image/webp",
@@ -809,12 +815,6 @@
             "resourceSize": 22570,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
-            "resourceSize": 88838,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
           }
         ]
       }
@@ -933,7 +933,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.84,
+        "performance": 0.7,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1114,18 +1114,6 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
-            "resourceSize": 1834,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/img/george_rr_martin.webp",
-            "resourceSize": 38426,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
             "url": "https://portfolio.bryan-menoux.fr/",
             "resourceSize": 0,
             "mimeType": "",
@@ -1136,6 +1124,18 @@
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
+            "resourceSize": 1834,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/george_rr_martin.webp",
+            "resourceSize": 38426,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
           }
         ]
       }
@@ -1384,7 +1384,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.78,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1689,7 +1689,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.81,
+        "performance": 0.71,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1737,6 +1737,11 @@
             "resourceSize": 12716,
             "mimeType": "image/webp",
             "resourceType": "Image"
+          },
+          {
+            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
+            "resourceSize": 0,
+            "mimeType": "text/html"
           },
           {
             "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
@@ -1847,9 +1852,10 @@
             "resourceType": "Stylesheet"
           },
           {
-            "url": "https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4",
+            "url": "https://portfolio.bryan-menoux.fr/",
             "resourceSize": 0,
-            "mimeType": "text/html"
+            "mimeType": "",
+            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5502/assets/img/drapeau_fran%C3%A7ais.webp",
@@ -1876,22 +1882,16 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
-            "resourceSize": 1834,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Image"
-          },
-          {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
-          },
-          {
             "url": "http://127.0.0.1:5502/assets/img/logo_vert_clair.svg",
             "resourceSize": 88838,
             "mimeType": "image/svg+xml",
             "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/img/play_btn.svg",
+            "resourceSize": 1834,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
           }
         ]
       }
@@ -2326,7 +2326,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.81,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -2588,7 +2588,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.95,
+        "performance": 0.83,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -2850,7 +2850,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.95,
+        "performance": 0.84,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -5567,9 +5567,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 5,
-      "analyzeTime": 4,
-      "total": 9
+      "parseTime": 8,
+      "analyzeTime": 6,
+      "total": 14
     },
     "imports": {
       "total": 18,
@@ -7402,7 +7402,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-07T18:05:53.459Z"
+      "generatedAt": "2025-12-08T10:00:54.020Z"
     },
     "score": {
       "bem": {
@@ -7439,6 +7439,23 @@
           "Utiliser davantage de modificateurs pour exprimer les variantes"
         ]
       }
+    }
+  },
+  "validationScore": {
+    "total": 100,
+    "breakdown": {
+      "errorPenalty": 0,
+      "warningPenalty": 0
+    },
+    "grade": "A",
+    "improvements": [
+      "Excellent ! Code HTML parfaitement valide."
+    ],
+    "stats": {
+      "totalErrors": 0,
+      "totalWarnings": 0,
+      "averageErrors": 0,
+      "pagesAnalyzed": 11
     }
   }
 }
