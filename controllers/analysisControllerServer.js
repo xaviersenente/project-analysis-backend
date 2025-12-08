@@ -14,7 +14,10 @@ import {
   analyzeCustomProperties,
   analyzeTypography,
 } from "../services/cssAnalysisService.js";
-import { validateHTML } from "../services/validationService.js";
+import {
+  validateHTML,
+  calculateValidationScore,
+} from "../services/validationService.js";
 import { performClassAnalysis } from "../services/classAnalysisService.js";
 import axios from "axios";
 
@@ -125,6 +128,9 @@ export const scanUrl = async (req, res) => {
     // Effectuer l'analyse globale sur toutes les pages
     const globalAnalysis = analyzeAllPages(allHtmlContents);
 
+    // Calculer le score de validation
+    const validationScore = calculateValidationScore(fileResults);
+
     const analysisResult = {
       pages: fileResults,
       globalAnalysis, // Ajouter le résultat de l'analyse globale
@@ -136,6 +142,7 @@ export const scanUrl = async (req, res) => {
         typography: typographyAnalysis,
       },
       classAnalysis: performClassAnalysis(allHtmlContents, compiledCss),
+      validationScore,
     };
 
     // Étape 2 : Sauvegarde en fichier JSON
