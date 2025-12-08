@@ -1,0 +1,3593 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Document",
+      "images": [
+        {
+          "src": "image/logo+icon/logoreserve.png",
+          "alt": "logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Menu.png",
+          "alt": "menu burger",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Copybook.png",
+          "alt": "carnet",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/Lynx.png",
+          "alt": "Lynx",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgavif/Fille avec sac à dos en cuir.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgavif/Fille avec sac à dos en cuir.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgavif/Fille avec sac à dos en cuir.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/asso.avif",
+          "alt": "association",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Pet Commands Dismiss.png",
+          "alt": "interdit au animaux",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Wheelchair.png",
+          "alt": "Fauteuil roulant",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/logo-life.avif",
+          "alt": "logo climat",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Logo parc transparent.avif",
+          "alt": "logo parc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Instagram.png",
+          "alt": "instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Facebook.png",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/map.png",
+          "alt": "map",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 157,
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "deadLinks": 28,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "La Maison De La Réserve",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "sorties découvertes",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "A la une",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "soirées nature",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Association",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Horaires",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Tarifs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Individuel",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Groupe(Uniquement sur réservation):",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Visite libre",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 96,
+          "lastColumn": 110,
+          "firstColumn": 28,
+          "message": "Bad value “image/imgavif/Fille avec sac à dos en cuir.avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "a href=\"\"><img class=\"card_img\" src=\"image/imgavif/Fille avec sac à dos en cuir.avif\" alt=\"\"> L'aut",
+          "hiliteStart": 10,
+          "hiliteLength": 83
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 105,
+          "firstLine": 104,
+          "lastColumn": 31,
+          "firstColumn": 39,
+          "message": "Bad value “image/imgavif/Fille avec sac à dos en cuir.avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "une.html\"><img class=\"card_img\" src=\"image/imgavif/Fille avec sac à dos en cuir.avif\"\n                        alt=\"\"> L'aut",
+          "hiliteStart": 10,
+          "hiliteLength": 107
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 113,
+          "lastColumn": 110,
+          "firstColumn": 28,
+          "message": "Bad value “image/imgavif/Fille avec sac à dos en cuir.avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "a href=\"\"><img class=\"card_img\" src=\"image/imgavif/Fille avec sac à dos en cuir.avif\" alt=\"\"> L'aut",
+          "hiliteStart": 10,
+          "hiliteLength": 83
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 135,
+          "lastColumn": 51,
+          "firstColumn": 21,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"button_bltogr1\">En sav",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 178,
+          "lastColumn": 57,
+          "firstColumn": 13,
+          "message": "The element “button” must not appear as a descendant of the “a” element.",
+          "extract": "          <button class=\"button_bltogr1\" type=\"button\">Contac",
+          "hiliteStart": 10,
+          "hiliteLength": 45
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 188,
+          "firstLine": 187,
+          "lastColumn": 50,
+          "firstColumn": 21,
+          "message": "Bad value “image/logo+icon/Pet Commands Dismiss.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img class=\"footer_imganimaux\" src=\"image/logo+icon/Pet Commands Dismiss.png\"\n                        alt=\"interdit au animaux\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 128
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197581017.html",
+          "lastLine": 214,
+          "firstLine": 213,
+          "lastColumn": 44,
+          "firstColumn": 32,
+          "message": "Bad value “image/logo+icon/Logo parc transparent.avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "a href=\"\"><img class=\"footer_logopartparc\" src=\"image/logo+icon/Logo parc transparent.avif\"\n                            alt=\"logo parc\"></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 126
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.85,
+        "accessibility": 0.92,
+        "bestPractices": 0.89,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 11004,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 311,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/logoreserve.png",
+            "resourceSize": 56469,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Menu.png",
+            "resourceSize": 351,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Copybook.png",
+            "resourceSize": 1186,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/Lynx.png",
+            "resourceSize": 304023,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgavif/Fille%20avec%20sac%20%C3%A0%20dos%20en%20cuir.avif",
+            "resourceSize": 66758,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/asso.avif",
+            "resourceSize": 26647,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Pet%20Commands%20Dismiss.png",
+            "resourceSize": 2327,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Wheelchair.png",
+            "resourceSize": 1626,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/logo-life.avif",
+            "resourceSize": 6153,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Logo%20parc%20transparent.avif",
+            "resourceSize": 2291,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Instagram.png",
+            "resourceSize": 1098,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Facebook.png",
+            "resourceSize": 1094,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/map.png",
+            "resourceSize": 44505,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 360,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 688,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 863,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/card.css",
+            "resourceSize": 3811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/texte.css",
+            "resourceSize": 140,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/menu.css",
+            "resourceSize": 862,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/form.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/button.css",
+            "resourceSize": 719,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/autumn%20leaf%20fall.png",
+            "resourceSize": 91579,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/alaune.html",
+      "title": "Document",
+      "images": [
+        {
+          "src": "image/logo+icon/logoreserve.png",
+          "alt": "logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Copybook.png",
+          "alt": "carnet",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/photoune.avif",
+          "alt": "festival photo naturellement",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/ours.png",
+          "alt": "ours",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/hu5.png",
+          "alt": "la haute vallée du drugeon",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/aigle en bois yaaah.png",
+          "alt": "Les amis de la réserve",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgavif/poisson$.avif",
+          "alt": "sentier de la biodiversité",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgavif/passion.avif",
+          "alt": "appel a cotisation",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Pet Commands Dismiss.png",
+          "alt": "interdit au animaux",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Wheelchair.png",
+          "alt": "Fauteuil roulant",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/logo-life.avif",
+          "alt": "logo climat",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Logo parc transparent.avif",
+          "alt": "logo parc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Instagram.png",
+          "alt": "instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Facebook.png",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/map.png",
+          "alt": "map",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 116,
+      "externalLinks": 0,
+      "internalLinks": 4,
+      "deadLinks": 25,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "A la une",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197588478.html",
+          "lastLine": 96,
+          "lastColumn": 85,
+          "firstColumn": 9,
+          "message": "Bad value “image/imgpng/aigle en bois yaaah.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"image/imgpng/aigle en bois yaaah.png\" alt=\"Les amis de la réserve\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 77
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197588478.html",
+          "lastLine": 117,
+          "firstLine": 116,
+          "lastColumn": 50,
+          "firstColumn": 21,
+          "message": "Bad value “image/logo+icon/Pet Commands Dismiss.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img class=\"footer_imganimaux\" src=\"image/logo+icon/Pet Commands Dismiss.png\"\n                        alt=\"interdit au animaux\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 128
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197588478.html",
+          "lastLine": 141,
+          "lastColumn": 101,
+          "firstColumn": 32,
+          "message": "Bad value “image/logo+icon/Logo parc transparent.avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "a href=\"\"><img src=\"image/logo+icon/Logo parc transparent.avif\" alt=\"logo parc\"></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 70
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.75,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/alaune.html",
+            "resourceSize": 8677,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 311,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/logoreserve.png",
+            "resourceSize": 56469,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Copybook.png",
+            "resourceSize": 1186,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/photoune.avif",
+            "resourceSize": 58244,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/ours.png",
+            "resourceSize": 958660,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/hu5.png",
+            "resourceSize": 775736,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/aigle%20en%20bois%20yaaah.png",
+            "resourceSize": 507057,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgavif/poisson$.avif",
+            "resourceSize": 105370,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgavif/passion.avif",
+            "resourceSize": 17961,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Pet%20Commands%20Dismiss.png",
+            "resourceSize": 2327,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Wheelchair.png",
+            "resourceSize": 1626,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/logo-life.avif",
+            "resourceSize": 6153,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Logo%20parc%20transparent.avif",
+            "resourceSize": 2291,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Instagram.png",
+            "resourceSize": 1098,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Facebook.png",
+            "resourceSize": 1094,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/map.png",
+            "resourceSize": 44505,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 360,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 688,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 863,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/card.css",
+            "resourceSize": 3811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/texte.css",
+            "resourceSize": 140,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/menu.css",
+            "resourceSize": 862,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/form.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/button.css",
+            "resourceSize": 719,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/contact.html",
+      "title": "Document",
+      "images": [
+        {
+          "src": "image/logo+icon/logoreserve.png",
+          "alt": "logo",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Copybook.png",
+          "alt": "carnet",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/map.png",
+          "alt": "map",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Pet Commands Dismiss.png",
+          "alt": "interdit au animaux",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Wheelchair.png",
+          "alt": "Fauteuil roulant",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/logo-life.avif",
+          "alt": "logo climat",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Logo parc transparent.avif",
+          "alt": "logo parc",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Instagram.png",
+          "alt": "instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/logo+icon/Facebook.png",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "image/imgpng/map.png",
+          "alt": "map",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 117,
+      "externalLinks": 0,
+      "internalLinks": 4,
+      "deadLinks": 25,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Nous contacter",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197595683.html",
+          "lastLine": 73,
+          "lastColumn": 24,
+          "firstColumn": 9,
+          "message": "Bad value “” for attribute “action” on element “form”: Must be non-empty.",
+          "extract": "\n\n        <form action=\"\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 16
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197595683.html",
+          "lastLine": 107,
+          "firstLine": 106,
+          "lastColumn": 50,
+          "firstColumn": 21,
+          "message": "Bad value “image/logo+icon/Pet Commands Dismiss.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img class=\"footer_imganimaux\" src=\"image/logo+icon/Pet Commands Dismiss.png\"\n                        alt=\"interdit au animaux\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 128
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765197595683.html",
+          "lastLine": 131,
+          "lastColumn": 101,
+          "firstColumn": 32,
+          "message": "Bad value “image/logo+icon/Logo parc transparent.avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "a href=\"\"><img src=\"image/logo+icon/Logo parc transparent.avif\" alt=\"logo parc\"></a>\n ",
+          "hiliteStart": 10,
+          "hiliteLength": 70
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/contact.html",
+            "resourceSize": 7209,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 311,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/logoreserve.png",
+            "resourceSize": 56469,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Copybook.png",
+            "resourceSize": 1186,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/map.png",
+            "resourceSize": 44505,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Pet%20Commands%20Dismiss.png",
+            "resourceSize": 2327,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Wheelchair.png",
+            "resourceSize": 1626,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/logo-life.avif",
+            "resourceSize": 6153,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Logo%20parc%20transparent.avif",
+            "resourceSize": 2291,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Instagram.png",
+            "resourceSize": 1098,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/logo+icon/Facebook.png",
+            "resourceSize": 1094,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variables.css",
+            "resourceSize": 360,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 793,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 688,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 863,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/card.css",
+            "resourceSize": 3811,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/texte.css",
+            "resourceSize": 140,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/menu.css",
+            "resourceSize": 862,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/form.css",
+            "resourceSize": 1134,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/composents/button.css",
+            "resourceSize": 719,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/image/imgpng/Lynx.png",
+            "resourceSize": 304023,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "video",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 43,
+      "br": 9
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 370,
+      "linesOfCode": 609,
+      "size": 9247,
+      "complexity": 1005,
+      "comments": {
+        "total": 25,
+        "size": 860
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "\"composents/button.css\"": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "(max-width: 1270px)": 1,
+          "screen and (max-width: 1270px)": 1,
+          "(max-width: 900px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 4,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 4
+      }
+    },
+    "rules": {
+      "total": 83,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 14,
+        "mean": 4.409638554216867,
+        "mode": 3,
+        "median": 4,
+        "range": 12,
+        "sum": 366,
+        "items": [
+          14,
+          2,
+          2,
+          4,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          9,
+          4,
+          5,
+          6,
+          5,
+          3,
+          4,
+          4,
+          4,
+          3,
+          3,
+          5,
+          3,
+          2,
+          3,
+          5,
+          3,
+          2,
+          5,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          8,
+          7,
+          2,
+          9,
+          3,
+          7,
+          6,
+          3,
+          4,
+          7,
+          9,
+          6,
+          8,
+          6,
+          7,
+          9,
+          6,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          6,
+          5,
+          5,
+          6,
+          9,
+          2,
+          3,
+          3,
+          2,
+          2,
+          2,
+          5,
+          2,
+          2,
+          3,
+          8,
+          6,
+          7,
+          4,
+          6,
+          4,
+          3,
+          4,
+          3
+        ],
+        "total": 83,
+        "totalUnique": 9,
+        "unique": {
+          "2": 16,
+          "3": 23,
+          "4": 12,
+          "5": 9,
+          "6": 9,
+          "7": 5,
+          "8": 3,
+          "9": 5,
+          "14": 1
+        },
+        "uniquenessRatio": 0.10843373493975904
+      },
+      "selectors": {
+        "min": 1,
+        "max": 4,
+        "mean": 1.0843373493975903,
+        "mode": 1,
+        "median": 1,
+        "range": 3,
+        "sum": 90,
+        "items": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 83,
+        "totalUnique": 3,
+        "unique": {
+          "1": 78,
+          "2": 4,
+          "4": 1
+        },
+        "uniquenessRatio": 0.03614457831325301
+      },
+      "declarations": {
+        "min": 1,
+        "max": 13,
+        "mean": 3.325301204819277,
+        "mode": 2,
+        "median": 3,
+        "range": 12,
+        "sum": 276,
+        "items": [
+          13,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          3,
+          4,
+          5,
+          4,
+          2,
+          3,
+          3,
+          3,
+          2,
+          2,
+          4,
+          2,
+          1,
+          2,
+          4,
+          2,
+          1,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          7,
+          6,
+          1,
+          8,
+          2,
+          6,
+          5,
+          2,
+          3,
+          6,
+          8,
+          5,
+          7,
+          5,
+          6,
+          8,
+          5,
+          4,
+          3,
+          3,
+          2,
+          2,
+          2,
+          5,
+          4,
+          3,
+          5,
+          8,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          2,
+          7,
+          5,
+          6,
+          3,
+          4,
+          3,
+          2,
+          3,
+          2
+        ],
+        "total": 83,
+        "totalUnique": 9,
+        "unique": {
+          "1": 16,
+          "2": 25,
+          "3": 11,
+          "4": 9,
+          "5": 9,
+          "6": 5,
+          "7": 3,
+          "8": 4,
+          "13": 1
+        },
+        "uniquenessRatio": 0.10843373493975904
+      }
+    },
+    "selectors": {
+      "total": 90,
+      "totalUnique": 74,
+      "uniquenessRatio": 0.8222222222222222,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          1,
+          1,
+          1
+        ],
+        "sum": [
+          1,
+          81,
+          45
+        ],
+        "mean": [
+          0.011111111111111112,
+          0.9,
+          0.5
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "total": 90,
+        "totalUnique": 9,
+        "unique": {
+          "0,1,0": 46,
+          "0,0,0": 1,
+          "0,0,1": 13,
+          "0,1,1": 23,
+          "0,1,2": 2,
+          "0,3,2": 1,
+          "0,2,1": 2,
+          "0,2,0": 1,
+          "1,1,1": 1
+        },
+        "uniquenessRatio": 0.1
+      },
+      "complexity": {
+        "min": 1,
+        "max": 8,
+        "mean": 1.788888888888889,
+        "mode": 1,
+        "median": 1,
+        "range": 7,
+        "sum": 161,
+        "total": 90,
+        "totalUnique": 7,
+        "unique": {
+          "1": 60,
+          "2": 3,
+          "3": 21,
+          "4": 2,
+          "5": 2,
+          "6": 1,
+          "8": 1
+        },
+        "uniquenessRatio": 0.07777777777777778,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          2,
+          5,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          3,
+          3,
+          1,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          8,
+          3,
+          3,
+          4,
+          1,
+          1,
+          1,
+          2,
+          5,
+          1,
+          1,
+          1,
+          3,
+          3,
+          6,
+          3,
+          4,
+          1,
+          1,
+          3
+        ]
+      },
+      "id": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          ".form_form textarea#msg": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.011111111111111112
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 31,
+        "totalUnique": 2,
+        "unique": {
+          " ": 27,
+          ">": 4
+        },
+        "uniquenessRatio": 0.06451612903225806
+      }
+    },
+    "declarations": {
+      "total": 276,
+      "totalUnique": 154,
+      "uniquenessRatio": 0.5579710144927537,
+      "unique": {
+        "total": 154,
+        "ratio": 0.5579710144927537
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 276
+      }
+    },
+    "properties": {
+      "total": 276,
+      "totalUnique": 57,
+      "unique": {
+        "--brown": 1,
+        "--green": 1,
+        "--blue": 1,
+        "--black": 1,
+        "--white": 1,
+        "--gren": 1,
+        "--fs-s": 1,
+        "--fs-md": 1,
+        "--fs-lg": 1,
+        "--fs-xl": 1,
+        "--fs-2xl": 1,
+        "--fs-3xl": 1,
+        "--fs-4xl": 1,
+        "box-sizing": 1,
+        "background-color": 10,
+        "max-width": 8,
+        "height": 12,
+        "font-weight": 7,
+        "line-height": 5,
+        "font-size": 13,
+        "color": 6,
+        "appearance": 1,
+        "border": 2,
+        "background": 3,
+        "outline": 1,
+        "padding": 16,
+        "list-style": 1,
+        "margin": 9,
+        "display": 28,
+        "position": 5,
+        "overflow": 2,
+        "clip-path": 1,
+        "width": 28,
+        "flex-wrap": 5,
+        "align-items": 10,
+        "justify-content": 9,
+        "margin-right": 1,
+        "text-decoration": 3,
+        "list-style-type": 1,
+        "float": 3,
+        "text-align": 18,
+        "clear": 1,
+        "flex-direction": 11,
+        "background-image": 2,
+        "background-position": 3,
+        "border-radius": 6,
+        "gap": 8,
+        "margin-top": 4,
+        "margin-bottom": 4,
+        "text-transform": 3,
+        "flex": 2,
+        "min-width": 3,
+        "letter-spacing": 2,
+        "left": 1,
+        "background-size": 1,
+        "min-height": 2,
+        "resize": 1
+      },
+      "uniquenessRatio": 0.20652173913043478,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 13,
+        "totalUnique": 13,
+        "unique": {
+          "--brown": 1,
+          "--green": 1,
+          "--blue": 1,
+          "--black": 1,
+          "--white": 1,
+          "--gren": 1,
+          "--fs-s": 1,
+          "--fs-md": 1,
+          "--fs-lg": 1,
+          "--fs-xl": 1,
+          "--fs-2xl": 1,
+          "--fs-3xl": 1,
+          "--fs-4xl": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.04710144927536232,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0471014492753623,
+        "mode": 1,
+        "median": 1,
+        "range": 1,
+        "sum": 289
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 12,
+        "totalUnique": 10,
+        "unique": {
+          "#C4A893": 1,
+          "#5D9084": 1,
+          "#83A2B3": 1,
+          "#000000": 2,
+          "#FFFFFF": 1,
+          "black": 1,
+          "#a5bfcc": 1,
+          "white": 2,
+          "rgba(93, 144, 132, 0.7)": 1,
+          "#f0f0f0": 1
+        },
+        "uniquenessRatio": 0.8333333333333334,
+        "itemsPerContext": {
+          "--brown": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#C4A893": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--green": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#5D9084": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#83A2B3": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--black": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--white": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#FFFFFF": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 3,
+            "totalUnique": 3,
+            "unique": {
+              "black": 1,
+              "#000000": 1,
+              "white": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 3,
+            "totalUnique": 3,
+            "unique": {
+              "#a5bfcc": 1,
+              "rgba(93, 144, 132, 0.7)": 1,
+              "#f0f0f0": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "white": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 12,
+          "totalUnique": 3,
+          "unique": {
+            "hex6": 8,
+            "named": 3,
+            "rgba": 1
+          },
+          "uniquenessRatio": 0.25
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontSizes": {
+        "total": 13,
+        "totalUnique": 10,
+        "unique": {
+          "var(--fs-4xl)": 1,
+          "var(--fs-2xl)": 1,
+          "var(--fs-lg)": 2,
+          "var(--fs-3xl)": 1,
+          "1.2rem": 3,
+          "0.95rem": 1,
+          "1rem": 1,
+          "0.9rem": 1,
+          "1.5em": 1,
+          "1.3em": 1
+        },
+        "uniquenessRatio": 0.7692307692307693
+      },
+      "lineHeights": {
+        "total": 5,
+        "totalUnique": 4,
+        "unique": {
+          "1.1": 1,
+          "1.4": 1,
+          "1.5": 2,
+          "1.6": 1
+        },
+        "uniquenessRatio": 0.8
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          "50px": 2,
+          "51px": 1,
+          "20px": 2,
+          "8px": 1
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 6,
+            "totalUnique": 4,
+            "unique": {
+              "50px": 2,
+              "51px": 1,
+              "20px": 2,
+              "8px": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 91,
+        "totalUnique": 4,
+        "unique": {
+          "rem": 19,
+          "px": 69,
+          "vh": 1,
+          "em": 2
+        },
+        "uniquenessRatio": 0.04395604395604396,
+        "itemsPerContext": {
+          "--fs-s": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-2xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-3xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--fs-4xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 14,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 3,
+              "px": 11
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "width": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "px": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "height": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "margin-right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-position": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "max-width": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "border-radius": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "gap": {
+            "total": 8,
+            "totalUnique": 2,
+            "unique": {
+              "px": 7,
+              "rem": 1
+            },
+            "uniquenessRatio": 0.25
+          },
+          "margin-top": {
+            "total": 3,
+            "totalUnique": 2,
+            "unique": {
+              "px": 2,
+              "rem": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          },
+          "margin-bottom": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 1,
+              "px": 3
+            },
+            "uniquenessRatio": 0.5
+          },
+          "font-size": {
+            "total": 8,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 6,
+              "em": 2
+            },
+            "uniquenessRatio": 0.25
+          },
+          "margin": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "min-width": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "letter-spacing": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "min-height": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "vh": 1,
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 275
+      },
+      "keywords": {
+        "total": 23,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 9,
+          "none": 14
+        },
+        "uniquenessRatio": 0.08695652173913043
+      }
+    },
+    "__meta__": {
+      "parseTime": 3,
+      "analyzeTime": 3,
+      "total": 6
+    },
+    "imports": {
+      "total": 9,
+      "imports": [
+        {
+          "path": "vendors/normalize.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": true,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "vendor",
+          "fileSize": 6137
+        },
+        {
+          "path": "utils/variables.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/utils/variables.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "utils",
+          "fileSize": 360
+        },
+        {
+          "path": "base/main.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/base/main.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "base",
+          "fileSize": 793
+        },
+        {
+          "path": "layout/header.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/layout/header.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 688
+        },
+        {
+          "path": "layout/footer.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/layout/footer.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 863
+        },
+        {
+          "path": "composents/card.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/composents/card.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 3811
+        },
+        {
+          "path": "composents/texte.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/composents/texte.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 140
+        },
+        {
+          "path": "composents/menu.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/composents/menu.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 862
+        },
+        {
+          "path": "composents/form.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/composents/form.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 1134
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 0,
+        "externalCount": 0,
+        "relativeCount": 9,
+        "validCount": 9,
+        "invalidCount": 0,
+        "categories": {
+          "vendor": 1,
+          "utils": 1,
+          "base": 1,
+          "layout": 2,
+          "custom": 4
+        },
+        "namingIssues": {
+          "totalFiles": 9,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 86,
+        "breakdown": {
+          "validity": {
+            "score": 25,
+            "max": 25,
+            "details": "Tous les imports sont valides."
+          },
+          "organization": {
+            "score": 30,
+            "max": 30,
+            "details": "5 catégories utilisées. Bonne modularité."
+          },
+          "performance": {
+            "score": 10,
+            "max": 20,
+            "details": "9 imports. Manque de modularité. Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 15,
+            "max": 15,
+            "details": "Conventions de nommage respectées."
+          },
+          "bestPractices": {
+            "score": 6,
+            "max": 10,
+            "details": "Bonnes pratiques: Utilise normalize.css."
+          }
+        },
+        "grade": "B",
+        "improvements": [
+          "Augmenter la modularité : créer un fichier CSS par composant (idéal : 15-25 imports)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 13,
+      "totalUsed": 8,
+      "totalUnused": 5,
+      "totalUndeclared": 4,
+      "declarations": [
+        {
+          "name": "--brown",
+          "value": "#C4A893",
+          "usageCount": 2,
+          "category": "color"
+        },
+        {
+          "name": "--green",
+          "value": "#5D9084",
+          "usageCount": 3,
+          "category": "color"
+        },
+        {
+          "name": "--blue",
+          "value": "#83A2B3",
+          "usageCount": 2,
+          "category": "color"
+        },
+        {
+          "name": "--black",
+          "value": "#000000",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--white",
+          "value": "#FFFFFF",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--gren",
+          "value": "rgba(93, 144, 132, 0.5)\n\n /* Text-size styles */\n  --fs-xs: 0.75rem",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--fs-s",
+          "value": "0.875rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--fs-md",
+          "value": "1rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--fs-lg",
+          "value": "1.375rem",
+          "usageCount": 2,
+          "category": "other"
+        },
+        {
+          "name": "--fs-xl",
+          "value": "1.5rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--fs-2xl",
+          "value": "2.1875rem",
+          "usageCount": 1,
+          "category": "other"
+        },
+        {
+          "name": "--fs-3xl",
+          "value": "2.625rem",
+          "usageCount": 1,
+          "category": "other"
+        },
+        {
+          "name": "--fs-4xl",
+          "value": "3.125rem",
+          "usageCount": 1,
+          "category": "other"
+        }
+      ],
+      "unusedVariables": [
+        {
+          "name": "--white",
+          "value": "#FFFFFF",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--gren",
+          "value": "rgba(93, 144, 132, 0.5)\n\n /* Text-size styles */\n  --fs-xs: 0.75rem",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--fs-s",
+          "value": "0.875rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--fs-md",
+          "value": "1rem",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--fs-xl",
+          "value": "1.5rem",
+          "usageCount": 0,
+          "category": "other"
+        }
+      ],
+      "undeclaredUsages": [
+        {
+          "name": "--gray-800",
+          "fallback": null
+        },
+        {
+          "name": "--primary",
+          "fallback": null
+        },
+        {
+          "name": "--space1x",
+          "fallback": null
+        },
+        {
+          "name": "--withe",
+          "fallback": null
+        }
+      ],
+      "categorization": {
+        "color": 6,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 0,
+        "other": 7
+      },
+      "detailedCategorization": {
+        "color": [
+          {
+            "name": "--brown",
+            "value": "#C4A893",
+            "usageCount": 2,
+            "category": "color"
+          },
+          {
+            "name": "--green",
+            "value": "#5D9084",
+            "usageCount": 3,
+            "category": "color"
+          },
+          {
+            "name": "--blue",
+            "value": "#83A2B3",
+            "usageCount": 2,
+            "category": "color"
+          },
+          {
+            "name": "--black",
+            "value": "#000000",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--white",
+            "value": "#FFFFFF",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--gren",
+            "value": "rgba(93, 144, 132, 0.5)\n\n /* Text-size styles */\n  --fs-xs: 0.75rem",
+            "usageCount": 0,
+            "category": "color"
+          }
+        ],
+        "typography": [],
+        "spacing": [],
+        "radius": [],
+        "other": [
+          {
+            "name": "--fs-s",
+            "value": "0.875rem",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--fs-md",
+            "value": "1rem",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--fs-lg",
+            "value": "1.375rem",
+            "usageCount": 2,
+            "category": "other"
+          },
+          {
+            "name": "--fs-xl",
+            "value": "1.5rem",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--fs-2xl",
+            "value": "2.1875rem",
+            "usageCount": 1,
+            "category": "other"
+          },
+          {
+            "name": "--fs-3xl",
+            "value": "2.625rem",
+            "usageCount": 1,
+            "category": "other"
+          },
+          {
+            "name": "--fs-4xl",
+            "value": "3.125rem",
+            "usageCount": 1,
+            "category": "other"
+          }
+        ]
+      },
+      "ratio": {
+        "variableUsages": 16,
+        "rawProperties": 259,
+        "variableRatio": 0.05818181818181818
+      },
+      "score": {
+        "total": 34,
+        "breakdown": {
+          "adoption": {
+            "score": 7,
+            "max": 40,
+            "details": "6% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 19,
+            "max": 25,
+            "details": "8/13 variables utilisées (62%)."
+          },
+          "hygiene": {
+            "score": 5,
+            "max": 20,
+            "details": "Problèmes: 4 usage(s) non déclaré(s), 5 variable(s) inutilisée(s)."
+          },
+          "categories": {
+            "score": 3,
+            "max": 10,
+            "details": "1/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Faible adoption, usages non déclarés présents."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Supprimer les variables inutilisées ou les mettre en usage",
+          "Déclarer toutes les variables utilisées (éviter var(--x) non déclarées)",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": false,
+        "count": 0,
+        "sources": {
+          "html": 0,
+          "css": 0
+        },
+        "details": []
+      },
+      "fontFamilies": {},
+      "summary": {
+        "totalFamilies": 0,
+        "totalFontFamilyDeclarations": 0,
+        "totalFontSizeDeclarations": 13,
+        "totalLineHeightDeclarations": 5,
+        "hasGlobalFontFamily": false,
+        "globalFamilies": 0,
+        "inheritanceQuality": 0,
+        "averageDeclarationsPerFamily": 0,
+        "familiesWithFallbacks": 0,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 0,
+        "fontSizeUnits": {
+          "units": {
+            "px": 0,
+            "rem": 8,
+            "em": 2,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 10,
+          "relativeUnits": 10,
+          "relativeRatio": 1
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 5,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 5,
+          "proportionalUnits": 5,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {},
+        "fontSizeDetails": {
+          "3.125rem": {
+            "count": 1,
+            "selectors": [
+              "h1"
+            ]
+          },
+          "2.1875rem": {
+            "count": 1,
+            "selectors": [
+              "h2"
+            ]
+          },
+          "1.375rem": {
+            "count": 2,
+            "selectors": [
+              ".header_header a",
+              ".card_present"
+            ]
+          },
+          "2.625rem": {
+            "count": 1,
+            "selectors": [
+              ".card_h2"
+            ]
+          },
+          "1.2rem": {
+            "count": 3,
+            "selectors": [
+              ".card_cards h2",
+              ".card_horaires h2",
+              ".card_tarifs h2"
+            ]
+          },
+          "0.95rem": {
+            "count": 1,
+            "selectors": [
+              ".card_horaires p"
+            ]
+          },
+          "1rem": {
+            "count": 1,
+            "selectors": [
+              ".card_tarifs h3"
+            ]
+          },
+          "0.9rem": {
+            "count": 1,
+            "selectors": [
+              ".card_tarifs p"
+            ]
+          },
+          "1.5em": {
+            "count": 1,
+            "selectors": [
+              ".form_form h1"
+            ]
+          },
+          "1.3em": {
+            "count": 1,
+            "selectors": [
+              ".form_form h1"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "1.1": {
+            "count": 1
+          },
+          "1.4": {
+            "count": 1
+          },
+          "1.5": {
+            "count": 2
+          },
+          "1.6": {
+            "count": 1
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": true,
+        "excessiveFontFamilyDeclarations": false,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 28,
+        "breakdown": {
+          "webfonts": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucune webfont détectée."
+          },
+          "fallbacks": {
+            "score": 0,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 0,
+            "max": 25,
+            "details": "Pas de police globale. Qualité d'héritage: 0%."
+          },
+          "sizes": {
+            "score": 14,
+            "max": 20,
+            "details": "Trop de variations de tailles. 100% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 9,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 5,
+            "details": "Nombre de déclarations approprié."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Utiliser des webfonts pour améliorer la typographie",
+          "Ajouter des polices de secours avec familles génériques",
+          "Définir une police globale et réduire les redéclarations",
+          "Définir des line-heights pour toutes les font-size",
+          "Réduire le nombre de variations de tailles de police"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 93,
+      "nodesWithClasses": 93,
+      "uniqueClasses": [
+        "header_header",
+        "header_logo",
+        "header_menu",
+        "menu_burger",
+        "menu_ul",
+        "menu_deroulant",
+        "menu_sous",
+        "header_carroussel",
+        "card_presentation",
+        "card_cardblue",
+        "card_h2",
+        "card_present",
+        "card_cards",
+        "card_sortie",
+        "card_img",
+        "card_alaune",
+        "card_nature",
+        "card_asso",
+        "card_assotxt",
+        "button_bltogr1",
+        "card_card",
+        "card_horaires",
+        "card_tarifs",
+        "button_button",
+        "footer_footer",
+        "footer_firstpart",
+        "footer_animaux",
+        "footer_imganimaux",
+        "footer_adresse",
+        "footer_access",
+        "footer_imgaccess",
+        "footer_secondpart",
+        "footer_partenaire",
+        "footer_logopartlife",
+        "footer_logopartparc",
+        "footer_reseaux",
+        "footer_map",
+        "form_back",
+        "form_form"
+      ],
+      "frequency": {
+        "header_header": 3,
+        "header_logo": 3,
+        "header_menu": 3,
+        "menu_burger": 1,
+        "menu_ul": 3,
+        "menu_deroulant": 12,
+        "menu_sous": 12,
+        "header_carroussel": 1,
+        "card_presentation": 1,
+        "card_cardblue": 1,
+        "card_h2": 1,
+        "card_present": 1,
+        "card_cards": 1,
+        "card_sortie": 1,
+        "card_img": 4,
+        "card_alaune": 1,
+        "card_nature": 1,
+        "card_asso": 1,
+        "card_assotxt": 1,
+        "button_bltogr1": 2,
+        "card_card": 1,
+        "card_horaires": 1,
+        "card_tarifs": 1,
+        "button_button": 1,
+        "footer_footer": 3,
+        "footer_firstpart": 3,
+        "footer_animaux": 3,
+        "footer_imganimaux": 3,
+        "footer_adresse": 3,
+        "footer_access": 3,
+        "footer_imgaccess": 3,
+        "footer_secondpart": 3,
+        "footer_partenaire": 3,
+        "footer_logopartlife": 1,
+        "footer_logopartparc": 1,
+        "footer_reseaux": 3,
+        "footer_map": 1,
+        "form_back": 1,
+        "form_form": 1
+      },
+      "averageClassesPerNode": 1,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 1,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "list-unstyled",
+        "highlight",
+        "sr-only",
+        "header_header",
+        "header_logo",
+        "header_menu",
+        "header_carroussel",
+        "footer_footer",
+        "footer_firstpart",
+        "footer_animaux",
+        "footer_imganimaux",
+        "footer_adresse",
+        "footer_access",
+        "footer_imgaccess",
+        "footer_secondpart",
+        "footer_logopartlife",
+        "footer_logopartparc",
+        "footer_partenaire",
+        "card_presentation",
+        "card_cardblue",
+        "card_h2",
+        "card_present",
+        "card_cards",
+        "card_img",
+        "card_asso",
+        "card_assotxt",
+        "card_card",
+        "card_horaires",
+        "card_tarifs",
+        "txt_horaires",
+        "menu_sous",
+        "menu_burger",
+        "menu_ul",
+        "open",
+        "form_back",
+        "form_form"
+      ],
+      "totalSelectors": 90,
+      "selectorsWithMultipleClasses": 2,
+      "specificity": {
+        "average": 10.04,
+        "max": 111
+      },
+      "complexSelectorsRatio": 0.111,
+      "selectorForms": {
+        "bemSelectors": 4,
+        "pureBemSelectors": 3,
+        "pureBemSelectorsRatio": 0.033,
+        "selectorsWithAncestor": 27,
+        "selectorsWithId": 1,
+        "selectorsWithType": 41,
+        "selectorsWithAttribute": 1,
+        "ancestorsRatio": 0.3,
+        "withIdRatio": 0.011,
+        "withTypeRatio": 0.456
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "list-unstyled",
+        "highlight",
+        "sr-only",
+        "txt_horaires",
+        "open"
+      ],
+      "undefinedHtmlClasses": [
+        "menu_deroulant",
+        "card_sortie",
+        "card_alaune",
+        "card_nature",
+        "button_bltogr1",
+        "button_button",
+        "footer_reseaux",
+        "footer_map"
+      ],
+      "coverageHtml": 0.795,
+      "coverageCss": 0.861,
+      "cssEfficiency": 0.861
+    },
+    "bem": {
+      "blocks": {
+        "list-unstyled": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "highlight": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "sr-only": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "open": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 4,
+        "elements": 0,
+        "modifiers": 0,
+        "elementModifiers": 0,
+        "other": 40
+      },
+      "ratios": {
+        "bemClassesRatio": 0.091,
+        "structuredBlocksRatio": 0
+      },
+      "depth": {
+        "max": 1,
+        "average": 1
+      },
+      "blockStructure": {
+        "totalBlocks": 4,
+        "structuredBlocks": 0,
+        "orphanBlocks": 4,
+        "implicitBlocks": []
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {},
+      "entropy": 4.791,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-12-08T12:39:56.528Z"
+    },
+    "score": {
+      "bem": {
+        "total": 19,
+        "breakdown": {
+          "coverage": {
+            "score": 8,
+            "max": 15,
+            "details": "Couverture moyenne: 83%"
+          },
+          "selectorForms": {
+            "score": 6,
+            "max": 30,
+            "details": "Pure BEM: 3%"
+          },
+          "structure": {
+            "score": 3,
+            "max": 25,
+            "details": "Blocs structurés: 0%"
+          },
+          "elementsRatio": {
+            "score": 0,
+            "max": 20,
+            "details": "Éléments/bloc: 0"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 57,
+    "breakdown": {
+      "errorPenalty": 43,
+      "warningPenalty": 0
+    },
+    "grade": "F",
+    "improvements": [
+      "Corriger les 13 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 13,
+      "totalWarnings": 0,
+      "averageErrors": 4.33,
+      "pagesAnalyzed": 3
+    }
+  }
+}
