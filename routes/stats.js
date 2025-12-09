@@ -2,7 +2,7 @@ import express from "express";
 import {
   calculateClassStats,
   getStudentComparison,
-} from "../services/statsService.js";
+} from "../services/stats/statsService.js";
 
 const router = express.Router();
 

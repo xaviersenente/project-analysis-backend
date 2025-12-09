@@ -1,12 +1,12 @@
 import fs from "fs";
 import path from "path";
-import { HtmlCrawler } from "../services/fileScannerService.js";
+import { HtmlCrawler } from "../services/html/fileScannerService.js";
 import {
   analyzeHTML,
   extractTitleAndImagesFromHTML,
   analyzeAllPages,
   runLighthouse,
-} from "../services/analysisService.js";
+} from "../services/htmlAnalysisService.js";
 import {
   compileCSS,
   analyzeCSS,
@@ -17,8 +17,8 @@ import {
 import {
   validateHTML,
   calculateValidationScore,
-} from "../services/validationService.js";
-import { performClassAnalysis } from "../services/classAnalysisService.js";
+} from "../services/html/validationService.js";
+import { performClassAnalysis } from "../services/css/classAnalysisService.js";
 import axios from "axios";
 
 /**

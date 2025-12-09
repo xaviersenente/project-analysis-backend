@@ -1,14 +1,9 @@
 /**
  * Service façade pour l'analyse CSS
  * Réexporte toutes les fonctionnalités des modules spécialisés
- * pour assurer la rétrocompatibilité
  */
 
 import { analyze } from "@projectwallace/css-analyzer";
-import { compileCSS } from "./css/cssCompiler.js";
-import { analyzeImports } from "./css/cssImportsAnalyzer.js";
-import { analyzeCustomProperties } from "./css/cssVariablesAnalyzer.js";
-import { analyzeTypography } from "./css/cssTypographyAnalyzer.js";
 
 // Réexporter les fonctions principales
 export { compileCSS } from "./css/cssCompiler.js";
