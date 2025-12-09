@@ -1,0 +1,1612 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5503/",
+      "title": "LUMIMIX — Festival 2026",
+      "images": [
+        {
+          "src": "/assets/img/svg/francaisbouton.svg",
+          "alt": "Français",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/menuboutton.svg",
+          "alt": "Menu",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/gif/Baleine-GIF-good.gif",
+          "alt": "Baleine animée",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/Programmation.svg",
+          "alt": "Programmation",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/img/poupledépixélisé1.avif",
+          "alt": "Poulpe",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/historique.svg",
+          "alt": "Historique",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/flechegauche.svg",
+          "alt": "Flèche gauche",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/redbull.svg",
+          "alt": "Red Bull",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/jbl.svg",
+          "alt": "JBL",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/spotify.svg",
+          "alt": "Spotify",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/lidl.svg",
+          "alt": "Lidl",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/decathlon.svg",
+          "alt": "Decathlon",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/flechedroite.svg",
+          "alt": "Flèche droite",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/LogoLumimix.svg",
+          "alt": "LUMIMIX",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/facebook.svg",
+          "alt": "Facebook",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/xtwitter.svg",
+          "alt": "X (Twitter)",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/instagram.svg",
+          "alt": "Instagram",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/tiktok.svg",
+          "alt": "TikTok",
+          "ariaHidden": "✕"
+        },
+        {
+          "src": "/assets/img/svg/youtube.svg",
+          "alt": "YouTube",
+          "ariaHidden": "✕"
+        }
+      ],
+      "totalTags": 97,
+      "externalLinks": 0,
+      "internalLinks": 1,
+      "deadLinks": 8,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "LUMIMIX",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "PROGRAMMATION",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "PROGRAMMATION",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "PLUSIEURS NUITS DE VIBRATIONS ÉLECTRIQUES",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "PLUSIEURS NUITS DE VIBRATIONS ÉLECTRIQUES",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "NOS PARTENAIRES",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "NOS PARTENAIRES",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.75,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5503/",
+            "resourceSize": 8759,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5503/src/css/style.css",
+            "resourceSize": 54,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/francaisbouton.svg",
+            "resourceSize": 2248,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/menuboutton.svg",
+            "resourceSize": 1695,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/gif/Baleine-GIF-good.gif",
+            "resourceSize": 15981547,
+            "mimeType": "image/gif",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/Programmation.svg",
+            "resourceSize": 5396,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/img/poupled%C3%A9pix%C3%A9lis%C3%A91.avif",
+            "resourceSize": 61094,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/historique.svg",
+            "resourceSize": 4932,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/flechegauche.svg",
+            "resourceSize": 2013,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/redbull.svg",
+            "resourceSize": 46163,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/jbl.svg",
+            "resourceSize": 25975,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/spotify.svg",
+            "resourceSize": 42401,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/lidl.svg",
+            "resourceSize": 37423,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/decathlon.svg",
+            "resourceSize": 28747,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/flechedroite.svg",
+            "resourceSize": 2000,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/LogoLumimix.svg",
+            "resourceSize": 5883,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/facebook.svg",
+            "resourceSize": 2215,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/xtwitter.svg",
+            "resourceSize": 2110,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/instagram.svg",
+            "resourceSize": 3230,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/tiktok.svg",
+            "resourceSize": 2205,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/youtube.svg",
+            "resourceSize": 2127,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/src/css/accueilfr.css",
+            "resourceSize": 8325,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5503/src/css/festival.css",
+            "resourceSize": 5702,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/gif/Fondgif.gif",
+            "resourceSize": 256737,
+            "mimeType": "image/gif",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/goup.svg",
+            "resourceSize": 2081,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/svg/separateurdates.svg",
+            "resourceSize": 2455,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "p",
+      "ul",
+      "li",
+      "button",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "article",
+      "nav",
+      "h3",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "video",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "span",
+      "div"
+    ],
+    "otherTagsUsage": {
+      "span": 7,
+      "div": 25
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 2,
+      "linesOfCode": 2,
+      "size": 54,
+      "complexity": 2,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "url(accueilfr.css)": 1,
+          "url(festival.css)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "total": 2,
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "median": 1,
+        "range": 0,
+        "sum": 2
+      }
+    },
+    "rules": {
+      "total": 0,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "selectors": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "declarations": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "selectors": {
+      "total": 0,
+      "totalUnique": 0,
+      "uniquenessRatio": 0,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          0,
+          0
+        ],
+        "sum": [
+          0,
+          0,
+          0
+        ],
+        "mean": [
+          0,
+          0,
+          0
+        ],
+        "mode": [
+          0,
+          0,
+          0
+        ],
+        "median": [
+          0,
+          0,
+          0
+        ],
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0,
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "items": []
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "declarations": {
+      "total": 0,
+      "totalUnique": 0,
+      "uniquenessRatio": 0,
+      "unique": {
+        "total": 0,
+        "ratio": 0
+      },
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0
+      }
+    },
+    "properties": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {},
+        "formats": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontSizes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "lineHeights": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "median": 0,
+        "range": 0,
+        "sum": 0
+      },
+      "keywords": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 0,
+      "total": 1
+    },
+    "imports": {
+      "total": 2,
+      "imports": [
+        {
+          "path": "accueilfr.css",
+          "resolvedUrl": "http://127.0.0.1:5503/src/css/accueilfr.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 8325
+        },
+        {
+          "path": "festival.css",
+          "resolvedUrl": "http://127.0.0.1:5503/src/css/festival.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 5702
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 0,
+        "externalCount": 0,
+        "relativeCount": 2,
+        "validCount": 2,
+        "invalidCount": 0,
+        "categories": {
+          "custom": 2
+        },
+        "namingIssues": {
+          "totalFiles": 2,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 61,
+        "breakdown": {
+          "validity": {
+            "score": 25,
+            "max": 25,
+            "details": "Tous les imports sont valides."
+          },
+          "organization": {
+            "score": 13,
+            "max": 30,
+            "details": "1 catégorie(s). Manque de modularité."
+          },
+          "performance": {
+            "score": 5,
+            "max": 20,
+            "details": "2 import(s). Faible modularité. Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 15,
+            "max": 15,
+            "details": "Conventions de nommage respectées."
+          },
+          "bestPractices": {
+            "score": 3,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Organiser le CSS en catégories (base, components, layout, utils)",
+          "Augmenter la modularité : créer un fichier CSS par composant (idéal : 15-25 imports)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 0,
+      "totalUsed": 0,
+      "totalUnused": 0,
+      "totalUndeclared": 0,
+      "declarations": [],
+      "unusedVariables": [],
+      "undeclaredUsages": [],
+      "categorization": {
+        "color": 0,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 0,
+        "other": 0
+      },
+      "detailedCategorization": {
+        "color": [],
+        "typography": [],
+        "spacing": [],
+        "radius": [],
+        "other": []
+      },
+      "ratio": {
+        "variableUsages": 0,
+        "rawProperties": 0,
+        "variableRatio": 0
+      },
+      "score": {
+        "total": 22,
+        "breakdown": {
+          "adoption": {
+            "score": 0,
+            "max": 40,
+            "details": "0% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 0,
+            "max": 25,
+            "details": "Aucune variable déclarée."
+          },
+          "hygiene": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucun problème d'hygiène détecté."
+          },
+          "categories": {
+            "score": 0,
+            "max": 10,
+            "details": "0/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Faible adoption, aucun usage non déclaré."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": false,
+        "count": 0,
+        "sources": {
+          "html": 0,
+          "css": 0
+        },
+        "details": []
+      },
+      "fontFamilies": {},
+      "summary": {
+        "totalFamilies": 0,
+        "totalFontFamilyDeclarations": 0,
+        "totalFontSizeDeclarations": 0,
+        "totalLineHeightDeclarations": 0,
+        "hasGlobalFontFamily": false,
+        "globalFamilies": 0,
+        "inheritanceQuality": 0,
+        "averageDeclarationsPerFamily": 0,
+        "familiesWithFallbacks": 0,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 0,
+        "fontSizeUnits": {
+          "units": {
+            "px": 0,
+            "rem": 0,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 0,
+          "relativeUnits": 0,
+          "relativeRatio": 0
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 0,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 0,
+          "proportionalUnits": 0,
+          "proportionalRatio": 0
+        },
+        "fontFamilyDetails": {},
+        "fontSizeDetails": {},
+        "lineHeightDetails": {}
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": true,
+        "excessiveFontFamilyDeclarations": false,
+        "missingLineHeights": false,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 5,
+        "breakdown": {
+          "webfonts": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucune webfont détectée."
+          },
+          "fallbacks": {
+            "score": 0,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 0,
+            "max": 25,
+            "details": "Pas de police globale. Qualité d'héritage: 0%."
+          },
+          "sizes": {
+            "score": 0,
+            "max": 20,
+            "details": "Peu de variations de tailles. 0% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 0,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 0% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 5,
+            "details": "Nombre de déclarations approprié."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Utiliser des webfonts pour améliorer la typographie",
+          "Ajouter des polices de secours avec familles génériques",
+          "Définir une police globale et réduire les redéclarations",
+          "Privilégier rem/em au lieu de px pour les font-size",
+          "Définir des line-heights pour toutes les font-size",
+          "Privilégier les valeurs proportionnelles (unitless ou %) pour line-height"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 63,
+      "nodesWithClasses": 61,
+      "uniqueClasses": [
+        "billetterie",
+        "billet-text",
+        "btn-top",
+        "topbar",
+        "btn-lang",
+        "btn-menu",
+        "festival",
+        "tag",
+        "hero",
+        "hero-gif",
+        "dates",
+        "date",
+        "day",
+        "month",
+        "sep",
+        "dj",
+        "electro",
+        "raggae",
+        "location",
+        "loc-title",
+        "loc-city",
+        "program",
+        "program-year",
+        "program-title",
+        "program-list",
+        "program-logo",
+        "pouple-img",
+        "vibrations",
+        "vibrations-title",
+        "vibrations-text",
+        "vibrations-highlight",
+        "historique-logo",
+        "partenaires",
+        "partenaires-title",
+        "carousel-container",
+        "carousel-btn",
+        "carousel-btn-left",
+        "carousel-track-container",
+        "carousel-track",
+        "carousel-slide",
+        "carousel-btn-right",
+        "footer",
+        "footer-content",
+        "footer-logo",
+        "footer-social",
+        "social-link",
+        "footer-links",
+        "footer-link",
+        "footer-divider",
+        "footer-credit"
+      ],
+      "frequency": {
+        "billetterie": 1,
+        "billet-text": 1,
+        "btn-top": 1,
+        "topbar": 1,
+        "btn-lang": 1,
+        "btn-menu": 1,
+        "festival": 1,
+        "tag": 1,
+        "hero": 1,
+        "hero-gif": 1,
+        "dates": 1,
+        "date": 2,
+        "day": 2,
+        "month": 2,
+        "sep": 1,
+        "dj": 1,
+        "electro": 1,
+        "raggae": 1,
+        "location": 1,
+        "loc-title": 1,
+        "loc-city": 1,
+        "program": 1,
+        "program-year": 1,
+        "program-title": 1,
+        "program-list": 1,
+        "program-logo": 1,
+        "pouple-img": 1,
+        "vibrations": 1,
+        "vibrations-title": 1,
+        "vibrations-text": 1,
+        "vibrations-highlight": 1,
+        "historique-logo": 1,
+        "partenaires": 1,
+        "partenaires-title": 1,
+        "carousel-container": 1,
+        "carousel-btn": 2,
+        "carousel-btn-left": 1,
+        "carousel-track-container": 1,
+        "carousel-track": 1,
+        "carousel-slide": 5,
+        "carousel-btn-right": 1,
+        "footer": 1,
+        "footer-content": 1,
+        "footer-logo": 1,
+        "footer-social": 1,
+        "social-link": 5,
+        "footer-links": 1,
+        "footer-link": 2,
+        "footer-divider": 1,
+        "footer-credit": 1
+      },
+      "averageClassesPerNode": 1.03,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 2,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [],
+      "totalSelectors": 0,
+      "selectorsWithMultipleClasses": 0,
+      "specificity": {
+        "average": 0,
+        "max": 0
+      },
+      "complexSelectorsRatio": 0,
+      "selectorForms": {
+        "bemSelectors": 0,
+        "pureBemSelectors": 0,
+        "pureBemSelectorsRatio": 0,
+        "selectorsWithAncestor": 0,
+        "selectorsWithId": 0,
+        "selectorsWithType": 0,
+        "selectorsWithAttribute": 0,
+        "ancestorsRatio": 0,
+        "withIdRatio": 0,
+        "withTypeRatio": 0
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [],
+      "undefinedHtmlClasses": [
+        "billetterie",
+        "billet-text",
+        "btn-top",
+        "topbar",
+        "btn-lang",
+        "btn-menu",
+        "festival",
+        "tag",
+        "hero",
+        "hero-gif",
+        "dates",
+        "date",
+        "day",
+        "month",
+        "sep",
+        "dj",
+        "electro",
+        "raggae",
+        "location",
+        "loc-title",
+        "loc-city",
+        "program",
+        "program-year",
+        "program-title",
+        "program-list",
+        "program-logo",
+        "pouple-img",
+        "vibrations",
+        "vibrations-title",
+        "vibrations-text",
+        "vibrations-highlight",
+        "historique-logo",
+        "partenaires",
+        "partenaires-title",
+        "carousel-container",
+        "carousel-btn",
+        "carousel-btn-left",
+        "carousel-track-container",
+        "carousel-track",
+        "carousel-slide",
+        "carousel-btn-right",
+        "footer",
+        "footer-content",
+        "footer-logo",
+        "footer-social",
+        "social-link",
+        "footer-links",
+        "footer-link",
+        "footer-divider",
+        "footer-credit"
+      ],
+      "coverageHtml": 0,
+      "coverageCss": 0,
+      "cssEfficiency": 0
+    },
+    "bem": {
+      "blocks": {
+        "billetterie": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "billet-text": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-top": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "topbar": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-lang": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-menu": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "festival": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tag": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-gif": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "dates": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "date": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "day": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "month": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "sep": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "dj": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "electro": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "raggae": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "location": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "loc-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "loc-city": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program-year": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program-logo": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "pouple-img": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "vibrations": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "vibrations-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "vibrations-text": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "vibrations-highlight": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "historique-logo": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "partenaires": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "partenaires-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-btn-left": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-track-container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-track": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-slide": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-btn-right": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-logo": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-social": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-link": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-links": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-link": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-divider": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-credit": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 50,
+        "elements": 0,
+        "modifiers": 0,
+        "elementModifiers": 0,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0
+      },
+      "depth": {
+        "max": 1,
+        "average": 1
+      },
+      "blockStructure": {
+        "totalBlocks": 50,
+        "structuredBlocks": 0,
+        "orphanBlocks": 50,
+        "implicitBlocks": []
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "billet": 1,
+        "btn": 3,
+        "hero": 1,
+        "loc": 2,
+        "program": 4,
+        "pouple": 1,
+        "vibrations": 3,
+        "historique": 1,
+        "partenaires": 1,
+        "carousel": 7,
+        "footer": 7,
+        "social": 1
+      },
+      "entropy": 5.45,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-12-09T13:02:26.640Z"
+    },
+    "score": {
+      "bem": {
+        "total": 9,
+        "breakdown": {
+          "coverage": {
+            "score": 4,
+            "max": 15,
+            "details": "Couverture moyenne: 0%"
+          },
+          "selectorForms": {
+            "score": 0,
+            "max": 30,
+            "details": "Aucun sélecteur CSS."
+          },
+          "structure": {
+            "score": 3,
+            "max": 25,
+            "details": "Blocs structurés: 0%"
+          },
+          "elementsRatio": {
+            "score": 0,
+            "max": 20,
+            "details": "Éléments/bloc: 0"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 100,
+    "breakdown": {
+      "errorPenalty": 0,
+      "warningPenalty": 0
+    },
+    "grade": "A",
+    "improvements": [
+      "Excellent ! Code HTML parfaitement valide."
+    ],
+    "stats": {
+      "totalErrors": 0,
+      "totalWarnings": 0,
+      "averageErrors": 0,
+      "pagesAnalyzed": 1
+    }
+  }
+}
