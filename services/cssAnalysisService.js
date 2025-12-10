@@ -10,6 +10,7 @@ export { compileCSS } from "./css/cssCompiler.js";
 export { analyzeImports } from "./css/cssImportsAnalyzer.js";
 export { analyzeCustomProperties } from "./css/cssVariablesAnalyzer.js";
 export { analyzeTypography } from "./css/cssTypographyAnalyzer.js";
+export { analyzeColors } from "./css/cssColorsAnalyzer.js";
 
 /**
  * Analyse le CSS avec Project Wallace.

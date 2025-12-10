@@ -101,14 +101,38 @@ export const extractTitleAndImagesFromHTML = (htmlContent) => {
   const title = $("title").text() || null;
 
   const images = [];
+  let imagesWithLazyLoading = 0;
+
   $("img").each((index, img) => {
     const src = $(img).attr("src") || "No src";
     const alt = $(img).attr("alt") || "No alt";
     const ariaHidden = $(img).attr("aria-hidden") || "✕";
-    images.push({ src, alt, ariaHidden });
+    const loading = $(img).attr("loading") || null;
+
+    const hasLazyLoading = loading === "lazy";
+    if (hasLazyLoading) {
+      imagesWithLazyLoading++;
+    }
+
+    images.push({ src, alt, ariaHidden, hasLazyLoading });
   });
 
-  return { title, images };
+  const totalImages = images.length;
+  const imagesWithoutLazyLoading = totalImages - imagesWithLazyLoading;
+  const lazyLoadingRatio =
+    totalImages > 0 ? imagesWithLazyLoading / totalImages : 0;
+  const lazyLoadingPercentage =
+    totalImages > 0 ? Math.round(lazyLoadingRatio * 100) : 0;
+
+  const imageStats = {
+    total: totalImages,
+    withLazyLoading: imagesWithLazyLoading,
+    withoutLazyLoading: imagesWithoutLazyLoading,
+    lazyLoadingRatio: parseFloat(lazyLoadingRatio.toFixed(2)),
+    lazyLoadingPercentage,
+  };
+
+  return { title, images, imageStats };
 };
 
 /**
