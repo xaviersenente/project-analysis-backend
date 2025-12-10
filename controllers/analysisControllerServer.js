@@ -6,6 +6,8 @@ import {
   extractTitleAndImagesFromHTML,
   analyzeAllPages,
   runLighthouse,
+  analyzeImages,
+  synthesizeImagesAnalysis,
 } from "../services/htmlAnalysisService.js";
 import {
   compileCSS,
@@ -13,6 +15,7 @@ import {
   analyzeImports,
   analyzeCustomProperties,
   analyzeTypography,
+  analyzeColors,
 } from "../services/cssAnalysisService.js";
 import {
   validateHTML,
@@ -73,6 +76,12 @@ export const scanUrl = async (req, res) => {
       url
     );
     console.log("✅ CSS compilé avec succès.");
+    console.log(`📊 Taille du CSS compilé: ${compiledCss.length} caractères`);
+    console.log(
+      `📊 Nombre d'@import restants: ${
+        (compiledCss.match(/@import/g) || []).length
+      }`
+    );
 
     if (importErrors.length > 0) {
       console.warn(
@@ -82,6 +91,15 @@ export const scanUrl = async (req, res) => {
 
     const cssAnalysisResult = await analyzeCSS(compiledCss);
     console.log("✅ CSS analysé avec succès.");
+
+    // Analyser les couleurs CSS
+    let colorsAnalysis = null;
+    if (cssAnalysisResult?.values?.colors) {
+      colorsAnalysis = analyzeColors(cssAnalysisResult.values.colors);
+      console.log(
+        `🎨 Analyse des couleurs: ${colorsAnalysis.uniqueColors} couleurs uniques, score: ${colorsAnalysis.score.total}/100`
+      );
+    }
 
     // Analyser les variables CSS
     const cssVariablesAnalysis = analyzeCustomProperties(compiledCss);
@@ -116,9 +134,32 @@ export const scanUrl = async (req, res) => {
       const lighthouseReport = await runLighthouse(fileUrl);
       const validationErrors = await validateHTML(htmlContent);
 
+      // Analyse des images avec enrichissement des données Lighthouse
+      const imagesAnalysis = analyzeImages(
+        titleAndImg.images,
+        lighthouseReport.requests,
+        fileUrl
+      );
+
       fileResults.push({
         file: fileUrl,
-        ...titleAndImg,
+        title: titleAndImg.title,
+        images: imagesAnalysis.images,
+        imageStats: {
+          total: imagesAnalysis.totalImages,
+          withLazyLoading: imagesAnalysis.imagesWithLazyLoading,
+          withoutLazyLoading:
+            imagesAnalysis.totalImages - imagesAnalysis.imagesWithLazyLoading,
+          lazyLoadingRatio:
+            imagesAnalysis.imagesWithLazyLoading /
+            Math.max(imagesAnalysis.totalImages, 1),
+          lazyLoadingPercentage: Math.round(
+            (imagesAnalysis.imagesWithLazyLoading /
+              Math.max(imagesAnalysis.totalImages, 1)) *
+              100
+          ),
+        },
+        imagesAnalysis,
         ...htmlAnalysisResult,
         validationErrors,
         lighthouseReport,
@@ -131,15 +172,20 @@ export const scanUrl = async (req, res) => {
     // Calculer le score de validation
     const validationScore = calculateValidationScore(fileResults);
 
+    // Synthétiser l'analyse des images pour l'ensemble des pages
+    const globalImagesAnalysis = synthesizeImagesAnalysis(fileResults);
+
     const analysisResult = {
       pages: fileResults,
       globalAnalysis, // Ajouter le résultat de l'analyse globale
+      globalImagesAnalysis, // Synthèse globale des images
       // compiledCss,
       cssAnalysisResult: {
         ...cssAnalysisResult,
         imports: cssImportsAnalysis,
         customProperties: cssVariablesAnalysis,
         typography: typographyAnalysis,
+        colors: colorsAnalysis,
       },
       classAnalysis: performClassAnalysis(allHtmlContents, compiledCss),
       validationScore,

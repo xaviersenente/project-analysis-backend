@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, "../data");
+const dataDir = path.join(__dirname, "../../data");
 
 /**
  * Extrait tous les scores d'un fichier JSON d'analyse
@@ -18,8 +18,23 @@ const extractScores = (analysisData) => {
       analysisData.cssAnalysisResult?.customProperties?.score?.total || null,
     cssTypography:
       analysisData.cssAnalysisResult?.typography?.score?.total || null,
+    cssColors: analysisData.cssAnalysisResult?.colors?.score?.total || null,
     classAnalysis: analysisData.classAnalysis?.score?.bem?.total || null,
   };
+
+  // Extraire le score des images HTML (moyenne de toutes les pages)
+  let htmlImagesScore = null;
+  if (analysisData.pages && Array.isArray(analysisData.pages)) {
+    const imageScores = analysisData.pages
+      .filter((page) => page.imagesAnalysis?.score?.total)
+      .map((page) => page.imagesAnalysis.score.total);
+
+    if (imageScores.length > 0) {
+      htmlImagesScore = Math.round(
+        imageScores.reduce((sum, score) => sum + score, 0) / imageScores.length
+      );
+    }
+  }
 
   // Extraire les scores Lighthouse
   const lighthouseScores = {
@@ -60,6 +75,7 @@ const extractScores = (analysisData) => {
 
   return {
     ...cssScores,
+    htmlImages: htmlImagesScore,
     ...lighthouseScores,
     validation:
       analysisData.validationScore?.total !== undefined
@@ -81,7 +97,9 @@ export const calculateClassStats = async () => {
       cssImports: [],
       cssVariables: [],
       cssTypography: [],
+      cssColors: [],
       classAnalysis: [],
+      htmlImages: [],
       validation: [],
       performance: [],
       accessibility: [],
@@ -110,8 +128,11 @@ export const calculateClassStats = async () => {
         allScores.cssVariables.push(scores.cssVariables);
       if (scores.cssTypography !== null)
         allScores.cssTypography.push(scores.cssTypography);
+      if (scores.cssColors !== null) allScores.cssColors.push(scores.cssColors);
       if (scores.classAnalysis !== null)
         allScores.classAnalysis.push(scores.classAnalysis);
+      if (scores.htmlImages !== null)
+        allScores.htmlImages.push(scores.htmlImages);
       if (scores.validation !== null)
         allScores.validation.push(scores.validation);
       if (scores.performance !== null)
@@ -155,7 +176,9 @@ export const calculateClassStats = async () => {
         cssImports: calculateStats(allScores.cssImports),
         cssVariables: calculateStats(allScores.cssVariables),
         cssTypography: calculateStats(allScores.cssTypography),
+        cssColors: calculateStats(allScores.cssColors),
         classAnalysis: calculateStats(allScores.classAnalysis),
+        htmlImages: calculateStats(allScores.htmlImages),
         validation: calculateStats(allScores.validation),
         lighthouse: {
           performance: calculateStats(allScores.performance),
@@ -208,7 +231,9 @@ export const getStudentComparison = (studentName, classStats) => {
   addComparison("cssImports", "cssImports");
   addComparison("cssVariables", "cssVariables");
   addComparison("cssTypography", "cssTypography");
+  addComparison("cssColors", "cssColors");
   addComparison("classAnalysis", "classAnalysis");
+  addComparison("htmlImages", "htmlImages");
   addComparison("validation", "validation");
   addComparison("performance", "lighthouse");
   addComparison("accessibility", "lighthouse");

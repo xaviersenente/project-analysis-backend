@@ -12,18 +12,19 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@projectwallace/css-analyzer": "^5.15.0",
+    "@projectwallace/css-analyzer": "^7.6.3",
     "axios": "^1.7.9",
     "cheerio": "^1.0.0",
     "chrome-launcher": "^1.1.2",
     "cors": "^2.8.5",
+    "culori": "^4.0.2",
     "express": "^4.21.2",
     "fs-extra": "^11.2.0",
-    "jsdom": "^25.0.1",
+    "jsdom": "^27.3.0",
     "lighthouse": "^12.3.0",
     "postcss": "^8.4.49",
     "postcss-import": "^16.1.0",
-    "sharp": "^0.33.5",
+    "sharp": "^0.34.5",
     "simplecrawler": "^1.1.9",
     "vnu-jar": "^25.12.9"
   }

@@ -13,7 +13,10 @@ axios.defaults.timeout = 5000; // Timeout de 5 secondes pour éviter les blocage
  * @returns {string} - Le contenu CSS sans les imports normalize.css.
  */
 const removeNormalizeCSSImports = (cssContent) => {
-  const normalizeRegex = /@import\s+['"]?([^'"]*normalize\.css)['"]?;/gi;
+  // Supporte: @import "normalize.css"; @import 'normalize.css';
+  // @import url("normalize.css"); @import url('normalize.css');
+  const normalizeRegex =
+    /@import\s+(?:url\()?(['"])([^'"]*normalize\.css)\1\)?\s*;/gi;
   return cssContent.replace(normalizeRegex, (match) => {
     console.log(`🗑️ Suppression de l'import Normalize.css : ${match}`);
     return "";
@@ -102,8 +105,9 @@ const inlineAllImports = async (
   // Supprimer les commentaires CSS pour éviter de traiter les @import dans les commentaires
   let cssWithoutComments = cssContent.replace(/\/\*[\s\S]*?\*\//g, "");
 
-  // Regex pour capturer les @import
-  const importRegex = /@import\s+(['"])([^'"]+)\1\s*;/g;
+  // Regex pour capturer les @import (avec ou sans url())
+  // Supporte: @import "file.css"; @import 'file.css'; @import url("file.css"); @import url('file.css');
+  const importRegex = /@import\s+(?:url\()?(['"])([^'"]+)\1\)?\s*;/g;
   let match;
   let result = cssContent; // Garder les commentaires dans le résultat final
 
@@ -113,6 +117,14 @@ const inlineAllImports = async (
     const fullMatch = match[0];
 
     console.log(`📥 Import trouvé: ${importPath}`);
+
+    // 🚫 IGNORER les imports Google Fonts temporairement
+    if (isGoogleFont(importPath)) {
+      console.log(
+        `⚠️ Import Google Fonts ignoré (désactivé temporairement): ${importPath}`
+      );
+      continue;
+    }
 
     // Construire l'URL absolue de l'import
     let importUrl;
