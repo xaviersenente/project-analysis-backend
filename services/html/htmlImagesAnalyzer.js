@@ -153,29 +153,32 @@ const calculateImagesScore = (data) => {
 
   // 1.1 Présence d'alt (15 points)
   const altPresenceRatio = imagesWithAlt / totalImages;
-  if (altPresenceRatio >= 0.95) scores.accessibility.score += 15;
-  else if (altPresenceRatio >= 0.85) scores.accessibility.score += 12;
-  else if (altPresenceRatio >= 0.7) scores.accessibility.score += 9;
-  else if (altPresenceRatio >= 0.5) scores.accessibility.score += 6;
-  else scores.accessibility.score += 3;
+  if (altPresenceRatio >= 0.9) scores.accessibility.score += 15;
+  else if (altPresenceRatio >= 0.75) scores.accessibility.score += 13;
+  else if (altPresenceRatio >= 0.6) scores.accessibility.score += 10;
+  else if (altPresenceRatio >= 0.4) scores.accessibility.score += 7;
+  else scores.accessibility.score += 4;
 
   // 1.2 Qualité des alt (10 points)
   const goodAltRatio = imagesWithGoodAlt / Math.max(contentImages, 1);
-  if (goodAltRatio >= 0.9) scores.accessibility.score += 10;
-  else if (goodAltRatio >= 0.75) scores.accessibility.score += 8;
-  else if (goodAltRatio >= 0.6) scores.accessibility.score += 6;
-  else if (goodAltRatio >= 0.4) scores.accessibility.score += 4;
+  if (goodAltRatio >= 0.8) scores.accessibility.score += 10;
+  else if (goodAltRatio >= 0.6) scores.accessibility.score += 8;
+  else if (goodAltRatio >= 0.4) scores.accessibility.score += 6;
+  else if (goodAltRatio >= 0.25) scores.accessibility.score += 4;
   else scores.accessibility.score += 2;
 
   // 1.3 Images décoratives bien marquées (10 points)
-  if (decorativeRatio >= 0.1 && decorativeRatio <= 0.2) {
+  if (decorativeRatio >= 0.1 && decorativeRatio <= 0.25) {
     scores.accessibility.score += 10;
-  } else if (decorativeRatio < 0.1) {
+  } else if (
+    decorativeRatio < 0.1 ||
+    (decorativeRatio > 0.25 && decorativeRatio <= 0.35)
+  ) {
     scores.accessibility.score += 8;
-  } else if (decorativeRatio <= 0.3) {
-    scores.accessibility.score += 6;
+  } else if (decorativeRatio <= 0.45) {
+    scores.accessibility.score += 5;
   } else {
-    scores.accessibility.score += 3;
+    scores.accessibility.score += 2;
   }
 
   scores.accessibility.details = `${imagesWithAlt}/${totalImages} images avec alt (${Math.round(
@@ -186,32 +189,32 @@ const calculateImagesScore = (data) => {
 
   // ===== 2. PERFORMANCE (35 points) =====
 
-  // 2.1 Lazy loading (20 points) - Optimal : 50-85%
+  // 2.1 Lazy loading (20 points) - Optimal : 40-90%
   const lazyLoadingRatio = imagesWithLazyLoading / totalImages;
-  if (lazyLoadingRatio >= 0.5 && lazyLoadingRatio <= 0.85) {
+  if (lazyLoadingRatio >= 0.4 && lazyLoadingRatio <= 0.9) {
     scores.performance.score += 20;
-  } else if (lazyLoadingRatio >= 0.4 && lazyLoadingRatio < 0.5) {
+  } else if (lazyLoadingRatio >= 0.25 && lazyLoadingRatio < 0.4) {
+    scores.performance.score += 17;
+  } else if (lazyLoadingRatio > 0.9 && lazyLoadingRatio <= 0.95) {
     scores.performance.score += 16;
-  } else if (lazyLoadingRatio > 0.85 && lazyLoadingRatio <= 0.95) {
-    scores.performance.score += 15;
-  } else if (lazyLoadingRatio >= 0.3 || lazyLoadingRatio > 0.95) {
-    scores.performance.score += 10;
+  } else if (lazyLoadingRatio >= 0.1 || lazyLoadingRatio > 0.95) {
+    scores.performance.score += 12;
   } else {
-    scores.performance.score += 5;
+    scores.performance.score += 7;
   }
 
-  // 2.2 Poids optimisé (15 points) - Top 5 moyenne < 100KB
+  // 2.2 Poids optimisé (15 points) - Top 5 moyenne < 150KB
   let weightScore = 0;
   if (top5AverageWeight !== null) {
     const weightKB = top5AverageWeight / 1024;
-    if (weightKB < 50) weightScore = 15;
-    else if (weightKB < 100) weightScore = 12;
-    else if (weightKB < 150) weightScore = 8;
-    else if (weightKB < 200) weightScore = 5;
-    else weightScore = 2;
+    if (weightKB < 80) weightScore = 15;
+    else if (weightKB < 150) weightScore = 13;
+    else if (weightKB < 250) weightScore = 10;
+    else if (weightKB < 400) weightScore = 7;
+    else weightScore = 4;
   } else {
     // Si pas de données de poids, score neutre
-    weightScore = 10;
+    weightScore = 11;
   }
   scores.performance.score += weightScore;
 
@@ -232,31 +235,34 @@ const calculateImagesScore = (data) => {
 
   // ===== 3. BONNES PRATIQUES (30 points) =====
 
-  // 3.1 Formats modernes (15 points) - avif/webp > 70%
+  // 3.1 Formats modernes (15 points) - avif/webp/svg > 50%
   const totalFormats = Object.values(formats).reduce(
     (sum, count) => sum + count,
     0
   );
-  const modernFormats = (formats.avif || 0) + (formats.webp || 0);
+  const modernFormats =
+    (formats.avif || 0) + (formats.webp || 0) + (formats.svg || 0);
   const modernRatio = totalFormats > 0 ? modernFormats / totalFormats : 0;
 
-  if (modernRatio >= 0.9) scores.bestPractices.score += 15;
-  else if (modernRatio >= 0.7) scores.bestPractices.score += 12;
-  else if (modernRatio >= 0.5) scores.bestPractices.score += 9;
-  else if (modernRatio >= 0.3) scores.bestPractices.score += 6;
-  else scores.bestPractices.score += 3;
+  if (modernRatio >= 0.8) scores.bestPractices.score += 15;
+  else if (modernRatio >= 0.6) scores.bestPractices.score += 13;
+  else if (modernRatio >= 0.4) scores.bestPractices.score += 10;
+  else if (modernRatio >= 0.2) scores.bestPractices.score += 7;
+  else scores.bestPractices.score += 4;
 
-  // 3.2 Ratio décoratif/contenu (10 points) - Optimal : 10-20%
+  // 3.2 Ratio décoratif/contenu (10 points) - Optimal : 10-30%
   let decorativeScore = 0;
-  if (decorativeRatio >= 0.1 && decorativeRatio <= 0.2) {
+  if (decorativeRatio >= 0.1 && decorativeRatio <= 0.3) {
     decorativeScore = 10;
   } else if (
     decorativeRatio < 0.1 ||
-    (decorativeRatio > 0.2 && decorativeRatio <= 0.3)
+    (decorativeRatio > 0.3 && decorativeRatio <= 0.4)
   ) {
-    decorativeScore = 7;
+    decorativeScore = 8;
+  } else if (decorativeRatio <= 0.5) {
+    decorativeScore = 5;
   } else {
-    decorativeScore = 4;
+    decorativeScore = 2;
   }
   scores.bestPractices.score += decorativeScore;
 
@@ -323,7 +329,7 @@ const calculateImagesScore = (data) => {
 
   if (modernRatio < 0.7) {
     improvements.push(
-      `Utiliser des formats modernes (AVIF/WebP) pour ${Math.round(
+      `Utiliser des formats modernes (AVIF/WebP/SVG) pour ${Math.round(
         (1 - modernRatio) * 100
       )}% des images`
     );

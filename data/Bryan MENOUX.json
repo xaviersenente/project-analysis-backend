@@ -90,8 +90,8 @@
           "alt": "logo twitter",
           "ariaHidden": "✕",
           "hasLazyLoading": true,
-          "resourceSize": null,
-          "mimeType": null,
+          "resourceSize": 2326,
+          "mimeType": "image/svg+xml",
           "format": "svg"
         },
         {
@@ -99,8 +99,8 @@
           "alt": "logo facebook",
           "ariaHidden": "✕",
           "hasLazyLoading": true,
-          "resourceSize": null,
-          "mimeType": null,
+          "resourceSize": 1990,
+          "mimeType": "image/svg+xml",
           "format": "svg"
         },
         {
@@ -108,8 +108,8 @@
           "alt": "logo tiktok",
           "ariaHidden": "✕",
           "hasLazyLoading": true,
-          "resourceSize": null,
-          "mimeType": null,
+          "resourceSize": 1968,
+          "mimeType": "image/svg+xml",
           "format": "svg"
         },
         {
@@ -117,8 +117,8 @@
           "alt": "logo instagram",
           "ariaHidden": "✕",
           "hasLazyLoading": true,
-          "resourceSize": null,
-          "mimeType": null,
+          "resourceSize": 2777,
+          "mimeType": "image/svg+xml",
           "format": "svg"
         }
       ],
@@ -237,8 +237,8 @@
             "alt": "logo twitter",
             "ariaHidden": "✕",
             "hasLazyLoading": true,
-            "resourceSize": null,
-            "mimeType": null,
+            "resourceSize": 2326,
+            "mimeType": "image/svg+xml",
             "format": "svg"
           },
           {
@@ -246,8 +246,8 @@
             "alt": "logo facebook",
             "ariaHidden": "✕",
             "hasLazyLoading": true,
-            "resourceSize": null,
-            "mimeType": null,
+            "resourceSize": 1990,
+            "mimeType": "image/svg+xml",
             "format": "svg"
           },
           {
@@ -255,8 +255,8 @@
             "alt": "logo tiktok",
             "ariaHidden": "✕",
             "hasLazyLoading": true,
-            "resourceSize": null,
-            "mimeType": null,
+            "resourceSize": 1968,
+            "mimeType": "image/svg+xml",
             "format": "svg"
           },
           {
@@ -264,13 +264,13 @@
             "alt": "logo instagram",
             "ariaHidden": "✕",
             "hasLazyLoading": true,
-            "resourceSize": null,
-            "mimeType": null,
+            "resourceSize": 2777,
+            "mimeType": "image/svg+xml",
             "format": "svg"
           }
         ],
         "score": {
-          "total": 79,
+          "total": 89,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -278,17 +278,17 @@
               "details": "13/13 images avec alt (100%), 13 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 28,
+              "score": 33,
               "max": 35,
               "details": "Lazy loading: 9/13 (69%), Top 5 poids moyen: 109KB, Moyenne: 94KB"
             },
             "bestPractices": {
-              "score": 18,
+              "score": 23,
               "max": 30,
               "details": "Formats modernes: 46% (6 webp, 7 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
             "Optimiser les 5 images les plus lourdes (moyenne: 109KB > 100KB)",
             "Utiliser des formats modernes (AVIF/WebP) pour 54% des images"
@@ -379,7 +379,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.74,
+        "performance": 0.76,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -549,12 +549,6 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
-            "resourceSize": 88838,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
-          },
-          {
             "url": "http://127.0.0.1:5503/assets/img/livre_2.webp",
             "resourceSize": 30920,
             "mimeType": "image/webp",
@@ -583,6 +577,36 @@
             "resourceSize": 17338,
             "mimeType": "image/webp",
             "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/twitter_white.svg",
+            "resourceSize": 2326,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/facebook_white.svg",
+            "resourceSize": 1990,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/tiktok_white.svg",
+            "resourceSize": 1968,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/instagram_white.svg",
+            "resourceSize": 2777,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
+            "resourceSize": 88838,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
           }
         ]
       }
@@ -754,8 +778,8 @@
           "alt": "Photographie de nombreux livres de l'encyclopédie",
           "ariaHidden": "✕",
           "hasLazyLoading": true,
-          "resourceSize": 42958,
-          "mimeType": "image/webp",
+          "resourceSize": null,
+          "mimeType": null,
           "format": "webp"
         },
         {
@@ -865,8 +889,8 @@
         "decorativeImages": 0,
         "contentImages": 17,
         "imagesWithLazyLoading": 14,
-        "averageWeight": 73756,
-        "top5AverageWeight": 73756,
+        "averageWeight": 81456,
+        "top5AverageWeight": 81456,
         "formats": {
           "avif": 0,
           "webp": 11,
@@ -937,8 +961,8 @@
             "alt": "Photographie de nombreux livres de l'encyclopédie",
             "ariaHidden": "✕",
             "hasLazyLoading": true,
-            "resourceSize": 42958,
-            "mimeType": "image/webp",
+            "resourceSize": null,
+            "mimeType": null,
             "format": "webp"
           },
           {
@@ -1033,7 +1057,7 @@
           }
         ],
         "score": {
-          "total": 86,
+          "total": 94,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -1041,17 +1065,17 @@
               "details": "17/17 images avec alt (100%), 17 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 32,
+              "score": 35,
               "max": 35,
-              "details": "Lazy loading: 14/17 (82%), Top 5 poids moyen: 72KB, Moyenne: 72KB"
+              "details": "Lazy loading: 14/17 (82%), Top 5 poids moyen: 80KB, Moyenne: 80KB"
             },
             "bestPractices": {
-              "score": 21,
+              "score": 26,
               "max": 30,
               "details": "Formats modernes: 65% (11 webp, 6 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "B",
+          "grade": "A",
           "improvements": [
             "Utiliser des formats modernes (AVIF/WebP) pour 35% des images"
           ]
@@ -1196,7 +1220,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.94,
+        "performance": 0.78,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1372,6 +1396,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
+            "resourceSize": 88838,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          },
+          {
             "url": "http://127.0.0.1:5503/assets/img/bibliotheque-nationale-richelieu.webp",
             "resourceSize": 160006,
             "mimeType": "image/webp",
@@ -1388,18 +1418,6 @@
             "resourceSize": 104872,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5503/assets/img/livre_3.webp",
-            "resourceSize": 42958,
-            "mimeType": "image/webp",
-            "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
-            "resourceSize": 88838,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
           }
         ]
       }
@@ -1620,7 +1638,7 @@
           }
         ],
         "score": {
-          "total": 81,
+          "total": 87,
           "breakdown": {
             "accessibility": {
               "score": 35,
@@ -1628,12 +1646,12 @@
               "details": "10/10 images avec alt (100%), 10 alt de qualité, 1 décoratives (10%)"
             },
             "performance": {
-              "score": 25,
+              "score": 30,
               "max": 35,
               "details": "Lazy loading: 7/10 (70%), Top 5 poids moyen: 163KB, Moyenne: 163KB"
             },
             "bestPractices": {
-              "score": 21,
+              "score": 22,
               "max": 30,
               "details": "Formats modernes: 30% (3 webp, 7 svg), Ratio décoratif: 10%"
             }
@@ -1704,7 +1722,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.75,
+        "performance": 0.71,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -1861,6 +1879,12 @@
             "mimeType": "text/html"
           },
           {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
             "url": "http://127.0.0.1:5503/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
@@ -1885,6 +1909,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
+            "resourceSize": 88838,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          },
+          {
             "url": "http://127.0.0.1:5503/assets/img/play_btn.svg",
             "resourceSize": 1834,
             "mimeType": "image/svg+xml",
@@ -1901,18 +1931,6 @@
             "resourceSize": 32358,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
-          },
-          {
-            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
-            "resourceSize": 88838,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
           }
         ]
       }
@@ -2349,7 +2367,7 @@
           }
         ],
         "score": {
-          "total": 84,
+          "total": 92,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -2357,17 +2375,17 @@
               "details": "22/22 images avec alt (100%), 22 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 27,
+              "score": 33,
               "max": 35,
               "details": "Lazy loading: 19/22 (86%), Top 5 poids moyen: 86KB, Moyenne: 59KB"
             },
             "bestPractices": {
-              "score": 24,
+              "score": 26,
               "max": 30,
               "details": "Formats modernes: 73% (16 webp, 6 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "B",
+          "grade": "A",
           "improvements": [
             "Attention : éviter le lazy loading sur les images above-the-fold (premières images visibles)"
           ]
@@ -2926,7 +2944,7 @@
           }
         ],
         "score": {
-          "total": 81,
+          "total": 87,
           "breakdown": {
             "accessibility": {
               "score": 35,
@@ -2934,12 +2952,12 @@
               "details": "10/10 images avec alt (100%), 10 alt de qualité, 1 décoratives (10%)"
             },
             "performance": {
-              "score": 25,
+              "score": 30,
               "max": 35,
               "details": "Lazy loading: 6/10 (60%), Top 5 poids moyen: 182KB, Moyenne: 182KB"
             },
             "bestPractices": {
-              "score": 21,
+              "score": 22,
               "max": 30,
               "details": "Formats modernes: 30% (3 webp, 7 svg), Ratio décoratif: 10%"
             }
@@ -3005,7 +3023,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.77,
+        "performance": 0.72,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -3168,6 +3186,12 @@
             "mimeType": "text/html"
           },
           {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
             "url": "http://127.0.0.1:5503/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
@@ -3202,12 +3226,6 @@
             "resourceSize": 18498,
             "mimeType": "image/webp",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
@@ -3434,7 +3452,7 @@
           }
         ],
         "score": {
-          "total": 88,
+          "total": 90,
           "breakdown": {
             "accessibility": {
               "score": 35,
@@ -3442,17 +3460,17 @@
               "details": "10/10 images avec alt (100%), 10 alt de qualité, 1 décoratives (10%)"
             },
             "performance": {
-              "score": 32,
+              "score": 33,
               "max": 35,
               "details": "Lazy loading: 7/10 (70%), Top 5 poids moyen: 92KB, Moyenne: 92KB"
             },
             "bestPractices": {
-              "score": 21,
+              "score": 22,
               "max": 30,
               "details": "Formats modernes: 30% (3 webp, 7 svg), Ratio décoratif: 10%"
             }
           },
-          "grade": "B",
+          "grade": "A",
           "improvements": [
             "Utiliser des formats modernes (AVIF/WebP) pour 70% des images"
           ]
@@ -3659,6 +3677,12 @@
             "mimeType": "text/html"
           },
           {
+            "url": "https://portfolio.bryan-menoux.fr/",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Media"
+          },
+          {
             "url": "http://127.0.0.1:5503/assets/img/drapeau_fran%C3%A7ais.webp",
             "resourceSize": 698,
             "mimeType": "image/webp",
@@ -3723,12 +3747,6 @@
             "resourceSize": 2777,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
-          },
-          {
-            "url": "https://portfolio.bryan-menoux.fr/",
-            "resourceSize": 0,
-            "mimeType": "",
-            "resourceType": "Media"
           },
           {
             "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
@@ -3901,7 +3919,7 @@
           }
         ],
         "score": {
-          "total": 70,
+          "total": 80,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -3909,17 +3927,17 @@
               "details": "7/7 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 22,
+              "score": 30,
               "max": 35,
               "details": "Lazy loading: 4/7 (57%), Top 5 poids moyen: 226KB, Moyenne: 226KB"
             },
             "bestPractices": {
-              "score": 15,
+              "score": 17,
               "max": 30,
               "details": "Formats modernes: 14% (1 webp, 6 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
             "Optimiser les 5 images les plus lourdes (moyenne: 226KB > 100KB)",
             "Utiliser des formats modernes (AVIF/WebP) pour 86% des images"
@@ -4010,7 +4028,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.85,
+        "performance": 0.92,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -4350,7 +4368,7 @@
           }
         ],
         "score": {
-          "total": 73,
+          "total": 80,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -4358,17 +4376,17 @@
               "details": "7/7 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 25,
+              "score": 30,
               "max": 35,
               "details": "Lazy loading: 4/7 (57%), Top 5 poids moyen: 162KB, Moyenne: 162KB"
             },
             "bestPractices": {
-              "score": 15,
+              "score": 17,
               "max": 30,
               "details": "Formats modernes: 14% (1 webp, 6 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
             "Optimiser les 5 images les plus lourdes (moyenne: 162KB > 100KB)",
             "Utiliser des formats modernes (AVIF/WebP) pour 86% des images"
@@ -4783,7 +4801,7 @@
           }
         ],
         "score": {
-          "total": 76,
+          "total": 83,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -4791,17 +4809,17 @@
               "details": "7/7 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 28,
+              "score": 33,
               "max": 35,
               "details": "Lazy loading: 4/7 (57%), Top 5 poids moyen: 124KB, Moyenne: 124KB"
             },
             "bestPractices": {
-              "score": 15,
+              "score": 17,
               "max": 30,
               "details": "Formats modernes: 14% (1 webp, 6 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
             "Optimiser les 5 images les plus lourdes (moyenne: 124KB > 100KB)",
             "Utiliser des formats modernes (AVIF/WebP) pour 86% des images"
@@ -4852,7 +4870,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.95,
+        "performance": 0.83,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -5022,6 +5040,12 @@
             "resourceType": "Font"
           },
           {
+            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
+            "resourceSize": 88838,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          },
+          {
             "url": "http://127.0.0.1:5503/assets/img/twitter_white.svg",
             "resourceSize": 2326,
             "mimeType": "image/svg+xml",
@@ -5044,12 +5068,6 @@
             "resourceSize": 2777,
             "mimeType": "image/svg+xml",
             "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5503/assets/img/logo_vert_clair.svg",
-            "resourceSize": 88838,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
           }
         ]
       }
@@ -5216,7 +5234,7 @@
           }
         ],
         "score": {
-          "total": 73,
+          "total": 80,
           "breakdown": {
             "accessibility": {
               "score": 33,
@@ -5224,17 +5242,17 @@
               "details": "7/7 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
             },
             "performance": {
-              "score": 25,
+              "score": 30,
               "max": 35,
               "details": "Lazy loading: 4/7 (57%), Top 5 poids moyen: 160KB, Moyenne: 160KB"
             },
             "bestPractices": {
-              "score": 15,
+              "score": 17,
               "max": 30,
               "details": "Formats modernes: 14% (1 webp, 6 svg), Ratio décoratif: 0%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
             "Optimiser les 5 images les plus lourdes (moyenne: 160KB > 100KB)",
             "Utiliser des formats modernes (AVIF/WebP) pour 86% des images"
@@ -5325,7 +5343,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.89,
+        "performance": 0.81,
         "accessibility": 1,
         "bestPractices": 1,
         "seo": 1,
@@ -5561,7 +5579,7 @@
       "decorativeImages": 3,
       "contentImages": 107,
       "imagesWithLazyLoading": 78,
-      "averageWeight": 105417,
+      "averageWeight": 107310,
       "top5AverageWeight": 347848,
       "decorativeRatio": 0.03
     },
@@ -5575,7 +5593,7 @@
       "unknown": 0
     },
     "globalScore": {
-      "total": 73,
+      "total": 83,
       "breakdown": {
         "accessibility": {
           "score": 33,
@@ -5583,17 +5601,17 @@
           "details": "110/110 images avec alt (100%), 110 alt de qualité, 3 décoratives (3%)"
         },
         "performance": {
-          "score": 22,
+          "score": 27,
           "max": 35,
-          "details": "Lazy loading: 78/110 (71%), Top 5 poids moyen: 340KB, Moyenne: 103KB"
+          "details": "Lazy loading: 78/110 (71%), Top 5 poids moyen: 340KB, Moyenne: 105KB"
         },
         "bestPractices": {
-          "score": 18,
+          "score": 23,
           "max": 30,
           "details": "Formats modernes: 42% (46 webp, 64 svg), Ratio décoratif: 3%"
         }
       },
-      "grade": "C",
+      "grade": "B",
       "improvements": [
         "Optimiser les 5 images les plus lourdes (moyenne: 340KB > 100KB)",
         "Utiliser des formats modernes (AVIF/WebP) pour 58% des images"
@@ -5602,8 +5620,8 @@
     "pageScores": [
       {
         "page": "http://127.0.0.1:5503/fr/",
-        "score": 79,
-        "grade": "C"
+        "score": 89,
+        "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5503/",
@@ -5612,55 +5630,55 @@
       },
       {
         "page": "http://127.0.0.1:5503/fr/les-livres.html",
-        "score": 86,
-        "grade": "B"
+        "score": 94,
+        "grade": "A"
       },
       {
         "page": "http://127.0.0.1:5503/fr/le-livre-deli.html",
-        "score": 81,
+        "score": 87,
         "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5503/fr/denis-villeneuve.html",
-        "score": 84,
-        "grade": "B"
+        "score": 92,
+        "grade": "A"
       },
       {
         "page": "http://127.0.0.1:5503/fr/fahrenheit-451.html",
-        "score": 81,
+        "score": 87,
         "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5503/fr/bande-originale.html",
-        "score": 88,
-        "grade": "B"
+        "score": 90,
+        "grade": "A"
       },
       {
         "page": "http://127.0.0.1:5503/fr/glossaire.html",
-        "score": 70,
-        "grade": "C"
+        "score": 80,
+        "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5503/fr/contact.html",
-        "score": 73,
-        "grade": "C"
+        "score": 80,
+        "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5503/fr/a-propos.html",
-        "score": 76,
-        "grade": "C"
+        "score": 83,
+        "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5503/fr/autres-projets.html",
-        "score": 73,
-        "grade": "C"
+        "score": 80,
+        "grade": "B"
       }
     ],
     "scoreStats": {
-      "average": 81,
-      "min": 70,
+      "average": 87,
+      "min": 80,
       "max": 100,
-      "median": 81
+      "median": 87
     }
   },
   "cssAnalysisResult": {
@@ -8673,9 +8691,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 6,
-      "analyzeTime": 8,
-      "total": 14
+      "parseTime": 4,
+      "analyzeTime": 4,
+      "total": 8
     },
     "imports": {
       "total": 18,
@@ -10219,20 +10237,20 @@
         "named": 2
       },
       "score": {
-        "total": 60,
+        "total": 79,
         "breakdown": {
           "palette": {
-            "score": 20,
+            "score": 30,
             "max": 30,
-            "details": "Palette un peu large. "
+            "details": "Palette de couleurs optimale. "
           },
           "consistency": {
-            "score": 10,
+            "score": 15,
             "max": 25,
             "details": "Plusieurs couleurs similaires détectées. "
           },
           "formats": {
-            "score": 10,
+            "score": 14,
             "max": 20,
             "details": "3 formats de couleurs utilisés. "
           },
@@ -10247,7 +10265,7 @@
             "details": "Bonne diversité de teintes. "
           }
         },
-        "grade": "D",
+        "grade": "C",
         "improvements": [
           "Harmoniser les couleurs similaires pour améliorer la cohérence",
           "Uniformiser les formats de couleurs (privilégier oklch ou hsl)",
@@ -10943,7 +10961,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-10T21:28:26.023Z"
+      "generatedAt": "2025-12-11T09:26:40.628Z"
     },
     "score": {
       "bem": {

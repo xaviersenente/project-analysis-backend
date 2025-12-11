@@ -213,21 +213,24 @@ const calculateColorsScore = (colorData) => {
   };
 
   // 1) Palette de couleurs (30 points)
-  // Palette optimale : 8-15 couleurs uniques
-  if (uniqueColors >= 8 && uniqueColors <= 15) {
+  // Palette optimale : 8-18 couleurs uniques
+  if (uniqueColors >= 8 && uniqueColors <= 18) {
     scores.palette.score = 30;
     scores.palette.details = "Palette de couleurs optimale. ";
   } else if (uniqueColors >= 5 && uniqueColors < 8) {
     scores.palette.score = 25;
     scores.palette.details = "Palette limitée mais acceptable. ";
-  } else if (uniqueColors >= 16 && uniqueColors <= 20) {
-    scores.palette.score = 20;
+  } else if (uniqueColors >= 19 && uniqueColors <= 25) {
+    scores.palette.score = 22;
     scores.palette.details = "Palette un peu large. ";
-  } else if (uniqueColors > 20) {
-    scores.palette.score = 10;
+  } else if (uniqueColors > 25 && uniqueColors <= 30) {
+    scores.palette.score = 15;
+    scores.palette.details = "Palette large. ";
+  } else if (uniqueColors > 30) {
+    scores.palette.score = 8;
     scores.palette.details = "Trop de couleurs différentes. ";
   } else {
-    scores.palette.score = 15;
+    scores.palette.score = 18;
     scores.palette.details = "Palette très limitée. ";
   }
 
@@ -238,16 +241,19 @@ const calculateColorsScore = (colorData) => {
   if (similarityRatio === 0) {
     scores.consistency.score = 25;
     scores.consistency.details = "Aucune couleur similaire détectée. ";
-  } else if (similarityRatio < 0.2) {
-    scores.consistency.score = 20;
+  } else if (similarityRatio < 0.25) {
+    scores.consistency.score = 22;
     scores.consistency.details = "Quelques couleurs similaires. ";
-  } else if (similarityRatio < 0.4) {
-    scores.consistency.score = 10;
+  } else if (similarityRatio < 0.5) {
+    scores.consistency.score = 15;
     scores.consistency.details = "Plusieurs couleurs similaires détectées. ";
+  } else if (similarityRatio < 0.7) {
+    scores.consistency.score = 8;
+    scores.consistency.details = "Beaucoup de couleurs similaires. ";
   } else {
-    scores.consistency.score = 0;
+    scores.consistency.score = 3;
     scores.consistency.details =
-      "Beaucoup de couleurs similaires (manque de cohérence). ";
+      "Trop de couleurs similaires (manque de cohérence). ";
   }
 
   // 3) Formats (20 points) - Encourager l'uniformité
@@ -257,13 +263,16 @@ const calculateColorsScore = (colorData) => {
     scores.formats.score = 20;
     scores.formats.details = "Format de couleur uniforme. ";
   } else if (formatCount === 2) {
-    scores.formats.score = 15;
+    scores.formats.score = 17;
     scores.formats.details = "2 formats de couleurs utilisés. ";
   } else if (formatCount === 3) {
-    scores.formats.score = 10;
+    scores.formats.score = 14;
     scores.formats.details = "3 formats de couleurs utilisés. ";
+  } else if (formatCount === 4) {
+    scores.formats.score = 10;
+    scores.formats.details = "4 formats de couleurs utilisés. ";
   } else {
-    scores.formats.score = 5;
+    scores.formats.score = 6;
     scores.formats.details = "Trop de formats différents. ";
   }
 
@@ -385,8 +394,16 @@ export const analyzeColors = (projectWallaceColors) => {
     };
   }
 
-  // Convertir l'objet unique en tableau
-  const colorsArray = Object.entries(projectWallaceColors.unique).map(
+  // Normaliser et fusionner les couleurs (casse insensible pour les hex)
+  const normalizedColors = {};
+  Object.entries(projectWallaceColors.unique).forEach(([color, count]) => {
+    // Normaliser en minuscules pour les couleurs hex
+    const normalized = color.trim().toLowerCase();
+    normalizedColors[normalized] = (normalizedColors[normalized] || 0) + count;
+  });
+
+  // Convertir l'objet normalisé en tableau
+  const colorsArray = Object.entries(normalizedColors).map(
     ([color, count]) => ({ color, count })
   );
 
@@ -429,7 +446,7 @@ export const analyzeColors = (projectWallaceColors) => {
   // Calculer le score
   const score = calculateColorsScore({
     totalColors: projectWallaceColors.total,
-    uniqueColors: projectWallaceColors.totalUnique,
+    uniqueColors: Object.keys(normalizedColors).length, // Utiliser le nombre de couleurs normalisées
     transparentColors,
     opaqueColors: opaqueWithSimilarity,
     similarColorsCount,
@@ -439,7 +456,7 @@ export const analyzeColors = (projectWallaceColors) => {
 
   const result = {
     totalColors: projectWallaceColors.total,
-    uniqueColors: projectWallaceColors.totalUnique,
+    uniqueColors: Object.keys(normalizedColors).length, // Utiliser le nombre de couleurs normalisées
     colors: colorsArray,
     transparentColors,
     opaqueColors: opaqueWithSimilarity,

@@ -612,7 +612,7 @@
           }
         ],
         "score": {
-          "total": 70,
+          "total": 75,
           "breakdown": {
             "accessibility": {
               "score": 19,
@@ -620,12 +620,12 @@
               "details": "16/32 images avec alt (50%), 16 alt de qualité, 16 décoratives (50%)"
             },
             "performance": {
-              "score": 30,
+              "score": 31,
               "max": 35,
               "details": "Lazy loading: 29/32 (91%), Top 5 poids moyen: 37KB, Moyenne: 12KB"
             },
             "bestPractices": {
-              "score": 21,
+              "score": 25,
               "max": 30,
               "details": "Formats modernes: 88% (28 avif, 4 svg), Ratio décoratif: 50%"
             }
@@ -837,7 +837,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.95,
+        "performance": 0.82,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -948,13 +948,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/hero.css",
-            "resourceSize": 1358,
+            "resourceSize": 1368,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/button.css",
-            "resourceSize": 685,
+            "resourceSize": 687,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -966,7 +966,7 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/team.css",
-            "resourceSize": 1741,
+            "resourceSize": 1747,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -978,13 +978,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
-            "resourceSize": 888,
+            "resourceSize": 890,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/slogan.css",
-            "resourceSize": 516,
+            "resourceSize": 520,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1035,6 +1035,18 @@
             "resourceSize": 73016,
             "mimeType": "font/woff2",
             "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/favicons/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
           },
           {
             "url": "http://127.0.0.1:5502/assets/img/stat_img_01.avif",
@@ -1173,18 +1185,6 @@
             "resourceSize": 10427,
             "mimeType": "application/octet-stream",
             "resourceType": "Image"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/favicons/site.webmanifest",
-            "resourceSize": 436,
-            "mimeType": "application/manifest+json",
-            "resourceType": "Manifest"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/favicons/favicon.ico",
-            "resourceSize": 15086,
-            "mimeType": "image/x-icon",
-            "resourceType": "Other"
           }
         ]
       }
@@ -1333,25 +1333,25 @@
           }
         ],
         "score": {
-          "total": 76,
+          "total": 85,
           "breakdown": {
             "accessibility": {
-              "score": 29,
+              "score": 33,
               "max": 35,
               "details": "5/6 images avec alt (83%), 5 alt de qualité, 1 décoratives (17%)"
             },
             "performance": {
-              "score": 20,
+              "score": 22,
               "max": 35,
               "details": "Lazy loading: 0/6 (0%), Top 5 poids moyen: 17KB, Moyenne: 17KB"
             },
             "bestPractices": {
-              "score": 27,
+              "score": 30,
               "max": 30,
               "details": "Formats modernes: 83% (5 avif, 1 svg), Ratio décoratif: 17%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
             "Ajouter des textes alt descriptifs pour 1 image(s) manquante(s)",
             "Activer le lazy loading sur 6 image(s) supplémentaire(s) (hors first fold)"
@@ -1431,7 +1431,7 @@
         "requests": [
           {
             "url": "http://127.0.0.1:5502/portfolio.html",
-            "resourceSize": 9325,
+            "resourceSize": 9289,
             "mimeType": "text/html",
             "resourceType": "Document"
           },
@@ -1551,13 +1551,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/hero.css",
-            "resourceSize": 1358,
+            "resourceSize": 1368,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/button.css",
-            "resourceSize": 685,
+            "resourceSize": 687,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1569,7 +1569,7 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/team.css",
-            "resourceSize": 1741,
+            "resourceSize": 1747,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1581,13 +1581,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
-            "resourceSize": 888,
+            "resourceSize": 890,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/slogan.css",
-            "resourceSize": 516,
+            "resourceSize": 520,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -1834,10 +1834,10 @@
           }
         ],
         "score": {
-          "total": 84,
+          "total": 96,
           "breakdown": {
             "accessibility": {
-              "score": 25,
+              "score": 33,
               "max": 35,
               "details": "7/9 images avec alt (78%), 7 alt de qualité, 2 décoratives (22%)"
             },
@@ -1847,12 +1847,12 @@
               "details": "Lazy loading: 5/9 (56%), Top 5 poids moyen: 15KB, Moyenne: 13KB"
             },
             "bestPractices": {
-              "score": 24,
+              "score": 28,
               "max": 30,
               "details": "Formats modernes: 78% (7 avif, 2 svg), Ratio décoratif: 22%"
             }
           },
-          "grade": "B",
+          "grade": "A",
           "improvements": [
             "Ajouter des textes alt descriptifs pour 2 image(s) manquante(s)"
           ]
@@ -2099,13 +2099,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/hero.css",
-            "resourceSize": 1358,
+            "resourceSize": 1368,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/button.css",
-            "resourceSize": 685,
+            "resourceSize": 687,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2117,7 +2117,7 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/team.css",
-            "resourceSize": 1741,
+            "resourceSize": 1747,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2129,13 +2129,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
-            "resourceSize": 888,
+            "resourceSize": 890,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/slogan.css",
-            "resourceSize": 516,
+            "resourceSize": 520,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2292,25 +2292,25 @@
           }
         ],
         "score": {
-          "total": 57,
+          "total": 76,
           "breakdown": {
             "accessibility": {
-              "score": 19,
+              "score": 28,
               "max": 35,
               "details": "2/3 images avec alt (67%), 2 alt de qualité, 1 décoratives (33%)"
             },
             "performance": {
-              "score": 20,
+              "score": 22,
               "max": 35,
               "details": "Lazy loading: 0/3 (0%), Top 5 poids moyen: 15KB, Moyenne: 15KB"
             },
             "bestPractices": {
-              "score": 18,
+              "score": 26,
               "max": 30,
               "details": "Formats modernes: 67% (2 avif, 1 svg), Ratio décoratif: 33%"
             }
           },
-          "grade": "F",
+          "grade": "C",
           "improvements": [
             "Ajouter des textes alt descriptifs pour 1 image(s) manquante(s)",
             "Activer le lazy loading sur 3 image(s) supplémentaire(s) (hors first fold)",
@@ -2459,13 +2459,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/hero.css",
-            "resourceSize": 1358,
+            "resourceSize": 1368,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/button.css",
-            "resourceSize": 685,
+            "resourceSize": 687,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2477,7 +2477,7 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/team.css",
-            "resourceSize": 1741,
+            "resourceSize": 1747,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2489,13 +2489,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
-            "resourceSize": 888,
+            "resourceSize": 890,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/slogan.css",
-            "resourceSize": 516,
+            "resourceSize": 520,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2646,7 +2646,7 @@
           }
         ],
         "score": {
-          "total": 60,
+          "total": 64,
           "breakdown": {
             "accessibility": {
               "score": 19,
@@ -2654,12 +2654,12 @@
               "details": "2/4 images avec alt (50%), 2 alt de qualité, 2 décoratives (50%)"
             },
             "performance": {
-              "score": 20,
+              "score": 22,
               "max": 35,
               "details": "Lazy loading: 0/4 (0%), Top 5 poids moyen: 27KB, Moyenne: 27KB"
             },
             "bestPractices": {
-              "score": 21,
+              "score": 23,
               "max": 30,
               "details": "Formats modernes: 75% (3 avif, 1 svg), Ratio décoratif: 50%"
             }
@@ -2873,13 +2873,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/hero.css",
-            "resourceSize": 1358,
+            "resourceSize": 1368,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/button.css",
-            "resourceSize": 685,
+            "resourceSize": 687,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2891,7 +2891,7 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/team.css",
-            "resourceSize": 1741,
+            "resourceSize": 1747,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -2903,13 +2903,13 @@
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/carousel.css",
-            "resourceSize": 888,
+            "resourceSize": 890,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
           {
             "url": "http://127.0.0.1:5502/src/css/components/slogan.css",
-            "resourceSize": 516,
+            "resourceSize": 520,
             "mimeType": "text/css",
             "resourceType": "Stylesheet"
           },
@@ -3026,10 +3026,10 @@
       "unknown": 0
     },
     "globalScore": {
-      "total": 75,
+      "total": 82,
       "breakdown": {
         "accessibility": {
-          "score": 19,
+          "score": 22,
           "max": 35,
           "details": "32/54 images avec alt (59%), 32 alt de qualité, 22 décoratives (41%)"
         },
@@ -3039,12 +3039,12 @@
           "details": "Lazy loading: 34/54 (63%), Top 5 poids moyen: 43KB, Moyenne: 14KB"
         },
         "bestPractices": {
-          "score": 21,
+          "score": 25,
           "max": 30,
           "details": "Formats modernes: 83% (45 avif, 9 svg), Ratio décoratif: 41%"
         }
       },
-      "grade": "C",
+      "grade": "B",
       "improvements": [
         "Ajouter des textes alt descriptifs pour 22 image(s) manquante(s)",
         "Ratio d'images décoratives élevé (41%), considérer CSS/background-image"
@@ -3053,42 +3053,42 @@
     "pageScores": [
       {
         "page": "http://127.0.0.1:5502/",
-        "score": 70,
+        "score": 75,
         "grade": "C"
       },
       {
         "page": "http://127.0.0.1:5502/portfolio.html",
+        "score": 85,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5502/about.html",
+        "score": 96,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5502/contact.html",
         "score": 76,
         "grade": "C"
       },
       {
-        "page": "http://127.0.0.1:5502/about.html",
-        "score": 84,
-        "grade": "B"
-      },
-      {
-        "page": "http://127.0.0.1:5502/contact.html",
-        "score": 57,
-        "grade": "F"
-      },
-      {
         "page": "http://127.0.0.1:5502/project.html",
-        "score": 60,
+        "score": 64,
         "grade": "D"
       }
     ],
     "scoreStats": {
-      "average": 69,
-      "min": 57,
-      "max": 84,
-      "median": 70
+      "average": 79,
+      "min": 64,
+      "max": 96,
+      "median": 76
     }
   },
   "cssAnalysisResult": {
     "stylesheet": {
       "sourceLinesOfCode": 628,
       "linesOfCode": 1005,
-      "size": 18564,
+      "size": 18588,
       "complexity": 1634,
       "comments": {
         "total": 76,
@@ -5974,11 +5974,11 @@
           "oklch(0.3332 0 0 / 1)": 1,
           "oklch(0.2169 0 0 / 1)": 1,
           "oklch(0.1371 0 0 / 1)": 1,
-          "rgb(0 0 0 / 0.1)": 2,
-          "rgb(0 0 0 / 0.4)": 2,
-          "rgb(0 0 0 / 0)": 4,
-          "rgb(0 0 0 / 0.8)": 2,
-          "rgb(0 0 0 / 0.2)": 2,
+          "oklch(0 0 0 / 0.1)": 2,
+          "oklch(0 0 0 / 0.4)": 2,
+          "oklch(0 0 0 / 0)": 4,
+          "oklch(0 0 0 / 0.8)": 2,
+          "oklch(0 0 0 / 0.2)": 2,
           "transparent": 1
         },
         "uniquenessRatio": 0.7307692307692307,
@@ -6091,8 +6091,8 @@
             "total": 4,
             "totalUnique": 2,
             "unique": {
-              "rgb(0 0 0 / 0.1)": 2,
-              "rgb(0 0 0 / 0.4)": 2
+              "oklch(0 0 0 / 0.1)": 2,
+              "oklch(0 0 0 / 0.4)": 2
             },
             "uniquenessRatio": 0.5
           },
@@ -6100,8 +6100,8 @@
             "total": 6,
             "totalUnique": 2,
             "unique": {
-              "rgb(0 0 0 / 0)": 4,
-              "rgb(0 0 0 / 0.8)": 2
+              "oklch(0 0 0 / 0)": 4,
+              "oklch(0 0 0 / 0.8)": 2
             },
             "uniquenessRatio": 0.3333333333333333
           },
@@ -6109,7 +6109,7 @@
             "total": 2,
             "totalUnique": 1,
             "unique": {
-              "rgb(0 0 0 / 0.2)": 2
+              "oklch(0 0 0 / 0.2)": 2
             },
             "uniquenessRatio": 0.5
           },
@@ -6124,21 +6124,20 @@
         },
         "formats": {
           "total": 26,
-          "totalUnique": 3,
+          "totalUnique": 2,
           "unique": {
-            "oklch": 13,
-            "rgb": 12,
+            "oklch": 25,
             "transparent": 1
           },
-          "uniquenessRatio": 0.11538461538461539
+          "uniquenessRatio": 0.07692307692307693
         }
       },
       "gradients": {
         "total": 4,
         "totalUnique": 2,
         "unique": {
-          "linear-gradient(rgb(0 0 0 / 0.1), rgb(0 0 0 / 0.4))": 2,
-          "linear-gradient(\n    rgb(0 0 0 / 0),\n    rgb(0 0 0 / 0) 40%,\n    rgb(0 0 0 / 0.8) 100%\n  )": 2
+          "linear-gradient(oklch(0 0 0 / 0.1), oklch(0 0 0 / 0.4))": 2,
+          "linear-gradient(\n    oklch(0 0 0 / 0),\n    oklch(0 0 0 / 0) 40%,\n    oklch(0 0 0 / 0.8) 100%\n  )": 2
         },
         "uniquenessRatio": 0.5
       },
@@ -6203,7 +6202,7 @@
         "total": 2,
         "totalUnique": 1,
         "unique": {
-          "0 1px 2px rgb(0 0 0 / 0.2)": 2
+          "0 1px 2px oklch(0 0 0 / 0.2)": 2
         },
         "uniquenessRatio": 0.5
       },
@@ -6783,7 +6782,7 @@
           "isGoogleFont": false,
           "type": "relative",
           "category": "custom",
-          "fileSize": 1358
+          "fileSize": 1368
         },
         {
           "path": "components/button.css",
@@ -6794,7 +6793,7 @@
           "isGoogleFont": false,
           "type": "relative",
           "category": "custom",
-          "fileSize": 685
+          "fileSize": 687
         },
         {
           "path": "components/card.css",
@@ -6816,7 +6815,7 @@
           "isGoogleFont": false,
           "type": "relative",
           "category": "custom",
-          "fileSize": 1741
+          "fileSize": 1747
         },
         {
           "path": "components/thumbnail.css",
@@ -6838,7 +6837,7 @@
           "isGoogleFont": false,
           "type": "relative",
           "category": "custom",
-          "fileSize": 888
+          "fileSize": 890
         },
         {
           "path": "components/slogan.css",
@@ -6849,7 +6848,7 @@
           "isGoogleFont": false,
           "type": "relative",
           "category": "custom",
-          "fileSize": 516
+          "fileSize": 520
         },
         {
           "path": "components/faq.css",
@@ -7761,23 +7760,23 @@
           "count": 1
         },
         {
-          "color": "rgb(0 0 0 / 0.1)",
+          "color": "oklch(0 0 0 / 0.1)",
           "count": 2
         },
         {
-          "color": "rgb(0 0 0 / 0.4)",
+          "color": "oklch(0 0 0 / 0.4)",
           "count": 2
         },
         {
-          "color": "rgb(0 0 0 / 0)",
+          "color": "oklch(0 0 0 / 0)",
           "count": 4
         },
         {
-          "color": "rgb(0 0 0 / 0.8)",
+          "color": "oklch(0 0 0 / 0.8)",
           "count": 2
         },
         {
-          "color": "rgb(0 0 0 / 0.2)",
+          "color": "oklch(0 0 0 / 0.2)",
           "count": 2
         },
         {
@@ -7787,23 +7786,23 @@
       ],
       "transparentColors": [
         {
-          "color": "rgb(0 0 0 / 0.1)",
+          "color": "oklch(0 0 0 / 0.1)",
           "count": 2
         },
         {
-          "color": "rgb(0 0 0 / 0.4)",
+          "color": "oklch(0 0 0 / 0.4)",
           "count": 2
         },
         {
-          "color": "rgb(0 0 0 / 0)",
+          "color": "oklch(0 0 0 / 0)",
           "count": 4
         },
         {
-          "color": "rgb(0 0 0 / 0.8)",
+          "color": "oklch(0 0 0 / 0.8)",
           "count": 2
         },
         {
-          "color": "rgb(0 0 0 / 0.2)",
+          "color": "oklch(0 0 0 / 0.2)",
           "count": 2
         },
         {
@@ -8083,27 +8082,26 @@
       ],
       "hasSimilarColors": true,
       "formats": {
-        "oklch": 13,
-        "rgb": 5,
+        "oklch": 18,
         "transparent": 1
       },
       "score": {
-        "total": 60,
+        "total": 81,
         "breakdown": {
           "palette": {
-            "score": 20,
+            "score": 22,
             "max": 30,
             "details": "Palette un peu large. "
           },
           "consistency": {
-            "score": 10,
+            "score": 22,
             "max": 25,
-            "details": "Plusieurs couleurs similaires détectées. "
+            "details": "Quelques couleurs similaires. "
           },
           "formats": {
-            "score": 15,
+            "score": 22,
             "max": 20,
-            "details": "3 formats de couleurs utilisés. Format moderne détecté. "
+            "details": "2 formats de couleurs utilisés. Format moderne détecté. "
           },
           "transparency": {
             "score": 15,
@@ -8116,9 +8114,8 @@
             "details": "Palette monotone. "
           }
         },
-        "grade": "D",
+        "grade": "B",
         "improvements": [
-          "Uniformiser les formats de couleurs (privilégier oklch ou hsl)",
           "Utiliser des variables CSS pour gérer les couleurs"
         ]
       }
@@ -8859,7 +8856,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-10T18:55:41.595Z"
+      "generatedAt": "2025-12-11T09:22:11.280Z"
     },
     "score": {
       "bem": {
