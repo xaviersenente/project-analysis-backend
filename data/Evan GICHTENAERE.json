@@ -1,0 +1,6246 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Festicloze – Festival Baroque 2025",
+      "images": [
+        {
+          "src": "assets/img/img/scene/scene 1 redimenssioné.png",
+          "alt": "Image musique 1",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 115831,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "/assets/img/img/scene/scene 2 redimenssionné.png",
+          "alt": "Image musique 2",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 193064,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "/assets/img/img/scene/scene 3 redimenssionné.png",
+          "alt": "Image musique 3",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 142264,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "/assets/img/img/scene/SCENE 5 redimenssioné.png",
+          "alt": "Image musique 4",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 124574,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "/assets/img/img/scene/scene 6 redimenssionné.png",
+          "alt": "Image musique 5",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 136255,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "/assets/svg/fleche gauche.svg",
+          "alt": "fleche gauche",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2020,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/svg/fleche droite.svg",
+          "alt": "fleche droite",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2013,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 7,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 7,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 7,
+        "imagesWithAlt": 7,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 7,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 7,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 142398,
+        "top5AverageWeight": 142398,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 5,
+          "svg": 2,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/img/scene/scene 1 redimenssioné.png",
+            "alt": "Image musique 1",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 115831,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "/assets/img/img/scene/scene 2 redimenssionné.png",
+            "alt": "Image musique 2",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 193064,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "/assets/img/img/scene/scene 3 redimenssionné.png",
+            "alt": "Image musique 3",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 142264,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "/assets/img/img/scene/SCENE 5 redimenssioné.png",
+            "alt": "Image musique 4",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 124574,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "/assets/img/img/scene/scene 6 redimenssionné.png",
+            "alt": "Image musique 5",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 136255,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "/assets/svg/fleche gauche.svg",
+            "alt": "fleche gauche",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2020,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/svg/fleche droite.svg",
+            "alt": "fleche droite",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2013,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 73,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "7/7 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 20,
+              "max": 35,
+              "details": "Lazy loading: 0/7 (0%), Top 5 poids moyen: 139KB, Moyenne: 139KB"
+            },
+            "bestPractices": {
+              "score": 20,
+              "max": 30,
+              "details": "Formats modernes: 29% (5 png, 2 svg), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Activer le lazy loading sur 7 image(s) supplémentaire(s) (hors first fold)",
+            "Optimiser les 5 images les plus lourdes (moyenne: 139KB > 100KB)",
+            "Utiliser des formats modernes (AVIF/WebP/SVG) pour 71% des images"
+          ]
+        }
+      },
+      "totalTags": 144,
+      "externalLinks": 0,
+      "internalLinks": 22,
+      "deadLinks": 3,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 4,
+        "h4": 2,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Festicloze",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Festicloze",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Dates du Festival",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Dates du Festival",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Vendredi 25 Décembre",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Samedi 26 Décembre",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Dimanche 27 Décembre",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Découvrir le Festival",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Découvrir le Festival",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Galerie d'images",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Nos Partenaires",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos Partenaires",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Festicloze",
+          "tag": "h3"
+        },
+        {
+          "level": 4,
+          "text": "Navigation",
+          "tag": "h4"
+        },
+        {
+          "level": 4,
+          "text": "Contact",
+          "tag": "h4"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 117,
+          "lastColumn": 59,
+          "firstColumn": 3,
+          "message": "The “aria-labelledby” attribute must not be specified on any “div” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "extract": "GRÉ -->\n  <div class=\"carousel\" aria-labelledby=\"carousel-heading\">\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 57
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 123,
+          "lastColumn": 90,
+          "firstColumn": 9,
+          "message": "Bad value “assets/img/img/scene/scene 1 redimenssioné.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"assets/img/img/scene/scene 1 redimenssioné.png\" alt=\"Image musique 1\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 82
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 126,
+          "lastColumn": 92,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/img/img/scene/scene 2 redimenssionné.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"/assets/img/img/scene/scene 2 redimenssionné.png\" alt=\"Image musique 2\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 129,
+          "lastColumn": 92,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/img/img/scene/scene 3 redimenssionné.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"/assets/img/img/scene/scene 3 redimenssionné.png\" alt=\"Image musique 3\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 132,
+          "lastColumn": 91,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/img/img/scene/SCENE 5 redimenssioné.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"/assets/img/img/scene/SCENE 5 redimenssioné.png\" alt=\"Image musique 4\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 83
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 135,
+          "lastColumn": 92,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/img/img/scene/scene 6 redimenssionné.png” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"/assets/img/img/scene/scene 6 redimenssionné.png\" alt=\"Image musique 5\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 84
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 140,
+          "lastColumn": 71,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/svg/fleche gauche.svg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"/assets/svg/fleche gauche.svg\" alt=\"fleche gauche\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 63
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 143,
+          "lastColumn": 71,
+          "firstColumn": 9,
+          "message": "Bad value “/assets/svg/fleche droite.svg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": ">\n        <img src=\"/assets/svg/fleche droite.svg\" alt=\"fleche droite\" />\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 63
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729712645.html",
+          "lastLine": 218,
+          "lastColumn": 13,
+          "firstColumn": 10,
+          "message": "Element “li” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "\n         <li><a cla",
+          "hiliteStart": 10,
+          "hiliteLength": 4
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.79,
+        "accessibility": 0.92,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 11001,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/page/index.css",
+            "resourceSize": 3129,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1761,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 785,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/scene/scene%201%20redimenssion%C3%A9.png",
+            "resourceSize": 115831,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/scene/scene%202%20redimenssionn%C3%A9.png",
+            "resourceSize": 193064,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/scene/scene%203%20redimenssionn%C3%A9.png",
+            "resourceSize": 142264,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/scene/SCENE%205%20redimenssion%C3%A9.png",
+            "resourceSize": 124574,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/scene/scene%206%20redimenssionn%C3%A9.png",
+            "resourceSize": 136255,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/svg/fleche%20gauche.svg",
+            "resourceSize": 2020,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/svg/fleche%20droite.svg",
+            "resourceSize": 2013,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 905,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 473,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 3748,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 2676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 2101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/page/404.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/illustration/premi%C3%A8re%20image.webp",
+            "resourceSize": 47932,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/festival.html",
+      "title": "Le Festival - Festicloze",
+      "images": [
+        {
+          "src": "assets/img/img/Photo personnel/marie.jpg",
+          "alt": "Marie Dubois - Directrice artistique",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 1614504,
+          "mimeType": "image/jpeg",
+          "format": "jpg"
+        },
+        {
+          "src": "assets/img/img/Photo personnel/homme thomas.jpg",
+          "alt": "Thomas Laurent - Chef d'orchestre",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 125124,
+          "mimeType": "image/jpeg",
+          "format": "jpg"
+        },
+        {
+          "src": "assets/img/img/Photo personnel/sophie martin.webp",
+          "alt": "Sophie Martin - Responsable production",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 17784,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/img/Photo personnel/lucas bernard.jpg",
+          "alt": "Lucas Bernard - Coordinateur logistique",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 520520,
+          "mimeType": "image/jpeg",
+          "format": "jpg"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 4,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 1,
+        "lazyLoadingPercentage": 100
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 4,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 4,
+        "averageWeight": 569483,
+        "top5AverageWeight": 569483,
+        "formats": {
+          "avif": 0,
+          "webp": 1,
+          "jpg": 3,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/img/Photo personnel/marie.jpg",
+            "alt": "Marie Dubois - Directrice artistique",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 1614504,
+            "mimeType": "image/jpeg",
+            "format": "jpg"
+          },
+          {
+            "src": "assets/img/img/Photo personnel/homme thomas.jpg",
+            "alt": "Thomas Laurent - Chef d'orchestre",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 125124,
+            "mimeType": "image/jpeg",
+            "format": "jpg"
+          },
+          {
+            "src": "assets/img/img/Photo personnel/sophie martin.webp",
+            "alt": "Sophie Martin - Responsable production",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 17784,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/img/Photo personnel/lucas bernard.jpg",
+            "alt": "Lucas Bernard - Coordinateur logistique",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 520520,
+            "mimeType": "image/jpeg",
+            "format": "jpg"
+          }
+        ],
+        "score": {
+          "total": 69,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 4 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 16,
+              "max": 35,
+              "details": "Lazy loading: 4/4 (100%), Top 5 poids moyen: 556KB, Moyenne: 556KB"
+            },
+            "bestPractices": {
+              "score": 20,
+              "max": 30,
+              "details": "Formats modernes: 25% (1 webp, 3 jpg), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "D",
+          "improvements": [
+            "Attention : éviter le lazy loading sur les images above-the-fold (premières images visibles)",
+            "Optimiser les 5 images les plus lourdes (moyenne: 556KB > 100KB)",
+            "Utiliser des formats modernes (AVIF/WebP/SVG) pour 75% des images"
+          ]
+        }
+      },
+      "totalTags": 162,
+      "externalLinks": 0,
+      "internalLinks": 12,
+      "deadLinks": 9,
+      "favicon": true,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 11,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Festival",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Le Festival",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Historique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Historique",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "L'équipe",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'équipe",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Marie Dubois",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Marie Dubois",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Thomas Laurent",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Thomas Laurent",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Sophie Martin",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Sophie Martin",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Lucas Bernard",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Lucas Bernard",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Nos valeurs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos valeurs",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Excellence artistique",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Excellence artistique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Transmission culturelle",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Transmission culturelle",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Accessibilité",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Accessibilité",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Patrimoine et tradition",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Patrimoine et tradition",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Thématique 2025",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Thématique 2025",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "\"Noëls Baroques\"",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festicloze",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Festicloze",
+          "tag": "nav"
+        },
+        {
+          "level": 2,
+          "text": "Festicloze",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Navigation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729722082.html",
+          "lastLine": 107,
+          "firstLine": 103,
+          "lastColumn": 49,
+          "firstColumn": 33,
+          "message": "Bad value “assets/img/img/Photo personnel/marie.jpg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"assets/img/img/Photo personnel/marie.jpg\" \n                                     alt=\"Marie Dubois - Directrice artistique\"\n                                     loading=\"lazy\"\n                                     width=\"80\"\n                                     height=\"80\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 282
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729722082.html",
+          "lastLine": 124,
+          "firstLine": 120,
+          "lastColumn": 49,
+          "firstColumn": 33,
+          "message": "Bad value “assets/img/img/Photo personnel/homme thomas.jpg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"assets/img/img/Photo personnel/homme thomas.jpg\" \n                                     alt=\"Thomas Laurent - Chef d'orchestre\"\n                                     loading=\"lazy\"\n                                     width=\"80\"\n                                     height=\"80\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 286
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729722082.html",
+          "lastLine": 141,
+          "firstLine": 137,
+          "lastColumn": 49,
+          "firstColumn": 33,
+          "message": "Bad value “assets/img/img/Photo personnel/sophie martin.webp” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"assets/img/img/Photo personnel/sophie martin.webp\" \n                                     alt=\"Sophie Martin - Responsable production\"\n                                     loading=\"lazy\"\n                                     width=\"80\"\n                                     height=\"80\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 293
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729722082.html",
+          "lastLine": 158,
+          "firstLine": 154,
+          "lastColumn": 49,
+          "firstColumn": 33,
+          "message": "Bad value “assets/img/img/Photo personnel/lucas bernard.jpg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"assets/img/img/Photo personnel/lucas bernard.jpg\" \n                                     alt=\"Lucas Bernard - Coordinateur logistique\"\n                                     loading=\"lazy\"\n                                     width=\"80\"\n                                     height=\"80\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 293
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 0.91,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/festival.html",
+            "resourceSize": 18794,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 905,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/css-output.css",
+            "resourceSize": 322,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/style.css",
+            "resourceSize": 2006,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 473,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 3748,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/page/festival.css",
+            "resourceSize": 9655,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1761,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/scroll.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/illustration/page%20histoire.png",
+            "resourceSize": 127939,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/Photo%20personnel/marie.jpg",
+            "resourceSize": 1614504,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/Photo%20personnel/homme%20thomas.jpg",
+            "resourceSize": 125124,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/Photo%20personnel/sophie%20martin.webp",
+            "resourceSize": 17784,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/img/Photo%20personnel/lucas%20bernard.jpg",
+            "resourceSize": 520520,
+            "mimeType": "image/jpeg",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/svg/ping.svg",
+            "resourceSize": 2339,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/programme.html",
+      "title": null,
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 3,
+      "externalLinks": 0,
+      "internalLinks": 0,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": false,
+      "headings": {
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729754972.html",
+          "message": "End of file seen without seeing a doctype first. Expected “<!DOCTYPE html>”."
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729754972.html",
+          "message": "Element “head” is missing a required instance of child element “title”."
+        }
+      ],
+      "lighthouseReport": {
+        "performance": null,
+        "accessibility": null,
+        "bestPractices": null,
+        "seo": null,
+        "viewport": null,
+        "errors": null,
+        "requests": null
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/artiste.html",
+      "title": "Artistes — Festicloze",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 34,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Artistes",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/artiste.html",
+            "resourceSize": 3069,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 644,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/page/artiste.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1761,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+            "resourceSize": 6137,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 905,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/main.css",
+            "resourceSize": 473,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base/media.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 3748,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/footer.css",
+            "resourceSize": 2676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/button.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/menu.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/hero.css",
+            "resourceSize": 0,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components/carousel.css",
+            "resourceSize": 2101,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/src/css/page/404.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/scene.html",
+      "title": null,
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 3,
+      "externalLinks": 0,
+      "internalLinks": 0,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": false,
+      "headings": {
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729794838.html",
+          "message": "End of file seen without seeing a doctype first. Expected “<!DOCTYPE html>”."
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729794838.html",
+          "message": "Element “head” is missing a required instance of child element “title”."
+        }
+      ],
+      "lighthouseReport": {
+        "performance": null,
+        "accessibility": null,
+        "bestPractices": null,
+        "seo": null,
+        "viewport": null,
+        "errors": null,
+        "requests": null
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/info-pratique.html",
+      "title": null,
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 3,
+      "externalLinks": 0,
+      "internalLinks": 0,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": false,
+      "headings": {
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729827634.html",
+          "message": "End of file seen without seeing a doctype first. Expected “<!DOCTYPE html>”."
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765729827634.html",
+          "message": "Element “head” is missing a required instance of child element “title”."
+        }
+      ],
+      "lighthouseReport": {
+        "performance": null,
+        "accessibility": null,
+        "bestPractices": null,
+        "seo": null,
+        "viewport": null,
+        "errors": null,
+        "requests": null
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/contact.html",
+      "title": "Contact — Festicloze",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 34,
+      "externalLinks": 0,
+      "internalLinks": 7,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/contact.html",
+            "resourceSize": 3188,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 905,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/css-output.css",
+            "resourceSize": 322,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/style.css",
+            "resourceSize": 2006,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 3748,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1761,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/infos-pratiques.html",
+      "title": "Infos pratiques — Festicloze",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 34,
+      "externalLinks": 0,
+      "internalLinks": 7,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Infos pratiques",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/infos-pratiques.html",
+            "resourceSize": 3314,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 905,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/css-output.css",
+            "resourceSize": 322,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/style.css",
+            "resourceSize": 2006,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 3748,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1761,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/page404.html",
+      "title": "Page non trouvée — 404",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 11,
+      "externalLinks": 0,
+      "internalLinks": 1,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": false,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "404",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 0.9,
+        "viewport": 0,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/page404.html",
+            "resourceSize": 1856,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/404.css",
+            "resourceSize": 0,
+            "mimeType": "",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/billetterie.html",
+      "title": "Billetterie — Festicloze",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 34,
+      "externalLinks": 0,
+      "internalLinks": 7,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Billetterie",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/billetterie.html",
+            "resourceSize": 3208,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/variable.css",
+            "resourceSize": 905,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/css-output.css",
+            "resourceSize": 322,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/utils/style.css",
+            "resourceSize": 2006,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout/header.css",
+            "resourceSize": 3748,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1761,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "button",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "textarea",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 60,
+      "span": 31,
+      "br": 2
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 10,
+    "pagesWithImages": 10,
+    "globalStats": {
+      "totalImages": 11,
+      "imagesWithAlt": 11,
+      "imagesWithoutAlt": 0,
+      "imagesWithGoodAlt": 11,
+      "imagesWithPoorAlt": 0,
+      "decorativeImages": 0,
+      "contentImages": 11,
+      "imagesWithLazyLoading": 4,
+      "averageWeight": 332213,
+      "top5AverageWeight": 521321,
+      "decorativeRatio": 0
+    },
+    "formats": {
+      "avif": 0,
+      "webp": 1,
+      "jpg": 3,
+      "png": 5,
+      "svg": 2,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 70,
+      "breakdown": {
+        "accessibility": {
+          "score": 33,
+          "max": 35,
+          "details": "11/11 images avec alt (100%), 11 alt de qualité, 0 décoratives (0%)"
+        },
+        "performance": {
+          "score": 21,
+          "max": 35,
+          "details": "Lazy loading: 4/11 (36%), Top 5 poids moyen: 509KB, Moyenne: 324KB"
+        },
+        "bestPractices": {
+          "score": 16,
+          "max": 30,
+          "details": "Formats modernes: 27% (1 webp, 3 jpg, 5 png, 2 svg), Ratio décoratif: 0%"
+        }
+      },
+      "grade": "C",
+      "improvements": [
+        "Activer le lazy loading sur 7 image(s) supplémentaire(s) (hors first fold)",
+        "Optimiser les 5 images les plus lourdes (moyenne: 509KB > 100KB)",
+        "Utiliser des formats modernes (AVIF/WebP/SVG) pour 73% des images"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5500/",
+        "score": 73,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/festival.html",
+        "score": 69,
+        "grade": "D"
+      },
+      {
+        "page": "http://127.0.0.1:5500/programme.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/artiste.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/scene.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/info-pratique.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/contact.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/infos-pratiques.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/page404.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/billetterie.html",
+        "score": 100,
+        "grade": "A"
+      }
+    ],
+    "scoreStats": {
+      "average": 94,
+      "min": 69,
+      "max": 100,
+      "median": 100
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 304,
+      "linesOfCode": 442,
+      "size": 10950,
+      "complexity": 838,
+      "comments": {
+        "total": 45,
+        "size": 3120
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 1,
+      "totalUnique": 1,
+      "unique": {
+        "media": 1
+      },
+      "uniquenessRatio": 1,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "(min-width: 900px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "min-width": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 1
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0
+        ],
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "rules": {
+      "total": 58,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 21,
+        "mean": 5.224137931034483,
+        "mode": 2,
+        "range": 19,
+        "sum": 303,
+        "items": [
+          21,
+          3,
+          2,
+          7,
+          4,
+          2,
+          7,
+          2,
+          8,
+          6,
+          11,
+          2,
+          7,
+          9,
+          2,
+          2,
+          8,
+          3,
+          14,
+          2,
+          7,
+          4,
+          7,
+          7,
+          3,
+          9,
+          4,
+          5,
+          2,
+          8,
+          2,
+          3,
+          3,
+          3,
+          5,
+          6,
+          4,
+          3,
+          9,
+          2,
+          2,
+          6,
+          6,
+          2,
+          4,
+          9,
+          4,
+          5,
+          3,
+          4,
+          4,
+          3,
+          8,
+          3,
+          4,
+          6,
+          10,
+          2
+        ],
+        "total": 58,
+        "totalUnique": 12,
+        "unique": {
+          "2": 13,
+          "3": 10,
+          "4": 9,
+          "5": 3,
+          "6": 5,
+          "7": 6,
+          "8": 4,
+          "9": 4,
+          "10": 1,
+          "11": 1,
+          "14": 1,
+          "21": 1
+        },
+        "uniquenessRatio": 0.20689655172413793
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.08620689655172414,
+        "mode": 0,
+        "range": 1,
+        "sum": 5,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 58,
+        "totalUnique": 2,
+        "unique": {
+          "0": 53,
+          "1": 5
+        },
+        "uniquenessRatio": 0.034482758620689655
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0517241379310345,
+        "mode": 1,
+        "range": 1,
+        "sum": 61,
+        "items": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 58,
+        "totalUnique": 2,
+        "unique": {
+          "1": 55,
+          "2": 3
+        },
+        "uniquenessRatio": 0.034482758620689655
+      },
+      "declarations": {
+        "min": 1,
+        "max": 20,
+        "mean": 4.172413793103448,
+        "mode": 1,
+        "range": 19,
+        "sum": 242,
+        "items": [
+          20,
+          1,
+          1,
+          6,
+          3,
+          1,
+          6,
+          1,
+          7,
+          5,
+          10,
+          1,
+          6,
+          7,
+          1,
+          1,
+          7,
+          2,
+          13,
+          1,
+          6,
+          3,
+          6,
+          6,
+          2,
+          8,
+          2,
+          4,
+          1,
+          7,
+          1,
+          2,
+          2,
+          2,
+          4,
+          5,
+          3,
+          2,
+          8,
+          1,
+          1,
+          5,
+          5,
+          1,
+          3,
+          8,
+          3,
+          4,
+          2,
+          3,
+          3,
+          2,
+          7,
+          2,
+          3,
+          5,
+          9,
+          1
+        ],
+        "total": 58,
+        "totalUnique": 12,
+        "unique": {
+          "1": 14,
+          "2": 10,
+          "3": 8,
+          "4": 3,
+          "5": 5,
+          "6": 6,
+          "7": 5,
+          "8": 3,
+          "9": 1,
+          "10": 1,
+          "13": 1,
+          "20": 1
+        },
+        "uniquenessRatio": 0.20689655172413793
+      }
+    },
+    "selectors": {
+      "total": 61,
+      "totalUnique": 50,
+      "uniquenessRatio": 0.819672131147541,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          3,
+          0
+        ],
+        "sum": [
+          0,
+          64,
+          15
+        ],
+        "mean": [
+          0,
+          1.0491803278688525,
+          0.2459016393442623
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 61,
+        "totalUnique": 5,
+        "unique": {
+          "0,1,0": 38,
+          "0,0,1": 6,
+          "0,2,0": 7,
+          "0,1,1": 9,
+          "0,3,0": 1
+        },
+        "uniquenessRatio": 0.08196721311475409
+      },
+      "complexity": {
+        "min": 1,
+        "max": 4,
+        "mean": 1.4098360655737705,
+        "mode": 1,
+        "range": 3,
+        "sum": 86,
+        "total": 61,
+        "totalUnique": 4,
+        "unique": {
+          "1": 44,
+          "2": 10,
+          "3": 6,
+          "4": 1
+        },
+        "uniquenessRatio": 0.06557377049180328,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.08196721311475409,
+        "mode": 0,
+        "range": 1,
+        "sum": 5,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 61,
+        "totalUnique": 2,
+        "unique": {
+          "0": 56,
+          "1": 5
+        },
+        "uniquenessRatio": 0.03278688524590164
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "pseudoClasses": {
+        "total": 8,
+        "totalUnique": 3,
+        "unique": {
+          "root": 3,
+          "focus": 2,
+          "hover": 3
+        },
+        "uniquenessRatio": 0.375
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 7,
+        "totalUnique": 1,
+        "unique": {
+          " ": 7
+        },
+        "uniquenessRatio": 0.14285714285714285
+      }
+    },
+    "declarations": {
+      "total": 242,
+      "totalUnique": 176,
+      "uniquenessRatio": 0.7272727272727273,
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 242
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.05371900826446281,
+        "mode": 0,
+        "range": 1,
+        "sum": 13,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 242,
+        "totalUnique": 2,
+        "unique": {
+          "0": 229,
+          "1": 13
+        },
+        "uniquenessRatio": 0.008264462809917356
+      }
+    },
+    "properties": {
+      "total": 242,
+      "totalUnique": 78,
+      "unique": {
+        "--dark-blue": 1,
+        "--color-festicloze-header": 1,
+        "--color-blue-contact": 1,
+        "--color-violet-profond": 1,
+        "--jaune": 1,
+        "--spacing-xxl": 1,
+        "--spacing-xl": 1,
+        "--spacing-lg": 1,
+        "--spacing-md": 1,
+        "--spacing-sm": 1,
+        "--spacing-xs": 1,
+        "--radius-sm": 1,
+        "--radius-md": 1,
+        "--radius-lg": 1,
+        "--radius-full": 1,
+        "--transition-normal": 1,
+        "--transition-fast": 1,
+        "--type-text-family": 1,
+        "--title-button-family": 1,
+        "--title-button-letter-spacing": 1,
+        "height": 12,
+        "--page-bg": 1,
+        "margin": 6,
+        "font-family": 6,
+        "background": 15,
+        "color": 11,
+        "-webkit-font-smoothing": 1,
+        "-moz-osx-font-smoothing": 1,
+        "max-width": 5,
+        "padding": 12,
+        "--header-height": 1,
+        "position": 6,
+        "top": 4,
+        "left": 3,
+        "width": 10,
+        "z-index": 3,
+        "padding-top": 2,
+        "display": 17,
+        "align-items": 9,
+        "justify-content": 6,
+        "font-size": 7,
+        "text-decoration": 4,
+        "letter-spacing": 1,
+        "border": 3,
+        "border-radius": 7,
+        "cursor": 3,
+        "outline": 1,
+        "content": 1,
+        "right": 1,
+        "inset": 1,
+        "opacity": 7,
+        "pointer-events": 2,
+        "transition": 3,
+        "transform": 4,
+        "box-shadow": 2,
+        "overflow-y": 1,
+        "gap": 10,
+        "padding-bottom": 1,
+        "border-bottom": 1,
+        "list-style": 2,
+        "flex-direction": 3,
+        "margin-top": 4,
+        "margin-bottom": 4,
+        "fill": 1,
+        "background-color": 1,
+        "font-weight": 2,
+        "line-height": 2,
+        "padding-left": 1,
+        "flex-shrink": 1,
+        "text-align": 1,
+        "flex": 2,
+        "border-top": 1,
+        "overflow-x": 1,
+        "margin-left": 1,
+        "margin-right": 1,
+        "scroll-snap-type": 1,
+        "-webkit-overflow-scrolling": 1,
+        "scroll-snap-align": 1
+      },
+      "uniquenessRatio": 0.32231404958677684,
+      "prefixed": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "-webkit-font-smoothing": 1,
+          "-moz-osx-font-smoothing": 1,
+          "-webkit-overflow-scrolling": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.012396694214876033
+      },
+      "custom": {
+        "total": 22,
+        "totalUnique": 22,
+        "unique": {
+          "--dark-blue": 1,
+          "--color-festicloze-header": 1,
+          "--color-blue-contact": 1,
+          "--color-violet-profond": 1,
+          "--jaune": 1,
+          "--spacing-xxl": 1,
+          "--spacing-xl": 1,
+          "--spacing-lg": 1,
+          "--spacing-md": 1,
+          "--spacing-sm": 1,
+          "--spacing-xs": 1,
+          "--radius-sm": 1,
+          "--radius-md": 1,
+          "--radius-lg": 1,
+          "--radius-full": 1,
+          "--transition-normal": 1,
+          "--transition-fast": 1,
+          "--type-text-family": 1,
+          "--title-button-family": 1,
+          "--title-button-letter-spacing": 1,
+          "--page-bg": 1,
+          "--header-height": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.09090909090909091,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.103305785123967,
+        "mode": 1,
+        "range": 1,
+        "sum": 267
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 31,
+        "totalUnique": 23,
+        "unique": {
+          "#071428": 2,
+          "#f8dd80": 2,
+          "#9fc7ff": 1,
+          "#6b3fa0": 1,
+          "#041426": 1,
+          "#e6eef6": 1,
+          "rgba(10, 22, 40, 1)": 1,
+          "transparent": 5,
+          "rgba(248,221,128,0.18)": 1,
+          "rgba(248,221,128,0.14)": 1,
+          "rgba(0,0,0,0.45)": 1,
+          "rgba(26 39 68 / 1)": 1,
+          "rgba(0,0,0,0.6)": 1,
+          "rgba(255,255,255,0.03)": 1,
+          "rgba(248,221,128,0.9)": 1,
+          "rgba(230,238,246,0.92)": 1,
+          "rgba(255,255,255,0.012)": 1,
+          "rgba(248,221,128,0.05)": 1,
+          "currentColor": 1,
+          "white": 2,
+          "rgba(10, 22, 40, 0.98)": 1,
+          "rgba(255, 255, 255, 0.1)": 2,
+          "#ccc": 1
+        },
+        "uniquenessRatio": 0.7419354838709677,
+        "itemsPerContext": {
+          "--dark-blue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#071428": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-festicloze-header": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f8dd80": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-blue-contact": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#9fc7ff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--color-violet-profond": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#6b3fa0": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--jaune": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f8dd80": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--page-bg": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "#071428": 1,
+              "#041426": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 4,
+            "totalUnique": 3,
+            "unique": {
+              "#e6eef6": 1,
+              "rgba(230,238,246,0.92)": 1,
+              "white": 2
+            },
+            "uniquenessRatio": 0.75
+          },
+          "background": {
+            "total": 11,
+            "totalUnique": 7,
+            "unique": {
+              "rgba(10, 22, 40, 1)": 1,
+              "transparent": 5,
+              "rgba(0,0,0,0.45)": 1,
+              "rgba(26 39 68 / 1)": 1,
+              "rgba(255,255,255,0.012)": 1,
+              "rgba(248,221,128,0.05)": 1,
+              "rgba(255, 255, 255, 0.1)": 1
+            },
+            "uniquenessRatio": 0.6363636363636364
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 3,
+            "unique": {
+              "rgba(248,221,128,0.18)": 1,
+              "rgba(248,221,128,0.9)": 1,
+              "#ccc": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(248,221,128,0.14)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "box-shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,0.6)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(255,255,255,0.03)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "fill": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "currentColor": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(10, 22, 40, 0.98)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(255, 255, 255, 0.1)": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 31,
+          "totalUnique": 6,
+          "unique": {
+            "hex6": 8,
+            "rgba": 14,
+            "transparent": 5,
+            "currentcolor": 1,
+            "named": 2,
+            "hex3": 1
+          },
+          "uniquenessRatio": 0.1935483870967742
+        }
+      },
+      "gradients": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "linear-gradient(180deg, #071428 0%, #041426 100%)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 6,
+        "totalUnique": 3,
+        "unique": {
+          "var(--type-text-family)": 1,
+          "var(--title-button-family)": 4,
+          "var(--font-family)": 1
+        },
+        "uniquenessRatio": 0.5
+      },
+      "fontSizes": {
+        "total": 7,
+        "totalUnique": 4,
+        "unique": {
+          "1.5rem": 2,
+          "1.25rem": 2,
+          "1.125rem": 1,
+          "0.875rem": 2
+        },
+        "uniquenessRatio": 0.5714285714285714
+      },
+      "lineHeights": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "1.5": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "zindexes": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "70": 1,
+          "75": 1,
+          "1000": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "12px 0 40px rgba(0,0,0,0.6)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 7,
+        "totalUnique": 5,
+        "unique": {
+          "8px": 2,
+          "2px": 2,
+          "6px": 1,
+          "var(--radius-full)": 1,
+          "50%": 1
+        },
+        "uniquenessRatio": 0.7142857142857143,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 7,
+            "totalUnique": 5,
+            "unique": {
+              "8px": 2,
+              "2px": 2,
+              "6px": 1,
+              "var(--radius-full)": 1,
+              "50%": 1
+            },
+            "uniquenessRatio": 0.7142857142857143
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            ".22s": 1,
+            ".28s": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "timingFunctions": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 1,
+            "cubic-bezier(.2,.9,.3,1)": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 82,
+        "totalUnique": 7,
+        "unique": {
+          "rem": 25,
+          "px": 48,
+          "ms": 2,
+          "em": 2,
+          "deg": 2,
+          "s": 2,
+          "vh": 1
+        },
+        "uniquenessRatio": 0.08536585365853659,
+        "itemsPerContext": {
+          "--spacing-xxl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-xl": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-sm": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--spacing-xs": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--radius-sm": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--radius-md": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--radius-lg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--radius-full": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--transition-normal": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "ms": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--transition-fast": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "ms": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--title-button-letter-spacing": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--page-bg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "max-width": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding": {
+            "total": 9,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 6,
+              "px": 3
+            },
+            "uniquenessRatio": 0.2222222222222222
+          },
+          "--header-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "font-size": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "letter-spacing": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "width": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "height": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "px": 6,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "border": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "border-radius": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "transition": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "s": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "box-shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "gap": {
+            "total": 6,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 4,
+              "px": 2
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "padding-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 1,
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "flex": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "transform": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 242
+      },
+      "keywords": {
+        "total": 21,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 10,
+          "none": 11
+        },
+        "uniquenessRatio": 0.09523809523809523
+      },
+      "resets": {
+        "total": 4,
+        "totalUnique": 2,
+        "unique": {
+          "margin": 1,
+          "padding": 3
+        },
+        "uniquenessRatio": 0.5
+      }
+    },
+    "__meta__": {
+      "parseTime": 3,
+      "analyzeTime": 4,
+      "total": 7
+    },
+    "imports": {
+      "total": 12,
+      "imports": [
+        {
+          "path": "vendors/normalize.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/vendors/normalize.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": true,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "vendor",
+          "fileSize": 6137
+        },
+        {
+          "path": "utils/variable.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/utils/variable.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "utils",
+          "fileSize": 905
+        },
+        {
+          "path": "base/main.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/base/main.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "base",
+          "fileSize": 473
+        },
+        {
+          "path": "base/media.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/base/media.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "base",
+          "fileSize": 0
+        },
+        {
+          "path": "layout/header.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/layout/header.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 3748
+        },
+        {
+          "path": "layout/footer.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/layout/footer.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 2676
+        },
+        {
+          "path": "components/button.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/components/button.css",
+          "mediaQuery": null,
+          "isValid": false,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": null
+        },
+        {
+          "path": "components/menu.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/components/menu.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 0
+        },
+        {
+          "path": "components/hero.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/components/hero.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 0
+        },
+        {
+          "path": "components/carousel.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/components/carousel.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 2101
+        },
+        {
+          "path": "layout/footer.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/layout/footer.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 2676
+        },
+        {
+          "path": "src/css/page/404.css",
+          "resolvedUrl": "http://127.0.0.1:5500/src/css/src/css/page/404.css",
+          "mediaQuery": null,
+          "isValid": false,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "pages",
+          "fileSize": null
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 0,
+        "externalCount": 0,
+        "relativeCount": 12,
+        "validCount": 10,
+        "invalidCount": 2,
+        "categories": {
+          "vendor": 1,
+          "utils": 1,
+          "base": 2,
+          "layout": 3,
+          "custom": 4,
+          "pages": 1
+        },
+        "namingIssues": {
+          "totalFiles": 12,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 87,
+        "breakdown": {
+          "validity": {
+            "score": 21,
+            "max": 25,
+            "details": "2 import(s) invalide(s) sur 12."
+          },
+          "organization": {
+            "score": 30,
+            "max": 30,
+            "details": "6 catégories utilisées. Bonne modularité."
+          },
+          "performance": {
+            "score": 15,
+            "max": 20,
+            "details": "12 imports. Bonne modularité, pourrait être améliorée. Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 15,
+            "max": 15,
+            "details": "Conventions de nommage respectées."
+          },
+          "bestPractices": {
+            "score": 6,
+            "max": 10,
+            "details": "Bonnes pratiques: Utilise normalize.css."
+          }
+        },
+        "grade": "B",
+        "improvements": [
+          "Corriger les imports invalides ou inaccessibles"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 22,
+      "totalUsed": 14,
+      "totalUnused": 8,
+      "totalUndeclared": 1,
+      "declarations": [
+        {
+          "name": "--dark-blue",
+          "value": "#071428",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--color-festicloze-header",
+          "value": "#f8dd80",
+          "usageCount": 8,
+          "category": "color"
+        },
+        {
+          "name": "--color-blue-contact",
+          "value": "#9fc7ff",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--color-violet-profond",
+          "value": "#6b3fa0",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--jaune",
+          "value": "#f8dd80",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--spacing-xxl",
+          "value": "5rem",
+          "usageCount": 0,
+          "category": "spacing"
+        },
+        {
+          "name": "--spacing-xl",
+          "value": "3rem",
+          "usageCount": 2,
+          "category": "spacing"
+        },
+        {
+          "name": "--spacing-lg",
+          "value": "2rem",
+          "usageCount": 1,
+          "category": "spacing"
+        },
+        {
+          "name": "--spacing-md",
+          "value": "1rem",
+          "usageCount": 6,
+          "category": "spacing"
+        },
+        {
+          "name": "--spacing-sm",
+          "value": "0.75rem",
+          "usageCount": 2,
+          "category": "spacing"
+        },
+        {
+          "name": "--spacing-xs",
+          "value": "0.5rem",
+          "usageCount": 4,
+          "category": "spacing"
+        },
+        {
+          "name": "--radius-sm",
+          "value": "8px",
+          "usageCount": 0,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-md",
+          "value": "12px",
+          "usageCount": 0,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-lg",
+          "value": "20px",
+          "usageCount": 0,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-full",
+          "value": "9999px",
+          "usageCount": 1,
+          "category": "radius"
+        },
+        {
+          "name": "--transition-normal",
+          "value": "200ms ease",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--transition-fast",
+          "value": "120ms ease",
+          "usageCount": 1,
+          "category": "other"
+        },
+        {
+          "name": "--type-text-family",
+          "value": "\"Helvetica Neue\", Arial, sans-serif",
+          "usageCount": 1,
+          "category": "typography"
+        },
+        {
+          "name": "--title-button-family",
+          "value": "\"Georgia\", \"Times New Roman\", serif",
+          "usageCount": 4,
+          "category": "other"
+        },
+        {
+          "name": "--title-button-letter-spacing",
+          "value": "0.02em",
+          "usageCount": 0,
+          "category": "typography"
+        },
+        {
+          "name": "--page-bg",
+          "value": "linear-gradient(180deg, #071428 0%, #041426 100%)",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--header-height",
+          "value": "64px",
+          "usageCount": 1,
+          "category": "layout"
+        }
+      ],
+      "unusedVariables": [
+        {
+          "name": "--dark-blue",
+          "value": "#071428",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--color-blue-contact",
+          "value": "#9fc7ff",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--spacing-xxl",
+          "value": "5rem",
+          "usageCount": 0,
+          "category": "spacing"
+        },
+        {
+          "name": "--radius-sm",
+          "value": "8px",
+          "usageCount": 0,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-md",
+          "value": "12px",
+          "usageCount": 0,
+          "category": "radius"
+        },
+        {
+          "name": "--radius-lg",
+          "value": "20px",
+          "usageCount": 0,
+          "category": "radius"
+        },
+        {
+          "name": "--transition-normal",
+          "value": "200ms ease",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--title-button-letter-spacing",
+          "value": "0.02em",
+          "usageCount": 0,
+          "category": "typography"
+        }
+      ],
+      "undeclaredUsages": [
+        {
+          "name": "--font-family",
+          "fallback": null
+        }
+      ],
+      "categorization": {
+        "color": 6,
+        "typography": 2,
+        "spacing": 6,
+        "radius": 4,
+        "other": 4
+      },
+      "detailedCategorization": {
+        "color": [
+          {
+            "name": "--dark-blue",
+            "value": "#071428",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--color-festicloze-header",
+            "value": "#f8dd80",
+            "usageCount": 8,
+            "category": "color"
+          },
+          {
+            "name": "--color-blue-contact",
+            "value": "#9fc7ff",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--color-violet-profond",
+            "value": "#6b3fa0",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--jaune",
+            "value": "#f8dd80",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--page-bg",
+            "value": "linear-gradient(180deg, #071428 0%, #041426 100%)",
+            "usageCount": 1,
+            "category": "color"
+          }
+        ],
+        "typography": [
+          {
+            "name": "--type-text-family",
+            "value": "\"Helvetica Neue\", Arial, sans-serif",
+            "usageCount": 1,
+            "category": "typography"
+          },
+          {
+            "name": "--title-button-letter-spacing",
+            "value": "0.02em",
+            "usageCount": 0,
+            "category": "typography"
+          }
+        ],
+        "spacing": [
+          {
+            "name": "--spacing-xxl",
+            "value": "5rem",
+            "usageCount": 0,
+            "category": "spacing"
+          },
+          {
+            "name": "--spacing-xl",
+            "value": "3rem",
+            "usageCount": 2,
+            "category": "spacing"
+          },
+          {
+            "name": "--spacing-lg",
+            "value": "2rem",
+            "usageCount": 1,
+            "category": "spacing"
+          },
+          {
+            "name": "--spacing-md",
+            "value": "1rem",
+            "usageCount": 6,
+            "category": "spacing"
+          },
+          {
+            "name": "--spacing-sm",
+            "value": "0.75rem",
+            "usageCount": 2,
+            "category": "spacing"
+          },
+          {
+            "name": "--spacing-xs",
+            "value": "0.5rem",
+            "usageCount": 4,
+            "category": "spacing"
+          }
+        ],
+        "radius": [
+          {
+            "name": "--radius-sm",
+            "value": "8px",
+            "usageCount": 0,
+            "category": "radius"
+          },
+          {
+            "name": "--radius-md",
+            "value": "12px",
+            "usageCount": 0,
+            "category": "radius"
+          },
+          {
+            "name": "--radius-lg",
+            "value": "20px",
+            "usageCount": 0,
+            "category": "radius"
+          },
+          {
+            "name": "--radius-full",
+            "value": "9999px",
+            "usageCount": 1,
+            "category": "radius"
+          }
+        ],
+        "other": [
+          {
+            "name": "--transition-normal",
+            "value": "200ms ease",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--transition-fast",
+            "value": "120ms ease",
+            "usageCount": 1,
+            "category": "other"
+          },
+          {
+            "name": "--title-button-family",
+            "value": "\"Georgia\", \"Times New Roman\", serif",
+            "usageCount": 4,
+            "category": "other"
+          },
+          {
+            "name": "--header-height",
+            "value": "64px",
+            "usageCount": 1,
+            "category": "layout"
+          }
+        ]
+      },
+      "ratio": {
+        "variableUsages": 34,
+        "rawProperties": 208,
+        "variableRatio": 0.14049586776859505
+      },
+      "score": {
+        "total": 59,
+        "breakdown": {
+          "adoption": {
+            "score": 16,
+            "max": 40,
+            "details": "14% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 20,
+            "max": 25,
+            "details": "14/22 variables utilisées (64%)."
+          },
+          "hygiene": {
+            "score": 13,
+            "max": 20,
+            "details": "Problèmes: 1 usage(s) non déclaré(s), 8 variable(s) inutilisée(s)."
+          },
+          "categories": {
+            "score": 10,
+            "max": 10,
+            "details": "4/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Faible adoption, usages non déclarés présents."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Supprimer les variables inutilisées ou les mettre en usage",
+          "Déclarer toutes les variables utilisées (éviter var(--x) non déclarées)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": false,
+        "count": 0,
+        "sources": {
+          "html": 0,
+          "css": 0
+        },
+        "details": []
+      },
+      "fontFamilies": {
+        "Helvetica Neue": {
+          "declarationCount": 1,
+          "isGlobal": true,
+          "selectors": [
+            "body"
+          ],
+          "selectorCount": 1,
+          "sizes": [],
+          "sizeVariations": 0,
+          "fallbacks": [
+            "Arial",
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        },
+        "Georgia": {
+          "declarationCount": 4,
+          "isGlobal": false,
+          "selectors": [
+            ".header__logo",
+            ".menu__brand",
+            ".footer-page-nav__brand h3",
+            ".footer-page-nav__section-title"
+          ],
+          "selectorCount": 4,
+          "sizes": [
+            {
+              "size": "1.5rem",
+              "selectors": [
+                ".header__logo",
+                ".footer-page-nav__brand h3"
+              ],
+              "lineHeights": [],
+              "selectorCount": 2
+            },
+            {
+              "size": "1.25rem",
+              "selectors": [
+                ".menu__brand"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            },
+            {
+              "size": "1.125rem",
+              "selectors": [
+                ".footer-page-nav__section-title"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 3,
+          "fallbacks": [
+            "Times New Roman",
+            "serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "serif"
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 6,
+        "totalFontSizeDeclarations": 7,
+        "totalLineHeightDeclarations": 2,
+        "hasGlobalFontFamily": true,
+        "globalFamilies": 1,
+        "inheritanceQuality": 0.167,
+        "averageDeclarationsPerFamily": 3,
+        "familiesWithFallbacks": 2,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 1,
+        "fontSizeUnits": {
+          "units": {
+            "px": 0,
+            "rem": 7,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 7,
+          "relativeUnits": 7,
+          "relativeRatio": 1
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 2,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 2,
+          "proportionalUnits": 2,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {
+          "Helvetica Neue": {
+            "count": 1,
+            "selectors": [
+              "body"
+            ],
+            "isGlobal": true
+          },
+          "Georgia": {
+            "count": 4,
+            "selectors": [
+              ".header__logo",
+              ".menu__brand",
+              ".footer-page-nav__brand h3",
+              ".footer-page-nav__section-title"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "1.5rem": {
+            "count": 2,
+            "selectors": [
+              ".header__logo",
+              ".footer-page-nav__brand h3"
+            ]
+          },
+          "1.25rem": {
+            "count": 2,
+            "selectors": [
+              ".menu__brand",
+              ".footer-page-nav__icon"
+            ]
+          },
+          "1.125rem": {
+            "count": 1,
+            "selectors": [
+              ".footer-page-nav__section-title"
+            ]
+          },
+          "0.875rem": {
+            "count": 2,
+            "selectors": [
+              ".footer-page-nav__item",
+              ".footer__legal p"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "1.5": {
+            "count": 2
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": false,
+        "excessiveFontFamilyDeclarations": true,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 61,
+        "breakdown": {
+          "webfonts": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucune webfont détectée."
+          },
+          "fallbacks": {
+            "score": 20,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 13,
+            "max": 25,
+            "details": "Police globale définie. Qualité d'héritage: 17%."
+          },
+          "sizes": {
+            "score": 20,
+            "max": 20,
+            "details": "Nombre de tailles optimal. 100% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 8,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Trop de déclarations font-family."
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Utiliser des webfonts pour améliorer la typographie",
+          "Définir une police globale et réduire les redéclarations",
+          "Définir des line-heights pour toutes les font-size"
+        ]
+      }
+    },
+    "colors": {
+      "totalColors": 31,
+      "uniqueColors": 23,
+      "colors": [
+        {
+          "color": "#071428",
+          "count": 2
+        },
+        {
+          "color": "#f8dd80",
+          "count": 2
+        },
+        {
+          "color": "#9fc7ff",
+          "count": 1
+        },
+        {
+          "color": "#6b3fa0",
+          "count": 1
+        },
+        {
+          "color": "#041426",
+          "count": 1
+        },
+        {
+          "color": "#e6eef6",
+          "count": 1
+        },
+        {
+          "color": "rgba(10, 22, 40, 1)",
+          "count": 1
+        },
+        {
+          "color": "transparent",
+          "count": 5
+        },
+        {
+          "color": "rgba(248,221,128,0.18)",
+          "count": 1
+        },
+        {
+          "color": "rgba(248,221,128,0.14)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.45)",
+          "count": 1
+        },
+        {
+          "color": "rgba(26 39 68 / 1)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.6)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255,255,255,0.03)",
+          "count": 1
+        },
+        {
+          "color": "rgba(248,221,128,0.9)",
+          "count": 1
+        },
+        {
+          "color": "rgba(230,238,246,0.92)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255,255,255,0.012)",
+          "count": 1
+        },
+        {
+          "color": "rgba(248,221,128,0.05)",
+          "count": 1
+        },
+        {
+          "color": "currentcolor",
+          "count": 1
+        },
+        {
+          "color": "white",
+          "count": 2
+        },
+        {
+          "color": "rgba(10, 22, 40, 0.98)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.1)",
+          "count": 2
+        },
+        {
+          "color": "#ccc",
+          "count": 1
+        }
+      ],
+      "transparentColors": [
+        {
+          "color": "transparent",
+          "count": 5
+        },
+        {
+          "color": "rgba(248,221,128,0.18)",
+          "count": 1
+        },
+        {
+          "color": "rgba(248,221,128,0.14)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.45)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.6)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255,255,255,0.03)",
+          "count": 1
+        },
+        {
+          "color": "rgba(248,221,128,0.9)",
+          "count": 1
+        },
+        {
+          "color": "rgba(230,238,246,0.92)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255,255,255,0.012)",
+          "count": 1
+        },
+        {
+          "color": "rgba(248,221,128,0.05)",
+          "count": 1
+        },
+        {
+          "color": "rgba(10, 22, 40, 0.98)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.1)",
+          "count": 2
+        }
+      ],
+      "opaqueColors": [
+        {
+          "color": "#071428",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#041426",
+            "rgba(10, 22, 40, 1)",
+            "rgba(26 39 68 / 1)"
+          ]
+        },
+        {
+          "color": "#f8dd80",
+          "count": 2,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#9fc7ff",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#6b3fa0",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#041426",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#071428",
+            "rgba(10, 22, 40, 1)",
+            "rgba(26 39 68 / 1)"
+          ]
+        },
+        {
+          "color": "#e6eef6",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "white"
+          ]
+        },
+        {
+          "color": "rgba(10, 22, 40, 1)",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#071428",
+            "#041426",
+            "rgba(26 39 68 / 1)"
+          ]
+        },
+        {
+          "color": "rgba(26 39 68 / 1)",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#071428",
+            "#041426",
+            "rgba(10, 22, 40, 1)"
+          ]
+        },
+        {
+          "color": "currentcolor",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "white",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#e6eef6"
+          ]
+        },
+        {
+          "color": "#ccc",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        }
+      ],
+      "colorGroups": [
+        {
+          "hueRange": 80,
+          "hueName": "Jaune",
+          "colors": [
+            {
+              "color": "#f8dd80",
+              "count": 2,
+              "oklch": {
+                "l": 0.900568762829012,
+                "c": 0.11702085621258919,
+                "h": 93.65798666613506,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 240,
+          "hueName": "Bleu",
+          "colors": [
+            {
+              "color": "#071428",
+              "count": 2,
+              "oklch": {
+                "l": 0.19190269012077313,
+                "c": 0.0448691826750185,
+                "h": 258.36938454602773,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#9fc7ff",
+              "count": 1,
+              "oklch": {
+                "l": 0.8211724914657217,
+                "c": 0.09028636637804026,
+                "h": 256.85104336724356,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#041426",
+              "count": 1,
+              "oklch": {
+                "l": 0.18812573901167276,
+                "c": 0.0434848246916316,
+                "h": 251.6621366732441,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "rgba(10, 22, 40, 1)",
+              "count": 1,
+              "oklch": {
+                "l": 0.19976391626794343,
+                "c": 0.04028172357063517,
+                "h": 258.291195688682,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "rgba(26 39 68 / 1)",
+              "count": 1,
+              "oklch": {
+                "l": 0.27691483085151697,
+                "c": 0.05682490125964491,
+                "h": 264.6992086030412,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 280,
+          "hueName": "Bleu",
+          "colors": [
+            {
+              "color": "#6b3fa0",
+              "count": 1,
+              "oklch": {
+                "l": 0.4685409362336394,
+                "c": 0.1522291080397727,
+                "h": 301.7013982702345,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": -1,
+          "hueName": "Achromatique (Gris/Noir/Blanc)",
+          "colors": [
+            {
+              "color": "#e6eef6",
+              "count": 1,
+              "oklch": {
+                "l": 0.9454031964426627,
+                "c": 0.013789309117801952,
+                "h": 247.9731137009947,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "white",
+              "count": 2,
+              "oklch": {
+                "l": 1.0000000000000002,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#ccc",
+              "count": 1,
+              "oklch": {
+                "l": 0.8452222558133237,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      ],
+      "similarColors": [
+        {
+          "color": "#071428",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#041426",
+            "rgba(10, 22, 40, 1)",
+            "rgba(26 39 68 / 1)"
+          ]
+        },
+        {
+          "color": "#041426",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#071428",
+            "rgba(10, 22, 40, 1)",
+            "rgba(26 39 68 / 1)"
+          ]
+        },
+        {
+          "color": "#e6eef6",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "white"
+          ]
+        },
+        {
+          "color": "rgba(10, 22, 40, 1)",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#071428",
+            "#041426",
+            "rgba(26 39 68 / 1)"
+          ]
+        },
+        {
+          "color": "rgba(26 39 68 / 1)",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#071428",
+            "#041426",
+            "rgba(10, 22, 40, 1)"
+          ]
+        },
+        {
+          "color": "white",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#e6eef6"
+          ]
+        }
+      ],
+      "hasSimilarColors": true,
+      "formats": {
+        "hex": 7,
+        "rgb": 13,
+        "transparent": 1,
+        "named": 2
+      },
+      "score": {
+        "total": 62,
+        "breakdown": {
+          "palette": {
+            "score": 22,
+            "max": 30,
+            "details": "Palette un peu large. "
+          },
+          "consistency": {
+            "score": 15,
+            "max": 25,
+            "details": "Plusieurs couleurs similaires détectées. "
+          },
+          "formats": {
+            "score": 10,
+            "max": 20,
+            "details": "4 formats de couleurs utilisés. "
+          },
+          "transparency": {
+            "score": 10,
+            "max": 15,
+            "details": "Transparence fréquente. "
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 10,
+            "details": "Bonne diversité de teintes. "
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Réduire le nombre de couleurs : utiliser une palette limitée (8-15 couleurs)",
+          "Uniformiser les formats de couleurs (privilégier oklch ou hsl)",
+          "Envisager l'utilisation de formats modernes comme oklch ou hsl",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 346,
+      "nodesWithClasses": 325,
+      "uniqueClasses": [
+        "header",
+        "header__container",
+        "header__logo",
+        "header__menu-btn",
+        "header__menu-icon",
+        "menu",
+        "menu__list",
+        "menu__item",
+        "menu__link",
+        "hero",
+        "hero__inner",
+        "hero-text",
+        "dates",
+        "date-card",
+        "btn-reserver",
+        "note-reservation",
+        "infos",
+        "carousel",
+        "carousel__heading",
+        "sr-only",
+        "carousel__container",
+        "carousel__item",
+        "carousel__controls",
+        "carousel__button",
+        "carousel__button--prev",
+        "carousel__button--next",
+        "infos-card",
+        "icon",
+        "card-title",
+        "card-subtitle",
+        "carousel-dots",
+        "partenaires",
+        "partners-wrapper",
+        "partner-card",
+        "footer",
+        "footer--minimal",
+        "footer__container",
+        "footer-page-nav__brand",
+        "footer-page-nav__title",
+        "footer-page-nav__list",
+        "footer-page-nav__list--social",
+        "footer-page-nav__link",
+        "footer-page-nav__icon",
+        "footer-page-nav__section",
+        "footer-page-nav__section-title",
+        "footer-page-nav__item",
+        "page404",
+        "footer-page-nav__text",
+        "footer-page-nav__item--address",
+        "footer__legal",
+        "menu__link--active",
+        "main",
+        "hero--page",
+        "hero__background",
+        "hero__background--festival",
+        "hero__overlay",
+        "hero__content",
+        "hero__title",
+        "hero__title--page",
+        "section",
+        "section--festival",
+        "section__container",
+        "section__title",
+        "section__title--left",
+        "content-block",
+        "content-block__text",
+        "section--team",
+        "content-block__intro",
+        "team",
+        "team-member",
+        "team-member__content",
+        "team-member__info",
+        "team-member__name",
+        "team-member__role",
+        "team-member__image",
+        "info-box",
+        "info-box__list",
+        "info-box__item",
+        "section--values",
+        "values-grid",
+        "value-card",
+        "value-card__title",
+        "value-card__text",
+        "section--theme",
+        "theme-box",
+        "theme-box__subtitle",
+        "theme-box__text",
+        "section--footer-nav",
+        "footer-page-nav",
+        "footer__legal-list",
+        "footer__legal-item",
+        "footer__legal-link",
+        "footer__copyright",
+        "container",
+        "not-found",
+        "btn-home"
+      ],
+      "frequency": {
+        "header": 6,
+        "header__container": 6,
+        "header__logo": 6,
+        "header__menu-btn": 6,
+        "header__menu-icon": 6,
+        "menu": 6,
+        "menu__list": 6,
+        "menu__item": 38,
+        "menu__link": 38,
+        "hero": 2,
+        "hero__inner": 1,
+        "hero-text": 1,
+        "dates": 1,
+        "date-card": 3,
+        "btn-reserver": 1,
+        "note-reservation": 1,
+        "infos": 1,
+        "carousel": 1,
+        "carousel__heading": 1,
+        "sr-only": 1,
+        "carousel__container": 1,
+        "carousel__item": 5,
+        "carousel__controls": 1,
+        "carousel__button": 2,
+        "carousel__button--prev": 1,
+        "carousel__button--next": 1,
+        "infos-card": 1,
+        "icon": 1,
+        "card-title": 1,
+        "card-subtitle": 1,
+        "carousel-dots": 2,
+        "partenaires": 1,
+        "partners-wrapper": 1,
+        "partner-card": 2,
+        "footer": 2,
+        "footer--minimal": 2,
+        "footer__container": 2,
+        "footer-page-nav__brand": 2,
+        "footer-page-nav__title": 2,
+        "footer-page-nav__list": 7,
+        "footer-page-nav__list--social": 2,
+        "footer-page-nav__link": 24,
+        "footer-page-nav__icon": 12,
+        "footer-page-nav__section": 4,
+        "footer-page-nav__section-title": 4,
+        "footer-page-nav__item": 23,
+        "page404": 1,
+        "footer-page-nav__text": 6,
+        "footer-page-nav__item--address": 2,
+        "footer__legal": 2,
+        "menu__link--active": 1,
+        "main": 1,
+        "hero--page": 1,
+        "hero__background": 1,
+        "hero__background--festival": 1,
+        "hero__overlay": 1,
+        "hero__content": 1,
+        "hero__title": 1,
+        "hero__title--page": 1,
+        "section": 5,
+        "section--festival": 1,
+        "section__container": 5,
+        "section__title": 4,
+        "section__title--left": 3,
+        "content-block": 1,
+        "content-block__text": 2,
+        "section--team": 1,
+        "content-block__intro": 1,
+        "team": 1,
+        "team-member": 4,
+        "team-member__content": 4,
+        "team-member__info": 4,
+        "team-member__name": 4,
+        "team-member__role": 4,
+        "team-member__image": 4,
+        "info-box": 1,
+        "info-box__list": 1,
+        "info-box__item": 1,
+        "section--values": 1,
+        "values-grid": 1,
+        "value-card": 4,
+        "value-card__title": 4,
+        "value-card__text": 4,
+        "section--theme": 1,
+        "theme-box": 1,
+        "theme-box__subtitle": 1,
+        "theme-box__text": 1,
+        "section--footer-nav": 1,
+        "footer-page-nav": 1,
+        "footer__legal-list": 1,
+        "footer__legal-item": 4,
+        "footer__legal-link": 4,
+        "footer__copyright": 1,
+        "container": 4,
+        "not-found": 1,
+        "btn-home": 1
+      },
+      "averageClassesPerNode": 1.06,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 2,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "container",
+        "header__container",
+        "header__logo",
+        "header__menu-btn",
+        "header__menu-icon",
+        "menu-overlay",
+        "open",
+        "menu",
+        "menu__header",
+        "menu__brand",
+        "menu__close",
+        "menu__list",
+        "menu__item",
+        "menu__link",
+        "footer",
+        "footer__container",
+        "footer-page-nav__brand",
+        "footer-page-nav__list--social",
+        "footer-page-nav__link",
+        "footer-page-nav__section",
+        "footer-page-nav__section-title",
+        "footer-page-nav__list",
+        "footer-page-nav__item",
+        "footer-page-nav__item--address",
+        "footer-page-nav__icon",
+        "footer-page-nav__text",
+        "footer__legal",
+        "carousel__container",
+        "carousel__item",
+        "carousel__controls",
+        "carousel__button",
+        "carousel__button--prev"
+      ],
+      "totalSelectors": 61,
+      "selectorsWithMultipleClasses": 4,
+      "specificity": {
+        "average": 9.36,
+        "max": 20
+      },
+      "complexSelectorsRatio": 0.197,
+      "selectorForms": {
+        "bemSelectors": 52,
+        "pureBemSelectors": 43,
+        "pureBemSelectorsRatio": 0.705,
+        "selectorsWithAncestor": 7,
+        "selectorsWithId": 0,
+        "selectorsWithType": 11,
+        "selectorsWithAttribute": 0,
+        "ancestorsRatio": 0.115,
+        "withIdRatio": 0,
+        "withTypeRatio": 0.18
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "menu-overlay",
+        "open",
+        "menu__header",
+        "menu__brand",
+        "menu__close"
+      ],
+      "undefinedHtmlClasses": [
+        "header",
+        "hero",
+        "hero__inner",
+        "hero-text",
+        "dates",
+        "date-card",
+        "btn-reserver",
+        "note-reservation",
+        "infos",
+        "carousel",
+        "carousel__heading",
+        "sr-only",
+        "carousel__button--next",
+        "infos-card",
+        "icon",
+        "card-title",
+        "card-subtitle",
+        "carousel-dots",
+        "partenaires",
+        "partners-wrapper",
+        "partner-card",
+        "footer--minimal",
+        "footer-page-nav__title",
+        "page404",
+        "menu__link--active",
+        "main",
+        "hero--page",
+        "hero__background",
+        "hero__background--festival",
+        "hero__overlay",
+        "hero__content",
+        "hero__title",
+        "hero__title--page",
+        "section",
+        "section--festival",
+        "section__container",
+        "section__title",
+        "section__title--left",
+        "content-block",
+        "content-block__text",
+        "section--team",
+        "content-block__intro",
+        "team",
+        "team-member",
+        "team-member__content",
+        "team-member__info",
+        "team-member__name",
+        "team-member__role",
+        "team-member__image",
+        "info-box",
+        "info-box__list",
+        "info-box__item",
+        "section--values",
+        "values-grid",
+        "value-card",
+        "value-card__title",
+        "value-card__text",
+        "section--theme",
+        "theme-box",
+        "theme-box__subtitle",
+        "theme-box__text",
+        "section--footer-nav",
+        "footer-page-nav",
+        "footer__legal-list",
+        "footer__legal-item",
+        "footer__legal-link",
+        "footer__copyright",
+        "not-found",
+        "btn-home"
+      ],
+      "coverageHtml": 0.281,
+      "coverageCss": 0.844,
+      "cssEfficiency": 0.844
+    },
+    "bem": {
+      "blocks": {
+        "header": {
+          "elements": [
+            "header__container",
+            "header__logo",
+            "header__menu-btn",
+            "header__menu-icon"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu": {
+          "elements": [
+            "menu__list",
+            "menu__item",
+            "menu__link",
+            "menu__header",
+            "menu__brand",
+            "menu__close"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "menu__link--active"
+          ]
+        },
+        "hero": {
+          "elements": [
+            "hero__inner",
+            "hero__background",
+            "hero__overlay",
+            "hero__content",
+            "hero__title"
+          ],
+          "modifiers": [
+            "hero--page"
+          ],
+          "elementModifiers": [
+            "hero__background--festival",
+            "hero__title--page"
+          ]
+        },
+        "hero-text": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "dates": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "date-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-reserver": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "note-reservation": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "infos": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel": {
+          "elements": [
+            "carousel__heading",
+            "carousel__container",
+            "carousel__item",
+            "carousel__controls",
+            "carousel__button"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "carousel__button--prev",
+            "carousel__button--next"
+          ]
+        },
+        "sr-only": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "infos-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "card-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "card-subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel-dots": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "partenaires": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "partners-wrapper": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "partner-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer": {
+          "elements": [
+            "footer__container",
+            "footer__legal",
+            "footer__legal-list",
+            "footer__legal-item",
+            "footer__legal-link",
+            "footer__copyright"
+          ],
+          "modifiers": [
+            "footer--minimal"
+          ],
+          "elementModifiers": []
+        },
+        "footer-page-nav": {
+          "elements": [
+            "footer-page-nav__brand",
+            "footer-page-nav__title",
+            "footer-page-nav__list",
+            "footer-page-nav__link",
+            "footer-page-nav__icon",
+            "footer-page-nav__section",
+            "footer-page-nav__section-title",
+            "footer-page-nav__item",
+            "footer-page-nav__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "footer-page-nav__list--social",
+            "footer-page-nav__item--address"
+          ]
+        },
+        "page404": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "main": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section": {
+          "elements": [
+            "section__container",
+            "section__title"
+          ],
+          "modifiers": [
+            "section--festival",
+            "section--team",
+            "section--values",
+            "section--theme",
+            "section--footer-nav"
+          ],
+          "elementModifiers": [
+            "section__title--left"
+          ]
+        },
+        "content-block": {
+          "elements": [
+            "content-block__text",
+            "content-block__intro"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "team": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "team-member": {
+          "elements": [
+            "team-member__content",
+            "team-member__info",
+            "team-member__name",
+            "team-member__role",
+            "team-member__image"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "info-box": {
+          "elements": [
+            "info-box__list",
+            "info-box__item"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "values-grid": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "value-card": {
+          "elements": [
+            "value-card__title",
+            "value-card__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "theme-box": {
+          "elements": [
+            "theme-box__subtitle",
+            "theme-box__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "not-found": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-home": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu-overlay": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "open": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 36,
+        "elements": 50,
+        "modifiers": 7,
+        "elementModifiers": 8,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0.333
+      },
+      "depth": {
+        "max": 3,
+        "average": 1.72
+      },
+      "blockStructure": {
+        "totalBlocks": 36,
+        "structuredBlocks": 12,
+        "orphanBlocks": 24,
+        "implicitBlocks": []
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "hero": 2,
+        "date": 1,
+        "btn": 2,
+        "note": 1,
+        "sr": 1,
+        "infos": 1,
+        "card": 2,
+        "carousel": 1,
+        "partners": 1,
+        "partner": 1,
+        "footer": 13,
+        "section": 5,
+        "content": 3,
+        "team": 6,
+        "info": 3,
+        "values": 1,
+        "value": 3,
+        "theme": 3,
+        "not": 1
+      },
+      "entropy": 5.573,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-12-14T16:30:56.392Z"
+    },
+    "score": {
+      "bem": {
+        "total": 53,
+        "breakdown": {
+          "coverage": {
+            "score": 4,
+            "max": 15,
+            "details": "Couverture moyenne: 56%"
+          },
+          "selectorForms": {
+            "score": 24,
+            "max": 30,
+            "details": "Pure BEM: 70%"
+          },
+          "structure": {
+            "score": 8,
+            "max": 25,
+            "details": "Blocs structurés: 33%"
+          },
+          "elementsRatio": {
+            "score": 15,
+            "max": 20,
+            "details": "Éléments/bloc: 1.39"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0.42"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 81,
+    "breakdown": {
+      "errorPenalty": 19,
+      "warningPenalty": 0
+    },
+    "grade": "B",
+    "improvements": [
+      "Corriger les 19 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 19,
+      "totalWarnings": 0,
+      "averageErrors": 1.9,
+      "pagesAnalyzed": 10
+    }
+  }
+}

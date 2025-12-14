@@ -1,0 +1,7662 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Echos Sonore - Festival",
+      "images": [
+        {
+          "src": "assets/image/logoFestival.png",
+          "alt": "Echos Sonore",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16878,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "assets/image/festivaaaallsss1.avif",
+          "alt": "Festival Echos Sonore - Foule en liesse",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 208588,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/grandescene1.avif",
+          "alt": "Concert sur la Grande Scène",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 1349735,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/ambiancereggae70000.avif",
+          "alt": "Ambiance nocturne",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 393398,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/ambizncereggaton1 (1).avif",
+          "alt": "Public en délire",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 208819,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/brigadevertefestival1.avif",
+          "alt": "Festival éco-responsable",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 758012,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 6,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 6,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 6,
+        "imagesWithAlt": 6,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 6,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 6,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 489238,
+        "top5AverageWeight": 583710,
+        "formats": {
+          "avif": 5,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/image/logoFestival.png",
+            "alt": "Echos Sonore",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "assets/image/festivaaaallsss1.avif",
+            "alt": "Festival Echos Sonore - Foule en liesse",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 208588,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/grandescene1.avif",
+            "alt": "Concert sur la Grande Scène",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 1349735,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/ambiancereggae70000.avif",
+            "alt": "Ambiance nocturne",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 393398,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/ambizncereggaton1 (1).avif",
+            "alt": "Public en délire",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 208819,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/brigadevertefestival1.avif",
+            "alt": "Festival éco-responsable",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 758012,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 72,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "6/6 images avec alt (100%), 6 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 11,
+              "max": 35,
+              "details": "Lazy loading: 0/6 (0%), Top 5 poids moyen: 570KB, Moyenne: 478KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 83% (5 avif, 1 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Activer le lazy loading sur 6 image(s) supplémentaire(s) (hors first fold)",
+            "Optimiser les 5 images les plus lourdes (moyenne: 570KB > 100KB)"
+          ]
+        }
+      },
+      "totalTags": 141,
+      "externalLinks": 0,
+      "internalLinks": 14,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 12,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "EchosSonore",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Revivez les éditions précédentes",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Revivez les éditions précédentes",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Édition 2025",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Grande Scène",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ambiance magique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Vibrez ensemble",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Éco-responsable",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Dates du festival",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Dates du festival",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Jeudi - Ouverture",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ven-Sam - Programme complet",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Dimanche - Finale",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Explorer",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Explorer",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Programme",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Artistes",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Scènes",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Infos Pratiques",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Zéro déchet, énergies renouvelables,transports doux, initiatives locales,sensibilisation aux enjeux environnementaux",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Zéro déchet, énergies renouvelables,transports doux, initiatives locales,sensibilisation aux enjeux environnementaux",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765716107603.html",
+          "lastLine": 97,
+          "lastColumn": 102,
+          "firstColumn": 29,
+          "message": "Bad value “assets/image/ambizncereggaton1 (1).avif” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <img src=\"assets/image/ambizncereggaton1 (1).avif\" alt=\"Public en délire\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 74
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765716107603.html",
+          "lastLine": 216,
+          "lastColumn": 11,
+          "firstColumn": 5,
+          "message": "End tag “main” seen, but there were open elements.",
+          "extract": "ion>\n\n    </main>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 7
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765716107603.html",
+          "lastLine": 167,
+          "lastColumn": 35,
+          "firstColumn": 13,
+          "message": "Unclosed element “div”.",
+          "extract": "          <div class=\"container\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 23
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765716107603.html",
+          "lastLine": 166,
+          "lastColumn": 42,
+          "firstColumn": 9,
+          "message": "Unclosed element “section”.",
+          "extract": ">\n        <section class=\"explorer-section\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 34
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.71,
+        "accessibility": 0.83,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 10461,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/carrousel.css",
+            "resourceSize": 3467,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/logoFestival.png",
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/festivaaaallsss1.avif",
+            "resourceSize": 208588,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/grandescene1.avif",
+            "resourceSize": 1349735,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/ambiancereggae70000.avif",
+            "resourceSize": 393398,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/ambizncereggaton1%20(1).avif",
+            "resourceSize": 208819,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/brigadevertefestival1.avif",
+            "resourceSize": 758012,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carrousel.js",
+            "resourceSize": 3624,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/Hero_Festival.avif",
+            "resourceSize": 240947,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/festival.html",
+      "title": "Le Festival - Echos Sonore",
+      "images": [
+        {
+          "src": "assets/image/logoFestival.png",
+          "alt": "Echos Sonore",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16878,
+          "mimeType": "image/png",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 1,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 1,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 16878,
+        "top5AverageWeight": 16878,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/image/logoFestival.png",
+            "alt": "Echos Sonore",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 72,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "1/1 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 16KB, Moyenne: 16KB"
+            },
+            "bestPractices": {
+              "score": 17,
+              "max": 30,
+              "details": "Formats modernes: 0% (1 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Activer le lazy loading sur 1 image(s) supplémentaire(s) (hors first fold)",
+            "Utiliser des formats modernes (AVIF/WebP/SVG) pour 100% des images"
+          ]
+        }
+      },
+      "totalTags": 95,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 9,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Festival",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Le Festival",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Historique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Historique",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Édition 2026 :",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "L'Équipe",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'Équipe",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Direction Artistique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Production Technique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Coordination Générale",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Équipe Environnement",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Nos Valeurs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos Valeurs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Éco-Responsabilité",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Diversité Culturelle",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Accessibilité",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Convivialité",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.94,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/festival.html",
+            "resourceSize": 8304,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/festival.css",
+            "resourceSize": 3266,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/logoFestival.png",
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/programme.html",
+      "title": "Programme - Echos Sonore",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 246,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 13,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Jeudi 28",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jeudi 28",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Alpha Blondy",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Alpha Blondy",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Tiken Jah Fakoly",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Tiken Jah Fakoly",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Sena Jobarteh",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Sena Jobarteh",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Vendredi 29",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Fatoumata Diawara",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Fatoumata Diawara",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Baloji",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Baloji",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Chronixx",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Chronixx",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Groundation",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Groundation",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Samedi 30",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Songhoy Blues",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Songhoy Blues",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Koffee",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Koffee",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Angelique Kidjo",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Angelique Kidjo",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche 31",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Hindi Zahra",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Hindi Zahra",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Asa",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Asa",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Finale Surprise",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Finale Surprise",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.98,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/programme.html",
+            "resourceSize": 22726,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/programme.css",
+            "resourceSize": 32692,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/programme.js",
+            "resourceSize": 5502,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/artiste.html",
+      "title": "Artistes - Echos Sonore",
+      "images": [
+        {
+          "src": "assets/image/logoFestival.png",
+          "alt": "Echos Sonore",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16878,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "assets/image/alpha-blondy1.avif",
+          "alt": "Alpha Blondy",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 136133,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/tiken-jah-fakoly.avif",
+          "alt": "Tiken Jah Fakoly",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 186414,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/sona1.avif",
+          "alt": "Sena Jobarteh",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 300648,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/fatoumatadiawara1.avif",
+          "alt": "Fatoumata Diawara",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 224278,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/baloji1.avif",
+          "alt": "Baloji",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 142419,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/chronixx1.avif",
+          "alt": "Chronixx",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 215799,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/groundationnnn1.avif",
+          "alt": "Groundation",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 95031,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/oumousangare1.avif",
+          "alt": "Oumou Sangaré",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 144642,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/koffe1.avif",
+          "alt": "Koffee",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 147283,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/angelique1.avif",
+          "alt": "Angelique Kidjo",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 151833,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/marley1.avif",
+          "alt": "Damian Marley",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 165564,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/hindi1.avif",
+          "alt": "Hindi Zahra",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 156979,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/asa1.avif",
+          "alt": "Asa",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 200671,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/matisyahu1.avif",
+          "alt": "Matisyahu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 170021,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 15,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 15,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 15,
+        "imagesWithAlt": 15,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 14,
+        "imagesWithPoorAlt": 1,
+        "decorativeImages": 0,
+        "contentImages": 15,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 163640,
+        "top5AverageWeight": 225562,
+        "formats": {
+          "avif": 14,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/image/logoFestival.png",
+            "alt": "Echos Sonore",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "assets/image/alpha-blondy1.avif",
+            "alt": "Alpha Blondy",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 136133,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/tiken-jah-fakoly.avif",
+            "alt": "Tiken Jah Fakoly",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 186414,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/sona1.avif",
+            "alt": "Sena Jobarteh",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 300648,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/fatoumatadiawara1.avif",
+            "alt": "Fatoumata Diawara",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 224278,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/baloji1.avif",
+            "alt": "Baloji",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 142419,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/chronixx1.avif",
+            "alt": "Chronixx",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 215799,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/groundationnnn1.avif",
+            "alt": "Groundation",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 95031,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/oumousangare1.avif",
+            "alt": "Oumou Sangaré",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 144642,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/koffe1.avif",
+            "alt": "Koffee",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 147283,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/angelique1.avif",
+            "alt": "Angelique Kidjo",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 151833,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/marley1.avif",
+            "alt": "Damian Marley",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 165564,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/hindi1.avif",
+            "alt": "Hindi Zahra",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 156979,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/asa1.avif",
+            "alt": "Asa",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 200671,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/matisyahu1.avif",
+            "alt": "Matisyahu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 170021,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 78,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "15/15 images avec alt (100%), 14 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 17,
+              "max": 35,
+              "details": "Lazy loading: 0/15 (0%), Top 5 poids moyen: 220KB, Moyenne: 160KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 93% (14 avif, 1 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Améliorer la qualité de 1 texte(s) alt trop court(s) ou générique(s)",
+            "Activer le lazy loading sur 15 image(s) supplémentaire(s) (hors first fold)",
+            "Optimiser les 5 images les plus lourdes (moyenne: 220KB > 100KB)"
+          ]
+        }
+      },
+      "totalTags": 240,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 14,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Artistes",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Artistes",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Alpha Blondy",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Alpha Blondy",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Alpha Blondy",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Tiken Jah Fakoly",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Tiken Jah Fakoly",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Sena Jobarteh",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Sena Jobarteh",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Fatoumata Diawara",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Fatoumata Diawara",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Baloji",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Baloji",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Chronixx",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Chronixx",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Groundation",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Groundation",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Oumou Sangaré",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Oumou Sangaré",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Koffee",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Koffee",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Angelique Kidjo",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Angelique Kidjo",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Damian Marley",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Damian Marley",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Hindi Zahra",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Hindi Zahra",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Asa",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Asa",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Matisyahu",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Matisyahu",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.72,
+        "accessibility": 0.93,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/artiste.html",
+            "resourceSize": 23415,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/artiste.css",
+            "resourceSize": 3817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/logoFestival.png",
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/alpha-blondy1.avif",
+            "resourceSize": 136133,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/tiken-jah-fakoly.avif",
+            "resourceSize": 186414,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/sona1.avif",
+            "resourceSize": 300648,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/fatoumatadiawara1.avif",
+            "resourceSize": 224278,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/baloji1.avif",
+            "resourceSize": 142419,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/chronixx1.avif",
+            "resourceSize": 215799,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/groundationnnn1.avif",
+            "resourceSize": 95031,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/oumousangare1.avif",
+            "resourceSize": 144642,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/koffe1.avif",
+            "resourceSize": 147283,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/angelique1.avif",
+            "resourceSize": 151833,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/marley1.avif",
+            "resourceSize": 165564,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/hindi1.avif",
+            "resourceSize": 156979,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/asa1.avif",
+            "resourceSize": 200671,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/matisyahu1.avif",
+            "resourceSize": 170021,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/artiste.js",
+            "resourceSize": 1821,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/scenes.html",
+      "title": "Les Scènes - Echos Sonore",
+      "images": [
+        {
+          "src": "assets/image/logoFestival.png",
+          "alt": "Echos Sonore",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16878,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "assets/image/grandescene1.avif",
+          "alt": "Grande Scène",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 1349735,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "assets/image/scenesecondaire1.avif",
+          "alt": "Scène Secondaire",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 1436358,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 3,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 3,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 3,
+        "imagesWithAlt": 3,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 3,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 3,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 934324,
+        "top5AverageWeight": 934324,
+        "formats": {
+          "avif": 2,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/image/logoFestival.png",
+            "alt": "Echos Sonore",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "assets/image/grandescene1.avif",
+            "alt": "Grande Scène",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 1349735,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "assets/image/scenesecondaire1.avif",
+            "alt": "Scène Secondaire",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 1436358,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 70,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "3/3 images avec alt (100%), 3 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 11,
+              "max": 35,
+              "details": "Lazy loading: 0/3 (0%), Top 5 poids moyen: 912KB, Moyenne: 912KB"
+            },
+            "bestPractices": {
+              "score": 26,
+              "max": 30,
+              "details": "Formats modernes: 67% (2 avif, 1 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Activer le lazy loading sur 3 image(s) supplémentaire(s) (hors first fold)",
+            "Optimiser les 5 images les plus lourdes (moyenne: 912KB > 100KB)",
+            "Utiliser des formats modernes (AVIF/WebP/SVG) pour 33% des images"
+          ]
+        }
+      },
+      "totalTags": 88,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les Scènes",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Les Scènes",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Grande Scène",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Grande Scène",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Grande Scène",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Scène Secondaire",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Scène Secondaire",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Plan du site",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765716138066.html",
+          "lastLine": 134,
+          "lastColumn": 18,
+          "firstColumn": 9,
+          "message": "End tag “section” seen, but there were open elements.",
+          "extract": ">\n        </section>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 10
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765716138066.html",
+          "lastLine": 50,
+          "lastColumn": 42,
+          "firstColumn": 13,
+          "message": "Unclosed element “div”.",
+          "extract": "          <div class=\"container-scenes\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 30
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.71,
+        "accessibility": 0.94,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/scenes.html",
+            "resourceSize": 8064,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/scenes.css",
+            "resourceSize": 3303,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/logoFestival.png",
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/grandescene1.avif",
+            "resourceSize": 1349735,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/scenesecondaire1.avif",
+            "resourceSize": 1436358,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/infos.html",
+      "title": "Infos Pratiques - Echos Sonore",
+      "images": [
+        {
+          "src": "assets/image/logoFestival.png",
+          "alt": "Echos Sonore",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16878,
+          "mimeType": "image/png",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 1,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 1,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 16878,
+        "top5AverageWeight": 16878,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/image/logoFestival.png",
+            "alt": "Echos Sonore",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 72,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "1/1 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 16KB, Moyenne: 16KB"
+            },
+            "bestPractices": {
+              "score": 17,
+              "max": 30,
+              "details": "Formats modernes: 0% (1 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Activer le lazy loading sur 1 image(s) supplémentaire(s) (hors first fold)",
+            "Utiliser des formats modernes (AVIF/WebP/SVG) pour 100% des images"
+          ]
+        }
+      },
+      "totalTags": 162,
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 11,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Infos Pratiques",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Infos Pratiques",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Tarifs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Tarifs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Pass 4 jours",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Pass 1 jour",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Tarif réduit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Gratuit",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Hébergements",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Camping du festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Hôtels partenaires",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Chambres d'hôtes",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Comment venir",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "En train",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "En bus",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "En voiture",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À vélo",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "FAQ",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.96,
+        "accessibility": 0.94,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/infos.html",
+            "resourceSize": 14887,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/infos.css",
+            "resourceSize": 5054,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/logoFestival.png",
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/contact.html",
+      "title": "Contact - Echos Sonore",
+      "images": [
+        {
+          "src": "assets/image/logoFestival.png",
+          "alt": "Echos Sonore",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16878,
+          "mimeType": "image/png",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 1,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 1,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 16878,
+        "top5AverageWeight": 16878,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/image/logoFestival.png",
+            "alt": "Echos Sonore",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 72,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "1/1 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 16KB, Moyenne: 16KB"
+            },
+            "bestPractices": {
+              "score": 17,
+              "max": 30,
+              "details": "Formats modernes: 0% (1 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Activer le lazy loading sur 1 image(s) supplémentaire(s) (hors first fold)",
+            "Utiliser des formats modernes (AVIF/WebP/SVG) pour 100% des images"
+          ]
+        }
+      },
+      "totalTags": 115,
+      "externalLinks": 3,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 3,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Nos coordonnées",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nos coordonnées",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Email",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Téléphone",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Adresse",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Envoyez-nous un message",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Suivez-nous",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Informations importantes",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.91,
+        "accessibility": 0.9,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/contact.html",
+            "resourceSize": 10732,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 9466,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/contact.css",
+            "resourceSize": 4663,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/image/logoFestival.png",
+            "resourceSize": 16878,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/script.js",
+            "resourceSize": 1881,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/contact.js",
+            "resourceSize": 914,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "resourceSize": 13044,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "resourceSize": 35508,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "resourceSize": 7992,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2",
+            "resourceSize": 7600,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+            "resourceSize": 7848,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "footer",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 221,
+      "span": 73,
+      "br": 4
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 7,
+    "pagesWithImages": 7,
+    "globalStats": {
+      "totalImages": 27,
+      "imagesWithAlt": 27,
+      "imagesWithoutAlt": 0,
+      "imagesWithGoodAlt": 26,
+      "imagesWithPoorAlt": 1,
+      "decorativeImages": 0,
+      "contentImages": 27,
+      "imagesWithLazyLoading": 0,
+      "averageWeight": 305320,
+      "top5AverageWeight": 1057448,
+      "decorativeRatio": 0
+    },
+    "formats": {
+      "avif": 21,
+      "webp": 0,
+      "jpg": 0,
+      "png": 6,
+      "svg": 0,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 70,
+      "breakdown": {
+        "accessibility": {
+          "score": 33,
+          "max": 35,
+          "details": "27/27 images avec alt (100%), 26 alt de qualité, 0 décoratives (0%)"
+        },
+        "performance": {
+          "score": 11,
+          "max": 35,
+          "details": "Lazy loading: 0/27 (0%), Top 5 poids moyen: 1033KB, Moyenne: 298KB"
+        },
+        "bestPractices": {
+          "score": 26,
+          "max": 30,
+          "details": "Formats modernes: 78% (21 avif, 6 png), Ratio décoratif: 0%"
+        }
+      },
+      "grade": "C",
+      "improvements": [
+        "Améliorer la qualité de 1 texte(s) alt trop court(s) ou générique(s)",
+        "Activer le lazy loading sur 27 image(s) supplémentaire(s) (hors first fold)",
+        "Optimiser les 5 images les plus lourdes (moyenne: 1033KB > 100KB)"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5500/",
+        "score": 72,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/festival.html",
+        "score": 72,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/programme.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/artiste.html",
+        "score": 78,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/scenes.html",
+        "score": 70,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/infos.html",
+        "score": 72,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/contact.html",
+        "score": 72,
+        "grade": "C"
+      }
+    ],
+    "scoreStats": {
+      "average": 77,
+      "min": 70,
+      "max": 100,
+      "median": 72
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 370,
+      "linesOfCode": 548,
+      "size": 9465,
+      "complexity": 1017,
+      "comments": {
+        "total": 13,
+        "size": 280
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 1,
+      "totalUnique": 1,
+      "unique": {
+        "import": 1
+      },
+      "uniquenessRatio": 1,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap')": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 1
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0
+        ],
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "rules": {
+      "total": 84,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 12,
+        "mean": 4.392857142857143,
+        "mode": 2,
+        "range": 10,
+        "sum": 369,
+        "items": [
+          3,
+          4,
+          5,
+          3,
+          2,
+          3,
+          8,
+          4,
+          3,
+          3,
+          3,
+          4,
+          10,
+          3,
+          6,
+          5,
+          2,
+          4,
+          6,
+          10,
+          6,
+          2,
+          2,
+          2,
+          12,
+          2,
+          7,
+          2,
+          2,
+          9,
+          10,
+          3,
+          2,
+          7,
+          7,
+          5,
+          6,
+          3,
+          7,
+          5,
+          10,
+          4,
+          3,
+          3,
+          5,
+          4,
+          4,
+          7,
+          3,
+          3,
+          3,
+          3,
+          5,
+          2,
+          2,
+          2,
+          5,
+          4,
+          3,
+          6,
+          4,
+          8,
+          8,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          10,
+          2,
+          2,
+          2,
+          2,
+          2,
+          5,
+          3,
+          5,
+          3,
+          7,
+          5,
+          8,
+          4
+        ],
+        "total": 84,
+        "totalUnique": 10,
+        "unique": {
+          "2": 22,
+          "3": 20,
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 6,
+          "8": 4,
+          "9": 1,
+          "10": 5,
+          "12": 1
+        },
+        "uniquenessRatio": 0.11904761904761904
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 84,
+        "totalUnique": 1,
+        "unique": {
+          "0": 84
+        },
+        "uniquenessRatio": 0.011904761904761904
+      },
+      "selectors": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.0595238095238095,
+        "mode": 1,
+        "range": 5,
+        "sum": 89,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 84,
+        "totalUnique": 2,
+        "unique": {
+          "1": 83,
+          "6": 1
+        },
+        "uniquenessRatio": 0.023809523809523808
+      },
+      "declarations": {
+        "min": 1,
+        "max": 11,
+        "mean": 3.3333333333333335,
+        "mode": 1,
+        "range": 10,
+        "sum": 280,
+        "items": [
+          2,
+          3,
+          4,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          3,
+          9,
+          2,
+          5,
+          4,
+          1,
+          3,
+          5,
+          9,
+          5,
+          1,
+          1,
+          1,
+          11,
+          1,
+          6,
+          1,
+          1,
+          8,
+          9,
+          2,
+          1,
+          6,
+          6,
+          4,
+          5,
+          2,
+          6,
+          4,
+          9,
+          3,
+          2,
+          2,
+          4,
+          3,
+          3,
+          6,
+          2,
+          2,
+          2,
+          2,
+          4,
+          1,
+          1,
+          1,
+          4,
+          3,
+          2,
+          5,
+          3,
+          7,
+          7,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          9,
+          1,
+          1,
+          1,
+          1,
+          1,
+          4,
+          2,
+          4,
+          2,
+          6,
+          4,
+          7,
+          3
+        ],
+        "total": 84,
+        "totalUnique": 10,
+        "unique": {
+          "1": 22,
+          "2": 21,
+          "3": 10,
+          "4": 10,
+          "5": 5,
+          "6": 6,
+          "7": 3,
+          "8": 1,
+          "9": 5,
+          "11": 1
+        },
+        "uniquenessRatio": 0.11904761904761904
+      }
+    },
+    "selectors": {
+      "total": 89,
+      "totalUnique": 86,
+      "uniquenessRatio": 0.9662921348314607,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          1
+        ],
+        "sum": [
+          0,
+          114,
+          35
+        ],
+        "mean": [
+          0,
+          1.2808988764044944,
+          0.39325842696629215
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "total": 89,
+        "totalUnique": 10,
+        "unique": {
+          "0,1,0": 37,
+          "0,0,0": 1,
+          "0,0,1": 14,
+          "0,2,0": 10,
+          "0,1,1": 7,
+          "0,3,1": 3,
+          "0,2,1": 7,
+          "0,1,2": 1,
+          "0,2,2": 1,
+          "0,3,0": 8
+        },
+        "uniquenessRatio": 0.11235955056179775
+      },
+      "complexity": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.9550561797752808,
+        "mode": 1,
+        "range": 5,
+        "sum": 174,
+        "total": 89,
+        "totalUnique": 6,
+        "unique": {
+          "1": 52,
+          "2": 11,
+          "3": 11,
+          "4": 11,
+          "5": 1,
+          "6": 3
+        },
+        "uniquenessRatio": 0.06741573033707865,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          6,
+          6,
+          6,
+          1,
+          2,
+          1,
+          3,
+          4,
+          3,
+          4,
+          4,
+          5,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          1,
+          1,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 89,
+        "totalUnique": 1,
+        "unique": {
+          "0": 89
+        },
+        "uniquenessRatio": 0.011235955056179775
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "pseudoClasses": {
+        "total": 14,
+        "totalUnique": 4,
+        "unique": {
+          "root": 1,
+          "hover": 9,
+          "nth-child": 3,
+          "first-child": 1
+        },
+        "uniquenessRatio": 0.2857142857142857
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 21,
+        "totalUnique": 1,
+        "unique": {
+          " ": 21
+        },
+        "uniquenessRatio": 0.047619047619047616
+      }
+    },
+    "declarations": {
+      "total": 280,
+      "totalUnique": 170,
+      "uniquenessRatio": 0.6071428571428571,
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 280
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 280,
+        "totalUnique": 1,
+        "unique": {
+          "0": 280
+        },
+        "uniquenessRatio": 0.0035714285714285713
+      }
+    },
+    "properties": {
+      "total": 280,
+      "totalUnique": 49,
+      "unique": {
+        "--font-heading": 1,
+        "--font-body": 1,
+        "margin": 6,
+        "padding": 15,
+        "box-sizing": 1,
+        "font-family": 5,
+        "line-height": 5,
+        "color": 18,
+        "overflow-x": 1,
+        "text-decoration": 1,
+        "list-style": 2,
+        "max-width": 6,
+        "display": 13,
+        "font-weight": 20,
+        "font-size": 20,
+        "letter-spacing": 6,
+        "position": 10,
+        "top": 5,
+        "left": 4,
+        "width": 9,
+        "z-index": 4,
+        "background": 29,
+        "box-shadow": 7,
+        "transition": 12,
+        "justify-content": 2,
+        "align-items": 4,
+        "gap": 5,
+        "transform": 9,
+        "height": 8,
+        "filter": 1,
+        "border": 2,
+        "cursor": 1,
+        "flex-direction": 2,
+        "border-radius": 6,
+        "opacity": 3,
+        "right": 2,
+        "overflow-y": 1,
+        "border-bottom": 1,
+        "border-top": 1,
+        "content": 2,
+        "padding-left": 1,
+        "min-height": 1,
+        "text-transform": 3,
+        "margin-bottom": 12,
+        "margin-top": 1,
+        "text-align": 5,
+        "grid-template-columns": 2,
+        "border-color": 3,
+        "overflow": 1
+      },
+      "uniquenessRatio": 0.175,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "--font-heading": 1,
+          "--font-body": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.007142857142857143,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0071428571428571,
+        "mode": 1,
+        "range": 1,
+        "sum": 282
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 62,
+        "totalUnique": 30,
+        "unique": {
+          "#1a1a1a": 7,
+          "#2E5C1F": 1,
+          "#3D7024": 1,
+          "rgba(0, 0, 0, 0.3)": 1,
+          "rgba(30, 30, 30, 0.98)": 1,
+          "rgba(0, 0, 0, 0.5)": 1,
+          "rgba(0, 0, 0, 0.2)": 1,
+          "#fff": 10,
+          "rgba(255, 255, 255, 0.1)": 2,
+          "#4CAF50": 4,
+          "rgba(76, 175, 80, 0.1)": 1,
+          "rgba(0,0,0,0.6)": 3,
+          "rgba(0,0,0,0.2)": 1,
+          "#FF6B35": 4,
+          "rgba(255, 107, 53, 0.4)": 1,
+          "#ff5722": 1,
+          "rgba(255, 107, 53, 0.5)": 1,
+          "#666": 2,
+          "transparent": 1,
+          "#FFF3E0": 2,
+          "#E8F5E9": 2,
+          "#FFF9C4": 2,
+          "#FBC02D": 2,
+          "rgba(0, 0, 0, 0.15)": 2,
+          "#F9A825": 1,
+          "#555": 1,
+          "#F5F5F5": 1,
+          "#f0f0f0": 2,
+          "#2E7D32": 2,
+          "rgba(255, 255, 255, 0.3)": 1
+        },
+        "uniquenessRatio": 0.4838709677419355,
+        "itemsPerContext": {
+          "color": {
+            "total": 17,
+            "totalUnique": 8,
+            "unique": {
+              "#1a1a1a": 5,
+              "#fff": 5,
+              "#666": 2,
+              "#FF6B35": 1,
+              "#4CAF50": 1,
+              "#F9A825": 1,
+              "#555": 1,
+              "#2E7D32": 1
+            },
+            "uniquenessRatio": 0.47058823529411764
+          },
+          "background": {
+            "total": 31,
+            "totalUnique": 18,
+            "unique": {
+              "#2E5C1F": 1,
+              "#3D7024": 1,
+              "rgba(30, 30, 30, 0.98)": 1,
+              "#fff": 5,
+              "#1a1a1a": 2,
+              "#4CAF50": 2,
+              "rgba(76, 175, 80, 0.1)": 1,
+              "rgba(0,0,0,0.6)": 3,
+              "rgba(0,0,0,0.2)": 1,
+              "#FF6B35": 2,
+              "#ff5722": 1,
+              "#FFF3E0": 2,
+              "#E8F5E9": 2,
+              "#FFF9C4": 2,
+              "#F5F5F5": 1,
+              "#FBC02D": 1,
+              "#f0f0f0": 2,
+              "#2E7D32": 1
+            },
+            "uniquenessRatio": 0.5806451612903226
+          },
+          "box-shadow": {
+            "total": 7,
+            "totalUnique": 6,
+            "unique": {
+              "rgba(0, 0, 0, 0.3)": 1,
+              "rgba(0, 0, 0, 0.5)": 1,
+              "rgba(255, 107, 53, 0.4)": 1,
+              "rgba(255, 107, 53, 0.5)": 1,
+              "rgba(0, 0, 0, 0.15)": 2,
+              "rgba(255, 255, 255, 0.3)": 1
+            },
+            "uniquenessRatio": 0.8571428571428571
+          },
+          "filter": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0, 0, 0, 0.2)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(255, 255, 255, 0.1)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(255, 255, 255, 0.1)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-color": {
+            "total": 3,
+            "totalUnique": 3,
+            "unique": {
+              "#FF6B35": 1,
+              "#4CAF50": 1,
+              "#FBC02D": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 62,
+          "totalUnique": 4,
+          "unique": {
+            "hex6": 32,
+            "rgba": 16,
+            "hex3": 13,
+            "transparent": 1
+          },
+          "uniquenessRatio": 0.06451612903225806
+        }
+      },
+      "gradients": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "linear-gradient(135deg, #2E5C1F 0%, #3D7024 100%)": 1,
+          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))": 1,
+          "linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontFamilies": {
+        "total": 5,
+        "totalUnique": 2,
+        "unique": {
+          "var(--font-body)": 3,
+          "var(--font-heading)": 2
+        },
+        "uniquenessRatio": 0.4
+      },
+      "fontSizes": {
+        "total": 20,
+        "totalUnique": 12,
+        "unique": {
+          "5rem": 2,
+          "2.5rem": 3,
+          "1.3rem": 3,
+          "1.5rem": 1,
+          "0.9rem": 3,
+          "1.2rem": 2,
+          "1rem": 1,
+          "1.1rem": 1,
+          "4rem": 1,
+          "0.95rem": 1,
+          "2rem": 1,
+          "1.8rem": 1
+        },
+        "uniquenessRatio": 0.6
+      },
+      "lineHeights": {
+        "total": 5,
+        "totalUnique": 4,
+        "unique": {
+          "1": 1,
+          "1.6": 2,
+          "0.9": 1,
+          "1.5": 1
+        },
+        "uniquenessRatio": 0.8
+      },
+      "zindexes": {
+        "total": 4,
+        "totalUnique": 4,
+        "unique": {
+          "10": 1,
+          "999": 1,
+          "1000": 1,
+          "1001": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 7,
+        "totalUnique": 7,
+        "unique": {
+          "0 2px 10px rgba(0, 0, 0, 0.3)": 1,
+          "0 4px 20px rgba(0, 0, 0, 0.5)": 1,
+          "0 4px 15px rgba(255, 107, 53, 0.4)": 1,
+          "0 6px 20px rgba(255, 107, 53, 0.5)": 1,
+          "0 10px 30px rgba(0, 0, 0, 0.15)": 1,
+          "0 15px 40px rgba(0, 0, 0, 0.15)": 1,
+          "0 5px 20px rgba(255, 255, 255, 0.3)": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "borderRadiuses": {
+        "total": 6,
+        "totalUnique": 4,
+        "unique": {
+          "3px": 1,
+          "30px": 2,
+          "20px": 2,
+          "50%": 1
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 6,
+            "totalUnique": 4,
+            "unique": {
+              "3px": 1,
+              "30px": 2,
+              "20px": 2,
+              "50%": 1
+            },
+            "uniquenessRatio": 0.6666666666666666
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 12,
+          "totalUnique": 2,
+          "unique": {
+            "0.3s": 11,
+            "0.5s": 1
+          },
+          "uniquenessRatio": 0.16666666666666666
+        },
+        "timingFunctions": {
+          "total": 12,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 11,
+            "cubic-bezier(0.68, -0.55, 0.265, 1.55)": 1
+          },
+          "uniquenessRatio": 0.16666666666666666
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 132,
+        "totalUnique": 6,
+        "unique": {
+          "rem": 60,
+          "px": 51,
+          "deg": 5,
+          "s": 12,
+          "vh": 2,
+          "fr": 2
+        },
+        "uniquenessRatio": 0.045454545454545456,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 20,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 20
+            },
+            "uniquenessRatio": 0.05
+          },
+          "letter-spacing": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "max-width": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding": {
+            "total": 22,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 22
+            },
+            "uniquenessRatio": 0.045454545454545456
+          },
+          "background": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "deg": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "box-shadow": {
+            "total": 14,
+            "totalUnique": 1,
+            "unique": {
+              "px": 14
+            },
+            "uniquenessRatio": 0.07142857142857142
+          },
+          "transition": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "s": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "gap": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 3,
+              "px": 1
+            },
+            "uniquenessRatio": 0.5
+          },
+          "width": {
+            "total": 4,
+            "totalUnique": 2,
+            "unique": {
+              "px": 3,
+              "rem": 1
+            },
+            "uniquenessRatio": 0.5
+          },
+          "height": {
+            "total": 6,
+            "totalUnique": 2,
+            "unique": {
+              "px": 5,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "filter": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border-radius": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "transform": {
+            "total": 11,
+            "totalUnique": 2,
+            "unique": {
+              "deg": 3,
+              "px": 8
+            },
+            "uniquenessRatio": 0.18181818181818182
+          },
+          "border-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "min-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "vh": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-bottom": {
+            "total": 12,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 12
+            },
+            "uniquenessRatio": 0.08333333333333333
+          },
+          "margin-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "grid-template-columns": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "fr": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "border": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 280
+      },
+      "keywords": {
+        "total": 11,
+        "totalUnique": 3,
+        "unique": {
+          "none": 5,
+          "inherit": 1,
+          "auto": 5
+        },
+        "uniquenessRatio": 0.2727272727272727
+      },
+      "resets": {
+        "total": 4,
+        "totalUnique": 2,
+        "unique": {
+          "margin": 2,
+          "padding": 2
+        },
+        "uniquenessRatio": 0.5
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 5,
+      "total": 6
+    },
+    "imports": {
+      "total": 1,
+      "imports": [
+        {
+          "path": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+          "resolvedUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": true,
+          "type": "google-fonts",
+          "category": "fonts",
+          "fileSize": 0
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 1,
+        "externalCount": 0,
+        "relativeCount": 0,
+        "validCount": 1,
+        "invalidCount": 0,
+        "categories": {
+          "fonts": 1
+        },
+        "namingIssues": {
+          "totalFiles": 0,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 40,
+        "breakdown": {
+          "validity": {
+            "score": 25,
+            "max": 25,
+            "details": "Tous les imports sont valides."
+          },
+          "organization": {
+            "score": 3,
+            "max": 30,
+            "details": "1 catégorie(s). Manque de modularité."
+          },
+          "performance": {
+            "score": 5,
+            "max": 20,
+            "details": "1 import(s). Faible modularité. Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucun fichier à analyser."
+          },
+          "bestPractices": {
+            "score": 7,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Organiser le CSS en catégories (base, components, layout, utils)",
+          "Augmenter la modularité : créer un fichier CSS par composant (idéal : 15-25 imports)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 2,
+      "totalUsed": 2,
+      "totalUnused": 0,
+      "totalUndeclared": 0,
+      "declarations": [
+        {
+          "name": "--font-heading",
+          "value": "'Poppins', sans-serif",
+          "usageCount": 2,
+          "category": "typography"
+        },
+        {
+          "name": "--font-body",
+          "value": "'Montserrat', sans-serif",
+          "usageCount": 3,
+          "category": "typography"
+        }
+      ],
+      "unusedVariables": [],
+      "undeclaredUsages": [],
+      "categorization": {
+        "color": 0,
+        "typography": 2,
+        "spacing": 0,
+        "radius": 0,
+        "other": 0
+      },
+      "detailedCategorization": {
+        "color": [],
+        "typography": [
+          {
+            "name": "--font-heading",
+            "value": "'Poppins', sans-serif",
+            "usageCount": 2,
+            "category": "typography"
+          },
+          {
+            "name": "--font-body",
+            "value": "'Montserrat', sans-serif",
+            "usageCount": 3,
+            "category": "typography"
+          }
+        ],
+        "spacing": [],
+        "radius": [],
+        "other": []
+      },
+      "ratio": {
+        "variableUsages": 5,
+        "rawProperties": 277,
+        "variableRatio": 0.01773049645390071
+      },
+      "score": {
+        "total": 52,
+        "breakdown": {
+          "adoption": {
+            "score": 2,
+            "max": 40,
+            "details": "2% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 25,
+            "max": 25,
+            "details": "2/2 variables utilisées (100%)."
+          },
+          "hygiene": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucun problème d'hygiène détecté."
+          },
+          "categories": {
+            "score": 3,
+            "max": 10,
+            "details": "1/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Faible adoption, aucun usage non déclaré."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": true,
+        "count": 1,
+        "sources": {
+          "html": 0,
+          "css": 1
+        },
+        "details": [
+          {
+            "source": "css-import",
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700&display=swap",
+            "provider": "Google Fonts"
+          }
+        ]
+      },
+      "fontFamilies": {
+        "Montserrat": {
+          "declarationCount": 3,
+          "isGlobal": true,
+          "selectors": [
+            "body",
+            "p",
+            ".nav-links a"
+          ],
+          "selectorCount": 3,
+          "sizes": [
+            {
+              "size": "1.3rem",
+              "selectors": [
+                ".nav-links a"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        },
+        "Poppins": {
+          "declarationCount": 2,
+          "isGlobal": false,
+          "selectors": [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            ".logo-text"
+          ],
+          "selectorCount": 7,
+          "sizes": [
+            {
+              "size": "1.5rem",
+              "selectors": [
+                ".logo-text"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 5,
+        "totalFontSizeDeclarations": 20,
+        "totalLineHeightDeclarations": 5,
+        "hasGlobalFontFamily": true,
+        "globalFamilies": 1,
+        "inheritanceQuality": 0.2,
+        "averageDeclarationsPerFamily": 2.5,
+        "familiesWithFallbacks": 2,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 1,
+        "fontSizeUnits": {
+          "units": {
+            "px": 0,
+            "rem": 14,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 14,
+          "relativeUnits": 14,
+          "relativeRatio": 1
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 5,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 5,
+          "proportionalUnits": 5,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {
+          "Montserrat": {
+            "count": 3,
+            "selectors": [
+              "body",
+              "p",
+              ".nav-links a"
+            ],
+            "isGlobal": true
+          },
+          "Poppins": {
+            "count": 2,
+            "selectors": [
+              "h1",
+              "h2",
+              "h3",
+              "h4",
+              "h5",
+              "h6",
+              ".logo-text"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "1.3rem": {
+            "count": 3,
+            "selectors": [
+              ".nav-links a",
+              "h3",
+              ".explorer-card h3"
+            ]
+          },
+          "1.5rem": {
+            "count": 1,
+            "selectors": [
+              ".logo-text"
+            ]
+          },
+          "5rem": {
+            "count": 2,
+            "selectors": [
+              "h1",
+              ".hero-title"
+            ]
+          },
+          "2.5rem": {
+            "count": 3,
+            "selectors": [
+              "h2",
+              ".section-title",
+              ".explorer-title"
+            ]
+          },
+          "0.9rem": {
+            "count": 3,
+            "selectors": [
+              ".hero-date",
+              ".explorer-card p",
+              ".eco-label"
+            ]
+          },
+          "1.2rem": {
+            "count": 2,
+            "selectors": [
+              ".hero-subtitle",
+              ".date-title"
+            ]
+          },
+          "1rem": {
+            "count": 1,
+            "selectors": [
+              ".btn-hero"
+            ]
+          },
+          "1.1rem": {
+            "count": 1,
+            "selectors": [
+              ".section-subtitle"
+            ]
+          },
+          "4rem": {
+            "count": 1,
+            "selectors": [
+              ".date-number"
+            ]
+          },
+          "0.95rem": {
+            "count": 1,
+            "selectors": [
+              ".date-description"
+            ]
+          },
+          "2rem": {
+            "count": 1,
+            "selectors": [
+              ".icon-circle"
+            ]
+          },
+          "1.8rem": {
+            "count": 1,
+            "selectors": [
+              ".eco-title"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "1": {
+            "count": 1
+          },
+          "1.6": {
+            "count": 2
+          },
+          "0.9": {
+            "count": 1
+          },
+          "1.5": {
+            "count": 1
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": false,
+        "excessiveFontFamilyDeclarations": true,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 66,
+        "breakdown": {
+          "webfonts": {
+            "score": 15,
+            "max": 15,
+            "details": "1 webfont(s) détectée(s). Import correct. Pas de doublons."
+          },
+          "fallbacks": {
+            "score": 20,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 13,
+            "max": 25,
+            "details": "Police globale définie. Qualité d'héritage: 20%."
+          },
+          "sizes": {
+            "score": 10,
+            "max": 20,
+            "details": "Peu de variations de tailles. 100% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 8,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Trop de déclarations font-family."
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Définir une police globale et réduire les redéclarations",
+          "Définir des line-heights pour toutes les font-size"
+        ]
+      }
+    },
+    "colors": {
+      "totalColors": 62,
+      "uniqueColors": 30,
+      "colors": [
+        {
+          "color": "#1a1a1a",
+          "count": 7
+        },
+        {
+          "color": "#2e5c1f",
+          "count": 1
+        },
+        {
+          "color": "#3d7024",
+          "count": 1
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.3)",
+          "count": 1
+        },
+        {
+          "color": "rgba(30, 30, 30, 0.98)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.5)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.2)",
+          "count": 1
+        },
+        {
+          "color": "#fff",
+          "count": 10
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.1)",
+          "count": 2
+        },
+        {
+          "color": "#4caf50",
+          "count": 4
+        },
+        {
+          "color": "rgba(76, 175, 80, 0.1)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.6)",
+          "count": 3
+        },
+        {
+          "color": "rgba(0,0,0,0.2)",
+          "count": 1
+        },
+        {
+          "color": "#ff6b35",
+          "count": 4
+        },
+        {
+          "color": "rgba(255, 107, 53, 0.4)",
+          "count": 1
+        },
+        {
+          "color": "#ff5722",
+          "count": 1
+        },
+        {
+          "color": "rgba(255, 107, 53, 0.5)",
+          "count": 1
+        },
+        {
+          "color": "#666",
+          "count": 2
+        },
+        {
+          "color": "transparent",
+          "count": 1
+        },
+        {
+          "color": "#fff3e0",
+          "count": 2
+        },
+        {
+          "color": "#e8f5e9",
+          "count": 2
+        },
+        {
+          "color": "#fff9c4",
+          "count": 2
+        },
+        {
+          "color": "#fbc02d",
+          "count": 2
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.15)",
+          "count": 2
+        },
+        {
+          "color": "#f9a825",
+          "count": 1
+        },
+        {
+          "color": "#555",
+          "count": 1
+        },
+        {
+          "color": "#f5f5f5",
+          "count": 1
+        },
+        {
+          "color": "#f0f0f0",
+          "count": 2
+        },
+        {
+          "color": "#2e7d32",
+          "count": 2
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.3)",
+          "count": 1
+        }
+      ],
+      "transparentColors": [
+        {
+          "color": "rgba(0, 0, 0, 0.3)",
+          "count": 1
+        },
+        {
+          "color": "rgba(30, 30, 30, 0.98)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.5)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.2)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.1)",
+          "count": 2
+        },
+        {
+          "color": "rgba(76, 175, 80, 0.1)",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.6)",
+          "count": 3
+        },
+        {
+          "color": "rgba(0,0,0,0.2)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255, 107, 53, 0.4)",
+          "count": 1
+        },
+        {
+          "color": "rgba(255, 107, 53, 0.5)",
+          "count": 1
+        },
+        {
+          "color": "transparent",
+          "count": 1
+        },
+        {
+          "color": "rgba(0, 0, 0, 0.15)",
+          "count": 2
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.3)",
+          "count": 1
+        }
+      ],
+      "opaqueColors": [
+        {
+          "color": "#1a1a1a",
+          "count": 7,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#2e5c1f",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#3d7024",
+            "#2e7d32"
+          ]
+        },
+        {
+          "color": "#3d7024",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#2e5c1f",
+            "#2e7d32"
+          ]
+        },
+        {
+          "color": "#fff",
+          "count": 10,
+          "isSimilar": true,
+          "similarTo": [
+            "#f5f5f5",
+            "#f0f0f0"
+          ]
+        },
+        {
+          "color": "#4caf50",
+          "count": 4,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#ff6b35",
+          "count": 4,
+          "isSimilar": true,
+          "similarTo": [
+            "#ff5722",
+            "#f9a825"
+          ]
+        },
+        {
+          "color": "#ff5722",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ff6b35"
+          ]
+        },
+        {
+          "color": "#666",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#555"
+          ]
+        },
+        {
+          "color": "#fff3e0",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff9c4"
+          ]
+        },
+        {
+          "color": "#e8f5e9",
+          "count": 2,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#fff9c4",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff3e0"
+          ]
+        },
+        {
+          "color": "#fbc02d",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#f9a825"
+          ]
+        },
+        {
+          "color": "#f9a825",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ff6b35",
+            "#fbc02d"
+          ]
+        },
+        {
+          "color": "#555",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#666"
+          ]
+        },
+        {
+          "color": "#f5f5f5",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff",
+            "#f0f0f0"
+          ]
+        },
+        {
+          "color": "#f0f0f0",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff",
+            "#f5f5f5"
+          ]
+        },
+        {
+          "color": "#2e7d32",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#2e5c1f",
+            "#3d7024"
+          ]
+        }
+      ],
+      "colorGroups": [
+        {
+          "hueRange": 0,
+          "hueName": "Rouge",
+          "colors": [
+            {
+              "color": "#ff6b35",
+              "count": 4,
+              "oklch": {
+                "l": 0.7045166747377706,
+                "c": 0.19259457751399872,
+                "h": 39.23078235139619,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#ff5722",
+              "count": 1,
+              "oklch": {
+                "l": 0.6791748067201103,
+                "c": 0.21276330009996197,
+                "h": 36.5323550563374,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 40,
+          "hueName": "Orange",
+          "colors": [
+            {
+              "color": "#fff3e0",
+              "count": 2,
+              "oklch": {
+                "l": 0.9685315222819109,
+                "c": 0.02815711681937306,
+                "h": 79.47953915638958,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#f9a825",
+              "count": 1,
+              "oklch": {
+                "l": 0.7919604959623467,
+                "c": 0.16032196354320005,
+                "h": 72.43842937435507,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 80,
+          "hueName": "Jaune",
+          "colors": [
+            {
+              "color": "#fff9c4",
+              "count": 2,
+              "oklch": {
+                "l": 0.9739197408195215,
+                "c": 0.06817786345927924,
+                "h": 102.18863916372314,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#fbc02d",
+              "count": 2,
+              "oklch": {
+                "l": 0.8391472060912806,
+                "c": 0.16151537762041418,
+                "h": 84.37626696191602,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 120,
+          "hueName": "Jaune",
+          "colors": [
+            {
+              "color": "#2e5c1f",
+              "count": 1,
+              "oklch": {
+                "l": 0.4271840592078618,
+                "c": 0.10444666406775463,
+                "h": 138.80134231084952,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#3d7024",
+              "count": 1,
+              "oklch": {
+                "l": 0.4920155173256876,
+                "c": 0.12084073326607636,
+                "h": 136.95567816214145,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#4caf50",
+              "count": 4,
+              "oklch": {
+                "l": 0.6730982850961172,
+                "c": 0.1624419535217847,
+                "h": 144.20826736609,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#e8f5e9",
+              "count": 2,
+              "oklch": {
+                "l": 0.9571492757830564,
+                "c": 0.020992872432778455,
+                "h": 147.63608730119034,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#2e7d32",
+              "count": 2,
+              "oklch": {
+                "l": 0.5234322024728757,
+                "c": 0.13465904256788128,
+                "h": 144.1672320116104,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": -1,
+          "hueName": "Achromatique (Gris/Noir/Blanc)",
+          "colors": [
+            {
+              "color": "#1a1a1a",
+              "count": 7,
+              "oklch": {
+                "l": 0.217786502463702,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#fff",
+              "count": 10,
+              "oklch": {
+                "l": 1.0000000000000002,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#666",
+              "count": 2,
+              "oklch": {
+                "l": 0.5102783583015936,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#555",
+              "count": 1,
+              "oklch": {
+                "l": 0.4495331968941366,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#f5f5f5",
+              "count": 1,
+              "oklch": {
+                "l": 0.9701507725365187,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#f0f0f0",
+              "count": 2,
+              "oklch": {
+                "l": 0.9551400502551023,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      ],
+      "similarColors": [
+        {
+          "color": "#2e5c1f",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#3d7024",
+            "#2e7d32"
+          ]
+        },
+        {
+          "color": "#3d7024",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#2e5c1f",
+            "#2e7d32"
+          ]
+        },
+        {
+          "color": "#fff",
+          "count": 10,
+          "isSimilar": true,
+          "similarTo": [
+            "#f5f5f5",
+            "#f0f0f0"
+          ]
+        },
+        {
+          "color": "#ff6b35",
+          "count": 4,
+          "isSimilar": true,
+          "similarTo": [
+            "#ff5722",
+            "#f9a825"
+          ]
+        },
+        {
+          "color": "#ff5722",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ff6b35"
+          ]
+        },
+        {
+          "color": "#666",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#555"
+          ]
+        },
+        {
+          "color": "#fff3e0",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff9c4"
+          ]
+        },
+        {
+          "color": "#fff9c4",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff3e0"
+          ]
+        },
+        {
+          "color": "#fbc02d",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#f9a825"
+          ]
+        },
+        {
+          "color": "#f9a825",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ff6b35",
+            "#fbc02d"
+          ]
+        },
+        {
+          "color": "#555",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#666"
+          ]
+        },
+        {
+          "color": "#f5f5f5",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff",
+            "#f0f0f0"
+          ]
+        },
+        {
+          "color": "#f0f0f0",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#fff",
+            "#f5f5f5"
+          ]
+        },
+        {
+          "color": "#2e7d32",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#2e5c1f",
+            "#3d7024"
+          ]
+        }
+      ],
+      "hasSimilarColors": true,
+      "formats": {
+        "hex": 17,
+        "rgb": 12,
+        "transparent": 1
+      },
+      "score": {
+        "total": 64,
+        "breakdown": {
+          "palette": {
+            "score": 15,
+            "max": 30,
+            "details": "Palette large. "
+          },
+          "consistency": {
+            "score": 15,
+            "max": 25,
+            "details": "Plusieurs couleurs similaires détectées. "
+          },
+          "formats": {
+            "score": 14,
+            "max": 20,
+            "details": "3 formats de couleurs utilisés. "
+          },
+          "transparency": {
+            "score": 15,
+            "max": 15,
+            "details": "Utilisation appropriée de la transparence. "
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 10,
+            "details": "Bonne diversité de teintes. "
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Réduire le nombre de couleurs : utiliser une palette limitée (8-15 couleurs)",
+          "Harmoniser les couleurs similaires pour améliorer la cohérence",
+          "Uniformiser les formats de couleurs (privilégier oklch ou hsl)",
+          "Envisager l'utilisation de formats modernes comme oklch ou hsl",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 512,
+      "nodesWithClasses": 463,
+      "uniqueClasses": [
+        "header-fixed",
+        "header-content",
+        "logo",
+        "logo-icon",
+        "logo-text",
+        "burger-menu",
+        "nav-menu",
+        "nav-links",
+        "hero",
+        "hero-overlay",
+        "hero-content",
+        "hero-date",
+        "hero-title",
+        "hero-subtitle",
+        "btn-hero",
+        "carrousel-section",
+        "container",
+        "carrousel-title",
+        "carrousel",
+        "carrousel-btn",
+        "prev",
+        "carrousel-container",
+        "carrousel-track",
+        "carrousel-slide",
+        "carrousel-caption",
+        "next",
+        "carrousel-indicators",
+        "indicator",
+        "active",
+        "dates-section",
+        "section-header",
+        "section-title",
+        "section-subtitle",
+        "dates-grid",
+        "date-card",
+        "orange",
+        "date-number",
+        "date-title",
+        "date-description",
+        "green",
+        "yellow",
+        "explorer-section",
+        "explorer-title",
+        "explorer-grid",
+        "explorer-card",
+        "explorer-icon",
+        "icon-circle",
+        "black",
+        "eco-section",
+        "eco-content",
+        "eco-label",
+        "eco-title",
+        "btn-eco",
+        "festival-hero",
+        "festival-hero-content",
+        "historique-section",
+        "section-icon",
+        "section-title-left",
+        "historique-content",
+        "edition-box",
+        "equipe-section",
+        "equipe-intro",
+        "equipe-grid",
+        "equipe-card",
+        "valeurs-section",
+        "valeurs-title",
+        "valeurs-grid",
+        "valeur-card",
+        "valeur-icon",
+        "valeurs-quote",
+        "programme-hero",
+        "programme-hero-content",
+        "programme-section",
+        "container-programme",
+        "btn-pdf",
+        "filters-section",
+        "filter-label",
+        "filter-group",
+        "filter-title",
+        "filter-buttons",
+        "filter-btn",
+        "genre",
+        "concerts-list",
+        "day-header",
+        "concert-card",
+        "concert-time",
+        "concert-info",
+        "concert-location",
+        "concert-genre",
+        "reggae",
+        "dub",
+        "afrobeat",
+        "world",
+        "folk",
+        "artistes-hero",
+        "artistes-hero-content",
+        "artistes-section",
+        "container-artistes",
+        "search-bar",
+        "filter-day-section",
+        "filter-day-buttons",
+        "filter-day-btn",
+        "artistes-count",
+        "artistes-grid",
+        "artiste-card",
+        "artiste-image",
+        "artiste-badge",
+        "artiste-info",
+        "artiste-date",
+        "artiste-scene",
+        "scenes-hero",
+        "scenes-hero-content",
+        "scenes-section",
+        "container-scenes",
+        "scenes-intro",
+        "scenes-list",
+        "scene-card",
+        "scene-image",
+        "scene-overlay",
+        "scene-info",
+        "scene-description",
+        "scene-details",
+        "scene-capacity",
+        "scene-artistes",
+        "plan-site",
+        "plan-content",
+        "plan-title",
+        "plan-subtitle",
+        "infos-hero",
+        "infos-hero-content",
+        "infos-section",
+        "container-infos",
+        "info-block",
+        "tarifs-block",
+        "info-header",
+        "tarifs-list",
+        "tarif-item",
+        "tarif-info",
+        "tarif-price",
+        "gratuit",
+        "tarif-note",
+        "hebergements-block",
+        "hebergement-item",
+        "orange-border",
+        "hebergement-price",
+        "yellow-border",
+        "btn-hebergements",
+        "transport-block",
+        "transport-list",
+        "transport-item",
+        "transport-icon",
+        "transport-info",
+        "faq-block",
+        "faq-list",
+        "faq-item",
+        "faq-footer",
+        "btn-contact",
+        "contact-hero",
+        "contact-hero-content",
+        "contact-section",
+        "container-contact",
+        "contact-block",
+        "coordonnees-block",
+        "coordonnee-item",
+        "coordonnee-icon",
+        "email",
+        "coordonnee-info",
+        "phone",
+        "horaires",
+        "address",
+        "form-block",
+        "contact-form",
+        "form-group",
+        "btn-submit",
+        "form-note",
+        "social-block",
+        "social-description",
+        "social-icons",
+        "social-link",
+        "instagram",
+        "facebook",
+        "twitter",
+        "social-hashtags",
+        "infos-importantes"
+      ],
+      "frequency": {
+        "header-fixed": 7,
+        "header-content": 7,
+        "logo": 7,
+        "logo-icon": 7,
+        "logo-text": 7,
+        "burger-menu": 7,
+        "nav-menu": 7,
+        "nav-links": 7,
+        "hero": 1,
+        "hero-overlay": 1,
+        "hero-content": 1,
+        "hero-date": 1,
+        "hero-title": 1,
+        "hero-subtitle": 1,
+        "btn-hero": 1,
+        "carrousel-section": 1,
+        "container": 7,
+        "carrousel-title": 1,
+        "carrousel": 1,
+        "carrousel-btn": 2,
+        "prev": 1,
+        "carrousel-container": 1,
+        "carrousel-track": 1,
+        "carrousel-slide": 5,
+        "carrousel-caption": 5,
+        "next": 1,
+        "carrousel-indicators": 1,
+        "indicator": 5,
+        "active": 4,
+        "dates-section": 1,
+        "section-header": 1,
+        "section-title": 1,
+        "section-subtitle": 1,
+        "dates-grid": 1,
+        "date-card": 3,
+        "orange": 2,
+        "date-number": 3,
+        "date-title": 3,
+        "date-description": 3,
+        "green": 2,
+        "yellow": 2,
+        "explorer-section": 1,
+        "explorer-title": 1,
+        "explorer-grid": 1,
+        "explorer-card": 4,
+        "explorer-icon": 4,
+        "icon-circle": 4,
+        "black": 1,
+        "eco-section": 1,
+        "eco-content": 1,
+        "eco-label": 1,
+        "eco-title": 1,
+        "btn-eco": 1,
+        "festival-hero": 1,
+        "festival-hero-content": 1,
+        "historique-section": 1,
+        "section-icon": 2,
+        "section-title-left": 2,
+        "historique-content": 1,
+        "edition-box": 1,
+        "equipe-section": 1,
+        "equipe-intro": 1,
+        "equipe-grid": 1,
+        "equipe-card": 4,
+        "valeurs-section": 1,
+        "valeurs-title": 1,
+        "valeurs-grid": 1,
+        "valeur-card": 4,
+        "valeur-icon": 4,
+        "valeurs-quote": 1,
+        "programme-hero": 1,
+        "programme-hero-content": 1,
+        "programme-section": 1,
+        "container-programme": 1,
+        "btn-pdf": 1,
+        "filters-section": 1,
+        "filter-label": 1,
+        "filter-group": 2,
+        "filter-title": 3,
+        "filter-buttons": 2,
+        "filter-btn": 11,
+        "genre": 6,
+        "concerts-list": 1,
+        "day-header": 4,
+        "concert-card": 13,
+        "concert-time": 13,
+        "concert-info": 13,
+        "concert-location": 13,
+        "concert-genre": 13,
+        "reggae": 6,
+        "dub": 2,
+        "afrobeat": 2,
+        "world": 2,
+        "folk": 1,
+        "artistes-hero": 1,
+        "artistes-hero-content": 1,
+        "artistes-section": 1,
+        "container-artistes": 1,
+        "search-bar": 1,
+        "filter-day-section": 1,
+        "filter-day-buttons": 1,
+        "filter-day-btn": 5,
+        "artistes-count": 1,
+        "artistes-grid": 1,
+        "artiste-card": 14,
+        "artiste-image": 14,
+        "artiste-badge": 14,
+        "artiste-info": 14,
+        "artiste-date": 14,
+        "artiste-scene": 14,
+        "scenes-hero": 1,
+        "scenes-hero-content": 1,
+        "scenes-section": 1,
+        "container-scenes": 1,
+        "scenes-intro": 1,
+        "scenes-list": 1,
+        "scene-card": 2,
+        "scene-image": 2,
+        "scene-overlay": 2,
+        "scene-info": 2,
+        "scene-description": 2,
+        "scene-details": 2,
+        "scene-capacity": 2,
+        "scene-artistes": 2,
+        "plan-site": 1,
+        "plan-content": 1,
+        "plan-title": 1,
+        "plan-subtitle": 1,
+        "infos-hero": 1,
+        "infos-hero-content": 1,
+        "infos-section": 1,
+        "container-infos": 1,
+        "info-block": 4,
+        "tarifs-block": 1,
+        "info-header": 4,
+        "tarifs-list": 1,
+        "tarif-item": 4,
+        "tarif-info": 4,
+        "tarif-price": 4,
+        "gratuit": 1,
+        "tarif-note": 1,
+        "hebergements-block": 1,
+        "hebergement-item": 3,
+        "orange-border": 1,
+        "hebergement-price": 3,
+        "yellow-border": 1,
+        "btn-hebergements": 1,
+        "transport-block": 1,
+        "transport-list": 1,
+        "transport-item": 4,
+        "transport-icon": 4,
+        "transport-info": 4,
+        "faq-block": 1,
+        "faq-list": 1,
+        "faq-item": 6,
+        "faq-footer": 1,
+        "btn-contact": 1,
+        "contact-hero": 1,
+        "contact-hero-content": 1,
+        "contact-section": 1,
+        "container-contact": 1,
+        "contact-block": 4,
+        "coordonnees-block": 1,
+        "coordonnee-item": 3,
+        "coordonnee-icon": 3,
+        "email": 1,
+        "coordonnee-info": 3,
+        "phone": 1,
+        "horaires": 1,
+        "address": 1,
+        "form-block": 1,
+        "contact-form": 1,
+        "form-group": 4,
+        "btn-submit": 1,
+        "form-note": 1,
+        "social-block": 1,
+        "social-description": 1,
+        "social-icons": 1,
+        "social-link": 3,
+        "instagram": 1,
+        "facebook": 1,
+        "twitter": 1,
+        "social-hashtags": 1,
+        "infos-importantes": 1
+      },
+      "averageClassesPerNode": 1.11,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 3,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "container",
+        "header-fixed",
+        "scrolled",
+        "header-content",
+        "logo",
+        "logo-icon",
+        "logo-text",
+        "burger-menu",
+        "active",
+        "nav-menu",
+        "nav-links",
+        "hero",
+        "hero-overlay",
+        "hero-content",
+        "hero-date",
+        "hero-title",
+        "hero-subtitle",
+        "btn-hero",
+        "dates-section",
+        "section-header",
+        "section-title",
+        "section-subtitle",
+        "dates-grid",
+        "date-card",
+        "orange",
+        "green",
+        "yellow",
+        "date-number",
+        "date-title",
+        "date-description",
+        "explorer-section",
+        "explorer-title",
+        "explorer-grid",
+        "explorer-card",
+        "black",
+        "explorer-icon",
+        "icon-circle",
+        "eco-section",
+        "eco-content",
+        "eco-label",
+        "eco-title",
+        "btn-eco"
+      ],
+      "totalSelectors": 89,
+      "selectorsWithMultipleClasses": 20,
+      "specificity": {
+        "average": 11.54,
+        "max": 30
+      },
+      "complexSelectorsRatio": 0.225,
+      "selectorForms": {
+        "bemSelectors": 73,
+        "pureBemSelectors": 43,
+        "pureBemSelectorsRatio": 0.483,
+        "selectorsWithAncestor": 21,
+        "selectorsWithId": 0,
+        "selectorsWithType": 27,
+        "selectorsWithAttribute": 0,
+        "ancestorsRatio": 0.236,
+        "withIdRatio": 0,
+        "withTypeRatio": 0.303
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "scrolled"
+      ],
+      "undefinedHtmlClasses": [
+        "carrousel-section",
+        "carrousel-title",
+        "carrousel",
+        "carrousel-btn",
+        "prev",
+        "carrousel-container",
+        "carrousel-track",
+        "carrousel-slide",
+        "carrousel-caption",
+        "next",
+        "carrousel-indicators",
+        "indicator",
+        "festival-hero",
+        "festival-hero-content",
+        "historique-section",
+        "section-icon",
+        "section-title-left",
+        "historique-content",
+        "edition-box",
+        "equipe-section",
+        "equipe-intro",
+        "equipe-grid",
+        "equipe-card",
+        "valeurs-section",
+        "valeurs-title",
+        "valeurs-grid",
+        "valeur-card",
+        "valeur-icon",
+        "valeurs-quote",
+        "programme-hero",
+        "programme-hero-content",
+        "programme-section",
+        "container-programme",
+        "btn-pdf",
+        "filters-section",
+        "filter-label",
+        "filter-group",
+        "filter-title",
+        "filter-buttons",
+        "filter-btn",
+        "genre",
+        "concerts-list",
+        "day-header",
+        "concert-card",
+        "concert-time",
+        "concert-info",
+        "concert-location",
+        "concert-genre",
+        "reggae",
+        "dub",
+        "afrobeat",
+        "world",
+        "folk",
+        "artistes-hero",
+        "artistes-hero-content",
+        "artistes-section",
+        "container-artistes",
+        "search-bar",
+        "filter-day-section",
+        "filter-day-buttons",
+        "filter-day-btn",
+        "artistes-count",
+        "artistes-grid",
+        "artiste-card",
+        "artiste-image",
+        "artiste-badge",
+        "artiste-info",
+        "artiste-date",
+        "artiste-scene",
+        "scenes-hero",
+        "scenes-hero-content",
+        "scenes-section",
+        "container-scenes",
+        "scenes-intro",
+        "scenes-list",
+        "scene-card",
+        "scene-image",
+        "scene-overlay",
+        "scene-info",
+        "scene-description",
+        "scene-details",
+        "scene-capacity",
+        "scene-artistes",
+        "plan-site",
+        "plan-content",
+        "plan-title",
+        "plan-subtitle",
+        "infos-hero",
+        "infos-hero-content",
+        "infos-section",
+        "container-infos",
+        "info-block",
+        "tarifs-block",
+        "info-header",
+        "tarifs-list",
+        "tarif-item",
+        "tarif-info",
+        "tarif-price",
+        "gratuit",
+        "tarif-note",
+        "hebergements-block",
+        "hebergement-item",
+        "orange-border",
+        "hebergement-price",
+        "yellow-border",
+        "btn-hebergements",
+        "transport-block",
+        "transport-list",
+        "transport-item",
+        "transport-icon",
+        "transport-info",
+        "faq-block",
+        "faq-list",
+        "faq-item",
+        "faq-footer",
+        "btn-contact",
+        "contact-hero",
+        "contact-hero-content",
+        "contact-section",
+        "container-contact",
+        "contact-block",
+        "coordonnees-block",
+        "coordonnee-item",
+        "coordonnee-icon",
+        "email",
+        "coordonnee-info",
+        "phone",
+        "horaires",
+        "address",
+        "form-block",
+        "contact-form",
+        "form-group",
+        "btn-submit",
+        "form-note",
+        "social-block",
+        "social-description",
+        "social-icons",
+        "social-link",
+        "instagram",
+        "facebook",
+        "twitter",
+        "social-hashtags",
+        "infos-importantes"
+      ],
+      "coverageHtml": 0.223,
+      "coverageCss": 0.976,
+      "cssEfficiency": 0.976
+    },
+    "bem": {
+      "blocks": {
+        "header-fixed": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "header-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "logo": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "logo-icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "logo-text": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "burger-menu": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "nav-menu": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "nav-links": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-overlay": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-date": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "prev": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-track": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-slide": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-caption": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "next": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carrousel-indicators": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "indicator": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "active": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "dates-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section-header": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section-subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "dates-grid": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "date-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "orange": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "date-number": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "date-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "date-description": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "green": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "yellow": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "explorer-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "explorer-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "explorer-grid": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "explorer-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "explorer-icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "icon-circle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "black": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "eco-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "eco-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "eco-label": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "eco-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-eco": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "festival-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "festival-hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "historique-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section-icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section-title-left": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "historique-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "edition-box": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "equipe-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "equipe-intro": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "equipe-grid": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "equipe-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "valeurs-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "valeurs-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "valeurs-grid": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "valeur-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "valeur-icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "valeurs-quote": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "programme-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "programme-hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "programme-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container-programme": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-pdf": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filters-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-label": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-group": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-buttons": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "genre": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "concerts-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "day-header": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "concert-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "concert-time": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "concert-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "concert-location": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "concert-genre": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "reggae": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "dub": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "afrobeat": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "world": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "folk": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artistes-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artistes-hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artistes-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container-artistes": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "search-bar": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-day-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-day-buttons": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filter-day-btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artistes-count": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artistes-grid": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artiste-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artiste-image": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artiste-badge": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artiste-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artiste-date": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artiste-scene": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scenes-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scenes-hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scenes-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container-scenes": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scenes-intro": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scenes-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-image": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-overlay": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-description": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-details": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-capacity": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-artistes": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "plan-site": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "plan-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "plan-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "plan-subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "infos-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "infos-hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "infos-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container-infos": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "info-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tarifs-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "info-header": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tarifs-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tarif-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tarif-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tarif-price": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "gratuit": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "tarif-note": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hebergements-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hebergement-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "orange-border": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hebergement-price": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "yellow-border": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-hebergements": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "transport-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "transport-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "transport-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "transport-icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "transport-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "faq-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "faq-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "faq-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "faq-footer": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-contact": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container-contact": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "coordonnees-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "coordonnee-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "coordonnee-icon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "email": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "coordonnee-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "phone": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "horaires": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "address": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "form-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-form": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "form-group": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-submit": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "form-note": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-block": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-description": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-icons": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-link": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "instagram": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "facebook": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "twitter": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "social-hashtags": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "infos-importantes": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scrolled": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 185,
+        "elements": 0,
+        "modifiers": 0,
+        "elementModifiers": 0,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0
+      },
+      "depth": {
+        "max": 1,
+        "average": 1
+      },
+      "blockStructure": {
+        "totalBlocks": 185,
+        "structuredBlocks": 0,
+        "orphanBlocks": 185,
+        "implicitBlocks": []
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "header": 2,
+        "logo": 2,
+        "burger": 1,
+        "nav": 2,
+        "hero": 5,
+        "btn": 6,
+        "carrousel": 8,
+        "dates": 2,
+        "section": 5,
+        "date": 4,
+        "explorer": 5,
+        "icon": 1,
+        "eco": 4,
+        "festival": 2,
+        "historique": 2,
+        "edition": 1,
+        "equipe": 4,
+        "valeurs": 4,
+        "valeur": 2,
+        "programme": 3,
+        "container": 5,
+        "filters": 1,
+        "filter": 8,
+        "concerts": 1,
+        "day": 1,
+        "concert": 5,
+        "artistes": 5,
+        "search": 1,
+        "artiste": 6,
+        "scenes": 5,
+        "scene": 8,
+        "plan": 4,
+        "infos": 4,
+        "info": 2,
+        "tarifs": 2,
+        "tarif": 4,
+        "hebergements": 1,
+        "hebergement": 2,
+        "orange": 1,
+        "yellow": 1,
+        "transport": 5,
+        "faq": 4,
+        "contact": 5,
+        "coordonnees": 1,
+        "coordonnee": 3,
+        "form": 3,
+        "social": 5
+      },
+      "entropy": 6.847,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-12-14T12:42:33.383Z"
+    },
+    "score": {
+      "bem": {
+        "total": 27,
+        "breakdown": {
+          "coverage": {
+            "score": 4,
+            "max": 15,
+            "details": "Couverture moyenne: 60%"
+          },
+          "selectorForms": {
+            "score": 18,
+            "max": 30,
+            "details": "Pure BEM: 48%"
+          },
+          "structure": {
+            "score": 3,
+            "max": 25,
+            "details": "Blocs structurés: 0%"
+          },
+          "elementsRatio": {
+            "score": 0,
+            "max": 20,
+            "details": "Éléments/bloc: 0"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 91,
+    "breakdown": {
+      "errorPenalty": 9,
+      "warningPenalty": 0
+    },
+    "grade": "A",
+    "improvements": [
+      "Corriger les 6 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 6,
+      "totalWarnings": 0,
+      "averageErrors": 0.86,
+      "pagesAnalyzed": 7
+    }
+  }
+}

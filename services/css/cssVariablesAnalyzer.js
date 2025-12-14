@@ -224,7 +224,10 @@ export const analyzeCustomProperties = (css) => {
   };
 
   declarations.forEach((variable) => {
-    categorized[variable.category].push(variable);
+    // Si la catégorie n'existe pas dans categorized, on la met dans "other"
+    const category =
+      variable.category in categorized ? variable.category : "other";
+    categorized[category].push(variable);
   });
 
   const ratio =

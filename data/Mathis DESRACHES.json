@@ -1,0 +1,5075 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/",
+      "title": "Chorus Symphonia – Accueil",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/image.webp",
+          "alt": "Citadelle de Besançon de nuit",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 20954,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 4,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 4,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 12285,
+        "top5AverageWeight": 12285,
+        "formats": {
+          "avif": 0,
+          "webp": 4,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/image.webp",
+            "alt": "Citadelle de Besançon de nuit",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 20954,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 4 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/4 (0%), Top 5 poids moyen: 12KB, Moyenne: 12KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (4 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 4 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 174,
+      "externalLinks": 0,
+      "internalLinks": 14,
+      "deadLinks": 16,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 5,
+        "h3": 12,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Billetterie",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Billetterie",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Explorer",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Explorer",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Programme",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Artistes",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Scènes",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Infos pratiques",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Artistes à l’affiche",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Artistes à l’affiche",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Dates clés",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Dates clés",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Jeudi 28 août",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Vendredi 29 août",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Samedi 30 août",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Dimanche 31 août",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Partenaires",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Partenaires",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724338670.html",
+          "lastLine": 22,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724338670.html",
+          "lastLine": 22,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.93,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/",
+            "resourceSize": 11567,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/image.webp",
+            "resourceSize": 20954,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/elise.png",
+            "resourceSize": 1316306,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/clara.png",
+            "resourceSize": 1267133,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/luca.png",
+            "resourceSize": 1258227,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/sofia.png",
+            "resourceSize": 1310668,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/festival.html",
+      "title": "Le Festival – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 10865,
+        "top5AverageWeight": 10865,
+        "formats": {
+          "avif": 0,
+          "webp": 2,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 11KB, Moyenne: 11KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 2 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 139,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 12,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le Festival",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Historique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Historique",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "L’équipe",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L’équipe",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Direction artistique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Organisation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Équipe technique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Bénévoles",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Charte & valeurs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Charte & valeurs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Accessibilité",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Transmission",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Écoresponsabilité",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Patrimoine",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724346012.html",
+          "lastLine": 22,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724346012.html",
+          "lastLine": 22,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/festival.html",
+            "resourceSize": 10648,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/programme.html",
+      "title": "Programme – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 10865,
+        "top5AverageWeight": 10865,
+        "formats": {
+          "avif": 0,
+          "webp": 2,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 11KB, Moyenne: 11KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 2 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 192,
+      "externalLinks": 0,
+      "internalLinks": 9,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 6,
+        "h3": 15,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Programme",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Filtrer le programme",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Filtrer le programme",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jeudi 28 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jeudi 28 août",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Cérémonie d’ouverture",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Cérémonie d’ouverture",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Orchestre Symphonique de Franche-Comté",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Orchestre Symphonique de Franche-Comté",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Grande Nuit Lyrique",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Grande Nuit Lyrique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Vendredi 29 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Vendredi 29 août",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Récital piano – Élise Montval",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Récital piano – Élise Montval",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Chœur régional de Franche-Comté",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Chœur régional de Franche-Comté",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Concert symphonique nocturne",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Concert symphonique nocturne",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Samedi 30 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Samedi 30 août",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jeunes talents du Conservatoire",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Jeunes talents du Conservatoire",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Récital violon – Clara Weiss",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Récital violon – Clara Weiss",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Opéra en plein air",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Opéra en plein air",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Dimanche 31 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche 31 août",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Concert famille",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Concert famille",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Grand concert de clôture",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Grand concert de clôture",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Programme complet",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Programme complet",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724353255.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724353255.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/programme.html",
+            "resourceSize": 13514,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/artistes.html",
+      "title": "Artistes – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 10865,
+        "top5AverageWeight": 10865,
+        "formats": {
+          "avif": 0,
+          "webp": 2,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 11KB, Moyenne: 11KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 2 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 178,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 14,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Artistes",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Filtrer les artistes",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Filtrer les artistes",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Jeudi 28 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Jeudi 28 août",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Orchestre Symphonique de Franche-Comté",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Solistes internationaux",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Vendredi 29 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Vendredi 29 août",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Élise Montval",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Chœur régional de Franche-Comté",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ensemble symphonique invité",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Samedi 30 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Samedi 30 août",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Jeunes talents du Conservatoire",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Clara Weiss",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Distribution lyrique invitée",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Dimanche 31 août",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Dimanche 31 août",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Ensemble pédagogique",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Tous les artistes du festival",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724360639.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724360639.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/artistes.html",
+            "resourceSize": 12040,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/scenes.html",
+      "title": "Scènes – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 10865,
+        "top5AverageWeight": 10865,
+        "formats": {
+          "avif": 0,
+          "webp": 2,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 11KB, Moyenne: 11KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 2 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 135,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Scènes",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Scène Vauban",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Scène Vauban",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Scène des Remparts",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Scène des Remparts",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Scène Pédagogique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Scène Pédagogique",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Des lieux au service de la musique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Des lieux au service de la musique",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724367851.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724367851.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/scenes.html",
+            "resourceSize": 9553,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/infos.html",
+      "title": "Infos pratiques – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 10865,
+        "top5AverageWeight": 10865,
+        "formats": {
+          "avif": 0,
+          "webp": 2,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 11KB, Moyenne: 11KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 2 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 167,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 16,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Infos pratiques",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Tarifs",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Tarifs",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Pass journée",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Pass 4 jours",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Tarif réduit",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Gratuit",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Hébergements",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Hébergements",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Transports & accès",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Transports & accès",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Train",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Voiture",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Covoiturage",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Transports en commun",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "FAQ",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "FAQ",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Le festival est-il accessible aux personnes à mobilité réduite ?",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Puis-je venir avec des enfants ?",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Les concerts ont-ils lieu en cas de pluie ?",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Puis-je manger sur place ?",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724375146.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724375146.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/infos.html",
+            "resourceSize": 11133,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/contact.html",
+      "title": "Contact – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 10865,
+        "top5AverageWeight": 10865,
+        "formats": {
+          "avif": 0,
+          "webp": 2,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 11KB, Moyenne: 11KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 2 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 150,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 19,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 11,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Formulaire de contact",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Formulaire de contact",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Coordonnées",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Coordonnées",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Email",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Téléphone",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Adresse",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Réseaux sociaux",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Réseaux sociaux",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Instagram",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Facebook",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "X / Twitter",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "YouTube",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724382426.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724382426.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.95,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/contact.html",
+            "resourceSize": 10028,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/artiste.html",
+      "title": "Clara Weiss – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/artistes/clara-weiss.webp",
+          "alt": "Portrait de Clara Weiss",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 175,
+          "mimeType": "text/html",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/artistes/clara-weiss-1.webp",
+          "alt": "Clara Weiss en concert",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 177,
+          "mimeType": "text/html",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/artistes/clara-weiss-2.webp",
+          "alt": "Répétition de Clara Weiss",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 177,
+          "mimeType": "text/html",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/artistes/clara-weiss-3.webp",
+          "alt": "Clara Weiss sur scène",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 177,
+          "mimeType": "text/html",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/artistes/clara-weiss-4.webp",
+          "alt": "Clara Weiss en récital",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 177,
+          "mimeType": "text/html",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 7,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 7,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 7,
+        "imagesWithAlt": 7,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 7,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 7,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 3230,
+        "top5AverageWeight": 4452,
+        "formats": {
+          "avif": 0,
+          "webp": 7,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/artistes/clara-weiss.webp",
+            "alt": "Portrait de Clara Weiss",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 175,
+            "mimeType": "text/html",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/artistes/clara-weiss-1.webp",
+            "alt": "Clara Weiss en concert",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/artistes/clara-weiss-2.webp",
+            "alt": "Répétition de Clara Weiss",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/artistes/clara-weiss-3.webp",
+            "alt": "Clara Weiss sur scène",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/artistes/clara-weiss-4.webp",
+            "alt": "Clara Weiss en récital",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "7/7 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/7 (0%), Top 5 poids moyen: 4KB, Moyenne: 3KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (7 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 7 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 136,
+      "externalLinks": 0,
+      "internalLinks": 10,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Clara Weiss",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Informations",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Informations",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Dates de représentation",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Scène",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Biographie",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Biographie",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Galerie",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Galerie",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Voir aussi",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Voir aussi",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Programme",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Tous les artistes",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724389765.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724389765.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/artiste.html",
+            "resourceSize": 9966,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artistes/clara-weiss.webp",
+            "resourceSize": 175,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artistes/clara-weiss-1.webp",
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artistes/clara-weiss-2.webp",
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artistes/clara-weiss-3.webp",
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/artistes/clara-weiss-4.webp",
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/scene.html",
+      "title": "Scène Vauban – Chorus Symphonia",
+      "images": [
+        {
+          "src": "assets/img/vector2.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15276,
+          "mimeType": "image/webp",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/scene-vauban.webp",
+          "alt": "Scène Vauban à la Citadelle de Besançon",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 167,
+          "mimeType": "text/html",
+          "format": "webp"
+        },
+        {
+          "src": "assets/img/vector.webp",
+          "alt": "Logo Chorus Symphonia",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 6454,
+          "mimeType": "image/webp",
+          "format": "webp"
+        }
+      ],
+      "imageStats": {
+        "total": 3,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 3,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 3,
+        "imagesWithAlt": 3,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 3,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 3,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 7299,
+        "top5AverageWeight": 7299,
+        "formats": {
+          "avif": 0,
+          "webp": 3,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "assets/img/vector2.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/scene-vauban.webp",
+            "alt": "Scène Vauban à la Citadelle de Besançon",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "format": "webp"
+          },
+          {
+            "src": "assets/img/vector.webp",
+            "alt": "Logo Chorus Symphonia",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "format": "webp"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "3/3 images avec alt (100%), 3 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/3 (0%), Top 5 poids moyen: 7KB, Moyenne: 7KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (3 webp), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Activer le lazy loading sur 3 image(s) supplémentaire(s) (hors first fold)"
+          ]
+        }
+      },
+      "totalTags": 161,
+      "externalLinks": 0,
+      "internalLinks": 18,
+      "deadLinks": 15,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 10,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Scène Vauban",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À propos de la scène",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "À propos de la scène",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Artistes programmés sur cette scène",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Artistes programmés sur cette scène",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Jeudi 28 août",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Vendredi 29 août",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Samedi 30 août",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Dimanche 31 août",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Explorer",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Explorer",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Programme",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Toutes les scènes",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Festival",
+          "tag": "nav"
+        },
+        {
+          "level": 3,
+          "text": "Festival",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "À propos",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Légal",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Newsletter",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724397182.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "message": "“script” element between “head” and “body”.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765724397182.html",
+          "lastLine": 23,
+          "lastColumn": 42,
+          "firstColumn": 1,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "-- JS -->\n<script src=\"src/js/billetterie.js\" defer></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.96,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/scene.html",
+            "resourceSize": 11050,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "resourceSize": 1684,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 80,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/colors.css",
+            "resourceSize": 271,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/typography.css",
+            "resourceSize": 817,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/layout.css",
+            "resourceSize": 4556,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 3521,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/menu.css",
+            "resourceSize": 1333,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/billetterie.js",
+            "resourceSize": 325,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel-artistes.js",
+            "resourceSize": 2656,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/animations.js",
+            "resourceSize": 852,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 480,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector2.webp",
+            "resourceSize": 15276,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/scene-vauban.webp",
+            "resourceSize": 167,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vector.webp",
+            "resourceSize": 6454,
+            "mimeType": "image/webp",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+            "resourceSize": 32228,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "em"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 171,
+      "span": 34,
+      "br": 4
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 9,
+    "pagesWithImages": 9,
+    "globalStats": {
+      "totalImages": 26,
+      "imagesWithAlt": 26,
+      "imagesWithoutAlt": 0,
+      "imagesWithGoodAlt": 26,
+      "imagesWithPoorAlt": 0,
+      "decorativeImages": 0,
+      "contentImages": 26,
+      "imagesWithLazyLoading": 0,
+      "averageWeight": 8616,
+      "top5AverageWeight": 16412,
+      "decorativeRatio": 0
+    },
+    "formats": {
+      "avif": 0,
+      "webp": 26,
+      "jpg": 0,
+      "png": 0,
+      "svg": 0,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 83,
+      "breakdown": {
+        "accessibility": {
+          "score": 33,
+          "max": 35,
+          "details": "26/26 images avec alt (100%), 26 alt de qualité, 0 décoratives (0%)"
+        },
+        "performance": {
+          "score": 22,
+          "max": 35,
+          "details": "Lazy loading: 0/26 (0%), Top 5 poids moyen: 16KB, Moyenne: 8KB"
+        },
+        "bestPractices": {
+          "score": 28,
+          "max": 30,
+          "details": "Formats modernes: 100% (26 webp), Ratio décoratif: 0%"
+        }
+      },
+      "grade": "B",
+      "improvements": [
+        "Activer le lazy loading sur 26 image(s) supplémentaire(s) (hors first fold)"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5500/",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/festival.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/programme.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/artistes.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/scenes.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/infos.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/contact.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/artiste.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/scene.html",
+        "score": 83,
+        "grade": "B"
+      }
+    ],
+    "scoreStats": {
+      "average": 83,
+      "min": 83,
+      "max": 83,
+      "median": 83
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 6,
+      "linesOfCode": 8,
+      "size": 80,
+      "complexity": 14,
+      "comments": {
+        "total": 0,
+        "size": 0
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "rules": {
+      "total": 1,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 6,
+        "max": 6,
+        "mean": 6,
+        "mode": 6,
+        "range": 0,
+        "sum": 6,
+        "items": [
+          6
+        ],
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "6": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0
+        ],
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "0": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "selectors": {
+        "min": 3,
+        "max": 3,
+        "mean": 3,
+        "mode": 3,
+        "range": 0,
+        "sum": 3,
+        "items": [
+          3
+        ],
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "3": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "declarations": {
+        "min": 3,
+        "max": 3,
+        "mean": 3,
+        "mode": 3,
+        "range": 0,
+        "sum": 3,
+        "items": [
+          3
+        ],
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "3": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "selectors": {
+      "total": 3,
+      "totalUnique": 3,
+      "uniquenessRatio": 1,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          0,
+          1
+        ],
+        "sum": [
+          0,
+          0,
+          2
+        ],
+        "mean": [
+          0,
+          0,
+          0.6666666666666666
+        ],
+        "mode": [
+          0,
+          0,
+          1
+        ],
+        "items": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "0,0,0": 1,
+          "0,0,1": 2
+        },
+        "uniquenessRatio": 0.6666666666666666
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.6666666666666667,
+        "mode": 2,
+        "range": 1,
+        "sum": 5,
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "1": 1,
+          "2": 2
+        },
+        "uniquenessRatio": 0.6666666666666666,
+        "items": [
+          1,
+          2,
+          2
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "totalUnique": 1,
+        "unique": {
+          "0": 3
+        },
+        "uniquenessRatio": 0.3333333333333333
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "pseudoClasses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "declarations": {
+      "total": 3,
+      "totalUnique": 3,
+      "uniquenessRatio": 1,
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 3
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "totalUnique": 1,
+        "unique": {
+          "0": 3
+        },
+        "uniquenessRatio": 0.3333333333333333
+      }
+    },
+    "properties": {
+      "total": 3,
+      "totalUnique": 3,
+      "unique": {
+        "box-sizing": 1,
+        "margin": 1,
+        "padding": 1
+      },
+      "uniquenessRatio": 1,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 3
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {},
+        "formats": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontSizes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "lineHeights": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 3
+      },
+      "keywords": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "resets": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "margin": 1,
+          "padding": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "__meta__": {
+      "parseTime": 0,
+      "analyzeTime": 1,
+      "total": 1
+    },
+    "imports": {
+      "total": 0,
+      "imports": [],
+      "organization": {
+        "googleFontsCount": 0,
+        "externalCount": 0,
+        "relativeCount": 0,
+        "validCount": 0,
+        "invalidCount": 0,
+        "categories": {},
+        "namingIssues": {
+          "totalFiles": 0,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 3,
+        "breakdown": {
+          "validity": {
+            "score": 0,
+            "max": 25,
+            "details": "Aucun import détecté."
+          },
+          "organization": {
+            "score": 0,
+            "max": 30,
+            "details": "Aucune organisation détectée."
+          },
+          "performance": {
+            "score": 0,
+            "max": 20,
+            "details": "Aucun import. "
+          },
+          "naming": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucun fichier à analyser."
+          },
+          "bestPractices": {
+            "score": 3,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Organiser le CSS en catégories (base, components, layout, utils)",
+          "Augmenter la modularité : créer un fichier CSS par composant (idéal : 15-25 imports)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 0,
+      "totalUsed": 0,
+      "totalUnused": 0,
+      "totalUndeclared": 0,
+      "declarations": [],
+      "unusedVariables": [],
+      "undeclaredUsages": [],
+      "categorization": {
+        "color": 0,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 0,
+        "other": 0
+      },
+      "detailedCategorization": {
+        "color": [],
+        "typography": [],
+        "spacing": [],
+        "radius": [],
+        "other": []
+      },
+      "ratio": {
+        "variableUsages": 0,
+        "rawProperties": 3,
+        "variableRatio": 0
+      },
+      "score": {
+        "total": 22,
+        "breakdown": {
+          "adoption": {
+            "score": 0,
+            "max": 40,
+            "details": "0% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 0,
+            "max": 25,
+            "details": "Aucune variable déclarée."
+          },
+          "hygiene": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucun problème d'hygiène détecté."
+          },
+          "categories": {
+            "score": 0,
+            "max": 10,
+            "details": "0/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Faible adoption, aucun usage non déclaré."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": true,
+        "count": 1,
+        "sources": {
+          "html": 1,
+          "css": 0
+        },
+        "details": [
+          {
+            "source": "html-link",
+            "url": "https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap",
+            "provider": "Google Fonts"
+          }
+        ]
+      },
+      "fontFamilies": {},
+      "summary": {
+        "totalFamilies": 0,
+        "totalFontFamilyDeclarations": 0,
+        "totalFontSizeDeclarations": 0,
+        "totalLineHeightDeclarations": 0,
+        "hasGlobalFontFamily": false,
+        "globalFamilies": 0,
+        "inheritanceQuality": 0,
+        "averageDeclarationsPerFamily": 0,
+        "familiesWithFallbacks": 0,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 0,
+        "fontSizeUnits": {
+          "units": {
+            "px": 0,
+            "rem": 0,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 0,
+          "relativeUnits": 0,
+          "relativeRatio": 0
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 0,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 0,
+          "proportionalUnits": 0,
+          "proportionalRatio": 0
+        },
+        "fontFamilyDetails": {},
+        "fontSizeDetails": {},
+        "lineHeightDetails": {}
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": true,
+        "excessiveFontFamilyDeclarations": false,
+        "missingLineHeights": false,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 20,
+        "breakdown": {
+          "webfonts": {
+            "score": 15,
+            "max": 15,
+            "details": "1 webfont(s) détectée(s). Import correct. Pas de doublons."
+          },
+          "fallbacks": {
+            "score": 0,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 0,
+            "max": 25,
+            "details": "Pas de police globale. Qualité d'héritage: 0%."
+          },
+          "sizes": {
+            "score": 0,
+            "max": 20,
+            "details": "Peu de variations de tailles. 0% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 0,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 0% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 5,
+            "details": "Nombre de déclarations approprié."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Ajouter des polices de secours avec familles génériques",
+          "Définir une police globale et réduire les redéclarations",
+          "Privilégier rem/em au lieu de px pour les font-size",
+          "Définir des line-heights pour toutes les font-size",
+          "Privilégier les valeurs proportionnelles (unitless ou %) pour line-height"
+        ]
+      }
+    },
+    "colors": {
+      "totalColors": 0,
+      "uniqueColors": 0,
+      "colors": [],
+      "transparentColors": [],
+      "opaqueColors": [],
+      "colorGroups": [],
+      "similarColors": [],
+      "hasSimilarColors": false,
+      "formats": {},
+      "score": {
+        "total": 61,
+        "breakdown": {
+          "palette": {
+            "score": 18,
+            "max": 30,
+            "details": "Palette très limitée. "
+          },
+          "consistency": {
+            "score": 25,
+            "max": 25,
+            "details": "Aucune couleur similaire détectée. "
+          },
+          "formats": {
+            "score": 6,
+            "max": 20,
+            "details": "Trop de formats différents. "
+          },
+          "transparency": {
+            "score": 12,
+            "max": 15,
+            "details": "Pas de transparence utilisée. "
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 10,
+            "details": "Palette monotone. "
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Envisager l'utilisation de formats modernes comme oklch ou hsl",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 918,
+      "nodesWithClasses": 809,
+      "uniqueClasses": [
+        "bg-app",
+        "mobile-header",
+        "site-logo",
+        "menu-btn",
+        "mobile-menu",
+        "menu-close",
+        "menu-list",
+        "hero",
+        "hero__img",
+        "hero__overlay",
+        "hero__content",
+        "site-logo-index",
+        "hero__meta",
+        "hero__dates",
+        "sep",
+        "hero__place",
+        "hero__scroll",
+        "arrow",
+        "container",
+        "section",
+        "cta",
+        "cta--ticket",
+        "cta__text",
+        "h2",
+        "p",
+        "btn",
+        "btn--primary",
+        "muted",
+        "grid",
+        "grid--2",
+        "card",
+        "card--link",
+        "h3",
+        "card__hint",
+        "section__row",
+        "link",
+        "carousel",
+        "carousel__btn",
+        "carousel__viewport",
+        "carousel__track",
+        "timeline",
+        "timeline__item",
+        "partners",
+        "chip",
+        "site-footer",
+        "footer__wrap",
+        "footer__top",
+        "footer__brand",
+        "footer__desc",
+        "footer__social",
+        "footer__nav",
+        "footer__col",
+        "footer__title",
+        "footer__list",
+        "footer__newsletter",
+        "footer__descSmall",
+        "footer__form",
+        "sr-only",
+        "footer__fineprint",
+        "footer__bottom",
+        "footer__copyright",
+        "footer__backtop",
+        "h1",
+        "filters",
+        "is-active",
+        "program-day",
+        "program-item",
+        "program-item__time",
+        "program-item__content",
+        "artist-card",
+        "artist-card__body",
+        "scene-meta",
+        "info-list",
+        "contact-form",
+        "form-group",
+        "artist-hero-img",
+        "artist-gallery-img",
+        "scene-hero-img",
+        "scene-artists"
+      ],
+      "frequency": {
+        "bg-app": 9,
+        "mobile-header": 9,
+        "site-logo": 18,
+        "menu-btn": 9,
+        "mobile-menu": 9,
+        "menu-close": 9,
+        "menu-list": 9,
+        "hero": 1,
+        "hero__img": 1,
+        "hero__overlay": 1,
+        "hero__content": 1,
+        "site-logo-index": 1,
+        "hero__meta": 1,
+        "hero__dates": 1,
+        "sep": 3,
+        "hero__place": 1,
+        "hero__scroll": 1,
+        "arrow": 1,
+        "container": 9,
+        "section": 47,
+        "cta": 3,
+        "cta--ticket": 1,
+        "cta__text": 1,
+        "h2": 37,
+        "p": 144,
+        "btn": 3,
+        "btn--primary": 3,
+        "muted": 53,
+        "grid": 11,
+        "grid--2": 11,
+        "card": 33,
+        "card--link": 25,
+        "h3": 66,
+        "card__hint": 7,
+        "section__row": 1,
+        "link": 9,
+        "carousel": 1,
+        "carousel__btn": 2,
+        "carousel__viewport": 1,
+        "carousel__track": 1,
+        "timeline": 6,
+        "timeline__item": 21,
+        "partners": 1,
+        "chip": 18,
+        "site-footer": 9,
+        "footer__wrap": 9,
+        "footer__top": 9,
+        "footer__brand": 9,
+        "footer__desc": 9,
+        "footer__social": 9,
+        "footer__nav": 9,
+        "footer__col": 27,
+        "footer__title": 36,
+        "footer__list": 27,
+        "footer__newsletter": 9,
+        "footer__descSmall": 9,
+        "footer__form": 9,
+        "sr-only": 9,
+        "footer__fineprint": 9,
+        "footer__bottom": 9,
+        "footer__copyright": 9,
+        "footer__backtop": 9,
+        "h1": 8,
+        "filters": 2,
+        "is-active": 2,
+        "program-day": 8,
+        "program-item": 11,
+        "program-item__time": 11,
+        "program-item__content": 11,
+        "artist-card": 10,
+        "artist-card__body": 10,
+        "scene-meta": 4,
+        "info-list": 1,
+        "contact-form": 1,
+        "form-group": 4,
+        "artist-hero-img": 1,
+        "artist-gallery-img": 4,
+        "scene-hero-img": 1,
+        "scene-artists": 4
+      },
+      "averageClassesPerNode": 1.13,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 3,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [],
+      "totalSelectors": 3,
+      "selectorsWithMultipleClasses": 0,
+      "specificity": {
+        "average": 0,
+        "max": 0
+      },
+      "complexSelectorsRatio": 0.667,
+      "selectorForms": {
+        "bemSelectors": 0,
+        "pureBemSelectors": 0,
+        "pureBemSelectorsRatio": 0,
+        "selectorsWithAncestor": 0,
+        "selectorsWithId": 0,
+        "selectorsWithType": 0,
+        "selectorsWithAttribute": 0,
+        "ancestorsRatio": 0,
+        "withIdRatio": 0,
+        "withTypeRatio": 0
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [],
+      "undefinedHtmlClasses": [
+        "bg-app",
+        "mobile-header",
+        "site-logo",
+        "menu-btn",
+        "mobile-menu",
+        "menu-close",
+        "menu-list",
+        "hero",
+        "hero__img",
+        "hero__overlay",
+        "hero__content",
+        "site-logo-index",
+        "hero__meta",
+        "hero__dates",
+        "sep",
+        "hero__place",
+        "hero__scroll",
+        "arrow",
+        "container",
+        "section",
+        "cta",
+        "cta--ticket",
+        "cta__text",
+        "h2",
+        "p",
+        "btn",
+        "btn--primary",
+        "muted",
+        "grid",
+        "grid--2",
+        "card",
+        "card--link",
+        "h3",
+        "card__hint",
+        "section__row",
+        "link",
+        "carousel",
+        "carousel__btn",
+        "carousel__viewport",
+        "carousel__track",
+        "timeline",
+        "timeline__item",
+        "partners",
+        "chip",
+        "site-footer",
+        "footer__wrap",
+        "footer__top",
+        "footer__brand",
+        "footer__desc",
+        "footer__social",
+        "footer__nav",
+        "footer__col",
+        "footer__title",
+        "footer__list",
+        "footer__newsletter",
+        "footer__descSmall",
+        "footer__form",
+        "sr-only",
+        "footer__fineprint",
+        "footer__bottom",
+        "footer__copyright",
+        "footer__backtop",
+        "h1",
+        "filters",
+        "is-active",
+        "program-day",
+        "program-item",
+        "program-item__time",
+        "program-item__content",
+        "artist-card",
+        "artist-card__body",
+        "scene-meta",
+        "info-list",
+        "contact-form",
+        "form-group",
+        "artist-hero-img",
+        "artist-gallery-img",
+        "scene-hero-img",
+        "scene-artists"
+      ],
+      "coverageHtml": 0,
+      "coverageCss": 0,
+      "cssEfficiency": 0
+    },
+    "bem": {
+      "blocks": {
+        "bg-app": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "mobile-header": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "site-logo": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu-btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "mobile-menu": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu-close": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [
+            "hero__img",
+            "hero__overlay",
+            "hero__content",
+            "hero__meta",
+            "hero__dates",
+            "hero__place",
+            "hero__scroll"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "site-logo-index": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "sep": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "arrow": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section": {
+          "elements": [
+            "section__row"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "cta": {
+          "elements": [
+            "cta__text"
+          ],
+          "modifiers": [
+            "cta--ticket"
+          ],
+          "elementModifiers": []
+        },
+        "h2": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "p": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn": {
+          "elements": [],
+          "modifiers": [
+            "btn--primary"
+          ],
+          "elementModifiers": []
+        },
+        "muted": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "grid": {
+          "elements": [],
+          "modifiers": [
+            "grid--2"
+          ],
+          "elementModifiers": []
+        },
+        "card": {
+          "elements": [
+            "card__hint"
+          ],
+          "modifiers": [
+            "card--link"
+          ],
+          "elementModifiers": []
+        },
+        "h3": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "link": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel": {
+          "elements": [
+            "carousel__btn",
+            "carousel__viewport",
+            "carousel__track"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline": {
+          "elements": [
+            "timeline__item"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "partners": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "chip": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "site-footer": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer": {
+          "elements": [
+            "footer__wrap",
+            "footer__top",
+            "footer__brand",
+            "footer__desc",
+            "footer__social",
+            "footer__nav",
+            "footer__col",
+            "footer__title",
+            "footer__list",
+            "footer__newsletter",
+            "footer__form",
+            "footer__fineprint",
+            "footer__bottom",
+            "footer__copyright",
+            "footer__backtop"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "sr-only": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "h1": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "filters": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "is-active": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program-day": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "program-item": {
+          "elements": [
+            "program-item__time",
+            "program-item__content"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artist-card": {
+          "elements": [
+            "artist-card__body"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-meta": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "info-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-form": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "form-group": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artist-hero-img": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "artist-gallery-img": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-hero-img": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scene-artists": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 42,
+        "elements": 32,
+        "modifiers": 4,
+        "elementModifiers": 0,
+        "other": 1
+      },
+      "ratios": {
+        "bemClassesRatio": 0.987,
+        "structuredBlocksRatio": 0.256
+      },
+      "depth": {
+        "max": 2,
+        "average": 1.46
+      },
+      "blockStructure": {
+        "totalBlocks": 43,
+        "structuredBlocks": 11,
+        "orphanBlocks": 32,
+        "implicitBlocks": [
+          "footer"
+        ]
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "bg": 1,
+        "mobile": 2,
+        "site": 3,
+        "menu": 3,
+        "cta": 1,
+        "btn": 1,
+        "grid": 1,
+        "card": 1,
+        "sr": 1,
+        "is": 1,
+        "program": 4,
+        "artist": 4,
+        "scene": 3,
+        "info": 1,
+        "contact": 1,
+        "form": 1
+      },
+      "entropy": 5.257,
+      "utilityClassesRatio": 0.013
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2025-12-14T14:59:57.890Z"
+    },
+    "score": {
+      "bem": {
+        "total": 28,
+        "breakdown": {
+          "coverage": {
+            "score": 4,
+            "max": 15,
+            "details": "Couverture moyenne: 0%"
+          },
+          "selectorForms": {
+            "score": 6,
+            "max": 30,
+            "details": "Pure BEM: 0%"
+          },
+          "structure": {
+            "score": 8,
+            "max": 25,
+            "details": "Blocs structurés: 26%"
+          },
+          "elementsRatio": {
+            "score": 8,
+            "max": 20,
+            "details": "Éléments/bloc: 0.74"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0.09"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 80,
+    "breakdown": {
+      "errorPenalty": 20,
+      "warningPenalty": 0
+    },
+    "grade": "B",
+    "improvements": [
+      "Corriger les 18 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 18,
+      "totalWarnings": 0,
+      "averageErrors": 2,
+      "pagesAnalyzed": 9
+    }
+  }
+}
