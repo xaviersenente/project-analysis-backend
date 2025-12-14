@@ -446,7 +446,7 @@
       "validationErrors": [
         {
           "type": "error",
-          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765725437626.html",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765733360300.html",
           "lastLine": 78,
           "lastColumn": 29,
           "firstColumn": 3,
@@ -457,7 +457,7 @@
         },
         {
           "type": "error",
-          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765725437626.html",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765733360300.html",
           "lastLine": 87,
           "lastColumn": 8,
           "firstColumn": 3,
@@ -468,7 +468,7 @@
         },
         {
           "type": "error",
-          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765725437626.html",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765733360300.html",
           "lastLine": 200,
           "lastColumn": 7,
           "firstColumn": 1,
@@ -479,7 +479,7 @@
         },
         {
           "type": "error",
-          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765725437626.html",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1765733360300.html",
           "lastLine": 70,
           "lastColumn": 6,
           "firstColumn": 1,
@@ -490,7 +490,7 @@
         }
       ],
       "lighthouseReport": {
-        "performance": 0.91,
+        "performance": 0.93,
         "accessibility": 0.91,
         "bestPractices": 0.96,
         "seo": 1,
@@ -1363,7 +1363,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.61,
+        "performance": 0.98,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 1,
@@ -1659,18 +1659,6 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5500/assets/icons/titre.svg",
-            "resourceSize": 7875,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
-          },
-          {
-            "url": "http://127.0.0.1:5500/assets/icons/titre.svg",
-            "resourceSize": 7875,
-            "mimeType": "image/svg+xml",
-            "resourceType": "Other"
-          },
-          {
             "url": "http://127.0.0.1:5500/assets/img/image18.avif",
             "resourceSize": 2761,
             "mimeType": "application/octet-stream",
@@ -1693,6 +1681,18 @@
             "resourceSize": 3158,
             "mimeType": "application/octet-stream",
             "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/titre.svg",
+            "resourceSize": 7875,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/icons/titre.svg",
+            "resourceSize": 7875,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other"
           }
         ]
       }
@@ -3500,7 +3500,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.8,
+        "performance": 0.95,
         "accessibility": 0.95,
         "bestPractices": 0.96,
         "seo": 1,
@@ -4122,7 +4122,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.94,
+        "performance": 0.97,
         "accessibility": 0.95,
         "bestPractices": 0.93,
         "seo": 1,
@@ -13015,9 +13015,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 8,
-      "analyzeTime": 13,
-      "total": 21
+      "parseTime": 17,
+      "analyzeTime": 15,
+      "total": 32
     },
     "imports": {
       "total": 16,
@@ -15627,7 +15627,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-14T15:18:48.977Z"
+      "generatedAt": "2025-12-14T17:30:42.765Z"
     },
     "score": {
       "bem": {

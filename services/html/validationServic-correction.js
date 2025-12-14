@@ -1,29 +1,40 @@
-// Validation désactivée pour Render (fonctionne en local uniquement)
-// import { execFile } from "child_process";
-// import { promisify } from "util";
-// import { writeFile, unlink } from "fs/promises";
-// import { tmpdir } from "os";
-// import { join } from "path";
-// import vnuJar from "vnu-jar";
+import { execFile } from "child_process";
+import { promisify } from "util";
+import { writeFile, unlink } from "fs/promises";
+import { tmpdir } from "os";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
+import { createRequire } from "module";
 
-// const execFileAsync = promisify(execFile);
+const require = createRequire(import.meta.url);
+const execFileAsync = promisify(execFile);
+
+// Fonction pour obtenir le chemin du JAR de manière sécurisée
+const getVnuJarPath = () => {
+  try {
+    const vnuJarModule = require.resolve("vnu-jar");
+    const vnuJarDir = dirname(vnuJarModule);
+    return join(vnuJarDir, "build", "dist", "vnu.jar");
+  } catch (error) {
+    console.error("Failed to resolve vnu-jar path:", error.message);
+    throw error;
+  }
+};
 
 export const validateHTML = async (htmlContent) => {
-  // Validation désactivée pour Render
-  console.log("📋 Validation HTML: Désactivée pour Render");
-  return [];
-
-  /* Version locale - fonctionne uniquement en développement
   const tempFile = join(tmpdir(), `validate-${Date.now()}.html`);
 
   try {
+    // Obtenir le chemin du JAR
+    const vnuJarPath = getVnuJarPath();
+
     // Écrire le HTML dans un fichier temporaire
     await writeFile(tempFile, htmlContent, "utf-8");
 
     // Exécuter le validateur Nu local via Java
     const { stderr } = await execFileAsync(
       "java",
-      ["-jar", vnuJar, "--format", "json", "--exit-zero-always", tempFile],
+      ["-jar", vnuJarPath, "--format", "json", "--exit-zero-always", tempFile],
       {
         maxBuffer: 10 * 1024 * 1024, // 10MB buffer
         timeout: 30000, // 30 secondes max
@@ -66,7 +77,6 @@ export const validateHTML = async (htmlContent) => {
       // Ignorer les erreurs de nettoyage
     }
   }
-  */
 };
 
 /**
