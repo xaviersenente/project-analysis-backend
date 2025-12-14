@@ -3,7 +3,10 @@ import { promisify } from "util";
 import { writeFile, unlink } from "fs/promises";
 import { tmpdir } from "os";
 import { join } from "path";
-import vnuJar from "vnu-jar";
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+const vnuJar = require("vnu-jar");
 
 const execFileAsync = promisify(execFile);
 
