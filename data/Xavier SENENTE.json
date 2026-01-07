@@ -612,7 +612,7 @@
           }
         ],
         "score": {
-          "total": 75,
+          "total": 80,
           "breakdown": {
             "accessibility": {
               "score": 19,
@@ -625,16 +625,15 @@
               "details": "Lazy loading: 29/32 (91%), Top 5 poids moyen: 37KB, Moyenne: 12KB"
             },
             "bestPractices": {
-              "score": 25,
+              "score": 30,
               "max": 30,
-              "details": "Formats modernes: 88% (28 avif, 4 svg), Ratio décoratif: 50%"
+              "details": "Formats modernes: 100% (28 avif, 4 svg), Ratio décoratif: 50%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
-            "Ajouter des textes alt descriptifs pour 16 image(s) manquante(s)",
-            "Attention : éviter le lazy loading sur les images above-the-fold (premières images visibles)",
-            "Ratio d'images décoratives élevé (50%), considérer CSS/background-image"
+            "Ajouter des attributs alt manquants (actuellement 5000%)",
+            "Trop d'images marquées comme décoratives, vérifier la pertinence"
           ]
         }
       },
@@ -837,7 +836,7 @@
       ],
       "validationErrors": [],
       "lighthouseReport": {
-        "performance": 0.82,
+        "performance": 0.95,
         "accessibility": 0.96,
         "bestPractices": 1,
         "seo": 1,
@@ -1037,18 +1036,6 @@
             "resourceType": "Font"
           },
           {
-            "url": "http://127.0.0.1:5502/assets/favicons/site.webmanifest",
-            "resourceSize": 436,
-            "mimeType": "application/manifest+json",
-            "resourceType": "Manifest"
-          },
-          {
-            "url": "http://127.0.0.1:5502/assets/favicons/favicon.ico",
-            "resourceSize": 15086,
-            "mimeType": "image/x-icon",
-            "resourceType": "Other"
-          },
-          {
             "url": "http://127.0.0.1:5502/assets/img/stat_img_01.avif",
             "resourceSize": 2118,
             "mimeType": "application/octet-stream",
@@ -1185,6 +1172,18 @@
             "resourceSize": 10427,
             "mimeType": "application/octet-stream",
             "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/favicons/site.webmanifest",
+            "resourceSize": 436,
+            "mimeType": "application/manifest+json",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5502/assets/favicons/favicon.ico",
+            "resourceSize": 15086,
+            "mimeType": "image/x-icon",
+            "resourceType": "Other"
           }
         ]
       }
@@ -1259,8 +1258,8 @@
         "totalImages": 6,
         "imagesWithAlt": 5,
         "imagesWithoutAlt": 1,
-        "imagesWithGoodAlt": 5,
-        "imagesWithPoorAlt": 0,
+        "imagesWithGoodAlt": 3,
+        "imagesWithPoorAlt": 2,
         "decorativeImages": 1,
         "contentImages": 5,
         "imagesWithLazyLoading": 0,
@@ -1333,12 +1332,12 @@
           }
         ],
         "score": {
-          "total": 85,
+          "total": 83,
           "breakdown": {
             "accessibility": {
-              "score": 33,
+              "score": 31,
               "max": 35,
-              "details": "5/6 images avec alt (83%), 5 alt de qualité, 1 décoratives (17%)"
+              "details": "5/6 images avec alt (83%), 3 alt de qualité, 1 décoratives (17%)"
             },
             "performance": {
               "score": 22,
@@ -1348,13 +1347,13 @@
             "bestPractices": {
               "score": 30,
               "max": 30,
-              "details": "Formats modernes: 83% (5 avif, 1 svg), Ratio décoratif: 17%"
+              "details": "Formats modernes: 100% (5 avif, 1 svg), Ratio décoratif: 17%"
             }
           },
           "grade": "B",
           "improvements": [
-            "Ajouter des textes alt descriptifs pour 1 image(s) manquante(s)",
-            "Activer le lazy loading sur 6 image(s) supplémentaire(s) (hors first fold)"
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+            "Implémenter le lazy loading pour les images below the fold"
           ]
         }
       },
@@ -1834,10 +1833,10 @@
           }
         ],
         "score": {
-          "total": 96,
+          "total": 95,
           "breakdown": {
             "accessibility": {
-              "score": 33,
+              "score": 30,
               "max": 35,
               "details": "7/9 images avec alt (78%), 7 alt de qualité, 2 décoratives (22%)"
             },
@@ -1847,14 +1846,14 @@
               "details": "Lazy loading: 5/9 (56%), Top 5 poids moyen: 15KB, Moyenne: 13KB"
             },
             "bestPractices": {
-              "score": 28,
+              "score": 30,
               "max": 30,
-              "details": "Formats modernes: 78% (7 avif, 2 svg), Ratio décoratif: 22%"
+              "details": "Formats modernes: 100% (7 avif, 2 svg), Ratio décoratif: 22%"
             }
           },
-          "grade": "A",
+          "grade": "A+",
           "improvements": [
-            "Ajouter des textes alt descriptifs pour 2 image(s) manquante(s)"
+            "Ajouter des attributs alt manquants (actuellement 7778%)"
           ]
         }
       },
@@ -2292,7 +2291,7 @@
           }
         ],
         "score": {
-          "total": 76,
+          "total": 80,
           "breakdown": {
             "accessibility": {
               "score": 28,
@@ -2305,17 +2304,15 @@
               "details": "Lazy loading: 0/3 (0%), Top 5 poids moyen: 15KB, Moyenne: 15KB"
             },
             "bestPractices": {
-              "score": 26,
+              "score": 30,
               "max": 30,
-              "details": "Formats modernes: 67% (2 avif, 1 svg), Ratio décoratif: 33%"
+              "details": "Formats modernes: 100% (2 avif, 1 svg), Ratio décoratif: 33%"
             }
           },
-          "grade": "C",
+          "grade": "B",
           "improvements": [
-            "Ajouter des textes alt descriptifs pour 1 image(s) manquante(s)",
-            "Activer le lazy loading sur 3 image(s) supplémentaire(s) (hors first fold)",
-            "Utiliser des formats modernes (AVIF/WebP) pour 33% des images",
-            "Ratio d'images décoratives élevé (33%), considérer CSS/background-image"
+            "Ajouter des attributs alt manquants (actuellement 6667%)",
+            "Implémenter le lazy loading pour les images below the fold"
           ]
         }
       },
@@ -2646,7 +2643,7 @@
           }
         ],
         "score": {
-          "total": 64,
+          "total": 71,
           "breakdown": {
             "accessibility": {
               "score": 19,
@@ -2659,16 +2656,16 @@
               "details": "Lazy loading: 0/4 (0%), Top 5 poids moyen: 27KB, Moyenne: 27KB"
             },
             "bestPractices": {
-              "score": 23,
+              "score": 30,
               "max": 30,
-              "details": "Formats modernes: 75% (3 avif, 1 svg), Ratio décoratif: 50%"
+              "details": "Formats modernes: 100% (3 avif, 1 svg), Ratio décoratif: 50%"
             }
           },
-          "grade": "D",
+          "grade": "C",
           "improvements": [
-            "Ajouter des textes alt descriptifs pour 2 image(s) manquante(s)",
-            "Activer le lazy loading sur 4 image(s) supplémentaire(s) (hors first fold)",
-            "Ratio d'images décoratives élevé (50%), considérer CSS/background-image"
+            "Ajouter des attributs alt manquants (actuellement 5000%)",
+            "Trop d'images marquées comme décoratives, vérifier la pertinence",
+            "Implémenter le lazy loading pour les images below the fold"
           ]
         }
       },
@@ -3007,8 +3004,8 @@
       "totalImages": 54,
       "imagesWithAlt": 32,
       "imagesWithoutAlt": 22,
-      "imagesWithGoodAlt": 32,
-      "imagesWithPoorAlt": 0,
+      "imagesWithGoodAlt": 30,
+      "imagesWithPoorAlt": 2,
       "decorativeImages": 22,
       "contentImages": 32,
       "imagesWithLazyLoading": 34,
@@ -3026,12 +3023,12 @@
       "unknown": 0
     },
     "globalScore": {
-      "total": 82,
+      "total": 87,
       "breakdown": {
         "accessibility": {
           "score": 22,
           "max": 35,
-          "details": "32/54 images avec alt (59%), 32 alt de qualité, 22 décoratives (41%)"
+          "details": "32/54 images avec alt (59%), 30 alt de qualité, 22 décoratives (41%)"
         },
         "performance": {
           "score": 35,
@@ -3039,49 +3036,48 @@
           "details": "Lazy loading: 34/54 (63%), Top 5 poids moyen: 43KB, Moyenne: 14KB"
         },
         "bestPractices": {
-          "score": 25,
+          "score": 30,
           "max": 30,
-          "details": "Formats modernes: 83% (45 avif, 9 svg), Ratio décoratif: 41%"
+          "details": "Formats modernes: 100% (45 avif, 9 svg), Ratio décoratif: 41%"
         }
       },
       "grade": "B",
       "improvements": [
-        "Ajouter des textes alt descriptifs pour 22 image(s) manquante(s)",
-        "Ratio d'images décoratives élevé (41%), considérer CSS/background-image"
+        "Ajouter des attributs alt manquants (actuellement 5926%)"
       ]
     },
     "pageScores": [
       {
         "page": "http://127.0.0.1:5502/",
-        "score": 75,
-        "grade": "C"
+        "score": 80,
+        "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5502/portfolio.html",
-        "score": 85,
+        "score": 83,
         "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5502/about.html",
-        "score": 96,
-        "grade": "A"
+        "score": 95,
+        "grade": "A+"
       },
       {
         "page": "http://127.0.0.1:5502/contact.html",
-        "score": 76,
-        "grade": "C"
+        "score": 80,
+        "grade": "B"
       },
       {
         "page": "http://127.0.0.1:5502/project.html",
-        "score": 64,
-        "grade": "D"
+        "score": 71,
+        "grade": "C"
       }
     ],
     "scoreStats": {
-      "average": 79,
-      "min": 64,
-      "max": 96,
-      "median": 76
+      "average": 82,
+      "min": 71,
+      "max": 95,
+      "median": 80
     }
   },
   "cssAnalysisResult": {
@@ -6656,9 +6652,9 @@
       }
     },
     "__meta__": {
-      "parseTime": 9,
-      "analyzeTime": 8,
-      "total": 17
+      "parseTime": 11,
+      "analyzeTime": 10,
+      "total": 21
     },
     "imports": {
       "total": 19,
@@ -6900,8 +6896,8 @@
         "total": 96,
         "breakdown": {
           "validity": {
-            "score": 25,
-            "max": 25,
+            "score": 24.99,
+            "max": 24.99,
             "details": "Tous les imports sont valides."
           },
           "organization": {
@@ -6925,7 +6921,7 @@
             "details": "Bonnes pratiques: Utilise normalize.css."
           }
         },
-        "grade": "A",
+        "grade": "A+",
         "improvements": []
       }
     },
@@ -7664,12 +7660,12 @@
         "missingGenericFallbacks": false
       },
       "score": {
-        "total": 92,
+        "total": 91.55,
         "breakdown": {
           "webfonts": {
             "score": 15,
             "max": 15,
-            "details": "1 webfont(s) détectée(s). Import correct. Pas de doublons."
+            "details": "1 webfont(s) détectée(s). Import correct. Pas de doublons"
           },
           "fallbacks": {
             "score": 20,
@@ -7679,7 +7675,7 @@
           "inheritance": {
             "score": 25,
             "max": 25,
-            "details": "Police globale définie. Qualité d'héritage: 100%."
+            "details": "Police globale définie. Qualité d'héritage: 100%"
           },
           "sizes": {
             "score": 17,
@@ -7687,7 +7683,7 @@
             "details": "Nombre de tailles correct. 100% d'unités relatives."
           },
           "lineHeights": {
-            "score": 10,
+            "score": 9.545454545454545,
             "max": 15,
             "details": "Beaucoup de line-heights manquantes. 100% de valeurs proportionnelles."
           },
@@ -7698,9 +7694,7 @@
           }
         },
         "grade": "A",
-        "improvements": [
-          "Définir des line-heights pour toutes les font-size"
-        ]
+        "improvements": []
       }
     },
     "colors": {
@@ -8086,20 +8080,20 @@
         "transparent": 1
       },
       "score": {
-        "total": 81,
+        "total": 88.89,
         "breakdown": {
           "palette": {
-            "score": 22,
-            "max": 30,
-            "details": "Palette un peu large. "
+            "score": 25,
+            "max": 25,
+            "details": "Palette de couleurs optimale. "
           },
           "consistency": {
-            "score": 22,
-            "max": 25,
+            "score": 20,
+            "max": 20,
             "details": "Quelques couleurs similaires. "
           },
           "formats": {
-            "score": 22,
+            "score": 20,
             "max": 20,
             "details": "2 formats de couleurs utilisés. Format moderne détecté. "
           },
@@ -8856,7 +8850,7 @@
     },
     "meta": {
       "version": "1.0",
-      "generatedAt": "2025-12-11T09:22:11.280Z"
+      "generatedAt": "2025-12-20T08:23:17.595Z"
     },
     "score": {
       "bem": {
