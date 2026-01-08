@@ -1,0 +1,4507 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Hidden Reactions - Effet Matilda",
+      "images": [
+        {
+          "src": "../assets/img/portrait.avif",
+          "alt": "Portrait d'Alice Ball",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 90881,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/biographie.avif",
+          "alt": "Portrait d'Alice Ball",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 42589,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/memoires.avif",
+          "alt": "Livre et plume",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 10824,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/ecran.avif",
+          "alt": "Pellicule de cinéma",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15830,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 4,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 4,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 40031,
+        "top5AverageWeight": 40031,
+        "formats": {
+          "avif": 4,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/portrait.avif",
+            "alt": "Portrait d'Alice Ball",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 90881,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/biographie.avif",
+            "alt": "Portrait d'Alice Ball",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 42589,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/memoires.avif",
+            "alt": "Livre et plume",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 10824,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/ecran.avif",
+            "alt": "Pellicule de cinéma",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15830,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 4 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/4 (0%), Top 5 poids moyen: 39KB, Moyenne: 39KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (4 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 94,
+      "externalLinks": 1,
+      "internalLinks": 17,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "BIOGRAPHIE",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "BIOGRAPHIE",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "BIOGRAPHIE",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "MÉMOIRES\n                EFFACÉES",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "MÉMOIRES\n                EFFACÉES",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "MÉMOIRES\n                EFFACÉES",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "ÉCRAN\n                INVISIBLE",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "ÉCRAN\n                INVISIBLE",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "ÉCRAN\n                INVISIBLE",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815489200.html",
+          "lastLine": 171,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "message": "Stray start tag “footer”.",
+          "extract": "tml>\n\n    <footer>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815489200.html",
+          "lastLine": 171,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "tml>\n\n    <footer>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.86,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 6427,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/index.css",
+            "resourceSize": 1799,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/portrait.avif",
+            "resourceSize": 90881,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/biographie.avif",
+            "resourceSize": 42589,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/memoires.avif",
+            "resourceSize": 10824,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ecran.avif",
+            "resourceSize": 15830,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/biographie.html",
+      "title": "Alice Ball - Biographie | Hidden Reactions",
+      "images": [
+        {
+          "src": "../assets/img/biographie.avif",
+          "alt": "Portrait of Alice Augusta Ball",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 42589,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 1,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 1,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 42589,
+        "top5AverageWeight": 42589,
+        "formats": {
+          "avif": 1,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/biographie.avif",
+            "alt": "Portrait of Alice Augusta Ball",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 42589,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "1/1 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 42KB, Moyenne: 42KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (1 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 94,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 2,
+        "h2": 1,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "ALICE BALL",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "ALICE BALL",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "ALICEAUGUSTA BALL",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "ALICEAUGUSTA BALL",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "SA THÉORIE",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "SA THÉORIE",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "LE PROBLÈME ?",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "LE PROBLÈME ?",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "SAPOPULARISATION",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "SAPOPULARISATION",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815496541.html",
+          "lastLine": 72,
+          "lastColumn": 16,
+          "firstColumn": 7,
+          "message": "End tag “section” seen, but there were open elements.",
+          "extract": "/p>\n      </section>\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 10
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815496541.html",
+          "lastLine": 63,
+          "lastColumn": 30,
+          "firstColumn": 9,
+          "message": "Unclosed element “div”.",
+          "extract": "\n\n        <div class=\"bio-info\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 22
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815496541.html",
+          "lastLine": 174,
+          "lastColumn": 31,
+          "firstColumn": 11,
+          "message": "Stray start tag “div”.",
+          "extract": "          <div class=\"bio-cta\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815496541.html",
+          "lastLine": 174,
+          "lastColumn": 31,
+          "firstColumn": 11,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "          <div class=\"bio-cta\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 21
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.86,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/biographie.html",
+            "resourceSize": 7346,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/biographie.css",
+            "resourceSize": 2707,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/biographie.avif",
+            "resourceSize": 42589,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/frise.html",
+      "title": "Frise chronologique | Hidden Reactions",
+      "images": [
+        {
+          "src": "../assets/img/emilie.avif",
+          "alt": "Portrait of Émilie du Châtelet",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 58645,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/lise.avif",
+          "alt": "Portrait of Lise Meitner",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 23265,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/rosalind.avif",
+          "alt": "Portrait of Rosalind Franklin",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9962,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/chien.avif",
+          "alt": "Portrait of Chien-Shiung Wu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15574,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/vera.avif",
+          "alt": "Portrait of Vera Rubin",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 54643,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 5,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 5,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 5,
+        "imagesWithAlt": 5,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 5,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 5,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 32418,
+        "top5AverageWeight": 32418,
+        "formats": {
+          "avif": 5,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/emilie.avif",
+            "alt": "Portrait of Émilie du Châtelet",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 58645,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/lise.avif",
+            "alt": "Portrait of Lise Meitner",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 23265,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/rosalind.avif",
+            "alt": "Portrait of Rosalind Franklin",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9962,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/chien.avif",
+            "alt": "Portrait of Chien-Shiung Wu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15574,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/vera.avif",
+            "alt": "Portrait of Vera Rubin",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 54643,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "5/5 images avec alt (100%), 5 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/5 (0%), Top 5 poids moyen: 32KB, Moyenne: 32KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (5 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 110,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "FRISE CHRONOLOGIQUE",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "FRISE CHRONOLOGIQUE",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Émilie du Châtelet (1706-1749)",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Émilie du Châtelet (1706-1749)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Émilie du Châtelet (1706-1749)",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Lise Meitner (1878-1968)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Lise Meitner (1878-1968)",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Rosalind Franklin (1920-1958)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Rosalind Franklin (1920-1958)",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Chien-Shiung Wu (1912-1997)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Chien-Shiung Wu (1912-1997)",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Vera Rubin (1928-2016)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Vera Rubin (1928-2016)",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.88,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/frise.html",
+            "resourceSize": 7186,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/frise.css",
+            "resourceSize": 2899,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/emilie.avif",
+            "resourceSize": 58645,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lise.avif",
+            "resourceSize": 23265,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/rosalind.avif",
+            "resourceSize": 9962,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/chien.avif",
+            "resourceSize": 15574,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vera.avif",
+            "resourceSize": 54643,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/litterature.html",
+      "title": "Mémoires effacées - Littérature | Hidden Reactions",
+      "images": [
+        {
+          "src": "../assets/img/litterature.avif",
+          "alt": "Old book with quill and inkwell",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15392,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/hidden.avif",
+          "alt": "Couverture du livre Hidden Figures",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 65559,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 2,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 2,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 40476,
+        "top5AverageWeight": 40476,
+        "formats": {
+          "avif": 2,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/litterature.avif",
+            "alt": "Old book with quill and inkwell",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15392,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/hidden.avif",
+            "alt": "Couverture du livre Hidden Figures",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 65559,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "2/2 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/2 (0%), Top 5 poids moyen: 40KB, Moyenne: 40KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (2 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 85,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "MÉMOIRESEFFACÉES",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "MÉMOIRESEFFACÉES",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815511316.html",
+          "lastLine": 163,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "message": "Stray start tag “footer”.",
+          "extract": "tml>\n\n    <footer>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815511316.html",
+          "lastLine": 163,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "tml>\n\n    <footer>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.89,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/litterature.html",
+            "resourceSize": 6934,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/litterature.css",
+            "resourceSize": 2410,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/litterature.avif",
+            "resourceSize": 15392,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hidden.avif",
+            "resourceSize": 65559,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/cinema.html",
+      "title": "Écran Invisible - Cinéma | Hidden Reactions",
+      "images": [
+        {
+          "src": "../assets/img/cinema.avif",
+          "alt": "Pellicule de cinéma avec silhouette de femme scientifique",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 25849,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/picture.avif",
+          "alt": "Affiche du documentaire Picture a scientist",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 29808,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/figures.avif",
+          "alt": "Affiche du film Les Figures de l'ombre",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 33150,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 3,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 3,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 3,
+        "imagesWithAlt": 3,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 3,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 3,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 29602,
+        "top5AverageWeight": 29602,
+        "formats": {
+          "avif": 3,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/cinema.avif",
+            "alt": "Pellicule de cinéma avec silhouette de femme scientifique",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 25849,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/picture.avif",
+            "alt": "Affiche du documentaire Picture a scientist",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 29808,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/figures.avif",
+            "alt": "Affiche du film Les Figures de l'ombre",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 33150,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "3/3 images avec alt (100%), 3 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/3 (0%), Top 5 poids moyen: 29KB, Moyenne: 29KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (3 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 105,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "ÉCRANINVISIBLE",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "ÉCRANINVISIBLE",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 105,
+          "firstLine": 98,
+          "lastColumn": 30,
+          "firstColumn": 13,
+          "message": "Bad value “100%” for attribute “width” on element “iframe”: Expected a digit but saw “%” instead.",
+          "extract": "          <iframe \n              width=\"100%\" \n              height=\"200\" \n              src=\"assets/video/Picture a scientist Bande Annonce VF (2020).mp4\" \n              title=\"Picture a scientist - Bande annonce\" \n              frameborder=\"0\" \n              allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n              allowfullscreen>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 379
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 105,
+          "firstLine": 98,
+          "lastColumn": 30,
+          "firstColumn": 13,
+          "message": "Bad value “assets/video/Picture a scientist Bande Annonce VF (2020).mp4” for attribute “src” on element “iframe”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <iframe \n              width=\"100%\" \n              height=\"200\" \n              src=\"assets/video/Picture a scientist Bande Annonce VF (2020).mp4\" \n              title=\"Picture a scientist - Bande annonce\" \n              frameborder=\"0\" \n              allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n              allowfullscreen>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 379
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 105,
+          "firstLine": 98,
+          "lastColumn": 30,
+          "firstColumn": 13,
+          "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+          "extract": "          <iframe \n              width=\"100%\" \n              height=\"200\" \n              src=\"assets/video/Picture a scientist Bande Annonce VF (2020).mp4\" \n              title=\"Picture a scientist - Bande annonce\" \n              frameborder=\"0\" \n              allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n              allowfullscreen>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 379
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 152,
+          "firstLine": 145,
+          "lastColumn": 30,
+          "firstColumn": 13,
+          "message": "Bad value “100%” for attribute “width” on element “iframe”: Expected a digit but saw “%” instead.",
+          "extract": "          <iframe \n              width=\"100%\" \n              height=\"200\" \n              src=\"assets/video/LES FIGURES DE L'OMBRE Bande Annonce VF (2017).mp4\" \n              title=\"Picture a Scientist - Bande annonce\" \n              frameborder=\"0\" \n              allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n              allowfullscreen>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 382
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 152,
+          "firstLine": 145,
+          "lastColumn": 30,
+          "firstColumn": 13,
+          "message": "Bad value “assets/video/LES FIGURES DE L'OMBRE Bande Annonce VF (2017).mp4” for attribute “src” on element “iframe”: Illegal character in path segment: space is not allowed.",
+          "extract": "          <iframe \n              width=\"100%\" \n              height=\"200\" \n              src=\"assets/video/LES FIGURES DE L'OMBRE Bande Annonce VF (2017).mp4\" \n              title=\"Picture a Scientist - Bande annonce\" \n              frameborder=\"0\" \n              allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n              allowfullscreen>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 382
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 152,
+          "firstLine": 145,
+          "lastColumn": 30,
+          "firstColumn": 13,
+          "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+          "extract": "          <iframe \n              width=\"100%\" \n              height=\"200\" \n              src=\"assets/video/LES FIGURES DE L'OMBRE Bande Annonce VF (2017).mp4\" \n              title=\"Picture a Scientist - Bande annonce\" \n              frameborder=\"0\" \n              allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \n              allowfullscreen>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 382
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 217,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "message": "Stray start tag “footer”.",
+          "extract": "tml>\n\n    <footer>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815519226.html",
+          "lastLine": 217,
+          "lastColumn": 12,
+          "firstColumn": 5,
+          "subType": "fatal",
+          "message": "Cannot recover after last error. Any further errors will be ignored.",
+          "extract": "tml>\n\n    <footer>\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 8
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.97,
+        "accessibility": 0.89,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/cinema.html",
+            "resourceSize": 9700,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/cinema.css",
+            "resourceSize": 3287,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/cinema.avif",
+            "resourceSize": 25849,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/picture.avif",
+            "resourceSize": 29808,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/figures.avif",
+            "resourceSize": 33150,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/assets/video/Picture%20a%20scientist%20Bande%20Annonce%20VF%20(2020).mp4",
+            "resourceSize": 214,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/assets/video/LES%20FIGURES%20DE%20L'OMBRE%20Bande%20Annonce%20VF%20(2017).mp4",
+            "resourceSize": 223,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/galerie.html",
+      "title": "Galerie Cinématographique | Hidden Reactions",
+      "images": [
+        {
+          "src": "../assets/img/galerie.avif",
+          "alt": "Mur de cadres vides avec pellicules de cinéma et caméra",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 37858,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 1,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 1,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 37858,
+        "top5AverageWeight": 37858,
+        "formats": {
+          "avif": 1,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/galerie.avif",
+            "alt": "Mur de cadres vides avec pellicules de cinéma et caméra",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 37858,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "1/1 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 37KB, Moyenne: 37KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (1 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 104,
+      "externalLinks": 6,
+      "internalLinks": 13,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "GALERIECINÉMATOGRAPHIQUE",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "GALERIECINÉMATOGRAPHIQUE",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "The Uprising",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "The Uprising",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Mercury 13 (2018)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Mercury 13 (2018)",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Code: Debugging the Gender Gap",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Code: Debugging the Gender Gap",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Top Secret Rosies: The Female \"Computers\" of WWII (2010)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Top Secret Rosies: The Female \"Computers\" of WWII (2010)",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Lessons in Chemistry (2023)",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Lessons in Chemistry (2023)",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.84,
+        "accessibility": 0.89,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/galerie.html",
+            "resourceSize": 8419,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/galerie.css",
+            "resourceSize": 1936,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/galerie.avif",
+            "resourceSize": 37858,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact | Hidden Reactions",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 75,
+      "externalLinks": 1,
+      "internalLinks": 13,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "EN CAS DEQUESTIONS ?",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "EN CAS DEQUESTIONS ?",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.88,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 5459,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/contact.css",
+            "resourceSize": 2060,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/apropos.html",
+      "title": "À Propos | Hidden Reactions",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 83,
+      "externalLinks": 1,
+      "internalLinks": 13,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À PROPOS",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "À PROPOS",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.88,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/apropos.html",
+            "resourceSize": 6994,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/apropos.css",
+            "resourceSize": 841,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/projets.html",
+      "title": "Autres Projets | Hidden Reactions",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 82,
+      "externalLinks": 10,
+      "internalLinks": 13,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "AUTRESPROJETS",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "AUTRESPROJETS",
+          "tag": "h2"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.88,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/projets.html",
+            "resourceSize": 6093,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/projets.css",
+            "resourceSize": 1033,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire | Hidden Reactions",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 86,
+      "externalLinks": 1,
+      "internalLinks": 13,
+      "deadLinks": 1,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 7,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Hidden Reactions",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "GLOSSAIRE",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "GLOSSAIRE",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lèpre :",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Lèpre :",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Huile de chaulmoogra :",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Esters éthyliques :",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Acides gras :",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Ségrégation raciale :",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Chimiste analytique :",
+          "tag": "h3"
+        },
+        {
+          "level": 3,
+          "text": "Konstance Kruger",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.88,
+        "bestPractices": 0.96,
+        "seo": 0.9,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 6377,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/reset.css",
+            "resourceSize": 1674,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/header.css",
+            "resourceSize": 2454,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/glossaire.css",
+            "resourceSize": 1536,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/footer.css",
+            "resourceSize": 1781,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/fr/src/js/script.js",
+            "resourceSize": 0,
+            "mimeType": "text/html",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "em",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption",
+      "video"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 111,
+      "span": 40,
+      "br": 42
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 10,
+    "pagesWithImages": 10,
+    "globalStats": {
+      "totalImages": 16,
+      "imagesWithAlt": 16,
+      "imagesWithoutAlt": 0,
+      "imagesWithGoodAlt": 16,
+      "imagesWithPoorAlt": 0,
+      "decorativeImages": 0,
+      "contentImages": 16,
+      "imagesWithLazyLoading": 0,
+      "averageWeight": 35776,
+      "top5AverageWeight": 62463,
+      "decorativeRatio": 0
+    },
+    "formats": {
+      "avif": 16,
+      "webp": 0,
+      "jpg": 0,
+      "png": 0,
+      "svg": 0,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 83,
+      "breakdown": {
+        "accessibility": {
+          "score": 33,
+          "max": 35,
+          "details": "16/16 images avec alt (100%), 16 alt de qualité, 0 décoratives (0%)"
+        },
+        "performance": {
+          "score": 22,
+          "max": 35,
+          "details": "Lazy loading: 0/16 (0%), Top 5 poids moyen: 61KB, Moyenne: 35KB"
+        },
+        "bestPractices": {
+          "score": 28,
+          "max": 30,
+          "details": "Formats modernes: 100% (16 avif), Ratio décoratif: 0%"
+        }
+      },
+      "grade": "B",
+      "improvements": [
+        "Implémenter le lazy loading pour les images below the fold"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5500/fr/",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/biographie.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/frise.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/litterature.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/cinema.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/galerie.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/contact.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/apropos.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/projets.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/glossaire.html",
+        "score": 100,
+        "grade": "A"
+      }
+    ],
+    "scoreStats": {
+      "average": 90,
+      "min": 83,
+      "max": 100,
+      "median": 83
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 54,
+      "linesOfCode": 102,
+      "size": 1674,
+      "complexity": 120,
+      "comments": {
+        "total": 5,
+        "size": 456
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 3,
+      "totalUnique": 2,
+      "unique": {
+        "import": 2,
+        "media": 1
+      },
+      "uniquenessRatio": 0.6666666666666666,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap')": 1,
+          "url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "(max-width: 768px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "max-width": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 3
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0
+        ],
+        "total": 3,
+        "totalUnique": 1,
+        "unique": {
+          "0": 3
+        },
+        "uniquenessRatio": 0.3333333333333333
+      }
+    },
+    "rules": {
+      "total": 15,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 8,
+        "mean": 3.4,
+        "mode": 2,
+        "range": 6,
+        "sum": 51,
+        "items": [
+          4,
+          2,
+          8,
+          3,
+          2,
+          4,
+          6,
+          2,
+          2,
+          3,
+          5,
+          4,
+          2,
+          2,
+          2
+        ],
+        "total": 15,
+        "totalUnique": 6,
+        "unique": {
+          "2": 7,
+          "3": 2,
+          "4": 3,
+          "5": 1,
+          "6": 1,
+          "8": 1
+        },
+        "uniquenessRatio": 0.4
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.13333333333333333,
+        "mode": 0,
+        "range": 1,
+        "sum": 2,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "total": 15,
+        "totalUnique": 2,
+        "unique": {
+          "0": 13,
+          "1": 2
+        },
+        "uniquenessRatio": 0.13333333333333333
+      },
+      "selectors": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.2666666666666666,
+        "mode": 1,
+        "range": 4,
+        "sum": 19,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 15,
+        "totalUnique": 2,
+        "unique": {
+          "1": 14,
+          "5": 1
+        },
+        "uniquenessRatio": 0.13333333333333333
+      },
+      "declarations": {
+        "min": 1,
+        "max": 7,
+        "mean": 2.1333333333333333,
+        "mode": 1,
+        "range": 6,
+        "sum": 32,
+        "items": [
+          3,
+          1,
+          7,
+          2,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          4,
+          3,
+          1,
+          1,
+          1
+        ],
+        "total": 15,
+        "totalUnique": 5,
+        "unique": {
+          "1": 8,
+          "2": 2,
+          "3": 3,
+          "4": 1,
+          "7": 1
+        },
+        "uniquenessRatio": 0.3333333333333333
+      }
+    },
+    "selectors": {
+      "total": 19,
+      "totalUnique": 14,
+      "uniquenessRatio": 0.7368421052631579,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          1,
+          1
+        ],
+        "sum": [
+          0,
+          3,
+          16
+        ],
+        "mean": [
+          0,
+          0.15789473684210525,
+          0.8421052631578947
+        ],
+        "mode": [
+          0,
+          0,
+          1
+        ],
+        "items": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "total": 19,
+        "totalUnique": 4,
+        "unique": {
+          "0,0,0": 1,
+          "0,0,1": 15,
+          "0,1,0": 2,
+          "0,1,1": 1
+        },
+        "uniquenessRatio": 0.21052631578947367
+      },
+      "complexity": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.105263157894737,
+        "mode": 1,
+        "range": 2,
+        "sum": 21,
+        "total": 19,
+        "totalUnique": 2,
+        "unique": {
+          "1": 18,
+          "3": 1
+        },
+        "uniquenessRatio": 0.10526315789473684,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.10526315789473684,
+        "mode": 0,
+        "range": 1,
+        "sum": 2,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "total": 19,
+        "totalUnique": 2,
+        "unique": {
+          "0": 17,
+          "1": 2
+        },
+        "uniquenessRatio": 0.10526315789473684
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "pseudoClasses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          " ": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "declarations": {
+      "total": 32,
+      "totalUnique": 29,
+      "uniquenessRatio": 0.90625,
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 32
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.0625,
+        "mode": 0,
+        "range": 1,
+        "sum": 2,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "total": 32,
+        "totalUnique": 2,
+        "unique": {
+          "0": 30,
+          "1": 2
+        },
+        "uniquenessRatio": 0.0625
+      }
+    },
+    "properties": {
+      "total": 32,
+      "totalUnique": 19,
+      "unique": {
+        "margin": 1,
+        "padding": 1,
+        "box-sizing": 1,
+        "scroll-behavior": 1,
+        "font-family": 2,
+        "line-height": 1,
+        "color": 2,
+        "background-color": 1,
+        "font-size": 6,
+        "letter-spacing": 2,
+        "font-weight": 6,
+        "text-decoration": 1,
+        "list-style": 1,
+        "max-width": 1,
+        "height": 1,
+        "display": 1,
+        "text-transform": 1,
+        "margin-bottom": 1,
+        "margin-top": 1
+      },
+      "uniquenessRatio": 0.59375,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 32
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "#000": 1,
+          "#fff": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#fff": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "hex3": 2
+          },
+          "uniquenessRatio": 0.5
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "'Barlow', sans-serif": 1,
+          "'Playfair Display', serif": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "fontSizes": {
+        "total": 6,
+        "totalUnique": 5,
+        "unique": {
+          "16px": 1,
+          "24px": 2,
+          "48px": 1,
+          "32px": 1,
+          "36px": 1
+        },
+        "uniquenessRatio": 0.8333333333333334
+      },
+      "lineHeights": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "1.7": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 10,
+        "totalUnique": 2,
+        "unique": {
+          "px": 8,
+          "em": 2
+        },
+        "uniquenessRatio": 0.2,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "letter-spacing": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "em": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 32
+      },
+      "keywords": {
+        "total": 4,
+        "totalUnique": 3,
+        "unique": {
+          "none": 2,
+          "inherit": 1,
+          "auto": 1
+        },
+        "uniquenessRatio": 0.75
+      },
+      "resets": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "margin": 1,
+          "padding": 1
+        },
+        "uniquenessRatio": 1
+      }
+    },
+    "__meta__": {
+      "parseTime": 0,
+      "analyzeTime": 1,
+      "total": 1
+    },
+    "imports": {
+      "total": 2,
+      "imports": [
+        {
+          "path": "https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap",
+          "resolvedUrl": "https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": true,
+          "type": "google-fonts",
+          "category": "fonts",
+          "fileSize": 0
+        },
+        {
+          "path": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+          "resolvedUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": true,
+          "type": "google-fonts",
+          "category": "fonts",
+          "fileSize": 0
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 2,
+        "externalCount": 0,
+        "relativeCount": 0,
+        "validCount": 2,
+        "invalidCount": 0,
+        "categories": {
+          "fonts": 2
+        },
+        "namingIssues": {
+          "totalFiles": 0,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 39.99,
+        "breakdown": {
+          "validity": {
+            "score": 24.99,
+            "max": 24.99,
+            "details": "Tous les imports sont valides."
+          },
+          "organization": {
+            "score": 3,
+            "max": 30,
+            "details": "1 catégorie(s). Manque de modularité."
+          },
+          "performance": {
+            "score": 5,
+            "max": 20,
+            "details": "2 import(s). Faible modularité. Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucun fichier à analyser."
+          },
+          "bestPractices": {
+            "score": 7,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Organiser le CSS en catégories (base, components, layout, utils)",
+          "Augmenter la modularité : créer un fichier CSS par composant (idéal : 15-25 imports)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 0,
+      "totalUsed": 0,
+      "totalUnused": 0,
+      "totalUndeclared": 0,
+      "declarations": [],
+      "unusedVariables": [],
+      "undeclaredUsages": [],
+      "categorization": {
+        "color": 0,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 0,
+        "other": 0
+      },
+      "detailedCategorization": {
+        "color": [],
+        "typography": [],
+        "spacing": [],
+        "radius": [],
+        "other": []
+      },
+      "ratio": {
+        "variableUsages": 0,
+        "rawProperties": 34,
+        "variableRatio": 0
+      },
+      "score": {
+        "total": 22,
+        "breakdown": {
+          "adoption": {
+            "score": 0,
+            "max": 40,
+            "details": "0% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 0,
+            "max": 25,
+            "details": "Aucune variable déclarée."
+          },
+          "hygiene": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucun problème d'hygiène détecté."
+          },
+          "categories": {
+            "score": 0,
+            "max": 10,
+            "details": "0/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Faible adoption, aucun usage non déclaré."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": true,
+        "count": 2,
+        "sources": {
+          "html": 0,
+          "css": 2
+        },
+        "details": [
+          {
+            "source": "css-import",
+            "url": "https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap",
+            "provider": "Google Fonts"
+          },
+          {
+            "source": "css-import",
+            "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+            "provider": "Google Fonts"
+          }
+        ]
+      },
+      "fontFamilies": {
+        "Barlow": {
+          "declarationCount": 1,
+          "isGlobal": true,
+          "selectors": [
+            "body"
+          ],
+          "selectorCount": 1,
+          "sizes": [
+            {
+              "size": "16px",
+              "selectors": [
+                "body"
+              ],
+              "lineHeights": [
+                "1.7"
+              ],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        },
+        "Playfair Display": {
+          "declarationCount": 1,
+          "isGlobal": false,
+          "selectors": [
+            ".logo",
+            "h1",
+            "h2",
+            ".hero h2",
+            ".hero-subtitle"
+          ],
+          "selectorCount": 5,
+          "sizes": [],
+          "sizeVariations": 0,
+          "fallbacks": [
+            "serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "serif"
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 2,
+        "totalFontSizeDeclarations": 6,
+        "totalLineHeightDeclarations": 1,
+        "hasGlobalFontFamily": true,
+        "globalFamilies": 1,
+        "inheritanceQuality": 0.5,
+        "averageDeclarationsPerFamily": 1,
+        "familiesWithFallbacks": 2,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 1,
+        "fontSizeUnits": {
+          "units": {
+            "px": 6,
+            "rem": 0,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 6,
+          "relativeUnits": 0,
+          "relativeRatio": 0
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 1,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 1,
+          "proportionalUnits": 1,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {
+          "Barlow": {
+            "count": 1,
+            "selectors": [
+              "body"
+            ],
+            "isGlobal": true
+          },
+          "Playfair Display": {
+            "count": 1,
+            "selectors": [
+              ".logo",
+              "h1",
+              "h2",
+              ".hero h2",
+              ".hero-subtitle"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "16px": {
+            "count": 1,
+            "selectors": [
+              "body"
+            ]
+          },
+          "24px": {
+            "count": 2,
+            "selectors": [
+              "h1",
+              "h3"
+            ]
+          },
+          "48px": {
+            "count": 1,
+            "selectors": [
+              "h2"
+            ]
+          },
+          "32px": {
+            "count": 1,
+            "selectors": [
+              "h3"
+            ]
+          },
+          "36px": {
+            "count": 1,
+            "selectors": [
+              "h2"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "1.7": {
+            "count": 1
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": false,
+        "excessiveFontFamilyDeclarations": false,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 74.17,
+        "breakdown": {
+          "webfonts": {
+            "score": 15,
+            "max": 15,
+            "details": "2 webfont(s) détectée(s). Import correct. Pas de doublons"
+          },
+          "fallbacks": {
+            "score": 20,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 17.5,
+            "max": 25,
+            "details": "Police globale définie. Qualité d'héritage: 50%"
+          },
+          "sizes": {
+            "score": 10,
+            "max": 20,
+            "details": "Nombre de tailles optimal. 0% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 6.666666666666666,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 5,
+            "details": "Nombre de déclarations approprié."
+          }
+        },
+        "grade": "C",
+        "improvements": []
+      }
+    },
+    "colors": {
+      "totalColors": 2,
+      "uniqueColors": 2,
+      "colors": [
+        {
+          "color": "#000",
+          "count": 1
+        },
+        {
+          "color": "#fff",
+          "count": 1
+        }
+      ],
+      "transparentColors": [],
+      "opaqueColors": [
+        {
+          "color": "#000",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#fff",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        }
+      ],
+      "colorGroups": [
+        {
+          "hueRange": -1,
+          "hueName": "Achromatique (Gris/Noir/Blanc)",
+          "colors": [
+            {
+              "color": "#000",
+              "count": 1,
+              "oklch": {
+                "l": 0,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#fff",
+              "count": 1,
+              "oklch": {
+                "l": 1.0000000000000002,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      ],
+      "similarColors": [],
+      "hasSimilarColors": false,
+      "formats": {
+        "hex": 2
+      },
+      "score": {
+        "total": 77.78,
+        "breakdown": {
+          "palette": {
+            "score": 18,
+            "max": 25,
+            "details": "Palette très limitée. "
+          },
+          "consistency": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucune couleur similaire détectée. "
+          },
+          "formats": {
+            "score": 20,
+            "max": 20,
+            "details": "Format de couleur uniforme. "
+          },
+          "transparency": {
+            "score": 12,
+            "max": 15,
+            "details": "Pas de transparence utilisée. "
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 10,
+            "details": "Palette monotone. "
+          }
+        },
+        "grade": "C",
+        "improvements": [
+          "Envisager l'utilisation de formats modernes comme oklch ou hsl",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 236,
+      "nodesWithClasses": 231,
+      "uniqueClasses": [
+        "logo",
+        "header-right",
+        "lang-switch",
+        "active",
+        "burger-menu",
+        "main-nav",
+        "hero",
+        "hero-content",
+        "scroll-down",
+        "section-circle",
+        "circle-img",
+        "circle-title",
+        "circle-description",
+        "footer-author",
+        "footer-contact",
+        "footer-legal",
+        "page-hero",
+        "subtitle",
+        "bio-intro",
+        "bio-portrait",
+        "bio-info",
+        "bio-dates",
+        "bio-profession",
+        "bio-description",
+        "content-section",
+        "bio-cta",
+        "btn-cta",
+        "subtitle-box",
+        "timeline",
+        "timeline-item",
+        "timeline-connector",
+        "timeline-portrait",
+        "timeline-info",
+        "right",
+        "highlight",
+        "last",
+        "frise-cta",
+        "btn-back",
+        "hero-image",
+        "book-section",
+        "book-cover",
+        "book-content",
+        "lit-cta",
+        "btn-cinema",
+        "film-section",
+        "film-poster",
+        "film-content",
+        "film-credit",
+        "video-container",
+        "cinema-cta",
+        "btn-galerie",
+        "gallery-intro",
+        "film-card",
+        "film-type",
+        "film-description",
+        "film-link",
+        "footer-copyright",
+        "contact-section",
+        "contact-form",
+        "form-group",
+        "submit-btn",
+        "about-content",
+        "about-section",
+        "projects-list",
+        "project-item",
+        "project-spacer",
+        "glossary-content",
+        "glossary-item"
+      ],
+      "frequency": {
+        "logo": 10,
+        "header-right": 10,
+        "lang-switch": 10,
+        "active": 10,
+        "burger-menu": 10,
+        "main-nav": 10,
+        "hero": 1,
+        "hero-content": 1,
+        "scroll-down": 1,
+        "section-circle": 3,
+        "circle-img": 3,
+        "circle-title": 3,
+        "circle-description": 3,
+        "footer-author": 10,
+        "footer-contact": 10,
+        "footer-legal": 10,
+        "page-hero": 9,
+        "subtitle": 1,
+        "bio-intro": 1,
+        "bio-portrait": 1,
+        "bio-info": 1,
+        "bio-dates": 1,
+        "bio-profession": 1,
+        "bio-description": 1,
+        "content-section": 5,
+        "bio-cta": 1,
+        "btn-cta": 1,
+        "subtitle-box": 3,
+        "timeline": 1,
+        "timeline-item": 5,
+        "timeline-connector": 5,
+        "timeline-portrait": 5,
+        "timeline-info": 5,
+        "right": 2,
+        "highlight": 2,
+        "last": 1,
+        "frise-cta": 1,
+        "btn-back": 1,
+        "hero-image": 3,
+        "book-section": 1,
+        "book-cover": 1,
+        "book-content": 1,
+        "lit-cta": 1,
+        "btn-cinema": 1,
+        "film-section": 2,
+        "film-poster": 2,
+        "film-content": 2,
+        "film-credit": 2,
+        "video-container": 2,
+        "cinema-cta": 1,
+        "btn-galerie": 1,
+        "gallery-intro": 1,
+        "film-card": 5,
+        "film-type": 5,
+        "film-description": 5,
+        "film-link": 5,
+        "footer-copyright": 4,
+        "contact-section": 1,
+        "contact-form": 1,
+        "form-group": 4,
+        "submit-btn": 1,
+        "about-content": 1,
+        "about-section": 6,
+        "projects-list": 1,
+        "project-item": 9,
+        "project-spacer": 1,
+        "glossary-content": 1,
+        "glossary-item": 6
+      },
+      "averageClassesPerNode": 1.02,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 2,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "logo",
+        "hero",
+        "hero-subtitle"
+      ],
+      "totalSelectors": 19,
+      "selectorsWithMultipleClasses": 0,
+      "specificity": {
+        "average": 2.42,
+        "max": 11
+      },
+      "complexSelectorsRatio": 0,
+      "selectorForms": {
+        "bemSelectors": 3,
+        "pureBemSelectors": 2,
+        "pureBemSelectorsRatio": 0.105,
+        "selectorsWithAncestor": 1,
+        "selectorsWithId": 0,
+        "selectorsWithType": 16,
+        "selectorsWithAttribute": 0,
+        "ancestorsRatio": 0.053,
+        "withIdRatio": 0,
+        "withTypeRatio": 0.842
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "hero-subtitle"
+      ],
+      "undefinedHtmlClasses": [
+        "header-right",
+        "lang-switch",
+        "active",
+        "burger-menu",
+        "main-nav",
+        "hero-content",
+        "scroll-down",
+        "section-circle",
+        "circle-img",
+        "circle-title",
+        "circle-description",
+        "footer-author",
+        "footer-contact",
+        "footer-legal",
+        "page-hero",
+        "subtitle",
+        "bio-intro",
+        "bio-portrait",
+        "bio-info",
+        "bio-dates",
+        "bio-profession",
+        "bio-description",
+        "content-section",
+        "bio-cta",
+        "btn-cta",
+        "subtitle-box",
+        "timeline",
+        "timeline-item",
+        "timeline-connector",
+        "timeline-portrait",
+        "timeline-info",
+        "right",
+        "highlight",
+        "last",
+        "frise-cta",
+        "btn-back",
+        "hero-image",
+        "book-section",
+        "book-cover",
+        "book-content",
+        "lit-cta",
+        "btn-cinema",
+        "film-section",
+        "film-poster",
+        "film-content",
+        "film-credit",
+        "video-container",
+        "cinema-cta",
+        "btn-galerie",
+        "gallery-intro",
+        "film-card",
+        "film-type",
+        "film-description",
+        "film-link",
+        "footer-copyright",
+        "contact-section",
+        "contact-form",
+        "form-group",
+        "submit-btn",
+        "about-content",
+        "about-section",
+        "projects-list",
+        "project-item",
+        "project-spacer",
+        "glossary-content",
+        "glossary-item"
+      ],
+      "coverageHtml": 0.029,
+      "coverageCss": 0.667,
+      "cssEfficiency": 0.667
+    },
+    "bem": {
+      "blocks": {
+        "logo": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "header-right": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "lang-switch": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "active": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "burger-menu": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "main-nav": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "scroll-down": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "section-circle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "circle-img": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "circle-title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "circle-description": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-author": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-contact": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-legal": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "page-hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-intro": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-portrait": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-dates": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-profession": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-description": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "content-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "bio-cta": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-cta": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "subtitle-box": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline-connector": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline-portrait": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "right": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "highlight": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "last": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "frise-cta": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-back": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-image": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "book-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "book-cover": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "book-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "lit-cta": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-cinema": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-poster": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-credit": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "video-container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "cinema-cta": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn-galerie": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "gallery-intro": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-type": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-description": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "film-link": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer-copyright": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-form": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "form-group": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "submit-btn": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "about-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "about-section": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "projects-list": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "project-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "project-spacer": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "glossary-content": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "glossary-item": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero-subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 69,
+        "elements": 0,
+        "modifiers": 0,
+        "elementModifiers": 0,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0
+      },
+      "depth": {
+        "max": 1,
+        "average": 1
+      },
+      "blockStructure": {
+        "totalBlocks": 69,
+        "structuredBlocks": 0,
+        "orphanBlocks": 69,
+        "implicitBlocks": []
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "header": 1,
+        "lang": 1,
+        "burger": 1,
+        "main": 1,
+        "hero": 2,
+        "scroll": 1,
+        "section": 1,
+        "circle": 3,
+        "footer": 4,
+        "page": 1,
+        "bio": 7,
+        "content": 1,
+        "btn": 4,
+        "subtitle": 1,
+        "timeline": 4,
+        "frise": 1,
+        "book": 3,
+        "lit": 1,
+        "film": 8,
+        "video": 1,
+        "cinema": 1,
+        "gallery": 1,
+        "contact": 2,
+        "form": 1,
+        "submit": 1,
+        "about": 2,
+        "projects": 1,
+        "project": 2,
+        "glossary": 2
+      },
+      "entropy": 5.552,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2026-01-07T19:52:36.106Z"
+    },
+    "score": {
+      "bem": {
+        "total": 15,
+        "breakdown": {
+          "coverage": {
+            "score": 4,
+            "max": 15,
+            "details": "Couverture moyenne: 35%"
+          },
+          "selectorForms": {
+            "score": 6,
+            "max": 30,
+            "details": "Pure BEM: 11%"
+          },
+          "structure": {
+            "score": 3,
+            "max": 25,
+            "details": "Blocs structurés: 0%"
+          },
+          "elementsRatio": {
+            "score": 0,
+            "max": 20,
+            "details": "Éléments/bloc: 0"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 84,
+    "breakdown": {
+      "errorPenalty": 16,
+      "warningPenalty": 0
+    },
+    "grade": "B",
+    "improvements": [
+      "Corriger les 16 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 16,
+      "totalWarnings": 0,
+      "averageErrors": 1.6,
+      "pagesAnalyzed": 10
+    }
+  }
+}

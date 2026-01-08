@@ -1,0 +1,6960 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5501/fr/",
+      "title": "Acceuil FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/fr/header-acceuil.avif",
+          "alt": "hero acceuil",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 29063,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/fr/acceuil-1.avif",
+          "alt": "Bouton vers article 1",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 11992,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/fr/acceuil-2.avif",
+          "alt": "Bouton vers article 2",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9087,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/fr/acceuil-3.avif",
+          "alt": "Bouton vers article 3",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 14955,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/fr/acceuil-4.avif",
+          "alt": "Bouton vers article 4",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 11734,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/fr/acceuil-5.avif",
+          "alt": "Bouton vers article 5",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 13974,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets//img/images/fr/frise-chronologique.avif",
+          "alt": "frise-chronologique",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 48911,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/btn-contact.svg",
+          "alt": "bouton vers contact",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5988,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 12,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 12,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 12,
+        "imagesWithAlt": 11,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 10,
+        "imagesWithPoorAlt": 1,
+        "decorativeImages": 1,
+        "contentImages": 11,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 19959,
+        "top5AverageWeight": 23779,
+        "formats": {
+          "avif": 7,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 5,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.08,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/fr/header-acceuil.avif",
+            "alt": "hero acceuil",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 29063,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/fr/acceuil-1.avif",
+            "alt": "Bouton vers article 1",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 11992,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/fr/acceuil-2.avif",
+            "alt": "Bouton vers article 2",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9087,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/fr/acceuil-3.avif",
+            "alt": "Bouton vers article 3",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 14955,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/fr/acceuil-4.avif",
+            "alt": "Bouton vers article 4",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 11734,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/fr/acceuil-5.avif",
+            "alt": "Bouton vers article 5",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 13974,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets//img/images/fr/frise-chronologique.avif",
+            "alt": "frise-chronologique",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 48911,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/btn-contact.svg",
+            "alt": "bouton vers contact",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5988,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 81,
+          "breakdown": {
+            "accessibility": {
+              "score": 31,
+              "max": 35,
+              "details": "11/12 images avec alt (92%), 10 alt de qualité, 1 décoratives (8%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/12 (0%), Top 5 poids moyen: 23KB, Moyenne: 19KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (7 avif, 5 svg), Ratio décoratif: 8%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 74,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Frise chronologique",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Frise chronologique",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807285759.html",
+          "lastLine": 95,
+          "lastColumn": 73,
+          "firstColumn": 13,
+          "message": "The “aria-labelledby” attribute must point to an element in the same document.",
+          "extract": "          <section class=\"carousel\" aria-labelledby=\"carousel-heading\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 61
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.96,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/",
+            "resourceSize": 7540,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/header-acceuil.avif",
+            "resourceSize": 29063,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/acceuil-1.avif",
+            "resourceSize": 11992,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/acceuil-2.avif",
+            "resourceSize": 9087,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/acceuil-3.avif",
+            "resourceSize": 14955,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/acceuil-4.avif",
+            "resourceSize": 11734,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/acceuil-5.avif",
+            "resourceSize": 13974,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets//img/images/fr/frise-chronologique.avif",
+            "resourceSize": 48911,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/btn-contact.svg",
+            "resourceSize": 5988,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/contactFR.html",
+      "title": "Contact FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/header-contact.avif",
+          "alt": "hero contact",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 18992,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 6,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 6,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 6,
+        "imagesWithAlt": 5,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 4,
+        "imagesWithPoorAlt": 1,
+        "decorativeImages": 1,
+        "contentImages": 5,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 18992,
+        "top5AverageWeight": 18992,
+        "formats": {
+          "avif": 1,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 5,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.17,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/header-contact.avif",
+            "alt": "hero contact",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 18992,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 85,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "5/6 images avec alt (83%), 4 alt de qualité, 1 décoratives (17%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/6 (0%), Top 5 poids moyen: 19KB, Moyenne: 19KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (1 avif, 5 svg), Ratio décoratif: 17%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 92,
+      "externalLinks": 2,
+      "internalLinks": 10,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 3,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Qui nous sommes",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "à propos",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Besoin de vocabulaire ?",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "glossaire",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Curieux(/se) ?",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "autres projets",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807293283.html",
+          "lastLine": 134,
+          "lastColumn": 51,
+          "firstColumn": 21,
+          "message": "Element “p” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+          "extract": "          <p class=\"article__txt__title\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 31
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807293283.html",
+          "lastLine": 172,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.92,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/contactFR.html",
+            "resourceSize": 11987,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/header-contact.avif",
+            "resourceSize": 18992,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/btn-acceuil.svg",
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/article1FR.html",
+      "title": "Article 1 FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/fr/header-1-FR.avif",
+          "alt": "header article 1",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 26881,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/exemple.avif",
+          "alt": "exemple",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 3805,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/memento-exposition.avif",
+          "alt": "exemple",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 7219,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 9,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 9,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 9,
+        "imagesWithAlt": 8,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 5,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 1,
+        "contentImages": 8,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 12635,
+        "top5AverageWeight": 12635,
+        "formats": {
+          "avif": 3,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 6,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.11,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/fr/header-1-FR.avif",
+            "alt": "header article 1",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 26881,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/exemple.avif",
+            "alt": "exemple",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 3805,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/memento-exposition.avif",
+            "alt": "exemple",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 7219,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 31,
+              "max": 35,
+              "details": "8/9 images avec alt (89%), 5 alt de qualité, 1 décoratives (11%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/9 (0%), Top 5 poids moyen: 12KB, Moyenne: 12KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (3 avif, 6 svg), Ratio décoratif: 11%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 77,
+      "externalLinks": 5,
+      "internalLinks": 11,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "228 mots",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "liste de film corrélée",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807300974.html",
+          "lastLine": 68,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807300974.html",
+          "lastLine": 126,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/article1FR.html",
+            "resourceSize": 9434,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/header-1-FR.avif",
+            "resourceSize": 26881,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/btn-acceuil.svg",
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/exemple.avif",
+            "resourceSize": 3805,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/memento-exposition.avif",
+            "resourceSize": 7219,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/article2FR.html",
+      "title": "Article 2 FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/fr/header-2-FR.avif",
+          "alt": "header article 2",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 26468,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/matilda.avif",
+          "alt": "Matilda",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 8334,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/groupe-scientifique.avif",
+          "alt": "exemple",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 8881,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 9,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 9,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 9,
+        "imagesWithAlt": 8,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 5,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 1,
+        "contentImages": 8,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 14561,
+        "top5AverageWeight": 14561,
+        "formats": {
+          "avif": 3,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 6,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.11,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/fr/header-2-FR.avif",
+            "alt": "header article 2",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 26468,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/matilda.avif",
+            "alt": "Matilda",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 8334,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/groupe-scientifique.avif",
+            "alt": "exemple",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 8881,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 83,
+          "breakdown": {
+            "accessibility": {
+              "score": 31,
+              "max": 35,
+              "details": "8/9 images avec alt (89%), 5 alt de qualité, 1 décoratives (11%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/9 (0%), Top 5 poids moyen: 14KB, Moyenne: 14KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (3 avif, 6 svg), Ratio décoratif: 11%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 78,
+      "externalLinks": 5,
+      "internalLinks": 11,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "252 mots",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "liste de film corrélée",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807308578.html",
+          "lastLine": 68,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807308578.html",
+          "lastLine": 118,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/article2FR.html",
+            "resourceSize": 9438,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/header-2-FR.avif",
+            "resourceSize": 26468,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/btn-acceuil.svg",
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/matilda.avif",
+            "resourceSize": 8334,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/groupe-scientifique.avif",
+            "resourceSize": 8881,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/article3FR.html",
+      "title": "Article 3 FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/fr/header-3-FR.avif",
+          "alt": "header article 3",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 27113,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/livre.avif",
+          "alt": "Couverture du livre La formule préférée du professeur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 8960,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/autrice.avif",
+          "alt": "Yoko Ogawa",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 3170,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 9,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 9,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 9,
+        "imagesWithAlt": 8,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 7,
+        "imagesWithPoorAlt": 1,
+        "decorativeImages": 1,
+        "contentImages": 8,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 13081,
+        "top5AverageWeight": 13081,
+        "formats": {
+          "avif": 3,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 6,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.11,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/fr/header-3-FR.avif",
+            "alt": "header article 3",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 27113,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/livre.avif",
+            "alt": "Couverture du livre La formule préférée du professeur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 8960,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/autrice.avif",
+            "alt": "Yoko Ogawa",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 3170,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 85,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "8/9 images avec alt (89%), 7 alt de qualité, 1 décoratives (11%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/9 (0%), Top 5 poids moyen: 13KB, Moyenne: 13KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (3 avif, 6 svg), Ratio décoratif: 11%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 76,
+      "externalLinks": 5,
+      "internalLinks": 11,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "Le livre liant mathématique et mémoire-201 mots",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "liste de film corrélée",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807316054.html",
+          "lastLine": 68,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807316054.html",
+          "lastLine": 120,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/article3FR.html",
+            "resourceSize": 9453,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/header-3-FR.avif",
+            "resourceSize": 27113,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/btn-acceuil.svg",
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/livre.avif",
+            "resourceSize": 8960,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/autrice.avif",
+            "resourceSize": 3170,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/article4FR.html",
+      "title": "Article 4 FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/fr/header-4-FR.avif",
+          "alt": "header article 4",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 22941,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 7,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 7,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 7,
+        "imagesWithAlt": 6,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 5,
+        "imagesWithPoorAlt": 1,
+        "decorativeImages": 1,
+        "contentImages": 6,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 22941,
+        "top5AverageWeight": 22941,
+        "formats": {
+          "avif": 1,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 6,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.14,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/fr/header-4-FR.avif",
+            "alt": "header article 4",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 22941,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 85,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "6/7 images avec alt (86%), 5 alt de qualité, 1 décoratives (14%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/7 (0%), Top 5 poids moyen: 22KB, Moyenne: 22KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (1 avif, 6 svg), Ratio décoratif: 14%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 75,
+      "externalLinks": 5,
+      "internalLinks": 11,
+      "deadLinks": 0,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "le film monté à l'envers - 109 mots",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "liste de film corrélée",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807323646.html",
+          "lastLine": 68,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807323646.html",
+          "lastLine": 115,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "bestPractices": 0.96,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/article4FR.html",
+            "resourceSize": 8450,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/header-4-FR.avif",
+            "resourceSize": 22941,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/btn-acceuil.svg",
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/video/MEMENTO-BA.mp4",
+            "resourceSize": 166,
+            "mimeType": "text/html",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5501/fr/article5FR.html",
+      "title": "Article 5 FR",
+      "images": [
+        {
+          "src": "../assets/img/icons/memary.svg",
+          "alt": "logo Mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/fr/FRbleu.svg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2076,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/fr/header-5-FR.avif",
+          "alt": "header article 5",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 28081,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/images/scientifique.avif",
+          "alt": "femme scientifique",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2967,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/images/bigbang-theorie.avif",
+          "alt": "Figures de l'ombre",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 7089,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "/assets/img/icons/fr/btn-acceuil.svg",
+          "alt": "button to home",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 5960,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/memary.svg",
+          "alt": "logo mémary",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2282,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        },
+        {
+          "src": "/assets/img/icons/mmi-blanc.svg",
+          "alt": "logo mmi",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 9238,
+          "mimeType": "image/svg+xml",
+          "format": "svg"
+        }
+      ],
+      "imageStats": {
+        "total": 9,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 9,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 9,
+        "imagesWithAlt": 8,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 7,
+        "imagesWithPoorAlt": 1,
+        "decorativeImages": 1,
+        "contentImages": 8,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 12712,
+        "top5AverageWeight": 12712,
+        "formats": {
+          "avif": 3,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 6,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.11,
+        "images": [
+          {
+            "src": "../assets/img/icons/memary.svg",
+            "alt": "logo Mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/fr/FRbleu.svg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/fr/header-5-FR.avif",
+            "alt": "header article 5",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 28081,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/images/scientifique.avif",
+            "alt": "femme scientifique",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2967,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/images/bigbang-theorie.avif",
+            "alt": "Figures de l'ombre",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 7089,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "/assets/img/icons/fr/btn-acceuil.svg",
+            "alt": "button to home",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/memary.svg",
+            "alt": "logo mémary",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          },
+          {
+            "src": "/assets/img/icons/mmi-blanc.svg",
+            "alt": "logo mmi",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "format": "svg"
+          }
+        ],
+        "score": {
+          "total": 85,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "8/9 images avec alt (89%), 7 alt de qualité, 1 décoratives (11%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/9 (0%), Top 5 poids moyen: 12KB, Moyenne: 12KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (3 avif, 6 svg), Ratio décoratif: 11%"
+            }
+          },
+          "grade": "B",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold"
+          ]
+        }
+      },
+      "totalTags": 78,
+      "externalLinks": 5,
+      "internalLinks": 11,
+      "deadLinks": 2,
+      "favicon": true,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 1,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 3,
+          "text": "152 mots",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "liste de film corrélée",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807331374.html",
+          "lastLine": 68,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767807331374.html",
+          "lastLine": 121,
+          "lastColumn": 41,
+          "firstColumn": 17,
+          "message": "The element “a” with the attribute “href” must not appear as a descendant of the “button” element.",
+          "extract": "          <a href=\"/fr/index.html\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 25
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5501/fr/article5FR.html",
+            "resourceSize": 8995,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/styles.css",
+            "resourceSize": 653,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/js/script.js",
+            "resourceSize": 421,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/memary.svg",
+            "resourceSize": 2282,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/FRbleu.svg",
+            "resourceSize": 2076,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/fr/header-5-FR.avif",
+            "resourceSize": 28081,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/fr/btn-acceuil.svg",
+            "resourceSize": 5960,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/scientifique.avif",
+            "resourceSize": 2967,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/images/bigbang-theorie.avif",
+            "resourceSize": 7089,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/mmi-blanc.svg",
+            "resourceSize": 9238,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/utils/variables.css",
+            "resourceSize": 676,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/base/normalize.css",
+            "resourceSize": 768,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/header.css",
+            "resourceSize": 152,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/footer.css",
+            "resourceSize": 505,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/hero.css",
+            "resourceSize": 391,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/layout/article.css",
+            "resourceSize": 979,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/annexe.css",
+            "resourceSize": 2211,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/bouton.css",
+            "resourceSize": 436,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/carousel.css",
+            "resourceSize": 1263,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/liste.css",
+            "resourceSize": 456,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5501/src/css/components/menu.css",
+            "resourceSize": 1933,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "resourceSize": 12242,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMYebvpCfOMPT.woff2",
+            "resourceSize": 10752,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v50/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "resourceSize": 34668,
+            "mimeType": "font/woff2",
+            "resourceType": "Font"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/site.webmanifest",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Manifest"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.ico",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/favicon/favicon.svg",
+            "resourceSize": 169,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          },
+          {
+            "url": "http://127.0.0.1:5501/assets/img/icons/favicon/favicon-96x96.png",
+            "resourceSize": 3490,
+            "mimeType": "image/png",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script",
+      "video"
+    ],
+    "tagsMissing": [
+      "article",
+      "blockquote",
+      "figure",
+      "figcaption",
+      "form",
+      "em",
+      "strong"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 51,
+      "span": 14
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 7,
+    "pagesWithImages": 7,
+    "globalStats": {
+      "totalImages": 61,
+      "imagesWithAlt": 54,
+      "imagesWithoutAlt": 7,
+      "imagesWithGoodAlt": 43,
+      "imagesWithPoorAlt": 11,
+      "decorativeImages": 7,
+      "contentImages": 54,
+      "imagesWithLazyLoading": 0,
+      "averageWeight": 16220,
+      "top5AverageWeight": 32010,
+      "decorativeRatio": 0.11
+    },
+    "formats": {
+      "avif": 21,
+      "webp": 0,
+      "jpg": 0,
+      "png": 0,
+      "svg": 40,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 83,
+      "breakdown": {
+        "accessibility": {
+          "score": 31,
+          "max": 35,
+          "details": "54/61 images avec alt (89%), 43 alt de qualité, 7 décoratives (11%)"
+        },
+        "performance": {
+          "score": 22,
+          "max": 35,
+          "details": "Lazy loading: 0/61 (0%), Top 5 poids moyen: 31KB, Moyenne: 16KB"
+        },
+        "bestPractices": {
+          "score": 30,
+          "max": 30,
+          "details": "Formats modernes: 100% (21 avif, 40 svg), Ratio décoratif: 11%"
+        }
+      },
+      "grade": "B",
+      "improvements": [
+        "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+        "Implémenter le lazy loading pour les images below the fold"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5501/fr/",
+        "score": 81,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5501/fr/contactFR.html",
+        "score": 85,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5501/fr/article1FR.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5501/fr/article2FR.html",
+        "score": 83,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5501/fr/article3FR.html",
+        "score": 85,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5501/fr/article4FR.html",
+        "score": 85,
+        "grade": "B"
+      },
+      {
+        "page": "http://127.0.0.1:5501/fr/article5FR.html",
+        "score": 85,
+        "grade": "B"
+      }
+    ],
+    "scoreStats": {
+      "average": 84,
+      "min": 81,
+      "max": 85,
+      "median": 85
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 375,
+      "linesOfCode": 574,
+      "size": 10025,
+      "complexity": 1022,
+      "comments": {
+        "total": 33,
+        "size": 879
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 2,
+      "totalUnique": 2,
+      "unique": {
+        "import": 1,
+        "media": 1
+      },
+      "uniquenessRatio": 1,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap')": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "media": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "(max-width: 393px)": 1
+        },
+        "uniquenessRatio": 1,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "max-width": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 2
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0
+        ],
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "0": 2
+        },
+        "uniquenessRatio": 0.5
+      }
+    },
+    "rules": {
+      "total": 77,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 16,
+        "mean": 4.8441558441558445,
+        "mode": 3,
+        "range": 14,
+        "sum": 373,
+        "items": [
+          16,
+          4,
+          2,
+          5,
+          3,
+          5,
+          4,
+          2,
+          4,
+          5,
+          3,
+          12,
+          7,
+          2,
+          4,
+          5,
+          4,
+          5,
+          6,
+          3,
+          4,
+          3,
+          4,
+          2,
+          3,
+          7,
+          7,
+          7,
+          4,
+          5,
+          5,
+          14,
+          2,
+          2,
+          3,
+          4,
+          8,
+          3,
+          3,
+          5,
+          2,
+          9,
+          2,
+          3,
+          6,
+          2,
+          7,
+          7,
+          5,
+          6,
+          6,
+          9,
+          2,
+          7,
+          3,
+          2,
+          8,
+          2,
+          3,
+          6,
+          3,
+          4,
+          5,
+          4,
+          3,
+          3,
+          12,
+          5,
+          5,
+          3,
+          3,
+          14,
+          3,
+          2,
+          5,
+          4,
+          2
+        ],
+        "total": 77,
+        "totalUnique": 11,
+        "unique": {
+          "2": 14,
+          "3": 17,
+          "4": 12,
+          "5": 13,
+          "6": 5,
+          "7": 7,
+          "8": 2,
+          "9": 2,
+          "12": 2,
+          "14": 2,
+          "16": 1
+        },
+        "uniquenessRatio": 0.14285714285714285
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.012987012987012988,
+        "mode": 0,
+        "range": 1,
+        "sum": 1,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "total": 77,
+        "totalUnique": 2,
+        "unique": {
+          "0": 76,
+          "1": 1
+        },
+        "uniquenessRatio": 0.025974025974025976
+      },
+      "selectors": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.025974025974026,
+        "mode": 1,
+        "range": 1,
+        "sum": 79,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 77,
+        "totalUnique": 2,
+        "unique": {
+          "1": 75,
+          "2": 2
+        },
+        "uniquenessRatio": 0.025974025974025976
+      },
+      "declarations": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.8181818181818183,
+        "mode": 2,
+        "range": 14,
+        "sum": 294,
+        "items": [
+          15,
+          3,
+          1,
+          4,
+          2,
+          4,
+          3,
+          1,
+          3,
+          4,
+          2,
+          11,
+          6,
+          1,
+          3,
+          4,
+          3,
+          4,
+          5,
+          2,
+          3,
+          2,
+          3,
+          1,
+          2,
+          6,
+          6,
+          6,
+          3,
+          4,
+          4,
+          13,
+          1,
+          1,
+          2,
+          3,
+          6,
+          1,
+          2,
+          4,
+          1,
+          8,
+          1,
+          2,
+          5,
+          1,
+          6,
+          6,
+          4,
+          5,
+          5,
+          8,
+          1,
+          6,
+          2,
+          1,
+          7,
+          1,
+          2,
+          5,
+          2,
+          3,
+          4,
+          3,
+          2,
+          2,
+          11,
+          4,
+          4,
+          2,
+          2,
+          13,
+          2,
+          1,
+          4,
+          3,
+          1
+        ],
+        "total": 77,
+        "totalUnique": 11,
+        "unique": {
+          "1": 15,
+          "2": 16,
+          "3": 12,
+          "4": 13,
+          "5": 5,
+          "6": 8,
+          "7": 1,
+          "8": 2,
+          "11": 2,
+          "13": 2,
+          "15": 1
+        },
+        "uniquenessRatio": 0.14285714285714285
+      }
+    },
+    "selectors": {
+      "total": 79,
+      "totalUnique": 75,
+      "uniquenessRatio": 0.9493670886075949,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          0
+        ],
+        "sum": [
+          0,
+          85,
+          17
+        ],
+        "mean": [
+          0,
+          1.0759493670886076,
+          0.21518987341772153
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "items": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 79,
+        "totalUnique": 7,
+        "unique": {
+          "0,1,0": 56,
+          "0,0,0": 1,
+          "0,0,1": 1,
+          "0,1,1": 14,
+          "0,2,0": 4,
+          "0,1,2": 1,
+          "0,3,0": 2
+        },
+        "uniquenessRatio": 0.08860759493670886
+      },
+      "complexity": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.5569620253164558,
+        "mode": 1,
+        "range": 4,
+        "sum": 123,
+        "total": 79,
+        "totalUnique": 4,
+        "unique": {
+          "1": 58,
+          "2": 4,
+          "3": 14,
+          "5": 3
+        },
+        "uniquenessRatio": 0.05063291139240506,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          3,
+          5,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          5,
+          5,
+          1,
+          2,
+          3,
+          1,
+          1,
+          1
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.012658227848101266,
+        "mode": 0,
+        "range": 1,
+        "sum": 1,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "total": 79,
+        "totalUnique": 2,
+        "unique": {
+          "0": 78,
+          "1": 1
+        },
+        "uniquenessRatio": 0.02531645569620253
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "pseudoClasses": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "root": 1,
+          "hover": 1,
+          "not": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "accessibility": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          ".menu-btn[aria-expanded=\"true\"]": 1,
+          ".menu-btn[aria-expanded=\"true\"] .menu-btn__bar--top": 1,
+          ".menu-btn[aria-expanded=\"true\"] .menu-btn__bar--bottom": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.0379746835443038
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 16,
+        "totalUnique": 1,
+        "unique": {
+          " ": 16
+        },
+        "uniquenessRatio": 0.0625
+      }
+    },
+    "declarations": {
+      "total": 294,
+      "totalUnique": 165,
+      "uniquenessRatio": 0.5612244897959183,
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 294
+      },
+      "nesting": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.003401360544217687,
+        "mode": 0,
+        "range": 1,
+        "sum": 1,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "total": 294,
+        "totalUnique": 2,
+        "unique": {
+          "0": 293,
+          "1": 1
+        },
+        "uniquenessRatio": 0.006802721088435374
+      }
+    },
+    "properties": {
+      "total": 294,
+      "totalUnique": 70,
+      "unique": {
+        "--fond": 1,
+        "--noir": 1,
+        "--bleu-fonce": 1,
+        "--bleu": 1,
+        "--vert": 1,
+        "--blanc": 1,
+        "--vert-foncer": 1,
+        "--gris": 1,
+        "--size-12": 1,
+        "--size-16": 1,
+        "--size-24": 1,
+        "--bold": 1,
+        "--regular": 1,
+        "--staatliches-regular": 1,
+        "--roboto": 1,
+        "margin": 9,
+        "padding": 13,
+        "box-sizing": 2,
+        "background-color": 8,
+        "width": 20,
+        "height": 15,
+        "position": 10,
+        "z-index": 6,
+        "display": 20,
+        "flex-direction": 6,
+        "align-items": 7,
+        "gap": 9,
+        "align-self": 2,
+        "object-fit": 3,
+        "font-size": 15,
+        "color": 16,
+        "opacity": 1,
+        "text-align": 6,
+        "margin-top": 7,
+        "top": 4,
+        "left": 3,
+        "background-size": 1,
+        "background-position": 1,
+        "background-repeat": 1,
+        "overflow": 2,
+        "margin-bottom": 11,
+        "line-height": 2,
+        "margin-left": 15,
+        "font-family": 9,
+        "margin-right": 7,
+        "list-style-type": 1,
+        "font-weight": 2,
+        "border-radius": 3,
+        "cursor": 2,
+        "transition": 3,
+        "text-decoration": 2,
+        "border-color": 1,
+        "transform": 5,
+        "border": 4,
+        "min-height": 1,
+        "resize": 1,
+        "text-transform": 2,
+        "overflow-x": 1,
+        "justify-content": 4,
+        "right": 2,
+        "scroll-snap-type": 1,
+        "flex": 1,
+        "scroll-snap-align": 1,
+        "list-style": 2,
+        "background": 2,
+        "inset": 1,
+        "padding-top": 1,
+        "visibility": 2,
+        "pointer-events": 2,
+        "max-width": 1
+      },
+      "uniquenessRatio": 0.23809523809523808,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "custom": {
+        "total": 15,
+        "totalUnique": 15,
+        "unique": {
+          "--fond": 1,
+          "--noir": 1,
+          "--bleu-fonce": 1,
+          "--bleu": 1,
+          "--vert": 1,
+          "--blanc": 1,
+          "--vert-foncer": 1,
+          "--gris": 1,
+          "--size-12": 1,
+          "--size-16": 1,
+          "--size-24": 1,
+          "--bold": 1,
+          "--regular": 1,
+          "--staatliches-regular": 1,
+          "--roboto": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.05102040816326531,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0510204081632653,
+        "mode": 1,
+        "range": 1,
+        "sum": 309
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 13,
+        "totalUnique": 10,
+        "unique": {
+          "#eeeeee": 1,
+          "#000000": 1,
+          "#041024": 1,
+          "#0d1782": 1,
+          "#9dcba2": 1,
+          "#ffffff": 2,
+          "#007224": 1,
+          "#d1d1d1": 1,
+          "transparent": 3,
+          "rgba(51, 29, 44, 0.5)": 1
+        },
+        "uniquenessRatio": 0.7692307692307693,
+        "itemsPerContext": {
+          "--fond": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#eeeeee": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--noir": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#000000": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu-fonce": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#041024": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--bleu": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#0d1782": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--vert": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#9dcba2": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--blanc": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ffffff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--vert-foncer": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#007224": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gris": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#d1d1d1": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "color": {
+            "total": 2,
+            "totalUnique": 2,
+            "unique": {
+              "#ffffff": 1,
+              "rgba(51, 29, 44, 0.5)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "border": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 13,
+          "totalUnique": 3,
+          "unique": {
+            "hex6": 9,
+            "transparent": 3,
+            "rgba": 1
+          },
+          "uniquenessRatio": 0.23076923076923078
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 9,
+        "totalUnique": 2,
+        "unique": {
+          "var(--staatliches-regular)": 6,
+          "var(--roboto)": 3
+        },
+        "uniquenessRatio": 0.2222222222222222
+      },
+      "fontSizes": {
+        "total": 15,
+        "totalUnique": 8,
+        "unique": {
+          "var(--size-12)": 3,
+          "15px": 2,
+          "var(--size-16)": 2,
+          "30px": 1,
+          "20px": 1,
+          "var(--size-24)": 4,
+          "18px": 1,
+          "1.5em": 1
+        },
+        "uniquenessRatio": 0.5333333333333333
+      },
+      "lineHeights": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "25.5px": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "zindexes": {
+        "total": 6,
+        "totalUnique": 6,
+        "unique": {
+          "10": 1,
+          "20": 1,
+          "30": 1,
+          "40": 1,
+          "103": 1,
+          "-1": 1
+        },
+        "uniquenessRatio": 1
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 3,
+        "totalUnique": 3,
+        "unique": {
+          "35px": 1,
+          "8px": 1,
+          "6px": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 3,
+            "totalUnique": 3,
+            "unique": {
+              "35px": 1,
+              "8px": 1,
+              "6px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 4,
+          "totalUnique": 3,
+          "unique": {
+            "0.2s": 1,
+            "0.4s": 2,
+            "0.7s": 1
+          },
+          "uniquenessRatio": 0.75
+        },
+        "timingFunctions": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            "ease": 1,
+            "ease-in-out": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 101,
+        "totalUnique": 6,
+        "unique": {
+          "rem": 24,
+          "px": 69,
+          "PX": 1,
+          "s": 4,
+          "em": 1,
+          "deg": 2
+        },
+        "uniquenessRatio": 0.0594059405940594,
+        "itemsPerContext": {
+          "--size-12": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-16": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--size-24": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "width": {
+            "total": 8,
+            "totalUnique": 1,
+            "unique": {
+              "px": 8
+            },
+            "uniquenessRatio": 0.125
+          },
+          "height": {
+            "total": 5,
+            "totalUnique": 1,
+            "unique": {
+              "px": 5
+            },
+            "uniquenessRatio": 0.2
+          },
+          "padding": {
+            "total": 13,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 7,
+              "px": 6
+            },
+            "uniquenessRatio": 0.15384615384615385
+          },
+          "gap": {
+            "total": 9,
+            "totalUnique": 2,
+            "unique": {
+              "rem": 7,
+              "px": 2
+            },
+            "uniquenessRatio": 0.2222222222222222
+          },
+          "margin-top": {
+            "total": 5,
+            "totalUnique": 2,
+            "unique": {
+              "px": 2,
+              "rem": 3
+            },
+            "uniquenessRatio": 0.4
+          },
+          "margin-bottom": {
+            "total": 11,
+            "totalUnique": 2,
+            "unique": {
+              "px": 10,
+              "rem": 1
+            },
+            "uniquenessRatio": 0.18181818181818182
+          },
+          "font-size": {
+            "total": 6,
+            "totalUnique": 2,
+            "unique": {
+              "px": 5,
+              "em": 1
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "line-height": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "margin-left": {
+            "total": 15,
+            "totalUnique": 2,
+            "unique": {
+              "px": 14,
+              "PX": 1
+            },
+            "uniquenessRatio": 0.13333333333333333
+          },
+          "margin-right": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "border-radius": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "transition": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "s": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "transform": {
+            "total": 5,
+            "totalUnique": 2,
+            "unique": {
+              "px": 3,
+              "deg": 2
+            },
+            "uniquenessRatio": 0.4
+          },
+          "min-height": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "right": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rem": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 294
+      },
+      "keywords": {
+        "total": 28,
+        "totalUnique": 2,
+        "unique": {
+          "auto": 18,
+          "none": 10
+        },
+        "uniquenessRatio": 0.07142857142857142
+      },
+      "resets": {
+        "total": 4,
+        "totalUnique": 3,
+        "unique": {
+          "margin": 1,
+          "padding": 2,
+          "margin-bottom": 1
+        },
+        "uniquenessRatio": 0.75
+      }
+    },
+    "__meta__": {
+      "parseTime": 2,
+      "analyzeTime": 5,
+      "total": 7
+    },
+    "imports": {
+      "total": 12,
+      "imports": [
+        {
+          "path": "utils/variables.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/utils/variables.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "utils",
+          "fileSize": 676
+        },
+        {
+          "path": "base/normalize.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/base/normalize.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": true,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "base",
+          "fileSize": 768
+        },
+        {
+          "path": "layout/header.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/header.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 152
+        },
+        {
+          "path": "layout/footer.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/footer.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 505
+        },
+        {
+          "path": "layout/hero.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/hero.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 391
+        },
+        {
+          "path": "layout/article.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/layout/article.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "layout",
+          "fileSize": 979
+        },
+        {
+          "path": "components/annexe.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/annexe.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 2211
+        },
+        {
+          "path": "components/bouton.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/bouton.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 436
+        },
+        {
+          "path": "components/carousel.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/carousel.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 1263
+        },
+        {
+          "path": "components/liste.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/liste.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 456
+        },
+        {
+          "path": "components/menu.css",
+          "resolvedUrl": "http://127.0.0.1:5501/src/css/components/menu.css",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": false,
+          "type": "relative",
+          "category": "custom",
+          "fileSize": 1933
+        },
+        {
+          "path": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+          "resolvedUrl": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+          "mediaQuery": null,
+          "isValid": true,
+          "isNormalize": false,
+          "isGoogleFont": true,
+          "type": "google-fonts",
+          "category": "fonts",
+          "fileSize": 0
+        }
+      ],
+      "organization": {
+        "googleFontsCount": 1,
+        "externalCount": 0,
+        "relativeCount": 11,
+        "validCount": 12,
+        "invalidCount": 0,
+        "categories": {
+          "utils": 1,
+          "base": 1,
+          "layout": 4,
+          "custom": 5,
+          "fonts": 1
+        },
+        "namingIssues": {
+          "totalFiles": 11,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 95,
+        "breakdown": {
+          "validity": {
+            "score": 24.99,
+            "max": 24.99,
+            "details": "Tous les imports sont valides."
+          },
+          "organization": {
+            "score": 30,
+            "max": 30,
+            "details": "5 catégories utilisées. Bonne modularité."
+          },
+          "performance": {
+            "score": 15,
+            "max": 20,
+            "details": "12 imports. Bonne modularité, pourrait être améliorée. Tailles de fichiers optimales."
+          },
+          "naming": {
+            "score": 15,
+            "max": 15,
+            "details": "Conventions de nommage respectées."
+          },
+          "bestPractices": {
+            "score": 10,
+            "max": 10,
+            "details": "Bonnes pratiques: Utilise normalize.css."
+          }
+        },
+        "grade": "A",
+        "improvements": [
+          "Augmenter la modularité : créer un fichier CSS par composant (idéal : 15-25 imports)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 15,
+      "totalUsed": 10,
+      "totalUnused": 5,
+      "totalUndeclared": 3,
+      "declarations": [
+        {
+          "name": "--fond",
+          "value": "#eeeeee",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--noir",
+          "value": "#000000",
+          "usageCount": 7,
+          "category": "color"
+        },
+        {
+          "name": "--bleu-fonce",
+          "value": "#041024",
+          "usageCount": 3,
+          "category": "color"
+        },
+        {
+          "name": "--bleu",
+          "value": "#0d1782",
+          "usageCount": 6,
+          "category": "color"
+        },
+        {
+          "name": "--vert",
+          "value": "#9dcba2",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--blanc",
+          "value": "#ffffff",
+          "usageCount": 3,
+          "category": "color"
+        },
+        {
+          "name": "--vert-foncer",
+          "value": "#007224",
+          "usageCount": 2,
+          "category": "color"
+        },
+        {
+          "name": "--gris",
+          "value": "#d1d1d1",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--size-12",
+          "value": "0.75rem",
+          "usageCount": 3,
+          "category": "other"
+        },
+        {
+          "name": "--size-16",
+          "value": "1rem",
+          "usageCount": 2,
+          "category": "other"
+        },
+        {
+          "name": "--size-24",
+          "value": "1.5rem",
+          "usageCount": 4,
+          "category": "other"
+        },
+        {
+          "name": "--bold",
+          "value": "var(--static-weight-bold)",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--regular",
+          "value": "var(--weight-regular-italic)",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--staatliches-regular",
+          "value": "\"Staatliches\", sans-serif",
+          "usageCount": 6,
+          "category": "other"
+        },
+        {
+          "name": "--roboto",
+          "value": "\"Roboto\", sans-serif",
+          "usageCount": 3,
+          "category": "other"
+        }
+      ],
+      "unusedVariables": [
+        {
+          "name": "--fond",
+          "value": "#eeeeee",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--vert",
+          "value": "#9dcba2",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--gris",
+          "value": "#d1d1d1",
+          "usageCount": 0,
+          "category": "color"
+        },
+        {
+          "name": "--bold",
+          "value": "var(--static-weight-bold)",
+          "usageCount": 0,
+          "category": "other"
+        },
+        {
+          "name": "--regular",
+          "value": "var(--weight-regular-italic)",
+          "usageCount": 0,
+          "category": "other"
+        }
+      ],
+      "undeclaredUsages": [
+        {
+          "name": "--static-weight-bold",
+          "fallback": null
+        },
+        {
+          "name": "--weight-regular-italic",
+          "fallback": null
+        },
+        {
+          "name": "--black-blue",
+          "fallback": null
+        }
+      ],
+      "categorization": {
+        "color": 8,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 0,
+        "other": 7
+      },
+      "detailedCategorization": {
+        "color": [
+          {
+            "name": "--fond",
+            "value": "#eeeeee",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--noir",
+            "value": "#000000",
+            "usageCount": 7,
+            "category": "color"
+          },
+          {
+            "name": "--bleu-fonce",
+            "value": "#041024",
+            "usageCount": 3,
+            "category": "color"
+          },
+          {
+            "name": "--bleu",
+            "value": "#0d1782",
+            "usageCount": 6,
+            "category": "color"
+          },
+          {
+            "name": "--vert",
+            "value": "#9dcba2",
+            "usageCount": 0,
+            "category": "color"
+          },
+          {
+            "name": "--blanc",
+            "value": "#ffffff",
+            "usageCount": 3,
+            "category": "color"
+          },
+          {
+            "name": "--vert-foncer",
+            "value": "#007224",
+            "usageCount": 2,
+            "category": "color"
+          },
+          {
+            "name": "--gris",
+            "value": "#d1d1d1",
+            "usageCount": 0,
+            "category": "color"
+          }
+        ],
+        "typography": [],
+        "spacing": [],
+        "radius": [],
+        "other": [
+          {
+            "name": "--size-12",
+            "value": "0.75rem",
+            "usageCount": 3,
+            "category": "other"
+          },
+          {
+            "name": "--size-16",
+            "value": "1rem",
+            "usageCount": 2,
+            "category": "other"
+          },
+          {
+            "name": "--size-24",
+            "value": "1.5rem",
+            "usageCount": 4,
+            "category": "other"
+          },
+          {
+            "name": "--bold",
+            "value": "var(--static-weight-bold)",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--regular",
+            "value": "var(--weight-regular-italic)",
+            "usageCount": 0,
+            "category": "other"
+          },
+          {
+            "name": "--staatliches-regular",
+            "value": "\"Staatliches\", sans-serif",
+            "usageCount": 6,
+            "category": "other"
+          },
+          {
+            "name": "--roboto",
+            "value": "\"Roboto\", sans-serif",
+            "usageCount": 3,
+            "category": "other"
+          }
+        ]
+      },
+      "ratio": {
+        "variableUsages": 42,
+        "rawProperties": 253,
+        "variableRatio": 0.1423728813559322
+      },
+      "score": {
+        "total": 45,
+        "breakdown": {
+          "adoption": {
+            "score": 16,
+            "max": 40,
+            "details": "14% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 21,
+            "max": 25,
+            "details": "10/15 variables utilisées (67%)."
+          },
+          "hygiene": {
+            "score": 5,
+            "max": 20,
+            "details": "Problèmes: 3 usage(s) non déclaré(s), 5 variable(s) inutilisée(s)."
+          },
+          "categories": {
+            "score": 3,
+            "max": 10,
+            "details": "1/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Faible adoption, usages non déclarés présents."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Supprimer les variables inutilisées ou les mettre en usage",
+          "Déclarer toutes les variables utilisées (éviter var(--x) non déclarées)",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": true,
+        "count": 1,
+        "sources": {
+          "html": 0,
+          "css": 1
+        },
+        "details": [
+          {
+            "source": "css-import",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap",
+            "provider": "Google Fonts"
+          }
+        ]
+      },
+      "fontFamilies": {
+        "Staatliches": {
+          "declarationCount": 6,
+          "isGlobal": false,
+          "selectors": [
+            ".list__link",
+            ".article__txt__title",
+            ".contact-section__btn",
+            ".language",
+            ".title",
+            ".subtitle"
+          ],
+          "selectorCount": 6,
+          "sizes": [
+            {
+              "size": "1rem",
+              "selectors": [
+                ".article__txt__title",
+                ".subtitle"
+              ],
+              "lineHeights": [
+                "25.5px"
+              ],
+              "selectorCount": 2
+            },
+            {
+              "size": "1.5rem",
+              "selectors": [
+                ".contact-section__btn",
+                ".language",
+                ".title"
+              ],
+              "lineHeights": [],
+              "selectorCount": 3
+            }
+          ],
+          "sizeVariations": 2,
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        },
+        "Roboto": {
+          "declarationCount": 3,
+          "isGlobal": false,
+          "selectors": [
+            ".article__txt__title",
+            ".article__txt__item",
+            ".list__txt__item"
+          ],
+          "selectorCount": 3,
+          "sizes": [
+            {
+              "size": "0.75rem",
+              "selectors": [
+                ".article__txt__item",
+                ".list__txt__item"
+              ],
+              "lineHeights": [],
+              "selectorCount": 2
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 9,
+        "totalFontSizeDeclarations": 15,
+        "totalLineHeightDeclarations": 2,
+        "hasGlobalFontFamily": false,
+        "globalFamilies": 0,
+        "inheritanceQuality": 0,
+        "averageDeclarationsPerFamily": 4.5,
+        "familiesWithFallbacks": 2,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 1,
+        "fontSizeUnits": {
+          "units": {
+            "px": 4,
+            "rem": 6,
+            "em": 1,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 11,
+          "relativeUnits": 7,
+          "relativeRatio": 0.6363636363636364
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 0,
+            "percent": 0,
+            "px": 2,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 2,
+          "proportionalUnits": 0,
+          "proportionalRatio": 0
+        },
+        "fontFamilyDetails": {
+          "Staatliches": {
+            "count": 6,
+            "selectors": [
+              ".list__link",
+              ".article__txt__title",
+              ".contact-section__btn",
+              ".language",
+              ".title",
+              ".subtitle"
+            ],
+            "isGlobal": false
+          },
+          "Roboto": {
+            "count": 3,
+            "selectors": [
+              ".article__txt__title",
+              ".article__txt__item",
+              ".list__txt__item"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "0.75rem": {
+            "count": 3,
+            "selectors": [
+              ".footer__text",
+              ".article__txt__item",
+              ".list__txt__item"
+            ]
+          },
+          "15px": {
+            "count": 3,
+            "selectors": [
+              ".article__content",
+              ".contact-form__input",
+              ".contact-form__textarea"
+            ]
+          },
+          "1rem": {
+            "count": 2,
+            "selectors": [
+              ".article__txt__title",
+              ".subtitle"
+            ]
+          },
+          "30px": {
+            "count": 1,
+            "selectors": [
+              ".contact-section__title"
+            ]
+          },
+          "20px": {
+            "count": 1,
+            "selectors": [
+              ".contact-section__btn"
+            ]
+          },
+          "1.5rem": {
+            "count": 4,
+            "selectors": [
+              ".contact-section__btn",
+              ".language",
+              ".title",
+              ".menu__link"
+            ]
+          },
+          "18px": {
+            "count": 1,
+            "selectors": [
+              ".contact-form__label"
+            ]
+          },
+          "1.5em": {
+            "count": 1,
+            "selectors": [
+              ".btn__link"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "25.5px": {
+            "count": 2
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": true,
+        "excessiveFontFamilyDeclarations": true,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 52.7,
+        "breakdown": {
+          "webfonts": {
+            "score": 15,
+            "max": 15,
+            "details": "1 webfont(s) détectée(s). Import correct. Pas de doublons"
+          },
+          "fallbacks": {
+            "score": 20,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 0,
+            "max": 25,
+            "details": "Pas de police globale. Qualité d'héritage: 0%"
+          },
+          "sizes": {
+            "score": 16.363636363636363,
+            "max": 20,
+            "details": "Nombre de tailles optimal. 64% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 1.3333333333333333,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 0% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Trop de déclarations font-family."
+          }
+        },
+        "grade": "E",
+        "improvements": []
+      }
+    },
+    "colors": {
+      "totalColors": 13,
+      "uniqueColors": 10,
+      "colors": [
+        {
+          "color": "#eeeeee",
+          "count": 1
+        },
+        {
+          "color": "#000000",
+          "count": 1
+        },
+        {
+          "color": "#041024",
+          "count": 1
+        },
+        {
+          "color": "#0d1782",
+          "count": 1
+        },
+        {
+          "color": "#9dcba2",
+          "count": 1
+        },
+        {
+          "color": "#ffffff",
+          "count": 2
+        },
+        {
+          "color": "#007224",
+          "count": 1
+        },
+        {
+          "color": "#d1d1d1",
+          "count": 1
+        },
+        {
+          "color": "transparent",
+          "count": 3
+        },
+        {
+          "color": "rgba(51, 29, 44, 0.5)",
+          "count": 1
+        }
+      ],
+      "transparentColors": [
+        {
+          "color": "transparent",
+          "count": 3
+        },
+        {
+          "color": "rgba(51, 29, 44, 0.5)",
+          "count": 1
+        }
+      ],
+      "opaqueColors": [
+        {
+          "color": "#eeeeee",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ffffff"
+          ]
+        },
+        {
+          "color": "#000000",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#041024",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#0d1782",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#9dcba2",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#ffffff",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#eeeeee"
+          ]
+        },
+        {
+          "color": "#007224",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#d1d1d1",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        }
+      ],
+      "colorGroups": [
+        {
+          "hueRange": 120,
+          "hueName": "Jaune",
+          "colors": [
+            {
+              "color": "#9dcba2",
+              "count": 1,
+              "oklch": {
+                "l": 0.7983307198424711,
+                "c": 0.07511026539088345,
+                "h": 147.72779021184724,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#007224",
+              "count": 1,
+              "oklch": {
+                "l": 0.48066539754904625,
+                "c": 0.14482461825123835,
+                "h": 146.49990662663524,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 240,
+          "hueName": "Bleu",
+          "colors": [
+            {
+              "color": "#041024",
+              "count": 1,
+              "oklch": {
+                "l": 0.17456201499042925,
+                "c": 0.04572515962139085,
+                "h": 258.12961433274563,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#0d1782",
+              "count": 1,
+              "oklch": {
+                "l": 0.301143504785405,
+                "c": 0.1717303610810789,
+                "h": 267.19706499220314,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": -1,
+          "hueName": "Achromatique (Gris/Noir/Blanc)",
+          "colors": [
+            {
+              "color": "#eeeeee",
+              "count": 1,
+              "oklch": {
+                "l": 0.9491192605935381,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#000000",
+              "count": 1,
+              "oklch": {
+                "l": 0,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#ffffff",
+              "count": 2,
+              "oklch": {
+                "l": 1.0000000000000002,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#d1d1d1",
+              "count": 1,
+              "oklch": {
+                "l": 0.8606939027345074,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      ],
+      "similarColors": [
+        {
+          "color": "#eeeeee",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ffffff"
+          ]
+        },
+        {
+          "color": "#ffffff",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#eeeeee"
+          ]
+        }
+      ],
+      "hasSimilarColors": true,
+      "formats": {
+        "hex": 8,
+        "transparent": 1,
+        "rgb": 1
+      },
+      "score": {
+        "total": 87.78,
+        "breakdown": {
+          "palette": {
+            "score": 25,
+            "max": 25,
+            "details": "Palette de couleurs optimale. "
+          },
+          "consistency": {
+            "score": 20,
+            "max": 20,
+            "details": "Quelques couleurs similaires. "
+          },
+          "formats": {
+            "score": 14,
+            "max": 20,
+            "details": "3 formats de couleurs utilisés. "
+          },
+          "transparency": {
+            "score": 15,
+            "max": 15,
+            "details": "Utilisation appropriée de la transparence. "
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 10,
+            "details": "Bonne diversité de teintes. "
+          }
+        },
+        "grade": "B",
+        "improvements": [
+          "Uniformiser les formats de couleurs (privilégier oklch ou hsl)",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 373,
+      "nodesWithClasses": 344,
+      "uniqueClasses": [
+        "header",
+        "header__bar",
+        "header__link__img",
+        "header__link-logo",
+        "header__langage",
+        "header__menu__bar",
+        "header__menu-btn",
+        "menu-btn",
+        "menu-btn__bar",
+        "menu-btn__bar--top",
+        "menu-btn__bar--bottom",
+        "header__menu",
+        "menu",
+        "menu__main-list",
+        "menu__item",
+        "menu__link",
+        "hero",
+        "u-list__articles",
+        "list__item",
+        "list__link__article",
+        "carousel",
+        "subtitle",
+        "carousel__container",
+        "carousel__item",
+        "btn",
+        "btn__link",
+        "footer",
+        "footer__item",
+        "footer__link",
+        "footer__text",
+        "footer__img",
+        "contact-form",
+        "contact-form__group",
+        "contact-form__label",
+        "contact-form__input",
+        "contact-form__textarea",
+        "contact-section__btn",
+        "annexe",
+        "title",
+        "article__txt__item",
+        "article__txt__title",
+        "list__txt__item",
+        "article_link",
+        "btn__home",
+        "article__header",
+        "article__img",
+        "accordeon",
+        "list__link",
+        "article__img__rond",
+        "article__img__photo",
+        "article__txt__nom",
+        "article__video"
+      ],
+      "frequency": {
+        "header": 7,
+        "header__bar": 7,
+        "header__link__img": 7,
+        "header__link-logo": 7,
+        "header__langage": 7,
+        "header__menu__bar": 7,
+        "header__menu-btn": 7,
+        "menu-btn": 7,
+        "menu-btn__bar": 14,
+        "menu-btn__bar--top": 7,
+        "menu-btn__bar--bottom": 7,
+        "header__menu": 7,
+        "menu": 7,
+        "menu__main-list": 7,
+        "menu__item": 42,
+        "menu__link": 42,
+        "hero": 7,
+        "u-list__articles": 1,
+        "list__item": 5,
+        "list__link__article": 5,
+        "carousel": 1,
+        "subtitle": 5,
+        "carousel__container": 1,
+        "carousel__item": 1,
+        "btn": 1,
+        "btn__link": 1,
+        "footer": 7,
+        "footer__item": 7,
+        "footer__link": 7,
+        "footer__text": 7,
+        "footer__img": 7,
+        "contact-form": 1,
+        "contact-form__group": 3,
+        "contact-form__label": 3,
+        "contact-form__input": 2,
+        "contact-form__textarea": 1,
+        "contact-section__btn": 1,
+        "annexe": 3,
+        "title": 8,
+        "article__txt__item": 19,
+        "article__txt__title": 4,
+        "list__txt__item": 9,
+        "article_link": 22,
+        "btn__home": 11,
+        "article__header": 5,
+        "article__img": 5,
+        "accordeon": 5,
+        "list__link": 15,
+        "article__img__rond": 1,
+        "article__img__photo": 1,
+        "article__txt__nom": 1,
+        "article__video": 1
+      },
+      "averageClassesPerNode": 1.08,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 2,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "header__logo",
+        "footer",
+        "footer__item",
+        "footer__link",
+        "footer__text",
+        "footer__img",
+        "hero",
+        "article",
+        "article__content",
+        "article__img",
+        "list__link",
+        "article__img__rond",
+        "article__img__photo",
+        "article__txt__nom",
+        "article__txt__title",
+        "article__video",
+        "article__header",
+        "annexe",
+        "article__txt__item",
+        "list__txt__item",
+        "article_link",
+        "contact-section",
+        "contact-section__title",
+        "contact-section__btn",
+        "contact-form",
+        "contact-form__group",
+        "contact-form__label",
+        "contact-form__input",
+        "contact-form__textarea",
+        "language",
+        "btn",
+        "btn__home",
+        "btn__link",
+        "title",
+        "subtitle",
+        "carousel",
+        "carousel__wrapper",
+        "carousel__controls",
+        "carousel__button",
+        "carousel__button--prev",
+        "carousel__container",
+        "carousel__item",
+        "u-list__articles",
+        "list__item",
+        "list__link__article",
+        "header",
+        "header__bar",
+        "header__link__img",
+        "header__langage",
+        "header__link-logo",
+        "menu-btn",
+        "menu-btn__bar",
+        "menu-btn__bar--top",
+        "menu-btn__bar--bottom",
+        "menu",
+        "menu__main-list",
+        "menu__link",
+        "container"
+      ],
+      "totalSelectors": 79,
+      "selectorsWithMultipleClasses": 2,
+      "specificity": {
+        "average": 10.06,
+        "max": 20
+      },
+      "complexSelectorsRatio": 0.114,
+      "selectorForms": {
+        "bemSelectors": 64,
+        "pureBemSelectors": 50,
+        "pureBemSelectorsRatio": 0.633,
+        "selectorsWithAncestor": 15,
+        "selectorsWithId": 0,
+        "selectorsWithType": 14,
+        "selectorsWithAttribute": 5,
+        "ancestorsRatio": 0.19,
+        "withIdRatio": 0,
+        "withTypeRatio": 0.177
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [
+        "header__logo",
+        "article",
+        "article__content",
+        "contact-section",
+        "contact-section__title",
+        "language",
+        "carousel__wrapper",
+        "carousel__controls",
+        "carousel__button",
+        "carousel__button--prev",
+        "container"
+      ],
+      "undefinedHtmlClasses": [
+        "header__menu__bar",
+        "header__menu-btn",
+        "header__menu",
+        "menu__item",
+        "accordeon"
+      ],
+      "coverageHtml": 0.904,
+      "coverageCss": 0.81,
+      "cssEfficiency": 0.81
+    },
+    "bem": {
+      "blocks": {
+        "header": {
+          "elements": [
+            "header__bar",
+            "header__link-logo",
+            "header__langage",
+            "header__menu-btn",
+            "header__menu",
+            "header__logo"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu-btn": {
+          "elements": [
+            "menu-btn__bar"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "menu-btn__bar--top",
+            "menu-btn__bar--bottom"
+          ]
+        },
+        "menu": {
+          "elements": [
+            "menu__main-list",
+            "menu__item",
+            "menu__link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "u-list": {
+          "elements": [
+            "u-list__articles"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "list": {
+          "elements": [
+            "list__item",
+            "list__link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel": {
+          "elements": [
+            "carousel__container",
+            "carousel__item",
+            "carousel__wrapper",
+            "carousel__controls",
+            "carousel__button"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "carousel__button--prev"
+          ]
+        },
+        "subtitle": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "btn": {
+          "elements": [
+            "btn__link",
+            "btn__home"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "footer": {
+          "elements": [
+            "footer__item",
+            "footer__link",
+            "footer__text",
+            "footer__img"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-form": {
+          "elements": [
+            "contact-form__group",
+            "contact-form__label",
+            "contact-form__input",
+            "contact-form__textarea"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "contact-section": {
+          "elements": [
+            "contact-section__btn",
+            "contact-section__title"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "annexe": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "title": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "article": {
+          "elements": [
+            "article__header",
+            "article__img",
+            "article__video",
+            "article__content"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "accordeon": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "language": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "container": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 16,
+        "elements": 34,
+        "modifiers": 0,
+        "elementModifiers": 3,
+        "other": 10
+      },
+      "ratios": {
+        "bemClassesRatio": 0.841,
+        "structuredBlocksRatio": 0.611
+      },
+      "depth": {
+        "max": 3,
+        "average": 1.63
+      },
+      "blockStructure": {
+        "totalBlocks": 18,
+        "structuredBlocks": 11,
+        "orphanBlocks": 7,
+        "implicitBlocks": [
+          "u-list",
+          "list"
+        ]
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "menu": 4,
+        "u": 1,
+        "contact": 6
+      },
+      "entropy": 5.054,
+      "utilityClassesRatio": 0.019
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2026-01-07T17:35:32.173Z"
+    },
+    "score": {
+      "bem": {
+        "total": 73,
+        "breakdown": {
+          "coverage": {
+            "score": 12,
+            "max": 15,
+            "details": "Couverture moyenne: 86%"
+          },
+          "selectorForms": {
+            "score": 24,
+            "max": 30,
+            "details": "Pure BEM: 63%"
+          },
+          "structure": {
+            "score": 20,
+            "max": 25,
+            "details": "Blocs structurés: 61%"
+          },
+          "elementsRatio": {
+            "score": 15,
+            "max": 20,
+            "details": "Éléments/bloc: 1.89"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0.17"
+          }
+        },
+        "grade": "C",
+        "improvements": [
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 81,
+    "breakdown": {
+      "errorPenalty": 19,
+      "warningPenalty": 0
+    },
+    "grade": "B",
+    "improvements": [
+      "Corriger les 13 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 13,
+      "totalWarnings": 0,
+      "averageErrors": 1.86,
+      "pagesAnalyzed": 7
+    }
+  }
+}

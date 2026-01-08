@@ -1,0 +1,6168 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Lumière sur Elles - Accueil",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/henrietta-swan-leavitt.avif",
+          "alt": "Henrietta Swan Leavitt, astronome américaine",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 94794,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/card-Henrietta-Swan-Leavitt.avif",
+          "alt": "Portrait d'Henrietta Swan Leavitt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 9670,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/card-litterature.avif",
+          "alt": "Les femmes de science dans la littérature",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6017,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/card-theory.avif",
+          "alt": "Illustration de la théorie Période-Luminosité",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 5506,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/card-film.avif",
+          "alt": "Affiche du film Les Figures de l'ombre",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 12088,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/card-livre-femme-de-science.avif",
+          "alt": "Couverture du livre Les femmes et la science",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 4538,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 10,
+        "withLazyLoading": 7,
+        "withoutLazyLoading": 3,
+        "lazyLoadingRatio": 0.7,
+        "lazyLoadingPercentage": 70
+      },
+      "imagesAnalysis": {
+        "totalImages": 10,
+        "imagesWithAlt": 10,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 7,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 10,
+        "imagesWithLazyLoading": 7,
+        "averageWeight": 14915,
+        "top5AverageWeight": 26344,
+        "formats": {
+          "avif": 10,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/henrietta-swan-leavitt.avif",
+            "alt": "Henrietta Swan Leavitt, astronome américaine",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 94794,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/card-Henrietta-Swan-Leavitt.avif",
+            "alt": "Portrait d'Henrietta Swan Leavitt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 9670,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/card-litterature.avif",
+            "alt": "Les femmes de science dans la littérature",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6017,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/card-theory.avif",
+            "alt": "Illustration de la théorie Période-Luminosité",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 5506,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/card-film.avif",
+            "alt": "Affiche du film Les Figures de l'ombre",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 12088,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/card-livre-femme-de-science.avif",
+            "alt": "Couverture du livre Les femmes et la science",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 4538,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 94,
+          "breakdown": {
+            "accessibility": {
+              "score": 31,
+              "max": 35,
+              "details": "10/10 images avec alt (100%), 7 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 7/10 (70%), Top 5 poids moyen: 26KB, Moyenne: 15KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (10 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 106,
+      "externalLinks": 1,
+      "internalLinks": 19,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 5,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Lumière sur Elles",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "Lumière sur Elles",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Articles à découvrir",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Articles à découvrir",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Ma chercheuse, Henrietta Swan Leavitt",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Ma chercheuse, Henrietta Swan Leavitt",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Les femmes de science dans la littérature",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Les femmes de science dans la littérature",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "La théorie de la loi Période-Luminosité",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "La théorie de la loi Période-Luminosité",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le film \"Les Figures de l'ombre\"",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le film \"Les Figures de l'ombre\"",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le livre \"Les femmes et la science\"",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le livre \"Les femmes et la science\"",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 11631,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/henrietta-swan-leavitt.avif",
+            "resourceSize": 94794,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/card-Henrietta-Swan-Leavitt.avif",
+            "resourceSize": 9670,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/card-litterature.avif",
+            "resourceSize": 6017,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/card-theory.avif",
+            "resourceSize": 5506,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/card-film.avif",
+            "resourceSize": 12088,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/card-livre-femme-de-science.avif",
+            "resourceSize": 4538,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-henrietta-leavitt.html",
+      "title": "Henrietta Swan Leavitt - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/henrietta-swan-leavitt.avif",
+          "alt": "Portrait d'Henrietta Swan Leavitt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 94794,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/henrietta-swan-leavitt-2.avif",
+          "alt": "Henrietta Swan Leavitt au travail",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 14924,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 6,
+        "withLazyLoading": 4,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.6666666666666666,
+        "lazyLoadingPercentage": 67
+      },
+      "imagesAnalysis": {
+        "totalImages": 6,
+        "imagesWithAlt": 6,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 3,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 6,
+        "imagesWithLazyLoading": 4,
+        "averageWeight": 21042,
+        "top5AverageWeight": 25140,
+        "formats": {
+          "avif": 6,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/henrietta-swan-leavitt.avif",
+            "alt": "Portrait d'Henrietta Swan Leavitt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 94794,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/henrietta-swan-leavitt-2.avif",
+            "alt": "Henrietta Swan Leavitt au travail",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 14924,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 92,
+          "breakdown": {
+            "accessibility": {
+              "score": 29,
+              "max": 35,
+              "details": "6/6 images avec alt (100%), 3 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 4/6 (67%), Top 5 poids moyen: 25KB, Moyenne: 21KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (6 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 94,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Ma chercheuse Henrietta Swan Leavitt",
+          "tag": "article"
+        },
+        {
+          "level": 1,
+          "text": "Ma chercheuse Henrietta Swan Leavitt",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "La \"calculatrice\" de l'ombre",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "La \"calculatrice\" de l'ombre",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Une loi qui change tout",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Une loi qui change tout",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un héritage enlever par l'Effet Matilda",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Un héritage enlever par l'Effet Matilda",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lire aussi",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Lire aussi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-henrietta-leavitt.html",
+            "resourceSize": 11130,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/henrietta-swan-leavitt.avif",
+            "resourceSize": 94794,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/henrietta-swan-leavitt-2.avif",
+            "resourceSize": 14924,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-litterature.html",
+      "title": "Les femmes de science dans la littérature - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/card-litterature.avif",
+          "alt": "James Watson, Rosalind Franklin et Francis Crick",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6017,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/Les-Grandes-Oubliees.avif",
+          "alt": "Couverture du livre Les Grandes Oubliées",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 15234,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 6,
+        "withLazyLoading": 4,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.6666666666666666,
+        "lazyLoadingPercentage": 67
+      },
+      "imagesAnalysis": {
+        "totalImages": 6,
+        "imagesWithAlt": 6,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 3,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 6,
+        "imagesWithLazyLoading": 4,
+        "averageWeight": 6297,
+        "top5AverageWeight": 7447,
+        "formats": {
+          "avif": 6,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/card-litterature.avif",
+            "alt": "James Watson, Rosalind Franklin et Francis Crick",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6017,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/Les-Grandes-Oubliees.avif",
+            "alt": "Couverture du livre Les Grandes Oubliées",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 15234,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 92,
+          "breakdown": {
+            "accessibility": {
+              "score": 29,
+              "max": 35,
+              "details": "6/6 images avec alt (100%), 3 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 4/6 (67%), Top 5 poids moyen: 7KB, Moyenne: 6KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (6 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 99,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les femmes de science dans la littérature",
+          "tag": "article"
+        },
+        {
+          "level": 1,
+          "text": "Les femmes de science dans la littérature",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "L'assistante invisible : un stéréotype tenace",
+          "tag": "section"
+        },
+        {
+          "level": 1,
+          "text": "L'assistante invisible : un stéréotype tenace",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'assistante invisible : un stéréotype tenace",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "L'icône et l'exception",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'icône et l'exception",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le roman comme outil d'excuse",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Le roman comme outil d'excuse",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lire aussi",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Lire aussi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815217940.html",
+          "lastLine": 149,
+          "lastColumn": 18,
+          "firstColumn": 9,
+          "message": "End tag “article” seen, but there were open elements.",
+          "extract": ">\n        </article>\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 10
+        },
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815217940.html",
+          "lastLine": 79,
+          "lastColumn": 46,
+          "firstColumn": 13,
+          "message": "Unclosed element “section”.",
+          "extract": "          <section class=\"article__section\">\n\n    ",
+          "hiliteStart": 10,
+          "hiliteLength": 34
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-litterature.html",
+            "resourceSize": 11593,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/card-litterature.avif",
+            "resourceSize": 6017,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Les-Grandes-Oubliees.avif",
+            "resourceSize": 15234,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-theorie.html",
+      "title": "La théorie de la loi Période-Luminosité - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/cepheid.avif",
+          "alt": "Étoile Céphéide",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 10761,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 5,
+        "withLazyLoading": 3,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.6,
+        "lazyLoadingPercentage": 60
+      },
+      "imagesAnalysis": {
+        "totalImages": 5,
+        "imagesWithAlt": 5,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 5,
+        "imagesWithLazyLoading": 3,
+        "averageWeight": 5459,
+        "top5AverageWeight": 5459,
+        "formats": {
+          "avif": 5,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/cepheid.avif",
+            "alt": "Étoile Céphéide",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 10761,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 92,
+          "breakdown": {
+            "accessibility": {
+              "score": 29,
+              "max": 35,
+              "details": "5/5 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 3/5 (60%), Top 5 poids moyen: 5KB, Moyenne: 5KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (5 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 94,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "La théorie de la loi Période-Luminosité",
+          "tag": "article"
+        },
+        {
+          "level": 1,
+          "text": "La théorie de la loi Période-Luminosité",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Les Céphéides : Les phares de l'espace",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Les Céphéides : Les phares de l'espace",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "L'illumination : Plus c'est lent, plus c'est brillant",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "L'illumination : Plus c'est lent, plus c'est brillant",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "De la luminosité à la distance",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "De la luminosité à la distance",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lire aussi",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Lire aussi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-theorie.html",
+            "resourceSize": 10542,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/cepheid.avif",
+            "resourceSize": 10761,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-film.html",
+      "title": "Le film \"Les Figures de l'ombre\" - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/Figure-de-lombre.avif",
+          "alt": "Affiche du film Les Figures de l'ombre",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 22838,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 5,
+        "withLazyLoading": 3,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.6,
+        "lazyLoadingPercentage": 60
+      },
+      "imagesAnalysis": {
+        "totalImages": 5,
+        "imagesWithAlt": 5,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 5,
+        "imagesWithLazyLoading": 3,
+        "averageWeight": 7874,
+        "top5AverageWeight": 7874,
+        "formats": {
+          "avif": 5,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/Figure-de-lombre.avif",
+            "alt": "Affiche du film Les Figures de l'ombre",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 22838,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 92,
+          "breakdown": {
+            "accessibility": {
+              "score": 29,
+              "max": 35,
+              "details": "5/5 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 3/5 (60%), Top 5 poids moyen: 8KB, Moyenne: 8KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (5 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 95,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le film \"Les Figures de l'ombre\"",
+          "tag": "article"
+        },
+        {
+          "level": 1,
+          "text": "Le film \"Les Figures de l'ombre\"",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Trois femmes dans l'ombre de l'Histoire",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Trois femmes dans l'ombre de l'Histoire",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Un impact culturel majeur",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Un impact culturel majeur",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Bande-annonce du film",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Bande-annonce du film",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lire aussi",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Lire aussi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767815232906.html",
+          "lastLine": 112,
+          "firstLine": 110,
+          "lastColumn": 45,
+          "firstColumn": 25,
+          "message": "Bad value “https://video.carnicer.fr/Les%20Figures%20de%20lOmbre%20-%20Bande%20annonce%20internationale%20[Officielle]%20VOST%20HD.mp4” for attribute “src” on element “source”: Illegal character in path segment: “[” is not allowed.",
+          "extract": "          <source\n                            src=\"https://video.carnicer.fr/Les%20Figures%20de%20lOmbre%20-%20Bande%20annonce%20internationale%20[Officielle]%20VOST%20HD.mp4\"\n                            type=\"video/mp4\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 211
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-film.html",
+            "resourceSize": 10452,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "https://video.carnicer.fr/Les%20Figures%20de%20lOmbre%20-%20Bande%20annonce%20internationale%20[Officielle]%20VOST%20HD.mp4",
+            "resourceSize": 227010,
+            "mimeType": "video/mp4",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Figure-de-lombre.avif",
+            "resourceSize": 22838,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/article-livre.html",
+      "title": "Le livre \"Les femmes et la science\" - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/les-femmes-et-la-science.avif",
+          "alt": "Couverture du livre Les femmes et la science",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 7307,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 5,
+        "withLazyLoading": 3,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.6,
+        "lazyLoadingPercentage": 60
+      },
+      "imagesAnalysis": {
+        "totalImages": 5,
+        "imagesWithAlt": 5,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 5,
+        "imagesWithLazyLoading": 3,
+        "averageWeight": 4768,
+        "top5AverageWeight": 4768,
+        "formats": {
+          "avif": 5,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/les-femmes-et-la-science.avif",
+            "alt": "Couverture du livre Les femmes et la science",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 7307,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 92,
+          "breakdown": {
+            "accessibility": {
+              "score": 29,
+              "max": 35,
+              "details": "5/5 images avec alt (100%), 2 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 3/5 (60%), Top 5 poids moyen: 5KB, Moyenne: 5KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (5 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 90,
+      "externalLinks": 1,
+      "internalLinks": 18,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le livre \"Les femmes et la science\"",
+          "tag": "article"
+        },
+        {
+          "level": 1,
+          "text": "Le livre \"Les femmes et la science\"",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Plus qu'un oubli, une exclusion",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Plus qu'un oubli, une exclusion",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Extrait du livre",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Extrait du livre",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Lire aussi",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Lire aussi",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.95,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/article-livre.html",
+            "resourceSize": 9734,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/les-femmes-et-la-science.avif",
+            "resourceSize": 7307,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/frise.html",
+      "title": "Frise - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fleche-gauche.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 1090,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/ada-lovelace.avif",
+          "alt": "Portrait d'Ada Lovelace",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8583,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/henrietta-swan-leavitt.avif",
+          "alt": "Portrait d'Henrietta Swan Leavitt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 94794,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/lise-meitner.avif",
+          "alt": "Portrait de Lise Meitner",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 15328,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/rosalind-franklin.avif",
+          "alt": "Portrait de Rosalind Franklin",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 20496,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/marthe-gautier.avif",
+          "alt": "Portrait de Marthe Gautier",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 21395,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/candace-pert.avif",
+          "alt": "Portrait de Candace Pert",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 34075,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fleche-droite.avif",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 1086,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 12,
+        "withLazyLoading": 8,
+        "withoutLazyLoading": 4,
+        "lazyLoadingRatio": 0.6666666666666666,
+        "lazyLoadingPercentage": 67
+      },
+      "imagesAnalysis": {
+        "totalImages": 12,
+        "imagesWithAlt": 10,
+        "imagesWithoutAlt": 2,
+        "imagesWithGoodAlt": 7,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 2,
+        "contentImages": 10,
+        "imagesWithLazyLoading": 8,
+        "averageWeight": 17782,
+        "top5AverageWeight": 37218,
+        "formats": {
+          "avif": 12,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.17,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fleche-gauche.avif",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 1090,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/ada-lovelace.avif",
+            "alt": "Portrait d'Ada Lovelace",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8583,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/henrietta-swan-leavitt.avif",
+            "alt": "Portrait d'Henrietta Swan Leavitt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 94794,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/lise-meitner.avif",
+            "alt": "Portrait de Lise Meitner",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 15328,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/rosalind-franklin.avif",
+            "alt": "Portrait de Rosalind Franklin",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 20496,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/marthe-gautier.avif",
+            "alt": "Portrait de Marthe Gautier",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 21395,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/candace-pert.avif",
+            "alt": "Portrait de Candace Pert",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 34075,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fleche-droite.avif",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 1086,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 96,
+          "breakdown": {
+            "accessibility": {
+              "score": 31,
+              "max": 35,
+              "details": "10/12 images avec alt (83%), 7 alt de qualité, 2 décoratives (17%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 8/12 (67%), Top 5 poids moyen: 36KB, Moyenne: 17KB"
+            },
+            "bestPractices": {
+              "score": 30,
+              "max": 30,
+              "details": "Formats modernes: 100% (12 avif), Ratio décoratif: 17%"
+            }
+          },
+          "grade": "A+",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 106,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Elles ont fait la découverte. Ils ont eu la gloire. Voici quelques-unes des femmes\n            victimes de l'effet\n            Matilda.",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "1843 : Ada Lovelace",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1843 : Ada Lovelace",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "1912 : Henrietta Swan Leavitt",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1912 : Henrietta Swan Leavitt",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "1938 : Lise Meitner",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1938 : Lise Meitner",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "1953 : Rosalind Franklin",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1953 : Rosalind Franklin",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "1958 : Marthe Gautier",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1958 : Marthe Gautier",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "1978 : Candace Pert",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "1978 : Candace Pert",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 0.95,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/frise.html",
+            "resourceSize": 12082,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-gauche.avif",
+            "resourceSize": 1090,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fleche-droite.avif",
+            "resourceSize": 1086,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/carousel.js",
+            "resourceSize": 1660,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/ada-lovelace.avif",
+            "resourceSize": 8583,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/henrietta-swan-leavitt.avif",
+            "resourceSize": 94794,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/lise-meitner.avif",
+            "resourceSize": 15328,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/rosalind-franklin.avif",
+            "resourceSize": 20496,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/marthe-gautier.avif",
+            "resourceSize": 21395,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/candace-pert.avif",
+            "resourceSize": 34075,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 2,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.5,
+        "lazyLoadingPercentage": 50
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 2,
+        "averageWeight": 4133,
+        "top5AverageWeight": 4133,
+        "formats": {
+          "avif": 4,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 90,
+          "breakdown": {
+            "accessibility": {
+              "score": 27,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 2/4 (50%), Top 5 poids moyen: 4KB, Moyenne: 4KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (4 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 81,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Une question, une remarque ou simplement envie de discuter du projet ? Laissez-moi\n                un message.",
+          "tag": "h2"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 7658,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/a-propos.html",
+      "title": "À propos - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 2,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.5,
+        "lazyLoadingPercentage": 50
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 2,
+        "averageWeight": 4133,
+        "top5AverageWeight": 4133,
+        "formats": {
+          "avif": 4,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 90,
+          "breakdown": {
+            "accessibility": {
+              "score": 27,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 2/4 (50%), Top 5 poids moyen: 4KB, Moyenne: 4KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (4 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 91,
+      "externalLinks": 1,
+      "internalLinks": 15,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 2,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 4,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "À propos de moi",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "À propos de moi",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Qui suis-je ?",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Qui suis-je ?",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Le projet",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Mes objectifs",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Mes objectifs",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "section"
+        },
+        {
+          "level": 3,
+          "text": "Contact",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/a-propos.html",
+            "resourceSize": 8730,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 2,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.5,
+        "lazyLoadingPercentage": 50
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 2,
+        "averageWeight": 4133,
+        "top5AverageWeight": 4133,
+        "formats": {
+          "avif": 4,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 90,
+          "breakdown": {
+            "accessibility": {
+              "score": 27,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 2/4 (50%), Top 5 poids moyen: 4KB, Moyenne: 4KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (4 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 83,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 5,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Glossaire",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Bougie Standard",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Bougie Standard",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Céphéide",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Céphéide",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Calculatrices Humaines",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Calculatrices Humaines",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Cosmos",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Cosmos",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "ADN",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "ADN",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 8886,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autres-projets.html",
+      "title": "Articles - Lumière sur Elles",
+      "images": [
+        {
+          "src": "../assets/img/button-menu.avif",
+          "alt": "Menu",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 548,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/fermer-menu.avif",
+          "alt": "Fermer",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 814,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logo-ULMP.avif",
+          "alt": "Logo Université Marie & Louis Pasteur",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 8855,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        },
+        {
+          "src": "../assets/img/logommi.avif",
+          "alt": "Logo MMI",
+          "ariaHidden": "✕",
+          "hasLazyLoading": true,
+          "resourceSize": 6315,
+          "mimeType": "application/octet-stream",
+          "format": "avif"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 2,
+        "withoutLazyLoading": 2,
+        "lazyLoadingRatio": 0.5,
+        "lazyLoadingPercentage": 50
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 1,
+        "imagesWithPoorAlt": 3,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 2,
+        "averageWeight": 4133,
+        "top5AverageWeight": 4133,
+        "formats": {
+          "avif": 4,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/button-menu.avif",
+            "alt": "Menu",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/fermer-menu.avif",
+            "alt": "Fermer",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logo-ULMP.avif",
+            "alt": "Logo Université Marie & Louis Pasteur",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          },
+          {
+            "src": "../assets/img/logommi.avif",
+            "alt": "Logo MMI",
+            "ariaHidden": "✕",
+            "hasLazyLoading": true,
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "format": "avif"
+          }
+        ],
+        "score": {
+          "total": 90,
+          "breakdown": {
+            "accessibility": {
+              "score": 27,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 1 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 35,
+              "max": 35,
+              "details": "Lazy loading: 2/4 (50%), Top 5 poids moyen: 4KB, Moyenne: 4KB"
+            },
+            "bestPractices": {
+              "score": 28,
+              "max": 30,
+              "details": "Formats modernes: 100% (4 avif), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+          ]
+        }
+      },
+      "totalTags": 84,
+      "externalLinks": 1,
+      "internalLinks": 14,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 1,
+      "viewport": true,
+      "headings": {
+        "h1": 0,
+        "h2": 2,
+        "h3": 8,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 2,
+          "text": "Vous trouverez ici, les autres projets de mes camarades de TP C1",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Lola Brouart",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Lola Brouart",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Théo Araldi",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Théo Araldi",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Valentin deroo",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Valentin deroo",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Mathéo Girardin Tarby",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Mathéo Girardin Tarby",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Sacha Martin",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Sacha Martin",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Konstance Kruger",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Konstance Kruger",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Solène Geiss",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Solène Geiss",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Le projet de Mathis Desraches",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Le projet de Mathis Desraches",
+          "tag": "h3"
+        },
+        {
+          "level": 2,
+          "text": "Matthis Carnicer TDC1",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.89,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autres-projets.html",
+            "resourceSize": 7605,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/normalize.css",
+            "resourceSize": 2386,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/variables.css",
+            "resourceSize": 2036,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/base.css",
+            "resourceSize": 2925,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/components.css",
+            "resourceSize": 20931,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/button-menu.avif",
+            "resourceSize": 548,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/fermer-menu.avif",
+            "resourceSize": 814,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/js/menu.js",
+            "resourceSize": 1805,
+            "mimeType": "application/javascript",
+            "resourceType": "Script"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logo-ULMP.avif",
+            "resourceSize": 8855,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/logommi.avif",
+            "resourceSize": 6315,
+            "mimeType": "application/octet-stream",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "ul",
+      "li",
+      "form",
+      "label",
+      "input",
+      "button",
+      "textarea",
+      "img",
+      "a",
+      "em",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script",
+      "video"
+    ],
+    "tagsMissing": [
+      "blockquote",
+      "figure",
+      "figcaption"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "span"
+    ],
+    "otherTagsUsage": {
+      "div": 85,
+      "span": 53
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 11,
+    "pagesWithImages": 11,
+    "globalStats": {
+      "totalImages": 65,
+      "imagesWithAlt": 63,
+      "imagesWithoutAlt": 2,
+      "imagesWithGoodAlt": 30,
+      "imagesWithPoorAlt": 33,
+      "decorativeImages": 2,
+      "contentImages": 63,
+      "imagesWithLazyLoading": 40,
+      "averageWeight": 10511,
+      "top5AverageWeight": 68259,
+      "decorativeRatio": 0.03
+    },
+    "formats": {
+      "avif": 65,
+      "webp": 0,
+      "jpg": 0,
+      "png": 0,
+      "svg": 0,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 92,
+      "breakdown": {
+        "accessibility": {
+          "score": 29,
+          "max": 35,
+          "details": "63/65 images avec alt (97%), 30 alt de qualité, 2 décoratives (3%)"
+        },
+        "performance": {
+          "score": 35,
+          "max": 35,
+          "details": "Lazy loading: 40/65 (62%), Top 5 poids moyen: 67KB, Moyenne: 10KB"
+        },
+        "bestPractices": {
+          "score": 28,
+          "max": 30,
+          "details": "Formats modernes: 100% (65 avif), Ratio décoratif: 3%"
+        }
+      },
+      "grade": "A",
+      "improvements": [
+        "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5500/fr/",
+        "score": 94,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/article-henrietta-leavitt.html",
+        "score": 92,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/article-litterature.html",
+        "score": 92,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/article-theorie.html",
+        "score": 92,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/article-film.html",
+        "score": 92,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/article-livre.html",
+        "score": 92,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/frise.html",
+        "score": 96,
+        "grade": "A+"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/contact.html",
+        "score": 90,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/a-propos.html",
+        "score": 90,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/glossaire.html",
+        "score": 90,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/autres-projets.html",
+        "score": 90,
+        "grade": "A"
+      }
+    ],
+    "scoreStats": {
+      "average": 92,
+      "min": 90,
+      "max": 96,
+      "median": 92
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 112,
+      "linesOfCode": 181,
+      "size": 2386,
+      "complexity": 270,
+      "comments": {
+        "total": 1,
+        "size": 72
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "rules": {
+      "total": 34,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 9,
+        "mean": 3.2941176470588234,
+        "mode": 2,
+        "range": 7,
+        "sum": 112,
+        "items": [
+          3,
+          2,
+          2,
+          3,
+          4,
+          3,
+          2,
+          4,
+          3,
+          5,
+          2,
+          6,
+          2,
+          2,
+          2,
+          9,
+          3,
+          3,
+          5,
+          6,
+          5,
+          2,
+          7,
+          2,
+          2,
+          4,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 34,
+        "totalUnique": 7,
+        "unique": {
+          "2": 15,
+          "3": 9,
+          "4": 3,
+          "5": 3,
+          "6": 2,
+          "7": 1,
+          "9": 1
+        },
+        "uniquenessRatio": 0.20588235294117646
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 34,
+        "totalUnique": 1,
+        "unique": {
+          "0": 34
+        },
+        "uniquenessRatio": 0.029411764705882353
+      },
+      "selectors": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.6176470588235294,
+        "mode": 1,
+        "range": 4,
+        "sum": 55,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          1,
+          1,
+          1,
+          5,
+          2,
+          2,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 34,
+        "totalUnique": 5,
+        "unique": {
+          "1": 23,
+          "2": 6,
+          "3": 1,
+          "4": 3,
+          "5": 1
+        },
+        "uniquenessRatio": 0.14705882352941177
+      },
+      "declarations": {
+        "min": 1,
+        "max": 6,
+        "mean": 1.6764705882352942,
+        "mode": 1,
+        "range": 5,
+        "sum": 57,
+        "items": [
+          2,
+          1,
+          1,
+          2,
+          3,
+          2,
+          1,
+          3,
+          1,
+          2,
+          1,
+          4,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          6,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 34,
+        "totalUnique": 5,
+        "unique": {
+          "1": 21,
+          "2": 8,
+          "3": 2,
+          "4": 2,
+          "6": 1
+        },
+        "uniquenessRatio": 0.14705882352941177
+      }
+    },
+    "selectors": {
+      "total": 55,
+      "totalUnique": 47,
+      "uniquenessRatio": 0.8545454545454545,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "max": [
+          0,
+          2,
+          0
+        ],
+        "sum": [
+          0,
+          21,
+          46
+        ],
+        "mean": [
+          0,
+          0.38181818181818183,
+          0.8363636363636363
+        ],
+        "mode": [
+          0,
+          0,
+          1
+        ],
+        "items": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "total": 55,
+        "totalUnique": 5,
+        "unique": {
+          "0,0,1": 36,
+          "0,1,1": 8,
+          "0,1,0": 7,
+          "0,0,2": 1,
+          "0,2,0": 3
+        },
+        "uniquenessRatio": 0.09090909090909091
+      },
+      "complexity": {
+        "min": 1,
+        "max": 4,
+        "mean": 1.709090909090909,
+        "mode": 1,
+        "range": 3,
+        "sum": 94,
+        "total": 55,
+        "totalUnique": 4,
+        "unique": {
+          "1": 36,
+          "2": 8,
+          "3": 2,
+          "4": 9
+        },
+        "uniquenessRatio": 0.07272727272727272,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          4,
+          4,
+          2,
+          4,
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 55,
+        "totalUnique": 1,
+        "unique": {
+          "0": 55
+        },
+        "uniquenessRatio": 0.01818181818181818
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "pseudoClasses": {
+        "total": 4,
+        "totalUnique": 1,
+        "unique": {
+          "-moz-focusring": 4
+        },
+        "uniquenessRatio": 0.25
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 12,
+        "totalUnique": 12,
+        "unique": {
+          "button::-moz-focus-inner": 1,
+          "[type=\"button\"]::-moz-focus-inner": 1,
+          "[type=\"reset\"]::-moz-focus-inner": 1,
+          "[type=\"submit\"]::-moz-focus-inner": 1,
+          "button:-moz-focusring": 1,
+          "[type=\"button\"]:-moz-focusring": 1,
+          "[type=\"reset\"]:-moz-focusring": 1,
+          "[type=\"submit\"]:-moz-focusring": 1,
+          "[type=\"number\"]::-webkit-inner-spin-button": 1,
+          "[type=\"number\"]::-webkit-outer-spin-button": 1,
+          "[type=\"search\"]::-webkit-search-decoration": 1,
+          "::-webkit-file-upload-button": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.21818181818181817
+      },
+      "combinators": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "declarations": {
+      "total": 57,
+      "totalUnique": 44,
+      "uniquenessRatio": 0.7719298245614035,
+      "importants": {
+        "total": 0,
+        "ratio": 0,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 57
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 57,
+        "totalUnique": 1,
+        "unique": {
+          "0": 57
+        },
+        "uniquenessRatio": 0.017543859649122806
+      }
+    },
+    "properties": {
+      "total": 57,
+      "totalUnique": 27,
+      "unique": {
+        "line-height": 3,
+        "-webkit-text-size-adjust": 1,
+        "margin": 3,
+        "display": 6,
+        "font-size": 6,
+        "box-sizing": 3,
+        "height": 2,
+        "overflow": 3,
+        "font-family": 3,
+        "background-color": 1,
+        "border-bottom": 1,
+        "text-decoration": 2,
+        "font-weight": 1,
+        "position": 1,
+        "vertical-align": 2,
+        "bottom": 1,
+        "top": 1,
+        "border-style": 2,
+        "text-transform": 1,
+        "-webkit-appearance": 4,
+        "padding": 4,
+        "outline": 1,
+        "color": 1,
+        "max-width": 1,
+        "white-space": 1,
+        "outline-offset": 1,
+        "font": 1
+      },
+      "uniquenessRatio": 0.47368421052631576,
+      "prefixed": {
+        "total": 5,
+        "totalUnique": 2,
+        "unique": {
+          "-webkit-text-size-adjust": 1,
+          "-webkit-appearance": 4
+        },
+        "uniquenessRatio": 0.4,
+        "ratio": 0.08771929824561403
+      },
+      "custom": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.087719298245614,
+        "mode": 1,
+        "range": 1,
+        "sum": 62
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "transparent": 1,
+          "ButtonText": 1
+        },
+        "uniquenessRatio": 1,
+        "itemsPerContext": {
+          "background-color": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "transparent": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "ButtonText": 1
+            },
+            "uniquenessRatio": 1
+          }
+        },
+        "formats": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            "transparent": 1,
+            "system": 1
+          },
+          "uniquenessRatio": 1
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 2,
+        "totalUnique": 1,
+        "unique": {
+          "monospace, monospace": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "fontSizes": {
+        "total": 6,
+        "totalUnique": 5,
+        "unique": {
+          "2em": 1,
+          "1em": 2,
+          "80%": 1,
+          "75%": 1,
+          "100%": 1
+        },
+        "uniquenessRatio": 0.8333333333333334
+      },
+      "lineHeights": {
+        "total": 3,
+        "totalUnique": 2,
+        "unique": {
+          "0": 1,
+          "1.15": 2
+        },
+        "uniquenessRatio": 0.6666666666666666
+      },
+      "zindexes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "borderRadiuses": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "itemsPerContext": {}
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 11,
+        "totalUnique": 2,
+        "unique": {
+          "em": 9,
+          "px": 2
+        },
+        "uniquenessRatio": 0.18181818181818182,
+        "itemsPerContext": {
+          "font-size": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "em": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "top": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "em": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "em": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "outline-offset": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 57
+      },
+      "keywords": {
+        "total": 12,
+        "totalUnique": 3,
+        "unique": {
+          "none": 7,
+          "inherit": 3,
+          "auto": 2
+        },
+        "uniquenessRatio": 0.25
+      },
+      "resets": {
+        "total": 5,
+        "totalUnique": 2,
+        "unique": {
+          "margin": 2,
+          "padding": 3
+        },
+        "uniquenessRatio": 0.4
+      }
+    },
+    "__meta__": {
+      "parseTime": 1,
+      "analyzeTime": 2,
+      "total": 3
+    },
+    "imports": {
+      "total": 0,
+      "imports": [],
+      "organization": {
+        "googleFontsCount": 0,
+        "externalCount": 0,
+        "relativeCount": 0,
+        "validCount": 0,
+        "invalidCount": 0,
+        "categories": {},
+        "namingIssues": {
+          "totalFiles": 0,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 3,
+        "breakdown": {
+          "validity": {
+            "score": 0,
+            "max": 24.99,
+            "details": "Aucun import détecté."
+          },
+          "organization": {
+            "score": 0,
+            "max": 30,
+            "details": "Aucune organisation détectée."
+          },
+          "performance": {
+            "score": 0,
+            "max": 20,
+            "details": "Aucun import. "
+          },
+          "naming": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucun fichier à analyser."
+          },
+          "bestPractices": {
+            "score": 3,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Organiser le CSS en catégories (base, components, layout, utils)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 0,
+      "totalUsed": 0,
+      "totalUnused": 0,
+      "totalUndeclared": 0,
+      "declarations": [],
+      "unusedVariables": [],
+      "undeclaredUsages": [],
+      "categorization": {
+        "color": 0,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 0,
+        "other": 0
+      },
+      "detailedCategorization": {
+        "color": [],
+        "typography": [],
+        "spacing": [],
+        "radius": [],
+        "other": []
+      },
+      "ratio": {
+        "variableUsages": 0,
+        "rawProperties": 57,
+        "variableRatio": 0
+      },
+      "score": {
+        "total": 22,
+        "breakdown": {
+          "adoption": {
+            "score": 0,
+            "max": 40,
+            "details": "0% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 0,
+            "max": 25,
+            "details": "Aucune variable déclarée."
+          },
+          "hygiene": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucun problème d'hygiène détecté."
+          },
+          "categories": {
+            "score": 0,
+            "max": 10,
+            "details": "0/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Faible adoption, aucun usage non déclaré."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS",
+          "Élargir la couverture des variables (couleurs, typos, espacements, etc.)"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": false,
+        "count": 0,
+        "sources": {
+          "html": 0,
+          "css": 0
+        },
+        "details": []
+      },
+      "fontFamilies": {
+        "Monospace": {
+          "declarationCount": 2,
+          "isGlobal": false,
+          "selectors": [
+            "pre",
+            "code",
+            "kbd",
+            "samp"
+          ],
+          "selectorCount": 4,
+          "sizes": [
+            {
+              "size": "1em",
+              "selectors": [
+                "pre",
+                "code",
+                "kbd",
+                "samp"
+              ],
+              "lineHeights": [],
+              "selectorCount": 4
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [
+            "monospace"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "monospace"
+        },
+        "Inherit": {
+          "declarationCount": 2,
+          "isGlobal": false,
+          "selectors": [
+            "button",
+            "input",
+            "optgroup",
+            "select",
+            "textarea",
+            "::-webkit-file-upload-button"
+          ],
+          "selectorCount": 6,
+          "sizes": [
+            {
+              "size": "100%",
+              "selectors": [
+                "button",
+                "input",
+                "optgroup",
+                "select",
+                "textarea"
+              ],
+              "lineHeights": [
+                "1.15"
+              ],
+              "selectorCount": 5
+            }
+          ],
+          "sizeVariations": 1,
+          "fallbacks": [],
+          "hasGenericFallback": false,
+          "genericFallback": null
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 4,
+        "totalFontSizeDeclarations": 6,
+        "totalLineHeightDeclarations": 3,
+        "hasGlobalFontFamily": false,
+        "globalFamilies": 0,
+        "inheritanceQuality": 0,
+        "averageDeclarationsPerFamily": 2,
+        "familiesWithFallbacks": 1,
+        "familiesWithoutGenericFallback": 1,
+        "fallbackCoverage": 0.5,
+        "fontSizeUnits": {
+          "units": {
+            "px": 0,
+            "rem": 0,
+            "em": 3,
+            "percent": 4,
+            "other": 0
+          },
+          "totalSizes": 7,
+          "relativeUnits": 7,
+          "relativeRatio": 1
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 3,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 3,
+          "proportionalUnits": 3,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {
+          "Monospace": {
+            "count": 2,
+            "selectors": [
+              "pre",
+              "code",
+              "kbd",
+              "samp"
+            ],
+            "isGlobal": false
+          },
+          "Inherit": {
+            "count": 2,
+            "selectors": [
+              "button",
+              "input",
+              "optgroup",
+              "select",
+              "textarea",
+              "::-webkit-file-upload-button"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "2em": {
+            "count": 1,
+            "selectors": [
+              "h1"
+            ]
+          },
+          "1em": {
+            "count": 4,
+            "selectors": [
+              "pre",
+              "code",
+              "kbd",
+              "samp"
+            ]
+          },
+          "80%": {
+            "count": 1,
+            "selectors": [
+              "small"
+            ]
+          },
+          "75%": {
+            "count": 2,
+            "selectors": [
+              "sub",
+              "sup"
+            ]
+          },
+          "100%": {
+            "count": 5,
+            "selectors": [
+              "button",
+              "input",
+              "optgroup",
+              "select",
+              "textarea"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "0": {
+            "count": 1
+          },
+          "1.15": {
+            "count": 2
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": true,
+        "excessiveFontFamilyDeclarations": false,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": true
+      },
+      "score": {
+        "total": 45,
+        "breakdown": {
+          "webfonts": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucune webfont détectée"
+          },
+          "fallbacks": {
+            "score": 10,
+            "max": 20,
+            "details": "1 police(s) sans fallback générique."
+          },
+          "inheritance": {
+            "score": 0,
+            "max": 25,
+            "details": "Pas de police globale. Qualité d'héritage: 0%"
+          },
+          "sizes": {
+            "score": 20,
+            "max": 20,
+            "details": "Nombre de tailles optimal. 100% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 10,
+            "max": 15,
+            "details": "Couverture moyenne des line-heights. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 5,
+            "details": "Nombre de déclarations approprié."
+          }
+        },
+        "grade": "F",
+        "improvements": []
+      }
+    },
+    "colors": {
+      "totalColors": 2,
+      "uniqueColors": 2,
+      "colors": [
+        {
+          "color": "transparent",
+          "count": 1
+        },
+        {
+          "color": "buttontext",
+          "count": 1
+        }
+      ],
+      "transparentColors": [
+        {
+          "color": "transparent",
+          "count": 1
+        }
+      ],
+      "opaqueColors": [
+        {
+          "color": "buttontext",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        }
+      ],
+      "colorGroups": [],
+      "similarColors": [],
+      "hasSimilarColors": false,
+      "formats": {
+        "transparent": 1,
+        "named": 1
+      },
+      "score": {
+        "total": 66.67,
+        "breakdown": {
+          "palette": {
+            "score": 18,
+            "max": 25,
+            "details": "Palette très limitée. "
+          },
+          "consistency": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucune couleur similaire détectée. "
+          },
+          "formats": {
+            "score": 17,
+            "max": 20,
+            "details": "2 formats de couleurs utilisés. "
+          },
+          "transparency": {
+            "score": 5,
+            "max": 15,
+            "details": "Trop de couleurs transparentes. "
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 10,
+            "details": "Palette monotone. "
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Envisager l'utilisation de formats modernes comme oklch ou hsl",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 892,
+      "nodesWithClasses": 857,
+      "uniqueClasses": [
+        "skip-link",
+        "header",
+        "header__container",
+        "header__logo",
+        "header__logo-text",
+        "header__right",
+        "header__lang",
+        "header__lang-link",
+        "header__lang-text",
+        "header__menu-toggle",
+        "header__menu-icon",
+        "menu",
+        "menu__header",
+        "menu__title",
+        "menu__close",
+        "menu__close-icon",
+        "menu__nav",
+        "menu__nav-item",
+        "menu__nav-link",
+        "menu__nav-item--has-submenu",
+        "menu__nav-toggle",
+        "menu__submenu",
+        "menu__submenu-item",
+        "menu__submenu-link",
+        "main",
+        "hero",
+        "hero__image-wrapper",
+        "hero__image",
+        "hero__content",
+        "hero__title",
+        "hero__subtitle",
+        "intro-text",
+        "card",
+        "card--featured",
+        "card__image",
+        "card__content",
+        "card__title",
+        "card__text",
+        "card__link",
+        "card__link--button",
+        "footer",
+        "footer__content",
+        "footer__title",
+        "footer__text",
+        "footer__link",
+        "footer__logos",
+        "footer__logo-ulmp",
+        "footer__logo-mmi",
+        "article",
+        "article__header",
+        "article__title",
+        "article__intro",
+        "article__section",
+        "article__section-title",
+        "article__image--float",
+        "article__text",
+        "article__quote",
+        "article__related",
+        "article__related-title",
+        "article__related-nav",
+        "article__related-link",
+        "article__related-label",
+        "article__caption",
+        "video",
+        "video__player",
+        "timeline__title",
+        "carousel",
+        "carousel__button",
+        "carousel__button--prev",
+        "carousel__container",
+        "carousel__track",
+        "carousel__slide",
+        "carousel__image",
+        "carousel__date",
+        "carousel__text",
+        "carousel__button--next",
+        "carousel__indicators",
+        "carousel__indicator",
+        "carousel__indicator--active",
+        "form",
+        "form__title",
+        "form__group",
+        "form__label",
+        "form__input",
+        "form__textarea",
+        "form__submit",
+        "about",
+        "about__title",
+        "about__section",
+        "about__subtitle",
+        "about__list",
+        "about__link",
+        "glossary__page-title",
+        "glossary",
+        "glossary__term",
+        "glossary__title",
+        "glossary__definition"
+      ],
+      "frequency": {
+        "skip-link": 11,
+        "header": 11,
+        "header__container": 11,
+        "header__logo": 11,
+        "header__logo-text": 11,
+        "header__right": 11,
+        "header__lang": 11,
+        "header__lang-link": 11,
+        "header__lang-text": 11,
+        "header__menu-toggle": 11,
+        "header__menu-icon": 11,
+        "menu": 11,
+        "menu__header": 11,
+        "menu__title": 11,
+        "menu__close": 11,
+        "menu__close-icon": 11,
+        "menu__nav": 11,
+        "menu__nav-item": 77,
+        "menu__nav-link": 77,
+        "menu__nav-item--has-submenu": 11,
+        "menu__nav-toggle": 11,
+        "menu__submenu": 11,
+        "menu__submenu-item": 55,
+        "menu__submenu-link": 55,
+        "main": 11,
+        "hero": 1,
+        "hero__image-wrapper": 1,
+        "hero__image": 1,
+        "hero__content": 1,
+        "hero__title": 1,
+        "hero__subtitle": 1,
+        "intro-text": 1,
+        "card": 5,
+        "card--featured": 5,
+        "card__image": 5,
+        "card__content": 5,
+        "card__title": 5,
+        "card__text": 5,
+        "card__link": 5,
+        "card__link--button": 5,
+        "footer": 11,
+        "footer__content": 11,
+        "footer__title": 11,
+        "footer__text": 22,
+        "footer__link": 22,
+        "footer__logos": 11,
+        "footer__logo-ulmp": 11,
+        "footer__logo-mmi": 11,
+        "article": 5,
+        "article__header": 5,
+        "article__title": 5,
+        "article__intro": 5,
+        "article__section": 15,
+        "article__section-title": 14,
+        "article__image--float": 7,
+        "article__text": 17,
+        "article__quote": 4,
+        "article__related": 5,
+        "article__related-title": 5,
+        "article__related-nav": 5,
+        "article__related-link": 20,
+        "article__related-label": 20,
+        "article__caption": 4,
+        "video": 1,
+        "video__player": 1,
+        "timeline__title": 1,
+        "carousel": 1,
+        "carousel__button": 2,
+        "carousel__button--prev": 1,
+        "carousel__container": 1,
+        "carousel__track": 1,
+        "carousel__slide": 6,
+        "carousel__image": 6,
+        "carousel__date": 6,
+        "carousel__text": 6,
+        "carousel__button--next": 1,
+        "carousel__indicators": 1,
+        "carousel__indicator": 6,
+        "carousel__indicator--active": 1,
+        "form": 1,
+        "form__title": 1,
+        "form__group": 4,
+        "form__label": 4,
+        "form__input": 3,
+        "form__textarea": 1,
+        "form__submit": 1,
+        "about": 1,
+        "about__title": 1,
+        "about__section": 4,
+        "about__subtitle": 4,
+        "about__list": 1,
+        "about__link": 1,
+        "glossary__page-title": 2,
+        "glossary": 2,
+        "glossary__term": 13,
+        "glossary__title": 13,
+        "glossary__definition": 5
+      },
+      "averageClassesPerNode": 1.04,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 2,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [],
+      "totalSelectors": 55,
+      "selectorsWithMultipleClasses": 0,
+      "specificity": {
+        "average": 0.69,
+        "max": 1
+      },
+      "complexSelectorsRatio": 0.364,
+      "selectorForms": {
+        "bemSelectors": 0,
+        "pureBemSelectors": 0,
+        "pureBemSelectorsRatio": 0,
+        "selectorsWithAncestor": 0,
+        "selectorsWithId": 0,
+        "selectorsWithType": 38,
+        "selectorsWithAttribute": 17,
+        "ancestorsRatio": 0,
+        "withIdRatio": 0,
+        "withTypeRatio": 0.691
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [],
+      "undefinedHtmlClasses": [
+        "skip-link",
+        "header",
+        "header__container",
+        "header__logo",
+        "header__logo-text",
+        "header__right",
+        "header__lang",
+        "header__lang-link",
+        "header__lang-text",
+        "header__menu-toggle",
+        "header__menu-icon",
+        "menu",
+        "menu__header",
+        "menu__title",
+        "menu__close",
+        "menu__close-icon",
+        "menu__nav",
+        "menu__nav-item",
+        "menu__nav-link",
+        "menu__nav-item--has-submenu",
+        "menu__nav-toggle",
+        "menu__submenu",
+        "menu__submenu-item",
+        "menu__submenu-link",
+        "main",
+        "hero",
+        "hero__image-wrapper",
+        "hero__image",
+        "hero__content",
+        "hero__title",
+        "hero__subtitle",
+        "intro-text",
+        "card",
+        "card--featured",
+        "card__image",
+        "card__content",
+        "card__title",
+        "card__text",
+        "card__link",
+        "card__link--button",
+        "footer",
+        "footer__content",
+        "footer__title",
+        "footer__text",
+        "footer__link",
+        "footer__logos",
+        "footer__logo-ulmp",
+        "footer__logo-mmi",
+        "article",
+        "article__header",
+        "article__title",
+        "article__intro",
+        "article__section",
+        "article__section-title",
+        "article__image--float",
+        "article__text",
+        "article__quote",
+        "article__related",
+        "article__related-title",
+        "article__related-nav",
+        "article__related-link",
+        "article__related-label",
+        "article__caption",
+        "video",
+        "video__player",
+        "timeline__title",
+        "carousel",
+        "carousel__button",
+        "carousel__button--prev",
+        "carousel__container",
+        "carousel__track",
+        "carousel__slide",
+        "carousel__image",
+        "carousel__date",
+        "carousel__text",
+        "carousel__button--next",
+        "carousel__indicators",
+        "carousel__indicator",
+        "carousel__indicator--active",
+        "form",
+        "form__title",
+        "form__group",
+        "form__label",
+        "form__input",
+        "form__textarea",
+        "form__submit",
+        "about",
+        "about__title",
+        "about__section",
+        "about__subtitle",
+        "about__list",
+        "about__link",
+        "glossary__page-title",
+        "glossary",
+        "glossary__term",
+        "glossary__title",
+        "glossary__definition"
+      ],
+      "coverageHtml": 0,
+      "coverageCss": 0,
+      "cssEfficiency": 0
+    },
+    "bem": {
+      "blocks": {
+        "skip-link": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "header": {
+          "elements": [
+            "header__container",
+            "header__logo",
+            "header__logo-text",
+            "header__right",
+            "header__lang",
+            "header__lang-link",
+            "header__lang-text",
+            "header__menu-toggle",
+            "header__menu-icon"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "menu": {
+          "elements": [
+            "menu__header",
+            "menu__title",
+            "menu__close",
+            "menu__close-icon",
+            "menu__nav",
+            "menu__nav-item",
+            "menu__nav-link",
+            "menu__nav-toggle",
+            "menu__submenu",
+            "menu__submenu-item",
+            "menu__submenu-link"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "menu__nav-item--has-submenu"
+          ]
+        },
+        "main": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "hero": {
+          "elements": [
+            "hero__image-wrapper",
+            "hero__image",
+            "hero__content",
+            "hero__title",
+            "hero__subtitle"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "intro-text": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "card": {
+          "elements": [
+            "card__image",
+            "card__content",
+            "card__title",
+            "card__text",
+            "card__link"
+          ],
+          "modifiers": [
+            "card--featured"
+          ],
+          "elementModifiers": [
+            "card__link--button"
+          ]
+        },
+        "footer": {
+          "elements": [
+            "footer__content",
+            "footer__title",
+            "footer__text",
+            "footer__link",
+            "footer__logos",
+            "footer__logo-ulmp",
+            "footer__logo-mmi"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "article": {
+          "elements": [
+            "article__header",
+            "article__title",
+            "article__intro",
+            "article__section",
+            "article__section-title",
+            "article__image",
+            "article__text",
+            "article__quote",
+            "article__related",
+            "article__related-title",
+            "article__related-nav",
+            "article__related-link",
+            "article__related-label",
+            "article__caption"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "article__image--float"
+          ]
+        },
+        "video": {
+          "elements": [
+            "video__player"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "timeline": {
+          "elements": [
+            "timeline__title"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "carousel": {
+          "elements": [
+            "carousel__button",
+            "carousel__container",
+            "carousel__track",
+            "carousel__slide",
+            "carousel__image",
+            "carousel__date",
+            "carousel__text",
+            "carousel__indicators",
+            "carousel__indicator"
+          ],
+          "modifiers": [],
+          "elementModifiers": [
+            "carousel__button--prev",
+            "carousel__button--next",
+            "carousel__indicator--active"
+          ]
+        },
+        "form": {
+          "elements": [
+            "form__title",
+            "form__group",
+            "form__label",
+            "form__input",
+            "form__textarea",
+            "form__submit"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "about": {
+          "elements": [
+            "about__title",
+            "about__section",
+            "about__subtitle",
+            "about__list",
+            "about__link"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "glossary": {
+          "elements": [
+            "glossary__page-title",
+            "glossary__term",
+            "glossary__title",
+            "glossary__definition"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 14,
+        "elements": 76,
+        "modifiers": 1,
+        "elementModifiers": 6,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0.8
+      },
+      "depth": {
+        "max": 3,
+        "average": 1.92
+      },
+      "blockStructure": {
+        "totalBlocks": 15,
+        "structuredBlocks": 12,
+        "orphanBlocks": 3,
+        "implicitBlocks": [
+          "timeline"
+        ]
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "skip": 1,
+        "intro": 1,
+        "card": 1
+      },
+      "entropy": 5.746,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2026-01-07T19:47:57.539Z"
+    },
+    "score": {
+      "bem": {
+        "total": 57,
+        "breakdown": {
+          "coverage": {
+            "score": 4,
+            "max": 15,
+            "details": "Couverture moyenne: 0%"
+          },
+          "selectorForms": {
+            "score": 6,
+            "max": 30,
+            "details": "Pure BEM: 0%"
+          },
+          "structure": {
+            "score": 25,
+            "max": 25,
+            "details": "Blocs structurés: 80%"
+          },
+          "elementsRatio": {
+            "score": 20,
+            "max": 20,
+            "details": "Éléments/bloc: 5.07"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0.47"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Améliorer la couverture entre HTML et CSS (réduire classes orphelines)",
+          "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 97,
+    "breakdown": {
+      "errorPenalty": 3,
+      "warningPenalty": 0
+    },
+    "grade": "A",
+    "improvements": [
+      "Corriger les 3 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 3,
+      "totalWarnings": 0,
+      "averageErrors": 0.27,
+      "pagesAnalyzed": 11
+    }
+  }
+}

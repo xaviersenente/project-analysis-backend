@@ -1,0 +1,7083 @@
+{
+  "pages": [
+    {
+      "file": "http://127.0.0.1:5500/fr/",
+      "title": "Accueil — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/NettieS.png",
+          "alt": "Portrait d'une femme (illustration de la page).",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 45250,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/DNA.png",
+          "alt": "Illustration d'une double hélice d'ADN.",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 83913,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Card3.png",
+          "alt": "Collage de photos en noir et blanc de femmes (illustration).",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 141903,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Gattaca.png",
+          "alt": "Image illustrant une ambiance scientifique (inspiration type film).",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 65200,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/A1.png",
+          "alt": "Photo d'archive en noir et blanc (illustration).",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 156,
+          "mimeType": "text/html",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/A2.png",
+          "alt": "Photo d'archive en noir et blanc (illustration).",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 156,
+          "mimeType": "text/html",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 6,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 6,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 6,
+        "imagesWithAlt": 6,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 6,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 6,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 56096,
+        "top5AverageWeight": 67284,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 6,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/NettieS.png",
+            "alt": "Portrait d'une femme (illustration de la page).",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 45250,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/DNA.png",
+            "alt": "Illustration d'une double hélice d'ADN.",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 83913,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Card3.png",
+            "alt": "Collage de photos en noir et blanc de femmes (illustration).",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 141903,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Gattaca.png",
+            "alt": "Image illustrant une ambiance scientifique (inspiration type film).",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 65200,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/A1.png",
+            "alt": "Photo d'archive en noir et blanc (illustration).",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 156,
+            "mimeType": "text/html",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/A2.png",
+            "alt": "Photo d'archive en noir et blanc (illustration).",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 156,
+            "mimeType": "text/html",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 72,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "6/6 images avec alt (100%), 6 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/6 (0%), Top 5 poids moyen: 66KB, Moyenne: 55KB"
+            },
+            "bestPractices": {
+              "score": 17,
+              "max": 30,
+              "details": "Formats modernes: 0% (6 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 90,
+      "externalLinks": 0,
+      "internalLinks": 11,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Accueil",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "À la une",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "À la une",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Elle a découvert le secret du sexe biologique",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Elle a découvert le secret du sexe biologique",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Nettie Maria Stevens",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Nettie Maria Stevens",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "X.Y",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "X.Y",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Représentation des femmes dans la littérature",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Représentation des femmes dans la littérature",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Des choix de société",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Des choix de société",
+          "tag": "h3"
+        },
+        {
+          "level": 1,
+          "text": "Objet documentaire",
+          "tag": "article"
+        },
+        {
+          "level": 3,
+          "text": "Objet documentaire",
+          "tag": "h3"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.94,
+        "accessibility": 1,
+        "bestPractices": 0.93,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/",
+            "resourceSize": 6510,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/NettieS.png",
+            "resourceSize": 45250,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/DNA.png",
+            "resourceSize": 83913,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Card3.png",
+            "resourceSize": 141903,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Gattaca.png",
+            "resourceSize": 65200,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/A1.png",
+            "resourceSize": 156,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/A2.png",
+            "resourceSize": 156,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/menu.html",
+      "title": "Menu — Sous le microscope",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 29,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Menu",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/menu.html",
+            "resourceSize": 2552,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/histoire-nettie-stevens.html",
+      "title": "L'histoire de Nettie Stevens — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/PGNettieS.png",
+          "alt": "Photo d'archive de Nettie Stevens.",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 133573,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/NettieS.png",
+          "alt": "Portrait de Nettie Stevens.",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 45250,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Logoétoiles.png",
+          "alt": "Étoiles décoratives",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 2031,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/NS-Microscope.png",
+          "alt": "Microscope et illustration scientifique (image).",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15807,
+          "mimeType": "image/png",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 4,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 4,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 4,
+        "imagesWithAlt": 4,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 4,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 4,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 49165,
+        "top5AverageWeight": 49165,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 4,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [
+          {
+            "src": "../assets/img/PGNettieS.png",
+            "alt": "Photo d'archive de Nettie Stevens.",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 133573,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/NettieS.png",
+            "alt": "Portrait de Nettie Stevens.",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 45250,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Logoétoiles.png",
+            "alt": "Étoiles décoratives",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 2031,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/NS-Microscope.png",
+            "alt": "Microscope et illustration scientifique (image).",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15807,
+            "mimeType": "image/png",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 72,
+          "breakdown": {
+            "accessibility": {
+              "score": 33,
+              "max": 35,
+              "details": "4/4 images avec alt (100%), 4 alt de qualité, 0 décoratives (0%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/4 (0%), Top 5 poids moyen: 48KB, Moyenne: 48KB"
+            },
+            "bestPractices": {
+              "score": 17,
+              "max": 30,
+              "details": "Formats modernes: 0% (4 png), Ratio décoratif: 0%"
+            }
+          },
+          "grade": "C",
+          "improvements": [
+            "Implémenter le lazy loading pour les images below the fold",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 79,
+      "externalLinks": 0,
+      "internalLinks": 8,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "L’histoire de Nettie Stevens",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Nettie Stevens",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Nettie Stevens",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Qui est Nettie Stevens ?",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Qui est Nettie Stevens ?",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Une découverte majeure, une reconnaissance oubliée",
+          "tag": "article"
+        },
+        {
+          "level": 2,
+          "text": "Une découverte majeure, une reconnaissance oubliée",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "bestPractices": 0.93,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/histoire-nettie-stevens.html",
+            "resourceSize": 6526,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/PGNettieS.png",
+            "resourceSize": 133573,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/NettieS.png",
+            "resourceSize": 45250,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Logo%C3%A9toiles.png",
+            "resourceSize": 2031,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/NS-Microscope.png",
+            "resourceSize": 15807,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/LSDC.html",
+      "title": "Le secret des chromosomes — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/Microscope.png",
+          "alt": "Microscope",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 8564,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/3DNA.png",
+          "alt": "Illustration de chromosomes",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 13676,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/placeholder-xy.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 168,
+          "mimeType": "text/html",
+          "format": "jpg"
+        },
+        {
+          "src": "../assets/img/placeholder-balance.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 173,
+          "mimeType": "text/html",
+          "format": "jpg"
+        },
+        {
+          "src": "../assets/img/placeholder-litterature.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 177,
+          "mimeType": "text/html",
+          "format": "jpg"
+        }
+      ],
+      "imageStats": {
+        "total": 5,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 5,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 5,
+        "imagesWithAlt": 2,
+        "imagesWithoutAlt": 3,
+        "imagesWithGoodAlt": 2,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 3,
+        "contentImages": 2,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 4552,
+        "top5AverageWeight": 4552,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 3,
+          "png": 2,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.6,
+        "images": [
+          {
+            "src": "../assets/img/Microscope.png",
+            "alt": "Microscope",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 8564,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/3DNA.png",
+            "alt": "Illustration de chromosomes",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 13676,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/placeholder-xy.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 168,
+            "mimeType": "text/html",
+            "format": "jpg"
+          },
+          {
+            "src": "../assets/img/placeholder-balance.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 173,
+            "mimeType": "text/html",
+            "format": "jpg"
+          },
+          {
+            "src": "../assets/img/placeholder-litterature.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "format": "jpg"
+          }
+        ],
+        "score": {
+          "total": 60,
+          "breakdown": {
+            "accessibility": {
+              "score": 19,
+              "max": 35,
+              "details": "2/5 images avec alt (40%), 2 alt de qualité, 3 décoratives (60%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/5 (0%), Top 5 poids moyen: 4KB, Moyenne: 4KB"
+            },
+            "bestPractices": {
+              "score": 19,
+              "max": 30,
+              "details": "Formats modernes: 0% (3 jpg, 2 png), Ratio décoratif: 60%"
+            }
+          },
+          "grade": "D",
+          "improvements": [
+            "Ajouter des attributs alt manquants (actuellement 4000%)",
+            "Trop d'images marquées comme décoratives, vérifier la pertinence",
+            "Implémenter le lazy loading pour les images below the fold",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 75,
+      "externalLinks": 0,
+      "internalLinks": 7,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 2,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Le secret des chromosomes",
+          "tag": "h1"
+        },
+        {
+          "level": 1,
+          "text": "Introduction",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Introduction",
+          "tag": "h2"
+        },
+        {
+          "level": 1,
+          "text": "Chromosomes X et Y",
+          "tag": "section"
+        },
+        {
+          "level": 2,
+          "text": "Chromosomes X et Y",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.93,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/LSDC.html",
+            "resourceSize": 6084,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Microscope.png",
+            "resourceSize": 8564,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/3DNA.png",
+            "resourceSize": 13676,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/placeholder-xy.jpg",
+            "resourceSize": 168,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/placeholder-balance.jpg",
+            "resourceSize": 173,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/placeholder-litterature.jpg",
+            "resourceSize": 177,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/les-femmes-savantes.html",
+      "title": "Les femmes savantes — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/PG-Les-femmes-savantes.png",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 939989,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/LogoLivreG.png",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 16722,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/LogojusticeG.png",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 15840,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Ada-Lovelace.png",
+          "alt": "Ada Lovelace",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 34387,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Nettie-Stevens.png",
+          "alt": "Nettie Stevens",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 31262,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Lise-Meitner.png",
+          "alt": "Lise Meitner",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 28760,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Rosalind-Franklin.png",
+          "alt": "Rosalind Franklin",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 25061,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Marthe-Gauthier.png",
+          "alt": "Marthe Gautier",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 43874,
+          "mimeType": "image/png",
+          "format": "png"
+        },
+        {
+          "src": "../assets/img/Jocelyn-Bell-Burnell.png",
+          "alt": "Jocelyn Bell Burnell",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 20820,
+          "mimeType": "image/png",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 9,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 9,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 9,
+        "imagesWithAlt": 6,
+        "imagesWithoutAlt": 3,
+        "imagesWithGoodAlt": 6,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 3,
+        "contentImages": 6,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 128524,
+        "top5AverageWeight": 215654,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 9,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0.33,
+        "images": [
+          {
+            "src": "../assets/img/PG-Les-femmes-savantes.png",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 939989,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/LogoLivreG.png",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 16722,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/LogojusticeG.png",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 15840,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Ada-Lovelace.png",
+            "alt": "Ada Lovelace",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 34387,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Nettie-Stevens.png",
+            "alt": "Nettie Stevens",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 31262,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Lise-Meitner.png",
+            "alt": "Lise Meitner",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 28760,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Rosalind-Franklin.png",
+            "alt": "Rosalind Franklin",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 25061,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Marthe-Gauthier.png",
+            "alt": "Marthe Gautier",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 43874,
+            "mimeType": "image/png",
+            "format": "png"
+          },
+          {
+            "src": "../assets/img/Jocelyn-Bell-Burnell.png",
+            "alt": "Jocelyn Bell Burnell",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 20820,
+            "mimeType": "image/png",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 64,
+          "breakdown": {
+            "accessibility": {
+              "score": 28,
+              "max": 35,
+              "details": "6/9 images avec alt (67%), 6 alt de qualité, 3 décoratives (33%)"
+            },
+            "performance": {
+              "score": 17,
+              "max": 35,
+              "details": "Lazy loading: 0/9 (0%), Top 5 poids moyen: 211KB, Moyenne: 126KB"
+            },
+            "bestPractices": {
+              "score": 19,
+              "max": 30,
+              "details": "Formats modernes: 0% (9 png), Ratio décoratif: 33%"
+            }
+          },
+          "grade": "D",
+          "improvements": [
+            "Ajouter des attributs alt manquants (actuellement 6667%)",
+            "Implémenter le lazy loading pour les images below the fold",
+            "Optimiser le poids des images (actuel : 211KB, cible < 150KB)",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 111,
+      "externalLinks": 6,
+      "internalLinks": 7,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Les femmes savantes",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 0.77,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/les-femmes-savantes.html",
+            "resourceSize": 6745,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/PG-Les-femmes-savantes.png",
+            "resourceSize": 939989,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/LogoLivreG.png",
+            "resourceSize": 16722,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/LogojusticeG.png",
+            "resourceSize": 15840,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Ada-Lovelace.png",
+            "resourceSize": 34387,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Nettie-Stevens.png",
+            "resourceSize": 31262,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Lise-Meitner.png",
+            "resourceSize": 28760,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Rosalind-Franklin.png",
+            "resourceSize": 25061,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Marthe-Gauthier.png",
+            "resourceSize": 43874,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/Jocelyn-Bell-Burnell.png",
+            "resourceSize": 20820,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/une-vision-futur.html",
+      "title": "Une vision futur — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/vision-futur-bandeau.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 174,
+          "mimeType": "text/html",
+          "format": "jpg"
+        },
+        {
+          "src": "../assets/img/hidden-figures.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 168,
+          "mimeType": "text/html",
+          "format": "jpg"
+        },
+        {
+          "src": "../assets/img/contact.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 161,
+          "mimeType": "text/html",
+          "format": "jpg"
+        },
+        {
+          "src": "../assets/img/radioactive.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 165,
+          "mimeType": "text/html",
+          "format": "jpg"
+        },
+        {
+          "src": "../assets/img/agora.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 159,
+          "mimeType": "text/html",
+          "format": "jpg"
+        }
+      ],
+      "imageStats": {
+        "total": 5,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 5,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 5,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 5,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 5,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 165,
+        "top5AverageWeight": 165,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 5,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 1,
+        "images": [
+          {
+            "src": "../assets/img/vision-futur-bandeau.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "format": "jpg"
+          },
+          {
+            "src": "../assets/img/hidden-figures.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 168,
+            "mimeType": "text/html",
+            "format": "jpg"
+          },
+          {
+            "src": "../assets/img/contact.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 161,
+            "mimeType": "text/html",
+            "format": "jpg"
+          },
+          {
+            "src": "../assets/img/radioactive.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 165,
+            "mimeType": "text/html",
+            "format": "jpg"
+          },
+          {
+            "src": "../assets/img/agora.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 159,
+            "mimeType": "text/html",
+            "format": "jpg"
+          }
+        ],
+        "score": {
+          "total": 41,
+          "breakdown": {
+            "accessibility": {
+              "score": 8,
+              "max": 35,
+              "details": "0/5 images avec alt (0%), 0 alt de qualité, 5 décoratives (100%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/5 (0%), Top 5 poids moyen: 0KB, Moyenne: 0KB"
+            },
+            "bestPractices": {
+              "score": 11,
+              "max": 30,
+              "details": "Formats modernes: 0% (5 jpg), Ratio décoratif: 100%"
+            }
+          },
+          "grade": "F",
+          "improvements": [
+            "Ajouter des attributs alt manquants (actuellement 0%)",
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+            "Trop d'images marquées comme décoratives, vérifier la pertinence",
+            "Implémenter le lazy loading pour les images below the fold",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 119,
+      "externalLinks": 4,
+      "internalLinks": 6,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Une vision futur",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Films corrélés",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/une-vision-futur.html",
+            "resourceSize": 6866,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/vision-futur-bandeau.jpg",
+            "resourceSize": 174,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/hidden-figures.jpg",
+            "resourceSize": 168,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/contact.jpg",
+            "resourceSize": 161,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/radioactive.jpg",
+            "resourceSize": 165,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/agora.jpg",
+            "resourceSize": 159,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/video/gattaca-trailer.mp4",
+            "resourceSize": 171,
+            "mimeType": "text/html",
+            "resourceType": "Media"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 547,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6I…",
+            "resourceSize": 552,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxL…",
+            "resourceSize": 380,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 177,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 351,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3ciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkd…",
+            "resourceSize": 242,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/objet-de-la-bu.html",
+      "title": "Objet de la BU — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/objet-bu-bandeau.jpg",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 170,
+          "mimeType": "text/html",
+          "format": "jpg"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 1,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 170,
+        "top5AverageWeight": 170,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 1,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 1,
+        "images": [
+          {
+            "src": "../assets/img/objet-bu-bandeau.jpg",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 170,
+            "mimeType": "text/html",
+            "format": "jpg"
+          }
+        ],
+        "score": {
+          "total": 41,
+          "breakdown": {
+            "accessibility": {
+              "score": 8,
+              "max": 35,
+              "details": "0/1 images avec alt (0%), 0 alt de qualité, 1 décoratives (100%)"
+            },
+            "performance": {
+              "score": 22,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 0KB, Moyenne: 0KB"
+            },
+            "bestPractices": {
+              "score": 11,
+              "max": 30,
+              "details": "Formats modernes: 0% (1 jpg), Ratio décoratif: 100%"
+            }
+          },
+          "grade": "F",
+          "improvements": [
+            "Ajouter des attributs alt manquants (actuellement 0%)",
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+            "Trop d'images marquées comme décoratives, vérifier la pertinence",
+            "Implémenter le lazy loading pour les images below the fold",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 69,
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Objet de la BU",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/objet-de-la-bu.html",
+            "resourceSize": 5722,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/objet-bu-bandeau.jpg",
+            "resourceSize": 170,
+            "mimeType": "text/html",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/a-propos.html",
+      "title": "À propos — Sous le microscope",
+      "images": [
+        {
+          "src": "../assets/img/PApropos.png",
+          "alt": "No alt",
+          "ariaHidden": "✕",
+          "hasLazyLoading": false,
+          "resourceSize": 175672,
+          "mimeType": "image/png",
+          "format": "png"
+        }
+      ],
+      "imageStats": {
+        "total": 1,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 1,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 1,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 1,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 1,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": 175672,
+        "top5AverageWeight": 175672,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 1,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 1,
+        "images": [
+          {
+            "src": "../assets/img/PApropos.png",
+            "alt": "No alt",
+            "ariaHidden": "✕",
+            "hasLazyLoading": false,
+            "resourceSize": 175672,
+            "mimeType": "image/png",
+            "format": "png"
+          }
+        ],
+        "score": {
+          "total": 36,
+          "breakdown": {
+            "accessibility": {
+              "score": 8,
+              "max": 35,
+              "details": "0/1 images avec alt (0%), 0 alt de qualité, 1 décoratives (100%)"
+            },
+            "performance": {
+              "score": 17,
+              "max": 35,
+              "details": "Lazy loading: 0/1 (0%), Top 5 poids moyen: 172KB, Moyenne: 172KB"
+            },
+            "bestPractices": {
+              "score": 11,
+              "max": 30,
+              "details": "Formats modernes: 0% (1 png), Ratio décoratif: 100%"
+            }
+          },
+          "grade": "F",
+          "improvements": [
+            "Ajouter des attributs alt manquants (actuellement 0%)",
+            "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)",
+            "Trop d'images marquées comme décoratives, vérifier la pertinence",
+            "Implémenter le lazy loading pour les images below the fold",
+            "Optimiser le poids des images (actuel : 172KB, cible < 150KB)",
+            "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+          ]
+        }
+      },
+      "totalTags": 62,
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "À propos",
+          "tag": "h1"
+        },
+        {
+          "level": 2,
+          "text": "Le projet",
+          "tag": "h2"
+        }
+      ],
+      "validationErrors": [
+        {
+          "type": "error",
+          "url": "file:/var/folders/16/4ldk277s46qc_ystc3f9r0gr0000gn/T/validate-1767806738222.html",
+          "lastLine": 26,
+          "lastColumn": 45,
+          "firstColumn": 7,
+          "message": "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+          "extract": "re>\n      <img src=\"../assets/img/PApropos.png\" >\n    <",
+          "hiliteStart": 10,
+          "hiliteLength": 39
+        }
+      ],
+      "lighthouseReport": {
+        "performance": 0.99,
+        "accessibility": 0.93,
+        "bestPractices": 0.93,
+        "seo": 0.91,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/a-propos.html",
+            "resourceSize": 5027,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/assets/img/PApropos.png",
+            "resourceSize": 175672,
+            "mimeType": "image/png",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/autres-projets.html",
+      "title": "Autres projets — Sous le microscope",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 51,
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "deadLinks": 8,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Autres projets",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/autres-projets.html",
+            "resourceSize": 3098,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/contact.html",
+      "title": "Contact — Sous le microscope",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 53,
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Contact",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/contact.html",
+            "resourceSize": 3505,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ…",
+            "resourceSize": 266,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Image"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "file": "http://127.0.0.1:5500/fr/glossaire.html",
+      "title": "Glossaire — Sous le microscope",
+      "images": [],
+      "imageStats": {
+        "total": 0,
+        "withLazyLoading": 0,
+        "withoutLazyLoading": 0,
+        "lazyLoadingRatio": 0,
+        "lazyLoadingPercentage": 0
+      },
+      "imagesAnalysis": {
+        "totalImages": 0,
+        "imagesWithAlt": 0,
+        "imagesWithoutAlt": 0,
+        "imagesWithGoodAlt": 0,
+        "imagesWithPoorAlt": 0,
+        "decorativeImages": 0,
+        "contentImages": 0,
+        "imagesWithLazyLoading": 0,
+        "averageWeight": null,
+        "top5AverageWeight": null,
+        "formats": {
+          "avif": 0,
+          "webp": 0,
+          "jpg": 0,
+          "png": 0,
+          "svg": 0,
+          "gif": 0,
+          "unknown": 0
+        },
+        "decorativeRatio": 0,
+        "images": [],
+        "score": {
+          "total": 100,
+          "breakdown": {
+            "accessibility": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "performance": {
+              "score": 0,
+              "max": 35,
+              "details": "Aucune image détectée."
+            },
+            "bestPractices": {
+              "score": 0,
+              "max": 30,
+              "details": "Aucune image détectée."
+            }
+          },
+          "grade": "A",
+          "improvements": [
+            "Aucune image à optimiser."
+          ]
+        }
+      },
+      "totalTags": 54,
+      "externalLinks": 0,
+      "internalLinks": 6,
+      "deadLinks": 0,
+      "favicon": false,
+      "mailtoLinks": 0,
+      "viewport": true,
+      "headings": {
+        "h1": 1,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "outlineStructure": [
+        {
+          "level": 1,
+          "text": "Glossaire",
+          "tag": "h1"
+        }
+      ],
+      "validationErrors": [],
+      "lighthouseReport": {
+        "performance": 1,
+        "accessibility": 1,
+        "bestPractices": 0.96,
+        "seo": 1,
+        "viewport": 1,
+        "errors": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5500/fr/glossaire.html",
+            "resourceSize": 4202,
+            "mimeType": "text/html",
+            "resourceType": "Document"
+          },
+          {
+            "url": "http://127.0.0.1:5500/src/css/style.css",
+            "resourceSize": 25812,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet"
+          },
+          {
+            "url": "http://127.0.0.1:5500/favicon.ico",
+            "resourceSize": 150,
+            "mimeType": "text/html",
+            "resourceType": "Other"
+          }
+        ]
+      }
+    }
+  ],
+  "globalAnalysis": {
+    "tagsPresent": [
+      "body",
+      "article",
+      "nav",
+      "header",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "p",
+      "blockquote",
+      "ul",
+      "li",
+      "figure",
+      "figcaption",
+      "form",
+      "label",
+      "input",
+      "button",
+      "img",
+      "a",
+      "em",
+      "strong",
+      "html",
+      "head",
+      "title",
+      "link",
+      "meta",
+      "script",
+      "video"
+    ],
+    "tagsMissing": [
+      "textarea"
+    ],
+    "obsoleteTags": [],
+    "obsoleteTagsUsage": {},
+    "otherTags": [
+      "div",
+      "hr",
+      "br"
+    ],
+    "otherTagsUsage": {
+      "div": 16,
+      "hr": 16,
+      "br": 29
+    }
+  },
+  "globalImagesAnalysis": {
+    "totalPages": 11,
+    "pagesWithImages": 11,
+    "globalStats": {
+      "totalImages": 31,
+      "imagesWithAlt": 18,
+      "imagesWithoutAlt": 13,
+      "imagesWithGoodAlt": 18,
+      "imagesWithPoorAlt": 0,
+      "decorativeImages": 13,
+      "contentImages": 18,
+      "imagesWithLazyLoading": 0,
+      "averageWeight": 60948,
+      "top5AverageWeight": 295010,
+      "decorativeRatio": 0.42
+    },
+    "formats": {
+      "avif": 0,
+      "webp": 0,
+      "jpg": 9,
+      "png": 22,
+      "svg": 0,
+      "gif": 0,
+      "unknown": 0
+    },
+    "globalScore": {
+      "total": 55,
+      "breakdown": {
+        "accessibility": {
+          "score": 22,
+          "max": 35,
+          "details": "18/31 images avec alt (58%), 18 alt de qualité, 13 décoratives (42%)"
+        },
+        "performance": {
+          "score": 14,
+          "max": 35,
+          "details": "Lazy loading: 0/31 (0%), Top 5 poids moyen: 288KB, Moyenne: 60KB"
+        },
+        "bestPractices": {
+          "score": 19,
+          "max": 30,
+          "details": "Formats modernes: 0% (9 jpg, 22 png), Ratio décoratif: 42%"
+        }
+      },
+      "grade": "E",
+      "improvements": [
+        "Ajouter des attributs alt manquants (actuellement 5806%)",
+        "Implémenter le lazy loading pour les images below the fold",
+        "Reduire le poids des images (actuel : 288KB, cible < 150KB)",
+        "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+      ]
+    },
+    "pageScores": [
+      {
+        "page": "http://127.0.0.1:5500/fr/",
+        "score": 72,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/menu.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/histoire-nettie-stevens.html",
+        "score": 72,
+        "grade": "C"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/LSDC.html",
+        "score": 60,
+        "grade": "D"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/les-femmes-savantes.html",
+        "score": 64,
+        "grade": "D"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/une-vision-futur.html",
+        "score": 41,
+        "grade": "F"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/objet-de-la-bu.html",
+        "score": 41,
+        "grade": "F"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/a-propos.html",
+        "score": 36,
+        "grade": "F"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/autres-projets.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/contact.html",
+        "score": 100,
+        "grade": "A"
+      },
+      {
+        "page": "http://127.0.0.1:5500/fr/glossaire.html",
+        "score": 100,
+        "grade": "A"
+      }
+    ],
+    "scoreStats": {
+      "average": 71,
+      "min": 36,
+      "max": 100,
+      "median": 72
+    }
+  },
+  "cssAnalysisResult": {
+    "stylesheet": {
+      "sourceLinesOfCode": 732,
+      "linesOfCode": 1132,
+      "size": 25764,
+      "complexity": 3031,
+      "comments": {
+        "total": 75,
+        "size": 4492
+      },
+      "embeddedContent": {
+        "size": {
+          "total": 0,
+          "ratio": 0
+        },
+        "types": {
+          "total": 0,
+          "totalUnique": 0,
+          "uniquenessRatio": 0,
+          "unique": {}
+        }
+      }
+    },
+    "atrules": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "fontface": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": [],
+        "uniquenessRatio": 0
+      },
+      "import": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "media": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "features": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "charset": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "supports": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "browserhacks": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "prefixed": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "container": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "names": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "layer": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "property": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "complexity": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [],
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
+    },
+    "rules": {
+      "total": 142,
+      "empty": {
+        "total": 0,
+        "ratio": 0
+      },
+      "sizes": {
+        "min": 2,
+        "max": 15,
+        "mean": 5.154929577464789,
+        "mode": 2,
+        "range": 13,
+        "sum": 732,
+        "items": [
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          11,
+          7,
+          2,
+          5,
+          2,
+          3,
+          3,
+          4,
+          7,
+          2,
+          2,
+          6,
+          5,
+          4,
+          2,
+          2,
+          15,
+          3,
+          4,
+          2,
+          10,
+          3,
+          2,
+          5,
+          2,
+          2,
+          4,
+          2,
+          8,
+          6,
+          8,
+          2,
+          5,
+          6,
+          10,
+          4,
+          3,
+          4,
+          4,
+          4,
+          6,
+          7,
+          7,
+          5,
+          9,
+          9,
+          5,
+          5,
+          7,
+          2,
+          9,
+          3,
+          3,
+          6,
+          5,
+          5,
+          9,
+          4,
+          4,
+          3,
+          3,
+          4,
+          6,
+          2,
+          4,
+          2,
+          4,
+          3,
+          5,
+          3,
+          5,
+          14,
+          2,
+          9,
+          6,
+          10,
+          5,
+          4,
+          4,
+          4,
+          6,
+          7,
+          6,
+          9,
+          5,
+          7,
+          6,
+          8,
+          2,
+          3,
+          9,
+          3,
+          6,
+          3,
+          7,
+          5,
+          3,
+          6,
+          3,
+          2,
+          5,
+          8,
+          11,
+          3,
+          15,
+          3,
+          6,
+          3,
+          9,
+          2,
+          8,
+          9,
+          7,
+          11,
+          5,
+          3,
+          8,
+          2,
+          12,
+          6,
+          5,
+          3,
+          10,
+          8,
+          2,
+          2,
+          6,
+          3,
+          2,
+          5,
+          4,
+          5,
+          2,
+          11,
+          9,
+          3
+        ],
+        "total": 142,
+        "totalUnique": 13,
+        "unique": {
+          "2": 29,
+          "3": 24,
+          "4": 17,
+          "5": 19,
+          "6": 15,
+          "7": 9,
+          "8": 7,
+          "9": 10,
+          "10": 4,
+          "11": 4,
+          "12": 1,
+          "14": 1,
+          "15": 2
+        },
+        "uniquenessRatio": 0.09154929577464789
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 142,
+        "totalUnique": 1,
+        "unique": {
+          "0": 142
+        },
+        "uniquenessRatio": 0.007042253521126761
+      },
+      "selectors": {
+        "min": 1,
+        "max": 3,
+        "mean": 1.056338028169014,
+        "mode": 1,
+        "range": 2,
+        "sum": 150,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total": 142,
+        "totalUnique": 3,
+        "unique": {
+          "1": 136,
+          "2": 4,
+          "3": 2
+        },
+        "uniquenessRatio": 0.02112676056338028
+      },
+      "declarations": {
+        "min": 1,
+        "max": 14,
+        "mean": 4.098591549295775,
+        "mode": 1,
+        "range": 13,
+        "sum": 582,
+        "items": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          10,
+          6,
+          1,
+          4,
+          1,
+          2,
+          2,
+          3,
+          5,
+          1,
+          1,
+          5,
+          4,
+          3,
+          1,
+          1,
+          14,
+          2,
+          3,
+          1,
+          9,
+          2,
+          1,
+          4,
+          1,
+          1,
+          3,
+          1,
+          7,
+          5,
+          7,
+          1,
+          4,
+          5,
+          9,
+          3,
+          1,
+          3,
+          3,
+          3,
+          5,
+          6,
+          6,
+          4,
+          8,
+          6,
+          4,
+          4,
+          6,
+          1,
+          8,
+          2,
+          2,
+          5,
+          4,
+          4,
+          8,
+          3,
+          3,
+          2,
+          2,
+          3,
+          5,
+          1,
+          2,
+          1,
+          3,
+          2,
+          4,
+          2,
+          4,
+          13,
+          1,
+          8,
+          5,
+          9,
+          4,
+          3,
+          3,
+          3,
+          5,
+          6,
+          5,
+          8,
+          4,
+          6,
+          5,
+          7,
+          1,
+          2,
+          8,
+          2,
+          5,
+          2,
+          6,
+          4,
+          2,
+          5,
+          2,
+          1,
+          4,
+          7,
+          10,
+          2,
+          14,
+          2,
+          5,
+          2,
+          8,
+          1,
+          7,
+          8,
+          6,
+          9,
+          4,
+          2,
+          7,
+          1,
+          9,
+          5,
+          4,
+          2,
+          9,
+          7,
+          1,
+          1,
+          5,
+          2,
+          1,
+          4,
+          3,
+          4,
+          1,
+          10,
+          8,
+          2
+        ],
+        "total": 142,
+        "totalUnique": 12,
+        "unique": {
+          "1": 30,
+          "2": 24,
+          "3": 16,
+          "4": 19,
+          "5": 16,
+          "6": 9,
+          "7": 7,
+          "8": 9,
+          "9": 6,
+          "10": 3,
+          "13": 1,
+          "14": 2
+        },
+        "uniquenessRatio": 0.08450704225352113
+      }
+    },
+    "selectors": {
+      "total": 150,
+      "totalUnique": 140,
+      "uniquenessRatio": 0.9333333333333333,
+      "specificity": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          1,
+          0,
+          4
+        ],
+        "sum": [
+          1,
+          255,
+          470
+        ],
+        "mean": [
+          0.006666666666666667,
+          1.7,
+          3.1333333333333333
+        ],
+        "mode": [
+          0,
+          0,
+          5
+        ],
+        "items": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            4,
+            5
+          ],
+          [
+            0,
+            4,
+            6
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            0,
+            2,
+            5
+          ],
+          [
+            0,
+            3,
+            5
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "total": 150,
+        "totalUnique": 27,
+        "unique": {
+          "0,0,0": 1,
+          "0,0,1": 11,
+          "0,1,0": 9,
+          "0,0,2": 8,
+          "0,0,3": 10,
+          "0,0,4": 9,
+          "0,1,3": 2,
+          "0,1,2": 1,
+          "0,0,5": 1,
+          "0,0,6": 3,
+          "0,1,5": 1,
+          "0,1,6": 1,
+          "0,2,4": 4,
+          "0,3,4": 5,
+          "0,3,5": 23,
+          "0,3,6": 6,
+          "0,4,5": 8,
+          "0,4,6": 2,
+          "0,2,5": 7,
+          "0,2,6": 4,
+          "0,2,0": 4,
+          "0,1,1": 2,
+          "1,0,4": 1,
+          "0,1,4": 2,
+          "0,2,1": 18,
+          "0,3,1": 5,
+          "0,3,0": 2
+        },
+        "uniquenessRatio": 0.18
+      },
+      "complexity": {
+        "min": 1,
+        "max": 18,
+        "mean": 8.38,
+        "mode": 5,
+        "range": 17,
+        "sum": 1257,
+        "total": 150,
+        "totalUnique": 18,
+        "unique": {
+          "1": 21,
+          "2": 2,
+          "3": 12,
+          "4": 3,
+          "5": 28,
+          "6": 3,
+          "7": 13,
+          "8": 3,
+          "9": 1,
+          "10": 4,
+          "11": 5,
+          "12": 7,
+          "13": 9,
+          "14": 5,
+          "15": 18,
+          "16": 8,
+          "17": 6,
+          "18": 2
+        },
+        "uniquenessRatio": 0.12,
+        "items": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          5,
+          7,
+          7,
+          3,
+          5,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          1,
+          3,
+          4,
+          1,
+          5,
+          5,
+          5,
+          3,
+          5,
+          7,
+          7,
+          9,
+          11,
+          11,
+          11,
+          10,
+          12,
+          11,
+          13,
+          15,
+          16,
+          17,
+          15,
+          15,
+          16,
+          15,
+          17,
+          16,
+          13,
+          15,
+          17,
+          14,
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          13,
+          15,
+          15,
+          16,
+          13,
+          15,
+          17,
+          15,
+          15,
+          16,
+          18,
+          13,
+          15,
+          17,
+          17,
+          15,
+          15,
+          16,
+          16,
+          18,
+          10,
+          12,
+          14,
+          11,
+          12,
+          10,
+          12,
+          13,
+          14,
+          12,
+          13,
+          14,
+          13,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          3,
+          10,
+          12,
+          14,
+          12,
+          13,
+          7,
+          5,
+          7,
+          8,
+          7,
+          7,
+          8,
+          7,
+          8,
+          7,
+          5,
+          5,
+          6,
+          5,
+          3,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          7,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5,
+          3,
+          6,
+          5,
+          7,
+          7,
+          6,
+          5,
+          5,
+          4
+        ]
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 150,
+        "totalUnique": 1,
+        "unique": {
+          "0": 150
+        },
+        "uniquenessRatio": 0.006666666666666667
+      },
+      "id": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "body:has(form) form p#info": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.006666666666666667
+      },
+      "pseudoClasses": {
+        "total": 185,
+        "totalUnique": 11,
+        "unique": {
+          "root": 1,
+          "nth-child": 3,
+          "only-child": 1,
+          "has": 82,
+          "last-child": 12,
+          "nth-of-type": 56,
+          "first-child": 20,
+          "first-of-type": 5,
+          "last-of-type": 3,
+          "focus": 1,
+          "nth-last-of-type": 1
+        },
+        "uniquenessRatio": 0.05945945945945946
+      },
+      "accessibility": {
+        "total": 59,
+        "totalUnique": 55,
+        "unique": {
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > h2": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1)": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) figure": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) figure::before": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) figure img": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) h3": 2,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:first-child": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:nth-of-type(2)": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:last-child": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3)": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) figure": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) figure img": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3)::before": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) h3": 2,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) h2": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) p": 2,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) p:last-child": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4)": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) h3": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) p": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) p:last-child": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5)": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) figure": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) figure img": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) h3": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) p": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) p:last-child": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) p:last-child a": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6)": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) figure": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) figure img": 2,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) p": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) blockquote": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) p:first-of-type": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) p:last-child": 1,
+          "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(6) p:last-child a": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Bandeau\"]": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Bandeau\"] figure": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Bandeau\"] figure img": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Bandeau\"]::after": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] h2": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"]": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] figure": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] figure::before": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] figure img": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:first-of-type": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:nth-of-type(2)": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:last-of-type": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"]": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] blockquote": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] blockquote p": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] cite": 1,
+          "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] p:last-child": 1
+        },
+        "uniquenessRatio": 0.9322033898305084,
+        "ratio": 0.3933333333333333
+      },
+      "keyframes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "combinators": {
+        "total": 288,
+        "totalUnique": 2,
+        "unique": {
+          ">": 61,
+          " ": 227
+        },
+        "uniquenessRatio": 0.006944444444444444
+      }
+    },
+    "declarations": {
+      "total": 582,
+      "totalUnique": 254,
+      "uniquenessRatio": 0.436426116838488,
+      "importants": {
+        "total": 16,
+        "ratio": 0.027491408934707903,
+        "inKeyframes": {
+          "total": 0,
+          "ratio": 0
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0274914089347078,
+        "mode": 1,
+        "range": 1,
+        "sum": 598
+      },
+      "nesting": {
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "mode": 0,
+        "range": 0,
+        "sum": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 582,
+        "totalUnique": 1,
+        "unique": {
+          "0": 582
+        },
+        "uniquenessRatio": 0.001718213058419244
+      }
+    },
+    "properties": {
+      "total": 582,
+      "totalUnique": 64,
+      "unique": {
+        "box-sizing": 2,
+        "margin": 68,
+        "display": 26,
+        "max-width": 2,
+        "color": 24,
+        "--bg": 1,
+        "--text": 1,
+        "--white": 1,
+        "--gold": 1,
+        "--dark": 1,
+        "--ctaBlue": 1,
+        "--shadow": 1,
+        "--radius": 1,
+        "--serif": 1,
+        "--sans": 1,
+        "font-family": 19,
+        "background": 29,
+        "-webkit-font-smoothing": 1,
+        "-moz-osx-font-smoothing": 1,
+        "padding": 43,
+        "justify-content": 2,
+        "align-items": 3,
+        "font-size": 48,
+        "letter-spacing": 11,
+        "margin-top": 9,
+        "text-decoration": 6,
+        "line-height": 18,
+        "border-radius": 39,
+        "text-transform": 9,
+        "box-shadow": 6,
+        "font-weight": 15,
+        "min-height": 7,
+        "list-style": 2,
+        "flex-direction": 3,
+        "text-align": 20,
+        "position": 25,
+        "overflow": 7,
+        "right": 10,
+        "bottom": 6,
+        "width": 21,
+        "content": 4,
+        "height": 14,
+        "top": 10,
+        "z-index": 8,
+        "margin-right": 6,
+        "left": 4,
+        "object-fit": 6,
+        "margin-left": 1,
+        "margin-bottom": 1,
+        "padding-left": 1,
+        "padding-top": 4,
+        "transform": 2,
+        "font-style": 3,
+        "border-bottom": 6,
+        "padding-bottom": 6,
+        "opacity": 2,
+        "border": 2,
+        "outline": 1,
+        "outline-offset": 1,
+        "cursor": 1,
+        "padding-right": 4,
+        "gap": 1,
+        "flex-shrink": 1,
+        "flex": 1
+      },
+      "uniquenessRatio": 0.10996563573883161,
+      "prefixed": {
+        "total": 2,
+        "totalUnique": 2,
+        "unique": {
+          "-webkit-font-smoothing": 1,
+          "-moz-osx-font-smoothing": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.003436426116838488
+      },
+      "custom": {
+        "total": 10,
+        "totalUnique": 10,
+        "unique": {
+          "--bg": 1,
+          "--text": 1,
+          "--white": 1,
+          "--gold": 1,
+          "--dark": 1,
+          "--ctaBlue": 1,
+          "--shadow": 1,
+          "--radius": 1,
+          "--serif": 1,
+          "--sans": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.01718213058419244,
+        "importants": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0,
+          "ratio": 0
+        }
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "complexity": {
+        "min": 1,
+        "max": 2,
+        "mean": 1.0206185567010309,
+        "mode": 1,
+        "range": 1,
+        "sum": 594
+      }
+    },
+    "values": {
+      "colors": {
+        "total": 19,
+        "totalUnique": 14,
+        "unique": {
+          "#f6f2ea": 1,
+          "#111111": 1,
+          "#ffffff": 3,
+          "#f3cf86": 1,
+          "#112038": 1,
+          "#bfefff": 1,
+          "rgba(0,0,0,0.12)": 1,
+          "#0b0b0b": 1,
+          "#111": 3,
+          "#9fc0ef": 1,
+          "#cfe7ff": 1,
+          "#1e1e1e": 2,
+          "#d7e6ee": 1,
+          "#f4e6c8": 1
+        },
+        "uniquenessRatio": 0.7368421052631579,
+        "itemsPerContext": {
+          "--bg": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f6f2ea": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--text": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#111111": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--white": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#ffffff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--gold": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#f3cf86": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--dark": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#112038": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--ctaBlue": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "#bfefff": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "--shadow": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "rgba(0,0,0,0.12)": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "background": {
+            "total": 6,
+            "totalUnique": 5,
+            "unique": {
+              "#0b0b0b": 1,
+              "#9fc0ef": 1,
+              "#1e1e1e": 2,
+              "#d7e6ee": 1,
+              "#f4e6c8": 1
+            },
+            "uniquenessRatio": 0.8333333333333334
+          },
+          "color": {
+            "total": 6,
+            "totalUnique": 3,
+            "unique": {
+              "#111": 3,
+              "#cfe7ff": 1,
+              "#ffffff": 2
+            },
+            "uniquenessRatio": 0.5
+          }
+        },
+        "formats": {
+          "total": 19,
+          "totalUnique": 3,
+          "unique": {
+            "hex6": 15,
+            "rgba": 1,
+            "hex3": 3
+          },
+          "uniquenessRatio": 0.15789473684210525
+        }
+      },
+      "gradients": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "fontFamilies": {
+        "total": 19,
+        "totalUnique": 2,
+        "unique": {
+          "var(--sans)": 6,
+          "var(--serif)": 13
+        },
+        "uniquenessRatio": 0.10526315789473684
+      },
+      "fontSizes": {
+        "total": 48,
+        "totalUnique": 18,
+        "unique": {
+          "18px": 2,
+          "14px": 5,
+          "32px": 6,
+          "22px": 2,
+          "15px": 4,
+          "13px": 7,
+          "16px": 8,
+          "28px": 1,
+          "19px": 2,
+          "90px": 1,
+          "17px": 2,
+          "36px": 1,
+          "62px": 1,
+          "21px": 1,
+          "26px": 1,
+          "24px": 1,
+          "20px": 2,
+          "11px": 1
+        },
+        "uniquenessRatio": 0.375
+      },
+      "lineHeights": {
+        "total": 18,
+        "totalUnique": 7,
+        "unique": {
+          "1": 1,
+          "1.1": 3,
+          "1.5": 5,
+          "1.3": 3,
+          "1.65": 3,
+          "1.45": 2,
+          "1.6": 1
+        },
+        "uniquenessRatio": 0.3888888888888889
+      },
+      "zindexes": {
+        "total": 8,
+        "totalUnique": 4,
+        "unique": {
+          "0": 2,
+          "1": 3,
+          "2": 1,
+          "10": 2
+        },
+        "uniquenessRatio": 0.5
+      },
+      "textShadows": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "boxShadows": {
+        "total": 6,
+        "totalUnique": 1,
+        "unique": {
+          "var(--shadow)": 6
+        },
+        "uniquenessRatio": 0.16666666666666666
+      },
+      "borderRadiuses": {
+        "total": 39,
+        "totalUnique": 12,
+        "unique": {
+          "0": 8,
+          "var(--radius)": 8,
+          "16px": 2,
+          "999px": 7,
+          "50%": 2,
+          "14px": 3,
+          "44px": 1,
+          "var(--radius) var(--radius) 0 0": 2,
+          "8px": 1,
+          "14px 14px 0 0": 2,
+          "0 0 14px 14px": 2,
+          "50px": 1
+        },
+        "uniquenessRatio": 0.3076923076923077,
+        "itemsPerContext": {
+          "border-radius": {
+            "total": 39,
+            "totalUnique": 12,
+            "unique": {
+              "0": 8,
+              "var(--radius)": 8,
+              "16px": 2,
+              "999px": 7,
+              "50%": 2,
+              "14px": 3,
+              "44px": 1,
+              "var(--radius) var(--radius) 0 0": 2,
+              "8px": 1,
+              "14px 14px 0 0": 2,
+              "0 0 14px 14px": 2,
+              "50px": 1
+            },
+            "uniquenessRatio": 0.3076923076923077
+          }
+        }
+      },
+      "animations": {
+        "durations": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        },
+        "timingFunctions": {
+          "total": 0,
+          "totalUnique": 0,
+          "unique": {},
+          "uniquenessRatio": 0
+        }
+      },
+      "prefixes": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      },
+      "units": {
+        "total": 268,
+        "totalUnique": 3,
+        "unique": {
+          "px": 264,
+          "vh": 1,
+          "vw": 3
+        },
+        "uniquenessRatio": 0.011194029850746268,
+        "itemsPerContext": {
+          "--shadow": {
+            "total": 2,
+            "totalUnique": 1,
+            "unique": {
+              "px": 2
+            },
+            "uniquenessRatio": 0.5
+          },
+          "--radius": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding": {
+            "total": 53,
+            "totalUnique": 1,
+            "unique": {
+              "px": 53
+            },
+            "uniquenessRatio": 0.018867924528301886
+          },
+          "font-size": {
+            "total": 48,
+            "totalUnique": 1,
+            "unique": {
+              "px": 48
+            },
+            "uniquenessRatio": 0.020833333333333332
+          },
+          "letter-spacing": {
+            "total": 11,
+            "totalUnique": 1,
+            "unique": {
+              "px": 11
+            },
+            "uniquenessRatio": 0.09090909090909091
+          },
+          "margin-top": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "margin": {
+            "total": 50,
+            "totalUnique": 2,
+            "unique": {
+              "px": 49,
+              "vw": 1
+            },
+            "uniquenessRatio": 0.04
+          },
+          "border-radius": {
+            "total": 23,
+            "totalUnique": 1,
+            "unique": {
+              "px": 23
+            },
+            "uniquenessRatio": 0.043478260869565216
+          },
+          "min-height": {
+            "total": 7,
+            "totalUnique": 2,
+            "unique": {
+              "px": 6,
+              "vh": 1
+            },
+            "uniquenessRatio": 0.2857142857142857
+          },
+          "right": {
+            "total": 9,
+            "totalUnique": 1,
+            "unique": {
+              "px": 9
+            },
+            "uniquenessRatio": 0.1111111111111111
+          },
+          "bottom": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "width": {
+            "total": 6,
+            "totalUnique": 2,
+            "unique": {
+              "px": 5,
+              "vw": 1
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "height": {
+            "total": 10,
+            "totalUnique": 1,
+            "unique": {
+              "px": 10
+            },
+            "uniquenessRatio": 0.1
+          },
+          "top": {
+            "total": 7,
+            "totalUnique": 1,
+            "unique": {
+              "px": 7
+            },
+            "uniquenessRatio": 0.14285714285714285
+          },
+          "left": {
+            "total": 3,
+            "totalUnique": 1,
+            "unique": {
+              "px": 3
+            },
+            "uniquenessRatio": 0.3333333333333333
+          },
+          "margin-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "margin-bottom": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-left": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-top": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "border-bottom": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "padding-bottom": {
+            "total": 6,
+            "totalUnique": 1,
+            "unique": {
+              "px": 6
+            },
+            "uniquenessRatio": 0.16666666666666666
+          },
+          "outline": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "outline-offset": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "max-width": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "vw": 1
+            },
+            "uniquenessRatio": 1
+          },
+          "padding-right": {
+            "total": 4,
+            "totalUnique": 1,
+            "unique": {
+              "px": 4
+            },
+            "uniquenessRatio": 0.25
+          },
+          "gap": {
+            "total": 1,
+            "totalUnique": 1,
+            "unique": {
+              "px": 1
+            },
+            "uniquenessRatio": 1
+          }
+        }
+      },
+      "complexity": {
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "mode": 1,
+        "range": 0,
+        "sum": 582
+      },
+      "keywords": {
+        "total": 28,
+        "totalUnique": 3,
+        "unique": {
+          "inherit": 1,
+          "none": 22,
+          "auto": 5
+        },
+        "uniquenessRatio": 0.10714285714285714
+      },
+      "resets": {
+        "total": 37,
+        "totalUnique": 4,
+        "unique": {
+          "margin": 22,
+          "padding": 12,
+          "margin-right": 2,
+          "margin-top": 1
+        },
+        "uniquenessRatio": 0.10810810810810811
+      }
+    },
+    "__meta__": {
+      "parseTime": 7,
+      "analyzeTime": 10,
+      "total": 17
+    },
+    "imports": {
+      "total": 0,
+      "imports": [],
+      "organization": {
+        "googleFontsCount": 0,
+        "externalCount": 0,
+        "relativeCount": 0,
+        "validCount": 0,
+        "invalidCount": 0,
+        "categories": {},
+        "namingIssues": {
+          "totalFiles": 0,
+          "filesWithIssues": 0,
+          "withSpaces": 0,
+          "withAccents": 0,
+          "withSpecialChars": 0,
+          "withUpperCase": 0,
+          "problematicFiles": []
+        }
+      },
+      "score": {
+        "total": 3,
+        "breakdown": {
+          "validity": {
+            "score": 0,
+            "max": 24.99,
+            "details": "Aucun import détecté."
+          },
+          "organization": {
+            "score": 0,
+            "max": 30,
+            "details": "Aucune organisation détectée."
+          },
+          "performance": {
+            "score": 0,
+            "max": 20,
+            "details": "Aucun import. "
+          },
+          "naming": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucun fichier à analyser."
+          },
+          "bestPractices": {
+            "score": 3,
+            "max": 10,
+            "details": "Bonnes pratiques respectées."
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Organiser le CSS en catégories (base, components, layout, utils)"
+        ]
+      }
+    },
+    "customProperties": {
+      "totalDeclared": 10,
+      "totalUsed": 10,
+      "totalUnused": 0,
+      "totalUndeclared": 0,
+      "declarations": [
+        {
+          "name": "--bg",
+          "value": "#f6f2ea",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--text",
+          "value": "#111111",
+          "usageCount": 17,
+          "category": "color"
+        },
+        {
+          "name": "--white",
+          "value": "#ffffff",
+          "usageCount": 6,
+          "category": "color"
+        },
+        {
+          "name": "--gold",
+          "value": "#f3cf86",
+          "usageCount": 15,
+          "category": "color"
+        },
+        {
+          "name": "--dark",
+          "value": "#112038",
+          "usageCount": 1,
+          "category": "color"
+        },
+        {
+          "name": "--ctaBlue",
+          "value": "#bfefff",
+          "usageCount": 2,
+          "category": "color"
+        },
+        {
+          "name": "--shadow",
+          "value": "0 6px 16px rgba(0,0,0,0.12)",
+          "usageCount": 6,
+          "category": "color"
+        },
+        {
+          "name": "--radius",
+          "value": "18px",
+          "usageCount": 12,
+          "category": "radius"
+        },
+        {
+          "name": "--serif",
+          "value": "Georgia, serif",
+          "usageCount": 13,
+          "category": "other"
+        },
+        {
+          "name": "--sans",
+          "value": "Arial, sans-serif",
+          "usageCount": 6,
+          "category": "other"
+        }
+      ],
+      "unusedVariables": [],
+      "undeclaredUsages": [],
+      "categorization": {
+        "color": 7,
+        "typography": 0,
+        "spacing": 0,
+        "radius": 1,
+        "other": 2
+      },
+      "detailedCategorization": {
+        "color": [
+          {
+            "name": "--bg",
+            "value": "#f6f2ea",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--text",
+            "value": "#111111",
+            "usageCount": 17,
+            "category": "color"
+          },
+          {
+            "name": "--white",
+            "value": "#ffffff",
+            "usageCount": 6,
+            "category": "color"
+          },
+          {
+            "name": "--gold",
+            "value": "#f3cf86",
+            "usageCount": 15,
+            "category": "color"
+          },
+          {
+            "name": "--dark",
+            "value": "#112038",
+            "usageCount": 1,
+            "category": "color"
+          },
+          {
+            "name": "--ctaBlue",
+            "value": "#bfefff",
+            "usageCount": 2,
+            "category": "color"
+          },
+          {
+            "name": "--shadow",
+            "value": "0 6px 16px rgba(0,0,0,0.12)",
+            "usageCount": 6,
+            "category": "color"
+          }
+        ],
+        "typography": [],
+        "spacing": [],
+        "radius": [
+          {
+            "name": "--radius",
+            "value": "18px",
+            "usageCount": 12,
+            "category": "radius"
+          }
+        ],
+        "other": [
+          {
+            "name": "--serif",
+            "value": "Georgia, serif",
+            "usageCount": 13,
+            "category": "other"
+          },
+          {
+            "name": "--sans",
+            "value": "Arial, sans-serif",
+            "usageCount": 6,
+            "category": "other"
+          }
+        ]
+      },
+      "ratio": {
+        "variableUsages": 77,
+        "rawProperties": 505,
+        "variableRatio": 0.1323024054982818
+      },
+      "score": {
+        "total": 67,
+        "breakdown": {
+          "adoption": {
+            "score": 15,
+            "max": 40,
+            "details": "13% des propriétés utilisent des variables."
+          },
+          "coverage": {
+            "score": 25,
+            "max": 25,
+            "details": "10/10 variables utilisées (100%)."
+          },
+          "hygiene": {
+            "score": 20,
+            "max": 20,
+            "details": "Aucun problème d'hygiène détecté."
+          },
+          "categories": {
+            "score": 5,
+            "max": 10,
+            "details": "2/4 catégories clés couvertes."
+          },
+          "bestPractices": {
+            "score": 2,
+            "max": 5,
+            "details": "Faible adoption, aucun usage non déclaré."
+          }
+        },
+        "grade": "D",
+        "improvements": [
+          "Augmenter l'usage des variables sur les propriétés CSS"
+        ]
+      }
+    },
+    "typography": {
+      "webfonts": {
+        "detected": false,
+        "count": 0,
+        "sources": {
+          "html": 0,
+          "css": 0
+        },
+        "details": []
+      },
+      "fontFamilies": {
+        "Arial": {
+          "declarationCount": 6,
+          "isGlobal": true,
+          "selectors": [
+            "body",
+            "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) h3",
+            "body:has(form) form input",
+            "body:has(form) form button",
+            "body:has(dl) dt",
+            "body:has(dl) dd"
+          ],
+          "selectorCount": 6,
+          "sizes": [
+            {
+              "size": "18px",
+              "selectors": [
+                "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) h3"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            },
+            {
+              "size": "16px",
+              "selectors": [
+                "body:has(form) form input",
+                "body:has(dl) dd"
+              ],
+              "lineHeights": [
+                "1.65"
+              ],
+              "selectorCount": 2
+            },
+            {
+              "size": "15px",
+              "selectors": [
+                "body:has(form) form button"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            },
+            {
+              "size": "20px",
+              "selectors": [
+                "body:has(dl) dt"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            }
+          ],
+          "sizeVariations": 4,
+          "fallbacks": [
+            "sans-serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "sans-serif"
+        },
+        "Georgia": {
+          "declarationCount": 13,
+          "isGlobal": false,
+          "selectors": [
+            "article h3",
+            "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:first-child",
+            "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:nth-of-type(2)",
+            "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) h3",
+            "body:has(h1:first-child) main section[aria-label=\"Bandeau\"]::after",
+            "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:nth-of-type(2)",
+            ".bio-card__title",
+            ".discovery-card__title",
+            "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] blockquote p",
+            "body:has(form) main h1",
+            "body:has(form) form label",
+            "body:has(dl) main h1",
+            ".page-savantes h1"
+          ],
+          "selectorCount": 13,
+          "sizes": [
+            {
+              "size": "22px",
+              "selectors": [
+                "article h3",
+                "body:has(form) form label"
+              ],
+              "lineHeights": [
+                "1.1"
+              ],
+              "selectorCount": 2
+            },
+            {
+              "size": "15px",
+              "selectors": [
+                "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:first-child"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            },
+            {
+              "size": "19px",
+              "selectors": [
+                "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:nth-of-type(2)",
+                "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:nth-of-type(2)"
+              ],
+              "lineHeights": [],
+              "selectorCount": 2
+            },
+            {
+              "size": "36px",
+              "selectors": [
+                "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) h3"
+              ],
+              "lineHeights": [],
+              "selectorCount": 1
+            },
+            {
+              "size": "62px",
+              "selectors": [
+                "body:has(h1:first-child) main section[aria-label=\"Bandeau\"]::after"
+              ],
+              "lineHeights": [
+                "1.1"
+              ],
+              "selectorCount": 1
+            },
+            {
+              "size": "26px",
+              "selectors": [
+                ".bio-card__title"
+              ],
+              "lineHeights": [
+                "1.3"
+              ],
+              "selectorCount": 1
+            },
+            {
+              "size": "24px",
+              "selectors": [
+                ".discovery-card__title"
+              ],
+              "lineHeights": [
+                "1.3"
+              ],
+              "selectorCount": 1
+            },
+            {
+              "size": "20px",
+              "selectors": [
+                "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] blockquote p"
+              ],
+              "lineHeights": [
+                "1.5"
+              ],
+              "selectorCount": 1
+            },
+            {
+              "size": "32px",
+              "selectors": [
+                "body:has(form) main h1",
+                "body:has(dl) main h1",
+                ".page-savantes h1"
+              ],
+              "lineHeights": [],
+              "selectorCount": 3
+            }
+          ],
+          "sizeVariations": 9,
+          "fallbacks": [
+            "serif"
+          ],
+          "hasGenericFallback": true,
+          "genericFallback": "serif"
+        }
+      },
+      "summary": {
+        "totalFamilies": 2,
+        "totalFontFamilyDeclarations": 19,
+        "totalFontSizeDeclarations": 48,
+        "totalLineHeightDeclarations": 18,
+        "hasGlobalFontFamily": true,
+        "globalFamilies": 1,
+        "inheritanceQuality": 0.053,
+        "averageDeclarationsPerFamily": 9.5,
+        "familiesWithFallbacks": 2,
+        "familiesWithoutGenericFallback": 0,
+        "fallbackCoverage": 1,
+        "fontSizeUnits": {
+          "units": {
+            "px": 31,
+            "rem": 0,
+            "em": 0,
+            "percent": 0,
+            "other": 0
+          },
+          "totalSizes": 31,
+          "relativeUnits": 0,
+          "relativeRatio": 0
+        },
+        "lineHeightUnits": {
+          "units": {
+            "unitless": 18,
+            "percent": 0,
+            "px": 0,
+            "em": 0,
+            "rem": 0,
+            "other": 0
+          },
+          "total": 18,
+          "proportionalUnits": 18,
+          "proportionalRatio": 1
+        },
+        "fontFamilyDetails": {
+          "Arial": {
+            "count": 6,
+            "selectors": [
+              "body",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) h3",
+              "body:has(form) form input",
+              "body:has(form) form button",
+              "body:has(dl) dt",
+              "body:has(dl) dd"
+            ],
+            "isGlobal": true
+          },
+          "Georgia": {
+            "count": 13,
+            "selectors": [
+              "article h3",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:first-child",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:nth-of-type(2)",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) h3",
+              "body:has(h1:first-child) main section[aria-label=\"Bandeau\"]::after",
+              "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:nth-of-type(2)",
+              ".bio-card__title",
+              ".discovery-card__title",
+              "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] blockquote p",
+              "body:has(form) main h1",
+              "body:has(form) form label",
+              "body:has(dl) main h1",
+              ".page-savantes h1"
+            ],
+            "isGlobal": false
+          }
+        },
+        "fontSizeDetails": {
+          "18px": {
+            "count": 2,
+            "selectors": [
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(4) h3",
+              "header div p strong"
+            ]
+          },
+          "16px": {
+            "count": 8,
+            "selectors": [
+              "body:has(form) form input",
+              "body:has(dl) dd",
+              "footer nav a",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) p",
+              "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:last-of-type",
+              ".bio-card__text",
+              ".discovery-card__text",
+              ".page-savantes .person-info strong"
+            ]
+          },
+          "15px": {
+            "count": 4,
+            "selectors": [
+              "body:has(form) form button",
+              "article p",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:first-child",
+              ".page-savantes > p:nth-last-of-type(2)"
+            ]
+          },
+          "20px": {
+            "count": 2,
+            "selectors": [
+              "body:has(dl) dt",
+              "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] blockquote p"
+            ]
+          },
+          "14px": {
+            "count": 5,
+            "selectors": [
+              "header div p:nth-child(2)",
+              "body:has(main nav) main p:last-child a",
+              "body:has(h1:first-child) main section[aria-label=\"Citation et lien\"] cite",
+              "body:has(form) form p#info",
+              ".page-savantes > p:nth-of-type(3)"
+            ]
+          },
+          "32px": {
+            "count": 7,
+            "selectors": [
+              "header a",
+              "header p a",
+              "header > a",
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) h3",
+              "body:has(form) main h1",
+              "body:has(dl) main h1",
+              ".page-savantes h1"
+            ]
+          },
+          "22px": {
+            "count": 2,
+            "selectors": [
+              "article h3",
+              "body:has(form) form label"
+            ]
+          },
+          "13px": {
+            "count": 10,
+            "selectors": [
+              "p > a:only-child",
+              "footer p",
+              ".page-savantes > p:nth-of-type(1)",
+              ".page-savantes > p:nth-of-type(2)",
+              ".page-savantes > p:nth-of-type(3)",
+              ".page-savantes > p:nth-of-type(4)",
+              ".page-savantes > p:nth-of-type(5)",
+              ".page-savantes > p:nth-of-type(6)",
+              ".page-savantes .person-info p:nth-child(2)",
+              ".page-savantes .person-info p:nth-child(3)"
+            ]
+          },
+          "28px": {
+            "count": 1,
+            "selectors": [
+              "body:has(main nav) main nav a"
+            ]
+          },
+          "19px": {
+            "count": 2,
+            "selectors": [
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(1) p:nth-of-type(2)",
+              "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:nth-of-type(2)"
+            ]
+          },
+          "90px": {
+            "count": 1,
+            "selectors": [
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) h3"
+            ]
+          },
+          "17px": {
+            "count": 2,
+            "selectors": [
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(3) p",
+              "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p"
+            ]
+          },
+          "36px": {
+            "count": 1,
+            "selectors": [
+              "body:has(section[aria-label=\"Home blocks\"])\nsection[aria-label=\"Home blocks\"] > article:nth-of-type(5) h3"
+            ]
+          },
+          "62px": {
+            "count": 1,
+            "selectors": [
+              "body:has(h1:first-child) main section[aria-label=\"Bandeau\"]::after"
+            ]
+          },
+          "21px": {
+            "count": 1,
+            "selectors": [
+              "body:has(h1:first-child) main section[aria-label=\"Introduction\"] p:first-of-type"
+            ]
+          },
+          "26px": {
+            "count": 1,
+            "selectors": [
+              ".bio-card__title"
+            ]
+          },
+          "24px": {
+            "count": 1,
+            "selectors": [
+              ".discovery-card__title"
+            ]
+          },
+          "11px": {
+            "count": 1,
+            "selectors": [
+              ".page-savantes .person-info a"
+            ]
+          }
+        },
+        "lineHeightDetails": {
+          "1": {
+            "count": 1
+          },
+          "1.1": {
+            "count": 3
+          },
+          "1.5": {
+            "count": 5
+          },
+          "1.3": {
+            "count": 3
+          },
+          "1.65": {
+            "count": 3
+          },
+          "1.45": {
+            "count": 2
+          },
+          "1.6": {
+            "count": 1
+          }
+        }
+      },
+      "recommendations": {
+        "shouldUseGlobalFontFamily": false,
+        "excessiveFontFamilyDeclarations": true,
+        "missingLineHeights": true,
+        "missingGenericFallbacks": false
+      },
+      "score": {
+        "total": 39.55,
+        "breakdown": {
+          "webfonts": {
+            "score": 0,
+            "max": 15,
+            "details": "Aucune webfont détectée"
+          },
+          "fallbacks": {
+            "score": 20,
+            "max": 20,
+            "details": "Toutes les polices ont des fallbacks génériques."
+          },
+          "inheritance": {
+            "score": 10.795,
+            "max": 25,
+            "details": "Police globale définie. Qualité d'héritage: 5%"
+          },
+          "sizes": {
+            "score": 0,
+            "max": 20,
+            "details": "Beaucoup trop de variations de tailles. 0% d'unités relatives."
+          },
+          "lineHeights": {
+            "score": 8.75,
+            "max": 15,
+            "details": "Beaucoup de line-heights manquantes. 100% de valeurs proportionnelles."
+          },
+          "bestPractices": {
+            "score": 0,
+            "max": 5,
+            "details": "Trop de déclarations font-family."
+          }
+        },
+        "grade": "F",
+        "improvements": []
+      }
+    },
+    "colors": {
+      "totalColors": 19,
+      "uniqueColors": 14,
+      "colors": [
+        {
+          "color": "#f6f2ea",
+          "count": 1
+        },
+        {
+          "color": "#111111",
+          "count": 1
+        },
+        {
+          "color": "#ffffff",
+          "count": 3
+        },
+        {
+          "color": "#f3cf86",
+          "count": 1
+        },
+        {
+          "color": "#112038",
+          "count": 1
+        },
+        {
+          "color": "#bfefff",
+          "count": 1
+        },
+        {
+          "color": "rgba(0,0,0,0.12)",
+          "count": 1
+        },
+        {
+          "color": "#0b0b0b",
+          "count": 1
+        },
+        {
+          "color": "#111",
+          "count": 3
+        },
+        {
+          "color": "#9fc0ef",
+          "count": 1
+        },
+        {
+          "color": "#cfe7ff",
+          "count": 1
+        },
+        {
+          "color": "#1e1e1e",
+          "count": 2
+        },
+        {
+          "color": "#d7e6ee",
+          "count": 1
+        },
+        {
+          "color": "#f4e6c8",
+          "count": 1
+        }
+      ],
+      "transparentColors": [
+        {
+          "color": "rgba(0,0,0,0.12)",
+          "count": 1
+        }
+      ],
+      "opaqueColors": [
+        {
+          "color": "#f6f2ea",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ffffff",
+            "#d7e6ee",
+            "#f4e6c8"
+          ]
+        },
+        {
+          "color": "#111111",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#0b0b0b",
+            "#111",
+            "#1e1e1e"
+          ]
+        },
+        {
+          "color": "#ffffff",
+          "count": 3,
+          "isSimilar": true,
+          "similarTo": [
+            "#f6f2ea"
+          ]
+        },
+        {
+          "color": "#f3cf86",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#f4e6c8"
+          ]
+        },
+        {
+          "color": "#112038",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#bfefff",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#cfe7ff",
+            "#d7e6ee"
+          ]
+        },
+        {
+          "color": "#0b0b0b",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#111111",
+            "#111"
+          ]
+        },
+        {
+          "color": "#111",
+          "count": 3,
+          "isSimilar": true,
+          "similarTo": [
+            "#111111",
+            "#0b0b0b",
+            "#1e1e1e"
+          ]
+        },
+        {
+          "color": "#9fc0ef",
+          "count": 1,
+          "isSimilar": false,
+          "similarTo": []
+        },
+        {
+          "color": "#cfe7ff",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#bfefff",
+            "#d7e6ee"
+          ]
+        },
+        {
+          "color": "#1e1e1e",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#111111",
+            "#111"
+          ]
+        },
+        {
+          "color": "#d7e6ee",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#f6f2ea",
+            "#bfefff",
+            "#cfe7ff"
+          ]
+        },
+        {
+          "color": "#f4e6c8",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#f6f2ea",
+            "#f3cf86"
+          ]
+        }
+      ],
+      "colorGroups": [
+        {
+          "hueRange": 80,
+          "hueName": "Jaune",
+          "colors": [
+            {
+              "color": "#f3cf86",
+              "count": 1,
+              "oklch": {
+                "l": 0.8693061548789566,
+                "c": 0.09998743698946375,
+                "h": 84.205076986178,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#f4e6c8",
+              "count": 1,
+              "oklch": {
+                "l": 0.9283664888785018,
+                "c": 0.042318146277695375,
+                "h": 85.95671116507718,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 200,
+          "hueName": "Cyan",
+          "colors": [
+            {
+              "color": "#bfefff",
+              "count": 1,
+              "oklch": {
+                "l": 0.9238303559963933,
+                "c": 0.05376523811505793,
+                "h": 220.16099752929932,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": 240,
+          "hueName": "Bleu",
+          "colors": [
+            {
+              "color": "#112038",
+              "count": 1,
+              "oklch": {
+                "l": 0.2439236065467935,
+                "c": 0.050534163103922954,
+                "h": 259.4181590567512,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#9fc0ef",
+              "count": 1,
+              "oklch": {
+                "l": 0.8001899193728429,
+                "c": 0.07604765831265976,
+                "h": 257.21751979557655,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#cfe7ff",
+              "count": 1,
+              "oklch": {
+                "l": 0.917823094701999,
+                "c": 0.04160836603824729,
+                "h": 248.2800093685375,
+                "alpha": 1
+              }
+            }
+          ]
+        },
+        {
+          "hueRange": -1,
+          "hueName": "Achromatique (Gris/Noir/Blanc)",
+          "colors": [
+            {
+              "color": "#f6f2ea",
+              "count": 1,
+              "oklch": {
+                "l": 0.9620433048926064,
+                "c": 0.011456854037625397,
+                "h": 84.57848668423473,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#111111",
+              "count": 1,
+              "oklch": {
+                "l": 0.17763777307657064,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#ffffff",
+              "count": 3,
+              "oklch": {
+                "l": 1.0000000000000002,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#0b0b0b",
+              "count": 1,
+              "oklch": {
+                "l": 0.14957711653082623,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#111",
+              "count": 3,
+              "oklch": {
+                "l": 0.17763777307657064,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#1e1e1e",
+              "count": 2,
+              "oklch": {
+                "l": 0.23503112514957922,
+                "c": 0,
+                "h": 0,
+                "alpha": 1
+              }
+            },
+            {
+              "color": "#d7e6ee",
+              "count": 1,
+              "oklch": {
+                "l": 0.9160732312970759,
+                "c": 0.01941701842712008,
+                "h": 230.71033851355355,
+                "alpha": 1
+              }
+            }
+          ]
+        }
+      ],
+      "similarColors": [
+        {
+          "color": "#f6f2ea",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#ffffff",
+            "#d7e6ee",
+            "#f4e6c8"
+          ]
+        },
+        {
+          "color": "#111111",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#0b0b0b",
+            "#111",
+            "#1e1e1e"
+          ]
+        },
+        {
+          "color": "#ffffff",
+          "count": 3,
+          "isSimilar": true,
+          "similarTo": [
+            "#f6f2ea"
+          ]
+        },
+        {
+          "color": "#f3cf86",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#f4e6c8"
+          ]
+        },
+        {
+          "color": "#bfefff",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#cfe7ff",
+            "#d7e6ee"
+          ]
+        },
+        {
+          "color": "#0b0b0b",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#111111",
+            "#111"
+          ]
+        },
+        {
+          "color": "#111",
+          "count": 3,
+          "isSimilar": true,
+          "similarTo": [
+            "#111111",
+            "#0b0b0b",
+            "#1e1e1e"
+          ]
+        },
+        {
+          "color": "#cfe7ff",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#bfefff",
+            "#d7e6ee"
+          ]
+        },
+        {
+          "color": "#1e1e1e",
+          "count": 2,
+          "isSimilar": true,
+          "similarTo": [
+            "#111111",
+            "#111"
+          ]
+        },
+        {
+          "color": "#d7e6ee",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#f6f2ea",
+            "#bfefff",
+            "#cfe7ff"
+          ]
+        },
+        {
+          "color": "#f4e6c8",
+          "count": 1,
+          "isSimilar": true,
+          "similarTo": [
+            "#f6f2ea",
+            "#f3cf86"
+          ]
+        }
+      ],
+      "hasSimilarColors": true,
+      "formats": {
+        "hex": 13,
+        "rgb": 1
+      },
+      "score": {
+        "total": 72.22,
+        "breakdown": {
+          "palette": {
+            "score": 25,
+            "max": 25,
+            "details": "Palette de couleurs optimale. "
+          },
+          "consistency": {
+            "score": 3,
+            "max": 20,
+            "details": "Trop de couleurs similaires (manque de cohérence). "
+          },
+          "formats": {
+            "score": 17,
+            "max": 20,
+            "details": "2 formats de couleurs utilisés. "
+          },
+          "transparency": {
+            "score": 15,
+            "max": 15,
+            "details": "Utilisation appropriée de la transparence. "
+          },
+          "bestPractices": {
+            "score": 5,
+            "max": 10,
+            "details": "Bonne diversité de teintes. "
+          }
+        },
+        "grade": "C",
+        "improvements": [
+          "Harmoniser les couleurs similaires pour améliorer la cohérence",
+          "Envisager l'utilisation de formats modernes comme oklch ou hsl",
+          "Utiliser des variables CSS pour gérer les couleurs"
+        ]
+      }
+    }
+  },
+  "classAnalysis": {
+    "html": {
+      "totalClassAssignments": 27,
+      "nodesWithClasses": 27,
+      "uniqueClasses": [
+        "bio-card",
+        "bio-card__stars",
+        "bio-card__title",
+        "bio-card__text",
+        "discovery-card",
+        "discovery-card__title",
+        "discovery-card__text",
+        "discovery-card__figure",
+        "page-savantes",
+        "picto-bloc",
+        "person-card",
+        "person-info"
+      ],
+      "frequency": {
+        "bio-card": 1,
+        "bio-card__stars": 1,
+        "bio-card__title": 1,
+        "bio-card__text": 3,
+        "discovery-card": 1,
+        "discovery-card__title": 1,
+        "discovery-card__text": 3,
+        "discovery-card__figure": 1,
+        "page-savantes": 1,
+        "picto-bloc": 2,
+        "person-card": 6,
+        "person-info": 6
+      },
+      "averageClassesPerNode": 1,
+      "medianClassesPerNode": 1,
+      "maxClassesPerNode": 1,
+      "redundantClasses": [],
+      "highLoadNodes": 0
+    },
+    "css": {
+      "uniqueClasses": [
+        "bio-card",
+        "bio-card__stars",
+        "bio-card__title",
+        "bio-card__text",
+        "discovery-card",
+        "discovery-card__title",
+        "discovery-card__text",
+        "discovery-card__figure",
+        "page-savantes",
+        "picto-bloc",
+        "person-card",
+        "person-info"
+      ],
+      "totalSelectors": 150,
+      "selectorsWithMultipleClasses": 13,
+      "specificity": {
+        "average": 7.31,
+        "max": 103
+      },
+      "complexSelectorsRatio": 0.747,
+      "selectorForms": {
+        "bemSelectors": 39,
+        "pureBemSelectors": 10,
+        "pureBemSelectorsRatio": 0.067,
+        "selectorsWithAncestor": 127,
+        "selectorsWithId": 1,
+        "selectorsWithType": 134,
+        "selectorsWithAttribute": 59,
+        "ancestorsRatio": 0.847,
+        "withIdRatio": 0.007,
+        "withTypeRatio": 0.893
+      }
+    },
+    "mismatch": {
+      "unusedCssClasses": [],
+      "undefinedHtmlClasses": [],
+      "coverageHtml": 1,
+      "coverageCss": 1,
+      "cssEfficiency": 1
+    },
+    "bem": {
+      "blocks": {
+        "bio-card": {
+          "elements": [
+            "bio-card__stars",
+            "bio-card__title",
+            "bio-card__text"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "discovery-card": {
+          "elements": [
+            "discovery-card__title",
+            "discovery-card__text",
+            "discovery-card__figure"
+          ],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "page-savantes": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "picto-bloc": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "person-card": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        },
+        "person-info": {
+          "elements": [],
+          "modifiers": [],
+          "elementModifiers": []
+        }
+      },
+      "counts": {
+        "blocks": 6,
+        "elements": 6,
+        "modifiers": 0,
+        "elementModifiers": 0,
+        "other": 0
+      },
+      "ratios": {
+        "bemClassesRatio": 1,
+        "structuredBlocksRatio": 0.333
+      },
+      "depth": {
+        "max": 2,
+        "average": 1.5
+      },
+      "blockStructure": {
+        "totalBlocks": 6,
+        "structuredBlocks": 2,
+        "orphanBlocks": 4,
+        "implicitBlocks": []
+      },
+      "violations": []
+    },
+    "distribution": {
+      "prefixes": {
+        "bio": 4,
+        "discovery": 4,
+        "page": 1,
+        "picto": 1,
+        "person": 2
+      },
+      "entropy": 3.18,
+      "utilityClassesRatio": 0
+    },
+    "meta": {
+      "version": "1.0",
+      "generatedAt": "2026-01-07T17:26:00.437Z"
+    },
+    "score": {
+      "bem": {
+        "total": 46,
+        "breakdown": {
+          "coverage": {
+            "score": 15,
+            "max": 15,
+            "details": "Couverture moyenne: 100%"
+          },
+          "selectorForms": {
+            "score": 6,
+            "max": 30,
+            "details": "Pure BEM: 7%"
+          },
+          "structure": {
+            "score": 8,
+            "max": 25,
+            "details": "Blocs structurés: 33%"
+          },
+          "elementsRatio": {
+            "score": 15,
+            "max": 20,
+            "details": "Éléments/bloc: 1"
+          },
+          "modifiers": {
+            "score": 2,
+            "max": 10,
+            "details": "Modificateurs/bloc: 0"
+          }
+        },
+        "grade": "F",
+        "improvements": [
+          "Augmenter la part de sélecteurs BEM purs et éviter les combinateurs/ID",
+          "Structurer les blocs avec éléments et modificateurs (éviter blocs orphelins)",
+          "Ajuster le ratio éléments par bloc (viser 2 à 6)",
+          "Utiliser davantage de modificateurs pour exprimer les variantes"
+        ]
+      }
+    }
+  },
+  "validationScore": {
+    "total": 99,
+    "breakdown": {
+      "errorPenalty": 1,
+      "warningPenalty": 0
+    },
+    "grade": "A",
+    "improvements": [
+      "Corriger les 1 erreur(s) de validation HTML"
+    ],
+    "stats": {
+      "totalErrors": 1,
+      "totalWarnings": 0,
+      "averageErrors": 0.09,
+      "pagesAnalyzed": 11
+    }
+  }
+}
