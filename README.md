@@ -853,6 +853,14 @@ Voir [REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md) pour :
 - Tests : `npm test`
 - Gestion des erreurs pour éviter les crashs
 
+## 🧯 Fiabilité de l'analyse
+
+- **Une étape qui échoue ne fait pas tout échouer** : elle est inscrite dans `nonMesurable` (`{ etape, raison }`) et ne compte dans aucun score. Le résultat est toujours enregistré.
+- **Validation W3C** : vnu est lancé avec `--stdout` ; sans Java (`JAVA_BIN`), elle est « Non mesurable », jamais une erreur de l'étudiant.
+- **Lighthouse** : une seule instance de Chrome par analyse, lancée avec `--no-sandbox` et `--disable-dev-shm-usage`, un délai maximal par page, et un écran de 360 px (`config/thresholds.js`). `CHROME_PATH` impose le Chromium du serveur.
+- **Versions figées** : `package-lock.json` est versionné ; Node 22 au minimum (`engines`).
+- **Stockage (F1)** : `DATA_DIR` peut pointer vers un disque persistant. Le disque de Render est effacé à chaque déploiement.
+
 ## 🚧 Limitations
 
 - Nécessite Chrome installé sur le système (pour Lighthouse)

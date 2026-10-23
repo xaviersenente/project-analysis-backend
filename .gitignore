@@ -42,8 +42,7 @@ out/
 coverage/
 .cache/
 
-# Dependencies
-package-lock.json
+# Dependencies (package-lock.json est versionné : versions figées sur Render)
 yarn.lock
 
 # Données des étudiants : jamais versionnées (S1)

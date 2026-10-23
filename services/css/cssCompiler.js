@@ -5,7 +5,10 @@
 import axios from "axios";
 import { isNormalizeCSS, isGoogleFont } from "../shared/cssHelpers.js";
 
-axios.defaults.timeout = 5000; // Timeout de 5 secondes pour éviter les blocages
+import thresholds from "../../config/thresholds.js";
+
+// Délai passé à chaque requête, sans toucher à axios.defaults (F5)
+const optionsHttp = { timeout: thresholds.performance.timeouts.http };
 
 /**
  * Supprime les imports de normalize.css dans le CSS brut.
@@ -49,7 +52,7 @@ const inlineRemoteCSS = async (cssContent, currentUrl) => {
 
     try {
       console.log(`🔄 Téléchargement de ${importUrl}`);
-      const response = await axios.get(importUrl);
+      const response = await axios.get(importUrl, optionsHttp);
       cssContent = cssContent.replace(match[0], response.data);
     } catch (error) {
       console.error(
@@ -66,7 +69,7 @@ const inlineRemoteCSS = async (cssContent, currentUrl) => {
     try {
       let resolvedUrl = new URL(relativePath, currentUrl).href;
       console.log(`🔄 Téléchargement de ${resolvedUrl}`);
-      const response = await axios.get(resolvedUrl);
+      const response = await axios.get(resolvedUrl, optionsHttp);
       cssContent = cssContent.replace(match[0], response.data);
     } catch (error) {
       console.error(
@@ -142,7 +145,7 @@ const inlineAllImports = async (
     console.log(`🔗 URL résolue: ${importUrl}`);
 
     try {
-      const response = await axios.get(importUrl, { timeout: 3000 });
+      const response = await axios.get(importUrl, optionsHttp);
       console.log(`✅ Chargé: ${importUrl}`);
 
       // Traiter récursivement les imports dans le fichier chargé
@@ -201,7 +204,7 @@ export const compileCSS = async (htmlContent, baseUrl) => {
   console.log(`🔗 URL du fichier CSS détectée : ${cssUrl}`);
 
   try {
-    const cssResponse = await axios.get(cssUrl);
+    const cssResponse = await axios.get(cssUrl, optionsHttp);
     let cssContent = cssResponse.data;
 
     // Supprimer les imports normalize.css

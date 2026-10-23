@@ -276,8 +276,16 @@ export default {
   performance: {
     timeouts: {
       default: 30000, // Timeout par défaut (ms)
-      lighthouse: 3000, // Timeout Lighthouse (ms)
-      validation: 5000, // Timeout validation HTML (ms)
+      http: 5000, // Délai d'une requête HTTP vers le site analysé (ms)
+      lighthouse: 90000, // Délai maximal d'un audit Lighthouse, par page (ms)
+      validation: 30000, // Délai maximal de la validation W3C, par page (ms)
+    },
+
+    // Écran émulé pour les contrôles en navigateur : 360 px, comme dans les TP
+    viewport: {
+      width: 360,
+      height: 800,
+      deviceScaleFactor: 2,
     },
 
     limits: {

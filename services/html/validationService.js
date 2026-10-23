@@ -3,55 +3,56 @@ import { promisify } from "util";
 import { writeFile, unlink } from "fs/promises";
 import { tmpdir } from "os";
 import { join } from "path";
+import { randomUUID } from "crypto";
 import vnuJar from "vnu-jar";
+import thresholds from "../../config/thresholds.js";
 
 const execFileAsync = promisify(execFile);
 
+/**
+ * Valide un HTML avec le validateur Nu (W3C), en local via Java.
+ * Un échec (Java absent, délai dépassé, sortie illisible) rend « Non mesurable »,
+ * jamais une erreur imputée à l'étudiant (F2).
+ * @param {string} htmlContent - Code HTML de la page
+ * @returns {Promise<{ mesurable: boolean, erreurs: Array|null, raison?: string }>}
+ */
 export const validateHTML = async (htmlContent) => {
-  const tempFile = join(tmpdir(), `validate-${Date.now()}.html`);
+  // Un nom unique : plusieurs validations peuvent tourner en parallèle
+  const tempFile = join(tmpdir(), `validate-${randomUUID()}.html`);
 
   try {
-    // Écrire le HTML dans un fichier temporaire
     await writeFile(tempFile, htmlContent, "utf-8");
 
-    // Exécuter le validateur Nu local via Java
-    const { stderr } = await execFileAsync(
-      "java",
-      ["-jar", vnuJar, "--format", "json", "--exit-zero-always", tempFile],
+    // --stdout : le JSON sort sur stdout, loin des messages de Java sur stderr
+    // (« Picked up JAVA_TOOL_OPTIONS… »)
+    const { stdout } = await execFileAsync(
+      process.env.JAVA_BIN || "java",
+      ["-jar", vnuJar, "--format", "json", "--exit-zero-always", "--stdout", tempFile],
       {
         maxBuffer: 10 * 1024 * 1024, // 10MB buffer
-        timeout: 30000, // 30 secondes max
+        timeout: thresholds.performance.timeouts.validation,
       }
     );
 
-    // Le validateur Nu renvoie les résultats dans stderr en format JSON
-    if (!stderr || stderr.trim() === "") {
-      console.log("📋 Validation HTML: Aucune erreur détectée");
-      return [];
+    const parsedResult = JSON.parse(stdout);
+    if (!Array.isArray(parsedResult.messages)) {
+      throw new Error("Réponse du validateur sans liste de messages");
     }
 
-    const parsedResult = JSON.parse(stderr);
-    const errors =
-      parsedResult.messages?.filter((msg) => msg.type === "error") || [];
+    const erreurs = parsedResult.messages.filter((msg) => msg.type === "error");
 
     console.log(
-      `📋 Validation HTML: ${
-        parsedResult.messages?.length || 0
-      } message(s) détecté(s), ${errors.length} erreur(s)`
+      `📋 Validation HTML: ${parsedResult.messages.length} message(s) détecté(s), ${erreurs.length} erreur(s)`
     );
 
-    return errors;
+    return { mesurable: true, erreurs };
   } catch (error) {
-    // Si c'est une erreur de parsing JSON, c'est qu'il n'y a pas d'erreurs
-    if (error.message?.includes("Unexpected end of JSON input")) {
-      console.log("📋 Validation HTML: Aucune erreur détectée");
-      return [];
-    }
-
-    console.error("Error validating HTML:", error.message);
-    return [
-      { type: "error", message: `Failed to validate HTML: ${error.message}` },
-    ];
+    console.error("Validation HTML non mesurable :", error.message);
+    return {
+      mesurable: false,
+      erreurs: null,
+      raison: `Validation W3C impossible : ${error.message.split("\n")[0]}`,
+    };
   } finally {
     // Nettoyer le fichier temporaire
     try {
@@ -64,11 +65,31 @@ export const validateHTML = async (htmlContent) => {
 
 /**
  * Calcule le score de validation basé sur le nombre moyen d'erreurs
- * @param {Array} pages - Tableau des résultats de validation pour chaque page
+ * @param {Array} allPages - Tableau des résultats de validation pour chaque page
  * @returns {Object} - Objet contenant le score et les détails
  */
-export const calculateValidationScore = (pages) => {
-  if (!pages || pages.length === 0) {
+export const calculateValidationScore = (allPages) => {
+  // Les pages dont la validation a échoué ne comptent pas (F2)
+  const pages = (allPages || []).filter((page) => Array.isArray(page.validationErrors));
+
+  if (allPages?.length > 0 && pages.length === 0) {
+    return {
+      total: null,
+      mesurable: false,
+      raison: "Aucune page n'a pu être validée",
+      breakdown: null,
+      grade: null,
+      improvements: [],
+      stats: {
+        totalErrors: null,
+        totalWarnings: null,
+        averageErrors: null,
+        pagesAnalyzed: 0,
+      },
+    };
+  }
+
+  if (pages.length === 0) {
     return {
       total: 0,
       breakdown: {
@@ -129,6 +150,8 @@ export const calculateValidationScore = (pages) => {
 
   return {
     total: score,
+    mesurable: true,
+    pagesNonMesurables: allPages.length - pages.length,
     breakdown: {
       errorPenalty: Math.round(Math.min(averageErrors / 10, 1) * 100),
       warningPenalty: 0, // Les avertissements n'affectent pas le score pour l'instant

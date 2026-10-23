@@ -28,6 +28,12 @@ import {
   cheminResultat,
 } from "../services/promo/promoService.js";
 import { FileNotFoundError } from "../utils/errors.js";
+import { creerSuivi } from "../utils/mesure.js";
+import { fermerChrome } from "../services/html/lighthouseService.js";
+import thresholds from "../config/thresholds.js";
+
+// Délai de chaque requête vers le site analysé (F5)
+const optionsHttp = { timeout: thresholds.performance.timeouts.http };
 
 // Une seule analyse à la fois : Lighthouse est lourd (S3)
 let analyseEnCours = false;
@@ -49,88 +55,81 @@ export const scanUrl = async (req, res) => {
 
   const url = projet.site;
   analyseEnCours = true;
+  const { nonMesurable, mesurer, noter } = creerSuivi();
 
   try {
-    // Récupérer la liste des fichiers HTML depuis l'URL
-    const htmlFiles = await HtmlCrawler(url);
+    // Récupérer la liste des fichiers HTML depuis l'URL ; à défaut, la seule page d'accueil
+    const pagesTrouvees = await mesurer("Exploration du site", () => HtmlCrawler(url));
+    const htmlFiles = pagesTrouvees?.length ? pagesTrouvees : [url];
     const fileResults = [];
     const allHtmlContents = [];
 
     // Analyser uniquement la page d'accueil (premier fichier HTML)
-    const response = await axios.get(url);
-    const htmlContent = response.data;
+    const accueil = await mesurer("Page d'accueil", () => axios.get(url, optionsHttp));
+    const htmlContent = typeof accueil?.data === "string" ? accueil.data : null;
 
-    // Extraire le CSS brut pour analyser les imports avant compilation
-    const cssLinkMatch = htmlContent.match(
-      /<link.*?href=['"](.*?\.css)['"].*?>/i
-    );
+    // --- CSS de la page d'accueil : rien n'est noté sur une feuille absente ---
     let cssImportsAnalysis = null;
     let cssRawContent = "";
+    let compiled = null;
 
-    if (cssLinkMatch) {
-      const cssUrl = new URL(cssLinkMatch[1], url).href;
-      try {
-        const cssResponse = await axios.get(cssUrl);
-        cssRawContent = cssResponse.data;
+    if (htmlContent !== null) {
+      // Extraire le CSS brut pour analyser les imports avant compilation
+      const cssLinkMatch = htmlContent.match(
+        /<link.*?href=['"](.*?\.css)['"].*?>/i
+      );
 
-        // Analyser les imports avant la compilation
-        cssImportsAnalysis = await analyzeImports(cssRawContent, cssUrl);
-        console.log("✅ Analyse des @import réussie.");
-      } catch (error) {
-        console.error(
-          "❌ Erreur lors de l'analyse des imports CSS:",
-          error.message
-        );
+      if (cssLinkMatch) {
+        const cssUrl = new URL(cssLinkMatch[1], url).href;
+        cssImportsAnalysis = await mesurer("Imports CSS", async () => {
+          const cssResponse = await axios.get(cssUrl, optionsHttp);
+          cssRawContent = cssResponse.data;
+          return analyzeImports(cssRawContent, cssUrl);
+        });
       }
+
+      // Compiler et analyser le CSS de la page d'accueil uniquement
+      compiled = await mesurer("CSS", async () => {
+        const { css, importErrors } = await compileCSS(htmlContent, url);
+        console.log(`📊 Taille du CSS compilé: ${css.length} caractères`);
+        if (importErrors.length > 0) {
+          console.warn(
+            `⚠️ ${importErrors.length} erreur(s) d'import CSS détectée(s)`
+          );
+        }
+        return { css, analyse: await analyzeCSS(css) };
+      });
     }
 
-    // Compiler et analyser le CSS de la page d'accueil uniquement
-    const { css: compiledCss, importErrors } = await compileCSS(
-      htmlContent,
-      url
-    );
-    console.log("✅ CSS compilé avec succès.");
-    console.log(`📊 Taille du CSS compilé: ${compiledCss.length} caractères`);
-    console.log(
-      `📊 Nombre d'@import restants: ${
-        (compiledCss.match(/@import/g) || []).length
-      }`
-    );
+    let cssAnalysisResult = null;
+    if (compiled) {
+      const colorsAnalysis = compiled.analyse?.values?.colors
+        ? await mesurer("Couleurs CSS", () =>
+            analyzeColors(compiled.analyse.values.colors)
+          )
+        : null;
 
-    if (importErrors.length > 0) {
-      console.warn(
-        `⚠️ ${importErrors.length} erreur(s) d'import CSS détectée(s)`
-      );
+      cssAnalysisResult = {
+        ...compiled.analyse,
+        imports: cssImportsAnalysis,
+        customProperties: await mesurer("Variables CSS", () =>
+          analyzeCustomProperties(compiled.css)
+        ),
+        typography: await mesurer("Typographie", () =>
+          analyzeTypography(htmlContent, cssRawContent, compiled.css)
+        ),
+        colors: colorsAnalysis,
+      };
     }
 
-    const cssAnalysisResult = await analyzeCSS(compiledCss);
-    console.log("✅ CSS analysé avec succès.");
-
-    // Analyser les couleurs CSS
-    let colorsAnalysis = null;
-    if (cssAnalysisResult?.values?.colors) {
-      colorsAnalysis = analyzeColors(cssAnalysisResult.values.colors);
-      console.log(
-        `🎨 Analyse des couleurs: ${colorsAnalysis.uniqueColors} couleurs uniques, score: ${colorsAnalysis.score.total}/100`
-      );
-    }
-
-    // Analyser les variables CSS
-    const cssVariablesAnalysis = analyzeCustomProperties(compiledCss);
-    console.log("✅ Analyse des variables CSS réussie.");
-
-    // Analyser la typographie
-    const typographyAnalysis = analyzeTypography(
-      htmlContent,
-      cssRawContent,
-      compiledCss
-    );
-    console.log("✅ Analyse de la typographie réussie.");
-
+    // --- Pages : chacune est analysée indépendamment ---
     for (const fileUrl of htmlFiles) {
-      const response = await axios.get(fileUrl);
-      const contentType = response.headers["content-type"];
+      const response = await mesurer(`Page (${fileUrl})`, () =>
+        axios.get(fileUrl, optionsHttp)
+      );
+      if (!response) continue;
 
+      const contentType = response.headers["content-type"];
       if (!contentType || !contentType.includes("text/html")) {
         console.warn(
           `⚠️ Le contenu à ${fileUrl} n'est pas du HTML : ${contentType}`
@@ -138,71 +137,92 @@ export const scanUrl = async (req, res) => {
         continue; // Passe au fichier suivant
       }
 
-      const htmlContent = response.data;
+      const pageHtml = response.data;
+
+      const statique = await mesurer(`Analyse HTML (${fileUrl})`, () => ({
+        titleAndImg: extractTitleAndImagesFromHTML(pageHtml),
+        htmlAnalysisResult: analyzeHTML(pageHtml),
+      }));
+      if (!statique) continue;
 
       // Stocker le contenu HTML pour l'analyse globale
-      allHtmlContents.push(htmlContent);
+      allHtmlContents.push(pageHtml);
 
-      const titleAndImg = extractTitleAndImagesFromHTML(htmlContent);
-      const htmlAnalysisResult = analyzeHTML(htmlContent);
-      const lighthouseReport = await runLighthouse(fileUrl);
-      const validationErrors = await validateHTML(htmlContent);
+      const { titleAndImg, htmlAnalysisResult } = statique;
+      const lighthouseReport = await mesurer(`Lighthouse (${fileUrl})`, () =>
+        runLighthouse(fileUrl)
+      );
+
+      const validation = await validateHTML(pageHtml);
+      if (!validation.mesurable) {
+        noter(`Validation W3C (${fileUrl})`, validation.raison);
+      }
 
       // Analyse des images avec enrichissement des données Lighthouse
-      const imagesAnalysis = analyzeImages(
-        titleAndImg.images,
-        lighthouseReport.requests,
-        fileUrl
+      const imagesAnalysis = await mesurer(`Images (${fileUrl})`, () =>
+        analyzeImages(
+          titleAndImg.images,
+          lighthouseReport?.requests ?? null,
+          fileUrl
+        )
       );
 
       fileResults.push({
         file: fileUrl,
         title: titleAndImg.title,
-        images: imagesAnalysis.images,
-        imageStats: {
-          total: imagesAnalysis.totalImages,
-          withLazyLoading: imagesAnalysis.imagesWithLazyLoading,
-          withoutLazyLoading:
-            imagesAnalysis.totalImages - imagesAnalysis.imagesWithLazyLoading,
-          lazyLoadingRatio:
-            imagesAnalysis.imagesWithLazyLoading /
-            Math.max(imagesAnalysis.totalImages, 1),
-          lazyLoadingPercentage: Math.round(
-            (imagesAnalysis.imagesWithLazyLoading /
-              Math.max(imagesAnalysis.totalImages, 1)) *
-              100
-          ),
-        },
+        images: imagesAnalysis?.images ?? [],
+        imageStats: imagesAnalysis
+          ? {
+              total: imagesAnalysis.totalImages,
+              withLazyLoading: imagesAnalysis.imagesWithLazyLoading,
+              withoutLazyLoading:
+                imagesAnalysis.totalImages -
+                imagesAnalysis.imagesWithLazyLoading,
+              lazyLoadingRatio:
+                imagesAnalysis.imagesWithLazyLoading /
+                Math.max(imagesAnalysis.totalImages, 1),
+              lazyLoadingPercentage: Math.round(
+                (imagesAnalysis.imagesWithLazyLoading /
+                  Math.max(imagesAnalysis.totalImages, 1)) *
+                  100
+              ),
+            }
+          : null,
         imagesAnalysis,
         ...htmlAnalysisResult,
-        validationErrors,
+        validationErrors: validation.erreurs,
+        validation: { mesurable: validation.mesurable, raison: validation.raison },
         lighthouseReport,
       });
     }
 
-    // Effectuer l'analyse globale sur toutes les pages
-    const globalAnalysis = analyzeAllPages(allHtmlContents);
-
-    // Calculer le score de validation
-    const validationScore = calculateValidationScore(fileResults);
-
-    // Synthétiser l'analyse des images pour l'ensemble des pages
-    const globalImagesAnalysis = synthesizeImagesAnalysis(fileResults);
+    // --- Synthèses : seulement s'il y a des pages analysées ---
+    const avecPages = fileResults.length > 0;
+    if (!avecPages) noter("Pages", "Aucune page n'a pu être analysée");
 
     const analysisResult = {
       pages: fileResults,
-      globalAnalysis, // Ajouter le résultat de l'analyse globale
-      globalImagesAnalysis, // Synthèse globale des images
+      // Ajouter le résultat de l'analyse globale
+      globalAnalysis: avecPages
+        ? await mesurer("Analyse globale", () => analyzeAllPages(allHtmlContents))
+        : null,
+      // Synthèse globale des images
+      globalImagesAnalysis: avecPages
+        ? await mesurer("Synthèse des images", () =>
+            synthesizeImagesAnalysis(fileResults)
+          )
+        : null,
       // compiledCss,
-      cssAnalysisResult: {
-        ...cssAnalysisResult,
-        imports: cssImportsAnalysis,
-        customProperties: cssVariablesAnalysis,
-        typography: typographyAnalysis,
-        colors: colorsAnalysis,
-      },
-      classAnalysis: performClassAnalysis(allHtmlContents, compiledCss),
-      validationScore,
+      cssAnalysisResult,
+      classAnalysis:
+        compiled && avecPages
+          ? await mesurer("Classes", () =>
+              performClassAnalysis(allHtmlContents, compiled.css)
+            )
+          : null,
+      // Calculer le score de validation
+      validationScore: avecPages ? calculateValidationScore(fileResults) : null,
+      nonMesurable,
     };
 
     // Étape 2 : Sauvegarde en fichier JSON
@@ -212,12 +232,14 @@ export const scanUrl = async (req, res) => {
     // Retour simplifié
     return res.status(200).json({
       message: `Project ${slug} saved successfully`,
+      nonMesurable,
       analysisResult, // Retourne l'objet complet en une seule étape
     });
   } catch (error) {
     console.error("Error during repository scan:", error);
     res.status(500).json({ error: "An error occurred during the scan" });
   } finally {
+    await fermerChrome();
     analyseEnCours = false;
   }
 };
