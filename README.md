@@ -81,38 +81,42 @@ npm start
 
 Le serveur sera accessible sur `http://localhost:3000`.
 
+### Authentification et données
+
+Toutes les routes exigent l'en-tête `Authorization: Bearer <API_TOKEN>`, avec le jeton défini dans `.env`. Sans `API_TOKEN`, l'API refuse toutes les requêtes. CORS n'accepte que les domaines de `CORS_ORIGIN`.
+
+Les projets sont déclarés dans le fichier de promo, `data/promo.json`, hors de Git :
+
+```json
+{
+  "dateRendu": "2027-01-15T23:59:00+01:00",
+  "projets": [
+    { "slug": "etu-01", "nom": "Alice Dupont", "groupe": "TP2", "site": "https://…" }
+  ]
+}
+```
+
+Un slug ne contient que `a-z`, `0-9` et `-`. Les anciens fichiers `data/<Prénom NOM>.json` se migrent avec `node scripts/migrerDonnees.js --essai`, puis sans `--essai`.
+
 ### Analyser un projet
 
-Pour analyser un projet web, effectuez une requête GET vers :
-
-```
-GET /scan?url=<URL_DU_PROJET>&projectName=<NOM_DU_PROJET>
-```
-
-**Exemple** :
-
 ```bash
-curl "http://localhost:3000/scan?url=https://example.com&projectName=MonProjet"
+curl -X POST http://localhost:3000/scan -H "Authorization: Bearer $API_TOKEN" \
+  -H "Content-Type: application/json" -d '{"slug":"etu-01"}'
 ```
+
+L'URL analysée est celle du fichier de promo, jamais celle de la requête. Une seule analyse tourne à la fois.
 
 ### Récupérer la liste des projets
 
+```bash
+curl http://localhost:3000/scan/projects -H "Authorization: Bearer $API_TOKEN"
 ```
-GET /scan/projects
-```
-
-Retourne un tableau avec les noms de tous les projets analysés.
 
 ### Récupérer les données d'un projet
 
-```
-GET /scan/project/:projectName
-```
-
-**Exemple** :
-
 ```bash
-curl "http://localhost:3000/scan/project/MonProjet"
+curl http://localhost:3000/scan/project/etu-01 -H "Authorization: Bearer $API_TOKEN"
 ```
 
 ## 🏗️ Architecture
@@ -179,20 +183,21 @@ Voir [REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md) pour plus de détails.
 
 ## 🔌 API Endpoints
 
-### `GET /scan`
+### `POST /scan`
 
-Analyse un projet web à partir de son URL.
+Analyse un projet de la promo, à l'URL inscrite dans le fichier de promo.
 
-**Paramètres (query string)** :
+**Corps (JSON)** :
 
-- `url` (string, requis) : URL du projet à analyser
-- `projectName` (string, requis) : Nom du projet pour la sauvegarde
+- `slug` (string, requis) : identifiant du projet dans le fichier de promo
+
+**Codes** : 400 (slug invalide), 401 (jeton), 404 (projet inconnu ou sans `site`), 409 (analyse déjà en cours).
 
 **Réponse** :
 
 ```json
 {
-  "message": "Project MonProjet saved successfully",
+  "message": "Project etu-01 saved successfully",
   "analysisResult": {
     "pages": [...],
     "globalAnalysis": {...},
@@ -204,21 +209,21 @@ Analyse un projet web à partir de son URL.
 
 ### `GET /scan/projects`
 
-Récupère la liste de tous les projets analysés.
+Récupère la liste des projets du fichier de promo.
 
 **Réponse** :
 
 ```json
-["Projet1", "Projet2", "Projet3"]
+[{ "slug": "etu-01", "nom": "Alice Dupont", "groupe": "TP2", "analyse": true }]
 ```
 
-### `GET /scan/project/:projectName`
+### `GET /scan/project/:slug`
 
-Récupère les données d'analyse d'un projet spécifique.
+Récupère les données d'analyse d'un projet de la promo.
 
 **Paramètres** :
 
-- `projectName` (string) : Nom du projet
+- `slug` (string) : identifiant du projet (`^[a-z0-9-]+$`)
 
 **Réponse** : Objet JSON contenant l'analyse complète du projet.
 
@@ -842,8 +847,10 @@ Voir [REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md) pour :
 
 ## 🔒 Sécurité
 
-- CORS activé pour permettre les requêtes cross-origin
-- Validation des paramètres d'entrée
+- Jeton exigé sur toutes les routes (`API_TOKEN`), CORS limité à `CORS_ORIGIN`
+- Identifiants de projet validés (`^[a-z0-9-]+$`) et limités au fichier de promo
+- Les données des étudiants (`data/`) ne sont jamais versionnées
+- Tests : `npm test`
 - Gestion des erreurs pour éviter les crashs
 
 ## 🚧 Limitations

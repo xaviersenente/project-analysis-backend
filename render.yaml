@@ -7,3 +7,8 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      # Valeurs à saisir dans le tableau de bord de Render (S2)
+      - key: API_TOKEN
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false

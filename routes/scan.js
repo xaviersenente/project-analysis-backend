@@ -2,37 +2,48 @@ import { Router } from "express";
 // import { scanRepository } from "../controllers/analysisControllerGithub.js";
 import { scanUrl } from "../controllers/analysisControllerServer.js";
 import fs from "fs";
-import path from "path";
+import {
+  chargerPromo,
+  cheminResultat,
+  trouverProjet,
+} from "../services/promo/promoService.js";
+import { asyncHandler, FileNotFoundError } from "../utils/errors.js";
 
 const router = Router();
 
 // Route pour scanner un repository
 //router.get("/:repoOwner/:repoName", scanRepository);
 
-// Route pour scanner un répertoire en ligne
-router.get("/", scanUrl);
+// Route pour analyser un projet de la promo : POST { slug } (S3)
+router.post("/", asyncHandler(scanUrl));
 
-// Route pour obtenir la liste des projets scannés
-router.get("/projects", (req, res) => {
-  const dataPath = path.join("data");
-  const files = fs
-    .readdirSync(dataPath)
-    .filter((file) => file.endsWith(".json"));
-  const projects = files.map((file) => file.replace(".json", ""));
-  res.json(projects);
-});
+// Route pour obtenir la liste des projets de la promo
+router.get(
+  "/projects",
+  asyncHandler(async (req, res) => {
+    const projets = chargerPromo().projets.map(({ slug, nom, groupe }) => ({
+      slug,
+      nom,
+      groupe,
+      analyse: fs.existsSync(cheminResultat(slug)),
+    }));
+    res.json(projets);
+  })
+);
 
 // Route pour récupérer les données d'un projet spécifique
-router.get("/project/:projectName", (req, res) => {
-  const { projectName } = req.params;
-  const filePath = path.join("data", `${projectName}.json`);
+router.get(
+  "/project/:slug",
+  asyncHandler(async (req, res) => {
+    const { slug } = req.params;
+    const filePath = cheminResultat(slug);
 
-  if (!fs.existsSync(filePath)) {
-    return res.status(404).json({ error: "Project not found" });
-  }
+    if (!trouverProjet(slug) || !fs.existsSync(filePath)) {
+      throw new FileNotFoundError(slug);
+    }
 
-  const data = fs.readFileSync(filePath);
-  res.json(JSON.parse(data));
-});
+    res.json(JSON.parse(fs.readFileSync(filePath, "utf-8")));
+  })
+);
 
 export default router;

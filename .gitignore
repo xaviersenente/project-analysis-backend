@@ -45,3 +45,7 @@ coverage/
 # Dependencies
 package-lock.json
 yarn.lock
+
+# Données des étudiants : jamais versionnées (S1)
+data/
+cache/

@@ -1,9 +1,6 @@
 import fs from "fs/promises";
-import path from "path";
-import { fileURLToPath } from "url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, "../../data");
+import { existsSync } from "fs";
+import { chargerPromo, cheminResultat } from "../promo/promoService.js";
 
 /**
  * Extrait tous les scores d'un fichier JSON d'analyse
@@ -90,8 +87,10 @@ const extractScores = (analysisData) => {
  */
 export const calculateClassStats = async () => {
   try {
-    const files = await fs.readdir(dataDir);
-    const jsonFiles = files.filter((f) => f.endsWith(".json"));
+    // Seuls les projets de la promo sont comptés, et seulement s'ils sont analysés
+    const slugs = chargerPromo()
+      .projets.map((p) => p.slug)
+      .filter((slug) => existsSync(cheminResultat(slug)));
 
     const allScores = {
       cssImports: [],
@@ -110,13 +109,10 @@ export const calculateClassStats = async () => {
     const studentData = [];
 
     // Lire tous les fichiers JSON
-    for (const file of jsonFiles) {
-      const filePath = path.join(dataDir, file);
-      const content = await fs.readFile(filePath, "utf-8");
+    for (const slug of slugs) {
+      const content = await fs.readFile(cheminResultat(slug), "utf-8");
       const analysisData = JSON.parse(content);
-
-      // Extraire le nom de l'étudiant (sans .json)
-      const studentName = file.replace(".json", "");
+      const studentName = slug;
 
       // Extraire les scores
       const scores = extractScores(analysisData);
@@ -171,7 +167,7 @@ export const calculateClassStats = async () => {
 
     return {
       timestamp: new Date().toISOString(),
-      studentCount: jsonFiles.length,
+      studentCount: slugs.length,
       stats: {
         cssImports: calculateStats(allScores.cssImports),
         cssVariables: calculateStats(allScores.cssVariables),
@@ -197,7 +193,7 @@ export const calculateClassStats = async () => {
 
 /**
  * Compare le score d'un étudiant avec la moyenne de la classe
- * @param {string} studentName - Nom du fichier JSON (sans extension)
+ * @param {string} studentName - Slug du projet
  * @param {object} classStats - Statistiques de classe
  * @returns {object} - Comparaison avec les moyennes
  */

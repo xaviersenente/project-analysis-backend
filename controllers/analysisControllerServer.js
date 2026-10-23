@@ -1,5 +1,4 @@
 import fs from "fs";
-import path from "path";
 import { HtmlCrawler } from "../services/html/fileScannerService.js";
 import {
   analyzeHTML,
@@ -23,18 +22,33 @@ import {
 } from "../services/html/validationService.js";
 import { performClassAnalysis } from "../services/css/classAnalysisService.js";
 import axios from "axios";
+import {
+  validerSlug,
+  trouverProjet,
+  cheminResultat,
+} from "../services/promo/promoService.js";
+import { FileNotFoundError } from "../utils/errors.js";
+
+// Une seule analyse à la fois : Lighthouse est lourd (S3)
+let analyseEnCours = false;
 
 /**
  * Scan un répertoire en ligne pour récupérer et analyser les fichiers HTML.
  */
 export const scanUrl = async (req, res) => {
-  const { url, projectName } = req.query; // On passe l'URL via une query string
+  // L'URL vient du fichier de promo, jamais de la requête (S3)
+  const slug = validerSlug(req.body?.slug);
+  const projet = trouverProjet(slug);
 
-  if (!url || !projectName) {
-    return res
-      .status(400)
-      .json({ error: "URL and projectName parameters are required" });
+  if (!projet?.site) {
+    throw new FileNotFoundError(slug);
   }
+  if (analyseEnCours) {
+    return res.status(409).json({ error: "Une analyse est déjà en cours" });
+  }
+
+  const url = projet.site;
+  analyseEnCours = true;
 
   try {
     // Récupérer la liste des fichiers HTML depuis l'URL
@@ -192,16 +206,18 @@ export const scanUrl = async (req, res) => {
     };
 
     // Étape 2 : Sauvegarde en fichier JSON
-    const filePath = path.join("data", `${projectName}.json`);
+    const filePath = cheminResultat(slug);
     fs.writeFileSync(filePath, JSON.stringify(analysisResult, null, 2));
 
     // Retour simplifié
     return res.status(200).json({
-      message: `Project ${projectName} saved successfully`,
+      message: `Project ${slug} saved successfully`,
       analysisResult, // Retourne l'objet complet en une seule étape
     });
   } catch (error) {
     console.error("Error during repository scan:", error);
     res.status(500).json({ error: "An error occurred during the scan" });
+  } finally {
+    analyseEnCours = false;
   }
 };
