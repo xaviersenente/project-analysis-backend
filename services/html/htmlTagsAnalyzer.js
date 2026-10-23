@@ -1,57 +1,9 @@
-// Liste des balises à vérifier
-const REQUIRED_TAGS = [
-  "body",
-  "article",
-  "nav",
-  "header",
-  "footer",
-  "h1",
-  "h2",
-  "h3",
-  "p",
-  "blockquote",
-  "ul",
-  "li",
-  "figure",
-  "figcaption",
-  "form",
-  "label",
-  "input",
-  "button",
-  "textarea",
-  "img",
-  // "video",
-  "a",
-  "em",
-  "strong",
-  "html",
-  "head",
-  "title",
-  "link",
-  "meta",
-  "script",
-];
+import thresholds from "../../config/thresholds.js";
 
-// Liste des balises obsolètes
-const OBSOLETE_TAGS = [
-  "font",
-  "center",
-  "b",
-  "i",
-  "u",
-  "strike",
-  "marquee",
-  "blink",
-  "applet",
-  "frameset",
-  "noframes",
-  "basefont",
-  "big",
-  "tt",
-];
-
-// Liste des balises obsolètes
-const OTHER_TAGS = ["br", "hr", "div", "span"];
+// Récupération des balises depuis la configuration centralisée
+const REQUIRED_TAGS = thresholds.tags.requiredTags;
+const OBSOLETE_TAGS = thresholds.tags.obsoleteTags;
+const OTHER_TAGS = thresholds.tags.otherTags;
 
 /**
  * Fonction pour extraire toutes les balises d'un contenu HTML

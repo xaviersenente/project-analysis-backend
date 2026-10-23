@@ -3,6 +3,14 @@
  * basé sur l'accessibilité, la performance et les bonnes pratiques.
  */
 
+import {
+  ScoreCalculator,
+  createScore,
+  ratioToScore,
+} from "../shared/scoreCalculator.js";
+import thresholds from "../../config/thresholds.js";
+import { percentage } from "../../utils/statistics.js";
+
 /**
  * Détecte le format d'une image en combinant l'extension et le MIME type
  * @param {string} src - L'URL source de l'image
@@ -101,16 +109,21 @@ const evaluateAltQuality = (alt) => {
   // Alt trop court ou générique
   const genericTerms = ["image", "photo", "picture", "img", "icon"];
   const isGeneric = genericTerms.some(
-    (term) => alt.toLowerCase().includes(term) && alt.length < 15
+    (term) =>
+      alt.toLowerCase().includes(term) &&
+      alt.length < thresholds.images.alt.minGoodLength
   );
 
-  if (alt.length < 5 || isGeneric) return "poor";
+  if (alt.length < thresholds.images.alt.minGoodLength || isGeneric)
+    return "poor";
+  if (alt.length > thresholds.images.alt.maxGoodLength) return "poor";
 
   return "good";
 };
 
 /**
  * Calcule un score de qualité pour les images HTML
+ * Utilise ScoreCalculator pour standardiser la logique
  * @param {object} data - Données d'analyse des images
  * @returns {object} - Score avec breakdown, grade et improvements
  */
@@ -130,229 +143,312 @@ const calculateImagesScore = (data) => {
     decorativeRatio,
   } = data;
 
-  const scores = {
-    accessibility: { score: 0, max: 35, details: "" },
-    performance: { score: 0, max: 35, details: "" },
-    bestPractices: { score: 0, max: 30, details: "" },
-  };
-
-  // ===== 1. ACCESSIBILITÉ (35 points) =====
-
+  // Cas spécial : aucune image
   if (totalImages === 0) {
-    scores.accessibility.details = "Aucune image détectée.";
-    scores.performance.details = "Aucune image détectée.";
-    scores.bestPractices.details = "Aucune image détectée.";
-
     return {
       total: 100,
-      breakdown: scores,
+      breakdown: {
+        accessibility: { score: 0, max: 35, details: "Aucune image détectée." },
+        performance: { score: 0, max: 35, details: "Aucune image détectée." },
+        bestPractices: { score: 0, max: 30, details: "Aucune image détectée." },
+      },
       grade: "A",
       improvements: ["Aucune image à optimiser."],
     };
   }
 
-  // 1.1 Présence d'alt (15 points)
-  const altPresenceRatio = imagesWithAlt / totalImages;
-  if (altPresenceRatio >= 0.9) scores.accessibility.score += 15;
-  else if (altPresenceRatio >= 0.75) scores.accessibility.score += 13;
-  else if (altPresenceRatio >= 0.6) scores.accessibility.score += 10;
-  else if (altPresenceRatio >= 0.4) scores.accessibility.score += 7;
-  else scores.accessibility.score += 4;
+  const improvements = [];
+  const calculator = new ScoreCalculator();
 
-  // 1.2 Qualité des alt (10 points)
-  const goodAltRatio = imagesWithGoodAlt / Math.max(contentImages, 1);
-  if (goodAltRatio >= 0.8) scores.accessibility.score += 10;
-  else if (goodAltRatio >= 0.6) scores.accessibility.score += 8;
-  else if (goodAltRatio >= 0.4) scores.accessibility.score += 6;
-  else if (goodAltRatio >= 0.25) scores.accessibility.score += 4;
-  else scores.accessibility.score += 2;
+  // ===== 1. ACCESSIBILITÉ (35 points) =====
+  calculator.addCategory(
+    "accessibility",
+    thresholds.scoring.weights.accessibility,
+    () => {
+      let score = 0;
+      const details = [];
+      const points = thresholds.scoring.points;
 
-  // 1.3 Images décoratives bien marquées (10 points)
-  if (decorativeRatio >= 0.1 && decorativeRatio <= 0.25) {
-    scores.accessibility.score += 10;
-  } else if (
-    decorativeRatio < 0.1 ||
-    (decorativeRatio > 0.25 && decorativeRatio <= 0.35)
-  ) {
-    scores.accessibility.score += 8;
-  } else if (decorativeRatio <= 0.45) {
-    scores.accessibility.score += 5;
-  } else {
-    scores.accessibility.score += 2;
-  }
+      // 1.1 Présence d'alt (15 points)
+      const altPresenceRatio = imagesWithAlt / totalImages;
+      const altThresholds = thresholds.images.alt;
 
-  scores.accessibility.details = `${imagesWithAlt}/${totalImages} images avec alt (${Math.round(
-    altPresenceRatio * 100
-  )}%), ${imagesWithGoodAlt} alt de qualité, ${decorativeImages} décoratives (${Math.round(
-    decorativeRatio * 100
-  )}%)`;
+      if (altPresenceRatio >= altThresholds.excellentRatio)
+        score += points.imagesAltPresence;
+      else if (altPresenceRatio >= altThresholds.optimalRatio)
+        score += Math.round(points.imagesAltPresence * 0.87);
+      else if (altPresenceRatio >= 0.6)
+        score += Math.round(points.imagesAltPresence * 0.67);
+      else if (altPresenceRatio >= 0.4)
+        score += Math.round(points.imagesAltPresence * 0.47);
+      else score += Math.round(points.imagesAltPresence * 0.27);
+
+      if (altPresenceRatio < altThresholds.optimalRatio) {
+        improvements.push(
+          `Ajouter des attributs alt manquants (actuellement ${percentage(
+            altPresenceRatio * 100,
+            1,
+            0
+          )}%)`
+        );
+      }
+
+      // 1.2 Qualité des alt (10 points)
+      const goodAltRatio = imagesWithGoodAlt / Math.max(contentImages, 1);
+
+      if (goodAltRatio >= 0.8) score += points.imagesAltQuality;
+      else if (goodAltRatio >= 0.6)
+        score += Math.round(points.imagesAltQuality * 0.8);
+      else if (goodAltRatio >= 0.4)
+        score += Math.round(points.imagesAltQuality * 0.6);
+      else if (goodAltRatio >= 0.25)
+        score += Math.round(points.imagesAltQuality * 0.4);
+      else score += Math.round(points.imagesAltQuality * 0.2);
+
+      if (goodAltRatio < 0.8) {
+        improvements.push(
+          "Améliorer la qualité des textes alt (descriptifs, 10-125 caractères)"
+        );
+      }
+
+      // 1.3 Images décoratives bien marquées (10 points)
+      const decorativeThresholds = thresholds.images.decorative;
+
+      if (decorativeRatio >= 0.1 && decorativeRatio <= 0.25) {
+        score += points.imagesDecorative;
+      } else if (
+        decorativeRatio < 0.1 ||
+        (decorativeRatio > 0.25 && decorativeRatio <= 0.35)
+      ) {
+        score += Math.round(points.imagesDecorative * 0.8);
+      } else if (decorativeRatio <= 0.45) {
+        score += Math.round(points.imagesDecorative * 0.5);
+      } else {
+        score += Math.round(points.imagesDecorative * 0.2);
+        improvements.push(
+          "Trop d'images marquées comme décoratives, vérifier la pertinence"
+        );
+      }
+
+      details.push(
+        `${imagesWithAlt}/${totalImages} images avec alt (${Math.round(
+          altPresenceRatio * 100
+        )}%)`,
+        `${imagesWithGoodAlt} alt de qualité`,
+        `${decorativeImages} décoratives (${Math.round(
+          decorativeRatio * 100
+        )}%)`
+      );
+
+      return createScore(score, 35, details.join(", "));
+    }
+  );
 
   // ===== 2. PERFORMANCE (35 points) =====
+  calculator.addCategory(
+    "performance",
+    thresholds.scoring.weights.performance,
+    () => {
+      let score = 0;
+      const details = [];
+      const points = thresholds.scoring.points;
+      const lazyThresholds = thresholds.images.lazyLoading;
+      const weightThresholds = thresholds.images.weight;
 
-  // 2.1 Lazy loading (20 points) - Optimal : 40-90%
-  const lazyLoadingRatio = imagesWithLazyLoading / totalImages;
-  if (lazyLoadingRatio >= 0.4 && lazyLoadingRatio <= 0.9) {
-    scores.performance.score += 20;
-  } else if (lazyLoadingRatio >= 0.25 && lazyLoadingRatio < 0.4) {
-    scores.performance.score += 17;
-  } else if (lazyLoadingRatio > 0.9 && lazyLoadingRatio <= 0.95) {
-    scores.performance.score += 16;
-  } else if (lazyLoadingRatio >= 0.1 || lazyLoadingRatio > 0.95) {
-    scores.performance.score += 12;
-  } else {
-    scores.performance.score += 7;
-  }
+      // 2.1 Lazy loading (20 points) - Optimal : 40-90%
+      const lazyLoadingRatio = imagesWithLazyLoading / totalImages;
 
-  // 2.2 Poids optimisé (15 points) - Top 5 moyenne < 150KB
-  let weightScore = 0;
-  if (top5AverageWeight !== null) {
-    const weightKB = top5AverageWeight / 1024;
-    if (weightKB < 80) weightScore = 15;
-    else if (weightKB < 150) weightScore = 13;
-    else if (weightKB < 250) weightScore = 10;
-    else if (weightKB < 400) weightScore = 7;
-    else weightScore = 4;
-  } else {
-    // Si pas de données de poids, score neutre
-    weightScore = 11;
-  }
-  scores.performance.score += weightScore;
+      if (
+        lazyLoadingRatio >= lazyThresholds.optimalMin &&
+        lazyLoadingRatio <= lazyThresholds.optimalMax
+      ) {
+        score += points.imagesLazyLoading;
+      } else if (
+        lazyLoadingRatio >= lazyThresholds.acceptable &&
+        lazyLoadingRatio < lazyThresholds.optimalMin
+      ) {
+        score += Math.round(points.imagesLazyLoading * 0.85);
+        improvements.push(
+          `Augmenter le lazy loading (idéal : ${
+            lazyThresholds.optimalMin * 100
+          }-${lazyThresholds.optimalMax * 100}%)`
+        );
+      } else if (
+        lazyLoadingRatio > lazyThresholds.optimalMax &&
+        lazyLoadingRatio <= lazyThresholds.tooMuch
+      ) {
+        score += Math.round(points.imagesLazyLoading * 0.8);
+      } else if (
+        lazyLoadingRatio >= 0.1 ||
+        lazyLoadingRatio > lazyThresholds.tooMuch
+      ) {
+        score += Math.round(points.imagesLazyLoading * 0.6);
+      } else {
+        score += Math.round(points.imagesLazyLoading * 0.35);
+        improvements.push(
+          "Implémenter le lazy loading pour les images below the fold"
+        );
+      }
 
-  const avgWeightKB =
-    averageWeight !== null ? Math.round(averageWeight / 1024) : null;
-  const top5WeightKB =
-    top5AverageWeight !== null ? Math.round(top5AverageWeight / 1024) : null;
+      // 2.2 Poids optimisé (15 points) - Top 5 moyenne
+      let weightScore = 0;
+      if (top5AverageWeight !== null) {
+        const weightKB = top5AverageWeight / 1024;
 
-  scores.performance.details = `Lazy loading: ${imagesWithLazyLoading}/${totalImages} (${Math.round(
-    lazyLoadingRatio * 100
-  )}%)`;
-  if (top5WeightKB !== null) {
-    scores.performance.details += `, Top 5 poids moyen: ${top5WeightKB}KB`;
-  }
-  if (avgWeightKB !== null) {
-    scores.performance.details += `, Moyenne: ${avgWeightKB}KB`;
-  }
+        if (weightKB < weightThresholds.excellent) {
+          weightScore = points.imagesWeight;
+        } else if (weightKB < weightThresholds.good) {
+          weightScore = Math.round(points.imagesWeight * 0.87);
+        } else if (weightKB < weightThresholds.acceptable) {
+          weightScore = Math.round(points.imagesWeight * 0.67);
+          improvements.push(
+            `Optimiser le poids des images (actuel : ${Math.round(
+              weightKB
+            )}KB, cible < ${weightThresholds.good}KB)`
+          );
+        } else if (weightKB < weightThresholds.large) {
+          weightScore = Math.round(points.imagesWeight * 0.47);
+          improvements.push(
+            "Reduire le poids des images (actuel : " +
+              Math.round(weightKB) +
+              "KB, cible < " +
+              weightThresholds.good +
+              "KB)"
+          );
+        } else {
+          weightScore = Math.round(points.imagesWeight * 0.27);
+          improvements.push(
+            "Images trop lourdes (" +
+              Math.round(weightKB) +
+              "KB), compresser ou utiliser formats modernes"
+          );
+        }
+      } else {
+        weightScore = Math.round(points.imagesWeight * 0.73); // Score neutre si pas de données
+      }
+      score += weightScore;
+
+      const avgWeightKB =
+        averageWeight !== null ? Math.round(averageWeight / 1024) : null;
+      const top5WeightKB =
+        top5AverageWeight !== null
+          ? Math.round(top5AverageWeight / 1024)
+          : null;
+
+      details.push(
+        `Lazy loading: ${imagesWithLazyLoading}/${totalImages} (${Math.round(
+          lazyLoadingRatio * 100
+        )}%)`
+      );
+      if (top5WeightKB !== null) {
+        details.push(`Top 5 poids moyen: ${top5WeightKB}KB`);
+      }
+      if (avgWeightKB !== null) {
+        details.push(`Moyenne: ${avgWeightKB}KB`);
+      }
+
+      return createScore(score, 35, details.join(", "));
+    }
+  );
 
   // ===== 3. BONNES PRATIQUES (30 points) =====
+  calculator.addCategory(
+    "bestPractices",
+    thresholds.scoring.weights.bestPractices,
+    () => {
+      let score = 0;
+      const details = [];
+      const points = thresholds.scoring.points;
+      const modernFormatsThresholds = thresholds.images.modernFormats;
 
-  // 3.1 Formats modernes (15 points) - avif/webp/svg > 50%
-  const totalFormats = Object.values(formats).reduce(
-    (sum, count) => sum + count,
-    0
+      // 3.1 Formats modernes (15 points) - avif/webp/svg > 50%
+      const totalFormats = Object.values(formats).reduce(
+        (sum, count) => sum + count,
+        0
+      );
+      const modernFormatsCount =
+        (formats.avif || 0) + (formats.webp || 0) + (formats.svg || 0);
+      const modernRatio =
+        totalFormats > 0 ? modernFormatsCount / totalFormats : 0;
+
+      if (modernRatio >= modernFormatsThresholds.webp.excellentRatio) {
+        score += points.imagesFormats;
+      } else if (modernRatio >= modernFormatsThresholds.webp.goodRatio) {
+        score += Math.round(points.imagesFormats * 0.87);
+      } else if (modernRatio >= 0.4) {
+        score += Math.round(points.imagesFormats * 0.67);
+        improvements.push(
+          "Augmenter l'utilisation de formats modernes (WebP, AVIF, SVG)"
+        );
+      } else if (modernRatio >= 0.2) {
+        score += Math.round(points.imagesFormats * 0.47);
+        improvements.push(
+          "Migrer vers des formats modernes (WebP, AVIF) pour de meilleures performances"
+        );
+      } else {
+        score += Math.round(points.imagesFormats * 0.27);
+        improvements.push(
+          "Utiliser des formats modernes (WebP, AVIF, SVG) au lieu de JPG/PNG"
+        );
+      }
+
+      // 3.2 Ratio décoratif/contenu (10 points) - Optimal : 10-30%
+      const decorativeThresholds = thresholds.images.decorative;
+
+      if (
+        decorativeRatio >= 0.1 &&
+        decorativeRatio <= decorativeThresholds.optimalRatio
+      ) {
+        score += points.imagesDecorativeRatio;
+      } else if (
+        decorativeRatio < 0.1 ||
+        (decorativeRatio > decorativeThresholds.optimalRatio &&
+          decorativeRatio <= 0.4)
+      ) {
+        score += Math.round(points.imagesDecorativeRatio * 0.8);
+      } else if (decorativeRatio <= 0.5) {
+        score += Math.round(points.imagesDecorativeRatio * 0.5);
+      } else {
+        score += Math.round(points.imagesDecorativeRatio * 0.2);
+      }
+
+      // 3.3 Cohérence des formats (5 points)
+      const formatCount = Object.values(formats).filter(
+        (count) => count > 0
+      ).length;
+
+      if (formatCount <= 2) {
+        score += points.imagesFormatConsistency;
+      } else if (formatCount === 3) {
+        score += Math.round(points.imagesFormatConsistency * 0.6);
+      } else {
+        score += Math.round(points.imagesFormatConsistency * 0.2);
+        improvements.push(
+          "Limiter le nombre de formats d'images différents pour plus de cohérence"
+        );
+      }
+
+      const formatsList = Object.entries(formats)
+        .filter(([, count]) => count > 0)
+        .map(([format, count]) => `${count} ${format}`)
+        .join(", ");
+
+      details.push(
+        `Formats modernes: ${Math.round(modernRatio * 100)}% (${formatsList})`,
+        `Ratio décoratif: ${Math.round(decorativeRatio * 100)}%`
+      );
+
+      return createScore(score, 30, details.join(", "));
+    }
   );
-  const modernFormats =
-    (formats.avif || 0) + (formats.webp || 0) + (formats.svg || 0);
-  const modernRatio = totalFormats > 0 ? modernFormats / totalFormats : 0;
 
-  if (modernRatio >= 0.8) scores.bestPractices.score += 15;
-  else if (modernRatio >= 0.6) scores.bestPractices.score += 13;
-  else if (modernRatio >= 0.4) scores.bestPractices.score += 10;
-  else if (modernRatio >= 0.2) scores.bestPractices.score += 7;
-  else scores.bestPractices.score += 4;
+  // Calculer et retourner le résultat
+  const result = calculator.calculate();
 
-  // 3.2 Ratio décoratif/contenu (10 points) - Optimal : 10-30%
-  let decorativeScore = 0;
-  if (decorativeRatio >= 0.1 && decorativeRatio <= 0.3) {
-    decorativeScore = 10;
-  } else if (
-    decorativeRatio < 0.1 ||
-    (decorativeRatio > 0.3 && decorativeRatio <= 0.4)
-  ) {
-    decorativeScore = 8;
-  } else if (decorativeRatio <= 0.5) {
-    decorativeScore = 5;
-  } else {
-    decorativeScore = 2;
-  }
-  scores.bestPractices.score += decorativeScore;
+  // Ajouter les améliorations collectées (dédupliquées)
+  result.improvements = [...new Set([...result.improvements, ...improvements])];
 
-  // 3.3 Cohérence des formats (5 points)
-  const formatCount = Object.values(formats).filter(
-    (count) => count > 0
-  ).length;
-  if (formatCount <= 2) scores.bestPractices.score += 5;
-  else if (formatCount === 3) scores.bestPractices.score += 3;
-  else scores.bestPractices.score += 1;
-
-  const formatsList = Object.entries(formats)
-    .filter(([, count]) => count > 0)
-    .map(([format, count]) => `${count} ${format}`)
-    .join(", ");
-
-  scores.bestPractices.details = `Formats modernes: ${Math.round(
-    modernRatio * 100
-  )}% (${formatsList}), Ratio décoratif: ${Math.round(decorativeRatio * 100)}%`;
-
-  // ===== CALCUL TOTAL ET GRADE =====
-  const total = Object.values(scores).reduce((sum, s) => sum + s.score, 0);
-
-  let grade;
-  if (total >= 90) grade = "A";
-  else if (total >= 80) grade = "B";
-  else if (total >= 70) grade = "C";
-  else if (total >= 60) grade = "D";
-  else grade = "F";
-
-  // ===== RECOMMANDATIONS =====
-  const improvements = [];
-
-  if (imagesWithoutAlt > 0) {
-    improvements.push(
-      `Ajouter des textes alt descriptifs pour ${imagesWithoutAlt} image(s) manquante(s)`
-    );
-  }
-
-  if (imagesWithPoorAlt > 0) {
-    improvements.push(
-      `Améliorer la qualité de ${imagesWithPoorAlt} texte(s) alt trop court(s) ou générique(s)`
-    );
-  }
-
-  if (lazyLoadingRatio < 0.5) {
-    const missingLazy = totalImages - imagesWithLazyLoading;
-    improvements.push(
-      `Activer le lazy loading sur ${missingLazy} image(s) supplémentaire(s) (hors first fold)`
-    );
-  } else if (lazyLoadingRatio > 0.85) {
-    improvements.push(
-      "Attention : éviter le lazy loading sur les images above-the-fold (premières images visibles)"
-    );
-  }
-
-  if (top5AverageWeight !== null && top5AverageWeight / 1024 > 100) {
-    improvements.push(
-      `Optimiser les 5 images les plus lourdes (moyenne: ${Math.round(
-        top5AverageWeight / 1024
-      )}KB > 100KB)`
-    );
-  }
-
-  if (modernRatio < 0.7) {
-    improvements.push(
-      `Utiliser des formats modernes (AVIF/WebP/SVG) pour ${Math.round(
-        (1 - modernRatio) * 100
-      )}% des images`
-    );
-  }
-
-  if (decorativeRatio > 0.3) {
-    improvements.push(
-      `Ratio d'images décoratives élevé (${Math.round(
-        decorativeRatio * 100
-      )}%), considérer CSS/background-image`
-    );
-  }
-
-  if (improvements.length === 0) {
-    improvements.push("Excellente optimisation des images !");
-  }
-
-  return {
-    total,
-    breakdown: scores,
-    grade,
-    improvements,
-  };
+  return result;
 };
 
 /**

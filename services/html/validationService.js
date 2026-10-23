@@ -1,19 +1,13 @@
-// Validation désactivée pour Render (fonctionne en local uniquement)
-// import { execFile } from "child_process";
-// import { promisify } from "util";
-// import { writeFile, unlink } from "fs/promises";
-// import { tmpdir } from "os";
-// import { join } from "path";
-// import vnuJar from "vnu-jar";
+import { execFile } from "child_process";
+import { promisify } from "util";
+import { writeFile, unlink } from "fs/promises";
+import { tmpdir } from "os";
+import { join } from "path";
+import vnuJar from "vnu-jar";
 
-// const execFileAsync = promisify(execFile);
+const execFileAsync = promisify(execFile);
 
 export const validateHTML = async (htmlContent) => {
-  // Validation désactivée pour Render
-  console.log("📋 Validation HTML: Désactivée pour Render");
-  return [];
-
-  /* Version locale - fonctionne uniquement en développement
   const tempFile = join(tmpdir(), `validate-${Date.now()}.html`);
 
   try {
@@ -66,7 +60,6 @@ export const validateHTML = async (htmlContent) => {
       // Ignorer les erreurs de nettoyage
     }
   }
-  */
 };
 
 /**

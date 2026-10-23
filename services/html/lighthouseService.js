@@ -12,7 +12,26 @@ export const runLighthouse = async (url) => {
     logLevel: "info",
     output: "json",
     port: chrome.port,
-    emulatedFormFactor: "mobile", // Configuration pour le mode mobile
+    formFactor: "mobile", // Force le mode mobile
+    emulatedFormFactor: "mobile",
+    // Configuration écran iPhone 15
+    screenEmulation: {
+      mobile: true,
+      width: 393,
+      height: 852,
+      deviceScaleFactor: 3,
+      disabled: false,
+    },
+    // Throttling réseau pour simuler une connexion 4G mobile
+    throttling: {
+      rttMs: 150,
+      throughputKbps: 1638.4,
+      cpuSlowdownMultiplier: 4,
+      requestLatencyMs: 0,
+      downloadThroughputKbps: 0,
+      uploadThroughputKbps: 0,
+    },
+    onlyCategories: ["performance", "accessibility", "best-practices", "seo"],
   };
 
   try {

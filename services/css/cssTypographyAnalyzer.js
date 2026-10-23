@@ -1,5 +1,8 @@
 import postcss from "postcss";
 import { resolveVariable } from "../shared/cssHelpers.js";
+import { ScoreCalculator, createScore } from "../shared/scoreCalculator.js";
+import thresholds from "../../config/thresholds.js";
+import { parseCSS } from "../shared/cssParser.js";
 
 /**
  * Normalise le nom d'une famille de police pour éviter les doublons dus à la casse
@@ -192,6 +195,7 @@ export const analyzeLineHeightUnits = (lineHeightValues) => {
 
 /**
  * Calcule le score de la qualité typographique
+ * Utilise ScoreCalculator pour standardiser la logique
  * @param {object} typographyData - Données brutes avant transformation
  * @param {object} summary - Résumé des métriques
  * @param {Array} webfonts - Liste des webfonts détectées
@@ -204,216 +208,229 @@ export const calculateTypographyScore = (
   webfonts,
   fontFamilies
 ) => {
-  const scores = {
-    webfonts: { score: 0, max: 15, details: "" },
-    fallbacks: { score: 0, max: 20, details: "" },
-    inheritance: { score: 0, max: 25, details: "" },
-    sizes: { score: 0, max: 20, details: "" },
-    lineHeights: { score: 0, max: 15, details: "" },
-    bestPractices: { score: 0, max: 5, details: "" },
-  };
+  const improvements = [];
+  const calculator = new ScoreCalculator();
 
   // 1. Score Webfonts (15 points)
-  if (webfonts.length > 0) {
-    scores.webfonts.score += 5;
-    scores.webfonts.details = `${webfonts.length} webfont(s) détectée(s). `;
+  calculator.addCategory("webfonts", 15, () => {
+    let score = 0;
+    const details = [];
 
-    // Source appropriée (HTML ou CSS)
-    if (
-      webfonts.some(
-        (w) => w.source === "html-link" || w.source === "css-import"
-      )
-    ) {
-      scores.webfonts.score += 5;
-      scores.webfonts.details += "Import correct. ";
-    }
+    if (webfonts.length > 0) {
+      score += 5;
+      details.push(`${webfonts.length} webfont(s) détectée(s)`);
 
-    // Pas de doublons excessifs
-    const uniqueProviders = new Set(webfonts.map((w) => w.provider)).size;
-    if (webfonts.length <= uniqueProviders * 2) {
-      scores.webfonts.score += 5;
-      scores.webfonts.details += "Pas de doublons.";
+      // Source appropriée (HTML ou CSS)
+      if (
+        webfonts.some(
+          (w) => w.source === "html-link" || w.source === "css-import"
+        )
+      ) {
+        score += 5;
+        details.push("Import correct");
+      }
+
+      // Pas de doublons excessifs
+      const uniqueProviders = new Set(webfonts.map((w) => w.provider)).size;
+      if (webfonts.length <= uniqueProviders * 2) {
+        score += 5;
+        details.push("Pas de doublons");
+      } else {
+        details.push("Imports en doublon détectés");
+        improvements.push("Éviter les imports de webfonts en doublon");
+      }
     } else {
-      scores.webfonts.details += "Imports en doublon détectés.";
+      details.push("Aucune webfont détectée");
+      improvements.push("Utiliser des webfonts pour améliorer la typographie");
     }
-  } else {
-    scores.webfonts.details = "Aucune webfont détectée.";
-  }
+
+    return createScore(score, 15, details.join(". "));
+  });
 
   // 2. Score Fallbacks (20 points)
-  const fallbackCoverage = summary.fallbackCoverage || 0;
-  scores.fallbacks.score = Math.round(fallbackCoverage * 20);
+  calculator.addCategory("fallbacks", 20, () => {
+    const fallbackCoverage = summary.fallbackCoverage || 0;
+    const score = fallbackCoverage * 20;
 
-  if (summary.familiesWithoutGenericFallback === 0) {
-    scores.fallbacks.details =
-      "Toutes les polices ont des fallbacks génériques.";
-  } else {
-    scores.fallbacks.details = `${summary.familiesWithoutGenericFallback} police(s) sans fallback générique.`;
-  }
+    const details =
+      summary.familiesWithoutGenericFallback === 0
+        ? "Toutes les polices ont des fallbacks génériques."
+        : `${summary.familiesWithoutGenericFallback} police(s) sans fallback générique.`;
+
+    if (summary.familiesWithoutGenericFallback > 0) {
+      improvements.push(
+        "Ajouter des polices de secours avec familles génériques"
+      );
+    }
+
+    return createScore(score, 20, details);
+  });
 
   // 3. Score Héritage (25 points)
-  if (summary.hasGlobalFontFamily) {
-    scores.inheritance.score += 10;
-    scores.inheritance.details = "Police globale définie. ";
-  } else {
-    scores.inheritance.details = "Pas de police globale. ";
-  }
+  calculator.addCategory(
+    "inheritance",
+    thresholds.scoring.points.typographyHierarchy + 5,
+    () => {
+      let score = 0;
+      const details = [];
 
-  const inheritanceQuality = summary.inheritanceQuality || 0;
-  scores.inheritance.score += Math.round(inheritanceQuality * 15);
-  scores.inheritance.details += `Qualité d'héritage: ${Math.round(
-    inheritanceQuality * 100
-  )}%.`;
+      if (summary.hasGlobalFontFamily) {
+        score += 10;
+        details.push("Police globale définie");
+      } else {
+        details.push("Pas de police globale");
+        improvements.push(
+          "Définir une police globale et réduire les redéclarations"
+        );
+      }
+
+      const inheritanceQuality = summary.inheritanceQuality || 0;
+      score += inheritanceQuality * 15;
+      details.push(
+        `Qualité d'héritage: ${Math.round(inheritanceQuality * 100)}%`
+      );
+
+      return createScore(score, 25, details.join(". "));
+    }
+  );
 
   // 4. Score Cohérence des tailles (20 points)
-  const unitsAnalysis = analyzeFontSizeUnits(fontFamilies);
+  calculator.addCategory("sizes", 20, () => {
+    const unitsAnalysis = analyzeFontSizeUnits(fontFamilies);
 
-  // Analyser le nombre de variations de tailles
-  let avgSizeVariations = 0;
-  let totalFamilies = 0;
-  fontFamilies.forEach((data) => {
-    if (data.sizes.size > 0) {
-      avgSizeVariations += data.sizes.size;
-      totalFamilies++;
+    // Analyser le nombre de variations de tailles
+    let avgSizeVariations = 0;
+    let totalFamilies = 0;
+    fontFamilies.forEach((data) => {
+      if (data.sizes.size > 0) {
+        avgSizeVariations += data.sizes.size;
+        totalFamilies++;
+      }
+    });
+    avgSizeVariations =
+      totalFamilies > 0 ? avgSizeVariations / totalFamilies : 0;
+
+    // Score selon le nombre de variations
+    let score = 0;
+    let details = "";
+
+    if (
+      avgSizeVariations >=
+        thresholds.typography.fontSizeVariations.optimal.min &&
+      avgSizeVariations <= thresholds.typography.fontSizeVariations.optimal.max
+    ) {
+      score += 10;
+      details = "Nombre de tailles optimal. ";
+    } else if (
+      avgSizeVariations >= thresholds.typography.fontSizeVariations.good.min &&
+      avgSizeVariations <= thresholds.typography.fontSizeVariations.good.max
+    ) {
+      score += 7;
+      details = "Nombre de tailles correct. ";
+    } else if (
+      avgSizeVariations >=
+        thresholds.typography.fontSizeVariations.acceptable.min &&
+      avgSizeVariations <=
+        thresholds.typography.fontSizeVariations.acceptable.max
+    ) {
+      score += 4;
+      details = "Trop de variations de tailles. ";
+    } else if (
+      avgSizeVariations >
+      thresholds.typography.fontSizeVariations.acceptable.max
+    ) {
+      details = "Beaucoup trop de variations de tailles. ";
+      improvements.push("Réduire le nombre de variations de tailles de police");
+    } else {
+      details = "Peu de variations de tailles. ";
     }
+
+    // Score pour unités relatives
+    const relativeScore = unitsAnalysis.relativeRatio * 10;
+    score += relativeScore;
+    details += `${Math.round(
+      unitsAnalysis.relativeRatio * 100
+    )}% d'unités relatives.`;
+
+    if (
+      unitsAnalysis.relativeRatio < thresholds.typography.relativeUnitsRatio.min
+    ) {
+      improvements.push("Privilégier rem/em au lieu de px pour les font-size");
+    }
+
+    return createScore(score, 20, details);
   });
-  avgSizeVariations = totalFamilies > 0 ? avgSizeVariations / totalFamilies : 0;
-
-  // Score selon le nombre de variations
-  if (avgSizeVariations >= 2 && avgSizeVariations <= 4) {
-    scores.sizes.score += 10;
-    scores.sizes.details = "Nombre de tailles optimal. ";
-  } else if (avgSizeVariations >= 5 && avgSizeVariations <= 7) {
-    scores.sizes.score += 7;
-    scores.sizes.details = "Nombre de tailles correct. ";
-  } else if (avgSizeVariations >= 8 && avgSizeVariations <= 10) {
-    scores.sizes.score += 4;
-    scores.sizes.details = "Trop de variations de tailles. ";
-  } else if (avgSizeVariations > 10) {
-    scores.sizes.details = "Beaucoup trop de variations de tailles. ";
-  } else {
-    scores.sizes.details = "Peu de variations de tailles. ";
-  }
-
-  // Score pour unités relatives
-  const relativeScore = Math.round(unitsAnalysis.relativeRatio * 10);
-  scores.sizes.score += relativeScore;
-  scores.sizes.details += `${Math.round(
-    unitsAnalysis.relativeRatio * 100
-  )}% d'unités relatives.`;
 
   // 5. Score Line-heights (15 points)
-  const lineHeightRatio =
-    summary.totalFontSizeDeclarations > 0
-      ? summary.totalLineHeightDeclarations / summary.totalFontSizeDeclarations
-      : 0;
+  calculator.addCategory("lineHeights", 15, () => {
+    const lineHeightRatio =
+      summary.totalFontSizeDeclarations > 0
+        ? summary.totalLineHeightDeclarations /
+          summary.totalFontSizeDeclarations
+        : 0;
 
-  // Score de couverture (10 points)
-  scores.lineHeights.score = Math.round(lineHeightRatio * 10);
+    // Score de couverture (10 points)
+    let score = lineHeightRatio * 10;
 
-  // Score pour unités proportionnelles (5 points)
-  if (summary.lineHeightUnits) {
-    const proportionalScore = Math.round(
-      summary.lineHeightUnits.proportionalRatio * 5
-    );
-    scores.lineHeights.score += proportionalScore;
-  }
+    // Score pour unités proportionnelles (5 points)
+    if (summary.lineHeightUnits) {
+      const proportionalScore = summary.lineHeightUnits.proportionalRatio * 5;
+      score += proportionalScore;
+    }
 
-  if (lineHeightRatio >= 0.9) {
-    scores.lineHeights.details = "Excellente couverture des line-heights. ";
-  } else if (lineHeightRatio >= 0.7) {
-    scores.lineHeights.details = "Bonne couverture des line-heights. ";
-  } else if (lineHeightRatio >= 0.5) {
-    scores.lineHeights.details = "Couverture moyenne des line-heights. ";
-  } else {
-    scores.lineHeights.details = "Beaucoup de line-heights manquantes. ";
-  }
+    let details = "";
+    if (lineHeightRatio >= thresholds.typography.lineHeightCoverage.excellent) {
+      details = "Excellente couverture des line-heights. ";
+    } else if (
+      lineHeightRatio >= thresholds.typography.lineHeightCoverage.good
+    ) {
+      details = "Bonne couverture des line-heights. ";
+    } else if (
+      lineHeightRatio >= thresholds.typography.lineHeightCoverage.average
+    ) {
+      details = "Couverture moyenne des line-heights. ";
+    } else {
+      details = "Beaucoup de line-heights manquantes. ";
+      improvements.push("Définir des line-heights pour toutes les font-size");
+    }
 
-  if (summary.lineHeightUnits) {
-    scores.lineHeights.details += `${Math.round(
-      summary.lineHeightUnits.proportionalRatio * 100
-    )}% de valeurs proportionnelles.`;
-  }
+    if (summary.lineHeightUnits) {
+      details += `${Math.round(
+        summary.lineHeightUnits.proportionalRatio * 100
+      )}% de valeurs proportionnelles.`;
+
+      if (
+        summary.lineHeightUnits.proportionalRatio <
+        thresholds.typography.proportionalLineHeightRatio.min
+      ) {
+        improvements.push(
+          "Privilégier les valeurs proportionnelles (unitless ou %) pour line-height"
+        );
+      }
+    }
+
+    return createScore(score, 15, details);
+  });
 
   // 6. Score Bonnes pratiques (5 points)
-  if (!summary.excessiveFontFamilyDeclarations) {
-    scores.bestPractices.score = 5;
-    scores.bestPractices.details = "Nombre de déclarations approprié.";
-  } else {
-    scores.bestPractices.details = "Trop de déclarations font-family.";
-  }
+  calculator.addCategory("bestPractices", 5, () => {
+    const score = summary.excessiveFontFamilyDeclarations ? 0 : 5;
+    const details = summary.excessiveFontFamilyDeclarations
+      ? "Trop de déclarations font-family."
+      : "Nombre de déclarations approprié.";
 
-  // Calcul du score total
-  const total = Object.values(scores).reduce((sum, s) => sum + s.score, 0);
+    return createScore(score, 5, details);
+  });
 
-  // Attribution d'une note alphabétique
-  let grade;
-  if (total >= 90) grade = "A";
-  else if (total >= 80) grade = "B";
-  else if (total >= 70) grade = "C";
-  else if (total >= 60) grade = "D";
-  else grade = "F";
-
-  // Génération des recommandations
-  const improvements = [];
-  if (scores.webfonts.score < scores.webfonts.max) {
-    improvements.push("Utiliser des webfonts pour améliorer la typographie");
-  }
-  if (scores.fallbacks.score < scores.fallbacks.max * 0.8) {
-    improvements.push(
-      "Ajouter des polices de secours avec familles génériques"
-    );
-  }
-  if (scores.inheritance.score < scores.inheritance.max * 0.8) {
-    improvements.push(
-      "Définir une police globale et réduire les redéclarations"
-    );
-  }
-  if (unitsAnalysis.relativeRatio < 0.5) {
-    improvements.push("Privilégier rem/em au lieu de px pour les font-size");
-  }
-  if (lineHeightRatio < 0.7) {
-    improvements.push("Définir des line-heights pour toutes les font-size");
-  }
-  if (
-    summary.lineHeightUnits &&
-    summary.lineHeightUnits.proportionalRatio < 0.7
-  ) {
-    improvements.push(
-      "Privilégier les valeurs proportionnelles (unitless ou %) pour line-height"
-    );
-  }
-  if (avgSizeVariations > 7) {
-    improvements.push("Réduire le nombre de variations de tailles de police");
-  }
-
-  return {
-    total,
-    breakdown: scores,
-    grade,
-    improvements,
-  };
+  return calculator.calculate(improvements);
 };
 
 /**
- * Analyse la typographie dans le HTML et le CSS compilé
- * @param {string} htmlContent - Le contenu HTML.
- * @param {string} cssRawContent - Le contenu CSS brut (avant compilation).
- * @param {string} compiledCss - Le CSS compilé.
- * @returns {object} - Analyse complète de la typographie.
+ * Extrait les variables CSS d'une racine PostCSS
+ * @param {object} root - Racine PostCSS
+ * @returns {Map} - Map des variables CSS
  */
-export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
-  console.log(`🔍 Analyse de la typographie...`);
-
-  // 1. Détection des webfonts
-  const webfontsInHtml = detectWebfontsInHtml(htmlContent);
-  const webfontsInCss = detectWebfontsInCss(cssRawContent);
-  const allWebfonts = [...webfontsInHtml, ...webfontsInCss];
-
-  // 2. Analyse du CSS compilé avec PostCSS
-  const root = postcss.parse(compiledCss);
-
-  // Extraire d'abord toutes les variables CSS pour les résoudre
+const extractCSSVariablesFromRoot = (root) => {
   const cssVariables = new Map();
   root.walkRules((rule) => {
     rule.walkDecls((decl) => {
@@ -422,378 +439,218 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
       }
     });
   });
+  return cssVariables;
+};
 
-  // Structures pour collecter les données
-  const fontFamilies = new Map(); // famille -> { selectors, sizes, lineHeights }
-  let totalFontFamilyDeclarations = 0;
-  let totalFontSizeDeclarations = 0;
-  let totalLineHeightDeclarations = 0;
+/**
+ * Résout une valeur potentiellement variable avec fallback inline
+ * @param {string} value - Valeur à résoudre
+ * @param {Map} cssVariables - Map des variables CSS
+ * @returns {string|null} - Valeur résolue ou null si non résolue
+ */
+const resolveValueWithFallback = (value, cssVariables) => {
+  let resolved = resolveVariable(value, cssVariables);
 
-  // Structures pour collecter les valeurs brutes
-  const allFontSizes = new Set();
-  const allLineHeights = new Map(); // Map<value, count>
-  const globalFamilyOrder = [];
-
-  // Sélecteurs globaux avec font-family (pour détecter l'héritage)
-  const globalSelectors = new Set(["html", "body", ":root", "*"]);
-  let hasGlobalFontFamily = false;
-
-  root.walkRules((rule) => {
-    // Ignorer @keyframes
-    if (
-      rule.parent &&
-      rule.parent.type === "atrule" &&
-      rule.parent.name === "keyframes"
-    ) {
-      return;
+  // Si non résolu, essayer le fallback inline
+  if (typeof resolved === "string" && /var\(/.test(resolved)) {
+    const varMatch = value.match(/var\(\s*--([\w-]+)\s*(?:,\s*([^\)]+))?\)/);
+    if (varMatch) {
+      const [, , fallback] = varMatch;
+      if (fallback && !/var\(/.test(fallback)) {
+        return fallback.trim();
+      }
     }
+    return null;
+  }
 
-    const selectors = rule.selectors || [rule.selector];
+  return resolved && !/var\(/.test(resolved) ? resolved : null;
+};
 
-    // Vérifier si c'est un sélecteur global
-    const isGlobal = selectors.some(
-      (sel) =>
-        globalSelectors.has(sel.trim()) ||
-        sel.trim() === "body" ||
-        sel.trim() === "html"
-    );
+/**
+ * Parse une font stack complète et retourne famille principale, fallbacks et info générique
+ * @param {string} resolvedValue - Valeur de font-family résolue
+ * @returns {object} - { family, fallbacks, hasGenericFallback, genericFallback }
+ */
+const parseFontStack = (resolvedValue) => {
+  const fontStack = resolvedValue
+    .split(",")
+    .map((f) => f.trim().replace(/["']/g, ""))
+    .filter(Boolean);
 
-    let currentFontFamily = null;
-    let currentFontSize = null;
-    let currentLineHeight = null;
+  const family = normalizeFontFamily(fontStack[0]);
+  const fallbacks = fontStack.slice(1);
 
-    rule.walkDecls((decl) => {
-      if (decl.prop === "font-family") {
-        totalFontFamilyDeclarations++;
-        if (isGlobal) hasGlobalFontFamily = true;
+  const genericFamilies = [
+    "serif",
+    "sans-serif",
+    "monospace",
+    "cursive",
+    "fantasy",
+    "system-ui",
+  ];
 
-        // Résoudre les variables et récupérer toute la stack de polices
-        let resolvedValue = resolveVariable(decl.value, cssVariables);
-        // Si la résolution laisse encore un var(), tenter d'extraire un fallback inline
-        if (typeof resolvedValue === "string" && /var\(/.test(resolvedValue)) {
-          const varMatch = decl.value.match(
-            /var\(\s*--([\w-]+)\s*(?:,\s*([^\)]+))?\)/
-          );
-          if (varMatch) {
-            const [, , fallback] = varMatch;
-            // En cas de fallback inline utilisable, l'appliquer
-            if (fallback && !/var\(/.test(fallback)) {
-              resolvedValue = fallback.trim();
-            } else {
-              // Pas de fallback: ignorer complètement cette déclaration
-              return;
-            }
-          } else {
-            // Pattern var() non identifiable: ignorer la déclaration
-            return;
-          }
-        }
-        // Si après tentative, la valeur reste invalide ou vide, ignorer
-        if (!resolvedValue || /var\(/.test(resolvedValue)) {
-          return;
-        }
+  const hasGenericFallback = fallbacks.some((f) =>
+    genericFamilies.includes(f.toLowerCase())
+  );
 
-        // Parser la font stack complète
-        const fontStack = resolvedValue
-          .split(",")
-          .map((f) => f.trim().replace(/["']/g, ""))
-          .filter(Boolean);
+  const genericFallback = fallbacks.find((f) =>
+    genericFamilies.includes(f.toLowerCase())
+  );
 
-        // La première police est la police principale (normalisée)
-        const family = normalizeFontFamily(fontStack[0]);
+  return { family, fallbacks, hasGenericFallback, genericFallback };
+};
 
-        // Les polices de secours (fallbacks)
-        const fallbacks = fontStack.slice(1);
-
-        // Détecter les familles génériques (sans-serif, serif, etc.)
-        const genericFamilies = [
-          "serif",
-          "sans-serif",
-          "monospace",
-          "cursive",
-          "fantasy",
-          "system-ui",
-        ];
-        const hasGenericFallback = fallbacks.some((f) =>
-          genericFamilies.includes(f.toLowerCase())
-        );
-        const genericFallback = fallbacks.find((f) =>
-          genericFamilies.includes(f.toLowerCase())
-        );
-
-        currentFontFamily = family;
-
-        if (!fontFamilies.has(family)) {
-          fontFamilies.set(family, {
-            selectors: new Set(),
-            sizes: new Map(), // size -> { selectors, lineHeights }
-            declarationCount: 0,
-            isGlobal: false,
-            fallbacks: new Set(),
-            hasGenericFallback: false,
-            genericFallback: null,
-          });
-        }
-
-        const familyData = fontFamilies.get(family);
-        familyData.declarationCount++;
-        if (isGlobal) familyData.isGlobal = true;
-
-        // Mémoriser l'ordre d'apparition des familles globales
-        if (isGlobal && !globalFamilyOrder.includes(family)) {
-          globalFamilyOrder.push(family);
-        }
-
-        // Enregistrer les fallbacks
-        fallbacks.forEach((f) => familyData.fallbacks.add(f));
-        if (hasGenericFallback) {
-          familyData.hasGenericFallback = true;
-          if (!familyData.genericFallback) {
-            familyData.genericFallback = genericFallback;
-          }
-        }
-
-        selectors.forEach((sel) => familyData.selectors.add(sel.trim()));
-      }
-
-      // Traiter aussi la propriété générique "font" qui peut inclure family, size et line-height
-      if (decl.prop === "font") {
-        let resolvedValue = resolveVariable(decl.value, cssVariables);
-        // Gérer les var() non résolues
-        if (typeof resolvedValue === "string" && /var\(/.test(resolvedValue)) {
-          const varMatch = decl.value.match(
-            /var\(\s*--([\w-]+)\s*(?:,\s*([^\)]+))?\)/
-          );
-          if (varMatch) {
-            const [, , fallback] = varMatch;
-            if (fallback && !/var\(/.test(fallback)) {
-              resolvedValue = fallback.trim();
-            } else {
-              return;
-            }
-          } else {
-            return;
-          }
-        }
-        if (!resolvedValue || /var\(/.test(resolvedValue)) {
-          return;
-        }
-
-        // Parser la propriété 'font' shorthand
-        // Format: [ [ font-style ] [ font-variant ] [ font-weight ] [ font-stretch ] ] [ font-size [ / line-height ] ] font-family
-
-        // Extraire la taille et line-height (format: 14px/1.5 ou 14px / 1.5)
-        const fontSizeLineHeightMatch = resolvedValue.match(
-          /(\d+(?:\.\d+)?(?:px|em|rem|%|pt|ch|ex|vw|vh))(?:\s*\/\s*(\d+(?:\.\d+)?(?:px|em|rem|%)?))?\s/i
-        );
-
-        if (fontSizeLineHeightMatch) {
-          totalFontSizeDeclarations++;
-          const fontSize = fontSizeLineHeightMatch[1];
-          currentFontSize = fontSize;
-          allFontSizes.add(currentFontSize);
-
-          // Extraire le line-height s'il est présent
-          if (fontSizeLineHeightMatch[2]) {
-            totalLineHeightDeclarations++;
-            const lineHeight = fontSizeLineHeightMatch[2];
-            currentLineHeight = lineHeight;
-            allLineHeights.set(
-              lineHeight,
-              (allLineHeights.get(lineHeight) || 0) + 1
-            );
-          }
-        }
-
-        // Extraire la famille: elle se trouve généralement en dernier dans la propriété font
-        // Après avoir retiré les tokens de style/weight/variant/size
-        let fontFamilyStr = resolvedValue;
-
-        // Retirer les styles CSS connus (font-style, font-weight, font-variant, font-stretch)
-        fontFamilyStr = fontFamilyStr.replace(
-          /\b(italic|oblique|normal|bold|bolder|lighter|100|200|300|400|500|600|700|800|900|small-caps|all-small-caps|petite-caps|all-petite-caps|ultra-condensed|extra-condensed|condensed|semi-condensed|semi-expanded|expanded|extra-expanded|ultra-expanded)\b\s*/gi,
-          ""
-        );
-
-        // Retirer la taille et line-height si présents
-        fontFamilyStr = fontFamilyStr.replace(
-          /(\d+(?:\.\d+)?(?:px|em|rem|%|pt|ch|ex|vw|vh))(?:\s*\/\s*\d+(?:\.\d+)?(?:px|em|rem|%)?)?/gi,
-          ""
-        );
-
-        fontFamilyStr = fontFamilyStr.trim();
-
-        if (fontFamilyStr) {
-          // Parser le stack de familles
-          const fontStack = fontFamilyStr
-            .split(",")
-            .map((f) => f.trim().replace(/["']/g, ""))
-            .filter(Boolean);
-
-          if (fontStack.length > 0) {
-            totalFontFamilyDeclarations++;
-            const family = normalizeFontFamily(fontStack[0]);
-            const fallbacks = fontStack.slice(1);
-            const genericFamilies = [
-              "serif",
-              "sans-serif",
-              "monospace",
-              "cursive",
-              "fantasy",
-              "system-ui",
-            ];
-            const hasGenericFallback = fallbacks.some((f) =>
-              genericFamilies.includes(f.toLowerCase())
-            );
-            const genericFallback = fallbacks.find((f) =>
-              genericFamilies.includes(f.toLowerCase())
-            );
-
-            currentFontFamily = family;
-            if (isGlobal) hasGlobalFontFamily = true;
-
-            if (!fontFamilies.has(family)) {
-              fontFamilies.set(family, {
-                selectors: new Set(),
-                sizes: new Map(),
-                declarationCount: 0,
-                isGlobal: false,
-                fallbacks: new Set(),
-                hasGenericFallback: false,
-                genericFallback: null,
-              });
-            }
-
-            const familyData = fontFamilies.get(family);
-            familyData.declarationCount++;
-            if (isGlobal) familyData.isGlobal = true;
-
-            if (isGlobal && !globalFamilyOrder.includes(family)) {
-              globalFamilyOrder.push(family);
-            }
-
-            fallbacks.forEach((f) => familyData.fallbacks.add(f));
-            if (hasGenericFallback) {
-              familyData.hasGenericFallback = true;
-              if (!familyData.genericFallback) {
-                familyData.genericFallback = genericFallback;
-              }
-            }
-
-            selectors.forEach((sel) => familyData.selectors.add(sel.trim()));
-          }
-        }
-      }
-
-      if (decl.prop === "font-size") {
-        currentFontSize = resolveVariable(decl.value.trim(), cssVariables);
-        // Si non résolu, essayer le fallback inline, sinon ignorer
-        if (
-          typeof currentFontSize === "string" &&
-          /var\(/.test(currentFontSize)
-        ) {
-          const varMatch = decl.value.match(
-            /var\(\s*--([\w-]+)\s*(?:,\s*([^\)]+))?\)/
-          );
-          if (varMatch) {
-            const [, , fallback] = varMatch;
-            if (fallback && !/var\(/.test(fallback)) {
-              currentFontSize = fallback.trim();
-            } else {
-              currentFontSize = null;
-            }
-          } else {
-            currentFontSize = null;
-          }
-        }
-        // Enregistrer la taille dans les structures globales seulement si résolue
-        if (currentFontSize) {
-          totalFontSizeDeclarations++;
-          allFontSizes.add(currentFontSize);
-
-          // Enregistrer aussi les sélecteurs pour fontSizeDetails
-          if (!fontFamilies.has("_orphan_sizes")) {
-            fontFamilies.set("_orphan_sizes", {
-              selectors: new Set(),
-              sizes: new Map(),
-              declarationCount: 0,
-              isGlobal: false,
-              fallbacks: new Set(),
-              hasGenericFallback: false,
-              genericFallback: null,
-            });
-          }
-          const orphanData = fontFamilies.get("_orphan_sizes");
-          if (!orphanData.sizes.has(currentFontSize)) {
-            orphanData.sizes.set(currentFontSize, {
-              selectors: new Set(),
-              lineHeights: new Set(),
-            });
-          }
-          const orphanSizeData = orphanData.sizes.get(currentFontSize);
-          selectors.forEach((sel) => orphanSizeData.selectors.add(sel.trim()));
-        }
-      }
-
-      if (decl.prop === "line-height") {
-        currentLineHeight = resolveVariable(decl.value.trim(), cssVariables);
-        // Si non résolu, essayer le fallback inline, sinon ignorer
-        if (
-          typeof currentLineHeight === "string" &&
-          /var\(/.test(currentLineHeight)
-        ) {
-          const varMatch = decl.value.match(
-            /var\(\s*--([\w-]+)\s*(?:,\s*([^\)]+))?\)/
-          );
-          if (varMatch) {
-            const [, , fallback] = varMatch;
-            if (fallback && !/var\(/.test(fallback)) {
-              currentLineHeight = fallback.trim();
-            } else {
-              currentLineHeight = null;
-            }
-          } else {
-            currentLineHeight = null;
-          }
-        }
-
-        // Enregistrer la valeur seulement si résolue
-        if (currentLineHeight) {
-          totalLineHeightDeclarations++;
-          allLineHeights.set(
-            currentLineHeight,
-            (allLineHeights.get(currentLineHeight) || 0) + 1
-          );
-        }
-      }
+/**
+ * Initialise les données d'une famille de polices si nécessaire
+ * @param {Map} fontFamilies - Map des familles
+ * @param {string} family - Nom de la famille
+ */
+const initializeFontFamily = (fontFamilies, family) => {
+  if (!fontFamilies.has(family)) {
+    fontFamilies.set(family, {
+      selectors: new Set(),
+      sizes: new Map(),
+      declarationCount: 0,
+      isGlobal: false,
+      fallbacks: new Set(),
+      hasGenericFallback: false,
+      genericFallback: null,
     });
+  }
+};
 
-    // Associer taille et line-height à la famille si définie dans cette règle
-    if (currentFontFamily && currentFontSize) {
-      const familyData = fontFamilies.get(currentFontFamily);
+/**
+ * Met à jour les données d'une famille de polices
+ * @param {Map} fontFamilies - Map des familles
+ * @param {string} family - Nom de la famille
+ * @param {object} options - Options de mise à jour
+ */
+const updateFontFamilyData = (fontFamilies, family, options = {}) => {
+  const {
+    selectors = [],
+    isGlobal = false,
+    fallbacks = [],
+    hasGenericFallback = false,
+    genericFallback = null,
+    globalFamilyOrder = [],
+  } = options;
 
-      if (!familyData.sizes.has(currentFontSize)) {
-        familyData.sizes.set(currentFontSize, {
-          selectors: new Set(),
-          lineHeights: new Set(),
-        });
-      }
+  const familyData = fontFamilies.get(family);
+  familyData.declarationCount++;
 
-      const sizeData = familyData.sizes.get(currentFontSize);
-      selectors.forEach((sel) => sizeData.selectors.add(sel.trim()));
-      if (currentLineHeight) {
-        sizeData.lineHeights.add(currentLineHeight);
-      }
+  if (isGlobal) {
+    familyData.isGlobal = true;
+    if (!globalFamilyOrder.includes(family)) {
+      globalFamilyOrder.push(family);
     }
+  }
+
+  fallbacks.forEach((f) => familyData.fallbacks.add(f));
+
+  if (hasGenericFallback) {
+    familyData.hasGenericFallback = true;
+    if (!familyData.genericFallback && genericFallback) {
+      familyData.genericFallback = genericFallback;
+    }
+  }
+
+  selectors.forEach((sel) => familyData.selectors.add(sel.trim()));
+};
+
+/**
+ * Traite une déclaration font-family
+ * @param {object} params - Paramètres de traitement
+ */
+const processFontFamilyDeclaration = ({
+  decl,
+  cssVariables,
+  fontFamilies,
+  isGlobal,
+  selectors,
+  globalFamilyOrder,
+  counters,
+}) => {
+  counters.totalFontFamilyDeclarations++;
+  if (isGlobal) counters.hasGlobalFontFamily = true;
+
+  const resolvedValue = resolveValueWithFallback(decl.value, cssVariables);
+  if (!resolvedValue) return null;
+
+  const { family, fallbacks, hasGenericFallback, genericFallback } =
+    parseFontStack(resolvedValue);
+
+  initializeFontFamily(fontFamilies, family);
+  updateFontFamilyData(fontFamilies, family, {
+    selectors,
+    isGlobal,
+    fallbacks,
+    hasGenericFallback,
+    genericFallback,
+    globalFamilyOrder,
   });
 
-  // 3. Transformation des données pour la sortie
+  return family;
+};
+
+/**
+ * Parse la propriété font shorthand
+ * @param {string} value - Valeur de la propriété font
+ * @returns {object} - { fontSize, lineHeight, fontFamily }
+ */
+const parseFontShorthand = (value) => {
+  const result = { fontSize: null, lineHeight: null, fontFamily: null };
+
+  // Extraire la taille et line-height
+  const fontSizeLineHeightMatch = value.match(
+    /(\d+(?:\.\d+)?(?:px|em|rem|%|pt|ch|ex|vw|vh))(?:\s*\/\s*(\d+(?:\.\d+)?(?:px|em|rem|%)?))?\s/i
+  );
+
+  if (fontSizeLineHeightMatch) {
+    result.fontSize = fontSizeLineHeightMatch[1];
+    result.lineHeight = fontSizeLineHeightMatch[2] || null;
+  }
+
+  // Extraire la famille
+  let fontFamilyStr = value;
+
+  // Retirer les styles CSS connus
+  fontFamilyStr = fontFamilyStr.replace(
+    /\b(italic|oblique|normal|bold|bolder|lighter|100|200|300|400|500|600|700|800|900|small-caps|all-small-caps|petite-caps|all-petite-caps|ultra-condensed|extra-condensed|condensed|semi-condensed|semi-expanded|expanded|extra-expanded|ultra-expanded)\b\s*/gi,
+    ""
+  );
+
+  // Retirer la taille et line-height
+  fontFamilyStr = fontFamilyStr.replace(
+    /(\d+(?:\.\d+)?(?:px|em|rem|%|pt|ch|ex|vw|vh))(?:\s*\/\s*\d+(?:\.\d+)?(?:px|em|rem|%)?)?/gi,
+    ""
+  );
+
+  result.fontFamily = fontFamilyStr.trim();
+
+  return result;
+};
+
+/**
+ * Construit le résultat final de l'analyse typographique
+ * @param {object} params - Paramètres pour construire le résultat
+ * @returns {object} - Résultat complet de l'analyse
+ */
+const buildTypographyResult = ({
+  fontFamilies,
+  allFontSizes,
+  allLineHeights,
+  allWebfonts,
+  webfontsInHtml,
+  webfontsInCss,
+  counters,
+  globalFamilyOrder,
+}) => {
+  // Transformation des données pour la sortie
   const fontFamiliesOutput = {};
   let familiesWithoutGenericFallback = 0;
   let familiesWithFallbacks = 0;
 
   fontFamilies.forEach((data, family) => {
-    // Ignorer la famille orpheline interne
     if (family === "_orphan_sizes") return;
 
     const sizesArray = [];
@@ -822,40 +679,36 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
     };
   });
 
-  // 4. Calcul des métriques d'héritage
+  // Calcul des métriques d'héritage
   const totalFamilies =
     fontFamilies.size - (fontFamilies.has("_orphan_sizes") ? 1 : 0);
   const globalFamilies = [...fontFamilies.values()].filter(
     (f, idx) => f.isGlobal && [...fontFamilies.keys()][idx] !== "_orphan_sizes"
   ).length;
-  const inheritanceQuality = hasGlobalFontFamily
-    ? totalFontFamilyDeclarations > 0
+
+  const inheritanceQuality = counters.hasGlobalFontFamily
+    ? counters.totalFontFamilyDeclarations > 0
       ? Number(
           (
             1 -
-            (totalFontFamilyDeclarations - globalFamilies) /
-              totalFontFamilyDeclarations
+            (counters.totalFontFamilyDeclarations - globalFamilies) /
+              counters.totalFontFamilyDeclarations
           ).toFixed(3)
         )
       : 1
     : 0;
 
-  console.log(`✅ Analyse typographie terminée.`);
-
-  // 5. Calcul des analyses d'unités
+  // Analyses d'unités
   const fontSizeUnits = analyzeFontSizeUnits(fontFamilies);
   const lineHeightUnits = analyzeLineHeightUnits(allLineHeights);
 
-  // 6. Détail des valeurs et comptages (corrigé pour éviter les doublons)
+  // Détails des valeurs
   const fontFamilyDetails = {};
   const fontSizeDetails = {};
   const lineHeightDetails = {};
 
-  // font-family
   fontFamilies.forEach((data, family) => {
-    // Ignorer la famille orpheline interne
     if (family === "_orphan_sizes") return;
-
     fontFamilyDetails[family] = {
       count: data.declarationCount,
       selectors: [...data.selectors],
@@ -863,7 +716,6 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
     };
   });
 
-  // font-size (comptage basé sur les sélecteurs uniques)
   const fontSizeSelectorsMap = new Map();
   fontFamilies.forEach((data) => {
     data.sizes.forEach((sizeData, size) => {
@@ -883,22 +735,21 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
     };
   });
 
-  // line-height (directement depuis allLineHeights)
   allLineHeights.forEach((count, lh) => {
     lineHeightDetails[lh] = { count };
   });
 
-  // 7. Calcul du score typographique
+  // Calcul du score
   const score = calculateTypographyScore(
     {
       fontFamilies,
-      totalFontFamilyDeclarations,
-      totalFontSizeDeclarations,
-      totalLineHeightDeclarations,
+      totalFontFamilyDeclarations: counters.totalFontFamilyDeclarations,
+      totalFontSizeDeclarations: counters.totalFontSizeDeclarations,
+      totalLineHeightDeclarations: counters.totalLineHeightDeclarations,
     },
     {
       totalFamilies,
-      hasGlobalFontFamily,
+      hasGlobalFontFamily: counters.hasGlobalFontFamily,
       inheritanceQuality,
       fallbackCoverage:
         totalFamilies > 0
@@ -911,10 +762,10 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
           : 0,
       familiesWithoutGenericFallback,
       excessiveFontFamilyDeclarations:
-        totalFontFamilyDeclarations > totalFamilies * 2,
-      totalFontFamilyDeclarations,
-      totalFontSizeDeclarations,
-      totalLineHeightDeclarations,
+        counters.totalFontFamilyDeclarations > totalFamilies * 2,
+      totalFontFamilyDeclarations: counters.totalFontFamilyDeclarations,
+      totalFontSizeDeclarations: counters.totalFontSizeDeclarations,
+      totalLineHeightDeclarations: counters.totalLineHeightDeclarations,
       lineHeightUnits,
     },
     allWebfonts,
@@ -934,15 +785,17 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
     fontFamilies: fontFamiliesOutput,
     summary: {
       totalFamilies,
-      totalFontFamilyDeclarations,
-      totalFontSizeDeclarations,
-      totalLineHeightDeclarations,
-      hasGlobalFontFamily,
+      totalFontFamilyDeclarations: counters.totalFontFamilyDeclarations,
+      totalFontSizeDeclarations: counters.totalFontSizeDeclarations,
+      totalLineHeightDeclarations: counters.totalLineHeightDeclarations,
+      hasGlobalFontFamily: counters.hasGlobalFontFamily,
       globalFamilies,
       inheritanceQuality,
       averageDeclarationsPerFamily:
         totalFamilies > 0
-          ? Number((totalFontFamilyDeclarations / totalFamilies).toFixed(2))
+          ? Number(
+              (counters.totalFontFamilyDeclarations / totalFamilies).toFixed(2)
+            )
           : 0,
       familiesWithFallbacks,
       familiesWithoutGenericFallback,
@@ -962,13 +815,214 @@ export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
       lineHeightDetails,
     },
     recommendations: {
-      shouldUseGlobalFontFamily: !hasGlobalFontFamily,
+      shouldUseGlobalFontFamily: !counters.hasGlobalFontFamily,
       excessiveFontFamilyDeclarations:
-        totalFontFamilyDeclarations > totalFamilies * 2,
+        counters.totalFontFamilyDeclarations > totalFamilies * 2,
       missingLineHeights:
-        totalFontSizeDeclarations > totalLineHeightDeclarations,
+        counters.totalFontSizeDeclarations >
+        counters.totalLineHeightDeclarations,
       missingGenericFallbacks: familiesWithoutGenericFallback > 0,
     },
     score,
   };
+};
+
+/**
+ * Analyse la typographie dans le HTML et le CSS compilé
+ * @param {string} htmlContent - Le contenu HTML.
+ * @param {string} cssRawContent - Le contenu CSS brut (avant compilation).
+ * @param {string} compiledCss - Le CSS compilé.
+ * @returns {object} - Analyse complète de la typographie.
+ */
+export const analyzeTypography = (htmlContent, cssRawContent, compiledCss) => {
+  console.log(`🔍 Analyse de la typographie...`);
+
+  // 1. Détection des webfonts
+  const webfontsInHtml = detectWebfontsInHtml(htmlContent);
+  const webfontsInCss = detectWebfontsInCss(cssRawContent);
+  const allWebfonts = [...webfontsInHtml, ...webfontsInCss];
+
+  // 2. Parse du CSS compilé
+  const root = postcss.parse(compiledCss);
+  const cssVariables = extractCSSVariablesFromRoot(root);
+
+  // Structures de données
+  const fontFamilies = new Map();
+  const allFontSizes = new Set();
+  const allLineHeights = new Map();
+  const globalFamilyOrder = [];
+
+  // Compteurs
+  const counters = {
+    totalFontFamilyDeclarations: 0,
+    totalFontSizeDeclarations: 0,
+    totalLineHeightDeclarations: 0,
+    hasGlobalFontFamily: false,
+  };
+
+  // Sélecteurs globaux
+  const globalSelectors = new Set(["html", "body", ":root", "*"]);
+
+  // 3. Parcours du CSS
+  root.walkRules((rule) => {
+    // Ignorer @keyframes
+    if (rule.parent?.type === "atrule" && rule.parent.name === "keyframes") {
+      return;
+    }
+
+    const selectors = rule.selectors || [rule.selector];
+    const isGlobal = selectors.some(
+      (sel) =>
+        globalSelectors.has(sel.trim()) ||
+        sel.trim() === "body" ||
+        sel.trim() === "html"
+    );
+
+    let currentFontFamily = null;
+    let currentFontSize = null;
+    let currentLineHeight = null;
+
+    rule.walkDecls((decl) => {
+      // Traitement font-family
+      if (decl.prop === "font-family") {
+        currentFontFamily = processFontFamilyDeclaration({
+          decl,
+          cssVariables,
+          fontFamilies,
+          isGlobal,
+          selectors,
+          globalFamilyOrder,
+          counters,
+        });
+      }
+
+      // Traitement propriété font shorthand
+      else if (decl.prop === "font") {
+        const resolvedValue = resolveValueWithFallback(
+          decl.value,
+          cssVariables
+        );
+        if (!resolvedValue) return;
+
+        const parsed = parseFontShorthand(resolvedValue);
+
+        // Traiter fontSize et lineHeight
+        if (parsed.fontSize) {
+          counters.totalFontSizeDeclarations++;
+          currentFontSize = parsed.fontSize;
+          allFontSizes.add(currentFontSize);
+
+          if (parsed.lineHeight) {
+            counters.totalLineHeightDeclarations++;
+            currentLineHeight = parsed.lineHeight;
+            allLineHeights.set(
+              currentLineHeight,
+              (allLineHeights.get(currentLineHeight) || 0) + 1
+            );
+          }
+        }
+
+        // Traiter fontFamily
+        if (parsed.fontFamily) {
+          const { family, fallbacks, hasGenericFallback, genericFallback } =
+            parseFontStack(parsed.fontFamily);
+
+          if (family) {
+            counters.totalFontFamilyDeclarations++;
+            if (isGlobal) counters.hasGlobalFontFamily = true;
+
+            initializeFontFamily(fontFamilies, family);
+            updateFontFamilyData(fontFamilies, family, {
+              selectors,
+              isGlobal,
+              fallbacks,
+              hasGenericFallback,
+              genericFallback,
+              globalFamilyOrder,
+            });
+
+            currentFontFamily = family;
+          }
+        }
+      }
+
+      // Traitement font-size
+      else if (decl.prop === "font-size") {
+        currentFontSize = resolveValueWithFallback(
+          decl.value.trim(),
+          cssVariables
+        );
+
+        if (currentFontSize) {
+          counters.totalFontSizeDeclarations++;
+          allFontSizes.add(currentFontSize);
+
+          // Créer une entrée orpheline si pas de famille associée
+          if (!fontFamilies.has("_orphan_sizes")) {
+            initializeFontFamily(fontFamilies, "_orphan_sizes");
+          }
+
+          const orphanData = fontFamilies.get("_orphan_sizes");
+          if (!orphanData.sizes.has(currentFontSize)) {
+            orphanData.sizes.set(currentFontSize, {
+              selectors: new Set(),
+              lineHeights: new Set(),
+            });
+          }
+
+          const orphanSizeData = orphanData.sizes.get(currentFontSize);
+          selectors.forEach((sel) => orphanSizeData.selectors.add(sel.trim()));
+        }
+      }
+
+      // Traitement line-height
+      else if (decl.prop === "line-height") {
+        currentLineHeight = resolveValueWithFallback(
+          decl.value.trim(),
+          cssVariables
+        );
+
+        if (currentLineHeight) {
+          counters.totalLineHeightDeclarations++;
+          allLineHeights.set(
+            currentLineHeight,
+            (allLineHeights.get(currentLineHeight) || 0) + 1
+          );
+        }
+      }
+    });
+
+    // Associer taille et line-height à la famille
+    if (currentFontFamily && currentFontSize) {
+      const familyData = fontFamilies.get(currentFontFamily);
+
+      if (!familyData.sizes.has(currentFontSize)) {
+        familyData.sizes.set(currentFontSize, {
+          selectors: new Set(),
+          lineHeights: new Set(),
+        });
+      }
+
+      const sizeData = familyData.sizes.get(currentFontSize);
+      selectors.forEach((sel) => sizeData.selectors.add(sel.trim()));
+      if (currentLineHeight) {
+        sizeData.lineHeights.add(currentLineHeight);
+      }
+    }
+  });
+
+  // 4. Transformation des données pour la sortie
+  const result = buildTypographyResult({
+    fontFamilies,
+    allFontSizes,
+    allLineHeights,
+    allWebfonts,
+    webfontsInHtml,
+    webfontsInCss,
+    counters,
+    globalFamilyOrder,
+  });
+
+  console.log(`✅ Analyse typographie terminée.`);
+  return result;
 };

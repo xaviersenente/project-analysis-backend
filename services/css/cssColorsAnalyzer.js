@@ -5,6 +5,12 @@
  */
 
 import { parse, converter } from "culori";
+import {
+  ScoreCalculator,
+  createScore,
+  ratioToScore,
+} from "../shared/scoreCalculator.js";
+import thresholds from "../../config/thresholds.js";
 
 /**
  * Parse une couleur CSS et la convertit en OKLCH
@@ -59,17 +65,17 @@ const isTransparent = (color) => {
  * Utilise des seuils perceptuellement uniformes
  * @param {string} color1 - Première couleur
  * @param {string} color2 - Deuxième couleur
- * @param {number} lightnessThreshold - Seuil de différence de luminosité (défaut: 0.09)
- * @param {number} chromaThreshold - Seuil de différence de chroma (défaut: 0.06)
- * @param {number} hueThreshold - Seuil de différence de teinte en degrés (défaut: 35)
+ * @param {number} lightnessThreshold - Seuil de différence de luminosité
+ * @param {number} chromaThreshold - Seuil de différence de chroma
+ * @param {number} hueThreshold - Seuil de différence de teinte en degrés
  * @returns {boolean}
  */
 const areColorsSimilar = (
   color1,
   color2,
-  lightnessThreshold = 0.1,
-  chromaThreshold = 0.06,
-  hueThreshold = 35
+  lightnessThreshold = thresholds.colors.similarity.lightness,
+  chromaThreshold = thresholds.colors.similarity.chroma,
+  hueThreshold = thresholds.colors.similarity.hue
 ) => {
   const oklch1 = parseColor(color1);
   const oklch2 = parseColor(color2);
@@ -78,8 +84,14 @@ const areColorsSimilar = (
 
   // Pour les couleurs achromatiques (gris), utiliser un seuil plus strict
   // Permet d'accepter ~10 niveaux de gris réguliers sans les marquer comme similaires
-  if (oklch1.c < 0.02 && oklch2.c < 0.02) {
-    return Math.abs(oklch1.l - oklch2.l) < 0.07;
+  if (
+    oklch1.c < thresholds.colors.similarity.achromaticChroma &&
+    oklch2.c < thresholds.colors.similarity.achromaticChroma
+  ) {
+    return (
+      Math.abs(oklch1.l - oklch2.l) <
+      thresholds.colors.similarity.grayLightnessDiff
+    );
   }
 
   const deltaL = Math.abs(oklch1.l - oklch2.l);
@@ -96,10 +108,13 @@ const areColorsSimilar = (
 /**
  * Groupe les couleurs par gamme de teinte OKLCH (perceptuellement correct)
  * @param {Array<{color: string, count: number}>} colors - Liste des couleurs avec leur fréquence
- * @param {number} hueRangeSize - Taille de la gamme de teinte (défaut: 40 degrés)
+ * @param {number} hueRangeSize - Taille de la gamme de teinte
  * @returns {Array<{hueRange: number, colors: Array}>} - Couleurs groupées par teinte
  */
-const groupColorsByHue = (colors, hueRangeSize = 40) => {
+const groupColorsByHue = (
+  colors,
+  hueRangeSize = thresholds.colors.hueRangeSize
+) => {
   const groups = {};
   const achromaticColors = []; // Gris, noir, blanc (chroma faible)
 
@@ -108,7 +123,7 @@ const groupColorsByHue = (colors, hueRangeSize = 40) => {
     if (!oklch) return;
 
     // Couleurs achromatiques (chroma très faible)
-    if (oklch.c < 0.02) {
+    if (oklch.c < thresholds.colors.similarity.achromaticChroma) {
       achromaticColors.push({ color, count, oklch });
       return;
     }
@@ -190,6 +205,7 @@ const detectSimilarColors = (colors) => {
 
 /**
  * Calcule un score de qualité pour l'utilisation des couleurs
+ * Utilise ScoreCalculator pour une logique standardisée
  * @param {object} colorData - Données d'analyse des couleurs
  * @returns {{total: number, breakdown: object, grade: string, improvements: string[]}}
  */
@@ -204,166 +220,207 @@ const calculateColorsScore = (colorData) => {
     formats,
   } = colorData;
 
-  const scores = {
-    palette: { score: 0, max: 30, details: "" },
-    consistency: { score: 0, max: 25, details: "" },
-    formats: { score: 0, max: 20, details: "" },
-    transparency: { score: 0, max: 15, details: "" },
-    bestPractices: { score: 0, max: 10, details: "" },
-  };
+  const improvements = [];
+  const calculator = new ScoreCalculator();
 
   // 1) Palette de couleurs (30 points)
-  // Palette optimale : 8-18 couleurs uniques
-  if (uniqueColors >= 8 && uniqueColors <= 18) {
-    scores.palette.score = 30;
-    scores.palette.details = "Palette de couleurs optimale. ";
-  } else if (uniqueColors >= 5 && uniqueColors < 8) {
-    scores.palette.score = 25;
-    scores.palette.details = "Palette limitée mais acceptable. ";
-  } else if (uniqueColors >= 19 && uniqueColors <= 25) {
-    scores.palette.score = 22;
-    scores.palette.details = "Palette un peu large. ";
-  } else if (uniqueColors > 25 && uniqueColors <= 30) {
-    scores.palette.score = 15;
-    scores.palette.details = "Palette large. ";
-  } else if (uniqueColors > 30) {
-    scores.palette.score = 8;
-    scores.palette.details = "Trop de couleurs différentes. ";
-  } else {
-    scores.palette.score = 18;
-    scores.palette.details = "Palette très limitée. ";
-  }
+  calculator.addCategory(
+    "palette",
+    thresholds.scoring.points.colorsPalette,
+    () => {
+      const { uniqueColorsMin, uniqueColorsMax } = thresholds.colors.optimal;
+      const { idealRange, tooManyThreshold, maxUniqueColors } =
+        thresholds.colors.scores;
+
+      let score = 0;
+      let details = "";
+      let improvement = null;
+
+      if (uniqueColors >= idealRange[0] && uniqueColors <= idealRange[1]) {
+        score = 30;
+        details = "Palette de couleurs optimale. ";
+      } else if (
+        uniqueColors >= uniqueColorsMin &&
+        uniqueColors < idealRange[0]
+      ) {
+        score = 25;
+        details = "Palette limitée mais acceptable. ";
+      } else if (
+        uniqueColors >= idealRange[1] &&
+        uniqueColors <= tooManyThreshold
+      ) {
+        score = 22;
+        details = "Palette un peu large. ";
+      } else if (
+        uniqueColors > tooManyThreshold &&
+        uniqueColors <= maxUniqueColors
+      ) {
+        score = 15;
+        details = "Palette large. ";
+        improvement =
+          "Réduire le nombre de couleurs : utiliser une palette limitée (8-15 couleurs)";
+      } else if (uniqueColors > maxUniqueColors) {
+        score = 8;
+        details = "Trop de couleurs différentes. ";
+        improvement =
+          "Réduire le nombre de couleurs : utiliser une palette limitée (8-15 couleurs)";
+      } else {
+        score = 18;
+        details = "Palette très limitée. ";
+      }
+
+      if (improvement) improvements.push(improvement);
+      return createScore(score, 30, details, improvement);
+    }
+  );
 
   // 2) Cohérence (25 points) - Pénaliser les couleurs similaires
-  const similarityRatio =
-    uniqueColors > 0 ? similarColorsCount / uniqueColors : 0;
+  calculator.addCategory(
+    "consistency",
+    thresholds.scoring.points.colorsConsistency,
+    () => {
+      const similarityRatio =
+        uniqueColors > 0 ? similarColorsCount / uniqueColors : 0;
 
-  if (similarityRatio === 0) {
-    scores.consistency.score = 25;
-    scores.consistency.details = "Aucune couleur similaire détectée. ";
-  } else if (similarityRatio < 0.25) {
-    scores.consistency.score = 22;
-    scores.consistency.details = "Quelques couleurs similaires. ";
-  } else if (similarityRatio < 0.5) {
-    scores.consistency.score = 15;
-    scores.consistency.details = "Plusieurs couleurs similaires détectées. ";
-  } else if (similarityRatio < 0.7) {
-    scores.consistency.score = 8;
-    scores.consistency.details = "Beaucoup de couleurs similaires. ";
-  } else {
-    scores.consistency.score = 3;
-    scores.consistency.details =
-      "Trop de couleurs similaires (manque de cohérence). ";
-  }
+      let score = 0;
+      let details = "";
+      let improvement = null;
+
+      if (similarityRatio === 0) {
+        score = 25;
+        details = "Aucune couleur similaire détectée. ";
+      } else if (similarityRatio < 0.25) {
+        score = 22;
+        details = "Quelques couleurs similaires. ";
+      } else if (similarityRatio < 0.5) {
+        score = 15;
+        details = "Plusieurs couleurs similaires détectées. ";
+        improvement =
+          "Harmoniser les couleurs similaires pour améliorer la cohérence";
+      } else if (similarityRatio < 0.7) {
+        score = 8;
+        details = "Beaucoup de couleurs similaires. ";
+        improvement =
+          "Harmoniser les couleurs similaires pour améliorer la cohérence";
+      } else {
+        score = 3;
+        details = "Trop de couleurs similaires (manque de cohérence). ";
+        improvement =
+          "Harmoniser les couleurs similaires pour améliorer la cohérence";
+      }
+
+      if (improvement) improvements.push(improvement);
+      return createScore(score, 25, details, improvement);
+    }
+  );
 
   // 3) Formats (20 points) - Encourager l'uniformité
-  const formatCount = Object.keys(formats).length;
+  calculator.addCategory("formats", 20, () => {
+    const formatCount = Object.keys(formats).length;
+    let score = 0;
+    let details = "";
+    let improvement = null;
 
-  if (formatCount === 1) {
-    scores.formats.score = 20;
-    scores.formats.details = "Format de couleur uniforme. ";
-  } else if (formatCount === 2) {
-    scores.formats.score = 17;
-    scores.formats.details = "2 formats de couleurs utilisés. ";
-  } else if (formatCount === 3) {
-    scores.formats.score = 14;
-    scores.formats.details = "3 formats de couleurs utilisés. ";
-  } else if (formatCount === 4) {
-    scores.formats.score = 10;
-    scores.formats.details = "4 formats de couleurs utilisés. ";
-  } else {
-    scores.formats.score = 6;
-    scores.formats.details = "Trop de formats différents. ";
-  }
+    if (formatCount === 1) {
+      score = 20;
+      details = "Format de couleur uniforme. ";
+    } else if (formatCount === 2) {
+      score = 17;
+      details = "2 formats de couleurs utilisés. ";
+    } else if (formatCount === 3) {
+      score = 14;
+      details = "3 formats de couleurs utilisés. ";
+      improvement =
+        "Uniformiser les formats de couleurs (privilégier oklch ou hsl)";
+    } else if (formatCount === 4) {
+      score = 10;
+      details = "4 formats de couleurs utilisés. ";
+      improvement =
+        "Uniformiser les formats de couleurs (privilégier oklch ou hsl)";
+    } else {
+      score = 6;
+      details = "Trop de formats différents. ";
+      improvement =
+        "Uniformiser les formats de couleurs (privilégier oklch ou hsl)";
+    }
 
-  // Bonus pour formats modernes (oklch, hsl)
-  if (formats.oklch || formats.hsl) {
-    scores.formats.score += 5;
-    scores.formats.details += "Format moderne détecté. ";
-  }
+    // Bonus pour formats modernes (oklch, hsl)
+    if (formats.oklch || formats.hsl) {
+      score += 5;
+      details += "Format moderne détecté. ";
+    } else if (!improvement) {
+      improvement =
+        "Envisager l'utilisation de formats modernes comme oklch ou hsl";
+    }
+
+    if (improvement) improvements.push(improvement);
+    return createScore(Math.min(score, 20), 20, details, improvement);
+  });
 
   // 4) Transparence (15 points)
-  const transparencyRatio =
-    totalColors > 0 ? transparentColors.length / totalColors : 0;
+  calculator.addCategory("transparency", 15, () => {
+    const transparencyRatio =
+      totalColors > 0 ? transparentColors.length / totalColors : 0;
+    let score = 0;
+    let details = "";
 
-  if (transparencyRatio > 0 && transparencyRatio < 0.3) {
-    scores.transparency.score = 15;
-    scores.transparency.details = "Utilisation appropriée de la transparence. ";
-  } else if (transparencyRatio >= 0.3 && transparencyRatio < 0.5) {
-    scores.transparency.score = 10;
-    scores.transparency.details = "Transparence fréquente. ";
-  } else if (transparencyRatio >= 0.5) {
-    scores.transparency.score = 5;
-    scores.transparency.details = "Trop de couleurs transparentes. ";
-  } else {
-    scores.transparency.score = 12;
-    scores.transparency.details = "Pas de transparence utilisée. ";
-  }
+    if (transparencyRatio > 0 && transparencyRatio < 0.3) {
+      score = 15;
+      details = "Utilisation appropriée de la transparence. ";
+    } else if (transparencyRatio >= 0.3 && transparencyRatio < 0.5) {
+      score = 10;
+      details = "Transparence fréquente. ";
+    } else if (transparencyRatio >= 0.5) {
+      score = 5;
+      details = "Trop de couleurs transparentes. ";
+    } else {
+      score = 12;
+      details = "Pas de transparence utilisée. ";
+    }
+
+    return createScore(score, 15, details);
+  });
 
   // 5) Bonnes pratiques (10 points)
-  // Groupes de teintes diversifiés
-  if (colorGroups.length >= 3 && colorGroups.length <= 6) {
-    scores.bestPractices.score += 5;
-    scores.bestPractices.details = "Bonne diversité de teintes. ";
-  } else if (colorGroups.length < 3) {
-    scores.bestPractices.details = "Palette monotone. ";
-  } else {
-    scores.bestPractices.details = "Trop de gammes de teintes. ";
-  }
+  calculator.addCategory("bestPractices", 10, () => {
+    let score = 0;
+    let details = "";
+    const improvementsLocal = [];
 
-  // Utilisation de variables CSS (bonus si détecté)
-  if (opaqueColors.some((c) => c.color.includes("var("))) {
-    scores.bestPractices.score += 5;
-    scores.bestPractices.details += "Variables CSS utilisées. ";
-  }
+    // Groupes de teintes diversifiés
+    if (colorGroups.length >= 3 && colorGroups.length <= 6) {
+      score += 5;
+      details = "Bonne diversité de teintes. ";
+    } else if (colorGroups.length < 3) {
+      details = "Palette monotone. ";
+    } else {
+      details = "Trop de gammes de teintes. ";
+      improvementsLocal.push(
+        "Limiter les gammes de teintes pour une palette plus cohérente"
+      );
+    }
 
-  // Total et grade
-  const total = Object.values(scores).reduce((sum, s) => sum + s.score, 0);
-  let grade;
-  if (total >= 90) grade = "A";
-  else if (total >= 80) grade = "B";
-  else if (total >= 70) grade = "C";
-  else if (total >= 60) grade = "D";
-  else grade = "F";
+    // Utilisation de variables CSS (bonus si détecté)
+    if (opaqueColors.some((c) => c.color.includes("var("))) {
+      score += 5;
+      details += "Variables CSS utilisées. ";
+    } else {
+      improvementsLocal.push(
+        "Utiliser des variables CSS pour gérer les couleurs"
+      );
+    }
 
-  // Recommandations
-  const improvements = [];
+    improvementsLocal.forEach((imp) => improvements.push(imp));
+    return createScore(score, 10, details);
+  });
 
-  if (uniqueColors > 20) {
-    improvements.push(
-      "Réduire le nombre de couleurs : utiliser une palette limitée (8-15 couleurs)"
-    );
-  }
+  // Calculer et retourner le résultat
+  const result = calculator.calculate();
 
-  if (similarityRatio > 0.3) {
-    improvements.push(
-      "Harmoniser les couleurs similaires pour améliorer la cohérence"
-    );
-  }
+  // Ajouter les améliorations collectées
+  result.improvements = [...new Set([...result.improvements, ...improvements])];
 
-  if (formatCount > 2) {
-    improvements.push(
-      "Uniformiser les formats de couleurs (privilégier oklch ou hsl)"
-    );
-  }
-
-  if (!formats.oklch && !formats.hsl) {
-    improvements.push(
-      "Envisager l'utilisation de formats modernes comme oklch ou hsl"
-    );
-  }
-
-  if (colorGroups.length > 6) {
-    improvements.push(
-      "Limiter les gammes de teintes pour une palette plus cohérente"
-    );
-  }
-
-  if (!opaqueColors.some((c) => c.color.includes("var("))) {
-    improvements.push("Utiliser des variables CSS pour gérer les couleurs");
-  }
-
-  return { total, breakdown: scores, grade, improvements };
+  return result;
 };
 
 /**
