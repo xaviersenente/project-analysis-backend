@@ -13,24 +13,19 @@
   "description": "",
   "dependencies": {
     "@projectwallace/css-analyzer": "^7.6.3",
-    "axios": "^1.7.9",
-    "cheerio": "^1.0.0",
-    "chrome-launcher": "^1.1.2",
-    "cors": "^2.8.5",
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
+    "chrome-launcher": "^1.2.2",
+    "cors": "^2.8.6",
     "culori": "^4.0.2",
-    "dotenv": "^17.2.3",
-    "express": "^4.21.2",
-    "fs-extra": "^11.2.0",
-    "jsdom": "^27.3.0",
-    "lighthouse": "^12.3.0",
-    "postcss": "^8.4.49",
-    "postcss-import": "^16.1.0",
-    "sharp": "^0.34.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.3",
+    "lighthouse": "^12.8.2",
+    "postcss": "^8.5.31",
     "simplecrawler": "^1.1.9",
-    "tar": "^7.4.3",
-    "vnu-jar": "^25.12.9"
+    "vnu-jar": "^25.12.31"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   }
 }

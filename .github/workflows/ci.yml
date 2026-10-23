@@ -1,0 +1,23 @@
+# Intégration continue : les tests à chaque push et à chaque pull request
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      # Java sert à la validation W3C (vnu) ; il est déjà présent sur ubuntu-latest
+      - run: java -version
+      - run: npm ci
+      - run: npm test

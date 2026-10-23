@@ -1,0 +1,21 @@
+# Mises à jour automatiques : une pull request par semaine, regroupée
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      # Les mises à jour sans rupture arrivent ensemble
+      mineures:
+        update-types: [minor, patch]
+    # Les versions majeures changent les notes : elles se décident à la main
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
