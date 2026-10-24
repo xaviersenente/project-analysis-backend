@@ -23,8 +23,6 @@ const disponible = fs.existsSync(path.join(DEPOT, ".git"));
 
 // Écarts lus et attendus : le corrigé est celui d'un TP, pas un rendu de SAÉ
 const ECARTS_ATTENDUS = {
-  // Défaut du corrigé : le logo de l'en-tête fait 30 × 30 px (commande sans texte, sous 44 px)
-  E4: "non-respecte",
   // blockquote, em, script : demandés par le sujet de la SAÉ (requiredTags), pas par le TP 5
   A15: "non-respecte",
   // Le README du corrigé n'est pas celui du gabarit étudiant (nom, groupe, URL)
@@ -68,10 +66,10 @@ test("contrôles en navigateur : ni débordement, ni contraste en échec, Lighth
   assert.equal(valeur("M4").verdict, "respecte");
 });
 
-test("E4 : seule commande trop petite, le logo de l'en-tête ; les liens texte ne comptent pas", { skip: !disponible && "clone du corrigé absent" }, () => {
+test("E4 : toutes les commandes font au moins 44 px (logo agrandi à 46 × 46 px) ; les liens texte ne comptent pas", { skip: !disponible && "clone du corrigé absent" }, () => {
   const e4 = resultat.criteres.find((c) => c.id === "E4");
-  assert.deepEqual([...new Set(e4.occurrences.map((o) => o.extrait))], ['<a class="header__logo" href="index.html">  ← 30 × 30 px']);
-  assert.equal(e4.occurrences.length, 8);
+  assert.equal(e4.verdict, "respecte");
+  assert.deepEqual(e4.occurrences, []);
 });
 
 test("le bonus BEM du corrigé est obtenu", { skip: !disponible && "clone du corrigé absent" }, () => {
