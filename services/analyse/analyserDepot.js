@@ -28,6 +28,19 @@ const alertes = (analyse) => {
     const fichiers = [...new Set(js.motifs.map((m) => m.occurrence.fichier))];
     liste.push({ type: "js-remplace-css", message: "JavaScript détecté qui remplace du CSS", details: `${js.motifs.length} motif${js.motifs.length > 1 ? "s" : ""} dans ${fichiers.join(", ")}` });
   }
+  const historique = analyse.historique;
+  if (historique) {
+    const autres = historique.commits.filter((c) => c.drapeaux.includes("autre-auteur"));
+    if (autres.length) {
+      const noms = [...new Set(autres.map((c) => c.auteur))];
+      liste.push({ type: "autre-auteur", message: "Commits d'un autre auteur", details: `${autres.length} commit${autres.length > 1 ? "s" : ""} de ${noms.join(", ")}` });
+    }
+    const retouches = historique.commits.filter((c) => c.drapeaux.includes("dates-divergentes"));
+    if (retouches.length) {
+      // Indice d'un rebase ou d'une date modifiée : à vérifier, ce n'est pas une preuve
+      liste.push({ type: "historique-reecrit", message: "Historique Git retouché ?", details: `${retouches.length} commit${retouches.length > 1 ? "s" : ""} dont la date de commit s'écarte de la date d'auteur` });
+    }
+  }
   return liste;
 };
 
@@ -59,6 +72,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     sansValidationW3c,
     sansNavigateur,
     nomDepot: nomDuDepot(projet.depot),
+    emailEtudiant: projet.email ?? null,
     raisonEchec: etapes.at(-1) ? `${etapes.at(-1).etape} : ${etapes.at(-1).raison}` : null,
   });
 
@@ -84,7 +98,8 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     pages: analyse.pages,
     ressources: analyse.ressources,
     blocs: analyse.blocs,
-    // Site en ligne (lot 4) et historique (lot 3) compléteront les alertes
+    historique: analyse.historique,
+    // Le contrôle du site en ligne (lot 4) complétera les alertes
     alertes: alertes(analyse),
     nonMesurable: [...etapes, ...analyse.nonMesurable],
   };

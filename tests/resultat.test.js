@@ -32,6 +32,11 @@ test("le résultat du dépôt piégé est valide au regard du schéma v2", async
   assert.equal(resultat.liens.site, "https://exemple.github.io/depot-piege/");
   assert.equal(resultat.liens.figma, null);
   assert.ok(fs.existsSync(path.join(racineSite, "index.html")));
+  // Lot 3 : l'historique de la version évaluée (le commit d'après le rendu n'y est pas)
+  assert.equal(resultat.historique.commits.length, 1);
+  const m10 = resultat.criteres.find((c) => c.id === "M10");
+  assert.equal(m10.verdict, "non-respecte");
+  assert.equal(m10.valeur, 1);
 });
 
 test("un dépôt inaccessible donne un résultat valide, entièrement « Non mesurable »", async () => {

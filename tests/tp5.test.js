@@ -25,6 +25,8 @@ const disponible = fs.existsSync(path.join(DEPOT, ".git"));
 const ECARTS_ATTENDUS = {
   // blockquote, em, script : demandés par le sujet de la SAÉ (requiredTags), pas par le TP 5
   A15: "non-respecte",
+  // Timeline : le corrigé a été écrit en 4 sessions (seuil 6), comme un dépôt d'enseignant
+  M10: "partiel",
   // Le README du corrigé n'est pas celui du gabarit étudiant (nom, groupe, URL)
   M12: "non-respecte",
   // Recommandation : le corrigé n'est pas tagué
@@ -70,6 +72,14 @@ test("E4 : toutes les commandes font au moins 44 px (logo agrandi à 46 × 46 px
   const e4 = resultat.criteres.find((c) => c.id === "E4");
   assert.equal(e4.verdict, "respecte");
   assert.deepEqual(e4.occurrences, []);
+});
+
+test("timeline : l'historique complet du corrigé, sans autre auteur ni date retouchée", { skip: !disponible && "clone du corrigé absent" }, () => {
+  const { indicateurs, commits } = resultat.historique;
+  assert.ok(indicateurs.commits >= 13);
+  assert.equal(indicateurs.commitsAutreAuteur, 0);
+  assert.ok(commits.every((c) => !c.drapeaux.includes("dates-divergentes")));
+  assert.deepEqual(resultat.alertes, []);
 });
 
 test("le bonus BEM du corrigé est obtenu", { skip: !disponible && "clone du corrigé absent" }, () => {

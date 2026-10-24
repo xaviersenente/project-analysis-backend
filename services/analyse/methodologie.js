@@ -8,7 +8,7 @@ import thresholds from "../../config/thresholds.js";
 import { validateHTML } from "../html/validationService.js";
 import { occurrenceDeclaration, occurrenceRegle } from "../css/sources.js";
 import { chercherMotifs, volume } from "../js/motifs.js";
-import { respecte, nonRespecte, nonMesurable, parRatio, parAbsence } from "./mesure.js";
+import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence } from "./mesure.js";
 
 const S = thresholds.sae105.methodologie;
 
@@ -219,7 +219,23 @@ export default {
     ]);
   },
 
-  M10: () => nonMesurable("Timeline des commits : prévue au lot 3"),
+  M10: (ctx) => {
+    if (!ctx.historique) return nonMesurable(ctx.raisonHistorique ?? "Historique Git indisponible");
+    const { indicateurs: i, seuils } = ctx.historique;
+    const conditions = [
+      { ok: i.sessions >= seuils.sessionsMin, texte: `${i.sessions} sessions (seuil ≥ ${seuils.sessionsMin})` },
+      { ok: i.joursActifs >= seuils.joursMin, texte: `${i.joursActifs} jours actifs (seuil ≥ ${seuils.joursMin})` },
+      {
+        ok: i.partDernieres48h < seuils.partDernieres48hMax,
+        texte: `${Math.round(i.partDernieres48h * 100)} % des lignes dans les 48 dernières heures (seuil < ${Math.round(seuils.partDernieres48hMax * 100)} %)`,
+      },
+    ];
+    const ratees = conditions.filter((c) => !c.ok);
+    const occurrences = ratees.map((c) => ({ fichier: "historique Git", ligne: null, colonne: null, extrait: c.texte, surligne: null }));
+    const detailValeur = `${i.sessions} sessions sur ${i.joursActifs} jours · ${Math.round(i.partDernieres48h * 100)} % dans les 48 h`;
+    if (ratees.length === 0) return respecte(i.sessions, { detailValeur });
+    return ratees.length === 1 ? partiel(i.sessions, occurrences, { detailValeur }) : nonRespecte(i.sessions, occurrences, { detailValeur });
+  },
 
   M11: (ctx) => {
     const sortie = git(ctx, ["log", "--format=%h%x09%s", ctx.git?.sha ?? "HEAD"]);

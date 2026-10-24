@@ -127,7 +127,9 @@ L'analyse comprend :
 - le JavaScript qui remplace du CSS (motifs dans `config/thresholds.js`) ;
 - les contrôles en navigateur, sur le dépôt servi en local sous `/<nom-du-dépôt>/` comme GitHub Pages (casse respectée, chemins en `/` en échec) : Lighthouse, débordement à 360 et 180 px, cibles tactiles, requêtes en échec. Chrome est nécessaire ; `--sans-navigateur` les saute.
 
-La timeline des commits (lot 3) est « Non mesurable » pour l'instant. Comptez environ une minute par projet de 8 pages.
+- la timeline des commits (lot 3), lue dans le clone : sessions (une nouvelle après 2 h de pause), jours actifs, durée estimée, part des lignes dans les 48 dernières heures, et les drapeaux « message générique », « dates divergentes », « autre auteur ». Elle suit la date d'auteur. Une adresse `email` par projet dans le fichier de promo désigne l'étudiant ; sinon, c'est l'auteur du plus grand nombre de commits.
+
+Comptez environ une minute par projet de 8 pages.
 
 ### Vignettes des images
 

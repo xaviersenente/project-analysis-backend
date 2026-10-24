@@ -340,6 +340,15 @@ export default {
     },
 
     methodologie: {
+      // Timeline des commits (M10) : une estimation, jamais des « heures travaillées »
+      timeline: {
+        pauseSessionH: 2, // une nouvelle session après plus de 2 h sans commit
+        forfaitSessionMin: 30, // durée d'une session = premier au dernier commit, plus 30 min
+        sessionsMin: 6,
+        joursMin: 4,
+        partDernieres48hMax: 0.5,
+        datesDivergentesH: 24, // écart entre date d'auteur et date de commit au-delà duquel on le signale
+      },
       cssMortMax: 0.05,
       commentairesSectionMin: 3,
       messagesGeneriques: /^(update|updates|fix|fixes|wip|commit|\.|maj|modif(s|ication)?|test|ok|changes?)$/i,

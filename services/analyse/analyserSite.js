@@ -19,6 +19,7 @@ import accessibilite, { pagesParBalise, ecartsTitres } from "./accessibilite.js"
 import methodologie, { problemesNom, classesCss, classesHtml, mesureBem, analyseJavascript } from "./methodologie.js";
 import enNavigateur, { blocLighthouse, celluleLighthouse, poidsAccueil } from "./enNavigateur.js";
 import { mesurerNavigateur } from "../runtime/navigateur.js";
+import { lireHistorique } from "../source/historique.js";
 
 const grille = createRequire(import.meta.url)("../../config/grille-sae105-2026.json");
 const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur };
@@ -175,8 +176,9 @@ const blocs = (ctx) => {
  * @param {string} [options.raisonEchec] - Sans racine : pourquoi le site n'a pas pu être lu
  * @param {string} [options.nomDepot] - Préfixe /<nom>/ du site servi en local
  * @param {boolean} [options.sansNavigateur] - Sans Lighthouse ni Puppeteer (analyse rapide)
+ * @param {string} [options.emailEtudiant] - Pour repérer les commits d'un autre auteur
  */
-export const analyserSite = async ({ racine, promo = {}, git = null, sansValidationW3c = false, raisonEchec = null, nomDepot = null, sansNavigateur = false }) => {
+export const analyserSite = async ({ racine, promo = {}, git = null, sansValidationW3c = false, raisonEchec = null, nomDepot = null, sansNavigateur = false, emailEtudiant = null }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
   const inventaire = racine ? await mesurer("Inventaire des pages", () => inventorier(racine)) : null;
   const css = inventaire ? await mesurer("CSS", () => chargerCss(inventaire)) : null;
@@ -186,6 +188,15 @@ export const analyserSite = async ({ racine, promo = {}, git = null, sansValidat
     ? creerContexte({ racine, inventaire, css: css ?? { arbre: { walkDecls() {}, walkRules() {}, walkAtRules() {}, walkComments() {} }, feuilles: [], imports: [], fichierDe: () => ({}) }, promo, git })
     : null;
   if (ctx) {
+    // Historique Git de la version évaluée (lot 3)
+    if (git && promo.dateRendu) {
+      ctx.historique = await mesurer("Historique Git", () =>
+        lireHistorique({ dossier: git.dossier, sha: git.sha, dateRendu: promo.dateRendu, emailEtudiant })
+      );
+      if (!ctx.historique) ctx.raisonHistorique = etapes.at(-1)?.raison;
+    } else {
+      ctx.raisonHistorique = "Pas d'historique Git pour cette analyse";
+    }
     ctx.sansValidationW3c = sansValidationW3c;
     ctx.nomDepot = nomDepot ?? path.basename(racine);
     if (sansNavigateur) {
@@ -227,6 +238,7 @@ export const analyserSite = async ({ racine, promo = {}, git = null, sansValidat
     pages: ctx ? vueParPage(ctx) : undefined,
     ressources: ctx ? await mesurer("Ressources", () => ressources(ctx)) ?? undefined : undefined,
     blocs: ctx && css ? await mesurer("Blocs d'axe", () => blocs(ctx)) ?? undefined : undefined,
+    historique: ctx?.historique ?? undefined,
     nonMesurable: etapes,
   };
 };
