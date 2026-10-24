@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Studio Piège — Contact</title>
+    <meta name="description" content="Écrire au studio Piège.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+    <header class="entete">
+      <button class="burger" type="button" popovertarget="menu" aria-label="Menu">
+        <span class="burger__barre"></span>
+      </button>
+      <nav class="menu" id="menu" popover aria-label="Menu principal">
+        <button class="menu__fermer" type="button" popovertarget="menu" popovertargetaction="hide" autofocus>Fermer</button>
+        <ul class="menu__liste">
+          <li><a class="menu__lien" href="index.html">Accueil</a></li>
+          <li><a class="menu__lien" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contenu">
+      <h1 class="contenu__titre">Contact</h1>
+      <form class="formulaire">
+        <label class="formulaire__libelle" for="nom">Nom</label>
+        <input class="formulaire__champ" id="nom" name="nom" type="text" autocomplete="name">
+        <label class="formulaire__libelle" for="courriel">Courriel</label>
+        <input class="formulaire__champ" id="courriel" name="courriel" type="email" autocomplete="email">
+        <button class="formulaire__envoyer" type="submit">Envoyer</button>
+      </form>
+    </main>
+    <footer class="pied">
+      <p class="pied__texte"><a href="tel:+33300000000">03 00 00 00 00</a></p>
+    </footer>
+  </body>
+</html>

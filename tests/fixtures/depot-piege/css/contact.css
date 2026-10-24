@@ -1,0 +1,6 @@
+/* Seconde feuille, liée à la seule page Contact */
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-1);
+}

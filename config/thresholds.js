@@ -294,6 +294,63 @@ export default {
     },
   },
 
+  // ===== GRILLE SAÉ 105 (2026-2027) =====
+  // Seuils et listes des analyseurs du résultat v2 (CRITERES-SAE105-2026.md).
+  // Les seuils affichés dans l'interface viennent de config/grille-sae105-2026.json.
+  sae105: {
+    axes: { accessibilite: 30, methodologie: 25, ergonomie: 25, graphique: 20 },
+
+    graphique: {
+      // Mots qui donnent un rôle à une variable de couleur
+      roles: {
+        surface: ["surface", "fond", "bg", "background", "papier"],
+        texte: ["texte", "text", "encre", "ink", "fg", "foreground"],
+        accent: ["accent", "primaire", "primary", "secondaire", "secondary", "action", "lien", "link", "marque", "brand"],
+        bordure: ["bordure", "border", "trait", "filet", "ligne", "line", "separateur"],
+      },
+      variablesRolesMin: 4,
+      couleursViaVar: 0.9,
+      espacementsViaVar: 0.8,
+      policesMax: 4,
+      remRatio: 0.9,
+      lineHeightSansUnite: 0.9,
+      taillesDistinctesMax: 7,
+      famillesGeneriques: ["serif", "sans-serif", "monospace", "cursive", "fantasy", "system-ui", "ui-serif", "ui-sans-serif", "ui-monospace", "ui-rounded", "math", "emoji"],
+    },
+
+    ergonomie: {
+      imageMaxKo: 150,
+      formatsPhoto: ["avif", "webp"],
+      formatsPhotoRatio: 0.9,
+      imagesDimensionneesRatio: 0.9,
+      // Transitions qui déplacent ou redimensionnent (E6) ; couleurs et opacité restent permises
+      transitionsInterdites: /^(all|width|height|(min|max)-(width|height)|inline-size|block-size|top|right|bottom|left|inset.*|margin.*|padding.*|font-size|line-height|letter-spacing|gap|row-gap|column-gap|border(-\w+)*-width|flex.*|grid.*)$/,
+      liensVagues: ["voir plus", "see all", "see more", "cliquez ici", "click here", "en savoir plus", "ici", "here", "read more", "lire la suite", "plus"],
+    },
+
+    accessibilite: {
+      altSuspects: [/\.(jpe?g|png|webp|avif|gif|svg)$/i, /^(image|photo|img|picture|illustration) (de|d'|of)\b/i, /^(image|photo|img|picture)\d*$/i],
+      // Les contenus attendus viennent du fichier de promo (contenusAttendus) ;
+      // à défaut, de la liste requiredTags, conservée (tags.requiredTags)
+    },
+
+    methodologie: {
+      cssMortMax: 0.05,
+      commentairesSectionMin: 3,
+      messagesGeneriques: /^(update|updates|fix|fixes|wip|commit|\.|maj|modif(s|ication)?|test|ok|changes?)$/i,
+      messagesGeneriquesMax: 0.1,
+      readme: ["nom", "groupe", "url du site", "url figma"],
+    },
+
+    bonus: {
+      max: 5,
+      bem: [
+        { ratio: 0.7, points: 5 },
+        { ratio: 0.5, points: 3 },
+      ],
+    },
+  },
+
   // ===== VIGNETTES =====
   // Aperçu des images du site, pour l'interface (carré, en pixels)
   vignettes: {

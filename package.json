@@ -24,7 +24,8 @@
     "postcss": "^8.5.31",
     "sharp": "^0.35.5",
     "simplecrawler": "^1.1.9",
-    "vnu-jar": "^25.12.31"
+    "vnu-jar": "^25.12.31",
+    "zod": "^4.6.7"
   },
   "engines": {
     "node": ">=24"

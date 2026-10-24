@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Studio Piège — Accueil</title>
+    <meta name="description" content="Le studio Piège conçoit des sites pour les associations.">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/texte.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="entete">
+      <button class="burger" type="button" popovertarget="menu" aria-label="Menu">
+        <span class="burger__barre"></span>
+      </button>
+      <nav class="menu" id="menu" popover aria-label="Menu principal">
+        <button class="menu__fermer" type="button" popovertarget="menu" popovertargetaction="hide" autofocus>Fermer</button>
+        <ul class="menu__liste">
+          <li><a class="menu__lien" href="index.html" aria-current="page">Accueil</a></li>
+          <li><a class="menu__lien" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contenu">
+      <h1 class="contenu__titre">Le studio Piège</h1>
+      <article class="carte">
+        <h2 class="carte__titre">Notre dernier projet</h2>
+        <img class="carte__image" src="assets/img/Photo.webp" alt="L'équipe autour d'une maquette" width="400" height="300">
+        <img class="carte__deco" src="assets/img/motif.svg" alt="" width="40" height="40">
+        <img class="carte__photo" src="assets/img/lourde.jpg" alt="Atelier de fin d'année" width="1200" height="800" loading="lazy">
+        <p class="carte__texte">Un site sobre pour une association de quartier.</p>
+      </article>
+    </main>
+    <footer class="pied">
+      <p class="pied__texte"><a href="mailto:bonjour@piege.test">bonjour@piege.test</a></p>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

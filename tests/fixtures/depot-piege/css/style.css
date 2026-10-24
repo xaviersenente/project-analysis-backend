@@ -1,0 +1,65 @@
+/* ===== Variables ===== */
+@import url("composants.css");
+
+@font-face {
+  font-family: "Texte";
+  src: url("../assets/fonts/texte.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --surface: #ffffff;
+  --texte: #1a1a1a;
+  --accent: #1d4ed8;
+  --bordure: #e2e2e2;
+  --espace-1: 0.5rem;
+  --espace-2: 1rem;
+  --espace-3: 2rem;
+  --taille-texte: 1rem;
+  --taille-titre: 2rem;
+  --police: "Texte", system-ui, sans-serif;
+}
+
+/* ===== Bases ===== */
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--texte);
+  font-family: var(--police);
+  font-size: var(--taille-texte);
+  line-height: 1.5;
+}
+
+/* ===== Blocs ===== */
+.contenu {
+  padding: var(--espace-2);
+}
+
+.contenu__titre {
+  font-size: var(--taille-titre);
+  line-height: 1.2;
+}
+
+.carte__texte {
+  max-width: 60ch;
+}
+
+.menu__lien:hover,
+.menu__lien:active {
+  color: var(--accent);
+}
+
+.menu__lien:focus {
+  outline: none;
+}
+
+.burger {
+  padding: var(--espace-1);
+  transition: opacity 0.2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .burger {
+    transition: none;
+  }
+}

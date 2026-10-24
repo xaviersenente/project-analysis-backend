@@ -1,0 +1,740 @@
+{
+  "_commentaire": "Grille SAÉ 105 2026-2027 (CRITERES-SAE105-2026.md). Copie de référence côté backend ; le frontend en garde une copie pour ses données fictives.",
+  "axes": [
+    {
+      "id": "graphique",
+      "nom": "Graphique",
+      "points": 20,
+      "description": "Le système graphique mesurable : palette, échelles, polices et unités."
+    },
+    {
+      "id": "ergonomie",
+      "nom": "Ergonomie",
+      "points": 25,
+      "description": "L'usage, le poids des pages et la navigation sur mobile."
+    },
+    {
+      "id": "accessibilite",
+      "nom": "Accessibilité",
+      "points": 30,
+      "description": "La structure, les alternatives textuelles, le focus et le contraste."
+    },
+    {
+      "id": "methodologie",
+      "nom": "Méthodologie",
+      "points": 25,
+      "description": "La qualité du code et du dépôt, dont la régularité du travail."
+    }
+  ],
+  "criteres": [
+    {
+      "id": "G1",
+      "axe": "graphique",
+      "libelle": "Palette d'interface : des variables de rôle dans :root",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 4,
+        "unite": "variables"
+      },
+      "piste": "Nommez les couleurs par leur rôle (--surface, --texte, --accent) plutôt que par leur teinte.",
+      "sourceCours": "CM 9 · TP 5"
+    },
+    {
+      "id": "G2",
+      "axe": "graphique",
+      "libelle": "Les couleurs passent par les variables",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 90,
+        "unite": "%"
+      },
+      "piste": "Remplacez les couleurs écrites en dur par var(--…) en dehors de :root.",
+      "sourceCours": "CM 9"
+    },
+    {
+      "id": "G3",
+      "axe": "graphique",
+      "libelle": "Échelle d'espacement : margin, padding et gap en var()",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 80,
+        "unite": "%"
+      },
+      "piste": "Déclarez une échelle d'espacement et utilisez-la pour margin, padding et gap.",
+      "sourceCours": "TP 4"
+    },
+    {
+      "id": "G4",
+      "axe": "graphique",
+      "libelle": "Polices web : woff2, font-display: swap et pile de secours",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": null,
+      "detailSeuil": "les trois présents",
+      "piste": "Hébergez les polices en woff2, ajoutez font-display: swap et une pile de secours.",
+      "sourceCours": "CM 9 · TP 5"
+    },
+    {
+      "id": "G5",
+      "axe": "graphique",
+      "libelle": "Graisses limitées",
+      "statut": "R",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 4,
+        "unite": "fichiers"
+      },
+      "piste": "Deux graisses suffisent presque toujours.",
+      "sourceCours": "CM 9"
+    },
+    {
+      "id": "G6",
+      "axe": "graphique",
+      "libelle": "Préchargement des polices du premier écran",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "link rel=\"preload\" as=\"font\"",
+      "piste": "Préchargez la police du titre avec <link rel=\"preload\" as=\"font\" crossorigin>.",
+      "sourceCours": "TP 5"
+    },
+    {
+      "id": "G7",
+      "axe": "graphique",
+      "libelle": "Unités : font-size en rem, line-height sans unité",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 90,
+        "unite": "%"
+      },
+      "piste": "Passez les tailles de texte en rem et les interlignes sans unité.",
+      "sourceCours": "CM 9 · TP 4"
+    },
+    {
+      "id": "G8",
+      "axe": "graphique",
+      "libelle": "Échelle typographique resserrée",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 7,
+        "unite": "tailles"
+      },
+      "piste": "Regroupez les tailles proches sur une échelle de six ou sept pas.",
+      "sourceCours": "CM 9"
+    },
+    {
+      "id": "G9",
+      "axe": "graphique",
+      "libelle": "Longueur de ligne bornée",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "une max-width en ch",
+      "piste": "Limitez la largeur du texte courant, par exemple max-width: 65ch.",
+      "sourceCours": "CM 9 · TP 5"
+    },
+    {
+      "id": "G10",
+      "axe": "graphique",
+      "libelle": "Aboutissement graphique",
+      "statut": "C",
+      "methode": "manuel",
+      "seuil": null,
+      "detailSeuil": "grille enseignant",
+      "piste": "Fidélité à l'identité de la SAÉ 103, hiérarchie et rythme vertical.",
+      "sourceCours": "SAÉ 105, axe 1"
+    },
+    {
+      "id": "E1",
+      "axe": "ergonomie",
+      "libelle": "Menu en popover, sans JavaScript",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "sur chaque page",
+      "piste": "Ouvrez le menu avec popover et popovertarget, sans JavaScript.",
+      "sourceCours": "CM 5 · TP 3"
+    },
+    {
+      "id": "E2",
+      "axe": "ergonomie",
+      "libelle": "Page courante signalée (aria-current)",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "sur chaque page",
+      "piste": "Ajoutez aria-current=\"page\" au lien de la page affichée.",
+      "sourceCours": "TP 3"
+    },
+    {
+      "id": "E3",
+      "axe": "ergonomie",
+      "libelle": "États :hover, :focus-visible et :active",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "les trois",
+      "piste": "Déclarez les trois états sur les liens et les boutons.",
+      "sourceCours": "CM 9 · TP 5"
+    },
+    {
+      "id": "E4",
+      "axe": "ergonomie",
+      "libelle": "Cibles tactiles de 44 × 44 px",
+      "statut": "C",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 44,
+        "unite": "px"
+      },
+      "piste": "Agrandissez la zone cliquable avec du padding, pas la police.",
+      "sourceCours": "CM 6 · TP 4"
+    },
+    {
+      "id": "E5",
+      "axe": "ergonomie",
+      "libelle": "Pas de défilement horizontal à 360 px",
+      "statut": "C",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 360,
+        "unite": "px"
+      },
+      "piste": "Cherchez l'élément trop large : une image sans max-width ou une largeur fixe.",
+      "sourceCours": "TP 4"
+    },
+    {
+      "id": "E6",
+      "axe": "ergonomie",
+      "libelle": "Mouvement minimal : transitions sur opacity et transform",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "aucune transition sur height, width, top…",
+      "piste": "Animez opacity et transform, pas les dimensions ni la position.",
+      "sourceCours": "CM 9"
+    },
+    {
+      "id": "E7",
+      "axe": "ergonomie",
+      "libelle": "Liens explicites hors de leur contexte",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "lien vague"
+      },
+      "piste": "Remplacez « voir plus » par la destination du lien.",
+      "sourceCours": "CM 3 · TP 2"
+    },
+    {
+      "id": "E8",
+      "axe": "ergonomie",
+      "libelle": "Formulaires efficaces : type et autocomplete",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "type adapté et autocomplete sur les champs d'identité",
+      "piste": "Utilisez type=\"email\" et autocomplete=\"name\" sur les champs concernés.",
+      "sourceCours": "CM 5 · TP 3"
+    },
+    {
+      "id": "E9",
+      "axe": "ergonomie",
+      "libelle": "Liens mailto: et tel:",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "présents",
+      "piste": "Rendez l'adresse et le téléphone cliquables.",
+      "sourceCours": "TP 2 · TP 3"
+    },
+    {
+      "id": "E10",
+      "axe": "ergonomie",
+      "libelle": "Poids des images",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 150,
+        "unite": "Ko"
+      },
+      "piste": "Recadrez et compressez les images au-delà de 150 Ko.",
+      "sourceCours": "CM 2 · TP 1"
+    },
+    {
+      "id": "E11",
+      "axe": "ergonomie",
+      "libelle": "Poids de la page d'accueil",
+      "statut": "R",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "<",
+        "nombre": 1024,
+        "unite": "Ko"
+      },
+      "piste": "Visez moins de 1 Mo transférés pour l'accueil.",
+      "sourceCours": "TP 1"
+    },
+    {
+      "id": "E12",
+      "axe": "ergonomie",
+      "libelle": "Formats : photos en AVIF ou WebP, icônes en SVG",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 90,
+        "unite": "%"
+      },
+      "piste": "Convertissez les photos en AVIF ou WebP.",
+      "sourceCours": "CM 2 · TP 1"
+    },
+    {
+      "id": "E13",
+      "axe": "ergonomie",
+      "libelle": "Images dimensionnées, lazy sous la ligne de flottaison",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 90,
+        "unite": "%"
+      },
+      "piste": "Ajoutez width et height à chaque image.",
+      "sourceCours": "TP 1"
+    },
+    {
+      "id": "E14",
+      "axe": "ergonomie",
+      "libelle": "Vidéo : controls, poster, preload=\"none\"",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "les attributs présents",
+      "piste": "Ajoutez controls, poster et preload=\"none\" à la vidéo.",
+      "sourceCours": "TP 2"
+    },
+    {
+      "id": "E15",
+      "axe": "ergonomie",
+      "libelle": "Lighthouse Performance",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": null,
+      "piste": "Dépend de l'hébergement : affiché à titre d'information.",
+      "sourceCours": "—"
+    },
+    {
+      "id": "A1",
+      "axe": "accessibilite",
+      "libelle": "head : lang, charset et viewport",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "sur chaque page",
+      "piste": "Déclarez lang=\"fr\", le charset et le viewport sur chaque page.",
+      "sourceCours": "CM 2 · TP 1"
+    },
+    {
+      "id": "A2",
+      "axe": "accessibilite",
+      "libelle": "title et meta description différents d'une page à l'autre",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "doublon"
+      },
+      "piste": "Donnez à chaque page un titre et une description propres.",
+      "sourceCours": "TP 1"
+    },
+    {
+      "id": "A3",
+      "axe": "accessibilite",
+      "libelle": "Repères de page : header, nav étiqueté, main unique, footer",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "sur chaque page",
+      "piste": "Structurez chaque page avec header, nav aria-label, un seul main et footer.",
+      "sourceCours": "CM 4 · TP 2"
+    },
+    {
+      "id": "A4",
+      "axe": "accessibilite",
+      "libelle": "Plan des titres : un seul h1, aucun niveau sauté",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "écart"
+      },
+      "piste": "Gardez un seul h1 et descendez les niveaux un par un.",
+      "sourceCours": "CM 4 · TP 2"
+    },
+    {
+      "id": "A5",
+      "axe": "accessibilite",
+      "libelle": "alt présent sur chaque image (alt=\"\" accepté)",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 100,
+        "unite": "%"
+      },
+      "piste": "Ajoutez un alt à chaque image ; alt=\"\" pour une image décorative.",
+      "sourceCours": "CM 3"
+    },
+    {
+      "id": "A6",
+      "axe": "accessibilite",
+      "libelle": "Qualité des alt",
+      "statut": "R",
+      "methode": "manuel",
+      "seuil": null,
+      "detailSeuil": "jugée à la main",
+      "piste": "Décrivez ce que l'image apporte, pas le nom du fichier.",
+      "sourceCours": "CM 3 · TP 2"
+    },
+    {
+      "id": "A7",
+      "axe": "accessibilite",
+      "libelle": "Champs étiquetés et bouton d'envoi",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 100,
+        "unite": "%"
+      },
+      "piste": "Liez chaque champ à un label par for et id.",
+      "sourceCours": "CM 5 · TP 3"
+    },
+    {
+      "id": "A8",
+      "axe": "accessibilite",
+      "libelle": "Boutons nommés",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 100,
+        "unite": "%"
+      },
+      "piste": "Donnez un texte ou un aria-label au bouton du menu.",
+      "sourceCours": "TP 5"
+    },
+    {
+      "id": "A9",
+      "axe": "accessibilite",
+      "libelle": "autofocus sur le bouton de fermeture du menu",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "présent",
+      "piste": "Placez autofocus sur le bouton qui ferme le menu.",
+      "sourceCours": "TP 5"
+    },
+    {
+      "id": "A10",
+      "axe": "accessibilite",
+      "libelle": "Focus visible : pas d'outline: none sans remplacement",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "suppression"
+      },
+      "piste": "Remplacez outline: none par un style :focus-visible.",
+      "sourceCours": "CM 9 · TP 5"
+    },
+    {
+      "id": "A11",
+      "axe": "accessibilite",
+      "libelle": "prefers-reduced-motion dès qu'il y a du mouvement",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": null,
+      "detailSeuil": "présent si mouvement",
+      "piste": "Coupez les animations dans @media (prefers-reduced-motion: reduce).",
+      "sourceCours": "CM 9"
+    },
+    {
+      "id": "A12",
+      "axe": "accessibilite",
+      "libelle": "Contraste des paires texte et fond",
+      "statut": "C",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "échec"
+      },
+      "piste": "Foncez le texte ou éclaircissez le fond jusqu'à 4,5:1.",
+      "sourceCours": "CM 6 · CM 9"
+    },
+    {
+      "id": "A13",
+      "axe": "accessibilite",
+      "libelle": "Lighthouse Accessibilité",
+      "statut": "C",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 95,
+        "unite": ""
+      },
+      "piste": "Corrigez les audits signalés par Lighthouse, page par page.",
+      "sourceCours": "TP 3"
+    },
+    {
+      "id": "A14",
+      "axe": "accessibilite",
+      "libelle": "Reflow au zoom 200 %",
+      "statut": "R",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 180,
+        "unite": "px"
+      },
+      "piste": "Vérifiez la page à 180 px de large.",
+      "sourceCours": "CM 6 · TP 3"
+    },
+    {
+      "id": "A15",
+      "axe": "accessibilite",
+      "libelle": "Contenus attendus par le sujet",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 100,
+        "unite": "%"
+      },
+      "piste": "Ajoutez les balises demandées par le sujet.",
+      "sourceCours": "Sujet de la SAÉ"
+    },
+    {
+      "id": "A16",
+      "axe": "accessibilite",
+      "libelle": "Bon usage de ces balises",
+      "statut": "R",
+      "methode": "manuel",
+      "seuil": null,
+      "detailSeuil": "jugé à la main",
+      "piste": "time datetime, dl pour les couples libellé et valeur, figure avec figcaption.",
+      "sourceCours": "CM 3 · CM 4 · TP 2"
+    },
+    {
+      "id": "M1",
+      "axe": "methodologie",
+      "libelle": "Validation HTML (W3C)",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "erreur"
+      },
+      "piste": "Passez chaque page au validateur et corrigez les erreurs.",
+      "sourceCours": "CM 1"
+    },
+    {
+      "id": "M2",
+      "axe": "methodologie",
+      "libelle": "Validation CSS",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "erreur"
+      },
+      "piste": "Passez la feuille au validateur CSS.",
+      "sourceCours": "TP 5"
+    },
+    {
+      "id": "M3",
+      "axe": "methodologie",
+      "libelle": "Ni !important, ni sélecteur d'id",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "occurrence"
+      },
+      "piste": "Visez des classes, et réglez la spécificité sans !important.",
+      "sourceCours": "TP 4"
+    },
+    {
+      "id": "M4",
+      "axe": "methodologie",
+      "libelle": "JavaScript minimal : ce qui se fait en CSS se fait en CSS",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "motif"
+      },
+      "piste": "Remplacez ces motifs par leur équivalent CSS ou HTML.",
+      "sourceCours": "CM 5"
+    },
+    {
+      "id": "M5",
+      "axe": "methodologie",
+      "libelle": "CSS mort : classes jamais utilisées",
+      "statut": "C",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 5,
+        "unite": "%"
+      },
+      "piste": "Supprimez les classes que plus aucune page n'utilise.",
+      "sourceCours": "TP 5"
+    },
+    {
+      "id": "M6",
+      "axe": "methodologie",
+      "libelle": "Une feuille unique, ordonnée en sections",
+      "statut": "R",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 3,
+        "unite": "sections"
+      },
+      "piste": "Ordonnez la feuille : Variables, Bases, Blocs, Utilitaires.",
+      "sourceCours": "CM 10 · TP 4"
+    },
+    {
+      "id": "M7",
+      "axe": "methodologie",
+      "libelle": "BEM",
+      "statut": "B",
+      "methode": "auto",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 70,
+        "unite": "%"
+      },
+      "piste": "Nommez les classes en bloc__element--modificateur.",
+      "sourceCours": "CM 10 · TP 5"
+    },
+    {
+      "id": "M8",
+      "axe": "methodologie",
+      "libelle": "Nommage des fichiers et dossier assets rangé",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 100,
+        "unite": "%"
+      },
+      "piste": "Minuscules, sans espace ni accent.",
+      "sourceCours": "TP 1"
+    },
+    {
+      "id": "M9",
+      "axe": "methodologie",
+      "libelle": "Aucune ressource cassée",
+      "statut": "C",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "404"
+      },
+      "piste": "Corrigez les chemins : relatifs, et avec la bonne casse.",
+      "sourceCours": "CM 2"
+    },
+    {
+      "id": "M10",
+      "axe": "methodologie",
+      "libelle": "Timeline des commits régulière",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 6,
+        "unite": "sessions"
+      },
+      "piste": "Travaillez et commitez régulièrement, pas la veille du rendu.",
+      "sourceCours": "Rendu GitHub"
+    },
+    {
+      "id": "M11",
+      "axe": "methodologie",
+      "libelle": "Messages de commit explicites",
+      "statut": "R",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "≤",
+        "nombre": 10,
+        "unite": "%"
+      },
+      "piste": "Dites ce que fait le commit, pas « update ».",
+      "sourceCours": "TP 1"
+    },
+    {
+      "id": "M12",
+      "axe": "methodologie",
+      "libelle": "README rempli",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": {
+        "operateur": "=",
+        "nombre": 0,
+        "unite": "champ vide"
+      },
+      "piste": "Renseignez nom, groupe, URL du site et URL Figma.",
+      "sourceCours": "Gabarit du dépôt"
+    },
+    {
+      "id": "M13",
+      "axe": "methodologie",
+      "libelle": "NOTES.md et journal IA",
+      "statut": "C",
+      "methode": "depot",
+      "seuil": null,
+      "detailSeuil": "sections présentes et non vides",
+      "piste": "Complétez chaque section de NOTES.md.",
+      "sourceCours": "TP 1 à 5"
+    },
+    {
+      "id": "M14",
+      "axe": "methodologie",
+      "libelle": "Tag de rendu",
+      "statut": "R",
+      "methode": "depot",
+      "seuil": null,
+      "detailSeuil": "un tag v1",
+      "piste": "Posez le tag v1 sur le commit rendu.",
+      "sourceCours": "TP 3 · TP 5"
+    }
+  ]
+}

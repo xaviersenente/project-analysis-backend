@@ -1,0 +1,9 @@
+/* Importé par style.css : ses règles gardent leur fichier d'origine */
+.pied {
+  padding: var(--espace-2);
+  border-top: 1px solid var(--bordure);
+}
+
+.pied__texte {
+  color: var(--texte) !important;
+}

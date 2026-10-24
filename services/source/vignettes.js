@@ -60,3 +60,18 @@ export const genererVignettes = async ({ racineSite, resultat, dossierSortie }) 
 
   return { generees, manquantes };
 };
+
+/**
+ * Vignettes d'un projet, puis retrait de celles d'images qui ont disparu du site
+ * @returns {Promise<{ generees: number, manquantes: Array }>}
+ */
+export const rafraichirVignettes = async ({ racineSite, resultat, dossierSortie }) => {
+  const bilan = await genererVignettes({ racineSite, resultat, dossierSortie });
+  const utilisees = new Set(
+    (resultat.ressources?.images ?? []).map((i) => i.vignette && path.basename(i.vignette)).filter(Boolean)
+  );
+  for (const fichier of fs.readdirSync(dossierSortie)) {
+    if (!utilisees.has(fichier)) fs.unlinkSync(path.join(dossierSortie, fichier));
+  }
+  return bilan;
+};

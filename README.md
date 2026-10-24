@@ -98,6 +98,29 @@ Les projets sont déclarés dans le fichier de promo, `data/promo.json`, hors de
 
 Un slug ne contient que `a-z`, `0-9` et `-`. Les anciens fichiers `data/<Prénom NOM>.json` se migrent avec `node scripts/migrerDonnees.js --essai`, puis sans `--essai`.
 
+### Analyser les dépôts de la promo (lot 1)
+
+L'analyse se fait en local, sur le dépôt GitHub de chaque étudiant, à une version figée : le tag `v1`, sinon le dernier commit avant la date de rendu. Le dépôt est récupéré par un clone partiel, gardé dans `cache/` (hors de Git).
+
+Le fichier de promo, `data/promo.json` :
+
+```json
+{
+  "promo": "SAÉ 105 · 2026-2027",
+  "dateRendu": "2027-01-15T23:59:00+01:00",
+  "contenusAttendus": ["article", "nav", "figure", "figcaption", "blockquote", "form", "label", "video"],
+  "projets": [
+    { "slug": "etu-01", "nom": "Dupont Alice", "groupe": "TP2", "depot": "mmi-montbeliard/sae105-2026-dupont-alice" }
+  ]
+}
+```
+
+```bash
+node scripts/analyser.js --tous
+```
+
+Chaque projet donne `data/<slug>.json` (résultat v2, conforme à `schema/resultat.js`) et ses vignettes. Sans `contenusAttendus`, la liste `requiredTags` de la configuration s'applique. Un dépôt privé demande `GITHUB_TOKEN` (lecture seule) dans `.env`. Les contrôles en navigateur (lot 2) et la timeline (lot 3) sont « Non mesurable » pour l'instant.
+
 ### Vignettes des images
 
 Après l'analyse, `node scripts/vignettes.js --slug etu-01 --site <dossier du site>` crée une vignette WebP carrée par image (taille dans `config/thresholds.js`) dans `data/vignettes/<slug>/`, hors de Git, et renseigne le champ `vignette` du résultat. Une image introuvable garde `vignette: null`.

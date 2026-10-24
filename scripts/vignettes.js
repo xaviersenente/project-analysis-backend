@@ -10,7 +10,7 @@
 import fs from "fs";
 import path from "path";
 import { parseArgs } from "util";
-import { genererVignettes } from "../services/source/vignettes.js";
+import { rafraichirVignettes } from "../services/source/vignettes.js";
 import { cheminResultat, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
 
 const { values } = parseArgs({
@@ -34,19 +34,11 @@ if (!fs.existsSync(fichierResultat)) {
 
 const resultat = JSON.parse(fs.readFileSync(fichierResultat, "utf-8"));
 const dossierSortie = path.join(dossierDonnees(), "vignettes", slug);
-const { generees, manquantes } = await genererVignettes({
+const { generees, manquantes } = await rafraichirVignettes({
   racineSite: values.site,
   resultat,
   dossierSortie,
 });
-
-// Les vignettes d'images qui ont disparu du site sont retirées
-const utilisees = new Set(
-  (resultat.ressources?.images ?? []).map((i) => i.vignette && path.basename(i.vignette)).filter(Boolean)
-);
-for (const fichier of fs.readdirSync(dossierSortie)) {
-  if (!utilisees.has(fichier)) fs.unlinkSync(path.join(dossierSortie, fichier));
-}
 
 fs.writeFileSync(fichierResultat, JSON.stringify(resultat, null, 2));
 
