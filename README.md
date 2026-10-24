@@ -98,6 +98,10 @@ Les projets sont déclarés dans le fichier de promo, `data/promo.json`, hors de
 
 Un slug ne contient que `a-z`, `0-9` et `-`. Les anciens fichiers `data/<Prénom NOM>.json` se migrent avec `node scripts/migrerDonnees.js --essai`, puis sans `--essai`.
 
+### Vignettes des images
+
+Après l'analyse, `node scripts/vignettes.js --slug etu-01 --site <dossier du site>` crée une vignette WebP carrée par image (taille dans `config/thresholds.js`) dans `data/vignettes/<slug>/`, hors de Git, et renseigne le champ `vignette` du résultat. Une image introuvable garde `vignette: null`.
+
 ### Analyser un projet
 
 ```bash

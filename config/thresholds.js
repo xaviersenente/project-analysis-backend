@@ -294,6 +294,13 @@ export default {
     },
   },
 
+  // ===== VIGNETTES =====
+  // Aperçu des images du site, pour l'interface (carré, en pixels)
+  vignettes: {
+    taille: 96,
+    qualite: 70,
+  },
+
   // ===== SCORING =====
   scoring: {
     // Grades (pourcentages)
