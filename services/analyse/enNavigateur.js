@@ -101,7 +101,7 @@ export default {
     const petites = pages.flatMap((m) => m.cibles.map((c) => ({ ...c, fichier: m.fichier })));
     const occurrences = petites.map((c) => occurrence(ctx, c.fichier, c.extrait, `${c.largeur} × ${c.hauteur} px`));
     const valeur = petites.length ? Math.min(...petites.map((c) => Math.min(c.largeur, c.hauteur))) : null;
-    return petites.length === 0 ? respecte(null, { detailValeur: "toutes les cibles isolées ≥ 44 px" }) : nonRespecte(valeur, occurrences);
+    return petites.length === 0 ? respecte(null, { detailValeur: "toutes les commandes ≥ 44 px" }) : nonRespecte(valeur, occurrences);
   },
 
   E5: (ctx) => debordement(ctx, "debordement", ergonomie.viewportPx),
