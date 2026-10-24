@@ -24,6 +24,7 @@ test("le résultat du dépôt piégé est valide au regard du schéma v2", async
     promo: { dateRendu: DATE_RENDU },
     cache,
     sansValidationW3c: true,
+    sansNavigateur: true,
   });
   const verification = resultatSchema.safeParse(resultat);
   assert.ok(verification.success, JSON.stringify(verification.error?.issues.slice(0, 5), null, 2));

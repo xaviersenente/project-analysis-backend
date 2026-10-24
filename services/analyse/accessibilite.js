@@ -3,8 +3,7 @@
  */
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
-import { respecte, nonRespecte, nonMesurable, aJuger, parRatio, parAbsence } from "./mesure.js";
-import { NAVIGATEUR } from "./ergonomie.js";
+import { respecte, nonRespecte, aJuger, parRatio, parAbsence } from "./mesure.js";
 
 const S = thresholds.sae105.accessibilite;
 
@@ -199,10 +198,6 @@ export default {
       ? respecte(null, { detailValeur: "présent" })
       : nonRespecte(null, mouvements.slice(0, 5).map((d) => occurrenceDeclaration(d, ctx.css, d.prop)), { detailValeur: "absent" });
   },
-
-  A12: () => nonMesurable(NAVIGATEUR),
-  A13: () => nonMesurable(NAVIGATEUR),
-  A14: () => nonMesurable(NAVIGATEUR),
 
   A15: (ctx) => {
     const balises = pagesParBalise(ctx);

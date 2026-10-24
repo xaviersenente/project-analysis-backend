@@ -16,10 +16,12 @@ import { pointsParContrainte, points, noter } from "./notation.js";
 import graphique, { variablesCouleur, enPixels } from "./graphique.js";
 import ergonomie, { imagesDuSite, lienVersSoi } from "./ergonomie.js";
 import accessibilite, { pagesParBalise, ecartsTitres } from "./accessibilite.js";
-import methodologie, { problemesNom, classesCss, classesHtml, mesureBem } from "./methodologie.js";
+import methodologie, { problemesNom, classesCss, classesHtml, mesureBem, analyseJavascript } from "./methodologie.js";
+import enNavigateur, { blocLighthouse, celluleLighthouse, poidsAccueil } from "./enNavigateur.js";
+import { mesurerNavigateur } from "../runtime/navigateur.js";
 
 const grille = createRequire(import.meta.url)("../../config/grille-sae105-2026.json");
-const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie };
+const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur };
 const MAX_POINTS = pointsParContrainte(grille);
 
 // Critères qui ne lisent que le HTML : ils restent mesurables si le CSS est illisible
@@ -62,7 +64,7 @@ const vueParPage = (ctx) => {
           erreursW3c === undefined
             ? { verdict: "non-mesurable", detail: "validation W3C indisponible" }
             : { verdict: erreursW3c ? "non-respecte" : "respecte", valeur: String(erreursW3c), detail: erreursW3c ? `${erreursW3c} erreurs de validation` : "aucune erreur" },
-        lighthouseA11y: { verdict: "non-mesurable", detail: "Lighthouse : lot 2" },
+        lighthouseA11y: celluleLighthouse(ctx, page.fichier),
       },
     };
   });
@@ -123,10 +125,10 @@ const ressources = async (ctx) => {
     });
 
   const arborescence = ctx.inventaire.fichiers.map((chemin) => ({ chemin, problemes: problemesNom(chemin) }));
-  return { images, poidsAccueilKo: null, polices, arborescence };
+  return { images, poidsAccueilKo: poidsAccueil(ctx), polices, arborescence };
 };
 
-/** Blocs propres à chaque axe ; le bloc JavaScript arrive au lot 2 */
+/** Blocs propres à chaque axe */
 const blocs = (ctx) => {
   const espacements = [...ctx.variables.entries()]
     .filter(([nom]) => /espace|space|spacing|gap|marge|margin|gouttiere|pas/i.test(nom))
@@ -155,8 +157,9 @@ const blocs = (ctx) => {
       espacements,
       typographie: { famille, tailles: [...tailles.values()].sort((a, b) => a.px - b.px) },
     },
-    accessibilite: { contenusAttendus: pagesParBalise(ctx) },
+    accessibilite: { ...blocLighthouse(ctx), contenusAttendus: pagesParBalise(ctx) },
     methodologie: {
+      javascript: analyseJavascript(ctx),
       classesInutilisees: { total: declarees.size, classes: [...declarees.keys()].filter((c) => !employees.has(c)) },
       bem: { ratio: Math.round(bem.ratio * 1000) / 10, points: bem.points, totalClasses: bem.totalClasses, horsConvention: bem.horsConvention.slice(0, 30) },
     },
@@ -170,8 +173,10 @@ const blocs = (ctx) => {
  * @param {{ dossier: string, sha: string } | null} [options.git] - Historique de la version analysée
  * @param {boolean} [options.sansValidationW3c]
  * @param {string} [options.raisonEchec] - Sans racine : pourquoi le site n'a pas pu être lu
+ * @param {string} [options.nomDepot] - Préfixe /<nom>/ du site servi en local
+ * @param {boolean} [options.sansNavigateur] - Sans Lighthouse ni Puppeteer (analyse rapide)
  */
-export const analyserSite = async ({ racine, promo = {}, git = null, sansValidationW3c = false, raisonEchec = null }) => {
+export const analyserSite = async ({ racine, promo = {}, git = null, sansValidationW3c = false, raisonEchec = null, nomDepot = null, sansNavigateur = false }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
   const inventaire = racine ? await mesurer("Inventaire des pages", () => inventorier(racine)) : null;
   const css = inventaire ? await mesurer("CSS", () => chargerCss(inventaire)) : null;
@@ -180,7 +185,19 @@ export const analyserSite = async ({ racine, promo = {}, git = null, sansValidat
   const ctx = inventaire
     ? creerContexte({ racine, inventaire, css: css ?? { arbre: { walkDecls() {}, walkRules() {}, walkAtRules() {}, walkComments() {} }, feuilles: [], imports: [], fichierDe: () => ({}) }, promo, git })
     : null;
-  if (ctx) ctx.sansValidationW3c = sansValidationW3c;
+  if (ctx) {
+    ctx.sansValidationW3c = sansValidationW3c;
+    ctx.nomDepot = nomDepot ?? path.basename(racine);
+    if (sansNavigateur) {
+      ctx.raisonNavigateur = "Contrôles en navigateur désactivés pour cette analyse";
+    } else {
+      ctx.navigateur = await mesurer("Navigateur (Lighthouse, Puppeteer)", () =>
+        mesurerNavigateur({ racine, nom: ctx.nomDepot, fichiers: inventaire.fichiers, pages: inventaire.pages.map((p) => p.fichier) })
+      );
+      if (!ctx.navigateur) ctx.raisonNavigateur = etapes.at(-1)?.raison;
+      for (const m of ctx.navigateur ?? []) if (m.erreur) etapes.push({ etape: `Navigateur (${m.fichier})`, raison: m.erreur });
+    }
+  }
 
   const criteres = [];
   for (const modele of grille.criteres) {

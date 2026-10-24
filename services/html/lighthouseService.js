@@ -17,7 +17,7 @@ export const CHROME_FLAGS = [
 // Une seule instance de Chrome, réutilisée pour toutes les pages (F3)
 let chromePromise = null;
 
-const obtenirChrome = () => {
+export const obtenirChrome = () => {
   // Un chemin absent ferait planter le serveur (exception hors de la promesse)
   const chemin = process.env.CHROME_PATH;
   if (chemin && !fs.existsSync(chemin)) {
@@ -132,6 +132,49 @@ export const runLighthouse = async (url) => {
   } catch (error) {
     // Après un dépassement, l'audit peut tourner encore : on repart d'un Chrome neuf
     if (error.message.startsWith("Délai")) await fermerChrome();
+    throw error;
+  } finally {
+    clearTimeout(minuteur);
+  }
+};
+
+/** « … contrast of 2.85 (foreground color: #9a9a9a, background color: #ffffff, … ratio of 4.5:1 » */
+const lireContraste = (explication = "") => {
+  const m = explication.match(/contrast of ([\d.]+) \(foreground color: (#[0-9a-f]{3,8}), background color: (#[0-9a-f]{3,8})[^)]*\)\.?\s*Expected contrast ratio of ([\d.]+):1/i);
+  return m ? { rapport: Number(m[1]), texte: m[2], fond: m[3], requis: Number(m[4]) } : null;
+};
+
+/**
+ * Audit Lighthouse d'une page (lot 2) : les quatre scores sur 100, les paires en échec
+ * de contraste, le poids transféré et les requêtes en échec. Délai maximal par page.
+ */
+export const auditerPage = async (url) => {
+  const chrome = await obtenirChrome();
+  const delai = thresholds.performance.timeouts.lighthouse;
+  let minuteur;
+  const depassement = new Promise((_, reject) => {
+    minuteur = setTimeout(() => reject(new Error(`Lighthouse a dépassé le délai (${delai / 1000} s)`)), delai);
+  });
+  try {
+    const { lhr } = await Promise.race([lighthouse(url, optionsLighthouse(chrome.port)), depassement]);
+    const score = (cle) => (lhr.categories[cle]?.score === null || lhr.categories[cle] === undefined ? null : Math.round(lhr.categories[cle].score * 100));
+    return {
+      scores: {
+        performance: score("performance"),
+        accessibilite: score("accessibility"),
+        bonnesPratiques: score("best-practices"),
+        seo: score("seo"),
+      },
+      contrastes: (lhr.audits["color-contrast"]?.details?.items ?? [])
+        .map((item) => ({ ...lireContraste(item.node?.explanation), selecteur: item.node?.selector ?? "", extrait: item.node?.snippet ?? "" }))
+        .filter((c) => c.rapport),
+      poidsKo: Math.round((lhr.audits["total-byte-weight"]?.numericValue ?? 0) / 1024),
+      echecs: (lhr.audits["network-requests"]?.details?.items ?? [])
+        .filter((r) => r.statusCode >= 400 || r.statusCode === -1)
+        .map((r) => ({ url: r.url, statut: r.statusCode })),
+    };
+  } catch (error) {
+    if (error.message.startsWith("Lighthouse a dépassé")) await fermerChrome();
     throw error;
   } finally {
     clearTimeout(minuteur);

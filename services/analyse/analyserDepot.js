@@ -7,6 +7,7 @@ import path from "path";
 import { creerSuivi } from "../../utils/mesure.js";
 import { resoudreVersion, recuperer, trouverRacineSite, dossierCache } from "../source/depot.js";
 import { analyserSite } from "./analyserSite.js";
+import { nomDuDepot } from "../runtime/serveurLocal.js";
 
 const URL = /https?:\/\/[^\s)>\]]+/;
 
@@ -19,6 +20,17 @@ const liensDuReadme = (dossier) => {
   return { site: chercher(/url du site|site en ligne/i), figma: chercher(/figma/i) };
 };
 
+/** Alertes qui empêchent de corriger sereinement */
+const alertes = (analyse) => {
+  const liste = [];
+  const js = analyse.blocs?.methodologie?.javascript;
+  if (js?.motifs.length) {
+    const fichiers = [...new Set(js.motifs.map((m) => m.occurrence.fichier))];
+    liste.push({ type: "js-remplace-css", message: "JavaScript détecté qui remplace du CSS", details: `${js.motifs.length} motif${js.motifs.length > 1 ? "s" : ""} dans ${fichiers.join(", ")}` });
+  }
+  return liste;
+};
+
 /** Adresse web du dépôt, quand c'est un dépôt GitHub */
 const urlDepot = (depot) =>
   /^[\w.-]+\/[\w.-]+$/.test(depot) && !fs.existsSync(depot) ? `https://github.com/${depot}` : /^https?:\/\//.test(depot) ? depot.replace(/\.git$/, "") : null;
@@ -29,9 +41,10 @@ const urlDepot = (depot) =>
  * @param {{ dateRendu: string, contenusAttendus?: string[] }} options.promo
  * @param {string} [options.cache]
  * @param {boolean} [options.sansValidationW3c]
+ * @param {boolean} [options.sansNavigateur]
  * @returns {Promise<{ resultat: object, racineSite: string | null }>}
  */
-export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false }) => {
+export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   const version = await mesurer("Version du dépôt", () => resoudreVersion(projet.depot, promo.dateRendu, { cache }));
@@ -44,6 +57,8 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     promo,
     git: copie ? { dossier: copie, sha: version.sha } : null,
     sansValidationW3c,
+    sansNavigateur,
+    nomDepot: nomDuDepot(projet.depot),
     raisonEchec: etapes.at(-1) ? `${etapes.at(-1).etape} : ${etapes.at(-1).raison}` : null,
   });
 
@@ -69,8 +84,8 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     pages: analyse.pages,
     ressources: analyse.ressources,
     blocs: analyse.blocs,
-    // Site en ligne (lot 4), JavaScript (lot 2) et historique (lot 3) donneront les alertes
-    alertes: [],
+    // Site en ligne (lot 4) et historique (lot 3) compléteront les alertes
+    alertes: alertes(analyse),
     nonMesurable: [...etapes, ...analyse.nonMesurable],
   };
   return { resultat, racineSite };

@@ -19,12 +19,13 @@
     "cors": "^2.8.6",
     "culori": "^4.0.2",
     "dotenv": "^17.4.2",
-    "express": "^4.22.3",
-    "lighthouse": "^12.8.2",
+    "express": "^5.3.0",
+    "lighthouse": "^13.5.0",
     "postcss": "^8.5.31",
+    "puppeteer-core": "^25.16.0",
     "sharp": "^0.35.5",
     "simplecrawler": "^1.1.9",
-    "vnu-jar": "^25.12.31",
+    "vnu-jar": "^26.10.12",
     "zod": "^4.6.7"
   },
   "engines": {

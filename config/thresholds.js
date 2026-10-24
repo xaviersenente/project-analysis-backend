@@ -319,6 +319,9 @@ export default {
     },
 
     ergonomie: {
+      cibleTactilePx: 44,
+      viewportPx: 360,
+      accueilMaxKo: 1024,
       imageMaxKo: 150,
       formatsPhoto: ["avif", "webp"],
       formatsPhotoRatio: 0.9,
@@ -329,6 +332,8 @@ export default {
     },
 
     accessibilite: {
+      lighthouseObjectif: 95,
+      zoomViewportPx: 180,
       altSuspects: [/\.(jpe?g|png|webp|avif|gif|svg)$/i, /^(image|photo|img|picture|illustration) (de|d'|of)\b/i, /^(image|photo|img|picture)\d*$/i],
       // Les contenus attendus viennent du fichier de promo (contenusAttendus) ;
       // à défaut, de la liste requiredTags, conservée (tags.requiredTags)
@@ -340,6 +345,43 @@ export default {
       messagesGeneriques: /^(update|updates|fix|fixes|wip|commit|\.|maj|modif(s|ication)?|test|ok|changes?)$/i,
       messagesGeneriquesMax: 0.1,
       readme: ["nom", "groupe", "url du site", "url figma"],
+    },
+
+    // Le JavaScript qui remplace du CSS (M4) : le motif, puis ce qu'il fallait faire
+    javascript: {
+      motifs: [
+        {
+          motif: "Classe basculée en JavaScript",
+          expression: /classList\.(toggle|add|remove)/g,
+          alternative: { titre: "Un popover ou <details>, sans JavaScript", code: '<button popovertarget="menu">Menu</button>\n<nav id="menu" popover>…</nav>' },
+        },
+        {
+          motif: "Affichage piloté par element.style",
+          expression: /\.style\.(display|opacity|visibility|transform|color|background(Color)?|height|width)\b/g,
+          alternative: { titre: "Une classe, un état CSS ou une transition", code: ".panneau:popover-open { opacity: 1; }" },
+        },
+        {
+          motif: "Effet de survol en JavaScript",
+          expression: /addEventListener\(\s*["'](mouseover|mouseenter|mouseout|mouseleave)["']/g,
+          alternative: { titre: ":hover et :focus-visible", code: ".carte:hover,\n.carte:focus-visible { … }" },
+        },
+        {
+          motif: "Écouteur de défilement",
+          expression: /addEventListener\(\s*["']scroll["']/g,
+          alternative: { titre: "scroll-behavior, position: sticky", code: "html { scroll-behavior: smooth; }" },
+        },
+        {
+          motif: "Défilement doux en JavaScript",
+          expression: /behavior\s*:\s*["']smooth["']/g,
+          alternative: { titre: "scroll-behavior: smooth", code: "html { scroll-behavior: smooth; }" },
+        },
+        {
+          motif: "Validation de formulaire écrite à la main",
+          // Un écouteur submit qui teste lui-même les valeurs saisies
+          expression: /addEventListener\(\s*["']submit["'][\s\S]{0,400}?\.value\b/g,
+          alternative: { titre: "La validation native", code: '<input type="email" required>' },
+        },
+      ],
     },
 
     bonus: {

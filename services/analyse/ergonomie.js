@@ -5,10 +5,9 @@ import fs from "fs";
 import path from "path";
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
-import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence } from "./mesure.js";
+import { respecte, nonRespecte, partiel, parRatio, parAbsence } from "./mesure.js";
 
 const S = thresholds.sae105.ergonomie;
-export const NAVIGATEUR = "Contrôle en navigateur (Lighthouse, Puppeteer) : prévu au lot 2";
 
 const PHOTO = /\.(jpe?g|png|webp|avif|gif)$/i;
 const IMAGE = /\.(jpe?g|png|webp|avif|gif|svg)$/i;
@@ -75,9 +74,6 @@ export default {
     return presents.length ? partiel(presents.length, [], { detailValeur }) : nonRespecte(0, [], { detailValeur });
   },
 
-  E4: () => nonMesurable(NAVIGATEUR),
-  E5: () => nonMesurable(NAVIGATEUR),
-
   E6: (ctx) => {
     const fautives = ctx
       .declarations((d) => d.prop === "transition" || d.prop === "transition-property")
@@ -140,8 +136,6 @@ export default {
     return lourdes.length === 0 ? respecte(max) : nonRespecte(max, occurrences);
   },
 
-  E11: () => nonMesurable(NAVIGATEUR),
-
   E12: (ctx) => {
     const photos = imagesDuSite(ctx).filter((i) => PHOTO.test(i.fichier));
     const anciennes = photos.filter((i) => !S.formatsPhoto.includes(path.extname(i.fichier).slice(1).toLowerCase()));
@@ -173,6 +167,4 @@ export default {
     });
     return parAbsence(incompletes.map(({ page, el }) => ctx.occHtml(page, el)));
   },
-
-  E15: () => nonMesurable(NAVIGATEUR),
 };

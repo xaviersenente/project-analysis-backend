@@ -21,6 +21,7 @@ before(async () => {
     promo: { contenusAttendus: ["header", "nav", "main", "footer", "article", "form", "label", "blockquote"] },
     // La validation W3C (Java) est testée à part
     sansValidationW3c: true,
+    sansNavigateur: true,
   });
 });
 after(() => fs.rmSync(racine, { recursive: true, force: true }));
@@ -97,7 +98,7 @@ test("A15 : la balise attendue absente (blockquote)", () => {
 const analyserVariante = async (modifier, promo = {}) => {
   const copie = await preparerSite();
   modifier(copie);
-  const r = await analyserSite({ racine: copie, promo, sansValidationW3c: true });
+  const r = await analyserSite({ racine: copie, promo, sansValidationW3c: true, sansNavigateur: true });
   fs.rmSync(copie, { recursive: true, force: true });
   return (id) => r.criteres.find((c) => c.id === id);
 };
@@ -126,8 +127,14 @@ test("A15 : sans liste dans le fichier de promo, la liste requiredTags de la con
 
 // --- Ce qui relève d'un autre lot est « Non mesurable », jamais imputé à l'étudiant ---
 
-test("contrôles en navigateur, JavaScript et timeline : non mesurables au lot 1", () => {
-  for (const id of ["E4", "E5", "E11", "E15", "A12", "A13", "A14", "M4", "M10"]) {
+test("M4 : le menu ouvert par classList.toggle", () => {
+  assert.equal(critere("M4").verdict, "non-respecte");
+  assert.deepEqual(positions("M4"), ["js/menu.js:3"]);
+  assert.equal(resultat.blocs.methodologie.javascript.motifs[0].alternative.titre, "Un popover ou <details>, sans JavaScript");
+});
+
+test("contrôles en navigateur et timeline : non mesurables sans navigateur", () => {
+  for (const id of ["E4", "E5", "E11", "E15", "A12", "A13", "A14", "M10"]) {
     assert.equal(critere(id).verdict, "non-mesurable", id);
   }
   for (const id of ["G10", "A6", "A16"]) assert.equal(critere(id).verdict, "a-juger", id);

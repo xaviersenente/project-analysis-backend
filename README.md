@@ -119,7 +119,15 @@ Le fichier de promo, `data/promo.json` :
 node scripts/analyser.js --tous
 ```
 
-Chaque projet donne `data/<slug>.json` (résultat v2, conforme à `schema/resultat.js`) et ses vignettes. Sans `contenusAttendus`, la liste `requiredTags` de la configuration s'applique. Un dépôt privé demande `GITHUB_TOKEN` (lecture seule) dans `.env`. Les contrôles en navigateur (lot 2) et la timeline (lot 3) sont « Non mesurable » pour l'instant.
+Chaque projet donne `data/<slug>.json` (résultat v2, conforme à `schema/resultat.js`) et ses vignettes. Sans `contenusAttendus`, la liste `requiredTags` de la configuration s'applique. Un dépôt privé demande `GITHUB_TOKEN` (lecture seule) dans `.env`.
+
+L'analyse comprend :
+
+- l'analyse statique du HTML et du CSS, avec fichier et ligne pour chaque occurrence ;
+- le JavaScript qui remplace du CSS (motifs dans `config/thresholds.js`) ;
+- les contrôles en navigateur, sur le dépôt servi en local sous `/<nom-du-dépôt>/` comme GitHub Pages (casse respectée, chemins en `/` en échec) : Lighthouse, débordement à 360 et 180 px, cibles tactiles, requêtes en échec. Chrome est nécessaire ; `--sans-navigateur` les saute.
+
+La timeline des commits (lot 3) est « Non mesurable » pour l'instant. Comptez environ une minute par projet de 8 pages.
 
 ### Vignettes des images
 

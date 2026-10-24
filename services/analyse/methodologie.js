@@ -7,6 +7,7 @@ import { execFileSync } from "child_process";
 import thresholds from "../../config/thresholds.js";
 import { validateHTML } from "../html/validationService.js";
 import { occurrenceDeclaration, occurrenceRegle } from "../css/sources.js";
+import { chercherMotifs, volume } from "../js/motifs.js";
 import { respecte, nonRespecte, nonMesurable, parRatio, parAbsence } from "./mesure.js";
 
 const S = thresholds.sae105.methodologie;
@@ -68,6 +69,28 @@ export const mesureBem = (ctx) => {
   return { ratio, points: palier?.points ?? 0, totalClasses: classes.length, horsConvention };
 };
 
+/** Le JavaScript du site : fichiers cités par les pages et scripts en ligne */
+export const fichiersJavascript = (ctx) => {
+  const externes = [...new Set(ctx.pages.flatMap((p) => p.scripts.map((s) => s.chemin).filter(Boolean)))];
+  return [
+    ...externes.map((chemin) => ({ chemin, contenu: fs.readFileSync(path.join(ctx.racine, chemin), "utf-8"), ligneDepart: 1 })),
+    ...ctx.pages.flatMap((page) =>
+      page.scripts
+        .filter((s) => s.enLigne?.trim() && !/json|template/i.test(s.extrait.match(/type=["']([^"']+)/)?.[1] ?? ""))
+        .map((s) => ({ chemin: page.fichier, contenu: s.enLigne, ligneDepart: s.ligne }))
+    ),
+  ];
+};
+
+/** Motifs et volume du JavaScript (critère M4 et bloc de l'axe) */
+export const analyseJavascript = (ctx) => {
+  ctx.javascript ??= (() => {
+    const fichiers = fichiersJavascript(ctx);
+    return { ...volume(fichiers), motifs: chercherMotifs(fichiers) };
+  })();
+  return ctx.javascript;
+};
+
 /** Commande Git sur la version analysée ; null sans historique */
 const git = (ctx, args) => {
   if (!ctx.git) return null;
@@ -117,7 +140,11 @@ export default {
     return parAbsence([...importants, ...ids]);
   },
 
-  M4: () => nonMesurable("Analyse du JavaScript : prévue au lot 2"),
+  M4: (ctx) => {
+    const { fichiers, lignes, motifs } = analyseJavascript(ctx);
+    const detailValeur = fichiers || lignes ? `${fichiers} fichier${fichiers > 1 ? "s" : ""}, ${lignes} lignes` : "aucun JavaScript";
+    return parAbsence(motifs.map((m) => m.occurrence), { detailValeur });
+  },
 
   M5: (ctx) => {
     const declarees = classesCss(ctx);

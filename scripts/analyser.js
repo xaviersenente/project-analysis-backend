@@ -8,6 +8,7 @@
  *   node scripts/analyser.js --slug etu-01
  *   node scripts/analyser.js --tous
  *   node scripts/analyser.js --tous --sans-w3c      (sans Java)
+ *   node scripts/analyser.js --tous --sans-navigateur  (sans Chrome : plus rapide)
  */
 import fs from "fs";
 import path from "path";
@@ -21,6 +22,7 @@ const { values } = parseArgs({
     slug: { type: "string" },
     tous: { type: "boolean", default: false },
     "sans-w3c": { type: "boolean", default: false },
+    "sans-navigateur": { type: "boolean", default: false },
   },
 });
 
@@ -50,6 +52,7 @@ for (const projet of projets) {
     projet,
     promo,
     sansValidationW3c: values["sans-w3c"],
+    sansNavigateur: values["sans-navigateur"],
   });
 
   if (racineSite) {
