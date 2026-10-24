@@ -3,7 +3,7 @@
  *
  * Une seule instance de Chrome, partagée par Lighthouse et Puppeteer, pour toutes les pages.
  * Mesures à 360 px : Lighthouse (quatre catégories, contraste), débordement horizontal,
- * cibles tactiles, requêtes en échec ; puis débordement à 180 px (zoom 200 %).
+ * cibles tactiles des commandes (boutons, liens sans texte), requêtes en échec ; puis débordement à 180 px (zoom 200 %).
  */
 import puppeteer from "puppeteer-core";
 import thresholds from "../../config/thresholds.js";
@@ -28,22 +28,20 @@ function mesurerDebordement() {
   return { largeur: document.documentElement.scrollWidth, viewport: largeur, coupables };
 }
 
-/** Exécuté dans la page : liens et boutons isolés de moins de `minimum` px */
+/**
+ * Exécuté dans la page : les commandes de moins de `minimum` px.
+ * Une commande : un bouton, ou un lien sans texte visible (logo, icône).
+ * Un lien texte n'est pas compté : sa cible, c'est le texte qu'on lit.
+ */
 function mesurerCibles(minimum) {
   const visible = (el) => {
     const r = el.getBoundingClientRect();
     const style = getComputedStyle(el);
     return r.width > 0 && r.height > 0 && style.visibility !== "hidden" && !el.closest("[popover]:not(:popover-open)");
   };
-  // Un lien dans une phrase n'est pas une cible isolée (exception de WCAG 2.5.8)
-  const dansLeTexte = (el) => {
-    const parent = el.parentElement;
-    const texteParent = parent?.textContent.replace(/\s+/g, " ").trim() ?? "";
-    const texteLien = el.textContent.replace(/\s+/g, " ").trim();
-    return getComputedStyle(el).display === "inline" && texteParent.length > texteLien.length + 15;
-  };
+  const commande = (el) => el.tagName === "BUTTON" || el.innerText.replace(/\s+/g, "").length === 0;
   return [...document.querySelectorAll("a[href], button")]
-    .filter((el) => visible(el) && !dansLeTexte(el))
+    .filter((el) => visible(el) && commande(el))
     .map((el) => {
       const r = el.getBoundingClientRect();
       return { extrait: el.outerHTML.slice(0, el.outerHTML.indexOf(">") + 1), largeur: Math.round(r.width), hauteur: Math.round(r.height) };

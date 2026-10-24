@@ -23,8 +23,7 @@ const disponible = fs.existsSync(path.join(DEPOT, ".git"));
 
 // Écarts lus et attendus : le corrigé est celui d'un TP, pas un rendu de SAÉ
 const ECARTS_ATTENDUS = {
-  // À trancher : logo 30 × 30 px, liens de cartes à 43 px, liens texte de 15 à 26 px de haut.
-  // La grille demande 44 × 44 px (CM 6, TP 4) ; WCAG 2.2 AA (2.5.8) se contente de 24 px.
+  // Défaut du corrigé : le logo de l'en-tête fait 30 × 30 px (commande sans texte, sous 44 px)
   E4: "non-respecte",
   // blockquote, em, script : demandés par le sujet de la SAÉ (requiredTags), pas par le TP 5
   A15: "non-respecte",
@@ -67,6 +66,12 @@ test("contrôles en navigateur : ni débordement, ni contraste en échec, Lighth
   for (const id of ["E5", "A14", "A12", "E11"]) assert.equal(valeur(id).verdict, "respecte", id);
   assert.equal(valeur("A13").valeur, 100);
   assert.equal(valeur("M4").verdict, "respecte");
+});
+
+test("E4 : seule commande trop petite, le logo de l'en-tête ; les liens texte ne comptent pas", { skip: !disponible && "clone du corrigé absent" }, () => {
+  const e4 = resultat.criteres.find((c) => c.id === "E4");
+  assert.deepEqual([...new Set(e4.occurrences.map((o) => o.extrait))], ['<a class="header__logo" href="index.html">  ← 30 × 30 px']);
+  assert.equal(e4.occurrences.length, 8);
 });
 
 test("le bonus BEM du corrigé est obtenu", { skip: !disponible && "clone du corrigé absent" }, () => {

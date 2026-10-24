@@ -59,6 +59,27 @@ test("M9 : les ressources en échec au chargement ne doublent pas celles de l'in
   assert.equal(extraits.filter((e) => e.includes("favicon.svg")).length, 1);
 });
 
+test("E4 : un lien-icône trop petit est relevé ; un lien texte ne l'est jamais", sauf, async () => {
+  const copie = await preparerSite();
+  const index = fs.readFileSync(`${copie}/index.html`, "utf-8");
+  fs.writeFileSync(
+    `${copie}/index.html`,
+    index.replace(
+      '<p class="pied__texte">',
+      '<a class="pied__icone" href="https://exemple.test/instagram"><img src="assets/img/motif.svg" alt="Instagram" width="20" height="20"></a>\n      <p class="pied__texte">'
+    )
+  );
+  const variante = await analyserSite({ racine: copie, nomDepot: "depot-piege", sansValidationW3c: true });
+  fs.rmSync(copie, { recursive: true, force: true });
+  const e4 = variante.criteres.find((c) => c.id === "E4");
+  const extraits = e4.occurrences.map((o) => o.extrait);
+  assert.ok(extraits.some((e) => /pied__icone.*← 20 × \d+ px/.test(e)), JSON.stringify(extraits));
+  // Les liens texte du pied de page (mailto, tel), petits eux aussi, ne sont pas des commandes
+  assert.ok(!extraits.some((e) => e.includes("mailto:") || e.includes("tel:")), JSON.stringify(extraits));
+  // Un bouton reste une commande, même avec du texte
+  assert.ok(extraits.some((e) => e.includes("burger")), JSON.stringify(extraits));
+});
+
 test("la vue par page porte le score Lighthouse Accessibilité de chaque page", sauf, () => {
   for (const page of resultat.pages) {
     assert.notEqual(page.controles.lighthouseA11y.verdict, "non-mesurable", page.fichier);
