@@ -268,6 +268,8 @@ export const ressourcesSchema = z.object({
       format: z.string(),
       poidsKo: z.number().min(0),
       prechargee: z.boolean(),
+      // Copie publiée avec le projet (polices/<nom>), pour l'afficher dans sa vraie police ; null si absente
+      copie: z.string().nullable().optional(),
     })
   ),
   // Fichiers du dépôt ; un nom fautif porte ses problèmes

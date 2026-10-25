@@ -19,6 +19,7 @@ import dotenv from "dotenv";
 import { chargerPromo, cheminResultat, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
 import { analyserDepot } from "../services/analyse/analyserDepot.js";
 import { rafraichirVignettes } from "../services/source/vignettes.js";
+import { copierPolices } from "../services/source/polices.js";
 
 // .env du backend (FIGMA_TOKEN, GITHUB_TOKEN, DATA_DIR…), d'où que le script soit lancé.
 // Les services lisent process.env au moment de l'appel : il suffit de le charger avant l'analyse.
@@ -76,6 +77,7 @@ for (const projet of projets) {
       dossierSortie: path.join(dossierDonnees(), "vignettes", projet.slug),
     });
     for (const m of manquantes) console.log(`  sans vignette : ${m.fichier} (${m.raison})`);
+    copierPolices({ racineSite, resultat, dossierSortie: path.join(dossierDonnees(), "polices", projet.slug) });
   }
 
   fs.writeFileSync(cheminResultat(projet.slug), JSON.stringify(resultat, null, 2));
