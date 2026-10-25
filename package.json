@@ -1,11 +1,8 @@
 {
   "name": "project-analysis",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
     "test": "node --test tests/*.test.js",
     "analyser": "node scripts/analyser.js",
     "analyser:tous": "node scripts/analyser.js --tous",
@@ -15,13 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "WebScope : analyse des dépôts GitHub des projets SAÉ 105, en ligne de commande",
   "dependencies": {
-    "@projectwallace/css-analyzer": "^7.6.3",
-    "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "chrome-launcher": "^1.2.2",
-    "cors": "^2.8.6",
     "culori": "^4.0.2",
     "dotenv": "^17.4.2",
     "express": "^5.3.0",
@@ -29,7 +23,6 @@
     "postcss": "^8.5.31",
     "puppeteer-core": "^25.16.0",
     "sharp": "^0.35.5",
-    "simplecrawler": "^1.1.9",
     "vnu-jar": "^26.10.12",
     "zod": "^4.6.7"
   },

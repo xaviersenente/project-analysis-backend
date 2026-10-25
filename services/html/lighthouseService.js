@@ -79,65 +79,6 @@ export const optionsLighthouse = (port) => ({
   onlyCategories: ["performance", "accessibility", "best-practices", "seo"],
 });
 
-/**
- * Exécute Lighthouse en mode mobile sur une URL donnée.
- * Lève une erreur si Chrome est absent ou si le délai maximal est dépassé :
- * l'appelant la traite comme « Non mesurable » (F4).
- * @param {string} url - URL du fichier à analyser.
- * @returns {object} - Résultats de Lighthouse.
- */
-export const runLighthouse = async (url) => {
-  const chrome = await obtenirChrome();
-  const delai = thresholds.performance.timeouts.lighthouse;
-
-  let minuteur;
-  const depassement = new Promise((_, reject) => {
-    minuteur = setTimeout(
-      () => reject(new Error(`Délai de ${delai / 1000} s dépassé`)),
-      delai
-    );
-  });
-
-  try {
-    const result = await Promise.race([
-      lighthouse(url, optionsLighthouse(chrome.port)),
-      depassement,
-    ]);
-    const categories = result.lhr.categories;
-    const audits = result.lhr.audits;
-
-    return {
-      performance: categories.performance ? categories.performance.score : null,
-      accessibility: categories.accessibility
-        ? categories.accessibility.score
-        : null,
-      bestPractices: categories["best-practices"]
-        ? categories["best-practices"].score
-        : null,
-      seo: categories.seo ? categories.seo.score : null,
-      viewport: audits.viewport ? audits.viewport.score : null,
-      errors: audits["errors-in-console"]
-        ? audits["errors-in-console"].score
-        : null,
-      requests:
-        audits["network-requests"]?.details?.items?.map(
-          ({ url, resourceSize, mimeType, resourceType }) => ({
-            url,
-            resourceSize,
-            mimeType,
-            resourceType,
-          })
-        ) || null,
-    };
-  } catch (error) {
-    // Après un dépassement, l'audit peut tourner encore : on repart d'un Chrome neuf
-    if (error.message.startsWith("Délai")) await fermerChrome();
-    throw error;
-  } finally {
-    clearTimeout(minuteur);
-  }
-};
-
 /** « … contrast of 2.85 (foreground color: #9a9a9a, background color: #ffffff, … ratio of 4.5:1 » */
 const lireContraste = (explication = "") => {
   const m = explication.match(/contrast of ([\d.]+) \(foreground color: (#[0-9a-f]{3,8}), background color: (#[0-9a-f]{3,8})[^)]*\)\.?\s*Expected contrast ratio of ([\d.]+):1/i);

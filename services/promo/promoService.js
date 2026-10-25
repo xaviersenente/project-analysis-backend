@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { ValidationError, AppError } from "../../utils/errors.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -23,7 +22,7 @@ export const dossierDonnees = () =>
 export const chargerPromo = () => {
   const fichier = process.env.PROMO_FILE || path.join(dossierDonnees(), "promo.json");
   if (!fs.existsSync(fichier)) {
-    throw new AppError("Fichier de promo introuvable", 500);
+    throw new Error(`Fichier de promo introuvable : ${fichier}`);
   }
   const promo = JSON.parse(fs.readFileSync(fichier, "utf-8"));
   const projets = (promo.projets || []).filter((p) => SLUG_REGEX.test(p.slug));
@@ -33,21 +32,14 @@ export const chargerPromo = () => {
 /**
  * Vérifie la forme d'un slug
  * @param {string} slug
- * @throws {ValidationError}
+ * @throws {Error} - Slug mal formé
  */
 export const validerSlug = (slug) => {
   if (typeof slug !== "string" || !SLUG_REGEX.test(slug)) {
-    throw new ValidationError("Identifiant de projet invalide");
+    throw new Error(`Identifiant de projet invalide : ${slug}`);
   }
   return slug;
 };
-
-/**
- * Trouve un projet de la promo par son slug
- * @returns {object|null}
- */
-export const trouverProjet = (slug) =>
-  chargerPromo().projets.find((p) => p.slug === validerSlug(slug)) || null;
 
 /**
  * Chemin du résultat d'analyse d'un projet, toujours dans le dossier des données
@@ -56,7 +48,7 @@ export const cheminResultat = (slug) => {
   const dossier = dossierDonnees();
   const chemin = path.resolve(dossier, `${validerSlug(slug)}.json`);
   if (path.dirname(chemin) !== dossier) {
-    throw new ValidationError("Identifiant de projet invalide");
+    throw new Error(`Identifiant de projet invalide : ${slug}`);
   }
   return chemin;
 };
