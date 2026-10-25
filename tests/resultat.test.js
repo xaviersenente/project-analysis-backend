@@ -39,6 +39,18 @@ test("le résultat du dépôt piégé est valide au regard du schéma v2", async
   assert.equal(m10.valeur, 1);
 });
 
+test("les liens du fichier de promo l'emportent sur le README ; un champ vide laisse le README", async () => {
+  const { dossier } = await preparerDepot();
+  const analyser = (champs) =>
+    analyserDepot({ projet: { ...projet(dossier), ...champs }, promo: { dateRendu: DATE_RENDU }, cache, sansValidationW3c: true, sansNavigateur: true });
+  const { resultat: renseignes } = await analyser({ site: "https://alice.github.io/sae105/", figma: "https://www.figma.com/design/abc/maquette" });
+  assert.equal(renseignes.liens.site, "https://alice.github.io/sae105/");
+  assert.equal(renseignes.liens.figma, "https://www.figma.com/design/abc/maquette");
+  const { resultat: vides } = await analyser({ site: "", figma: "" });
+  assert.equal(vides.liens.site, "https://exemple.github.io/depot-piege/");
+  assert.equal(vides.liens.figma, null);
+});
+
 test("un dépôt inaccessible donne un résultat valide, entièrement « Non mesurable »", async () => {
   const { resultat } = await analyserDepot({
     projet: projet(path.join(os.tmpdir(), "depot-absent")),

@@ -265,7 +265,7 @@ export const resultatSchema = z.object({
     nom: z.string(),
     groupe: z.string(),
   }),
-  // Lus dans le README de l'étudiant ; null si non renseigné
+  // Fichier de promo, sinon README de l'étudiant ; null si non renseigné
   liens: z.object({
     site: z.url().nullable(),
     depot: z.url().nullable(),

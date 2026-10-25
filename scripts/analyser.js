@@ -37,6 +37,10 @@ const projets = values.tous
   : values.slug
     ? promo.projets.filter((p) => p.slug === validerSlug(values.slug))
     : [];
+if (values.slug && projets.length === 0) {
+  console.error(`Aucun projet « ${values.slug} » dans le fichier de promo.`);
+  process.exit(1);
+}
 if (projets.length === 0) {
   console.error("Usage : node scripts/analyser.js --slug <slug> | --tous");
   process.exit(1);

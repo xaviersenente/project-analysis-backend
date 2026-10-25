@@ -50,7 +50,7 @@ const urlDepot = (depot) =>
 
 /**
  * @param {object} options
- * @param {{ slug: string, nom: string, groupe: string, depot: string, site?: string }} options.projet
+ * @param {{ slug: string, nom: string, groupe: string, depot: string, site?: string, figma?: string }} options.projet
  * @param {{ dateRendu: string, contenusAttendus?: string[] }} options.promo
  * @param {string} [options.cache]
  * @param {boolean} [options.sansValidationW3c]
@@ -89,9 +89,10 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     },
     projet: { slug: projet.slug, nom: projet.nom, groupe: projet.groupe },
     liens: {
-      site: readme.site ?? projet.site ?? null,
+      // Le fichier de promo l'emporte ; un champ laissé vide renvoie au README
+      site: projet.site || readme.site,
       depot: urlDepot(projet.depot),
-      figma: readme.figma,
+      figma: projet.figma || readme.figma,
     },
     note: analyse.note,
     criteres: analyse.criteres,

@@ -5,7 +5,12 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "node --test tests/*.test.js"
+    "dev": "node --watch index.js",
+    "test": "node --test tests/*.test.js",
+    "analyser": "node scripts/analyser.js",
+    "analyser:tous": "node scripts/analyser.js --tous",
+    "vignettes": "node scripts/vignettes.js",
+    "migrer-donnees": "node scripts/migrerDonnees.js"
   },
   "keywords": [],
   "author": "",
