@@ -13,9 +13,15 @@
 import fs from "fs";
 import path from "path";
 import { parseArgs } from "util";
+import { fileURLToPath } from "url";
+import dotenv from "dotenv";
 import { chargerPromo, cheminResultat, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
 import { analyserDepot } from "../services/analyse/analyserDepot.js";
 import { rafraichirVignettes } from "../services/source/vignettes.js";
+
+// .env du backend (FIGMA_TOKEN, GITHUB_TOKEN, DATA_DIR…), d'où que le script soit lancé.
+// Les services lisent process.env au moment de l'appel : il suffit de le charger avant l'analyse.
+dotenv.config({ path: fileURLToPath(new URL("../.env", import.meta.url)), quiet: true });
 
 const { values } = parseArgs({
   options: {
