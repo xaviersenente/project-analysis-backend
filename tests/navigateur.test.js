@@ -6,6 +6,9 @@
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import fs from "fs";
+import os from "os";
+import path from "path";
+import { createRequire } from "module";
 import * as chromeLauncher from "chrome-launcher";
 import { preparerSite } from "./aides/depotPiege.js";
 import { analyserSite } from "../services/analyse/analyserSite.js";
@@ -13,19 +16,25 @@ import { analyserSite } from "../services/analyse/analyserSite.js";
 const chrome = chromeLauncher.Launcher.getInstallations().length > 0;
 let racine;
 let resultat;
+const captures = fs.mkdtempSync(path.join(os.tmpdir(), "captures-"));
+// Maquette déjà lue (sans API Figma) : son écran « Accueil Mobile » est associé à index.html
+const maquette = { fichier: createRequire(import.meta.url)("./fixtures/maquette-piege.json"), version: { id: "1", date: "2027-01-05T10:00:00Z" } };
 const critere = (id) => resultat.criteres.find((c) => c.id === id);
 
 before(async () => {
   if (!chrome) return;
   racine = await preparerSite();
-  resultat = await analyserSite({ racine, nomDepot: "depot-piege", sansValidationW3c: true });
+  resultat = await analyserSite({ racine, nomDepot: "depot-piege", sansValidationW3c: true, maquette, dossierCaptures: captures });
 });
-after(() => racine && fs.rmSync(racine, { recursive: true, force: true }));
+after(() => {
+  if (racine) fs.rmSync(racine, { recursive: true, force: true });
+  fs.rmSync(captures, { recursive: true, force: true });
+});
 
 const sauf = { skip: !chrome && "Chrome absent" };
 
 test("tous les contrôles en navigateur sont mesurés", sauf, () => {
-  for (const id of ["E4", "E5", "E11", "E15", "A12", "A13", "A14"]) {
+  for (const id of ["E4", "E5", "E11", "E15", "A12", "A13", "A14", "G11"]) {
     assert.notEqual(critere(id).verdict, "non-mesurable", `${id} : ${critere(id).raison}`);
   }
   assert.deepEqual(resultat.nonMesurable, []);
@@ -85,4 +94,25 @@ test("la vue par page porte le score Lighthouse Accessibilité de chaque page", 
     assert.notEqual(page.controles.lighthouseA11y.verdict, "non-mesurable", page.fichier);
     assert.match(page.controles.lighthouseA11y.valeur, /^\d+$/);
   }
+});
+
+test("G11 : textes de la maquette comparés au site à 393 px, écarts et absents relevés avec leur ligne", sauf, () => {
+  const g11 = critere("G11");
+  assert.equal(g11.verdict, "non-respecte");
+  assert.equal(g11.detailValeur, "2 textes au style de la maquette sur 4 retrouvés · 2 absents sur 6 · 2 couleurs hors maquette");
+  assert.equal(g11.valeur, 50);
+  const extraits = g11.occurrences.map((o) => `${o.fichier}:${o.ligne} ${o.extrait}`);
+  assert.ok(extraits.includes('index.html:28 <h2 class="carte__titre">  ← « NOTRE DERNIER PROJET » : taille 20 px → 24 px'), extraits.join("\n"));
+  assert.ok(extraits.includes("index.html:null « Des sites rapides et accessibles »  ← absent de la page (écran « Accueil Mobile »)"));
+  assert.ok(extraits.some((e) => e.startsWith("index.html:36") && e.includes("couleur #1d4ed8 → #0000ee")));
+});
+
+test("G11 : le bloc met chaque écran face à sa page, avec la capture du site", sauf, () => {
+  const bloc = resultat.blocs.graphique.maquette;
+  assert.deepEqual(bloc.ecrans.map((e) => [e.nom, e.fichier]), [["Accueil Mobile", "index.html"], ["Contact Mobile", "contact.html"], ["Menu ouvert", null]]);
+  assert.deepEqual(bloc.ecrans[0].textes, { total: 5, conformes: 2, justifies: 0, ecarts: 2, absents: 1 });
+  // Sans API Figma, pas d'image de l'écran ; la capture du site est écrite
+  assert.equal(bloc.ecrans[0].captures.maquette, null);
+  assert.match(bloc.ecrans[0].captures.site, /^captures\/[0-9a-f]{12}-site\.webp$/);
+  assert.ok(fs.existsSync(path.join(captures, path.basename(bloc.ecrans[0].captures.site))));
 });

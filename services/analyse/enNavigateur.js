@@ -22,7 +22,7 @@ const mesures = (ctx) => {
  * Les éléments arrivent dans l'ordre du document : une balise répétée à l'identique
  * est cherchée après la précédente, pour que chacune garde sa ligne.
  */
-const occurrence = (ctx, fichier, extrait, precision) => {
+export const occurrence = (ctx, fichier, extrait, precision) => {
   const page = ctx.pages.find((p) => p.fichier === fichier);
   ctx.curseurs ??= new Map();
   const cle = `${fichier}|${extrait}`;

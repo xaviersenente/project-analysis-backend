@@ -27,7 +27,7 @@ before(async () => {
 after(() => fs.rmSync(racine, { recursive: true, force: true }));
 
 test("tous les critères de la grille sont présents, chacun avec ses occurrences", () => {
-  assert.equal(resultat.criteres.length, 55);
+  assert.equal(resultat.criteres.length, 56);
   for (const c of resultat.criteres) {
     assert.ok(Array.isArray(c.occurrences), c.id);
     assert.equal(c.totalOccurrences, c.occurrences.length, c.id);

@@ -57,6 +57,7 @@ for (const projet of projets) {
     promo,
     sansValidationW3c: values["sans-w3c"],
     sansNavigateur: values["sans-navigateur"],
+    dossierCaptures: path.join(dossierDonnees(), "captures", projet.slug),
   });
 
   if (racineSite) {

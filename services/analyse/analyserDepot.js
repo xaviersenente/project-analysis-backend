@@ -55,9 +55,10 @@ const urlDepot = (depot) =>
  * @param {string} [options.cache]
  * @param {boolean} [options.sansValidationW3c]
  * @param {boolean} [options.sansNavigateur]
+ * @param {string} [options.dossierCaptures] - Captures maquette / site (G11), hors de Git
  * @returns {Promise<{ resultat: object, racineSite: string | null }>}
  */
-export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false }) => {
+export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false, dossierCaptures = null }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   const version = await mesurer("Version du dépôt", () => resoudreVersion(projet.depot, promo.dateRendu, { cache }));
@@ -65,6 +66,9 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
   const racineRelative = copie ? await mesurer("Racine du site", () => trouverRacineSite(copie)) : null;
   const racineSite = racineRelative ? path.join(copie, racineRelative) : null;
 
+  const readme = copie ? liensDuReadme(copie) : { site: null, figma: null };
+  // Le fichier de promo l'emporte ; un champ laissé vide renvoie au README
+  const figma = projet.figma || readme.figma;
   const analyse = await analyserSite({
     racine: racineSite,
     promo,
@@ -74,9 +78,11 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     nomDepot: nomDuDepot(projet.depot),
     emailEtudiant: projet.email ?? null,
     raisonEchec: etapes.at(-1) ? `${etapes.at(-1).etape} : ${etapes.at(-1).raison}` : null,
+    maquette: figma ? { url: figma, ecrans: projet.ecrans } : null,
+    dossierCaptures,
+    cache,
   });
 
-  const readme = copie ? liensDuReadme(copie) : { site: null, figma: null };
   const resultat = {
     version: 2,
     source: {
@@ -89,10 +95,9 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     },
     projet: { slug: projet.slug, nom: projet.nom, groupe: projet.groupe },
     liens: {
-      // Le fichier de promo l'emporte ; un champ laissé vide renvoie au README
       site: projet.site || readme.site,
       depot: urlDepot(projet.depot),
-      figma: projet.figma || readme.figma,
+      figma,
     },
     note: analyse.note,
     criteres: analyse.criteres,

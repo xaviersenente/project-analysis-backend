@@ -156,6 +156,21 @@
       "sourceCours": "SAÉ 105, axe 1"
     },
     {
+      "id": "G11",
+      "axe": "graphique",
+      "libelle": "Fidélité à la maquette Figma",
+      "statut": "C",
+      "methode": "navigateur",
+      "seuil": {
+        "operateur": "≥",
+        "nombre": 80,
+        "unite": "%"
+      },
+      "detailSeuil": "des textes retrouvés au style de la maquette, la moitié retrouvée, 2 couleurs hors maquette au plus",
+      "piste": "Reprenez les polices, tailles, graisses et couleurs de la maquette corrigée après la soutenance.",
+      "sourceCours": "Soutenance maquette · SAÉ 105"
+    },
+    {
       "id": "E1",
       "axe": "ergonomie",
       "libelle": "Menu en popover, sans JavaScript",

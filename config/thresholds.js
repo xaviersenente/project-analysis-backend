@@ -316,6 +316,27 @@ export default {
       lineHeightSansUnite: 0.9,
       taillesDistinctesMax: 7,
       famillesGeneriques: ["serif", "sans-serif", "monospace", "cursive", "fantasy", "system-ui", "ui-serif", "ui-sans-serif", "ui-monospace", "ui-rounded", "math", "emoji"],
+
+      // G11 : fidélité du site à la maquette Figma (version enregistrée avant la date de rendu)
+      maquette: {
+        // Rôle des pages Figma d'après leur nom (mêmes règles que figma-sessions)
+        pagesGuide: /guide|style|design ?system|composant|component|biblioth|librar|ui ?kit|fondation|foundation/i,
+        pagesIgnorees: /mood|inspi|brouillon|draft|archive|recherche|benchmark|couverture|cover/i,
+        // Au-delà : un écran tablette ou ordinateur, hors du périmètre (site mobile)
+        largeurEcranMaxPx: 600,
+        texteMinCaracteres: 2,
+        tailleTolerancePx: 1,
+        // Un texte plus petit dans la maquette peut être agrandi jusqu'à cette taille sans écart
+        tailleLisiblePx: 12,
+        graisseTolerance: 0,
+        // Distance euclidienne en RVB (0 à 441) : en dessous, deux couleurs sont les mêmes
+        couleurDistanceMax: 30,
+        // Part des textes retrouvés au style de la maquette ; et part minimale de textes retrouvés
+        textesConformesRatio: 0.8,
+        textesTrouvesRatio: 0.5,
+        couleursHorsMaquetteMax: 2,
+        captures: { qualite: 70, hauteurMaxPx: 12000 },
+      },
     },
 
     ergonomie: {

@@ -6,6 +6,7 @@
 import fs from "fs";
 import path from "path";
 import { createRequire } from "module";
+import { createHash } from "crypto";
 import sharp from "sharp";
 import { inventorier } from "../source/inventaire.js";
 import { chargerCss } from "../css/sources.js";
@@ -20,13 +21,17 @@ import methodologie, { problemesNom, classesCss, classesHtml, mesureBem, analyse
 import enNavigateur, { blocLighthouse, celluleLighthouse, poidsAccueil } from "./enNavigateur.js";
 import { mesurerNavigateur } from "../runtime/navigateur.js";
 import { lireHistorique } from "../source/historique.js";
+import fidelite, { blocMaquette } from "./maquette.js";
+import { lireMaquette, exporterEcrans } from "../maquette/figma.js";
+import { extraireEcrans, apparier } from "../maquette/ecrans.js";
+import { dossierCache } from "../source/depot.js";
 
 const grille = createRequire(import.meta.url)("../../config/grille-sae105-2026.json");
-const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur };
+const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur, ...fidelite };
 const MAX_POINTS = pointsParContrainte(grille);
 
 // Critères qui ne lisent que le HTML : ils restent mesurables si le CSS est illisible
-const SANS_CSS = new Set(["E1", "E2", "E7", "E8", "E9", "E10", "E12", "E13", "E14", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A15", "A16", "M1", "M8", "M9", "M11", "M12", "M13", "M14", "G5", "G6", "G10"]);
+const SANS_CSS = new Set(["E1", "E2", "E7", "E8", "E9", "E10", "E12", "E13", "E14", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A15", "A16", "M1", "M8", "M9", "M11", "M12", "M13", "M14", "G5", "G6", "G10", "G11"]);
 
 /** Vue par page : les contrôles vérifiés page par page */
 const vueParPage = (ctx) => {
@@ -157,6 +162,7 @@ const blocs = (ctx) => {
       palette: variablesCouleur(ctx).map((c) => ({ variable: c.nom, valeur: c.valeur, role: c.role })),
       espacements,
       typographie: { famille, tailles: [...tailles.values()].sort((a, b) => a.px - b.px) },
+      maquette: blocMaquette(ctx),
     },
     accessibilite: { ...blocLighthouse(ctx), contenusAttendus: pagesParBalise(ctx) },
     methodologie: {
@@ -165,6 +171,30 @@ const blocs = (ctx) => {
       bem: { ratio: Math.round(bem.ratio * 1000) / 10, points: bem.points, totalClasses: bem.totalClasses, horsConvention: bem.horsConvention.slice(0, 30) },
     },
   };
+};
+
+/**
+ * Captures côte à côte : l'écran exporté par Figma et la page à la même largeur.
+ * Le dossier est vidé à chaque analyse : il ne garde que les captures de celle-ci.
+ * @returns {Promise<Map<string, { maquette: string|null, site: string|null }>>} - Par page
+ */
+const ecrireCaptures = async (ctx, dossier, cache) => {
+  fs.rmSync(dossier, { recursive: true, force: true });
+  fs.mkdirSync(dossier, { recursive: true });
+  const images = ctx.maquette.cle ? await exporterEcrans(ctx.maquette, ctx.maquette.paires.map((p) => p.ecran.id), cache) : new Map();
+  const captures = new Map();
+  for (const { ecran, fichier } of ctx.maquette.paires) {
+    const nom = createHash("sha1").update(fichier).digest("hex").slice(0, 12);
+    const ecrire = (suffixe, contenu) => {
+      if (!contenu) return null;
+      fs.writeFileSync(path.join(dossier, `${nom}-${suffixe}.webp`), contenu);
+      // Relatif à la page du projet, comme les vignettes
+      return `captures/${nom}-${suffixe}.webp`;
+    };
+    const capture = ctx.navigateur?.find((m) => m.fichier === fichier)?.maquette?.capture;
+    captures.set(fichier, { maquette: ecrire("maquette", images.get(ecran.id)), site: ecrire("site", capture) });
+  }
+  return captures;
 };
 
 /**
@@ -177,8 +207,23 @@ const blocs = (ctx) => {
  * @param {string} [options.nomDepot] - Préfixe /<nom>/ du site servi en local
  * @param {boolean} [options.sansNavigateur] - Sans Lighthouse ni Puppeteer (analyse rapide)
  * @param {string} [options.emailEtudiant] - Pour repérer les commits d'un autre auteur
+ * @param {object} [options.maquette] - { url, ecrans? } : la maquette Figma (G11) ; { fichier, version } la donne déjà lue
+ * @param {string} [options.dossierCaptures] - Où écrire les captures écran / page (hors de Git)
+ * @param {string} [options.cache] - Cache des maquettes et de leurs images
  */
-export const analyserSite = async ({ racine, promo = {}, git = null, sansValidationW3c = false, raisonEchec = null, nomDepot = null, sansNavigateur = false, emailEtudiant = null }) => {
+export const analyserSite = async ({
+  racine,
+  promo = {},
+  git = null,
+  sansValidationW3c = false,
+  raisonEchec = null,
+  nomDepot = null,
+  sansNavigateur = false,
+  emailEtudiant = null,
+  maquette = null,
+  dossierCaptures = null,
+  cache = dossierCache(),
+}) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
   const inventaire = racine ? await mesurer("Inventaire des pages", () => inventorier(racine)) : null;
   const css = inventaire ? await mesurer("CSS", () => chargerCss(inventaire)) : null;
@@ -197,16 +242,37 @@ export const analyserSite = async ({ racine, promo = {}, git = null, sansValidat
     } else {
       ctx.raisonHistorique = "Pas d'historique Git pour cette analyse";
     }
+    // Maquette Figma (G11) : la version d'avant le rendu, ses écrans associés aux pages
+    if (maquette?.fichier || maquette?.url) {
+      ctx.maquette = await mesurer("Maquette Figma", async () => {
+        const lue = maquette.fichier ? maquette : await lireMaquette({ url: maquette.url, dateRendu: promo.dateRendu, cache });
+        const { ecrans, palette } = extraireEcrans(lue.fichier);
+        const pages = ctx.pages.map((p) => ({ fichier: p.fichier, titre: p.$("title").first().text().trim() }));
+        return { cle: lue.cle, url: lue.url ?? null, version: lue.version, palette, ...apparier(ecrans, pages, maquette.ecrans ?? {}) };
+      });
+      if (!ctx.maquette) ctx.raisonMaquette = etapes.at(-1)?.raison;
+    } else {
+      ctx.raisonMaquette = "Pas de lien vers la maquette Figma (fichier de promo ou README)";
+    }
     ctx.sansValidationW3c = sansValidationW3c;
     ctx.nomDepot = nomDepot ?? path.basename(racine);
     if (sansNavigateur) {
       ctx.raisonNavigateur = "Contrôles en navigateur désactivés pour cette analyse";
     } else {
       ctx.navigateur = await mesurer("Navigateur (Lighthouse, Puppeteer)", () =>
-        mesurerNavigateur({ racine, nom: ctx.nomDepot, fichiers: inventaire.fichiers, pages: inventaire.pages.map((p) => p.fichier) })
+        mesurerNavigateur({
+          racine,
+          nom: ctx.nomDepot,
+          fichiers: inventaire.fichiers,
+          pages: inventaire.pages.map((p) => p.fichier),
+          largeursMaquette: new Map(ctx.maquette?.paires.map((p) => [p.fichier, p.ecran.largeur]) ?? []),
+        })
       );
       if (!ctx.navigateur) ctx.raisonNavigateur = etapes.at(-1)?.raison;
       for (const m of ctx.navigateur ?? []) if (m.erreur) etapes.push({ etape: `Navigateur (${m.fichier})`, raison: m.erreur });
+    }
+    if (ctx.maquette && dossierCaptures) {
+      ctx.capturesMaquette = await mesurer("Captures de la maquette", () => ecrireCaptures(ctx, dossierCaptures, cache));
     }
   }
 

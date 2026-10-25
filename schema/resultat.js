@@ -117,6 +117,24 @@ export const blocsSchema = z
           famille: z.string().nullable(),
           tailles: z.array(tailleSchema),
         }),
+        // G11 : chaque écran de la maquette Figma avec sa page, ses textes comparés et deux captures
+        maquette: z.object({
+          url: z.url().nullable(),
+          version: z.object({ id: z.string(), date: z.string() }),
+          ecrans: z.array(
+            z.object({
+              nom: z.string(),
+              fichier: z.string().nullable(),
+              largeur: z.number().nullable(),
+              // conformes comprend les justifiés : écarts qui corrigent l'accessibilité de la maquette
+              textes: z.object({ total: z.number(), conformes: z.number(), justifies: z.number(), ecarts: z.number(), absents: z.number() }).nullable(),
+              // WebP relatifs à la page du projet (captures/<nom>.webp), comme les vignettes
+              captures: z.object({ maquette: z.string().nullable(), site: z.string().nullable() }),
+            })
+          ),
+          pagesSansEcran: z.array(z.string()),
+          couleursHorsMaquette: z.array(z.string()),
+        }),
       })
       .partial(),
     accessibilite: z
