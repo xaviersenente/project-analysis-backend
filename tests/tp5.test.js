@@ -42,6 +42,7 @@ before(async () => {
     projet: { slug: "tp5-correction", nom: "Corrigé TP5", groupe: "Référence", depot: DEPOT },
     promo: { dateRendu: "2027-06-30T23:59:00+02:00" },
     cache,
+    sansEnLigne: true,
   }));
 });
 after(() => fs.rmSync(cache, { recursive: true, force: true }));

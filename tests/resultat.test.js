@@ -11,6 +11,8 @@ import { fileURLToPath } from "url";
 import { preparerDepot, DATE_RENDU } from "./aides/depotPiege.js";
 import { analyserDepot } from "../services/analyse/analyserDepot.js";
 import { resultatSchema } from "../schema/resultat.js";
+import { inventorier } from "../services/source/inventaire.js";
+import { servir } from "../services/runtime/serveurLocal.js";
 
 const cache = fs.mkdtempSync(path.join(os.tmpdir(), "webscope-cache-"));
 after(() => fs.rmSync(cache, { recursive: true, force: true }));
@@ -25,6 +27,7 @@ test("le résultat du dépôt piégé est valide au regard du schéma v2", async
     cache,
     sansValidationW3c: true,
     sansNavigateur: true,
+    sansEnLigne: true,
   });
   const verification = resultatSchema.safeParse(resultat);
   assert.ok(verification.success, JSON.stringify(verification.error?.issues.slice(0, 5), null, 2));
@@ -42,13 +45,35 @@ test("le résultat du dépôt piégé est valide au regard du schéma v2", async
 test("les liens du fichier de promo l'emportent sur le README ; un champ vide laisse le README", async () => {
   const { dossier } = await preparerDepot();
   const analyser = (champs) =>
-    analyserDepot({ projet: { ...projet(dossier), ...champs }, promo: { dateRendu: DATE_RENDU }, cache, sansValidationW3c: true, sansNavigateur: true });
+    analyserDepot({ projet: { ...projet(dossier), ...champs }, promo: { dateRendu: DATE_RENDU }, cache, sansValidationW3c: true, sansNavigateur: true, sansEnLigne: true });
   const { resultat: renseignes } = await analyser({ site: "https://alice.github.io/sae105/", figma: "https://www.figma.com/design/abc/maquette" });
   assert.equal(renseignes.liens.site, "https://alice.github.io/sae105/");
   assert.equal(renseignes.liens.figma, "https://www.figma.com/design/abc/maquette");
   const { resultat: vides } = await analyser({ site: "", figma: "" });
   assert.equal(vides.liens.site, "https://exemple.github.io/depot-piege/");
   assert.equal(vides.liens.figma, null);
+});
+
+test("le site en ligne : ses adresses en erreur deviennent une alerte, sans toucher à la note", async () => {
+  const { dossier } = await preparerDepot();
+  const fichiers = inventorier(dossier).fichiers.filter((f) => f !== "contact.html");
+  const site = await servir(dossier, "depot-piege", fichiers);
+  try {
+    const analyser = (options) =>
+      analyserDepot({ projet: { ...projet(dossier), site: site.url }, promo: { dateRendu: DATE_RENDU }, cache, sansValidationW3c: true, sansNavigateur: true, ...options });
+    const { resultat } = await analyser();
+    assert.ok(resultatSchema.safeParse(resultat).success);
+    assert.equal(resultat.enLigne.repond, true);
+    const alerte = resultat.alertes.find((a) => a.type === "pages-404");
+    assert.match(alerte.details, /contact\.html \(404\)/);
+    assert.match(alerte.details, /assets\/img\/Photo\.webp \(404, casse\)/);
+    assert.match(alerte.details, /\/favicon\.svg \(404, chemin en \/\)/);
+    const { resultat: sans } = await analyser({ sansEnLigne: true });
+    assert.equal(sans.enLigne, undefined);
+    assert.deepEqual(sans.note, resultat.note);
+  } finally {
+    await site.fermer();
+  }
 });
 
 test("un dépôt inaccessible donne un résultat valide, entièrement « Non mesurable »", async () => {

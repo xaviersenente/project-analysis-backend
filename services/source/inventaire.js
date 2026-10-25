@@ -68,7 +68,7 @@ const referencesCss = (contenu) => [
 
 /**
  * @param {string} racine - Racine du site sur le disque
- * @returns {object} - { racine, fichiers, pages, introuvables, cheminsRacine, orphelins }
+ * @returns {object} - { racine, fichiers, pages, citees, introuvables, cheminsRacine, orphelins }
  */
 export const inventorier = (racine) => {
   const fichiers = listerFichiers(racine).sort();
@@ -199,5 +199,6 @@ export const inventorier = (racine) => {
     (f) => !cites.has(f) && !/\.html?$/i.test(f) && !FICHIERS_DE_TRAVAIL.test(path.posix.basename(f))
   );
 
-  return { racine, fichiers, pages, introuvables, cheminsRacine, orphelins };
+  // citees : les fichiers du dépôt cités par une page ou une feuille (contrôle en ligne)
+  return { racine, fichiers, pages, citees: [...cites].sort(), introuvables, cheminsRacine, orphelins };
 };

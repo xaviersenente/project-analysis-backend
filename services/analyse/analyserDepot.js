@@ -41,6 +41,27 @@ const alertes = (analyse) => {
       liste.push({ type: "historique-reecrit", message: "Historique Git retouché ?", details: `${retouches.length} commit${retouches.length > 1 ? "s" : ""} dont la date de commit s'écarte de la date d'auteur` });
     }
   }
+  const enLigne = analyse.enLigne;
+  if (enLigne && !enLigne.repond) {
+    liste.push({ type: "site-inaccessible", message: "Site inaccessible en ligne", details: `${enLigne.url} : ${enLigne.raison} ; l'analyse du dépôt reste valable` });
+  }
+  if (enLigne?.erreurs.length) {
+    const CAUSES = { casse: "casse", "chemin-racine": "chemin en /", "absent-du-depot": "absent du dépôt" };
+    const liste404 = enLigne.erreurs.slice(0, 5).map((e) => `${e.chemin} (${e.statut || "sans réponse"}${e.cause ? `, ${CAUSES[e.cause]}` : ""})`);
+    const reste = enLigne.erreurs.length - liste404.length;
+    liste.push({
+      type: "pages-404",
+      message: "Adresses en erreur sur le site en ligne",
+      details: liste404.join(", ") + (reste > 0 ? ` et ${reste} autre${reste > 1 ? "s" : ""}` : ""),
+    });
+  }
+  if (enLigne?.deploiement && !enLigne.deploiement.versionEvaluee) {
+    liste.push({
+      type: "site-non-a-jour",
+      message: "Le site en ligne n'est pas la version évaluée",
+      details: `déployé : ${enLigne.deploiement.sha.slice(0, 7)} le ${new Date(enLigne.deploiement.date).toLocaleString("fr-FR", { timeZone: "Europe/Paris", dateStyle: "short", timeStyle: "short" })}`,
+    });
+  }
   return liste;
 };
 
@@ -56,9 +77,10 @@ const urlDepot = (depot) =>
  * @param {boolean} [options.sansValidationW3c]
  * @param {boolean} [options.sansNavigateur]
  * @param {string} [options.dossierCaptures] - Captures maquette / site (G11), hors de Git
+ * @param {boolean} [options.sansEnLigne] - Sans le contrôle du site en ligne (tests, hors connexion)
  * @returns {Promise<{ resultat: object, racineSite: string | null }>}
  */
-export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false, dossierCaptures = null }) => {
+export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false, dossierCaptures = null, sansEnLigne = false }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   const version = await mesurer("Version du dépôt", () => resoudreVersion(projet.depot, promo.dateRendu, { cache }));
@@ -69,6 +91,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
   const readme = copie ? liensDuReadme(copie) : { site: null, figma: null };
   // Le fichier de promo l'emporte ; un champ laissé vide renvoie au README
   const figma = projet.figma || readme.figma;
+  const site = projet.site || readme.site;
   const analyse = await analyserSite({
     racine: racineSite,
     promo,
@@ -81,6 +104,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     maquette: figma ? { url: figma, ecrans: projet.ecrans } : null,
     dossierCaptures,
     cache,
+    siteEnLigne: site && !sansEnLigne ? { url: site, depot: urlDepot(projet.depot)?.match(/github\.com\/([\w.-]+\/[\w.-]+)$/)?.[1] ?? null, sha: version?.sha ?? null } : null,
   });
 
   const resultat = {
@@ -95,7 +119,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     },
     projet: { slug: projet.slug, nom: projet.nom, groupe: projet.groupe },
     liens: {
-      site: projet.site || readme.site,
+      site,
       depot: urlDepot(projet.depot),
       figma,
     },
@@ -105,7 +129,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     ressources: analyse.ressources,
     blocs: analyse.blocs,
     historique: analyse.historique,
-    // Le contrôle du site en ligne (lot 4) complétera les alertes
+    enLigne: analyse.enLigne,
     alertes: alertes(analyse),
     nonMesurable: [...etapes, ...analyse.nonMesurable],
   };

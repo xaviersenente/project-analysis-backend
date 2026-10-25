@@ -19,6 +19,7 @@ export const METHODES = ["auto", "depot", "navigateur", "manuel"];
 export const TYPES_ALERTE = [
   "site-inaccessible",
   "pages-404",
+  "site-non-a-jour",
   "js-remplace-css",
   "historique-reecrit",
   "autre-auteur",
@@ -316,6 +317,31 @@ export const resultatSchema = z.object({
   blocs: blocsSchema.optional(),
   // Historique Git et timeline (lot 3) ; absent si le dépôt n'a pas pu être lu
   historique: historiqueSchema.optional(),
+  // Contrôle léger du site en ligne (lot 4) : rien de noté ; absent sans adresse de site
+  enLigne: z
+    .object({
+      url: z.string(),
+      verifieLe: z.string(),
+      repond: z.boolean(),
+      raison: z.string().optional(),
+      pages: z.object({ total: z.number(), enErreur: z.number() }),
+      ressources: z.object({ total: z.number(), enErreur: z.number(), nonVerifiees: z.number() }),
+      erreurs: z.array(
+        z.object({
+          type: z.enum(["page", "ressource"]),
+          chemin: z.string(),
+          url: z.string(),
+          // 0 : aucune réponse
+          statut: z.number(),
+          // Ce que le dépôt explique ; null : le fichier existe dans la version évaluée
+          cause: z.enum(["casse", "chemin-racine", "absent-du-depot"]).nullable(),
+          citePar: z.array(z.object({ page: z.string(), ligne: z.number().nullable() })),
+        })
+      ),
+      // Dernier déploiement GitHub Pages ; null si l'API ne le donne pas
+      deploiement: z.object({ sha: z.string(), date: z.string(), versionEvaluee: z.boolean() }).nullable(),
+    })
+    .optional(),
 });
 
 export const promoSchema = z.object({

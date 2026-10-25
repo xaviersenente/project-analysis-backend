@@ -423,6 +423,14 @@ export default {
     },
   },
 
+  // ===== SITE EN LIGNE (étape 6) =====
+  // Contrôle léger : pages et ressources répondent-elles ? Rien de noté.
+  enLigne: {
+    requetesSimultanees: 8,
+    // Au-delà, les ressources restantes ne sont pas vérifiées (le résultat le dit)
+    requetesMax: 300,
+  },
+
   // ===== VIGNETTES =====
   // Aperçu des images du site, pour l'interface (carré, en pixels)
   vignettes: {

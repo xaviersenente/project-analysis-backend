@@ -25,6 +25,7 @@ import fidelite, { blocMaquette } from "./maquette.js";
 import { lireMaquette, exporterEcrans } from "../maquette/figma.js";
 import { extraireEcrans, apparier } from "../maquette/ecrans.js";
 import { dossierCache } from "../source/depot.js";
+import { verifierEnLigne } from "../runtime/enLigne.js";
 
 const grille = createRequire(import.meta.url)("../../config/grille-sae105-2026.json");
 const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur, ...fidelite };
@@ -210,6 +211,7 @@ const ecrireCaptures = async (ctx, dossier, cache) => {
  * @param {object} [options.maquette] - { url, ecrans? } : la maquette Figma (G11) ; { fichier, version } la donne déjà lue
  * @param {string} [options.dossierCaptures] - Où écrire les captures écran / page (hors de Git)
  * @param {string} [options.cache] - Cache des maquettes et de leurs images
+ * @param {{ url: string, depot: string|null, sha: string|null }} [options.siteEnLigne] - Contrôle léger du site publié (étape 6)
  */
 export const analyserSite = async ({
   racine,
@@ -223,6 +225,7 @@ export const analyserSite = async ({
   maquette = null,
   dossierCaptures = null,
   cache = dossierCache(),
+  siteEnLigne = null,
 }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
   const inventaire = racine ? await mesurer("Inventaire des pages", () => inventorier(racine)) : null;
@@ -271,6 +274,10 @@ export const analyserSite = async ({
       if (!ctx.navigateur) ctx.raisonNavigateur = etapes.at(-1)?.raison;
       for (const m of ctx.navigateur ?? []) if (m.erreur) etapes.push({ etape: `Navigateur (${m.fichier})`, raison: m.erreur });
     }
+    // Site en ligne : pages et ressources en erreur ; rien de noté
+    if (siteEnLigne?.url) {
+      ctx.enLigne = await mesurer("Site en ligne", () => verifierEnLigne({ ...siteEnLigne, inventaire }));
+    }
     if (ctx.maquette && dossierCaptures) {
       ctx.capturesMaquette = await mesurer("Captures de la maquette", () => ecrireCaptures(ctx, dossierCaptures, cache));
     }
@@ -305,6 +312,7 @@ export const analyserSite = async ({
     ressources: ctx ? await mesurer("Ressources", () => ressources(ctx)) ?? undefined : undefined,
     blocs: ctx && css ? await mesurer("Blocs d'axe", () => blocs(ctx)) ?? undefined : undefined,
     historique: ctx?.historique ?? undefined,
+    enLigne: ctx?.enLigne ?? undefined,
     nonMesurable: etapes,
   };
 };
