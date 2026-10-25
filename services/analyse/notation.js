@@ -63,6 +63,8 @@ export const noter = (criteres) => {
     bonus: Math.min(pointsBonus, bonus.max),
     totale: Math.min(100, base + Math.min(pointsBonus, bonus.max)),
     lettre: lettre((base / juges) * 100),
+    // Le barème des lettres, pour que le frontend recalcule la note après les corrections de l'enseignant
+    lettres: thresholds.scoring.grades,
     aJuger,
     parAxe,
   };

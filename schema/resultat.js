@@ -64,6 +64,15 @@ export const critereSchema = z
     raison: z.string().optional(),
     occurrences: z.array(occurrenceSchema),
     totalOccurrences: z.number().int().min(0),
+    // Ajouté par le frontend depuis data/notes/<slug>.json (mode local) : jamais écrit par l'analyse
+    enseignant: z
+      .object({
+        verdictOutil: z.enum(VERDICTS),
+        points: z.number().nullable(),
+        commentaire: z.string().nullable(),
+        le: z.string(),
+      })
+      .optional(),
   })
   .refine((c) => c.verdict !== "non-mesurable" || Boolean(c.raison), {
     message: "Un critère « non mesurable » doit donner sa raison",
@@ -297,6 +306,8 @@ export const resultatSchema = z.object({
     bonus: z.number().min(0),
     totale: z.number().max(100),
     lettre: z.string(),
+    // Barème des lettres (pourcentage minimal de chacune) ; absent des résultats plus anciens
+    lettres: z.record(z.string(), z.number()).optional(),
     // Points des critères « À juger », pas encore attribués
     aJuger: z.number().min(0),
     parAxe: z.object(Object.fromEntries(AXES.map((a) => [a, pointsAxeSchema]))),
@@ -310,6 +321,8 @@ export const resultatSchema = z.object({
     })
   ),
   nonMesurable: z.array(z.object({ etape: z.string(), raison: z.string() })),
+  // Commentaire général de l'enseignant (mode local), publié avec la note
+  commentaire: z.string().nullable().optional(),
   // Vue par page : absente si l'inventaire des pages a échoué
   pages: z.array(pageSchema).optional(),
   ressources: ressourcesSchema.optional(),
