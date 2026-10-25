@@ -4,6 +4,7 @@ import { writeFile, unlink } from "fs/promises";
 import { tmpdir } from "os";
 import { join } from "path";
 import { randomUUID } from "crypto";
+import { fileURLToPath } from "url";
 import vnuJar from "vnu-jar";
 import thresholds from "../../config/thresholds.js";
 
@@ -60,5 +61,37 @@ export const validateHTML = async (htmlContent) => {
     } catch (cleanupError) {
       // Ignorer les erreurs de nettoyage
     }
+  }
+};
+
+/**
+ * Valide des feuilles de style avec le validateur Nu (son vérificateur CSS), en local via Java,
+ * en un seul lancement pour toutes les feuilles. Un échec rend « Non mesurable » (F2).
+ * @param {string[]} chemins - Chemins absolus des feuilles
+ * @returns {Promise<{ mesurable: boolean, erreurs: Array<{ fichier, ligne, colonne, message, extrait, hiliteStart, hiliteLength }>|null, raison?: string }>}
+ */
+export const validateCSS = async (chemins) => {
+  try {
+    const { stdout } = await execFileAsync(
+      process.env.JAVA_BIN || "java",
+      ["-jar", vnuJar, "--css", "--format", "json", "--exit-zero-always", "--stdout", ...chemins],
+      { maxBuffer: 10 * 1024 * 1024, timeout: thresholds.performance.timeouts.validation }
+    );
+    const { messages } = JSON.parse(stdout);
+    if (!Array.isArray(messages)) throw new Error("Réponse du validateur sans liste de messages");
+    const erreurs = messages
+      .filter((m) => m.type === "error" && m.url)
+      .map((m) => ({
+        fichier: fileURLToPath(m.url),
+        ligne: m.lastLine ?? null,
+        colonne: m.firstColumn ?? m.lastColumn ?? null,
+        message: m.message.replace(/^CSS: /, ""),
+        extrait: m.extract ?? "",
+        hiliteStart: m.hiliteStart,
+        hiliteLength: m.hiliteLength,
+      }));
+    return { mesurable: true, erreurs };
+  } catch (error) {
+    return { mesurable: false, erreurs: null, raison: `Validation CSS impossible : ${error.message.split("\n")[0]}` };
   }
 };

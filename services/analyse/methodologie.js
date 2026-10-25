@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import { execFileSync } from "child_process";
 import thresholds from "../../config/thresholds.js";
-import { validateHTML } from "../html/validationService.js";
+import { validateHTML, validateCSS } from "../html/validationService.js";
 import { occurrenceDeclaration, occurrenceRegle } from "../css/sources.js";
 import { chercherMotifs, volume } from "../js/motifs.js";
 import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence } from "./mesure.js";
@@ -130,7 +130,26 @@ export default {
     return parAbsence(occurrences);
   },
 
-  M2: () => nonMesurable("Validation CSS : le validateur du W3C (jigsaw) n'est pas encore intégré"),
+  M2: async (ctx) => {
+    if (ctx.sansValidationW3c) return nonMesurable("Validation W3C désactivée pour cette analyse");
+    const feuilles = ctx.css.feuilles;
+    if (feuilles.length === 0) return respecte(null, { detailValeur: "aucune feuille de style" });
+    const { mesurable, erreurs, raison } = await validateCSS(feuilles.map((f) => path.join(ctx.racine, f)));
+    if (!mesurable) return nonMesurable(raison);
+    const ignorees = erreurs.filter((e) => S.validationCssIgnorer.some((motif) => motif.test(e.message)));
+    const occurrences = erreurs
+      .filter((e) => !ignorees.includes(e))
+      .map((e) => {
+        const fichier = path.relative(ctx.racine, e.fichier).split(path.sep).join("/");
+        // La ligne fautive du source : plus lisible que l'extrait du validateur, coupé au milieu
+        const ligne = e.ligne ? fs.readFileSync(e.fichier, "utf-8").split("\n")[e.ligne - 1]?.trim() : null;
+        return { fichier, ligne: e.ligne, colonne: e.colonne, extrait: `${ligne ?? e.extrait.replace(/\n/g, " ").trim()}  ← ${e.message}`, surligne: null };
+      });
+    const extra = ignorees.length
+      ? { detailValeur: `${ignorees.length} message${ignorees.length > 1 ? "s" : ""} ignoré${ignorees.length > 1 ? "s" : ""} : CSS récent inconnu du validateur` }
+      : {};
+    return parAbsence(occurrences, extra);
+  },
 
   M3: (ctx) => {
     const importants = ctx.declarations((d) => d.important).map((d) => occurrenceDeclaration(d, ctx.css, "!important"));

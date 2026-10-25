@@ -145,6 +145,13 @@ export default {
       messagesGeneriques: /^(update|updates|fix|fixes|wip|commit|\.|maj|modif(s|ication)?|test|ok|changes?)$/i,
       messagesGeneriquesMax: 0.1,
       readme: ["nom", "groupe", "url du site", "url figma"],
+      // M2 : messages du validateur CSS qui visent du CSS récent qu'il ne connaît pas encore.
+      // Ils ne sont pas comptés comme des erreurs (seulement signalés) ; à retirer quand le validateur les connaîtra.
+      validationCssIgnorer: [
+        /Unrecognized at-rule “@(starting-style|container|scope|property|view-transition|position-try)”/,
+        /Property “(container|container-type|container-name|transition-behavior|anchor-name|position-anchor|position-area|interpolate-size|field-sizing)” doesn't exist/,
+        /“allow-discrete”/,
+      ],
     },
 
     // Le JavaScript qui remplace du CSS (M4) : le motif, puis ce qu'il fallait faire
