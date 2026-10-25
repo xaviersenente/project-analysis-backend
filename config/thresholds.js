@@ -70,6 +70,15 @@ export default {
   sae105: {
     axes: { accessibilite: 30, methodologie: 25, ergonomie: 25, graphique: 20 },
 
+    // Site bilingue : un dossier par langue à la racine (fr/, en/). Seule la langue analysée est
+    // évaluée (même structure HTML) ; les autres versions sont comparées par leur nombre de pages.
+    langues: {
+      analysee: "fr",
+      autres: ["en"],
+      // Part des noms de pages communs aux deux langues au-delà de laquelle (strictement) on nomme les pages manquantes
+      nomsCommunsMin: 0.5,
+    },
+
     graphique: {
       // Mots qui donnent un rôle à une variable de couleur
       roles: {

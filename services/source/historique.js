@@ -75,7 +75,9 @@ export const lireHistorique = ({ dossier, sha, dateRendu, emailEtudiant = null }
     const drapeaux = [];
     if (GENERIQUES.test(c.message.trim())) drapeaux.push("message-generique");
     if (Math.abs(temps(c.dateCommit) - temps(c.dateAuteur)) > T.datesDivergentesH * 3600e3) drapeaux.push("dates-divergentes");
-    if (email !== principal) drapeaux.push("autre-auteur");
+    // Un robot (github-classroom[bot], dependabot[bot]) n'est pas un autre auteur
+    const robot = /\[bot\]/i.test(c.auteur) || /\[bot\]@/i.test(email);
+    if (email !== principal && !robot) drapeaux.push("autre-auteur");
     return { ...c, drapeaux };
   });
 

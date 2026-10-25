@@ -110,3 +110,17 @@ test("les seuils de M10 accompagnent l'historique", () => {
   assert.deepEqual(historique.seuils, { sessionsMin: 6, joursMin: 4, partDernieres48hMax: 0.5 });
   assert.equal(historique.dateRendu, DATE_RENDU);
 });
+
+test("un robot (github-classroom[bot]) n'est jamais compté comme un autre auteur", () => {
+  const dossier = fs.mkdtempSync(path.join(os.tmpdir(), "historique-robot-"));
+  try {
+    execFileSync("git", ["init", "-q", "-b", "main"], { cwd: dossier });
+    commit(dossier, { date: "2027-01-05T09:00:00+01:00", auteur: "github-classroom[bot]", email: "66690702+github-classroom[bot]@users.noreply.github.com", message: "Initial commit", lignes: 1 });
+    const sha = commit(dossier, { date: "2027-01-05T14:00:00+01:00", message: "Structure de la page d'accueil", lignes: 50 });
+    const h = lireHistorique({ dossier, sha, dateRendu: DATE_RENDU, emailEtudiant: "alice@etu.test" });
+    assert.equal(h.indicateurs.commitsAutreAuteur, 0);
+    assert.deepEqual(h.commits[0].drapeaux, []);
+  } finally {
+    fs.rmSync(dossier, { recursive: true, force: true });
+  }
+});

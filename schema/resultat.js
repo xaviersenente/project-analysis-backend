@@ -20,6 +20,7 @@ export const TYPES_ALERTE = [
   "site-inaccessible",
   "pages-404",
   "site-non-a-jour",
+  "langues-incompletes",
   "js-remplace-css",
   "historique-reecrit",
   "autre-auteur",
@@ -323,6 +324,16 @@ export const resultatSchema = z.object({
     })
   ),
   nonMesurable: z.array(z.object({ etape: z.string(), raison: z.string() })),
+  // Site bilingue (fr/, en/) : seule la langue analysée est évaluée, les autres sont comparées
+  langues: z
+    .object({
+      analysee: z.string(),
+      versions: z.array(z.object({ langue: z.string(), pages: z.array(z.string()) })),
+      complet: z.boolean(),
+      // Pages sans équivalent, quand les noms de fichiers se répondent d'une langue à l'autre
+      manquantes: z.array(z.string()),
+    })
+    .optional(),
   // Commentaire général de l'enseignant (mode local), publié avec la note
   commentaire: z.string().nullable().optional(),
   // Vue par page : absente si l'inventaire des pages a échoué

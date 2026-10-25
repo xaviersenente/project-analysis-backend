@@ -26,6 +26,7 @@ import { lireMaquette, exporterEcrans } from "../maquette/figma.js";
 import { extraireEcrans, apparier } from "../maquette/ecrans.js";
 import { dossierCache } from "../source/depot.js";
 import { verifierEnLigne } from "../runtime/enLigne.js";
+import { versionsLinguistiques, pagesEvaluees } from "../source/langues.js";
 
 const grille = createRequire(import.meta.url)("../../config/grille-sae105-2026.json");
 const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur, ...fidelite };
@@ -229,6 +230,10 @@ export const analyserSite = async ({
 }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
   const inventaire = racine ? await mesurer("Inventaire des pages", () => inventorier(racine)) : null;
+  // Site bilingue : seules la racine et la langue analysée sont évaluées ; les fichiers des autres
+  // versions restent inventoriés (liens, ressources citées), mais leurs pages ne sont pas mesurées
+  const langues = inventaire ? versionsLinguistiques(inventaire.pages) : null;
+  if (langues) inventaire.pages = pagesEvaluees(inventaire.pages, langues);
   const css = inventaire ? await mesurer("CSS", () => chargerCss(inventaire)) : null;
   for (const e of css?.erreurs ?? []) etapes.push({ etape: `CSS (${e.fichier})`, raison: e.raison });
 
@@ -250,13 +255,15 @@ export const analyserSite = async ({
       ctx.maquette = await mesurer("Maquette Figma", async () => {
         const lue = maquette.fichier ? maquette : await lireMaquette({ url: maquette.url, dateRendu: promo.dateRendu, cache });
         const { ecrans, palette } = extraireEcrans(lue.fichier);
+        const languesMaquette = langues && { analysee: langues.analysee, autres: langues.versions.slice(1).map((v) => v.langue) };
         const pages = ctx.pages.map((p) => ({ fichier: p.fichier, titre: p.$("title").first().text().trim() }));
-        return { cle: lue.cle, url: lue.url ?? null, version: lue.version, palette, ...apparier(ecrans, pages, maquette.ecrans ?? {}) };
+        return { cle: lue.cle, url: lue.url ?? null, version: lue.version, palette, ...apparier(ecrans, pages, maquette.ecrans ?? {}, languesMaquette) };
       });
       if (!ctx.maquette) ctx.raisonMaquette = etapes.at(-1)?.raison;
     } else {
       ctx.raisonMaquette = "Pas de lien vers la maquette Figma (fichier de promo ou README)";
     }
+    ctx.langues = langues;
     ctx.sansValidationW3c = sansValidationW3c;
     ctx.nomDepot = nomDepot ?? path.basename(racine);
     if (sansNavigateur) {
@@ -276,7 +283,7 @@ export const analyserSite = async ({
     }
     // Site en ligne : pages et ressources en erreur ; rien de noté
     if (siteEnLigne?.url) {
-      ctx.enLigne = await mesurer("Site en ligne", () => verifierEnLigne({ ...siteEnLigne, inventaire }));
+      ctx.enLigne = await mesurer("Site en ligne", () => verifierEnLigne({ ...siteEnLigne, inventaire, langue: langues?.analysee ?? null }));
     }
     if (ctx.maquette && dossierCaptures) {
       ctx.capturesMaquette = await mesurer("Captures de la maquette", () => ecrireCaptures(ctx, dossierCaptures, cache));
@@ -313,6 +320,7 @@ export const analyserSite = async ({
     blocs: ctx && css ? await mesurer("Blocs d'axe", () => blocs(ctx)) ?? undefined : undefined,
     historique: ctx?.historique ?? undefined,
     enLigne: ctx?.enLigne ?? undefined,
+    langues: langues ?? undefined,
     nonMesurable: etapes,
   };
 };

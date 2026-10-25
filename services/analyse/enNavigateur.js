@@ -91,7 +91,9 @@ export const celluleLighthouse = (ctx, fichier) => {
 /** Poids transféré de la page d'accueil, en Ko */
 export const poidsAccueil = (ctx) => {
   const { pages } = mesures(ctx);
-  return pages?.find((m) => m.fichier === "index.html")?.lighthouse.poidsKo ?? null;
+  // Site bilingue : l'accueil est celui de la langue analysée (la racine ne fait souvent que rediriger)
+  const accueil = ctx.langues ? `${ctx.langues.analysee}/index.html` : "index.html";
+  return pages?.find((m) => m.fichier === accueil)?.lighthouse.poidsKo ?? null;
 };
 
 export default {
@@ -110,7 +112,7 @@ export default {
     const { pages, raison } = mesures(ctx);
     if (!pages) return nonMesurable(raison);
     const poids = poidsAccueil(ctx);
-    if (poids === null) return nonMesurable("Pas de page index.html mesurée");
+    if (poids === null) return nonMesurable(`Pas de page ${ctx.langues ? `${ctx.langues.analysee}/` : ""}index.html mesurée`);
     return poids < ergonomie.accueilMaxKo ? respecte(poids) : nonRespecte(poids);
   },
 

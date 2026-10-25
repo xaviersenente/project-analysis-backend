@@ -12,10 +12,10 @@ const DELAI = thresholds.performance.timeouts.http;
 const { requetesSimultanees, requetesMax } = thresholds.enLigne;
 
 /** Code HTTP d'une adresse ; 0 si rien ne répond. HEAD d'abord, GET si le serveur le refuse */
-const statutDe = async (url) => {
+const statutDe = async (url, delai = DELAI) => {
   for (const method of ["HEAD", "GET"]) {
     try {
-      const res = await fetch(url, { method, redirect: "follow", signal: AbortSignal.timeout(DELAI) });
+      const res = await fetch(url, { method, redirect: "follow", signal: AbortSignal.timeout(delai) });
       await res.body?.cancel();
       if (method === "HEAD" && [405, 501].includes(res.status)) continue;
       return res.status;
@@ -56,18 +56,35 @@ const deploiementPages = async (depot, sha, apiGithub) => {
 };
 
 /**
+ * Adresse de la racine du site : « https://exemple.fr/fr/ » donné pour un site bilingue
+ * désigne en réalité la racine, dont fr/ et en/ sont des dossiers
+ */
+export const baseDuSite = (url, langue = null) => {
+  const avecBarre = url.endsWith("/") ? url : `${url}/`;
+  const { langues } = thresholds.sae105;
+  if (!langue) return avecBarre;
+  const dossier = [langues.analysee, ...langues.autres].find((l) => new URL(avecBarre).pathname.endsWith(`/${l}/`));
+  return dossier ? new URL("../", avecBarre).href : avecBarre;
+};
+
+/**
  * @param {object} options
  * @param {string} options.url - Adresse du site en ligne (dossier du site, avec « / » final)
  * @param {object} options.inventaire - Inventaire de l'étape 2
  * @param {string|null} options.depot - « propriétaire/dépôt », pour le déploiement GitHub Pages
  * @param {string|null} options.sha - Version évaluée
  * @param {string} [options.apiGithub]
+ * @param {string|null} [options.langue] - Site bilingue : la langue analysée (l'accueil vérifié est <langue>/)
  */
-export const verifierEnLigne = async ({ url, inventaire, depot, sha, apiGithub = "https://api.github.com" }) => {
-  const base = url.endsWith("/") ? url : `${url}/`;
+export const verifierEnLigne = async ({ url, inventaire, depot, sha, apiGithub = "https://api.github.com", langue = null }) => {
+  const base = baseDuSite(url, langue);
   const vide = { url, verifieLe: new Date().toISOString(), pages: { total: 0, enErreur: 0 }, ressources: { total: 0, enErreur: 0, nonVerifiees: 0 }, erreurs: [], deploiement: null };
 
-  const accueil = await statutDe(base);
+  // Site bilingue : la racine redirige souvent selon la langue du navigateur ; l'accueil est celui de la langue analysée
+  const urlAccueil = langue ? new URL(`${langue}/`, base).href : base;
+  // Sans réponse : une seconde chance, plus longue (un hébergement lent n'est pas un site absent)
+  let accueil = await statutDe(urlAccueil);
+  if (accueil === 0) accueil = await statutDe(urlAccueil, DELAI * 3);
   if (accueil === 0 || accueil >= 400) {
     return { ...vide, repond: false, raison: accueil ? `L'accueil répond ${accueil}` : "Le site ne répond pas" };
   }

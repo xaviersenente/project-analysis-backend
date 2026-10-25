@@ -12,6 +12,9 @@ import { execFile } from "child_process";
 import { promisify } from "util";
 import { createHash } from "crypto";
 import { fileURLToPath } from "url";
+import thresholds from "../../config/thresholds.js";
+
+const LANGUES = thresholds.sae105.langues;
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -124,7 +127,13 @@ export const trouverRacineSite = (dossier) => {
   let niveau = ["."];
   while (niveau.length) {
     const trouve = niveau.find((d) => fs.existsSync(path.join(dossier, d, "index.html")));
-    if (trouve) return trouve;
+    if (trouve) {
+      // Site bilingue sans page à la racine (fr/index.html, en/index.html) : la racine est leur parent
+      const parent = path.posix.dirname(trouve);
+      const langues = [LANGUES.analysee, ...LANGUES.autres];
+      const dossiersLangue = langues.filter((l) => fs.existsSync(path.join(dossier, parent, l, "index.html")));
+      return langues.includes(path.posix.basename(trouve)) && dossiersLangue.length >= 2 ? parent : trouve;
+    }
     niveau = niveau.flatMap((d) =>
       fs
         .readdirSync(path.join(dossier, d), { withFileTypes: true })

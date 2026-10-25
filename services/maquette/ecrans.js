@@ -99,11 +99,19 @@ const candidats = (nom) => {
  * @param {Array<{ nom: string }>} ecrans
  * @param {Array<{ fichier: string, titre: string }>} pages
  * @param {Object<string, string|null>} [forcage] - Nom d'écran → page (null : écran ignoré), du fichier de promo
+ * @param {{ analysee: string, autres: string[] } | null} [langues] - Site bilingue : seuls les écrans
+ *   de la langue analysée (ou sans langue dans leur nom) sont associés, et seulement aux pages de cette langue
  */
-export const apparier = (ecrans, pages, forcage = {}) => {
+export const apparier = (ecrans, pages, forcage = {}, langues = null) => {
   const prises = new Set();
   const paires = [];
   const ecransSansPage = [];
+  if (langues) {
+    // « Page d'accueil EN » : l'écran d'une autre langue n'est comparé à rien
+    const autreLangue = (nom) => nom.toLowerCase().split(/[^a-z0-9]+/).some((m) => langues.autres.includes(m));
+    ecrans = ecrans.filter((e) => Object.hasOwn(forcage, e.nom) || !autreLangue(e.nom));
+    pages = pages.filter((p) => p.fichier.startsWith(`${langues.analysee}/`));
+  }
   for (const ecran of ecrans) {
     let fichier;
     if (Object.hasOwn(forcage, ecran.nom)) {

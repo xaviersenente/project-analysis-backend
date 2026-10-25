@@ -21,7 +21,7 @@ const liensDuReadme = (dossier) => {
 };
 
 /** Alertes qui empêchent de corriger sereinement */
-const alertes = (analyse) => {
+export const alertes = (analyse) => {
   const liste = [];
   const js = analyse.blocs?.methodologie?.javascript;
   if (js?.motifs.length) {
@@ -40,6 +40,15 @@ const alertes = (analyse) => {
       // Indice d'un rebase ou d'une date modifiée : à vérifier, ce n'est pas une preuve
       liste.push({ type: "historique-reecrit", message: "Historique Git retouché ?", details: `${retouches.length} commit${retouches.length > 1 ? "s" : ""} dont la date de commit s'écarte de la date d'auteur` });
     }
+  }
+  const langues = analyse.langues;
+  if (langues && !langues.complet) {
+    const comptes = langues.versions.map((v) => `${v.langue} : ${v.pages.length} page${v.pages.length > 1 ? "s" : ""}`).join(", ");
+    liste.push({
+      type: "langues-incompletes",
+      message: "Versions linguistiques incomplètes",
+      details: comptes + (langues.manquantes.length ? ` ; sans traduction : ${langues.manquantes.join(", ")}` : ""),
+    });
   }
   const enLigne = analyse.enLigne;
   if (enLigne && !enLigne.repond) {
@@ -130,6 +139,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
     blocs: analyse.blocs,
     historique: analyse.historique,
     enLigne: analyse.enLigne,
+    langues: analyse.langues,
     alertes: alertes(analyse),
     nonMesurable: [...etapes, ...analyse.nonMesurable],
   };
