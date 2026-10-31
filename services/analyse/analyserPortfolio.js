@@ -1,5 +1,6 @@
 /**
- * Profil « portfolio » (S3) : le site en ligne est le livrable, le dépôt sert à l'historique.
+ * Profil « portfolio » (S3) : le site en ligne est le livrable ; le dépôt donne l'historique,
+ * les fichiers déclaratifs et la stack.
  * Aucun code du dépôt n'est exécuté (framework, CMS…) : on parcourt le site publié.
  * Les contraintes notées restent au jury ; les mesures sont des informations (statut I).
  */
@@ -13,8 +14,12 @@ import { liensDuReadme, urlDepot } from "./analyserDepot.js";
 import { ecoindex } from "../qualite/ecoindex.js";
 import { categorieTiers } from "../runtime/parcours.js";
 import qualiteWeb, { pagesLues } from "./qualiteWeb.js";
+import processus from "./processus.js";
+import thresholds from "../../config/thresholds.js";
+import { lireHistorique } from "../source/historique.js";
+import { fichiersDuDepot, tracesIaDansHistorique, elementsSensibles, declaratif } from "../source/depotPortfolio.js";
 
-export const ANALYSEURS = { ...qualiteWeb };
+export const ANALYSEURS = { ...qualiteWeb, ...processus };
 
 /**
  * Les critères de la grille, mesurés par les analyseurs du profil.
@@ -82,6 +87,21 @@ export const resumeParcours = (parcours) => ({
 
 const alertes = (ctx) => {
   const liste = [];
+  if (ctx.depot && !declaratif(ctx.depot.dossier, ctx.depot.fichiers, thresholds.portfolio.declaratifs.ia)) {
+    liste.push({ type: "ia-non-declaree", message: "Pas de fichier IA.md", details: "Le sujet traite son absence comme une déclaration mensongère" });
+  }
+  if (ctx.depot?.sensibles.length) {
+    const secrets = ctx.depot.sensibles.filter((o) => o.ligne);
+    liste.push({
+      type: "fichiers-sensibles",
+      message: "Fichiers sensibles dans le dépôt public",
+      details: `${ctx.depot.sensibles.length} élément(s)${secrets.length ? `, dont ${secrets.length} secret(s) en dur (valeurs masquées)` : ""} : ${[...new Set(ctx.depot.sensibles.map((o) => o.fichier))].slice(0, 4).join(", ")}`,
+    });
+  }
+  const autres = ctx.historique?.commits.filter((c) => c.drapeaux.includes("autre-auteur")) ?? [];
+  if (autres.length) {
+    liste.push({ type: "autre-auteur", message: "Commits d'un autre auteur", details: `${autres.length} commit(s) de ${[...new Set(autres.map((c) => c.auteur))].join(", ")}` });
+  }
   if (ctx.parcours && pagesLues(ctx).length === 0) {
     const accueil = ctx.parcours.pages[0];
     liste.push({ type: "site-inaccessible", message: "Site inaccessible en ligne", details: `${ctx.parcours.url} : ${accueil?.erreur ?? `statut ${accueil?.statut}`}` });
@@ -109,6 +129,23 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   const site = projet.site || readme.site;
 
   const ctx = { projet, promo, copie };
+  if (copie) {
+    const depot = await mesurer("Lecture du dépôt", () => {
+      const fichiers = fichiersDuDepot(copie);
+      return { dossier: copie, fichiers, tracesIa: tracesIaDansHistorique(copie, version.sha), sensibles: elementsSensibles(copie, fichiers) };
+    });
+    if (depot) ctx.depot = depot;
+    else ctx.raisonDepot = etapes.at(-1)?.raison;
+    ctx.historique = await mesurer("Historique Git", () =>
+      lireHistorique({ dossier: copie, sha: version.sha, dateRendu: promo.dateRendu, emailEtudiant: projet.email ?? null, reglages: thresholds.portfolio.historique })
+    );
+    if (!ctx.historique) ctx.raisonHistorique = etapes.at(-1)?.raison;
+  } else {
+    ctx.raisonDepot = ctx.raisonHistorique = projet.depot ? `Dépôt illisible : ${etapes.at(-1)?.raison ?? "version introuvable"}` : "Pas de dépôt dans le fichier de promo";
+  }
+  // La période du projet : du début annoncé (dateDebut), sinon du premier commit, au rendu
+  const premierCommit = ctx.historique?.sessions[0]?.debut;
+  ctx.periode = { debut: new Date(promo.dateDebut ?? premierCommit ?? promo.dateRendu), fin: new Date(promo.dateRendu) };
   if (!site) ctx.raisonParcours = "Pas d'adresse du site en ligne (fichier de promo ou README)";
   else if (sansNavigateur) ctx.raisonParcours = "Parcours du site désactivé pour cette analyse";
   else {
@@ -132,6 +169,7 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
     note: noter(criteres, grille),
     criteres,
     parcours: ctx.parcours ? resumeParcours(ctx.parcours) : undefined,
+    historique: ctx.historique ?? undefined,
     alertes: alertes(ctx),
     nonMesurable: etapes,
   };

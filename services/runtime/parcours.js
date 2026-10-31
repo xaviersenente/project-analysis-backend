@@ -81,6 +81,10 @@ function lirePage() {
     ogTitre: meta("og:title"),
     ogImage: meta("og:image"),
     dom: document.getElementsByTagName("*").length,
+    // Ce que le site en ligne dit de l'outil qui l'a produit (TE2, TE3)
+    generateur: meta("generator"),
+    wordpress: document.documentElement.innerHTML.includes("/wp-content/"),
+    pageBuilder: Boolean(document.querySelector('[class*="elementor"], [class*="et_pb_"], [class*="fusion-builder"], [class*="vc_row"]')),
     liens: [...document.querySelectorAll("a[href]")].map((a) => ({ href: a.href, texte: (a.innerText || a.getAttribute("aria-label") || "").trim().slice(0, 80) })),
     texte: document.body?.innerText.slice(0, 30000) ?? "",
   };

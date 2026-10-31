@@ -247,6 +247,96 @@ export default {
     },
     // Q10 : sous-domaines d'hébergeurs ; un portfolio sur l'un d'eux n'est pas sur son propre domaine
     hebergeursGratuits: /\.(github\.io|netlify\.app|vercel\.app|pages\.dev|onrender\.com|wixsite\.com|webflow\.io|framer\.(website|app)|surge\.sh|glitch\.me|000webhostapp\.com|infinityfreeapp\.com|wordpress\.com)$/i,
+    // PC2 : la timeline sur huit semaines de projet (mêmes règles de session que la SAÉ 105)
+    historique: {
+      pauseSessionH: 2,
+      forfaitSessionMin: 30,
+      sessionsMin: 10,
+      joursMin: 10,
+      partDernieres48hMax: 0.3,
+      datesDivergentesH: 24,
+      messagesGeneriques: /^(update|updates|fix|fixes|wip|commit|\.|maj|modif(s|ication)?|test|ok|changes?)$/i,
+    },
+
+    // Fichiers déclaratifs à la racine du dépôt (sujet §3 et §5)
+    declaratifs: {
+      journal: /^journal\.md$/i,
+      ia: /^ia\.md$/i,
+      qualite: /^qualit[eé]\.md$/i,
+      // PC3 : part des semaines du projet qui ont leur entrée dans le journal
+      semainesRatio: 0.75,
+      // PC4 : ce qu'une déclaration doit dire, outil par outil
+      iaEtape: /[ée]tape|phase|conception|maquette|int[ée]gration|d[ée]veloppement|r[ée]daction|recherche|contenu/i,
+      iaRetouche: /modifi|corrig|rejet|retouch|r[ée][ée]crit|adapt|refus|repris|ajust/i,
+      // Q12 : les quatre domaines du sujet (§6)
+      domainesQualite: [
+        { nom: "accessibilité", motif: /accessib|rgaa|wcag|contraste|lecteur d'[ée]cran/i },
+        { nom: "sobriété et performance", motif: /sobri|performance|poids|ecoindex|lighthouse|[ée]co-?conception|green ?it/i },
+        { nom: "référencement", motif: /r[ée]f[ée]rencement|seo|sitemap|meta ?description|robots/i },
+        { nom: "conformité juridique", motif: /juridique|rgpd|mentions l[ée]gales|cookies?|droit d'auteur|licence|cr[ée]dits?/i },
+      ],
+    },
+
+    // Outils d'IA générative (IA.md, traces dans l'historique)
+    outilsIa: [
+      { nom: "ChatGPT", motif: /chat ?gpt|openai|gpt-?[345o]/i },
+      { nom: "Claude", motif: /claude|anthropic/i },
+      { nom: "Copilot", motif: /copilot/i },
+      { nom: "Cursor", motif: /cursor/i },
+      { nom: "Gemini", motif: /gemini|bard/i },
+      { nom: "Mistral", motif: /mistral|le chat/i },
+      { nom: "Perplexity", motif: /perplexity/i },
+      { nom: "Midjourney", motif: /midjourney/i },
+      { nom: "DALL-E", motif: /dall-?e/i },
+      { nom: "Firefly", motif: /firefly/i },
+      { nom: "Figma AI", motif: /figma ?ai|figma make/i },
+      { nom: "v0", motif: /\bv0\b/i },
+      { nom: "Bolt", motif: /bolt\.new/i },
+      { nom: "Lovable", motif: /lovable/i },
+      { nom: "Windsurf", motif: /windsurf|codeium/i },
+      { nom: "Codex", motif: /\bcodex\b/i },
+      { nom: "Devin", motif: /\bdevin\b/i },
+      { nom: "Aider", motif: /\baider\b/i },
+    ],
+    // PC5 : traces d'un outil dans un commit (co-auteur, signature)
+    tracesIa: /co-authored-by:.*(claude|copilot|cursor|chatgpt|openai|gemini|codex|devin|aider|windsurf|lovable|bolt)|generated with \[?(claude|cursor|copilot)|🤖 generated/i,
+
+    // TE2 : ce qui situe le projet sur l'échelle du sujet (dépendances npm et code)
+    stack: {
+      frameworks: ["astro", "next", "nuxt", "vue", "react", "svelte", "@sveltejs/kit", "@angular/core", "solid-js", "gatsby", "@11ty/eleventy", "@remix-run/react", "qwik"],
+      bibliotheques: ["tailwindcss", "bootstrap", "daisyui", "bulma", "foundation-sites", "shadcn", "@shadcn/ui", "gsap", "three", "swiper", "aos", "lenis", "@studio-freight/lenis", "jquery", "animejs", "@barba/core", "locomotive-scroll", "framer-motion", "motion"],
+      donnees: ["pocketbase", "@supabase/supabase-js", "firebase", "@strapi/strapi", "@strapi/client", "express", "fastify", "prisma", "@prisma/client", "mongoose", "mongodb", "mysql2", "pg", "@sanity/client", "contentful", "@directus/sdk", "graphql", "@apollo/client", "@astrojs/db", "drizzle-orm", "@notionhq/client", "airtable", "keystatic", "@tinacms/cli", "decap-cms"],
+      // Routes ou dossiers d'un back-office
+      backOffice: /(^|\/)(admin|dashboard|back-?office)(\/|\.)/i,
+      composantsMin: 5,
+      // Interactions JavaScript (niveau 2 d'une intégration HTML/CSS)
+      interactionsMin: 3,
+    },
+
+    // TE3 : indices d'un thème ou d'un template récupéré
+    template: {
+      code: /(html5up|themeforest|templatemo|colorlib|bootstrapmade|w3layouts|free-css|tooplate|uideck|graygrids|creative-tim|startbootstrap|themewagon|templated\.co|envato)/i,
+      // En-tête de style.css d'un thème WordPress
+      themeWordpress: /^\s*(Theme URI|Author URI|Author)\s*:\s*(.+)$/im,
+      generateurs: /(wix|webflow|framer|squarespace|jimdo|hostinger|site123|weebly|carrd|elementor|divi|avada|astra|oceanwp|kadence)/i,
+    },
+
+    // TE4 : ce qui n'a rien à faire dans un dépôt public
+    sensibles: {
+      fichiers: /(^|\/)(node_modules\/|\.env(\.local|\.production|\.development)?$|[^/]+\.(sqlite3?|db|exe|dll|pem|key|p12|pfx)$|id_rsa|wp-config\.php$)/i,
+      // La valeur n'est jamais recopiée dans le résultat : seulement le nom de la clé
+      secrets: [
+        { nom: "clé ou mot de passe en dur", motif: /\b(api[_-]?key|secret|password|passwd|mot_?de_?passe|token)\b["']?\s*[:=]\s*["']([^"'\s]{8,})["']/i },
+        { nom: "clé AWS", motif: /\bAKIA[0-9A-Z]{16}\b/ },
+        { nom: "clé OpenAI ou Anthropic", motif: /\bsk-(ant-)?[A-Za-z0-9_-]{20,}/ },
+        { nom: "jeton GitHub", motif: /\bgh[pousr]_[A-Za-z0-9]{30,}/ },
+        { nom: "clé Google", motif: /\bAIza[0-9A-Za-z_-]{35}\b/ },
+      ],
+      // Fichiers lus pour chercher des secrets (texte, et pas trop gros)
+      lisibles: /\.(js|mjs|cjs|ts|jsx|tsx|vue|svelte|astro|php|json|ya?ml|env|ini|toml|html|py)$/i,
+      tailleMaxKo: 300,
+    },
+
     // PR2 : les réseaux reconnus, et combien le site doit en relier
     reseauxMin: 2,
     reseaux: [

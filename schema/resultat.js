@@ -25,6 +25,8 @@ export const TYPES_ALERTE = [
   "js-remplace-css",
   "historique-reecrit",
   "autre-auteur",
+  "ia-non-declaree",
+  "fichiers-sensibles",
 ];
 
 export const SLUG_REGEX = /^[a-z0-9-]+$/;
@@ -454,6 +456,8 @@ export const resultatSchema = z
 export const promoSchema = z.object({
   promo: z.string(),
   dateRendu: z.iso.datetime({ offset: true }),
+  // Début du projet (portfolio : les semaines attendues dans le journal) ; sinon, le premier commit
+  dateDebut: z.iso.datetime({ offset: true }).optional(),
   // Grille de la SAÉ (config/grilles/<id>.json) ; sans elle, la SAÉ 105
   grille: z.string().regex(/^[a-z0-9-]+$/).optional(),
   projets: z.array(

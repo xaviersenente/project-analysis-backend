@@ -9,8 +9,8 @@
 import { execFileSync } from "child_process";
 import thresholds from "../../config/thresholds.js";
 
-const T = thresholds.sae105.methodologie.timeline;
-const GENERIQUES = thresholds.sae105.methodologie.messagesGeneriques;
+// Réglages par défaut : ceux de la SAÉ 105 ; un autre profil passe les siens
+const REGLAGES = { ...thresholds.sae105.methodologie.timeline, messagesGeneriques: thresholds.sae105.methodologie.messagesGeneriques };
 const SEP = "\x1f";
 const DEBUT = "\x1e";
 
@@ -62,8 +62,11 @@ const temps = (date) => new Date(date).getTime();
  * @param {string} options.dateRendu - Date ISO
  * @param {string} [options.emailEtudiant] - Adresse de l'étudiant (fichier de promo) ;
  *   sinon, l'auteur principal est celui qui a fait le plus de commits
+ * @param {object} [options.reglages] - Seuils de la timeline (pauseSessionH, sessionsMin…) et messages génériques
  */
-export const lireHistorique = ({ dossier, sha, dateRendu, emailEtudiant = null }) => {
+export const lireHistorique = ({ dossier, sha, dateRendu, emailEtudiant = null, reglages = REGLAGES }) => {
+  const T = reglages;
+  const GENERIQUES = reglages.messagesGeneriques;
   const bruts = lireCommits(dossier, sha);
   if (bruts.length === 0) throw new Error("Aucun commit dans l'historique");
 

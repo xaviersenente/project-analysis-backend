@@ -31,7 +31,7 @@ const Q3 = (ctx) => {
   return total === 0 ? respecte(0) : nonRespecte(total, occurrences, { detailValeur: `${total} éléments en erreur` });
 };
 
-/** Q4 : la page défile horizontalement à 360 px */
+/** Q4 : la page est plus large que l'écran à 360 px (défilement de côté, ou page réduite par le téléphone) */
 const Q4 = (ctx) =>
   parAbsence(
     pagesLues(ctx)

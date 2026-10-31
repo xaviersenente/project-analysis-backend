@@ -58,10 +58,13 @@ test("un service tiers : un autre propriétaire que le site, sous-domaines compr
   assert.equal(normaliser("https://a.fr/"), "https://a.fr/");
 });
 
-test("sans adresse du site, les mesures sont « Non mesurable » et les contraintes attendent le jury", async () => {
+test("sans adresse du site ni dépôt, les mesures sont « Non mesurable » et les contraintes attendent le jury", async () => {
   const { resultat } = await analyserPortfolio({ projet: projet(undefined), promo, grille });
   assert.ok(resultatSchema.safeParse(resultat).success);
-  assert.ok(resultat.criteres.filter((c) => c.statut === "I").every((c) => c.verdict === "non-mesurable" && /adresse du site/.test(c.raison)));
+  const mesures = resultat.criteres.filter((c) => c.statut === "I");
+  assert.ok(mesures.filter((c) => c.methode === "navigateur").every((c) => c.verdict === "non-mesurable" && /adresse du site/.test(c.raison)));
+  // Sans dépôt non plus, les mesures du dépôt (lot 3) le disent
+  assert.ok(mesures.filter((c) => c.methode === "depot").every((c) => c.verdict === "non-mesurable" && /Pas de dépôt/.test(c.raison)));
   assert.ok(resultat.criteres.filter((c) => c.statut === "C").every((c) => c.verdict === "a-juger"));
   assert.equal(resultat.note.total, 20);
   assert.equal(resultat.note.aJuger, 20);
@@ -90,7 +93,7 @@ test("Q3 : l'image sans alt est une erreur d'accessibilité", { skip: !chrome },
   assert.equal(critere(propre, "Q3").verdict, "respecte");
 });
 
-test("Q4 : le bloc de 600 px fait défiler l'accueil à 360 px", { skip: !chrome }, () => {
+test("Q4 : le bloc de 600 px élargit l'accueil au-delà de 360 px", { skip: !chrome }, () => {
   assert.equal(critere(piege, "Q4").verdict, "non-respecte");
   assert.match(extraits(piege, "Q4"), /^\/ 6\d\d px de large pour 360 px/);
   assert.equal(critere(propre, "Q4").verdict, "respecte");

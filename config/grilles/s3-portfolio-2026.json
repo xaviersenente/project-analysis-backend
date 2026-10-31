@@ -77,6 +77,47 @@
       "sourceCours": "Sujet §8"
     },
     {
+      "id": "TE2",
+      "axe": "technique",
+      "libelle": "Stack et niveau candidat (à confirmer en soutenance)",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": null,
+      "piste": "Indices lus dans le dépôt et sur le site : framework, CMS, types de contenus, champs, source de données, back-office. Le niveau se défend devant le jury.",
+      "sourceCours": "Sujet §8"
+    },
+    {
+      "id": "TE3",
+      "axe": "technique",
+      "libelle": "Aucun indice de thème ou de template récupéré",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "indices" },
+      "piste": "Crédits d'un vendeur de templates, en-tête d'un thème WordPress du commerce, site produit par un outil de création : à vérifier avec l'étudiant.",
+      "sourceCours": "Sujet §2.3"
+    },
+    {
+      "id": "TE4",
+      "axe": "technique",
+      "libelle": "Ni fichier sensible ni secret dans le dépôt public",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "éléments" },
+      "detailSeuil": "Bases de données, exécutables, .env, node_modules, clés et mots de passe en dur (valeurs jamais recopiées)",
+      "piste": "Un .gitignore, des variables d'environnement pour les clés ; une clé publiée doit être révoquée.",
+      "sourceCours": "AC24.06"
+    },
+    {
+      "id": "TE5",
+      "axe": "technique",
+      "libelle": "Bibliothèques et frameworks déclarés",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "non déclarés" },
+      "piste": "Chaque bibliothèque de package.json est nommée dans le README (ou IA.md, QUALITE.md, JOURNAL.md).",
+      "sourceCours": "Sujet §2.3"
+    },
+    {
       "id": "Q1",
       "axe": "qualite-web",
       "libelle": "Pertinence de la grille QUALITE.md",
@@ -112,11 +153,11 @@
     {
       "id": "Q4",
       "axe": "qualite-web",
-      "libelle": "Pas de défilement horizontal à 360 px",
+      "libelle": "Rien ne dépasse la largeur de l'écran à 360 px",
       "statut": "I",
       "methode": "navigateur",
       "seuil": { "operateur": "=", "nombre": 0, "unite": "pages" },
-      "piste": "Un élément plus large que l'écran : une largeur fixe, une image sans max-width, un texte long sans coupure.",
+      "piste": "Une page plus large que l'écran défile de côté, ou le téléphone la réduit et tout devient minuscule. En cause : une largeur fixe, un menu qui ne passe pas à la ligne, une image sans max-width.",
       "sourceCours": "AC24.01"
     },
     {
@@ -192,6 +233,16 @@
       "sourceCours": "Qualité web"
     },
     {
+      "id": "Q12",
+      "axe": "qualite-web",
+      "libelle": "QUALITE.md présent, sur les quatre domaines",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": null,
+      "piste": "Accessibilité, sobriété et performance, référencement, conformité juridique : pour chaque critère, ce qui a été vérifié, comment, et corrigé.",
+      "sourceCours": "Sujet §6"
+    },
+    {
       "id": "PR1",
       "axe": "presence",
       "libelle": "Présence professionnelle",
@@ -222,6 +273,47 @@
       "seuil": null,
       "piste": "Journal de bord, historique Git étalé sur le projet, déclaration IA, tenue du calendrier.",
       "sourceCours": "Sujet §5"
+    },
+    {
+      "id": "PC2",
+      "axe": "processus",
+      "libelle": "Historique Git étalé sur le projet",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": { "operateur": "≥", "nombre": 10, "unite": "sessions" },
+      "detailSeuil": "Au moins 10 sessions sur 10 jours, moins de 30 % des lignes dans les 48 dernières heures",
+      "piste": "Committer à chaque étape, tout au long des huit semaines.",
+      "sourceCours": "Sujet §5"
+    },
+    {
+      "id": "PC3",
+      "axe": "processus",
+      "libelle": "JOURNAL.md : une entrée par semaine",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": { "operateur": "≥", "nombre": 75, "unite": "% des semaines" },
+      "piste": "Une dizaine de lignes datées chaque semaine : ce qui a été fait, ce qui a coincé, ce qui a été décidé.",
+      "sourceCours": "Sujet §5"
+    },
+    {
+      "id": "PC4",
+      "axe": "processus",
+      "libelle": "IA.md présent et détaillé",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": null,
+      "piste": "Pour chaque outil : à quelle étape, pour quoi faire, ce qui a été modifié, corrigé ou rejeté.",
+      "sourceCours": "Sujet §3"
+    },
+    {
+      "id": "PC5",
+      "axe": "processus",
+      "libelle": "Les outils d'IA visibles dans l'historique sont déclarés",
+      "statut": "I",
+      "methode": "depot",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "non déclarés" },
+      "piste": "Un commit co-signé par un outil d'IA : l'outil figure dans IA.md.",
+      "sourceCours": "Sujet §3"
     }
   ]
 }
