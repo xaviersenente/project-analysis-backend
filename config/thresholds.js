@@ -66,9 +66,8 @@ export default {
 
   // ===== GRILLE SAÉ 105 (2026-2027) =====
   // Seuils et listes des analyseurs du résultat v2 (CRITERES-SAE105-2026.md).
-  // Les seuils affichés dans l'interface viennent de config/grille-sae105-2026.json.
+  // Les axes, leurs points et les seuils affichés dans l'interface viennent de config/grilles/sae105-2026.json.
   sae105: {
-    axes: { accessibilite: 30, methodologie: 25, ergonomie: 25, graphique: 20 },
 
     // Site bilingue : un dossier par langue à la racine (fr/, en/). Seule la langue analysée est
     // évaluée (même structure HTML) ; les autres versions sont comparées par leur nombre de pages.
@@ -200,13 +199,68 @@ export default {
       ],
     },
 
+    // Le plafond du bonus est dans la grille (bonusMax)
     bonus: {
-      max: 5,
       bem: [
         { ratio: 0.7, points: 5 },
         { ratio: 0.5, points: 3 },
       ],
     },
+  },
+
+  // ===== PORTFOLIO S3 (config/grilles/s3-portfolio-2026.json) =====
+  // Le site en ligne est le livrable : il est parcouru tel quel, sans exécuter le code du dépôt.
+  portfolio: {
+    parcours: {
+      pagesMax: 25,
+      delaiPageMs: 30000,
+      // Le temps laissé aux scripts de la page après le chargement (animations, contenus chargés ensuite)
+      attenteMs: 1500,
+      // Au-delà de la largeur de l'écran, une capture est coupée
+      captures: { largeurs: [360, 768, 1280], hauteurMaxPx: 8000, qualite: 70 },
+      // Fichiers qui ne sont pas des pages
+      ignorer: /\.(pdf|zip|jpe?g|png|gif|webp|avif|svg|mp4|webm|mp3|docx?|xlsx?|pptx?)$/i,
+    },
+    accessibilite: { impacts: ["critical", "serious"] },
+    // EcoIndex : la note de chaque page, d'après son score (méthode ecoindex.fr)
+    ecoindex: {
+      notes: [["A", 80], ["B", 70], ["C", 55], ["D", 40], ["E", 25], ["F", 10], ["G", 0]],
+      scoreMin: 55,
+    },
+    // Q8 : domaines d'un autre propriétaire que le site, et ce qu'ils font
+    tiers: [
+      { motif: /fonts\.(googleapis|gstatic)\.com$/, categorie: "Polices Google" },
+      { motif: /(google-analytics|googletagmanager|analytics\.google)\.com$/, categorie: "Mesure d'audience Google" },
+      { motif: /(youtube|youtube-nocookie|ytimg)\.com$/, categorie: "Vidéo YouTube" },
+      { motif: /(vimeo|vimeocdn)\.com$/, categorie: "Vidéo Vimeo" },
+      { motif: /(facebook|fbcdn|instagram|cdninstagram)\.(com|net)$/, categorie: "Meta" },
+      { motif: /(cdn\.jsdelivr\.net|unpkg\.com|cdnjs\.cloudflare\.com)$/, categorie: "CDN de bibliothèques" },
+      { motif: /(use\.typekit\.net|p\.typekit\.net)$/, categorie: "Polices Adobe" },
+      { motif: /(maps\.googleapis|maps\.gstatic)\.com$/, categorie: "Carte Google" },
+      { motif: /(hotjar|clarity\.ms|matomo\.cloud)/, categorie: "Mesure d'audience" },
+    ],
+    // Q9 : la page de mentions légales, et ce qu'elle doit nommer
+    mentionsLegales: {
+      lien: /mentions[\s-]*l[ée]gales|legal|informations[\s-]*l[ée]gales/i,
+      editeur: /[ée]diteur|responsable de (la )?publication|directeur de (la )?publication|propri[ée]taire du site/i,
+      hebergeur: /h[ée]berg(eur|é|ement)/i,
+    },
+    // Q10 : sous-domaines d'hébergeurs ; un portfolio sur l'un d'eux n'est pas sur son propre domaine
+    hebergeursGratuits: /\.(github\.io|netlify\.app|vercel\.app|pages\.dev|onrender\.com|wixsite\.com|webflow\.io|framer\.(website|app)|surge\.sh|glitch\.me|000webhostapp\.com|infinityfreeapp\.com|wordpress\.com)$/i,
+    // PR2 : les réseaux reconnus, et combien le site doit en relier
+    reseauxMin: 2,
+    reseaux: [
+      { nom: "LinkedIn", motif: /(^|\.)linkedin\.com$/ },
+      { nom: "GitHub", motif: /(^|\.)github\.com$/ },
+      { nom: "Behance", motif: /(^|\.)behance\.net$/ },
+      { nom: "Dribbble", motif: /(^|\.)dribbble\.com$/ },
+      { nom: "Instagram", motif: /(^|\.)instagram\.com$/ },
+      { nom: "Vimeo", motif: /(^|\.)vimeo\.com$/ },
+      { nom: "YouTube", motif: /(^|\.)youtube\.com$/ },
+      { nom: "ArtStation", motif: /(^|\.)artstation\.com$/ },
+      { nom: "X", motif: /(^|\.)(x|twitter)\.com$/ },
+      { nom: "Malt", motif: /(^|\.)malt\.fr$/ },
+    ],
   },
 
   // ===== SITE EN LIGNE (étape 6) =====

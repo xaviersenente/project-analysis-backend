@@ -1,0 +1,227 @@
+{
+  "_commentaire": "Projet individuel S3 : le portfolio en ligne (PLAN-ARCHITECTURE-HYBRIDE.md). Les points suivent le barème du sujet et restent au jury (contraintes manuelles) ; les mesures sont des informations qui préparent le sondage. Passer une mesure en statut C la fait compter.",
+  "id": "s3-portfolio-2026",
+  "nom": "Portfolio S3 · projet individuel (2026-2027)",
+  "profil": "portfolio",
+  "bonusMax": 0,
+  "axes": [
+    {
+      "id": "direction-artistique",
+      "nom": "Direction artistique",
+      "points": 4,
+      "description": "Originalité, cohérence, qualité d'exécution, adéquation au positionnement."
+    },
+    {
+      "id": "editorialisation",
+      "nom": "Éditorialisation",
+      "points": 3,
+      "description": "La sélection des trois projets, leur présentation, l'écriture et la voix personnelle."
+    },
+    {
+      "id": "technique",
+      "nom": "Réalisation technique",
+      "points": 5,
+      "description": "Le niveau démontré en soutenance, sur l'échelle du sujet."
+    },
+    {
+      "id": "qualite-web",
+      "nom": "Qualité web",
+      "points": 3,
+      "description": "Accessibilité, sobriété, référencement, conformité juridique : la grille QUALITE.md et le site lui-même."
+    },
+    {
+      "id": "presence",
+      "nom": "Présence professionnelle",
+      "points": 2,
+      "description": "Les réseaux, la qualité et la cohérence des contenus avec le positionnement."
+    },
+    {
+      "id": "processus",
+      "nom": "Processus",
+      "points": 3,
+      "description": "Journal de bord, historique Git, déclaration IA, tenue du calendrier."
+    }
+  ],
+  "criteres": [
+    {
+      "id": "DA1",
+      "axe": "direction-artistique",
+      "libelle": "Direction artistique",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 4,
+      "seuil": null,
+      "piste": "Originalité au regard du positionnement (pas des tendances), cohérence entre les pages, qualité d'exécution aux trois largeurs (captures), bibliothèques substantiellement adaptées.",
+      "sourceCours": "Sujet §8"
+    },
+    {
+      "id": "ED1",
+      "axe": "editorialisation",
+      "libelle": "Éditorialisation",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 3,
+      "seuil": null,
+      "piste": "Trois projets en profondeur : contexte et commande, rôle exact, processus, choix techniques, résultat. Une page à propos à la première personne. L'orthographe.",
+      "sourceCours": "Sujet §2.2"
+    },
+    {
+      "id": "TE1",
+      "axe": "technique",
+      "libelle": "Niveau technique démontré en soutenance",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 5,
+      "seuil": null,
+      "piste": "Le niveau de l'échelle du sujet (1, 2, 4 ou 5) que l'étudiant a su défendre ; un code non maîtrisé est noté au niveau inférieur.",
+      "sourceCours": "Sujet §8"
+    },
+    {
+      "id": "Q1",
+      "axe": "qualite-web",
+      "libelle": "Pertinence de la grille QUALITE.md",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 1,
+      "seuil": null,
+      "piste": "Des critères tirés de ce site, pas une liste générique : pour chacun, ce qui a été vérifié, comment, et ce qui a été corrigé.",
+      "sourceCours": "Sujet §6"
+    },
+    {
+      "id": "Q2",
+      "axe": "qualite-web",
+      "libelle": "Qualité effective du site (sondage du jury)",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 2,
+      "seuil": null,
+      "piste": "Responsive et les quatre domaines, contrôlés par sondage : les mesures ci-dessous indiquent où regarder.",
+      "sourceCours": "Sujet §6"
+    },
+    {
+      "id": "Q3",
+      "axe": "qualite-web",
+      "libelle": "Aucune erreur d'accessibilité critique ou grave (axe-core)",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "erreurs" },
+      "detailSeuil": "Impacts « critical » et « serious » d'axe-core, sur chaque page parcourue",
+      "piste": "Contrastes, noms accessibles des liens et boutons, alternatives des images, étiquettes des champs.",
+      "sourceCours": "Qualité web · accessibilité"
+    },
+    {
+      "id": "Q4",
+      "axe": "qualite-web",
+      "libelle": "Pas de défilement horizontal à 360 px",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "pages" },
+      "piste": "Un élément plus large que l'écran : une largeur fixe, une image sans max-width, un texte long sans coupure.",
+      "sourceCours": "AC24.01"
+    },
+    {
+      "id": "Q5",
+      "axe": "qualite-web",
+      "libelle": "Référencement de chaque page : lang, title et description propres, un h1",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "pages" },
+      "piste": "Chaque page dit ce qu'elle est : un title et une meta description qui lui sont propres, un seul h1.",
+      "sourceCours": "AC22.04"
+    },
+    {
+      "id": "Q6",
+      "axe": "qualite-web",
+      "libelle": "sitemap.xml et robots.txt",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": null,
+      "piste": "Un sitemap.xml qui liste les pages, un robots.txt qui l'annonce.",
+      "sourceCours": "AC22.04"
+    },
+    {
+      "id": "Q7",
+      "axe": "qualite-web",
+      "libelle": "Sobriété : EcoIndex de chaque page",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "≥", "nombre": 55, "unite": "points" },
+      "detailSeuil": "Note C ou mieux pour chaque page. Estimation à partir du nombre d'éléments, de requêtes et du poids transféré (méthode EcoIndex)",
+      "piste": "Moins de requêtes, des images au bon format et à la bonne taille, pas de vidéo en lecture automatique.",
+      "sourceCours": "Qualité web · sobriété"
+    },
+    {
+      "id": "Q8",
+      "axe": "qualite-web",
+      "libelle": "Aucun service tiers chargé avant consentement",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "services" },
+      "detailSeuil": "Requêtes vers un autre domaine dès le chargement, sans aucune action du visiteur",
+      "piste": "Hébergez polices et scripts vous-même ; une vidéo ou une carte se charge après un clic.",
+      "sourceCours": "AC25.06"
+    },
+    {
+      "id": "Q9",
+      "axe": "qualite-web",
+      "libelle": "Mentions légales : éditeur et hébergeur",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": null,
+      "piste": "Une page de mentions légales accessible depuis toutes les pages, qui nomme l'éditeur du site et son hébergeur (nom, adresse, contact).",
+      "sourceCours": "AC25.06"
+    },
+    {
+      "id": "Q10",
+      "axe": "qualite-web",
+      "libelle": "Nom de domaine propre, en HTTPS",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": null,
+      "piste": "Votre domaine (pas un sous-domaine d'hébergeur), et l'adresse en http:// qui redirige vers https://.",
+      "sourceCours": "AC24.06"
+    },
+    {
+      "id": "Q11",
+      "axe": "qualite-web",
+      "libelle": "Aucun lien interne cassé",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "liens" },
+      "piste": "Chaque lien du site mène à une page qui répond.",
+      "sourceCours": "Qualité web"
+    },
+    {
+      "id": "PR1",
+      "axe": "presence",
+      "libelle": "Présence professionnelle",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 2,
+      "seuil": null,
+      "piste": "LinkedIn et un réseau adapté au parcours, à jour, cohérents avec le positionnement ; le choix justifié dans le journal.",
+      "sourceCours": "Sujet §2.4"
+    },
+    {
+      "id": "PR2",
+      "axe": "presence",
+      "libelle": "Les réseaux sont reliés depuis le site",
+      "statut": "I",
+      "methode": "navigateur",
+      "seuil": { "operateur": "≥", "nombre": 2, "unite": "réseaux" },
+      "piste": "Des liens vers LinkedIn et le réseau choisi, depuis l'en-tête, le pied de page ou la page contact.",
+      "sourceCours": "AC25.03"
+    },
+    {
+      "id": "PC1",
+      "axe": "processus",
+      "libelle": "Processus et conduite de projet",
+      "statut": "C",
+      "methode": "manuel",
+      "points": 3,
+      "seuil": null,
+      "piste": "Journal de bord, historique Git étalé sur le projet, déclaration IA, tenue du calendrier.",
+      "sourceCours": "Sujet §5"
+    }
+  ]
+}

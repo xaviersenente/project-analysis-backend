@@ -1,6 +1,6 @@
 /**
  * Étape 8 : analyse d'un projet à partir de son dépôt, à une version figée.
- * Enchaîne les étapes 1 à 3 et les critères ; rend le résultat v2.
+ * Enchaîne les étapes 1 à 3 et les critères ; rend le résultat v3. Profil SAÉ 105.
  */
 import fs from "fs";
 import path from "path";
@@ -8,11 +8,12 @@ import { creerSuivi } from "../../utils/mesure.js";
 import { resoudreVersion, recuperer, trouverRacineSite, dossierCache } from "../source/depot.js";
 import { analyserSite } from "./analyserSite.js";
 import { nomDuDepot } from "../runtime/serveurLocal.js";
+import { chargerGrille, resumeGrille } from "../grilles/grilles.js";
 
 const URL = /https?:\/\/[^\s)>\]]+/;
 
 /** Liens lus dans le README : site en ligne et maquette Figma */
-const liensDuReadme = (dossier) => {
+export const liensDuReadme = (dossier) => {
   const readme = fs.readdirSync(dossier).find((f) => /^readme\.md$/i.test(f));
   if (!readme) return { site: null, figma: null };
   const lignes = fs.readFileSync(path.join(dossier, readme), "utf-8").split("\n");
@@ -75,13 +76,14 @@ export const alertes = (analyse) => {
 };
 
 /** Adresse web du dépôt, quand c'est un dépôt GitHub */
-const urlDepot = (depot) =>
+export const urlDepot = (depot) =>
   /^[\w.-]+\/[\w.-]+$/.test(depot) && !fs.existsSync(depot) ? `https://github.com/${depot}` : /^https?:\/\//.test(depot) ? depot.replace(/\.git$/, "") : null;
 
 /**
  * @param {object} options
  * @param {{ slug: string, nom: string, groupe: string, depot: string, site?: string, figma?: string }} options.projet
  * @param {{ dateRendu: string, contenusAttendus?: string[] }} options.promo
+ * @param {object} [options.grille] - Grille de la SAÉ ; par défaut, la SAÉ 105
  * @param {string} [options.cache]
  * @param {boolean} [options.sansValidationW3c]
  * @param {boolean} [options.sansNavigateur]
@@ -89,7 +91,7 @@ const urlDepot = (depot) =>
  * @param {boolean} [options.sansEnLigne] - Sans le contrôle du site en ligne (tests, hors connexion)
  * @returns {Promise<{ resultat: object, racineSite: string | null }>}
  */
-export const analyserDepot = async ({ projet, promo, cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false, dossierCaptures = null, sansEnLigne = false }) => {
+export const analyserDepot = async ({ projet, promo, grille = chargerGrille(), cache = dossierCache(), sansValidationW3c = false, sansNavigateur = false, dossierCaptures = null, sansEnLigne = false }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   const version = await mesurer("Version du dépôt", () => resoudreVersion(projet.depot, promo.dateRendu, { cache }));
@@ -103,6 +105,7 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
   const site = projet.site || readme.site;
   const analyse = await analyserSite({
     racine: racineSite,
+    grille,
     promo,
     git: copie ? { dossier: copie, sha: version.sha } : null,
     sansValidationW3c,
@@ -117,7 +120,8 @@ export const analyserDepot = async ({ projet, promo, cache = dossierCache(), san
   });
 
   const resultat = {
-    version: 2,
+    version: 3,
+    grille: resumeGrille(grille),
     source: {
       depot: projet.depot,
       ref: version?.ref ?? "—",

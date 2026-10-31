@@ -1,5 +1,9 @@
 {
-  "_commentaire": "Grille SAÉ 105 2026-2027 (CRITERES-SAE105-2026.md). Copie de référence côté backend ; le frontend en garde une copie pour ses données fictives.",
+  "_commentaire": "Grille SAÉ 105 2026-2027 (CRITERES-SAE105-2026.md). Le résultat en porte un résumé (id, nom, axes) pour le frontend.",
+  "id": "sae105-2026",
+  "nom": "SAÉ 105 · site mobile (2026-2027)",
+  "profil": "sae105",
+  "bonusMax": 5,
   "axes": [
     {
       "id": "graphique",

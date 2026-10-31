@@ -72,8 +72,8 @@ Chaque critère rend ses occurrences (`fichier`, `ligne`, `colonne`, `extrait`).
 
 | Dossier | Rôle |
 |---|---|
-| `config/` | La grille (`grille-sae105-2026.json`) et tous les seuils (`thresholds.js`) |
-| `schema/` | Le format du résultat (v2), partagé avec le frontend |
+| `config/` | Les grilles, une par SAÉ (`grilles/<id>.json`), et tous les seuils (`thresholds.js`) |
+| `schema/` | Le format du résultat (v3), partagé avec le frontend, et celui d'une grille |
 | `scripts/` | `analyser.js`, `vignettes.js`, `migrerDonnees.js` |
 | `services/source/` | Dépôt, inventaire, historique, vignettes |
 | `services/css/`, `services/js/` | Lecture du CSS et des motifs JavaScript |

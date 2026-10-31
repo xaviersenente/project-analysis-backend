@@ -1,24 +1,24 @@
 /**
- * Analyse statique d'un site (lot 1) : inventaire, CSS, critères, notation,
- * vue par page, ressources et blocs d'axe, au format du résultat v2.
+ * Analyse d'un site HTML/CSS (profil SAÉ 105) : inventaire, CSS, critères, notation,
+ * vue par page, ressources et blocs d'axe, au format du résultat v3.
  * Chaque étape est isolée : une étape qui échoue rend ses critères « Non mesurable ».
  */
 import fs from "fs";
 import path from "path";
-import { createRequire } from "module";
 import { createHash } from "crypto";
 import sharp from "sharp";
 import { inventorier } from "../source/inventaire.js";
 import { chargerCss } from "../css/sources.js";
 import { creerSuivi } from "../../utils/mesure.js";
 import { creerContexte } from "./contexte.js";
-import { nonMesurable } from "./mesure.js";
+import { nonMesurable, aJuger } from "./mesure.js";
 import { pointsParContrainte, points, noter } from "./notation.js";
 import graphique, { variablesCouleur, enPixels } from "./graphique.js";
 import ergonomie, { imagesDuSite, lienVersSoi } from "./ergonomie.js";
 import accessibilite, { pagesParBalise, ecartsTitres } from "./accessibilite.js";
 import methodologie, { problemesNom, classesCss, classesHtml, mesureBem, analyseJavascript } from "./methodologie.js";
 import enNavigateur, { blocLighthouse, celluleLighthouse, poidsAccueil } from "./enNavigateur.js";
+import { chargerGrille } from "../grilles/grilles.js";
 import { mesurerNavigateur } from "../runtime/navigateur.js";
 import { lireHistorique } from "../source/historique.js";
 import fidelite, { blocMaquette } from "./maquette.js";
@@ -28,9 +28,8 @@ import { dossierCache } from "../source/depot.js";
 import { verifierEnLigne } from "../runtime/enLigne.js";
 import { versionsLinguistiques, pagesEvaluees } from "../source/langues.js";
 
-const grille = createRequire(import.meta.url)("../../config/grille-sae105-2026.json");
-const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur, ...fidelite };
-const MAX_POINTS = pointsParContrainte(grille);
+// Analyseurs du profil SAÉ 105, par identifiant de critère
+export const ANALYSEURS = { ...graphique, ...ergonomie, ...accessibilite, ...methodologie, ...enNavigateur, ...fidelite };
 
 // Critères qui ne lisent que le HTML : ils restent mesurables si le CSS est illisible
 const SANS_CSS = new Set(["E1", "E2", "E7", "E8", "E9", "E10", "E12", "E13", "E14", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A15", "A16", "M1", "M8", "M9", "M11", "M12", "M13", "M14", "G5", "G6", "G10", "G11"]);
@@ -202,6 +201,7 @@ const ecrireCaptures = async (ctx, dossier, cache) => {
 /**
  * @param {object} options
  * @param {string} options.racine - Racine du site sur le disque
+ * @param {object} [options.grille] - Grille de la SAÉ (config/grilles) ; par défaut, la SAÉ 105
  * @param {object} [options.promo] - Fichier de promo (contenus attendus)
  * @param {{ dossier: string, sha: string } | null} [options.git] - Historique de la version analysée
  * @param {boolean} [options.sansValidationW3c]
@@ -216,6 +216,7 @@ const ecrireCaptures = async (ctx, dossier, cache) => {
  */
 export const analyserSite = async ({
   racine,
+  grille = chargerGrille(),
   promo = {},
   git = null,
   sansValidationW3c = false,
@@ -290,10 +291,12 @@ export const analyserSite = async ({
     }
   }
 
+  const maxPoints = pointsParContrainte(grille);
   const criteres = [];
   for (const modele of grille.criteres) {
     let mesure;
     if (!ctx) mesure = nonMesurable(raisonEchec ?? "L'inventaire des pages a échoué");
+    else if (!ANALYSEURS[modele.id]) mesure = modele.methode === "manuel" ? aJuger() : nonMesurable("Aucun analyseur pour ce critère dans ce profil");
     else if (!css && !SANS_CSS.has(modele.id)) mesure = nonMesurable("Le CSS n'a pas pu être lu");
     else {
       try {
@@ -305,7 +308,7 @@ export const analyserSite = async ({
     }
     const { bonusPoints, horsConvention, ...propre } = mesure;
     const critere = { ...modele, ...propre, bonusPoints };
-    critere.points = points(critere, MAX_POINTS[modele.id]);
+    critere.points = points(critere, maxPoints[modele.id], grille.bonusMax);
     delete critere.bonusPoints;
     critere.occurrences = (critere.occurrences ?? []).map((o) => ({ surligne: null, ...o }));
     critere.totalOccurrences = critere.occurrences.length;
@@ -314,7 +317,7 @@ export const analyserSite = async ({
 
   return {
     criteres,
-    note: noter(criteres),
+    note: noter(criteres, grille),
     pages: ctx ? vueParPage(ctx) : undefined,
     ressources: ctx ? await mesurer("Ressources", () => ressources(ctx)) ?? undefined : undefined,
     blocs: ctx && css ? await mesurer("Blocs d'axe", () => blocs(ctx)) ?? undefined : undefined,

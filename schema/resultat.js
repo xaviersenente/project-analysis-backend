@@ -1,12 +1,12 @@
 // Copie du schéma du frontend (project-analysis-frontend/src/schema/resultat.js) : les deux doivent rester identiques
 /**
- * Schéma du résultat d'analyse, version 2 (CRITERES-SAE105-2026.md, étape 8)
+ * Schéma du résultat d'analyse, version 3 (CRITERES-SAE105-2026.md, étape 8 ; PLAN-ARCHITECTURE-HYBRIDE.md, lot 1)
  * Il fixe le contrat entre le backend (qui écrit un JSON par étudiant)
  * et l'interface (qui les lit au build). Correction P3.
+ * Version 3 : les axes viennent de la grille de la SAÉ, que le résultat résume (grille).
  */
 import { z } from "zod";
 
-export const AXES = ["graphique", "ergonomie", "accessibilite", "methodologie"];
 export const STATUTS = ["C", "R", "B", "I"];
 export const VERDICTS = [
   "respecte",
@@ -15,7 +15,8 @@ export const VERDICTS = [
   "non-mesurable",
   "a-juger",
 ];
-export const METHODES = ["auto", "depot", "navigateur", "manuel"];
+// « ia » : un niveau proposé par l'agent, avec ses preuves, que l'enseignant valide
+export const METHODES = ["auto", "depot", "navigateur", "ia", "manuel"];
 export const TYPES_ALERTE = [
   "site-inaccessible",
   "pages-404",
@@ -27,6 +28,8 @@ export const TYPES_ALERTE = [
 ];
 
 export const SLUG_REGEX = /^[a-z0-9-]+$/;
+// G1, E12, Q5, PRO2…
+export const ID_CRITERE_REGEX = /^[A-Z]{1,3}\d+$/;
 
 /** Une occurrence : où, et quoi (règle du projet : aucun total sans son détail) */
 export const occurrenceSchema = z.object({
@@ -46,8 +49,8 @@ export const seuilSchema = z.object({
 
 export const critereSchema = z
   .object({
-    id: z.string().regex(/^[GEAM]\d+$/),
-    axe: z.enum(AXES),
+    id: z.string().regex(ID_CRITERE_REGEX),
+    axe: z.string(),
     libelle: z.string().min(1),
     statut: z.enum(STATUTS),
     methode: z.enum(METHODES),
@@ -65,6 +68,20 @@ export const critereSchema = z
     raison: z.string().optional(),
     occurrences: z.array(occurrenceSchema),
     totalOccurrences: z.number().int().min(0),
+    // Critère « ia » : les niveaux possibles, et la proposition de l'agent (jamais des points)
+    echelle: z.array(z.string()).optional(),
+    proposition: z
+      .object({
+        niveau: z.string(),
+        justification: z.string(),
+        // Chaque preuve a été retrouvée à la ligne citée ; les autres sont écartées
+        preuves: z.array(occurrenceSchema),
+        preuvesEcartees: z.number().int().min(0),
+        modele: z.string(),
+        // Empreinte du prompt : toute la promo est évaluée avec le même
+        prompt: z.string(),
+      })
+      .optional(),
     // Ajouté par le frontend depuis data/notes/<slug>.json (mode local) : jamais écrit par l'analyse
     enseignant: z
       .object({
@@ -81,6 +98,24 @@ export const critereSchema = z
   });
 
 const pointsAxeSchema = z.object({ obtenus: z.number(), max: z.number() });
+
+/** Résumé de la grille porté par le résultat : ce que l'interface affiche */
+export const grilleResumeSchema = z.object({
+  id: z.string(),
+  nom: z.string(),
+  // Le profil d'analyse : l'interface en tire ses sections (vue par page ou site parcouru…)
+  profil: z.string().optional(),
+  axes: z
+    .array(
+      z.object({
+        id: z.string(),
+        nom: z.string(),
+        points: z.number(),
+        description: z.string(),
+      })
+    )
+    .min(1),
+});
 
 /** Les contrôles vérifiés page par page (colonnes de la matrice) */
 export const CONTROLES_PAGE = [
@@ -282,97 +317,145 @@ export const ressourcesSchema = z.object({
   ),
 });
 
-export const resultatSchema = z.object({
-  version: z.literal(2),
-  source: z.object({
-    depot: z.string(),
-    ref: z.string(),
-    sha: z.string(),
-    raison: z.string(),
-    analyseLe: z.iso.datetime({ offset: true }),
-  }),
-  projet: z.object({
-    slug: z.string().regex(SLUG_REGEX),
-    nom: z.string(),
-    groupe: z.string(),
-  }),
-  // Fichier de promo, sinon README de l'étudiant ; null si non renseigné
-  liens: z.object({
-    site: z.url().nullable(),
-    depot: z.url().nullable(),
-    figma: z.url().nullable(),
-  }),
-  note: z.object({
-    base: z.number(),
-    // 100, moins les points des critères non mesurables (jamais imputés à l'étudiant)
-    max: z.number().max(100),
-    bonus: z.number().min(0),
-    totale: z.number().max(100),
-    lettre: z.string(),
-    // Barème des lettres (pourcentage minimal de chacune) ; absent des résultats plus anciens
-    lettres: z.record(z.string(), z.number()).optional(),
-    // Points des critères « À juger », pas encore attribués
-    aJuger: z.number().min(0),
-    parAxe: z.object(Object.fromEntries(AXES.map((a) => [a, pointsAxeSchema]))),
-  }),
-  criteres: z.array(critereSchema),
-  alertes: z.array(
-    z.object({
-      type: z.enum(TYPES_ALERTE),
-      message: z.string(),
-      details: z.string().optional(),
-    })
-  ),
-  nonMesurable: z.array(z.object({ etape: z.string(), raison: z.string() })),
-  // Site bilingue (fr/, en/) : seule la langue analysée est évaluée, les autres sont comparées
-  langues: z
-    .object({
-      analysee: z.string(),
-      versions: z.array(z.object({ langue: z.string(), pages: z.array(z.string()) })),
-      complet: z.boolean(),
-      // Pages sans équivalent, quand les noms de fichiers se répondent d'une langue à l'autre
-      manquantes: z.array(z.string()),
-    })
-    .optional(),
-  // Commentaire général de l'enseignant (mode local), publié avec la note
-  commentaire: z.string().nullable().optional(),
-  // Vue par page : absente si l'inventaire des pages a échoué
-  pages: z.array(pageSchema).optional(),
-  ressources: ressourcesSchema.optional(),
-  // Blocs propres à chaque axe ; un bloc absent est « Non mesurable »
-  blocs: blocsSchema.optional(),
-  // Historique Git et timeline (lot 3) ; absent si le dépôt n'a pas pu être lu
-  historique: historiqueSchema.optional(),
-  // Contrôle léger du site en ligne (lot 4) : rien de noté ; absent sans adresse de site
-  enLigne: z
-    .object({
-      url: z.string(),
-      verifieLe: z.string(),
-      repond: z.boolean(),
-      raison: z.string().optional(),
-      pages: z.object({ total: z.number(), enErreur: z.number() }),
-      ressources: z.object({ total: z.number(), enErreur: z.number(), nonVerifiees: z.number() }),
-      erreurs: z.array(
-        z.object({
-          type: z.enum(["page", "ressource"]),
-          chemin: z.string(),
-          url: z.string(),
-          // 0 : aucune réponse
-          statut: z.number(),
-          // Ce que le dépôt explique ; null : le fichier existe dans la version évaluée
-          cause: z.enum(["casse", "chemin-racine", "absent-du-depot"]).nullable(),
-          citePar: z.array(z.object({ page: z.string(), ligne: z.number().nullable() })),
-        })
-      ),
-      // Dernier déploiement GitHub Pages ; null si l'API ne le donne pas
-      deploiement: z.object({ sha: z.string(), date: z.string(), versionEvaluee: z.boolean() }).nullable(),
-    })
-    .optional(),
-});
+export const resultatSchema = z
+  .object({
+    version: z.literal(3),
+    grille: grilleResumeSchema,
+    source: z.object({
+      depot: z.string(),
+      ref: z.string(),
+      sha: z.string(),
+      raison: z.string(),
+      analyseLe: z.iso.datetime({ offset: true }),
+    }),
+    projet: z.object({
+      slug: z.string().regex(SLUG_REGEX),
+      nom: z.string(),
+      groupe: z.string(),
+    }),
+    // Fichier de promo, sinon README de l'étudiant ; null si non renseigné
+    liens: z.object({
+      site: z.url().nullable(),
+      depot: z.url().nullable(),
+      figma: z.url().nullable(),
+    }),
+    note: z.object({
+      base: z.number(),
+      // Total de la grille, moins les points des critères non mesurables (jamais imputés à l'étudiant)
+      max: z.number(),
+      // Total de la grille (100 pour la SAÉ 105, 20 pour le portfolio)
+      total: z.number().positive(),
+      bonus: z.number().min(0),
+      totale: z.number(),
+      lettre: z.string(),
+      // Barème des lettres (pourcentage minimal de chacune) ; absent des résultats plus anciens
+      lettres: z.record(z.string(), z.number()).optional(),
+      // Points des critères « À juger », pas encore attribués
+      aJuger: z.number().min(0),
+      parAxe: z.record(z.string(), pointsAxeSchema),
+    }),
+    criteres: z.array(critereSchema),
+    alertes: z.array(
+      z.object({
+        type: z.enum(TYPES_ALERTE),
+        message: z.string(),
+        details: z.string().optional(),
+      })
+    ),
+    nonMesurable: z.array(z.object({ etape: z.string(), raison: z.string() })),
+    // Site bilingue (fr/, en/) : seule la langue analysée est évaluée, les autres sont comparées
+    langues: z
+      .object({
+        analysee: z.string(),
+        versions: z.array(z.object({ langue: z.string(), pages: z.array(z.string()) })),
+        complet: z.boolean(),
+        // Pages sans équivalent, quand les noms de fichiers se répondent d'une langue à l'autre
+        manquantes: z.array(z.string()),
+      })
+      .optional(),
+    // Commentaire général de l'enseignant (mode local), publié avec la note
+    commentaire: z.string().nullable().optional(),
+    // Vue par page : absente si l'inventaire des pages a échoué
+    pages: z.array(pageSchema).optional(),
+    ressources: ressourcesSchema.optional(),
+    // Blocs propres à chaque axe ; un bloc absent est « Non mesurable »
+    blocs: blocsSchema.optional(),
+    // Historique Git et timeline (lot 3) ; absent si le dépôt n'a pas pu être lu
+    historique: historiqueSchema.optional(),
+    // Profil portfolio : le site en ligne parcouru (livrable), sans exécuter le code du dépôt
+    parcours: z
+      .object({
+        url: z.string(),
+        parcouruLe: z.string(),
+        https: z.object({ actif: z.boolean(), redirection: z.boolean().nullable() }),
+        robots: z.boolean(),
+        sitemap: z.object({ present: z.boolean(), urls: z.number().int().min(0) }),
+        // Adresses trouvées mais pas visitées (limite de pages de la configuration)
+        nonParcourues: z.number().int().min(0),
+        pages: z.array(
+          z.object({
+            chemin: z.string(),
+            url: z.string(),
+            statut: z.number(),
+            erreur: z.string().nullable().optional(),
+            titre: z.string().nullable().optional(),
+            poidsKo: z.number().min(0).optional(),
+            requetes: z.number().int().min(0).optional(),
+            dom: z.number().int().min(0).optional(),
+            ecoindex: z.object({ score: z.number(), note: z.string() }).optional(),
+            debordement: z.boolean().optional(),
+            violations: z.number().int().min(0).optional(),
+            tiers: z.number().int().min(0).optional(),
+            // WebP relatifs à la page du projet (captures/<nom>.webp)
+            captures: z.array(z.object({ largeur: z.number(), image: z.string() })),
+          })
+        ),
+        tiers: z.array(z.object({ hote: z.string(), categorie: z.string(), pages: z.array(z.string()) })),
+        cookies: z.array(z.object({ nom: z.string(), domaine: z.string(), tiers: z.boolean() })),
+      })
+      .optional(),
+    // Contrôle léger du site en ligne (lot 4) : rien de noté ; absent sans adresse de site
+    enLigne: z
+      .object({
+        url: z.string(),
+        verifieLe: z.string(),
+        repond: z.boolean(),
+        raison: z.string().optional(),
+        pages: z.object({ total: z.number(), enErreur: z.number() }),
+        ressources: z.object({ total: z.number(), enErreur: z.number(), nonVerifiees: z.number() }),
+        erreurs: z.array(
+          z.object({
+            type: z.enum(["page", "ressource"]),
+            chemin: z.string(),
+            url: z.string(),
+            // 0 : aucune réponse
+            statut: z.number(),
+            // Ce que le dépôt explique ; null : le fichier existe dans la version évaluée
+            cause: z.enum(["casse", "chemin-racine", "absent-du-depot"]).nullable(),
+            citePar: z.array(z.object({ page: z.string(), ligne: z.number().nullable() })),
+          })
+        ),
+        // Dernier déploiement GitHub Pages ; null si l'API ne le donne pas
+        deploiement: z.object({ sha: z.string(), date: z.string(), versionEvaluee: z.boolean() }).nullable(),
+      })
+      .optional(),
+  })
+  .superRefine((r, ctx) => {
+    const axes = r.grille.axes.map((a) => a.id);
+    const parAxe = Object.keys(r.note.parAxe);
+    if (axes.length !== parAxe.length || !axes.every((a) => parAxe.includes(a))) {
+      ctx.addIssue({ code: "custom", path: ["note", "parAxe"], message: "parAxe doit reprendre les axes de la grille" });
+    }
+    r.criteres.forEach((c, i) => {
+      if (!axes.includes(c.axe)) ctx.addIssue({ code: "custom", path: ["criteres", i, "axe"], message: `Axe hors de la grille : ${c.axe}` });
+    });
+  });
 
 export const promoSchema = z.object({
   promo: z.string(),
   dateRendu: z.iso.datetime({ offset: true }),
+  // Grille de la SAÉ (config/grilles/<id>.json) ; sans elle, la SAÉ 105
+  grille: z.string().regex(/^[a-z0-9-]+$/).optional(),
   projets: z.array(
     z.object({
       slug: z.string().regex(SLUG_REGEX),

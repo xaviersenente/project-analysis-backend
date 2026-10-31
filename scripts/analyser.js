@@ -1,8 +1,9 @@
 /**
- * Analyse des projets de la promo, en local (lot 1 : analyse statique du dépôt)
+ * Analyse des projets de la promo, en local
  *
- * Pour chaque projet du fichier de promo : version figée du dépôt, analyse,
- * résultat v2 dans data/<slug>.json et vignettes dans data/vignettes/<slug>/.
+ * Pour chaque projet du fichier de promo : version figée du dépôt, analyse selon la grille
+ * de la promo (grille, sinon la SAÉ 105), résultat v3 dans data/<slug>.json
+ * et vignettes dans data/vignettes/<slug>/.
  *
  * Usage :
  *   node scripts/analyser.js --slug etu-01
@@ -17,7 +18,8 @@ import { parseArgs } from "util";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 import { chargerPromo, cheminResultat, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
-import { analyserDepot } from "../services/analyse/analyserDepot.js";
+import { chargerGrille, GRILLE_PAR_DEFAUT } from "../services/grilles/grilles.js";
+import { profilDe } from "../services/profils/index.js";
 import { rafraichirVignettes } from "../services/source/vignettes.js";
 import { copierPolices } from "../services/source/polices.js";
 
@@ -55,15 +57,26 @@ if (projets.length === 0) {
   process.exit(1);
 }
 
+let grille, profil;
+try {
+  grille = chargerGrille(promo.grille ?? GRILLE_PAR_DEFAUT);
+  profil = profilDe(grille);
+} catch (error) {
+  console.error(error.message);
+  process.exit(1);
+}
+console.log(`Grille : ${grille.nom}`);
+
 for (const projet of projets) {
   if (!projet.depot) {
     console.log(`${projet.slug} : pas de dépôt dans le fichier de promo, ignoré`);
     continue;
   }
   const debut = Date.now();
-  const { resultat, racineSite } = await analyserDepot({
+  const { resultat, racineSite } = await profil.analyser({
     projet,
     promo,
+    grille,
     sansValidationW3c: values["sans-w3c"],
     sansNavigateur: values["sans-navigateur"],
     sansEnLigne: values["sans-en-ligne"],

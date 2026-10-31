@@ -15,7 +15,7 @@ const { ergonomie, accessibilite, graphique } = thresholds.sae105;
 const DELAI_PAGE = thresholds.performance.timeouts.default;
 
 /** Exécuté dans la page : les éléments qui dépassent à droite du viewport */
-function mesurerDebordement() {
+export function mesurerDebordement() {
   const largeur = document.documentElement.clientWidth;
   const coupables = [...document.body.querySelectorAll("*")]
     .filter((el) => {
