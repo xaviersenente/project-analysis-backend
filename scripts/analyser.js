@@ -11,6 +11,7 @@
  *   node scripts/analyser.js --tous --sans-w3c      (sans Java)
  *   node scripts/analyser.js --tous --sans-navigateur  (sans Chrome : plus rapide)
  *   node scripts/analyser.js --tous --sans-en-ligne    (sans le contrôle du site publié)
+ *   node scripts/analyser.js --slug etu-01 --graine 2  (portfolio : un autre tirage de la fiche de soutenance)
  */
 import fs from "fs";
 import path from "path";
@@ -34,6 +35,8 @@ const { values } = parseArgs({
     "sans-w3c": { type: "boolean", default: false },
     "sans-navigateur": { type: "boolean", default: false },
     "sans-en-ligne": { type: "boolean", default: false },
+    // Fiche de soutenance (portfolio) : un autre numéro donne un autre tirage
+    graine: { type: "string", default: "1" },
   },
 });
 
@@ -80,6 +83,7 @@ for (const projet of projets) {
     sansValidationW3c: values["sans-w3c"],
     sansNavigateur: values["sans-navigateur"],
     sansEnLigne: values["sans-en-ligne"],
+    graine: Number(values.graine) || 1,
     dossierCaptures: path.join(dossierDonnees(), "captures", projet.slug),
   });
 

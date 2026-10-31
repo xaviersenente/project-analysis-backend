@@ -337,6 +337,21 @@ export default {
       tailleMaxKo: 300,
     },
 
+    // Lot 4 : la fiche de soutenance (sujet §7 : une portion de code tirée au sort)
+    soutenance: {
+      tirages: 3,
+      // Une portion : un bloc de lignes consécutives, assez fourni pour poser des questions
+      lignes: 20,
+      lignesUtilesMin: 10,
+      // Le code écrit par l'étudiant ; ni bibliothèques, ni code généré, ni configuration
+      sources: /\.(astro|vue|jsx|tsx|svelte|js|ts|mjs|php|css|scss|html|twig)$/i,
+      exclus: /(^|\/)(node_modules|vendor|dist|build|public\/build|\.astro|\.next|\.nuxt|pb_migrations|migrations|pb_data|wp-admin|wp-includes)\/|\.min\.|\.d\.ts$|(^|\/)(astro|vite|tailwind|postcss|next|nuxt|svelte|eslint|prettier|tsconfig|jsconfig)\.config\.|(^|\/)(package(-lock)?|composer)\.json$/i,
+      // Lignes qui n'apprennent rien : vides, commentaires, imports
+      inutiles: /^\s*($|\/\/|\/\*|\*|<!--|#|import\s|export\s+\*|use\s|require\(|\}|\);?$|<\/[\w-]+>$)/,
+      // Questions proposées par l'IA : seulement si le fichier de promo le demande (ia.questionsSoutenance)
+      ia: { modele: "claude-opus-5-5", effort: "high", maxTokens: 16000 },
+    },
+
     // PR2 : les réseaux reconnus, et combien le site doit en relier
     reseauxMin: 2,
     reseaux: [

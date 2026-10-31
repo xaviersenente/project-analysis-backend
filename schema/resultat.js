@@ -416,6 +416,36 @@ export const resultatSchema = z
         cookies: z.array(z.object({ nom: z.string(), domaine: z.string(), tiers: z.boolean() })),
       })
       .optional(),
+    // Portfolio : la fiche de soutenance (portions de code tirées au sort, questions proposées)
+    soutenance: z
+      .object({
+        // De quoi refaire le tirage à l'identique : projet · version · numéro du tirage
+        graine: z.string(),
+        candidats: z.number().int().min(0),
+        tirages: z.array(
+          z.object({
+            fichier: z.string(),
+            debut: z.number().int().positive(),
+            fin: z.number().int().positive(),
+            langage: z.string(),
+            code: z.string(),
+            // null : les questions n'ont pas pu être proposées pour ce passage
+            questions: z
+              .array(z.object({ question: z.string(), attendu: z.string(), lignes: z.object({ debut: z.number().int(), fin: z.number().int() }) }))
+              .nullable()
+              .optional(),
+          })
+        ),
+        ia: z.object({
+          statut: z.enum(["desactivees", "proposees", "echec"]),
+          raison: z.string().optional(),
+          modele: z.string().optional(),
+          prompt: z.string().optional(),
+          // Questions écartées : leurs lignes n'étaient pas dans le passage
+          ecartees: z.number().int().min(0).optional(),
+        }),
+      })
+      .optional(),
     // Contrôle léger du site en ligne (lot 4) : rien de noté ; absent sans adresse de site
     enLigne: z
       .object({
@@ -458,6 +488,8 @@ export const promoSchema = z.object({
   dateRendu: z.iso.datetime({ offset: true }),
   // Début du projet (portfolio : les semaines attendues dans le journal) ; sinon, le premier commit
   dateDebut: z.iso.datetime({ offset: true }).optional(),
+  // Questions de soutenance proposées par l'IA : seulement si le service est autorisé (désactivé par défaut)
+  ia: z.object({ questionsSoutenance: z.boolean().optional() }).optional(),
   // Grille de la SAÉ (config/grilles/<id>.json) ; sans elle, la SAÉ 105
   grille: z.string().regex(/^[a-z0-9-]+$/).optional(),
   projets: z.array(

@@ -18,6 +18,8 @@ import processus from "./processus.js";
 import thresholds from "../../config/thresholds.js";
 import { lireHistorique } from "../source/historique.js";
 import { fichiersDuDepot, tracesIaDansHistorique, elementsSensibles, declaratif } from "../source/depotPortfolio.js";
+import { tirerPortions } from "../soutenance/tirage.js";
+import { proposerQuestions, EMPREINTE_PROMPT } from "../soutenance/questions.js";
 
 export const ANALYSEURS = { ...qualiteWeb, ...processus };
 
@@ -117,9 +119,11 @@ const alertes = (ctx) => {
  * @param {string} [options.cache]
  * @param {boolean} [options.sansNavigateur] - Sans parcours du site (tests, hors connexion)
  * @param {string} [options.dossierCaptures]
+ * @param {number} [options.graine] - Numéro du tirage de la fiche de soutenance (1 par défaut)
+ * @param {object} [options.clientIa] - Client Anthropic (tests) ; les questions ne sont demandées que si la promo l'autorise
  * @returns {Promise<{ resultat: object, racineSite: null }>}
  */
-export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, dossierCaptures = null }) => {
+export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, dossierCaptures = null, graine = 1, clientIa = undefined }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   // Le dépôt : sa version au rendu (l'historique et les fichiers déclaratifs viennent au lot 3)
@@ -143,6 +147,28 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   } else {
     ctx.raisonDepot = ctx.raisonHistorique = projet.depot ? `Dépôt illisible : ${etapes.at(-1)?.raison ?? "version introuvable"}` : "Pas de dépôt dans le fichier de promo";
   }
+  // Lot 4 : la fiche de soutenance, une portion de code tirée au sort et, si la promo l'autorise, des questions
+  const soutenance = ctx.depot
+    ? await mesurer("Tirage de la fiche de soutenance", async () => {
+        const tirage = tirerPortions({ dossier: copie, sha: version.sha, fichiers: ctx.depot.fichiers, slug: projet.slug, email: projet.email ?? null, graine });
+        const ia = { statut: "desactivees", raison: "Désactivées : le fichier de promo ne les demande pas (ia.questionsSoutenance)" };
+        if (promo.ia?.questionsSoutenance && tirage.tirages.length) {
+          Object.assign(ia, { statut: "proposees", raison: undefined, modele: thresholds.portfolio.soutenance.ia.modele, prompt: EMPREINTE_PROMPT, ecartees: 0 });
+          for (const t of tirage.tirages) {
+            try {
+              const { questions, ecartees } = await proposerQuestions(t, clientIa);
+              t.questions = questions;
+              ia.ecartees += ecartees;
+            } catch (error) {
+              t.questions = null;
+              Object.assign(ia, { statut: "echec", raison: `Questions non proposées : ${error.message.split("\n")[0]}` });
+            }
+          }
+        }
+        return { ...tirage, ia };
+      })
+    : null;
+
   // La période du projet : du début annoncé (dateDebut), sinon du premier commit, au rendu
   const premierCommit = ctx.historique?.sessions[0]?.debut;
   ctx.periode = { debut: new Date(promo.dateDebut ?? premierCommit ?? promo.dateRendu), fin: new Date(promo.dateRendu) };
@@ -170,6 +196,7 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
     criteres,
     parcours: ctx.parcours ? resumeParcours(ctx.parcours) : undefined,
     historique: ctx.historique ?? undefined,
+    soutenance: soutenance ?? undefined,
     alertes: alertes(ctx),
     nonMesurable: etapes,
   };
