@@ -5,6 +5,7 @@
 import thresholds from "../../config/thresholds.js";
 import { respecte, nonRespecte, nonMesurable, parAbsence } from "./mesure.js";
 import methodologie from "./methodologie.js";
+import { regleDebordement, regleCibles, reglePoidsAccueil } from "./regles.js";
 
 const { ergonomie, accessibilite } = thresholds.sae105;
 export const NAVIGATEUR = "Contrôle en navigateur (Lighthouse, Puppeteer) non lancé";
@@ -50,14 +51,11 @@ const moyenne = (valeurs) => {
 const debordement = (ctx, cle, limite) => {
   const { pages, raison } = mesures(ctx);
   if (!pages) return nonMesurable(raison);
-  const fautives = pages.filter((m) => m[cle].largeur > m[cle].viewport);
-  const occurrences = fautives.flatMap((m) =>
-    m[cle].coupables.length
-      ? m[cle].coupables.map((c) => occurrence(ctx, m.fichier, c.extrait, `dépasse jusqu'à ${c.droite} px`))
-      : [occurrence(ctx, m.fichier, "", `page large de ${m[cle].largeur} px`)]
+  return regleDebordement(
+    pages.map((m) => ({ fichier: m.fichier, ...m[cle] })),
+    limite,
+    (fichier, extrait, precision) => occurrence(ctx, fichier, extrait, precision)
   );
-  const valeur = Math.max(...pages.map((m) => m[cle].largeur));
-  return fautives.length === 0 ? respecte(valeur) : nonRespecte(valeur, occurrences, { detailValeur: `${fautives.length} page${fautives.length > 1 ? "s" : ""} sur ${pages.length}, à ${limite} px` });
 };
 
 /** Moyennes Lighthouse et paires en échec, pour le bloc Accessibilité */
@@ -100,10 +98,9 @@ export default {
   E4: (ctx) => {
     const { pages, raison } = mesures(ctx);
     if (!pages) return nonMesurable(raison);
-    const petites = pages.flatMap((m) => m.cibles.map((c) => ({ ...c, fichier: m.fichier })));
-    const occurrences = petites.map((c) => occurrence(ctx, c.fichier, c.extrait, `${c.largeur} × ${c.hauteur} px`));
-    const valeur = petites.length ? Math.min(...petites.map((c) => Math.min(c.largeur, c.hauteur))) : null;
-    return petites.length === 0 ? respecte(null, { detailValeur: "toutes les commandes ≥ 44 px" }) : nonRespecte(valeur, occurrences);
+    return regleCibles(
+      pages.flatMap((m) => m.cibles.map((c) => ({ ...c, occurrence: occurrence(ctx, m.fichier, c.extrait, `${c.largeur} × ${c.hauteur} px`) })))
+    );
   },
 
   E5: (ctx) => debordement(ctx, "debordement", ergonomie.viewportPx),
@@ -113,7 +110,7 @@ export default {
     if (!pages) return nonMesurable(raison);
     const poids = poidsAccueil(ctx);
     if (poids === null) return nonMesurable(`Pas de page ${ctx.langues ? `${ctx.langues.analysee}/` : ""}index.html mesurée`);
-    return poids < ergonomie.accueilMaxKo ? respecte(poids) : nonRespecte(poids);
+    return reglePoidsAccueil(poids);
   },
 
   E15: (ctx) => {

@@ -5,7 +5,8 @@ import fs from "fs";
 import path from "path";
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
-import { respecte, nonRespecte, partiel, parRatio, parAbsence } from "./mesure.js";
+import { respecte, nonRespecte, parRatio, parAbsence } from "./mesure.js";
+import { regleParPage, regleEtats, reglePoidsImages, regleFormatsPhotos, occSimple } from "./regles.js";
 
 const S = thresholds.sae105.ergonomie;
 
@@ -37,14 +38,7 @@ export const lienVersSoi = (page) =>
     });
 
 /** Contrôle à faire sur chaque page : rend les pages en échec */
-const surChaquePage = (ctx, verifier) => {
-  const occurrences = ctx.pages.flatMap((page) => verifier(page) ?? []);
-  return occurrences.length === 0
-    ? respecte(null, { detailValeur: `${ctx.pages.length} pages sur ${ctx.pages.length}` })
-    : nonRespecte(null, occurrences, {
-        detailValeur: `${ctx.pages.length - new Set(occurrences.map((o) => o.fichier)).size} pages sur ${ctx.pages.length}`,
-      });
-};
+const surChaquePage = (ctx, verifier) => regleParPage(ctx.pages.length, ctx.pages.flatMap((page) => verifier(page) ?? []));
 
 export default {
   E1: (ctx) =>
@@ -66,12 +60,7 @@ export default {
 
   E3: (ctx) => {
     const selecteurs = ctx.regles().map((r) => r.selector).join(" ");
-    const etats = [":hover", ":focus-visible", ":active"];
-    const presents = etats.filter((e) => selecteurs.includes(e));
-    const manquants = etats.filter((e) => !presents.includes(e));
-    const detailValeur = manquants.length ? `manque ${manquants.join(", ")}` : "les trois";
-    if (manquants.length === 0) return respecte(3, { detailValeur });
-    return presents.length ? partiel(presents.length, [], { detailValeur }) : nonRespecte(0, [], { detailValeur });
+    return regleEtats((etat) => selecteurs.includes(etat));
   },
 
   E6: (ctx) => {
@@ -129,21 +118,16 @@ export default {
   },
 
   E10: (ctx) => {
-    const images = imagesDuSite(ctx);
-    const lourdes = images.filter((i) => i.poidsKo > S.imageMaxKo);
-    const occurrences = lourdes.map((i) => ({ fichier: i.fichier, ligne: null, colonne: null, extrait: `${path.posix.basename(i.fichier)} · ${i.poidsKo} Ko`, surligne: null }));
-    const max = images.reduce((m, i) => Math.max(m, i.poidsKo), 0);
-    return lourdes.length === 0 ? respecte(max) : nonRespecte(max, occurrences);
+    return reglePoidsImages(
+      imagesDuSite(ctx).map((i) => ({ poidsKo: i.poidsKo, occurrence: occSimple(i.fichier, `${path.posix.basename(i.fichier)} · ${i.poidsKo} Ko`) }))
+    );
   },
 
   E12: (ctx) => {
-    const photos = imagesDuSite(ctx).filter((i) => PHOTO.test(i.fichier));
-    const anciennes = photos.filter((i) => !S.formatsPhoto.includes(path.extname(i.fichier).slice(1).toLowerCase()));
-    return parRatio(
-      photos.length - anciennes.length,
-      photos.length,
-      S.formatsPhotoRatio,
-      anciennes.map((i) => ({ fichier: i.fichier, ligne: null, colonne: null, extrait: path.posix.basename(i.fichier), surligne: null }))
+    return regleFormatsPhotos(
+      imagesDuSite(ctx)
+        .filter((i) => PHOTO.test(i.fichier))
+        .map((i) => ({ format: path.extname(i.fichier).slice(1).toLowerCase(), occurrence: occSimple(i.fichier, path.posix.basename(i.fichier)) }))
     );
   },
 

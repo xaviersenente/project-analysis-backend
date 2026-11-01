@@ -12,7 +12,10 @@
  *   controls, lien « voir plus », bouton sans nom, h2 → h4, <p><div> (W3C), aucun lien mailto/tel
  * - contact : champ e-mail en type="text", sans étiquette ni autocomplete ; pas de footer
  * - aucune page ne signale son lien de menu par aria-current
- * La version propre : une photo WebP dimensionnée, une police woff2 en swap et préchargée, mailto, aria-current.
+ * Lot 2 : focus supprimé (outline: none), ni :hover ni :active, une transition sans prefers-reduced-motion,
+ *   un bouton vide trop petit, le bloc de 600 px (zoom), huit tailles de texte, un paragraphe sans largeur bornée
+ * La version propre : une photo WebP dimensionnée, une police woff2 en swap et préchargée, mailto, aria-current ;
+ *   contour au focus, les trois états, prefers-reduced-motion, commandes de 44 px, images fluides, paragraphes bornés.
  */
 import fs from "fs";
 import os from "os";
@@ -23,7 +26,7 @@ import sharp from "sharp";
 
 const LIENS_MENU = [["/", "Accueil"], ["/projets", "Projets"], ["/contact", "Contact"]];
 
-const page = ({ titre, description, corps, police = "", courant = null }) => `<!doctype html>
+const page = ({ titre, description, corps, police = "", styles = "", courant = null }) => `<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
@@ -31,6 +34,7 @@ const page = ({ titre, description, corps, police = "", courant = null }) => `<!
 <title>${titre}</title>
 ${description ? `<meta name="description" content="${description}">` : ""}
 ${police}
+${styles}
 </head>
 <body>
 <header><nav aria-label="Principale">${LIENS_MENU.map(([href, texte]) => `<a href="${href}"${href === courant ? ' aria-current="page"' : ""}>${texte}</a>`).join(" ")}</nav></header>
@@ -68,16 +72,35 @@ export const servirPortfolio = async ({ propre = false } = {}) => {
 <style>@font-face { font-family: "Texte"; src: url("/police.woff2") format("woff2"); font-display: swap; } body { font-family: "Texte", system-ui, sans-serif; }</style>`
     : `<link rel="stylesheet" href="http://localhost:${serveurTiers.address().port}/police.css">
 <style>@font-face { font-family: "Texte"; src: url("/police.woff") format("woff"); } body { font-family: "Texte"; }</style>`;
+  // Lot 2 : les styles de toutes les pages
+  const styles = propre
+    ? `<style>
+  a:hover, button:hover { text-decoration: underline; }
+  :focus-visible { outline: 3px solid #000; outline-offset: 2px; }
+  a:active, button:active { opacity: 0.8; }
+  button { min-width: 44px; min-height: 44px; }
+  img, input { max-width: 100%; height: auto; }
+  p { max-width: 65ch; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>`
+    : `<style>
+  a:focus, button:focus { outline: none; }
+  .carte { transition: transform 0.3s; }
+</style>`;
   // Acquis du S1 : ce que la version piégée oublie sur l'accueil
   const acquisPiege = `<h2>Projets</h2><h4>Affiche</h4><p><div>Bloc dans un paragraphe</div></p>
 <img src="/grande.png" alt="Grande photo"><video src="/clip.mp4"></video>
-<a href="/projets">Voir plus</a> <button></button>`;
+<a href="/projets">Voir plus</a> <button></button>
+<p class="carte">${"Un paragraphe qui court sur toute la largeur de l'écran, sans largeur bornée, ce qui donne des lignes bien trop longues à lire. ".repeat(3)}</p>
+<p>${[10, 11, 13, 15, 17, 19, 21, 23].map((px) => `<span style="font-size:${px}px">${px} px</span>`).join(" ")}</p>`;
   const acquisPropre = `<h2>Projets</h2><h3>Affiche</h3><img src="/photo.webp" alt="Affiche du festival" width="320" height="200">
-<a href="mailto:alice@example.com">alice@example.com</a>`;
+<a href="mailto:alice@example.com">alice@example.com</a>
+<p>${"Un paragraphe de longueur raisonnable, borné à 65 caractères par ligne, pour qu'on le lise sans perdre le fil d'une ligne à l'autre. ".repeat(2)}</p>`;
   const mentions = '<footer><a href="/mentions-legales">Mentions légales</a></footer>';
 
+  const pageDe = (options) => page({ ...options, styles });
   const pages = {
-    "/": page({
+    "/": pageDe({
       titre: "Alice Martin, designer",
       description: "Le portfolio d'Alice Martin.",
       police,
@@ -88,19 +111,19 @@ export const servirPortfolio = async ({ propre = false } = {}) => {
         : `<h1>Alice Martin</h1><div style="width:600px">Un bandeau trop large</div><img src="/photo.svg" width="100" height="100">${acquisPiege}
            <a href="/ancienne-page">Ancien projet</a> <a href="https://www.linkedin.com/in/alice">LinkedIn</a> <a href="https://www.behance.net/alice">Behance</a>${mentions}`,
     }),
-    "/projets": page(
+    "/projets": pageDe(
       propre
         ? { titre: "Projets · Alice Martin", description: "Trois projets.", corps: `<h1>Projets</h1>${mentions}`, courant: "/projets" }
         : { titre: "Alice Martin, designer", corps: `<h1>Projets</h1><h1>Encore un titre</h1>${mentions}` }
     ),
-    "/mentions-legales": page({
+    "/mentions-legales": pageDe({
       titre: "Mentions légales · Alice Martin",
       description: "Mentions légales du site.",
       corps: propre
         ? `<h1>Mentions légales</h1><p>Éditeur : Alice Martin. Hébergeur : OVH, 2 rue Kellermann, Roubaix.</p>${mentions}`
         : "<h1>Mentions légales</h1><p>Site hébergé par OVH, 2 rue Kellermann, Roubaix.</p>",
     }),
-    "/contact": page({
+    "/contact": pageDe({
       titre: "Contact · Alice Martin",
       description: "Écrire à Alice.",
       courant: propre ? "/contact" : null,

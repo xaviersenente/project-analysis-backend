@@ -165,9 +165,9 @@ test("les mesures ne changent pas la note : 20 points au jury", { skip: !chrome 
 
 // ---------- Les acquis du S1, mesurés sur le site publié ----------
 
-const ACQUIS = ["G4", "G5", "G6", "A3", "A4", "A5", "A7", "A8", "E2", "E7", "E8", "E10", "E11", "E12", "E13", "E14", "M1", "E9"];
+const ACQUIS = ["G4", "G5", "G6", "G8", "G9", "A3", "A4", "A5", "A7", "A8", "A10", "A11", "A14", "E2", "E3", "E4", "E7", "E8", "E10", "E11", "E12", "E13", "E14", "M1", "E9"];
 
-test("acquis S1 : 18 critères d'information, marqués s1-sae, qui gardent leur identifiant et ne changent pas la note", () => {
+test("acquis S1 : 25 critères d'information, marqués s1-sae, qui gardent leur identifiant et ne changent pas la note", () => {
   const acquis = grille.criteres.filter((c) => c.origine === "s1-sae");
   assert.deepEqual(acquis.map((c) => c.id).sort(), [...ACQUIS].sort());
   assert.ok(acquis.every((c) => c.statut === "I" && c.methode === "navigateur" && /^SAÉ 105 \(S1\)/.test(c.sourceCours)));
@@ -224,4 +224,35 @@ test("acquis S1 : M1 valide le HTML servi (un div dans un p)", { skip: !chrome }
   if (m1.verdict === "non-mesurable") return; // sans Java
   assert.equal(m1.verdict, "non-respecte");
   assert.match(extraits(piege, "M1"), /^\/ .*div/m);
+});
+
+// ---------- Acquis du S1, lot 2 : les styles appliqués ----------
+
+test("acquis S1, lot 2 : A10 focus supprimé au clavier ; E3 ni :hover ni :active ; A11 mouvement sans réduction", { skip: !chrome }, () => {
+  const a10 = critere(piege, "A10");
+  assert.equal(a10.verdict, "non-respecte");
+  assert.match(extraits(piege, "A10"), /aucun changement visible au focus/);
+  assert.equal(critere(piege, "E3").verdict, "non-respecte");
+  assert.equal(critere(piege, "E3").detailValeur, "manque :hover, :focus-visible, :active");
+  assert.equal(critere(piege, "A11").verdict, "non-respecte");
+  assert.equal(critere(propre, "A11").detailValeur, "présent (CSS)");
+  assert.equal(critere(propre, "E3").detailValeur, "les trois");
+});
+
+test("acquis S1, lot 2 : E4 bouton trop petit ; A14 le bloc de 600 px au zoom 200 %", { skip: !chrome }, () => {
+  assert.equal(critere(piege, "E4").verdict, "non-respecte");
+  assert.match(extraits(piege, "E4"), /<button> {2}← \d+ × \d+ px/);
+  assert.equal(critere(piege, "A14").verdict, "non-respecte");
+  assert.match(extraits(piege, "A14"), /^\/ <div style="width:600px">/m);
+});
+
+test("acquis S1, lot 2 : G8 huit tailles de plus ; G9 un paragraphe de plus de 80 caractères par ligne à 1 280 px", { skip: !chrome }, () => {
+  const g8 = critere(piege, "G8");
+  assert.equal(g8.verdict, "non-respecte");
+  assert.ok(g8.valeur > 7);
+  const g9 = critere(piege, "G9");
+  assert.equal(g9.verdict, "non-respecte");
+  assert.ok(g9.valeur > 80);
+  assert.match(extraits(piege, "G9"), /<p class="carte">/);
+  assert.ok(critere(propre, "G9").valeur <= 80);
 });

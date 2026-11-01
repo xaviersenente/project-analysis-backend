@@ -15,11 +15,12 @@ import { createRequire } from "module";
 import puppeteer from "puppeteer-core";
 import thresholds from "../../config/thresholds.js";
 import { obtenirChrome, fermerChrome } from "../html/lighthouseService.js";
-import { mesurerDebordement } from "./navigateur.js";
+import { mesurerDebordement, mesurerCibles } from "./navigateur.js";
 
 const { parcours: reglages, accessibilite, tiers: TIERS } = thresholds.portfolio;
 const AXE = createRequire(import.meta.url).resolve("axe-core/axe.min.js");
 const DELAI_HTTP = thresholds.performance.timeouts.http;
+const { ergonomie: ERGO_S1, accessibilite: ACCES_S1 } = thresholds.sae105;
 
 /** Le domaine du propriétaire : les deux derniers libellés (bryan-thierry.fr), ou l'hôte entier (IP, localhost) */
 export const domaineDe = (hote) => {
@@ -101,6 +102,56 @@ function lirePolices() {
     prechargees: [...document.querySelectorAll('link[rel~="preload"][as="font"][href]')].map((l) => l.href),
     pile: getComputedStyle(document.body).fontFamily,
   };
+}
+
+/** Exécuté dans la page : les tailles de texte affichées (G8), sur les éléments qui portent du texte visible */
+function lireTailles() {
+  const tailles = new Map();
+  for (const el of document.body.querySelectorAll("*")) {
+    const texte = [...el.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim());
+    if (!texte || !el.getClientRects().length || getComputedStyle(el).visibility === "hidden") continue;
+    const taille = Math.round(parseFloat(getComputedStyle(el).fontSize) * 2) / 2;
+    if (!tailles.has(taille)) tailles.set(taille, el.outerHTML.slice(0, el.outerHTML.indexOf(">") + 1));
+  }
+  return [...tailles].sort((a, b) => a[0] - b[0]).map(([px, extrait]) => ({ px, extrait }));
+}
+
+/** Exécuté dans la page : la longueur des lignes des paragraphes (G9), en caractères « 0 » de leur police */
+function lireLignes(minCaracteres) {
+  const contexte = document.createElement("canvas").getContext("2d");
+  return [...document.querySelectorAll("p, li, dd, blockquote")]
+    .filter((el) => el.innerText.trim().length >= minCaracteres && el.getClientRects().length)
+    .map((el) => {
+      const style = getComputedStyle(el);
+      contexte.font = `${style.fontStyle} ${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
+      const ch = contexte.measureText("0").width || parseFloat(style.fontSize) / 2;
+      const largeur = el.getBoundingClientRect().width - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+      return { ch: Math.round(largeur / ch), extrait: el.outerHTML.slice(0, el.outerHTML.indexOf(">") + 1) };
+    })
+    .sort((a, b) => b.ch - a.ch)
+    .slice(0, 5);
+}
+
+/** Exécuté dans la page : l'apparence des commandes au repos, pour la comparer une fois atteintes au clavier (A10) */
+function memoriserRepos() {
+  const PROPRIETES = ["outlineStyle", "outlineWidth", "outlineColor", "boxShadow", "backgroundColor", "borderTopColor", "borderBottomColor", "color", "textDecorationLine", "transform"];
+  window.__webscopeProprietes = PROPRIETES;
+  window.__webscopeRepos = new Map();
+  for (const el of document.querySelectorAll("a[href], button, input, select, textarea, summary, [tabindex]")) {
+    const style = getComputedStyle(el);
+    window.__webscopeRepos.set(el, Object.fromEntries(PROPRIETES.map((p) => [p, style[p]])));
+  }
+}
+
+/** Exécuté dans la page : l'élément atteint au clavier change-t-il d'apparence ? null : rien n'a le focus */
+function lireFocus() {
+  const el = document.activeElement;
+  if (!el || el === document.body || el === document.documentElement) return null;
+  const style = getComputedStyle(el);
+  const repos = window.__webscopeRepos.get(el);
+  const contour = style.outlineStyle !== "none" && parseFloat(style.outlineWidth) > 0 && !/rgba\(.*,\s*0\)$|transparent/.test(style.outlineColor);
+  const change = repos ? window.__webscopeProprietes.some((p) => p !== "outlineStyle" && p !== "outlineWidth" && p !== "outlineColor" && style[p] !== repos[p]) : false;
+  return { extrait: el.outerHTML.slice(0, el.outerHTML.indexOf(">") + 1).slice(0, 200), visible: contour || change };
 }
 
 /**
@@ -221,6 +272,71 @@ const capturer = async (onglet, largeur, dossier, chemin) => {
   return { largeur, image: `captures/${nom}` };
 };
 
+/** Le texte des feuilles de style et des scripts reçus (E3, A11), lu depuis le navigateur ; null si indisponible */
+const corpsDe = async (cdp, requestId) => {
+  try {
+    const { body, base64Encoded } = await cdp.send("Network.getResponseBody", { requestId });
+    const texte = base64Encoded ? Buffer.from(body, "base64").toString("utf-8") : body;
+    return texte.slice(0, reglages.acquis.corpsMaxOctets);
+  } catch {
+    return null;
+  }
+};
+
+/**
+ * Acquis du S1, lot 2, après les captures (la page a pu bouger : rien de ce qui précède n'en dépend)
+ * - E3, A11 : le CSS du site (feuilles du même propriétaire et <style> de la page) et ses scripts
+ * - A14 : le débordement à 180 px, soit 360 px zoomés à 200 %
+ * - G9 : la longueur des lignes à 1 280 px
+ * - A10 : les premières commandes atteintes au clavier, et si leur apparence change
+ */
+const mesurerAcquis = async (onglet, cdp, reponses, hoteSite) => {
+  const { tabulationsMax, largeurLignePx, paragrapheMinCaracteres, miseEnPageMs } = reglages.acquis;
+  const pause = () => new Promise((r) => setTimeout(r, miseEnPageMs));
+  const css = [];
+  const scripts = [];
+  for (const [id, r] of reponses) {
+    if (!/^https?:/.test(r.url) || estTiers(new URL(r.url).hostname, hoteSite)) continue;
+    if (r.type === "Stylesheet") css.push(await corpsDe(cdp, id));
+    if (r.type === "Script") scripts.push(await corpsDe(cdp, id));
+  }
+  css.push(await onglet.evaluate(() => [...document.querySelectorAll("style")].map((s) => s.textContent).join("\n")));
+  const texteCss = css.filter(Boolean).join("\n");
+  const texteJs = [...scripts, await onglet.evaluate(() => [...document.querySelectorAll("script:not([src])")].map((s) => s.textContent).join("\n"))]
+    .filter(Boolean)
+    .join("\n");
+  const styles = {
+    hover: /:hover\b/.test(texteCss),
+    focusVisible: /:focus-visible\b/.test(texteCss),
+    active: /:active\b/.test(texteCss),
+    mouvementCss: /(^|[;{\s])(transition|animation)(-name|-property)?\s*:\s*(?!none\b|0s?\b|initial\b|unset\b)[^;}]+/m.test(texteCss),
+    reduitCss: /prefers-reduced-motion/.test(texteCss),
+    reduitJs: /prefers-reduced-motion/.test(texteJs),
+  };
+
+  await onglet.setViewport({ width: ACCES_S1.zoomViewportPx, height: 800, deviceScaleFactor: 1, isMobile: true, hasTouch: true });
+  await pause();
+  const zoom = await onglet.evaluate(mesurerDebordement);
+
+  await onglet.setViewport({ width: largeurLignePx, height: 800, deviceScaleFactor: 1 });
+  await pause();
+  const lignes = await onglet.evaluate(lireLignes, paragrapheMinCaracteres);
+
+  // Le focus : depuis le haut de la page, au clavier comme un visiteur qui n'utilise pas la souris
+  await onglet.evaluate(() => {
+    document.activeElement?.blur?.();
+    window.scrollTo(0, 0);
+  });
+  await onglet.evaluate(memoriserRepos);
+  const focus = [];
+  for (let i = 0; i < tabulationsMax; i++) {
+    await onglet.keyboard.press("Tab");
+    const etat = await onglet.evaluate(lireFocus).catch(() => null);
+    if (etat && !focus.some((f) => f.extrait === etat.extrait)) focus.push(etat);
+  }
+  return { styles, zoom, lignes, focus };
+};
+
 /**
  * Une page : chargée à 360 px dans le contexte privé, mesurée, puis capturée
  * @returns {Promise<object>} - La page ; `erreur` si elle n'a pas pu être chargée
@@ -251,6 +367,10 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
     if (!reponse || base.statut >= 400 || !type.includes("html") || estTiers(finale.hostname, hoteSite)) return { ...base, page: false };
 
     const lue = await onglet.evaluate(lirePage);
+    // Acquis du S1 au chargement, à 360 px : commandes trop petites (E4), tailles de texte (G8), animations (A11)
+    const cibles = (await onglet.evaluate(mesurerCibles, ERGO_S1.cibleTactilePx)).slice(0, 20);
+    const tailles = await onglet.evaluate(lireTailles);
+    const animations = await onglet.evaluate(() => document.getAnimations?.().length ?? 0);
     // Le HTML tel que le serveur l'envoie (validation W3C), et tel que le visiteur le reçoit une fois les scripts passés
     const source = await reponse.text().catch(() => null);
     const html = await onglet.evaluate(() => `<!DOCTYPE html>\n${document.documentElement.outerHTML}`);
@@ -287,6 +407,7 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
         ressources ??= releverRessources();
       }
     }
+    const acquis = await mesurerAcquis(onglet, cdp, reponses, hoteSite);
     return {
       ...base,
       page: true,
@@ -301,6 +422,10 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
       html,
       polices,
       ressources,
+      cibles,
+      tailles,
+      ...acquis,
+      styles: { ...acquis.styles, animations },
       captures,
     };
   } catch (error) {

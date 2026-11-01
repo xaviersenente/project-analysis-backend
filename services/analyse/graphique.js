@@ -2,6 +2,7 @@
  * Axe Graphique : le système, pas le rendu (G1 à G10)
  */
 import { parse as lireCouleur } from "culori";
+import { reglePolicesWeb, aUneFamilleGenerique, regleNombrePolices, reglePrechargement, regleTailles } from "./regles.js";
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
 import { dansRoot, dansFontFace } from "./contexte.js";
@@ -89,34 +90,25 @@ export default {
     const fontFaces = [];
     ctx.css.arbre.walkAtRules("font-face", (r) => fontFaces.push(r));
     const swap = fontFaces.length > 0 && fontFaces.every((r) => r.some((d) => d.prop === "font-display" && d.value === "swap"));
-    const generiques = new RegExp(`(^|,)\\s*(${S.famillesGeneriques.join("|")})\\s*(,|$)`);
     const piles = ctx.declarations(
       (d) => !dansFontFace(d) && (d.prop === "font-family" || (d.prop.startsWith("--") && /["']/.test(d.value) && /font|police|famille/i.test(d.prop)))
     );
-    const secours = piles.length > 0 && piles.some((d) => generiques.test(ctx.resoudre(d.value)));
-    const reussis = [woff2.length > 0, swap, secours];
-    const detailValeur = `woff2 ${reussis[0] ? "✓" : "✕"} · swap ${reussis[1] ? "✓" : "✕"} · pile de secours ${reussis[2] ? "✓" : "✕"}`;
+    const secours = piles.length > 0 && piles.some((d) => aUneFamilleGenerique(ctx.resoudre(d.value)));
     const occurrences = fontFaces
       .filter((r) => !r.some((d) => d.prop === "font-display" && d.value === "swap"))
       .map((r) => ({ ...ctx.css.fichierDe(r), extrait: "@font-face { … } sans font-display: swap", surligne: null }));
-    const total = reussis.filter(Boolean).length;
-    if (total === 3) return respecte(null, { detailValeur });
-    return total === 0 ? nonRespecte(null, occurrences, { detailValeur }) : partiel(null, occurrences, { detailValeur });
+    return reglePolicesWeb({ woff2: woff2.length > 0, swap, secours }, occurrences);
   },
 
   G5: (ctx) => {
     const polices = ctx.inventaire.fichiers.filter((f) => /\.(woff2?|ttf|otf)$/i.test(f));
-    const occurrences = polices.map((f) => ({ fichier: f, ligne: null, colonne: null, extrait: f, surligne: null }));
-    return polices.length <= S.policesMax ? respecte(polices.length) : nonRespecte(polices.length, occurrences);
+    return regleNombrePolices(polices.map((f) => ({ fichier: f, ligne: null, colonne: null, extrait: f, surligne: null })));
   },
 
   G6: (ctx) => {
     const polices = ctx.inventaire.fichiers.filter((f) => /\.(woff2?|ttf|otf)$/i.test(f));
-    if (polices.length === 0) return respecte(null, { detailValeur: "aucune police auto-hébergée" });
     const prechargees = new Set(ctx.pages.flatMap((p) => p.policesPrechargees));
-    return prechargees.size > 0
-      ? respecte(null, { detailValeur: `${prechargees.size} police${prechargees.size > 1 ? "s" : ""} préchargée${prechargees.size > 1 ? "s" : ""}` })
-      : nonRespecte(null, [], { detailValeur: "aucun preload" });
+    return reglePrechargement(polices.length, prechargees.size, "aucune police auto-hébergée");
   },
 
   G7: (ctx) => {
@@ -142,7 +134,7 @@ export default {
         .declarations((d) => d.prop === "font-size" && !dansFontFace(d))
         .map((d) => ctx.resoudre(d.value).replace(/\s+/g, ""))
     );
-    return distinctes.size <= S.taillesDistinctesMax ? respecte(distinctes.size) : nonRespecte(distinctes.size, [], { detailValeur: [...distinctes].join(", ") });
+    return regleTailles([...distinctes]);
   },
 
   G9: (ctx) => {

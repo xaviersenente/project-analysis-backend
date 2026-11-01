@@ -34,7 +34,7 @@ export function mesurerDebordement() {
  * Une commande : un bouton, ou un lien sans texte visible (logo, icône).
  * Un lien texte n'est pas compté : sa cible, c'est le texte qu'on lit.
  */
-function mesurerCibles(minimum) {
+export function mesurerCibles(minimum) {
   const visible = (el) => {
     const r = el.getBoundingClientRect();
     const style = getComputedStyle(el);

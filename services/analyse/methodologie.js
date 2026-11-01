@@ -5,7 +5,8 @@ import fs from "fs";
 import path from "path";
 import { execFileSync } from "child_process";
 import thresholds from "../../config/thresholds.js";
-import { validateHTML, validateCSS } from "../html/validationService.js";
+import { validateCSS } from "../html/validationService.js";
+import { validerPages } from "./regles.js";
 import { occurrenceDeclaration, occurrenceRegle } from "../css/sources.js";
 import { chercherMotifs, volume } from "../js/motifs.js";
 import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence } from "./mesure.js";
@@ -104,30 +105,9 @@ const git = (ctx, args) => {
 export default {
   M1: async (ctx) => {
     if (ctx.sansValidationW3c) return nonMesurable("Validation W3C désactivée pour cette analyse");
-    const occurrences = [];
-    const nonMesurees = [];
-    ctx.erreursW3cParPage = {};
-    for (const page of ctx.pages) {
-      const { mesurable, erreurs, raison } = await validateHTML(page.html);
-      if (!mesurable) {
-        nonMesurees.push(raison);
-        continue;
-      }
-      ctx.erreursW3cParPage[page.fichier] = erreurs.length;
-      for (const e of erreurs) {
-        const extrait = `${(e.extract ?? "").replace(/\n/g, " ").trim()}  ← ${e.message}`;
-        const debut = typeof e.hiliteStart === "number" ? e.hiliteStart - ((e.extract ?? "").length - (e.extract ?? "").trimStart().length) : -1;
-        occurrences.push({
-          fichier: page.fichier,
-          ligne: e.lastLine ?? null,
-          colonne: e.firstColumn ?? null,
-          extrait,
-          surligne: debut >= 0 && e.hiliteLength ? [debut, debut + e.hiliteLength] : null,
-        });
-      }
-    }
-    if (nonMesurees.length === ctx.pages.length) return nonMesurable(nonMesurees[0]);
-    return parAbsence(occurrences);
+    const { mesure, erreursParPage } = await validerPages(ctx.pages);
+    ctx.erreursW3cParPage = erreursParPage;
+    return mesure;
   },
 
   M2: async (ctx) => {

@@ -3,7 +3,8 @@
  */
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
-import { respecte, nonRespecte, aJuger, parRatio, parAbsence } from "./mesure.js";
+import { respecte, aJuger, parRatio, parAbsence } from "./mesure.js";
+import { regleMouvementReduit } from "./regles.js";
 
 const S = thresholds.sae105.accessibilite;
 
@@ -189,14 +190,15 @@ export default {
 
   A11: (ctx) => {
     const mouvements = ctx.declarations((d) => /^(transition|animation)(-name|-property)?$/.test(d.prop) && !/^(none|0s?)$/.test(d.value.trim()));
-    if (mouvements.length === 0) return respecte(null, { detailValeur: "aucun mouvement" });
     let reduit = false;
     ctx.css.arbre.walkAtRules("media", (r) => {
       if (/prefers-reduced-motion/.test(r.params)) reduit = true;
     });
-    return reduit
-      ? respecte(null, { detailValeur: "présent" })
-      : nonRespecte(null, mouvements.slice(0, 5).map((d) => occurrenceDeclaration(d, ctx.css, d.prop)), { detailValeur: "absent" });
+    return regleMouvementReduit({
+      mouvement: mouvements.length > 0,
+      reduit,
+      occurrences: mouvements.slice(0, 5).map((d) => occurrenceDeclaration(d, ctx.css, d.prop)),
+    });
   },
 
   A15: (ctx) => {

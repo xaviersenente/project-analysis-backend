@@ -91,6 +91,29 @@
       "sourceCours": "SAÉ 105 (S1) · TP 5"
     },
     {
+      "id": "G8",
+      "axe": "direction-artistique",
+      "libelle": "Échelle typographique resserrée",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≤", "nombre": 7, "unite": "tailles" },
+      "piste": "Regroupez les tailles proches sur une échelle de six ou sept pas.",
+      "sourceCours": "SAÉ 105 (S1) · CM 9"
+    },
+    {
+      "id": "G9",
+      "axe": "direction-artistique",
+      "libelle": "Longueur de ligne bornée",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≤", "nombre": 80, "unite": "caractères" },
+      "detailSeuil": "mesurée à 1 280 px",
+      "piste": "Bornez la largeur des paragraphes (max-width: 65ch, par exemple) : au-delà de 80 caractères, une ligne se lit mal.",
+      "sourceCours": "SAÉ 105 (S1) · CM 9 · TP 5"
+    },
+    {
       "id": "ED1",
       "axe": "editorialisation",
       "libelle": "Éditorialisation",
@@ -370,6 +393,40 @@
       "sourceCours": "SAÉ 105 (S1) · TP 5"
     },
     {
+      "id": "A10",
+      "axe": "qualite-web",
+      "libelle": "Focus visible : pas d'outline: none sans remplacement",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "suppression" },
+      "piste": "Gardez un contour visible au focus (:focus-visible) : on l'a vérifié au clavier, touche Tab.",
+      "sourceCours": "SAÉ 105 (S1) · CM 9 · TP 5"
+    },
+    {
+      "id": "A11",
+      "axe": "qualite-web",
+      "libelle": "prefers-reduced-motion dès qu'il y a du mouvement",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "présent si mouvement",
+      "piste": "Coupez les animations dans @media (prefers-reduced-motion: reduce).",
+      "sourceCours": "SAÉ 105 (S1) · CM 9"
+    },
+    {
+      "id": "A14",
+      "axe": "qualite-web",
+      "libelle": "Reflow au zoom 200 %",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≤", "nombre": 180, "unite": "px" },
+      "piste": "Vérifiez la page à 180 px de large.",
+      "sourceCours": "SAÉ 105 (S1) · CM 6 · TP 3"
+    },
+    {
       "id": "E2",
       "axe": "qualite-web",
       "libelle": "Page courante signalée (aria-current)",
@@ -380,6 +437,29 @@
       "detailSeuil": "sur chaque page",
       "piste": "Ajoutez aria-current=\"page\" au lien de la page affichée.",
       "sourceCours": "SAÉ 105 (S1) · TP 3"
+    },
+    {
+      "id": "E3",
+      "axe": "qualite-web",
+      "libelle": "États :hover, :focus-visible et :active",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "les trois",
+      "piste": "Déclarez les trois états sur les liens et les boutons.",
+      "sourceCours": "SAÉ 105 (S1) · CM 9 · TP 5"
+    },
+    {
+      "id": "E4",
+      "axe": "qualite-web",
+      "libelle": "Cibles tactiles de 44 × 44 px (boutons, liens sans texte)",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≥", "nombre": 44, "unite": "px" },
+      "piste": "Agrandissez la zone cliquable avec du padding, pas la police.",
+      "sourceCours": "SAÉ 105 (S1) · CM 6 · TP 4"
     },
     {
       "id": "E7",

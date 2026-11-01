@@ -22,6 +22,20 @@ export default {
         // déclenchés (finMs), ou une courte pause quand rien n'a été révélé (pauseMs)
         revelation: { imagesMs: 4000, finMs: 2000, pauseMs: 300 },
       },
+      // Acquis du S1, lot 2 : mesures en page après les captures
+      acquis: {
+        // Focus visible (A10) : les premières commandes atteintes au clavier, une touche Tab chacune
+        tabulationsMax: 12,
+        // Longueur de ligne (G9), mesurée à cette largeur : les paragraphes d'au moins tant de caractères
+        largeurLignePx: 1280,
+        paragrapheMinCaracteres: 120,
+        // Au-delà, une ligne se lit mal (WCAG 1.4.8 : 80 caractères). Le S1 demandait une max-width en ch
+        longueurLigneMaxCh: 80,
+        // Le temps de mise en page après un changement de largeur (zoom, bureau)
+        miseEnPageMs: 300,
+        // Corps de texte lu (CSS et scripts) pour E3 et A11 ; au-delà, coupé
+        corpsMaxOctets: 3_000_000,
+      },
       // Fichiers qui ne sont pas des pages
       ignorer: /\.(pdf|zip|jpe?g|png|gif|webp|avif|svg|mp4|webm|mp3|docx?|xlsx?|pptx?)$/i,
     },
