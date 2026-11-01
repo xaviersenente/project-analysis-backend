@@ -25,7 +25,7 @@ import { creerContexte } from "./contexte.js";
 import { position } from "../source/inventaire.js";
 import accessibilite from "./accessibilite.js";
 import ergonomie from "./ergonomie.js";
-import { pagesLues } from "./qualiteWeb.js";
+import { pagesLues, avecParcours } from "./qualiteWeb.js";
 import {
   occSimple,
   regleParPage,
@@ -74,13 +74,6 @@ const contexteS1 = (ctx) => {
     ctx.contexteS1 = creerContexte({ racine: null, inventaire: { pages }, css: { arbre: postcss.root() }, promo: ctx.promo });
   }
   return ctx.contexteS1;
-};
-
-/** Chaque mesure demande un parcours ; sans lui, « Non mesurable » */
-const avecParcours = (analyser) => (ctx) => {
-  if (!ctx.parcours) return nonMesurable(ctx.raisonParcours ?? "Le site en ligne n'a pas pu être parcouru");
-  if (pagesLues(ctx).length === 0) return nonMesurable(`Aucune page lue sur ${ctx.parcours.url}`);
-  return analyser(ctx);
 };
 
 /** Un analyseur du S1 appliqué tel quel aux pages rendues */

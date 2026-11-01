@@ -6,7 +6,7 @@ import { reglePolicesWeb, aUneFamilleGenerique, regleNombrePolices, reglePrechar
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
 import { dansRoot, dansFontFace } from "./contexte.js";
-import { respecte, nonRespecte, partiel, aJuger, parRatio } from "./mesure.js";
+import { respecte, nonRespecte, partiel, aJuger, parRatio, occSimple } from "./mesure.js";
 
 const S = thresholds.sae105.graphique;
 
@@ -102,7 +102,7 @@ export default {
 
   G5: (ctx) => {
     const polices = ctx.inventaire.fichiers.filter((f) => /\.(woff2?|ttf|otf)$/i.test(f));
-    return regleNombrePolices(polices.map((f) => ({ fichier: f, ligne: null, colonne: null, extrait: f, surligne: null })));
+    return regleNombrePolices(polices.map((f) => occSimple(f, f)));
   },
 
   G6: (ctx) => {

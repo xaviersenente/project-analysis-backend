@@ -5,13 +5,12 @@
  * une règle, ses seuils (config/seuils/sae105.js) et ses libellés ne vivent qu'à un endroit.
  */
 import thresholds from "../../config/thresholds.js";
-import { validateHTML } from "../html/validationService.js";
-import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence } from "./mesure.js";
+import { validerHtmlEnLot } from "../html/validationService.js";
+// Les profils construisent leurs occurrences avec le même outil que les règles
+export { occSimple } from "./mesure.js";
+import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence, occSimple } from "./mesure.js";
 
 const { ergonomie: E, graphique: G } = thresholds.sae105;
-
-/** Une occurrence sans position : un fichier, une page ou une ressource */
-export const occSimple = (fichier, extrait) => ({ fichier, ligne: null, colonne: null, extrait, surligne: null });
 
 /** E2 : un contrôle page par page ; les occurrences disent les pages en échec */
 export const regleParPage = (nbPages, occurrences) =>
@@ -118,17 +117,14 @@ export const regleTailles = (tailles, { occurrences = [], detailToujours = false
  * @returns {Promise<{ mesure: object, erreursParPage: Record<string, number> }>}
  */
 export const validerPages = async (pages) => {
+  if (pages.length === 0) return { mesure: nonMesurable("Aucune page à valider"), erreursParPage: {} };
+  const { mesurable, erreurs, raison } = await validerHtmlEnLot(pages.map((p) => p.html));
+  if (!mesurable) return { mesure: nonMesurable(raison), erreursParPage: {} };
   const occurrences = [];
-  const nonMesurees = [];
   const erreursParPage = {};
-  for (const page of pages) {
-    const { mesurable, erreurs, raison } = await validateHTML(page.html);
-    if (!mesurable) {
-      nonMesurees.push(raison);
-      continue;
-    }
-    erreursParPage[page.fichier] = erreurs.length;
-    for (const e of erreurs) {
+  pages.forEach((page, i) => {
+    erreursParPage[page.fichier] = erreurs[i].length;
+    for (const e of erreurs[i]) {
       const extrait = `${(e.extract ?? "").replace(/\n/g, " ").trim()}  ← ${e.message}`;
       const debut = typeof e.hiliteStart === "number" ? e.hiliteStart - ((e.extract ?? "").length - (e.extract ?? "").trimStart().length) : -1;
       occurrences.push({
@@ -139,7 +135,6 @@ export const validerPages = async (pages) => {
         surligne: debut >= 0 && e.hiliteLength ? [debut, debut + e.hiliteLength] : null,
       });
     }
-  }
-  if (nonMesurees.length === pages.length) return { mesure: nonMesurable(nonMesurees[0]), erreursParPage };
+  });
   return { mesure: parAbsence(occurrences), erreursParPage };
 };

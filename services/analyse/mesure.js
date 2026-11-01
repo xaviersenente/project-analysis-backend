@@ -14,6 +14,9 @@ export const nonRespecte = (valeur, occurrences = [], extra = {}) => ({
 
 export const partiel = (valeur, occurrences = [], extra = {}) => ({ verdict: "partiel", valeur, occurrences, ...extra });
 
+/** Une occurrence sans position : un fichier, une page, une ressource ; la partie fautive éventuellement surlignée */
+export const occSimple = (fichier, extrait, surligne = null) => ({ fichier, ligne: null, colonne: null, extrait, surligne });
+
 /** Jamais une erreur imputée à l'étudiant : la mesure n'a pas pu se faire */
 export const nonMesurable = (raison) => ({ verdict: "non-mesurable", valeur: null, occurrences: [], raison });
 

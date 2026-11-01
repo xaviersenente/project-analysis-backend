@@ -4,19 +4,19 @@
  * Une occurrence situe le problème sur le site : `fichier` est le chemin de la page.
  */
 import thresholds from "../../config/thresholds.js";
-import { respecte, nonRespecte, partiel, nonMesurable, parAbsence } from "./mesure.js";
+import { respecte, nonRespecte, partiel, nonMesurable, parAbsence, occSimple } from "./mesure.js";
 import { ecoindex } from "../qualite/ecoindex.js";
 import { categorieTiers, normaliser } from "../runtime/parcours.js";
 
 const { ecoindex: reglesEco, mentionsLegales, hebergeursGratuits, reseaux } = thresholds.portfolio;
 
-const occ = (chemin, extrait) => ({ fichier: chemin || "/", ligne: null, colonne: null, extrait });
+const occ = (chemin, extrait) => occSimple(chemin || "/", extrait);
 
 /** Les pages du site parcourues avec succès */
 export const pagesLues = (ctx) => ctx.parcours.pages.filter((p) => p.page);
 
-/** Chaque analyseur demande un parcours ; sans lui, « Non mesurable » */
-const avecParcours = (analyser) => (ctx) => {
+/** Chaque analyseur demande un parcours ; sans lui, « Non mesurable » (les acquis du S1 aussi) */
+export const avecParcours = (analyser) => (ctx) => {
   if (!ctx.parcours) return nonMesurable(ctx.raisonParcours ?? "Le site en ligne n'a pas pu être parcouru");
   if (pagesLues(ctx).length === 0) return nonMesurable(`Aucune page lue sur ${ctx.parcours.url}`);
   return analyser(ctx);

@@ -9,7 +9,7 @@ import { validateCSS } from "../html/validationService.js";
 import { validerPages } from "./regles.js";
 import { occurrenceDeclaration, occurrenceRegle } from "../css/sources.js";
 import { chercherMotifs, volume } from "../js/motifs.js";
-import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence } from "./mesure.js";
+import { respecte, nonRespecte, partiel, nonMesurable, parRatio, parAbsence, occSimple } from "./mesure.js";
 
 const S = thresholds.sae105.methodologie;
 
@@ -196,7 +196,7 @@ export default {
       fichiers.length - fautifs.length,
       fichiers.length,
       1,
-      fautifs.map(({ f, problemes }) => ({ fichier: f, ligne: null, colonne: null, extrait: `${f} : ${problemes.join(", ")}`, surligne: [0, f.length] }))
+      fautifs.map(({ f, problemes }) => occSimple(f, `${f} : ${problemes.join(", ")}`, [0, f.length]))
     );
   },
 
@@ -230,7 +230,7 @@ export default {
       },
     ];
     const ratees = conditions.filter((c) => !c.ok);
-    const occurrences = ratees.map((c) => ({ fichier: "historique Git", ligne: null, colonne: null, extrait: c.texte, surligne: null }));
+    const occurrences = ratees.map((c) => occSimple("historique Git", c.texte));
     const detailValeur = `${i.sessions} sessions sur ${i.joursActifs} jours · ${Math.round(i.partDernieres48h * 100)} % dans les 48 h`;
     if (ratees.length === 0) return respecte(i.sessions, { detailValeur });
     return ratees.length === 1 ? partiel(i.sessions, occurrences, { detailValeur }) : nonRespecte(i.sessions, occurrences, { detailValeur });
@@ -242,20 +242,20 @@ export default {
     const commits = sortie.trim().split("\n").filter(Boolean).map((l) => l.split("\t"));
     const generiques = commits.filter(([, message]) => S.messagesGeneriques.test(message.trim()));
     const valeur = commits.length ? Math.round((generiques.length / commits.length) * 1000) / 10 : 0;
-    const occurrences = generiques.map(([sha, message]) => ({ fichier: `commit ${sha}`, ligne: null, colonne: null, extrait: message, surligne: [0, message.length] }));
+    const occurrences = generiques.map(([sha, message]) => occSimple(`commit ${sha}`, message, [0, message.length]));
     return valeur / 100 <= S.messagesGeneriquesMax ? { ...respecte(valeur), occurrences } : nonRespecte(valeur, occurrences);
   },
 
   M12: (ctx) => {
     const fichier = ctx.inventaire.fichiers.find((f) => /^readme\.md$/i.test(path.posix.basename(f)) && !f.includes("/"));
-    if (!fichier) return nonRespecte(S.readme.length, [{ fichier: "README.md", ligne: null, colonne: null, extrait: "README absent", surligne: null }]);
+    if (!fichier) return nonRespecte(S.readme.length, [occSimple("README.md", "README absent")]);
     const lignes = fs.readFileSync(path.join(ctx.racine, fichier), "utf-8").split("\n");
     const occurrences = [];
     for (const champ of S.readme) {
       const motif = new RegExp(`^\\s*[-*]?\\s*\\**\\s*${champ}\\s*\\**\\s*:\\s*(.*)$`, "i");
       const index = lignes.findIndex((l) => motif.test(sansAccents(l)));
       if (index === -1) {
-        occurrences.push({ fichier, ligne: null, colonne: null, extrait: `champ « ${champ} » absent`, surligne: null });
+        occurrences.push(occSimple(fichier, `champ « ${champ} » absent`));
       } else if (!sansAccents(lignes[index]).match(motif)[1].replace(/[*_`<>]/g, "").trim()) {
         occurrences.push({ fichier, ligne: index + 1, colonne: 1, extrait: lignes[index], surligne: null });
       }
@@ -265,7 +265,7 @@ export default {
 
   M13: (ctx) => {
     const fichier = ctx.inventaire.fichiers.find((f) => /^notes\.md$/i.test(f));
-    if (!fichier) return nonRespecte(0, [{ fichier: "NOTES.md", ligne: null, colonne: null, extrait: "NOTES.md absent", surligne: null }]);
+    if (!fichier) return nonRespecte(0, [occSimple("NOTES.md", "NOTES.md absent")]);
     const lignes = fs.readFileSync(path.join(ctx.racine, fichier), "utf-8").split("\n");
     const sections = [];
     lignes.forEach((ligne, i) => {

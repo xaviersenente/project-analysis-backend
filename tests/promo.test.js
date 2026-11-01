@@ -54,3 +54,13 @@ test("promo : un dossier par semestre et type, choisi par son nom", async () => 
     fs.rmSync(racine, { recursive: true, force: true });
   }
 });
+
+test("la règle des noms de promo est la même dans le lanceur de l'interface", async () => {
+  const fs = await import("fs");
+  const { PROMO_REGEX } = await import("../services/promo/promoService.js");
+  const lanceur = new URL("../../project-analysis-frontend/scripts/lancer.mjs", import.meta.url);
+  // Les deux dépôts sont côte à côte ; sans l'interface, rien à comparer
+  if (!fs.existsSync(lanceur)) return;
+  const copie = fs.readFileSync(lanceur, "utf-8").match(/const PROMO_REGEX = \/(.+)\/;/)?.[1];
+  assert.equal(copie, PROMO_REGEX.source);
+});

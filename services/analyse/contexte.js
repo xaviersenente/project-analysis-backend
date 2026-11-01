@@ -3,6 +3,7 @@
  * CSS fusionné (étape 3), variables de :root, et fabrique d'occurrences.
  */
 import * as cheerio from "cheerio";
+import { occSimple } from "./mesure.js";
 
 /** Une règle de :root (ou :root dans un @media) */
 export const dansRoot = (noeud) => noeud.parent?.type === "rule" && /(^|,)\s*:root\b/.test(noeud.parent.selector);
@@ -31,7 +32,7 @@ export const creerContexte = ({ racine, inventaire, css, promo = {}, git = null 
   };
 
   /** Occurrence à l'échelle d'une page entière (un élément manquant) */
-  const occPage = (page, extrait) => ({ fichier: page.fichier, ligne: null, colonne: null, extrait, surligne: null });
+  const occPage = (page, extrait) => occSimple(page.fichier, extrait);
 
   /** Toutes les déclarations CSS, filtrées */
   const declarations = (filtre = () => true) => {

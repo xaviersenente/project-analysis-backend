@@ -58,7 +58,9 @@ export const fermerChrome = async () => {
  * @param {number} port - Port de débogage de Chrome
  */
 export const optionsLighthouse = (port) => ({
-  logLevel: "error",
+  // Silencieux : une erreur interne (trace, audit) reste consignée dans le rapport, que l'analyse lit ;
+  // la sortie de la commande garde ses seules lignes utiles
+  logLevel: "silent",
   output: "json",
   port,
   formFactor: "mobile", // Force le mode mobile
@@ -89,6 +91,24 @@ const lireContraste = (explication = "") => {
  * Audit Lighthouse d'une page (lot 2) : les quatre scores sur 100, les paires en échec
  * de contraste, le poids transféré et les requêtes en échec. Délai maximal par page.
  */
+/**
+ * Le moteur de traces de Lighthouse écrit ses erreurs de calcul (LanternError : une page trop
+ * courte pour certaines métriques) directement dans la console, quel que soit logLevel.
+ * Elles ne changent rien aux scores relevés : on les tait le temps de l'audit, et seulement elles.
+ */
+const sansErreursLantern = async (audit) => {
+  const original = console.error;
+  console.error = (...args) => {
+    if (args.some((a) => a?.name === "LanternError")) return;
+    original(...args);
+  };
+  try {
+    return await audit();
+  } finally {
+    console.error = original;
+  }
+};
+
 export const auditerPage = async (url) => {
   const chrome = await obtenirChrome();
   const delai = thresholds.performance.timeouts.lighthouse;
@@ -97,7 +117,7 @@ export const auditerPage = async (url) => {
     minuteur = setTimeout(() => reject(new Error(`Lighthouse a dépassé le délai (${delai / 1000} s)`)), delai);
   });
   try {
-    const { lhr } = await Promise.race([lighthouse(url, optionsLighthouse(chrome.port)), depassement]);
+    const { lhr } = await sansErreursLantern(() => Promise.race([lighthouse(url, optionsLighthouse(chrome.port)), depassement]));
     const score = (cle) => (lhr.categories[cle]?.score === null || lhr.categories[cle] === undefined ? null : Math.round(lhr.categories[cle].score * 100));
     return {
       scores: {

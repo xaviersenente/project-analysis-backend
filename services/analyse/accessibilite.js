@@ -3,7 +3,7 @@
  */
 import thresholds from "../../config/thresholds.js";
 import { occurrenceDeclaration } from "../css/sources.js";
-import { respecte, aJuger, parRatio, parAbsence } from "./mesure.js";
+import { respecte, aJuger, parRatio, parAbsence, occSimple } from "./mesure.js";
 import { regleMouvementReduit } from "./regles.js";
 
 const S = thresholds.sae105.accessibilite;
@@ -208,7 +208,7 @@ export default {
       balises.length - absentes.length,
       balises.length,
       1,
-      absentes.map((b) => ({ fichier: "(site)", ligne: null, colonne: null, extrait: `<${b.balise}> : absente de toutes les pages`, surligne: [1, 1 + b.balise.length] }))
+      absentes.map((b) => occSimple("(site)", `<${b.balise}> : absente de toutes les pages`, [1, 1 + b.balise.length]))
     );
   },
 

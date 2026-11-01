@@ -3,7 +3,7 @@
  * Sans maquette lisible, sans écran associé ou sans navigateur : « Non mesurable ».
  */
 import thresholds from "../../config/thresholds.js";
-import { respecte, nonRespecte, nonMesurable } from "./mesure.js";
+import { respecte, nonRespecte, nonMesurable, occSimple } from "./mesure.js";
 import { occurrence, NAVIGATEUR } from "./enNavigateur.js";
 import { comparerEcran } from "../maquette/comparaison.js";
 
@@ -47,7 +47,7 @@ export const G11 = (ctx) => {
         .filter((t) => t.statut === "absent" || t.statut === "ecart")
         .map((t) =>
           t.statut === "absent"
-            ? { fichier: c.fichier, ligne: null, colonne: null, extrait: `« ${t.texte} »  ← absent de la page (écran « ${c.ecran.nom} »)`, surligne: null }
+            ? occSimple(c.fichier, `« ${t.texte} »  ← absent de la page (écran « ${c.ecran.nom} »)`)
             : occurrence(ctx, c.fichier, t.extrait, `« ${t.texte} » : ${t.ecarts.map(ecartLisible).join(", ")}`)
         )
     ),

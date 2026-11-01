@@ -3,7 +3,7 @@
  * et les requêtes en échec qui complètent M9. Sans navigateur, « Non mesurable ».
  */
 import thresholds from "../../config/thresholds.js";
-import { respecte, nonRespecte, nonMesurable, parAbsence } from "./mesure.js";
+import { respecte, nonRespecte, nonMesurable, parAbsence, occSimple } from "./mesure.js";
 import methodologie from "./methodologie.js";
 import { regleDebordement, regleCibles, reglePoidsAccueil } from "./regles.js";
 
@@ -162,7 +162,7 @@ export default {
         // Déjà relevée par l'inventaire (même page, même ressource) : une seule occurrence
         .filter(({ fichier, relatif }) => ![...dejaVus].some((v) => v.startsWith(`${fichier}|`) && v.includes(relatif.split("/").pop())))
         .filter(({ fichier, relatif }) => !vus.has(`${fichier}|${relatif}`) && vus.add(`${fichier}|${relatif}`))
-        .map(({ fichier, relatif, statut }) => ({ fichier, ligne: null, colonne: null, extrait: `${relatif} ← ${statut || "échec"} au chargement`, surligne: null }))
+        .map(({ fichier, relatif, statut }) => occSimple(fichier, `${relatif} ← ${statut > 0 ? statut : "échec"} au chargement`))
     );
     return parAbsence([...statique.occurrences, ...supplementaires]);
   },
