@@ -66,6 +66,17 @@
       "sourceCours": "Sujet §2.2"
     },
     {
+      "id": "ED2",
+      "axe": "editorialisation",
+      "libelle": "Études de cas : contexte, rôle, processus, choix, résultat",
+      "statut": "I",
+      "methode": "ia",
+      "seuil": null,
+      "echelle": ["absentes", "survolées", "partielles", "complètes"],
+      "piste": "Pour chaque projet : la commande, votre rôle exact, vos recherches et arbitrages, vos choix techniques, le résultat.",
+      "sourceCours": "Sujet §2.2"
+    },
+    {
       "id": "TE1",
       "axe": "technique",
       "libelle": "Niveau technique démontré en soutenance",
@@ -243,6 +254,17 @@
       "sourceCours": "Sujet §6"
     },
     {
+      "id": "Q13",
+      "axe": "qualite-web",
+      "libelle": "QUALITE.md confronté aux mesures du site",
+      "statut": "I",
+      "methode": "ia",
+      "seuil": null,
+      "echelle": ["générique", "contredite", "partielle", "pertinente"],
+      "piste": "Des critères tirés de votre site ; ce que vous dites avoir vérifié doit se retrouver dans le site.",
+      "sourceCours": "Sujet §6"
+    },
+    {
       "id": "PR1",
       "axe": "presence",
       "libelle": "Présence professionnelle",
@@ -313,6 +335,17 @@
       "methode": "depot",
       "seuil": { "operateur": "=", "nombre": 0, "unite": "non déclarés" },
       "piste": "Un commit co-signé par un outil d'IA : l'outil figure dans IA.md.",
+      "sourceCours": "Sujet §3"
+    },
+    {
+      "id": "PC6",
+      "axe": "processus",
+      "libelle": "IA.md cohérent avec l'historique et la stack",
+      "statut": "I",
+      "methode": "ia",
+      "seuil": null,
+      "echelle": ["vague", "incohérente", "partielle", "cohérente"],
+      "piste": "Les étapes et usages déclarés se retrouvent dans vos commits ; ce que vous avez retouché est dit concrètement.",
       "sourceCours": "Sujet §3"
     }
   ]

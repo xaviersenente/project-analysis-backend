@@ -15,13 +15,14 @@ import { ecoindex } from "../qualite/ecoindex.js";
 import { categorieTiers } from "../runtime/parcours.js";
 import qualiteWeb, { pagesLues } from "./qualiteWeb.js";
 import processus from "./processus.js";
+import criteresIa from "./criteresIa.js";
 import thresholds from "../../config/thresholds.js";
 import { lireHistorique } from "../source/historique.js";
 import { fichiersDuDepot, tracesIaDansHistorique, elementsSensibles, declaratif } from "../source/depotPortfolio.js";
 import { tirerPortions } from "../soutenance/tirage.js";
 import { proposerQuestions, EMPREINTE_PROMPT } from "../soutenance/questions.js";
 
-export const ANALYSEURS = { ...qualiteWeb, ...processus };
+export const ANALYSEURS = { ...qualiteWeb, ...processus, ...criteresIa };
 
 /**
  * Les critères de la grille, mesurés par les analyseurs du profil.
@@ -36,7 +37,8 @@ export const evaluerCriteres = async (grille, analyseurs, ctx) => {
       mesure = modele.methode === "manuel" ? aJuger() : nonMesurable("Aucun analyseur pour ce critère dans ce profil");
     } else {
       try {
-        mesure = await analyseurs[modele.id](ctx);
+        // Le critère de la grille est passé aussi : un critère IA en tire son échelle
+        mesure = await analyseurs[modele.id](ctx, modele);
       } catch (error) {
         console.error(`⚠️ ${modele.id} : ${error.message}`);
         mesure = nonMesurable(`Analyse impossible : ${error.message.split("\n")[0]}`);
@@ -120,7 +122,7 @@ const alertes = (ctx) => {
  * @param {boolean} [options.sansNavigateur] - Sans parcours du site (tests, hors connexion)
  * @param {string} [options.dossierCaptures]
  * @param {number} [options.graine] - Numéro du tirage de la fiche de soutenance (1 par défaut)
- * @param {object} [options.clientIa] - Client Anthropic (tests) ; les questions ne sont demandées que si la promo l'autorise
+ * @param {object} [options.clientIa] - Client Anthropic (tests) ; l'IA n'est appelée que si la promo l'autorise (ia.*)
  * @returns {Promise<{ resultat: object, racineSite: null }>}
  */
 export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, dossierCaptures = null, graine = 1, clientIa = undefined }) => {
@@ -132,7 +134,7 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   const readme = copie ? liensDuReadme(copie) : { site: null, figma: null };
   const site = projet.site || readme.site;
 
-  const ctx = { projet, promo, copie };
+  const ctx = { projet, promo, copie, clientIa };
   if (copie) {
     const depot = await mesurer("Lecture du dépôt", () => {
       const fichiers = fichiersDuDepot(copie);

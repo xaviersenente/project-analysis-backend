@@ -352,6 +352,21 @@ export default {
       ia: { modele: "claude-opus-5-5", effort: "high", maxTokens: 16000 },
     },
 
+    // Lot 5 : les critères évalués par l'IA (Q13, ED2, PC6), seulement si la promo le demande (ia.criteres)
+    ia: {
+      modele: "claude-opus-5-5",
+      effort: "high",
+      maxTokens: 16000,
+      // Une preuve plus courte ne prouve rien
+      extraitMin: 8,
+      // Ce qu'on envoie d'un document, et combien de pages d'études de cas au plus
+      documentMaxCaracteres: 12000,
+      pagesMax: 12,
+      // Les pages qui présentent un projet, d'après leur adresse
+      pagesProjets: /\/(projets?|projects?|works?|travaux|realisations?|r[ée]alisations?|cases?|case-studies|portfolio)\/[^/]+/i,
+      commitsMax: 200,
+    },
+
     // PR2 : les réseaux reconnus, et combien le site doit en relier
     reseauxMin: 2,
     reseaux: [
