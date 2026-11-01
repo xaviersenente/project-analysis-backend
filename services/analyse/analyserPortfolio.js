@@ -16,6 +16,7 @@ import { categorieTiers } from "../runtime/parcours.js";
 import qualiteWeb, { pagesLues } from "./qualiteWeb.js";
 import processus from "./processus.js";
 import criteresIa from "./criteresIa.js";
+import acquisS1 from "./acquisS1.js";
 import thresholds from "../../config/thresholds.js";
 import { lireHistorique } from "../source/historique.js";
 import { fichiersDuDepot, tracesIaDansHistorique, elementsSensibles, declaratif } from "../source/depotPortfolio.js";
@@ -24,7 +25,8 @@ import { proposerQuestions } from "../soutenance/questions.js";
 import { lirePrompt } from "../ia/evaluer.js";
 import { creerClientClaudeCode } from "../ia/claudeCode.js";
 
-export const ANALYSEURS = { ...qualiteWeb, ...processus, ...criteresIa };
+// Les acquis du S1 (A3, E10, G4, M1…) gardent leur identifiant : ils ne croisent pas ceux du portfolio
+export const ANALYSEURS = { ...qualiteWeb, ...processus, ...criteresIa, ...acquisS1 };
 
 /**
  * Les critères de la grille, mesurés par les analyseurs du profil.
@@ -128,7 +130,7 @@ const alertes = (ctx) => {
  * @param {string} [options.dossierIa] - Voie Claude Code (ia.mode) : où écrire les demandes et lire les réponses
  * @returns {Promise<{ resultat: object, racineSite: null }>}
  */
-export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, dossierCaptures = null, graine = 1, clientIa = undefined, dossierIa = null }) => {
+export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, sansValidationW3c = false, dossierCaptures = null, graine = 1, clientIa = undefined, dossierIa = null }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   // Le dépôt : sa version au rendu (l'historique et les fichiers déclaratifs viennent au lot 3)
@@ -140,7 +142,7 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   // Voie Claude Code : pas de clé d'API, les demandes passent par l'abonnement (commande /webscope-ia)
   const claudeCode = !clientIa && promo.ia?.mode === "claude-code" && dossierIa ? creerClientClaudeCode({ dossier: dossierIa }) : null;
   if (claudeCode) clientIa = claudeCode;
-  const ctx = { projet, promo, grille, copie, clientIa };
+  const ctx = { projet, promo, grille, copie, clientIa, sansValidationW3c };
   if (copie) {
     const depot = await mesurer("Lecture du dépôt", () => {
       const fichiers = fichiersDuDepot(copie);

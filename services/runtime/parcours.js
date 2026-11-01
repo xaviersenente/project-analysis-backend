@@ -5,6 +5,8 @@
  * rien accepté (navigation privée, aucun clic). Les pages viennent du sitemap et des liens internes,
  * dans la limite de la configuration. Pour chaque page, à 360 px : statut, référencement,
  * débordement, axe-core, requêtes (tiers compris), poids transféré, éléments du DOM ; et des captures.
+ * Pour les acquis du S1 (services/analyse/acquisS1.js) : le HTML servi et le HTML rendu, les images,
+ * polices et vidéos chargées, et les polices déclarées. Ils restent hors du résultat.
  */
 import fs from "fs";
 import path from "path";
@@ -87,6 +89,17 @@ function lirePage() {
     pageBuilder: Boolean(document.querySelector('[class*="elementor"], [class*="et_pb_"], [class*="fusion-builder"], [class*="vc_row"]')),
     liens: [...document.querySelectorAll("a[href]")].map((a) => ({ href: a.href, texte: (a.innerText || a.getAttribute("aria-label") || "").trim().slice(0, 80) })),
     texte: document.body?.innerText.slice(0, 30000) ?? "",
+  };
+}
+
+/** Exécuté dans la page : les polices déclarées (@font-face), préchargées, et la pile du texte courant */
+function lirePolices() {
+  return {
+    declarees: [...document.fonts]
+      .filter((f) => f.status !== "unloaded")
+      .map((f) => ({ famille: f.family.replace(/^["']|["']$/g, ""), graisse: f.weight, style: f.style, display: f.display, statut: f.status })),
+    prechargees: [...document.querySelectorAll('link[rel~="preload"][as="font"][href]')].map((l) => l.href),
+    pile: getComputedStyle(document.body).fontFamily,
   };
 }
 
@@ -215,6 +228,8 @@ const capturer = async (onglet, largeur, dossier, chemin) => {
 const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierCaptures }) => {
   const onglet = await contexte.newPage();
   const requetes = new Map();
+  // Réponses par requête : type (Image, Font, Media…), type MIME, statut, octets transférés
+  const reponses = new Map();
   let poids = 0;
   try {
     // Pour les captures : savoir ce que la page révélera au défilement
@@ -222,7 +237,11 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
     const cdp = await onglet.createCDPSession();
     await cdp.send("Network.enable");
     cdp.on("Network.requestWillBeSent", (e) => requetes.set(e.requestId, e.request.url));
-    cdp.on("Network.loadingFinished", (e) => (poids += e.encodedDataLength));
+    cdp.on("Network.responseReceived", (e) => reponses.set(e.requestId, { url: e.response.url, type: e.type, mime: e.response.mimeType, statut: e.response.status, octets: 0 }));
+    cdp.on("Network.loadingFinished", (e) => {
+      poids += e.encodedDataLength;
+      if (reponses.has(e.requestId)) reponses.get(e.requestId).octets = e.encodedDataLength;
+    });
     await onglet.setViewport({ width: 360, height: 800, deviceScaleFactor: 1, isMobile: true, hasTouch: true });
     const reponse = await onglet.goto(adresse, { waitUntil: "networkidle2", timeout: reglages.delaiPageMs });
     await new Promise((r) => setTimeout(r, reglages.attenteMs));
@@ -232,6 +251,10 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
     if (!reponse || base.statut >= 400 || !type.includes("html") || estTiers(finale.hostname, hoteSite)) return { ...base, page: false };
 
     const lue = await onglet.evaluate(lirePage);
+    // Le HTML tel que le serveur l'envoie (validation W3C), et tel que le visiteur le reçoit une fois les scripts passés
+    const source = await reponse.text().catch(() => null);
+    const html = await onglet.evaluate(() => `<!DOCTYPE html>\n${document.documentElement.outerHTML}`);
+    const polices = await onglet.evaluate(lirePolices);
     const debordement = await onglet.evaluate(mesurerDebordement);
     await onglet.addScriptTag({ path: AXE });
     const violations = await onglet.evaluate(async (impacts) => {
@@ -241,8 +264,29 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
         .map((v) => ({ regle: v.id, impact: v.impact, aide: v.help, noeuds: v.nodes.slice(0, 10).map((n) => n.html.slice(0, 200)), total: v.nodes.length }));
     }, accessibilite.impacts);
     const toutes = [...requetes.values()].filter((u) => /^https?:/.test(u));
+    // Le poids de la page au chargement, à 360 px (EcoIndex, E11) : les captures aux autres largeurs
+    // chargent d'autres images, qui ne comptent pas
+    const poidsAuChargement = poids;
+    // Les cinq réponses les plus lourdes au chargement, tous types confondus (E11 : ce qui pèse)
+    const plusLourdes = [...reponses.values()]
+      .filter((r) => r.octets > 0 && /^https?:/.test(r.url))
+      .sort((a, b) => b.octets - a.octets)
+      .slice(0, 5)
+      .map((r) => ({ url: r.url, type: r.type, poidsKo: Math.round(r.octets / 1024) }));
+    // Images, polices et vidéos de la page à 360 px, y compris celles chargées à l'approche (révélées par
+    // la première capture) ; pas les variantes plus larges chargées pour les captures suivantes
+    const releverRessources = () =>
+      [...reponses.values()]
+        .filter((r) => ["Image", "Font", "Media"].includes(r.type) && /^https?:/.test(r.url))
+        .map(({ octets, ...r }) => ({ ...r, poidsKo: Math.round(octets / 1024) }));
+    let ressources = dossierCaptures ? null : releverRessources();
     const captures = [];
-    if (dossierCaptures) for (const largeur of largeursCaptures) captures.push(await capturer(onglet, largeur, dossierCaptures, base.chemin));
+    if (dossierCaptures) {
+      for (const largeur of largeursCaptures) {
+        captures.push(await capturer(onglet, largeur, dossierCaptures, base.chemin));
+        ressources ??= releverRessources();
+      }
+    }
     return {
       ...base,
       page: true,
@@ -250,8 +294,13 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
       debordement,
       violations,
       requetes: toutes.length,
-      poidsKo: Math.round(poids / 1024),
+      poidsKo: Math.round(poidsAuChargement / 1024),
+      plusLourdes,
       tiers: toutes.filter((u) => estTiers(new URL(u).hostname, hoteSite)),
+      source,
+      html,
+      polices,
+      ressources,
       captures,
     };
   } catch (error) {

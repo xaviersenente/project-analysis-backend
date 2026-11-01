@@ -56,6 +56,41 @@
       "sourceCours": "Sujet §8"
     },
     {
+      "id": "G4",
+      "axe": "direction-artistique",
+      "libelle": "Polices web : woff2, font-display: swap et pile de secours",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "les trois présents",
+      "piste": "Hébergez les polices en woff2, ajoutez font-display: swap et une pile de secours.",
+      "sourceCours": "SAÉ 105 (S1) · CM 9 · TP 5"
+    },
+    {
+      "id": "G5",
+      "axe": "direction-artistique",
+      "libelle": "Graisses limitées",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≤", "nombre": 4, "unite": "fichiers" },
+      "piste": "Deux graisses suffisent presque toujours.",
+      "sourceCours": "SAÉ 105 (S1) · CM 9"
+    },
+    {
+      "id": "G6",
+      "axe": "direction-artistique",
+      "libelle": "Préchargement des polices du premier écran",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "link rel=\"preload\" as=\"font\"",
+      "piste": "Préchargez la police du titre avec <link rel=\"preload\" as=\"font\" crossorigin>.",
+      "sourceCours": "SAÉ 105 (S1) · TP 5"
+    },
+    {
       "id": "ED1",
       "axe": "editorialisation",
       "libelle": "Éditorialisation",
@@ -129,6 +164,17 @@
       "seuil": { "operateur": "=", "nombre": 0, "unite": "non déclarés" },
       "piste": "Chaque bibliothèque de package.json est nommée dans le README (ou IA.md, QUALITE.md, JOURNAL.md).",
       "sourceCours": "Sujet §2.3"
+    },
+    {
+      "id": "M1",
+      "axe": "technique",
+      "libelle": "Validation HTML (W3C)",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "erreur" },
+      "piste": "Passez chaque page au validateur et corrigez les erreurs.",
+      "sourceCours": "SAÉ 105 (S1) · CM 1"
     },
     {
       "id": "Q1",
@@ -268,6 +314,153 @@
       "sourceCours": "Sujet §6"
     },
     {
+      "id": "A3",
+      "axe": "qualite-web",
+      "libelle": "Repères de page : header, nav étiqueté, main unique, footer",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "sur chaque page",
+      "piste": "Structurez chaque page avec header, nav aria-label, un seul main et footer.",
+      "sourceCours": "SAÉ 105 (S1) · CM 4 · TP 2"
+    },
+    {
+      "id": "A4",
+      "axe": "qualite-web",
+      "libelle": "Plan des titres : un seul h1, aucun niveau sauté",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "écart" },
+      "piste": "Gardez un seul h1 et descendez les niveaux un par un.",
+      "sourceCours": "SAÉ 105 (S1) · CM 4 · TP 2"
+    },
+    {
+      "id": "A5",
+      "axe": "qualite-web",
+      "libelle": "alt présent sur chaque image (alt=\"\" accepté)",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 100, "unite": "%" },
+      "piste": "Ajoutez un alt à chaque image ; alt=\"\" pour une image décorative.",
+      "sourceCours": "SAÉ 105 (S1) · CM 3"
+    },
+    {
+      "id": "A7",
+      "axe": "qualite-web",
+      "libelle": "Champs étiquetés et bouton d'envoi",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 100, "unite": "%" },
+      "piste": "Liez chaque champ à un label par for et id.",
+      "sourceCours": "SAÉ 105 (S1) · CM 5 · TP 3"
+    },
+    {
+      "id": "A8",
+      "axe": "qualite-web",
+      "libelle": "Boutons nommés",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 100, "unite": "%" },
+      "piste": "Donnez un texte ou un aria-label au bouton du menu.",
+      "sourceCours": "SAÉ 105 (S1) · TP 5"
+    },
+    {
+      "id": "E2",
+      "axe": "qualite-web",
+      "libelle": "Page courante signalée (aria-current)",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "sur chaque page",
+      "piste": "Ajoutez aria-current=\"page\" au lien de la page affichée.",
+      "sourceCours": "SAÉ 105 (S1) · TP 3"
+    },
+    {
+      "id": "E7",
+      "axe": "qualite-web",
+      "libelle": "Liens explicites hors de leur contexte",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "=", "nombre": 0, "unite": "lien vague" },
+      "piste": "Remplacez « voir plus » par la destination du lien.",
+      "sourceCours": "SAÉ 105 (S1) · CM 3 · TP 2"
+    },
+    {
+      "id": "E8",
+      "axe": "qualite-web",
+      "libelle": "Formulaires efficaces : type et autocomplete",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "type adapté et autocomplete sur les champs d'identité",
+      "piste": "Utilisez type=\"email\" et autocomplete=\"name\" sur les champs concernés.",
+      "sourceCours": "SAÉ 105 (S1) · CM 5 · TP 3"
+    },
+    {
+      "id": "E10",
+      "axe": "qualite-web",
+      "libelle": "Poids des images",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≤", "nombre": 150, "unite": "Ko" },
+      "piste": "Recadrez et compressez les images au-delà de 150 Ko.",
+      "sourceCours": "SAÉ 105 (S1) · CM 2 · TP 1"
+    },
+    {
+      "id": "E11",
+      "axe": "qualite-web",
+      "libelle": "Poids de la page d'accueil",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "<", "nombre": 1024, "unite": "Ko" },
+      "piste": "Visez moins de 1 Mo transférés pour l'accueil.",
+      "sourceCours": "SAÉ 105 (S1) · TP 1"
+    },
+    {
+      "id": "E12",
+      "axe": "qualite-web",
+      "libelle": "Formats : photos en AVIF ou WebP, icônes en SVG",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≥", "nombre": 90, "unite": "%" },
+      "piste": "Convertissez les photos en AVIF ou WebP.",
+      "sourceCours": "SAÉ 105 (S1) · CM 2 · TP 1"
+    },
+    {
+      "id": "E13",
+      "axe": "qualite-web",
+      "libelle": "Images dimensionnées, lazy sous la ligne de flottaison",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": { "operateur": "≥", "nombre": 90, "unite": "%" },
+      "piste": "Ajoutez width et height à chaque image.",
+      "sourceCours": "SAÉ 105 (S1) · TP 1"
+    },
+    {
+      "id": "E14",
+      "axe": "qualite-web",
+      "libelle": "Vidéo : controls, poster, preload=\"none\"",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "les attributs présents",
+      "piste": "Ajoutez controls, poster et preload=\"none\" à la vidéo.",
+      "sourceCours": "SAÉ 105 (S1) · TP 2"
+    },
+    {
       "id": "PR1",
       "axe": "presence",
       "libelle": "Présence professionnelle",
@@ -287,6 +480,18 @@
       "seuil": { "operateur": "≥", "nombre": 2, "unite": "réseaux" },
       "piste": "Des liens vers LinkedIn et le réseau choisi, depuis l'en-tête, le pied de page ou la page contact.",
       "sourceCours": "AC25.03"
+    },
+    {
+      "id": "E9",
+      "axe": "presence",
+      "libelle": "Liens mailto: et tel:",
+      "statut": "I",
+      "methode": "navigateur",
+      "origine": "s1-sae",
+      "seuil": null,
+      "detailSeuil": "présents",
+      "piste": "Rendez l'adresse et le téléphone cliquables.",
+      "sourceCours": "SAÉ 105 (S1) · TP 2 · TP 3"
     },
     {
       "id": "PC1",

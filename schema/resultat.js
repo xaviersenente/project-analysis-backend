@@ -70,6 +70,8 @@ export const critereSchema = z
     raison: z.string().optional(),
     occurrences: z.array(occurrenceSchema),
     totalOccurrences: z.number().int().min(0),
+    // Critère repris d'une SAÉ précédente : la promo qui l'a enseigné (« Acquis S1 » dans l'interface)
+    origine: z.string().optional(),
     // Critère « ia » : les niveaux possibles, et la proposition de l'agent (jamais des points)
     echelle: z.array(z.string()).optional(),
     proposition: z

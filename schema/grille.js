@@ -26,6 +26,8 @@ export const critereGrilleSchema = z.object({
   points: z.number().positive().optional(),
   // Critère « ia » : les niveaux que l'agent peut proposer, du plus faible au plus fort
   echelle: z.array(z.string()).min(2).optional(),
+  // Critère repris d'une SAÉ précédente (un acquis) : la promo qui l'a enseigné (s1-sae…)
+  origine: z.string().regex(/^s[1-6]-(sae|projet)(-[a-z0-9]+)*$/).optional(),
   // Critère « ia » : son prompt, prompts/<id de la grille>/<prompt>.md
   prompt: z.string().regex(/^[a-z0-9-]+$/).optional(),
   piste: z.string(),

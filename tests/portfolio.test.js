@@ -162,3 +162,66 @@ test("les mesures ne changent pas la note : 20 points au jury", { skip: !chrome 
   assert.equal(piege.note.lettre, "—");
   assert.equal(piege.note.base, 0);
 });
+
+// ---------- Les acquis du S1, mesurés sur le site publié ----------
+
+const ACQUIS = ["G4", "G5", "G6", "A3", "A4", "A5", "A7", "A8", "E2", "E7", "E8", "E10", "E11", "E12", "E13", "E14", "M1", "E9"];
+
+test("acquis S1 : 18 critères d'information, marqués s1-sae, qui gardent leur identifiant et ne changent pas la note", () => {
+  const acquis = grille.criteres.filter((c) => c.origine === "s1-sae");
+  assert.deepEqual(acquis.map((c) => c.id).sort(), [...ACQUIS].sort());
+  assert.ok(acquis.every((c) => c.statut === "I" && c.methode === "navigateur" && /^SAÉ 105 \(S1\)/.test(c.sourceCours)));
+  // Rangés dans les axes du portfolio, par thème
+  const axe = (id) => acquis.find((c) => c.id === id).axe;
+  assert.deepEqual([axe("G4"), axe("A5"), axe("E10"), axe("M1"), axe("E9")], ["direction-artistique", "qualite-web", "qualite-web", "technique", "presence"]);
+});
+
+test("acquis S1 : chaque critère est mesuré sur le site propre, et l'origine passe dans le résultat", { skip: !chrome }, () => {
+  for (const id of ACQUIS) {
+    const c = critere(propre, id);
+    assert.equal(c.origine, "s1-sae", id);
+    assert.equal(c.verdict, "respecte", `${id} : ${c.verdict} ${c.raison ?? ""} ${extraits(propre, id)}`);
+  }
+});
+
+test("acquis S1 : structure et accessibilité du HTML rendu (A3, A4, A5, A7, A8)", { skip: !chrome }, () => {
+  assert.match(extraits(piege, "A3"), /\/contact manque : footer/);
+  assert.match(extraits(piege, "A4"), /^\/ .*h4/m);
+  assert.match(extraits(piege, "A5"), /^\/ <img src="\/photo\.svg"/m);
+  assert.match(extraits(piege, "A7"), /^\/contact <input name="email" type="text">/m);
+  assert.match(extraits(piege, "A8"), /^\/ <button>/m);
+  for (const id of ["A3", "A4", "A5", "A7", "A8"]) assert.equal(critere(piege, id).verdict, "non-respecte", id);
+});
+
+test("acquis S1 : ergonomie (E2 page courante, E7 lien vague, E8 champ e-mail, E9 contact, E13 dimensions, E14 vidéo)", { skip: !chrome }, () => {
+  for (const id of ["E2", "E7", "E8", "E9", "E13", "E14"]) assert.equal(critere(piege, id).verdict, "non-respecte", id);
+  assert.match(extraits(piege, "E2"), /^\/ <a href="\/">/m);
+  assert.match(extraits(piege, "E7"), /Voir plus|<a href="\/projets">/);
+  assert.match(extraits(piege, "E8"), /type="text"/);
+  assert.match(extraits(piege, "E13"), /grande\.png/);
+  assert.match(extraits(piege, "E14"), /<video/);
+});
+
+test("acquis S1 : poids et formats d'après le réseau du parcours (E10, E12) ; l'accueil reste léger (E11)", { skip: !chrome }, () => {
+  assert.equal(critere(piege, "E10").verdict, "non-respecte");
+  assert.match(extraits(piege, "E10"), /^\/ grande\.png · \d{3} Ko/);
+  assert.equal(critere(piege, "E12").verdict, "non-respecte");
+  assert.match(extraits(piege, "E12"), /grande\.png · image\/png/);
+  assert.equal(critere(piege, "E11").verdict, "respecte");
+});
+
+test("acquis S1 : polices (G4 woff, sans swap ni pile de secours ; G6 sans preload)", { skip: !chrome }, () => {
+  const g4 = critere(piege, "G4");
+  assert.equal(g4.verdict, "non-respecte");
+  assert.equal(g4.detailValeur, "woff2 ✕ · swap ✕ · pile de secours ✕");
+  assert.match(extraits(piege, "G4"), /police\.woff/);
+  assert.equal(critere(piege, "G6").verdict, "non-respecte");
+  assert.equal(critere(propre, "G4").detailValeur, "woff2 ✓ · swap ✓ · pile de secours ✓");
+});
+
+test("acquis S1 : M1 valide le HTML servi (un div dans un p)", { skip: !chrome }, () => {
+  const m1 = critere(piege, "M1");
+  if (m1.verdict === "non-mesurable") return; // sans Java
+  assert.equal(m1.verdict, "non-respecte");
+  assert.match(extraits(piege, "M1"), /^\/ .*div/m);
+});

@@ -49,7 +49,7 @@ const resoudre = (racine, fichierSource, valeur, fichiersMinuscules) => {
 };
 
 /** Position et extrait (la balise ouvrante) d'un élément */
-const position = (html, element) => {
+export const position = (html, element) => {
   const loc = element.sourceCodeLocation;
   if (!loc) return { ligne: null, colonne: null, extrait: "" };
   const debut = loc.startTag ?? loc;
