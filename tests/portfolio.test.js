@@ -256,3 +256,19 @@ test("acquis S1, lot 2 : G8 huit tailles de plus ; G9 un paragraphe de plus de 8
   assert.match(extraits(piege, "G9"), /<p class="carte">/);
   assert.ok(critere(propre, "G9").valeur <= 80);
 });
+
+// ---------- Q2 : des points proposés au jury, d'après les mesures Q3 à Q11 ----------
+
+test("Q2 : l'outil propose des points d'après Q3 à Q11 ; la note attend toujours le jury", { skip: !chrome }, () => {
+  const q2 = critere(piege, "Q2");
+  assert.equal(q2.verdict, "a-juger");
+  assert.equal(q2.points.obtenus, null);
+  assert.deepEqual(q2.pointsProposes.mesures.map((m) => m.id), ["Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10", "Q11"]);
+  // Piégé : Q7 respecté, Q9 partiel, le reste non respecté : 1,5 / 9 × 2 ≈ 0,33 → 0,5
+  assert.equal(q2.pointsProposes.valeur, 0.5);
+  assert.equal(q2.detailValeur, "proposé : 0,5 / 2");
+  // Propre : tout respecté sauf Q10 (servi en http) : 8 / 9 × 2 ≈ 1,78 → 2
+  assert.equal(critere(propre, "Q2").pointsProposes.valeur, 2);
+  assert.equal(piege.note.aJuger, 20);
+  assert.equal(piege.note.base, 0);
+});

@@ -26,6 +26,8 @@ export const critereGrilleSchema = z.object({
   points: z.number().positive().optional(),
   // Critère « ia » : les niveaux que l'agent peut proposer, du plus faible au plus fort
   echelle: z.array(z.string()).min(2).optional(),
+  // Contrainte à juger dont l'outil propose les points, d'après ces mesures de la grille (le jury valide)
+  propositionDepuis: z.array(z.string().regex(ID_CRITERE_REGEX)).min(1).optional(),
   // Critère repris d'une SAÉ précédente (un acquis) : la promo qui l'a enseigné (s1-sae…)
   origine: z.string().regex(/^s[1-6]-(sae|projet)(-[a-z0-9]+)*$/).optional(),
   // Critère « ia » : son prompt, prompts/<id de la grille>/<prompt>.md
@@ -55,6 +57,12 @@ export const grilleSchema = z
       if (ids.has(c.id)) ctx.addIssue({ code: "custom", path: ["criteres", i, "id"], message: `Critère en double : ${c.id}` });
       ids.add(c.id);
       if (c.methode === "ia" && !c.echelle) ctx.addIssue({ code: "custom", path: ["criteres", i, "echelle"], message: "Un critère « ia » doit donner son échelle" });
+      if (c.propositionDepuis) {
+        if (c.statut !== "C" || c.methode !== "manuel") ctx.addIssue({ code: "custom", path: ["criteres", i, "propositionDepuis"], message: "Seule une contrainte à juger reçoit des points proposés" });
+        for (const id of c.propositionDepuis) {
+          if (!g.criteres.some((m) => m.id === id && m.methode !== "manuel")) ctx.addIssue({ code: "custom", path: ["criteres", i, "propositionDepuis"], message: `Mesure inconnue ou à juger : ${id}` });
+        }
+      }
       if (c.methode === "ia" && !c.prompt) ctx.addIssue({ code: "custom", path: ["criteres", i, "prompt"], message: "Un critère « ia » doit nommer son prompt" });
     });
     // Les points fixés d'un axe ne dépassent pas les points de l'axe

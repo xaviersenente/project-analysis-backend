@@ -7,7 +7,7 @@
 import { creerSuivi } from "../../utils/mesure.js";
 import { resoudreVersion, recuperer, dossierCache } from "../source/depot.js";
 import { parcourirSite } from "../runtime/parcours.js";
-import { pointsParContrainte, points, noter } from "./notation.js";
+import { pointsParContrainte, points, noter, proposerPoints } from "./notation.js";
 import { nonMesurable, aJuger } from "./mesure.js";
 import { resumeGrille } from "../grilles/grilles.js";
 import { liensDuReadme, urlDepot } from "./analyserDepot.js";
@@ -55,6 +55,15 @@ export const evaluerCriteres = async (grille, analyseurs, ctx) => {
     critere.occurrences = (critere.occurrences ?? []).map((o) => ({ surligne: null, ...o }));
     critere.totalOccurrences = critere.occurrences.length;
     criteres.push(critere);
+  }
+  // Une fois toutes les mesures prises : les points proposés au jury (Q2, d'après Q3 à Q11)
+  for (const critere of criteres) {
+    if (!critere.propositionDepuis) continue;
+    const proposition = proposerPoints(critere.propositionDepuis, criteres, critere.points.max);
+    if (proposition) {
+      critere.pointsProposes = proposition;
+      critere.detailValeur = `proposé : ${String(proposition.valeur).replace(".", ",")} / ${proposition.max}`;
+    }
   }
   return criteres;
 };

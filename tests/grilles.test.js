@@ -83,3 +83,24 @@ test("la note suit les axes et le total de la grille", () => {
   assert.equal(note.bonus, 0);
   assert.deepEqual(resumeGrille(grille).axes.map((a) => a.id), ["qualite", "processus"]);
 });
+
+test("points proposés : la part des mesures respectées, au demi-point ; non mesurable écarté", async () => {
+  const { proposerPoints } = await import("../services/analyse/notation.js");
+  const c = (id, verdict) => ({ id, verdict });
+  const mesures = [c("Q3", "respecte"), c("Q4", "non-respecte"), c("Q5", "partiel"), c("Q6", "non-mesurable"), c("Q7", "respecte")];
+  // (1 + 0 + ½ + 1) / 4 = 0,625 × 2 = 1,25 → 1,5 au demi-point près
+  const p = proposerPoints(["Q3", "Q4", "Q5", "Q6", "Q7"], mesures, 2);
+  assert.deepEqual(p, { valeur: 1.5, max: 2, mesures: [c("Q3", "respecte"), c("Q4", "non-respecte"), c("Q5", "partiel"), c("Q7", "respecte")] });
+  assert.equal(proposerPoints(["Q6"], mesures, 2), undefined);
+  assert.equal(proposerPoints(["Q3", "Q7"], mesures, 2).valeur, 2);
+  assert.equal(proposerPoints(["Q4"], mesures, 2).valeur, 0);
+});
+
+test("une proposition de points ne vaut que pour une contrainte à juger, d'après des mesures de la grille", () => {
+  const q2 = critere("Q2", "qualite", { methode: "manuel", propositionDepuis: ["Q3"] });
+  assert.ok(grilleSchema.safeParse(grilleTest({ criteres: [q2, critere("Q3", "qualite", { statut: "I" })] })).success);
+  const inconnue = grilleSchema.safeParse(grilleTest({ criteres: [{ ...q2, propositionDepuis: ["Q9"] }] }));
+  assert.match(inconnue.error.issues[0].message, /Mesure inconnue/);
+  const surMesure = grilleSchema.safeParse(grilleTest({ criteres: [critere("Q3", "qualite", { statut: "I", propositionDepuis: ["Q3"] })] }));
+  assert.match(surMesure.error.issues[0].message, /contrainte à juger/);
+});

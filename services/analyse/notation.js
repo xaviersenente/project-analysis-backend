@@ -33,6 +33,22 @@ export const points = (critere, max, bonusMax = 0) => {
   return { obtenus: obtenus ?? null, max };
 };
 
+/** Ce qu'une mesure apporte à une proposition de points : respectée 1, partielle ½, non respectée 0 */
+const APPORT = { respecte: 1, partiel: 0.5, "non-respecte": 0 };
+
+/**
+ * Points proposés pour une contrainte à juger, d'après des mesures (propositionDepuis dans la grille) :
+ * la part des mesures respectées, rapportée à ses points, arrondie au demi-point. Les mesures non
+ * mesurables sont écartées ; sans aucune mesure, pas de proposition. Le jury valide ou corrige.
+ * @returns {{ valeur: number, max: number, mesures: Array<{ id, verdict }> } | undefined}
+ */
+export const proposerPoints = (ids, criteres, max) => {
+  const mesures = ids.map((id) => criteres.find((c) => c.id === id)).filter((c) => c && c.verdict in APPORT);
+  if (mesures.length === 0) return undefined;
+  const part = mesures.reduce((s, c) => s + APPORT[c.verdict], 0) / mesures.length;
+  return { valeur: Math.round(part * max * 2) / 2, max, mesures: mesures.map((c) => ({ id: c.id, verdict: c.verdict })) };
+};
+
 /** Lettre, d'après les seuils de la configuration (une seule source : X5) */
 export const lettre = (pourcentage) =>
   Object.entries(thresholds.scoring.grades)

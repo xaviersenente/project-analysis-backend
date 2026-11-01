@@ -70,6 +70,15 @@ export const critereSchema = z
     raison: z.string().optional(),
     occurrences: z.array(occurrenceSchema),
     totalOccurrences: z.number().int().min(0),
+    // Contrainte à juger : les points que l'outil propose d'après des mesures (le jury valide ou corrige)
+    pointsProposes: z
+      .object({
+        valeur: z.number().min(0),
+        max: z.number().positive(),
+        // Les mesures prises en compte ; une mesure non mesurable n'y figure pas
+        mesures: z.array(z.object({ id: z.string(), verdict: z.enum(VERDICTS) })),
+      })
+      .optional(),
     // Critère repris d'une SAÉ précédente : la promo qui l'a enseigné (« Acquis S1 » dans l'interface)
     origine: z.string().optional(),
     // Critère « ia » : les niveaux possibles, et la proposition de l'agent (jamais des points)
