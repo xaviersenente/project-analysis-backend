@@ -1,6 +1,6 @@
 # WebScope : analyse (backend)
 
-Analyse les dépôts GitHub des projets de la SAÉ 105 (BUT1 MMI) selon la grille de `CRITERES-SAE105-2026.md`, et écrit un résultat JSON par étudiant. Le frontend (`project-analysis-frontend`) en fait un site statique.
+Analyse les projets web des étudiants de BUT MMI rendus sur GitHub, une grille par SAÉ (`config/grilles/` : la SAÉ 105, le portfolio S3…), et écrit un résultat JSON par étudiant. La grille de la SAÉ 105 est décrite dans `docs/s1-sae/CRITERES-SAE105-2026.md` (dossier racine). Le frontend (`project-analysis-frontend`) en fait un site statique.
 
 L'analyse tourne **en local**, en ligne de commande. Il n'y a plus d'API ni de serveur à héberger.
 

@@ -31,6 +31,15 @@ test("toutes les grilles du dossier sont valides, et la SAÉ 105 est la grille p
   assert.equal(profilDe(sae105).analyser.name, "analyserDepot");
 });
 
+test("les prompts nommés par une grille sont rangés sous son identifiant", async () => {
+  const fs = await import("fs");
+  const { fichierPrompt } = await import("../services/grilles/grilles.js");
+  const portfolio = chargerGrille("s3-portfolio-2026");
+  const noms = [...portfolio.criteres.filter((c) => c.methode === "ia").map((c) => c.prompt), portfolio.prompts.questionsSoutenance];
+  assert.deepEqual(noms, ["etudes-de-cas", "qualite-md", "ia-md", "questions-soutenance"]);
+  for (const nom of noms) assert.ok(fs.existsSync(fichierPrompt("s3-portfolio-2026", nom)), nom);
+});
+
 test("un identifiant mal formé ou une grille absente est refusé", () => {
   assert.throws(() => chargerGrille("../thresholds"), /mal formé/);
   assert.throws(() => chargerGrille("inexistante"), /introuvable/);
@@ -44,6 +53,8 @@ test("une grille incohérente est refusée", () => {
   assert.match(doublon.error.issues[0].message, /double/);
   const iaSansEchelle = grilleSchema.safeParse(grilleTest({ criteres: [critere("Q1", "qualite", { methode: "ia" })] }));
   assert.match(iaSansEchelle.error.issues[0].message, /échelle/);
+  const iaSansPrompt = grilleSchema.safeParse(grilleTest({ criteres: [critere("Q1", "qualite", { methode: "ia", echelle: ["faible", "fort"] })] }));
+  assert.match(iaSansPrompt.error.issues[0].message, /prompt/);
   const tropDePoints = grilleSchema.safeParse(grilleTest({ criteres: [critere("Q1", "qualite", { points: 4 })] }));
   assert.match(tropDePoints.error.issues[0].message, /4 points fixés pour 3/);
   assert.throws(() => profilDe({ id: "x", profil: "inconnu" }), /profil inconnu/);

@@ -22,7 +22,7 @@ import thresholds from "../../config/thresholds.js";
 
 const R = thresholds.portfolio.ia;
 
-/** Le prompt d'un critère (prompts/<nom>.md) et son empreinte */
+/** Un prompt (prompts/<id de la grille>/<nom>.md, nommé « <id de la grille>/<nom> ») et son empreinte */
 export const lirePrompt = (nom) => {
   const texte = fs.readFileSync(fileURLToPath(new URL(`../../prompts/${nom}.md`, import.meta.url)), "utf-8");
   return { texte, empreinte: createHash("sha256").update(texte).digest("hex").slice(0, 12) };
@@ -84,7 +84,7 @@ export const verifierPreuves = (preuves, documents) => {
  * Une proposition de l'IA pour un critère
  * @param {object} options
  * @param {{ id: string, libelle: string, echelle: string[] }} options.critere - Le critère de la grille
- * @param {string} options.prompt - Nom du prompt (prompts/<nom>.md)
+ * @param {string} options.prompt - Le prompt, « <id de la grille>/<nom> » (prompts/<id de la grille>/<nom>.md)
  * @param {Array<{ fichier: string, texte: string }>} options.documents - Déjà pseudonymisés
  * @param {object} [options.client] - Client Anthropic (injecté dans les tests)
  * @returns {Promise<object>} - { niveau, justification, preuves, preuvesEcartees, modele, prompt }

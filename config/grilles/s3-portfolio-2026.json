@@ -3,6 +3,7 @@
   "id": "s3-portfolio-2026",
   "nom": "Portfolio S3 · projet individuel (2026-2027)",
   "profil": "portfolio",
+  "prompts": { "questionsSoutenance": "questions-soutenance" },
   "bonusMax": 0,
   "axes": [
     {
@@ -73,6 +74,7 @@
       "methode": "ia",
       "seuil": null,
       "echelle": ["absentes", "survolées", "partielles", "complètes"],
+      "prompt": "etudes-de-cas",
       "piste": "Pour chaque projet : la commande, votre rôle exact, vos recherches et arbitrages, vos choix techniques, le résultat.",
       "sourceCours": "Sujet §2.2"
     },
@@ -261,6 +263,7 @@
       "methode": "ia",
       "seuil": null,
       "echelle": ["générique", "contredite", "partielle", "pertinente"],
+      "prompt": "qualite-md",
       "piste": "Des critères tirés de votre site ; ce que vous dites avoir vérifié doit se retrouver dans le site.",
       "sourceCours": "Sujet §6"
     },
@@ -345,6 +348,7 @@
       "methode": "ia",
       "seuil": null,
       "echelle": ["vague", "incohérente", "partielle", "cohérente"],
+      "prompt": "ia-md",
       "piste": "Les étapes et usages déclarés se retrouvent dans vos commits ; ce que vous avez retouché est dit concrètement.",
       "sourceCours": "Sujet §3"
     }

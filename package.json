@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "WebScope : analyse des dépôts GitHub des projets SAÉ 105, en ligne de commande",
+  "description": "WebScope : analyse des projets web des étudiants de BUT MMI (une grille par SAÉ), en ligne de commande",
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",
     "axe-core": "^4.14.0",

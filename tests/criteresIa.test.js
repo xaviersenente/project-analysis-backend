@@ -57,12 +57,12 @@ test("une preuve n'est gardée que si son extrait est à la ligne citée (ou pas
 test("une proposition sans aucune preuve retrouvée est écartée ; un niveau hors échelle est refusé par le schéma", async () => {
   const documents = [{ fichier: "IA.md", texte: "| Claude | Intégration | J'ai corrigé le menu |" }];
   const inventee = clientSimule(() => ({ stop_reason: "end_turn", parsed_output: { niveau: "cohérente", justification: "…", preuves: [{ fichier: "IA.md", ligne: 1, extrait: "j'ai tout écrit seul" }] } }));
-  await assert.rejects(proposerNiveau({ critere: critere("PC6"), prompt: "ia-md", documents, client: inventee }), /aucune des 1 preuve/);
+  await assert.rejects(proposerNiveau({ critere: critere("PC6"), prompt: "s3-portfolio-2026/ia-md", documents, client: inventee }), /aucune des 1 preuve/);
   // Le schéma de sortie structurée porte l'échelle de la grille
   const client = clientSimule((params) => ({ stop_reason: "end_turn", parsed_output: { niveau: "partielle", justification: "…", preuves: [{ fichier: "IA.md", ligne: 1, extrait: "J'ai corrigé le menu" }] } }));
-  const p = await proposerNiveau({ critere: critere("PC6"), prompt: "ia-md", documents, client });
+  const p = await proposerNiveau({ critere: critere("PC6"), prompt: "s3-portfolio-2026/ia-md", documents, client });
   assert.equal(p.niveau, "partielle");
-  assert.equal(p.prompt, lirePrompt("ia-md").empreinte);
+  assert.equal(p.prompt, lirePrompt("s3-portfolio-2026/ia-md").empreinte);
   assert.match(JSON.stringify(client.requetes[0].output_config.format), /incohérente/);
 });
 
@@ -111,6 +111,7 @@ test("ED2 : seules les pages de projets sont envoyées, pseudonymisées, une par
   const ctx = {
     projet: { nom: "Alice Martin" },
     promo: { ia: { criteres: true } },
+    grille: { id: "s3-portfolio-2026" },
     parcours: {
       url: "https://alice.fr/",
       pages: [

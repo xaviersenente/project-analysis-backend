@@ -11,7 +11,10 @@ import os from "os";
 import path from "path";
 import { preparerDepotPortfolio, PROMO_PORTFOLIO } from "./aides/portfolioPiege.js";
 import { generateur, blocs, tirerPortions } from "../services/soutenance/tirage.js";
-import { proposerQuestions, lignesDansLePassage, EMPREINTE_PROMPT } from "../services/soutenance/questions.js";
+import { proposerQuestions, lignesDansLePassage } from "../services/soutenance/questions.js";
+import { lirePrompt } from "../services/ia/evaluer.js";
+
+const PROMPT = lirePrompt("s3-portfolio-2026/questions-soutenance");
 import { fichiersDuDepot } from "../services/source/depotPortfolio.js";
 import { analyserPortfolio } from "../services/analyse/analyserPortfolio.js";
 import { chargerGrille } from "../services/grilles/grilles.js";
@@ -86,7 +89,7 @@ test("les questions : celle qui sort du passage est écartée ; rien d'identifia
       { question: "Et la ligne 80 ?", lignes: "80", attendu: "—" },
     ])
   );
-  const { questions, ecartees } = await proposerQuestions(tirage, client, "Alice MARTIN");
+  const { questions, ecartees } = await proposerQuestions(tirage, client, "Alice MARTIN", PROMPT);
   assert.equal(questions.length, 2);
   assert.equal(ecartees, 1);
   const requete = JSON.stringify(client.requetes[0]);
@@ -94,12 +97,13 @@ test("les questions : celle qui sort du passage est écartée ; rien d'identifia
   assert.match(requete, /   1 \| const a = 1;/);
   assert.equal(client.requetes[0].fallbacks, "default");
   assert.doesNotMatch(requete, /alice|Martin/i);
-  assert.match(EMPREINTE_PROMPT, /^[0-9a-f]{12}$/);
+  assert.match(PROMPT.empreinte, /^[0-9a-f]{12}$/);
+  assert.equal(client.requetes[0].system, PROMPT.texte);
 });
 
 test("un refus du modèle n'invente rien : la question manque, l'erreur est dite", async () => {
   const tirage = { fichier: "a.js", debut: 1, fin: 20, langage: "javascript", code: "x" };
-  await assert.rejects(proposerQuestions(tirage, clientSimule({ stop_reason: "refusal", parsed_output: null })), /refusé/);
+  await assert.rejects(proposerQuestions(tirage, clientSimule({ stop_reason: "refusal", parsed_output: null }), "", PROMPT), /refusé/);
 });
 
 const grille = chargerGrille("s3-portfolio-2026");
@@ -124,7 +128,7 @@ test("avec l'autorisation, chaque portion tirée reçoit ses questions ; une pan
   const verification = resultatSchema.safeParse(resultat);
   assert.ok(verification.success, JSON.stringify(verification.error?.issues.slice(0, 3)));
   assert.equal(resultat.soutenance.ia.statut, "proposees");
-  assert.equal(resultat.soutenance.ia.prompt, EMPREINTE_PROMPT);
+  assert.equal(resultat.soutenance.ia.prompt, PROMPT.empreinte);
   assert.ok(resultat.soutenance.tirages.every((t) => t.questions.length === 1));
 
   const enPanne = { beta: { messages: { parse: async () => { throw new Error("réseau indisponible"); } } } };

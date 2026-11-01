@@ -8,6 +8,7 @@ import { fileURLToPath } from "url";
 import { grilleSchema, ID_GRILLE_REGEX } from "../../schema/grille.js";
 
 const DOSSIER = fileURLToPath(new URL("../../config/grilles/", import.meta.url));
+const DOSSIER_PROMPTS = fileURLToPath(new URL("../../prompts/", import.meta.url));
 export const GRILLE_PAR_DEFAUT = "sae105-2026";
 
 const chargees = new Map();
@@ -28,9 +29,17 @@ export const chargerGrille = (id = GRILLE_PAR_DEFAUT) => {
     throw new Error(`Grille ${id} invalide : ${probleme.path.join(".")} ${probleme.message}`);
   }
   if (verification.data.id !== id) throw new Error(`Grille ${id} : son champ id vaut « ${verification.data.id} »`);
+  // Chaque prompt nommé par la grille existe : prompts/<id>/<nom>.md
+  const prompts = [...verification.data.criteres.map((c) => c.prompt), ...Object.values(verification.data.prompts ?? {})].filter(Boolean);
+  for (const nom of prompts) {
+    if (!fs.existsSync(fichierPrompt(id, nom))) throw new Error(`Grille ${id} : prompt introuvable, prompts/${id}/${nom}.md`);
+  }
   chargees.set(id, verification.data);
   return verification.data;
 };
+
+/** Le fichier d'un prompt de la grille : prompts/<id de la grille>/<nom>.md */
+export const fichierPrompt = (idGrille, nom) => path.join(DOSSIER_PROMPTS, idGrille, `${nom}.md`);
 
 /** Grilles disponibles */
 export const listerGrilles = () =>

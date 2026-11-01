@@ -6,9 +6,6 @@
  * et le chemin du fichier, pseudonymisés : ni nom, ni e-mail, ni téléphone de l'étudiant.
  * L'IA propose ; le jury choisit. Une question qui ne cite pas des lignes du passage est écartée.
  */
-import fs from "fs";
-import { createHash } from "crypto";
-import { fileURLToPath } from "url";
 import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { z } from "zod";
@@ -16,9 +13,6 @@ import thresholds from "../../config/thresholds.js";
 import { pseudonymiser } from "../ia/evaluer.js";
 
 const R = thresholds.portfolio.soutenance.ia;
-const PROMPT = fs.readFileSync(fileURLToPath(new URL("../../prompts/questions-soutenance.md", import.meta.url)), "utf-8");
-// L'empreinte du prompt, gardée dans le résultat : toute la promo est interrogée avec le même
-export const EMPREINTE_PROMPT = createHash("sha256").update(PROMPT).digest("hex").slice(0, 12);
 
 const Reponse = z.object({
   questions: z.array(
@@ -51,9 +45,10 @@ export const passageNumerote = (tirage, nom = "") =>
  * @param {object} tirage - { fichier, debut, fin, langage, code }
  * @param {object} [client] - Client Anthropic (injecté dans les tests)
  * @param {string} [nom] - Le nom de l'étudiant, retiré du passage avant l'envoi
+ * @param {{ texte: string }} prompt - Le prompt nommé par la grille (lirePrompt), le même pour toute la promo
  * @returns {Promise<{ questions: Array<{ question, lignes: { debut, fin }, attendu }>, ecartees: number }>}
  */
-export const proposerQuestions = async (tirage, client = new Anthropic(), nom = "") => {
+export const proposerQuestions = async (tirage, client = new Anthropic(), nom = "", prompt) => {
   const reponse = await client.beta.messages.parse({
     model: R.modele,
     max_tokens: R.maxTokens,
@@ -61,7 +56,7 @@ export const proposerQuestions = async (tirage, client = new Anthropic(), nom = 
     betas: ["server-side-fallback-2026-07-01"],
     fallbacks: "default",
     output_config: { effort: R.effort, format: betaZodOutputFormat(Reponse) },
-    system: PROMPT,
+    system: prompt.texte,
     messages: [{ role: "user", content: passageNumerote(tirage, nom) }],
   });
   if (reponse.stop_reason === "refusal") throw new Error("Le modèle a refusé de proposer des questions sur ce passage");

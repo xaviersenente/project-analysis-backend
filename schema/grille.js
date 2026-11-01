@@ -26,6 +26,8 @@ export const critereGrilleSchema = z.object({
   points: z.number().positive().optional(),
   // Critère « ia » : les niveaux que l'agent peut proposer, du plus faible au plus fort
   echelle: z.array(z.string()).min(2).optional(),
+  // Critère « ia » : son prompt, prompts/<id de la grille>/<prompt>.md
+  prompt: z.string().regex(/^[a-z0-9-]+$/).optional(),
   piste: z.string(),
   sourceCours: z.string(),
 });
@@ -38,6 +40,8 @@ export const grilleSchema = z
     // Le profil qui sait mesurer les critères de cette grille
     profil: z.string().regex(/^[a-z0-9-]+$/),
     bonusMax: z.number().min(0).default(0),
+    // Prompts propres au profil, dans prompts/<id de la grille>/ (portfolio : les questions de soutenance)
+    prompts: z.object({ questionsSoutenance: z.string().regex(/^[a-z0-9-]+$/).optional() }).optional(),
     axes: z.array(axeGrilleSchema).min(1),
     criteres: z.array(critereGrilleSchema).min(1),
   })
@@ -49,6 +53,7 @@ export const grilleSchema = z
       if (ids.has(c.id)) ctx.addIssue({ code: "custom", path: ["criteres", i, "id"], message: `Critère en double : ${c.id}` });
       ids.add(c.id);
       if (c.methode === "ia" && !c.echelle) ctx.addIssue({ code: "custom", path: ["criteres", i, "echelle"], message: "Un critère « ia » doit donner son échelle" });
+      if (c.methode === "ia" && !c.prompt) ctx.addIssue({ code: "custom", path: ["criteres", i, "prompt"], message: "Un critère « ia » doit nommer son prompt" });
     });
     // Les points fixés d'un axe ne dépassent pas les points de l'axe
     for (const axe of g.axes) {

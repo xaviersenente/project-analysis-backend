@@ -20,7 +20,8 @@ import thresholds from "../../config/thresholds.js";
 import { lireHistorique } from "../source/historique.js";
 import { fichiersDuDepot, tracesIaDansHistorique, elementsSensibles, declaratif } from "../source/depotPortfolio.js";
 import { tirerPortions } from "../soutenance/tirage.js";
-import { proposerQuestions, EMPREINTE_PROMPT } from "../soutenance/questions.js";
+import { proposerQuestions } from "../soutenance/questions.js";
+import { lirePrompt } from "../ia/evaluer.js";
 import { creerClientClaudeCode } from "../ia/claudeCode.js";
 
 export const ANALYSEURS = { ...qualiteWeb, ...processus, ...criteresIa };
@@ -139,7 +140,7 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   // Voie Claude Code : pas de clé d'API, les demandes passent par l'abonnement (commande /webscope-ia)
   const claudeCode = !clientIa && promo.ia?.mode === "claude-code" && dossierIa ? creerClientClaudeCode({ dossier: dossierIa }) : null;
   if (claudeCode) clientIa = claudeCode;
-  const ctx = { projet, promo, copie, clientIa };
+  const ctx = { projet, promo, grille, copie, clientIa };
   if (copie) {
     const depot = await mesurer("Lecture du dépôt", () => {
       const fichiers = fichiersDuDepot(copie);
@@ -159,11 +160,15 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
     ? await mesurer("Tirage de la fiche de soutenance", async () => {
         const tirage = tirerPortions({ dossier: copie, sha: version.sha, fichiers: ctx.depot.fichiers, slug: projet.slug, email: projet.email ?? null, graine });
         const ia = { statut: "desactivees", raison: "Désactivées : le fichier de promo ne les demande pas (ia.questionsSoutenance)" };
-        if (promo.ia?.questionsSoutenance && tirage.tirages.length) {
-          Object.assign(ia, { statut: "proposees", raison: undefined, modele: clientIa?.modele ?? thresholds.portfolio.soutenance.ia.modele, prompt: EMPREINTE_PROMPT, ecartees: 0 });
+        const nomPrompt = grille.prompts?.questionsSoutenance;
+        if (promo.ia?.questionsSoutenance && !nomPrompt) ia.raison = `Désactivées : la grille ${grille.id} ne nomme pas de prompt (prompts.questionsSoutenance)`;
+        else if (promo.ia?.questionsSoutenance && tirage.tirages.length) {
+          // Le prompt nommé par la grille ; son empreinte est gardée : toute la promo est interrogée avec le même
+          const prompt = lirePrompt(`${grille.id}/${nomPrompt}`);
+          Object.assign(ia, { statut: "proposees", raison: undefined, modele: clientIa?.modele ?? thresholds.portfolio.soutenance.ia.modele, prompt: prompt.empreinte, ecartees: 0 });
           for (const t of tirage.tirages) {
             try {
-              const { questions, ecartees } = await proposerQuestions(t, clientIa, projet.nom);
+              const { questions, ecartees } = await proposerQuestions(t, clientIa, projet.nom, prompt);
               t.questions = questions;
               ia.ecartees += ecartees;
             } catch (error) {

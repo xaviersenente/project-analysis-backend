@@ -22,15 +22,15 @@ const documentPour = (ctx, fichier, texte) => ({ fichier, texte: raccourcir(pseu
 
 /**
  * Un critère IA : la promo doit l'autoriser ; les documents viennent du socle
- * @param {string} prompt - prompts/<nom>.md
+ * Le prompt est celui que la grille nomme pour ce critère : prompts/<id de la grille>/<prompt>.md
  * @param {(ctx) => Array<{fichier, texte}> | string} documents - Les documents, ou la raison de ne pas évaluer
  */
-const critereIa = (prompt, documents) => async (ctx, modele) => {
+const critereIa = (documents) => async (ctx, modele) => {
   if (!ctx.promo?.ia?.criteres) return nonMesurable("IA désactivée : le fichier de promo ne la demande pas (ia.criteres)");
   const docs = documents(ctx);
   if (typeof docs === "string") return nonMesurable(docs);
   try {
-    const proposition = await proposerNiveau({ critere: modele, prompt, documents: docs, client: ctx.clientIa });
+    const proposition = await proposerNiveau({ critere: modele, prompt: `${ctx.grille.id}/${modele.prompt}`, documents: docs, client: ctx.clientIa });
     return aJuger(proposition.preuves, { detailValeur: `niveau proposé : ${proposition.niveau}`, proposition });
   } catch (error) {
     if (error.name === "EnAttenteClaudeCode") return nonMesurable(error.message);
@@ -56,14 +56,14 @@ const Q13 = async (ctx, modele) => {
   const qualite = declaratif(ctx.depot.dossier, ctx.depot.fichiers, declaratifs.qualite);
   if (!qualite) return nonMesurable("QUALITE.md absent : rien à confronter (voir Q12)");
   const mesures = ctx.parcours && pagesLues(ctx).length ? await mesuresDuSite(ctx) : null;
-  return critereIa("qualite-md", () => [
+  return critereIa(() => [
     documentPour(ctx, qualite.chemin, qualite.texte),
     documentPour(ctx, "mesures du site", mesures ?? "Le site en ligne n'a pas été parcouru : aucune mesure."),
   ])(ctx, modele);
 };
 
 /** ED2 : les études de cas, d'après le texte des pages de projets */
-const ED2 = critereIa("etudes-de-cas", (ctx) => {
+const ED2 = critereIa((ctx) => {
   if (!ctx.parcours) return ctx.raisonParcours ?? "Le site en ligne n'a pas été parcouru";
   const projets = pagesLues(ctx)
     .filter((p) => R.pagesProjets.test(p.chemin))
@@ -73,7 +73,7 @@ const ED2 = critereIa("etudes-de-cas", (ctx) => {
 });
 
 /** PC6 : IA.md face à l'historique et à la stack */
-const PC6 = critereIa("ia-md", (ctx) => {
+const PC6 = critereIa((ctx) => {
   if (!ctx.depot) return ctx.raisonDepot ?? "Le dépôt n'a pas pu être lu";
   const ia = declaratif(ctx.depot.dossier, ctx.depot.fichiers, declaratifs.ia);
   if (!ia) return "IA.md absent : rien à confronter (voir PC4)";
