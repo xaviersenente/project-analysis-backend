@@ -2,23 +2,25 @@
  * Analyse des projets de la promo, en local
  *
  * Pour chaque projet du fichier de promo : version figée du dépôt, analyse selon la grille
- * de la promo (grille, sinon la SAÉ 105), résultat v3 dans data/<slug>.json
- * et vignettes dans data/vignettes/<slug>/.
+ * de la promo (grille, sinon la SAÉ 105), résultat v3 dans data/<promo>/<slug>.json
+ * et vignettes dans data/<promo>/vignettes/<slug>/.
+ *
+ * La promo (s1-sae, s3-sae…) est le premier argument : un dossier de data/.
  *
  * Usage :
- *   node scripts/analyser.js --slug etu-01
- *   node scripts/analyser.js --tous
- *   node scripts/analyser.js --tous --sans-w3c      (sans Java)
- *   node scripts/analyser.js --tous --sans-navigateur  (sans Chrome : plus rapide)
- *   node scripts/analyser.js --tous --sans-en-ligne    (sans le contrôle du site publié)
- *   node scripts/analyser.js --slug etu-01 --graine 2  (portfolio : un autre tirage de la fiche de soutenance)
+ *   node scripts/analyser.js s1-sae --slug etu-01
+ *   node scripts/analyser.js s1-sae --tous
+ *   node scripts/analyser.js s1-sae --tous --sans-w3c      (sans Java)
+ *   node scripts/analyser.js s1-sae --tous --sans-navigateur  (sans Chrome : plus rapide)
+ *   node scripts/analyser.js s1-sae --tous --sans-en-ligne    (sans le contrôle du site publié)
+ *   node scripts/analyser.js s3-sae --slug etu-01 --graine 2  (portfolio : un autre tirage de la fiche de soutenance)
  */
 import fs from "fs";
 import path from "path";
 import { parseArgs } from "util";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
-import { chargerPromo, cheminResultat, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
+import { chargerPromo, cheminResultat, choisirPromo, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
 import { chargerGrille, GRILLE_PAR_DEFAUT } from "../services/grilles/grilles.js";
 import { profilDe } from "../services/profils/index.js";
 import { rafraichirVignettes } from "../services/source/vignettes.js";
@@ -28,7 +30,8 @@ import { copierPolices } from "../services/source/polices.js";
 // Les services lisent process.env au moment de l'appel : il suffit de le charger avant l'analyse.
 dotenv.config({ path: fileURLToPath(new URL("../.env", import.meta.url)), quiet: true });
 
-const { values } = parseArgs({
+const { values, positionals } = parseArgs({
+  allowPositionals: true,
   options: {
     slug: { type: "string" },
     tous: { type: "boolean", default: false },
@@ -39,6 +42,13 @@ const { values } = parseArgs({
     graine: { type: "string", default: "1" },
   },
 });
+
+try {
+  console.log(`Promo : ${path.basename(choisirPromo(positionals[0]))}`);
+} catch (error) {
+  console.error(error.message);
+  process.exit(1);
+}
 
 const promo = chargerPromo();
 if (!promo.dateRendu) {
@@ -56,7 +66,7 @@ if (values.slug && projets.length === 0) {
   process.exit(1);
 }
 if (projets.length === 0) {
-  console.error("Usage : node scripts/analyser.js --slug <slug> | --tous");
+  console.error("Usage : node scripts/analyser.js <promo> --slug <slug> | --tous");
   process.exit(1);
 }
 

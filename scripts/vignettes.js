@@ -1,19 +1,20 @@
 /**
  * Vignettes des images d'un projet déjà analysé
  *
- * Lit data/<slug>.json, crée les vignettes dans data/vignettes/<slug>/ (hors de Git)
+ * Lit data/<promo>/<slug>.json, crée les vignettes dans data/<promo>/vignettes/<slug>/ (hors de Git)
  * et renseigne le champ « vignette » de chaque image du résultat.
  *
  * Usage :
- *   node scripts/vignettes.js --slug etu-01 --site ../chemin/vers/le/site
+ *   node scripts/vignettes.js s1-sae --slug etu-01 --site ../chemin/vers/le/site
  */
 import fs from "fs";
 import path from "path";
 import { parseArgs } from "util";
 import { rafraichirVignettes } from "../services/source/vignettes.js";
-import { cheminResultat, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
+import { cheminResultat, choisirPromo, dossierDonnees, validerSlug } from "../services/promo/promoService.js";
 
-const { values } = parseArgs({
+const { values, positionals } = parseArgs({
+  allowPositionals: true,
   options: {
     slug: { type: "string" },
     site: { type: "string" },
@@ -21,7 +22,13 @@ const { values } = parseArgs({
 });
 
 if (!values.slug || !values.site) {
-  console.error("Usage : node scripts/vignettes.js --slug <slug> --site <dossier du site>");
+  console.error("Usage : node scripts/vignettes.js <promo> --slug <slug> --site <dossier du site>");
+  process.exit(1);
+}
+try {
+  choisirPromo(positionals[0]);
+} catch (error) {
+  console.error(error.message);
   process.exit(1);
 }
 

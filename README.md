@@ -18,9 +18,22 @@ npm install
 cp .env.example .env
 ```
 
+## Les promos
+
+Les données (hors de Git) ont un dossier par promo, nommé semestre-type :
+
+```text
+data/
+├── s1-sae/      # SAÉ 105 : promo.json, <slug>.json, captures/, vignettes/, polices/, notes/
+├── s3-sae/      # portfolio S3 : … et ia/ (demandes à l'IA)
+└── s2-projet/   # …
+```
+
+Le nom suit `s<1-6>-<sae|projet>`, avec un suffixe facultatif (`s3-sae-portfolio`) si un semestre en compte plusieurs.
+
 ## Le fichier de promo
 
-`data/promo.json` (hors de Git) donne la date de rendu et les projets :
+`data/<promo>/promo.json` donne la date de rendu, la grille et les projets :
 
 ```json
 {
@@ -41,7 +54,7 @@ cp .env.example .env
 }
 ```
 
-- `slug` : minuscules, chiffres et tirets ; il nomme le résultat (`data/<slug>.json`).
+- `slug` : minuscules, chiffres et tirets ; il nomme le résultat (`data/<promo>/<slug>.json`).
 - `site`, `figma` : laissés vides, ils sont lus dans le README de l'étudiant.
 - `email` : facultatif, pour repérer les commits d'un autre auteur.
 - `ecrans` : facultatif, corrige l'association entre écrans Figma et pages (`{ "Page 1": "team.html", "Hamburger": null }`).
@@ -50,9 +63,11 @@ cp .env.example .env
 ## Lancer une analyse
 
 ```bash
-npm run analyser -- --slug etu-01
-npm run analyser:tous
+npm run analyser -- s1-sae --slug etu-01
+npm run analyser -- s1-sae --tous
 ```
+
+La promo est le premier argument ; sans elle, la commande liste les promos disponibles.
 
 Options : `--sans-w3c` (sans Java), `--sans-navigateur` (sans Chrome, plus rapide), `--sans-en-ligne` (sans le contrôle du site publié).
 
@@ -64,7 +79,7 @@ Pour chaque projet, l'outil :
 4. lit l'historique Git (timeline, M10) ;
 5. compare le site à la maquette Figma, dans sa dernière version avant le rendu (G11) ;
 6. vérifie le site en ligne : pages et ressources en erreur, version déployée (rien de noté) ;
-7. écrit `data/<slug>.json`, les vignettes d'images (`data/vignettes/<slug>/`) et les captures maquette / site (`data/captures/<slug>/`).
+7. écrit `data/<promo>/<slug>.json`, les vignettes d'images (`vignettes/<slug>/`) et les captures maquette / site (`captures/<slug>/`), dans le dossier de la promo.
 
 Chaque critère rend ses occurrences (`fichier`, `ligne`, `colonne`, `extrait`). Une étape qui échoue rend ses critères « Non mesurable », avec la raison.
 
