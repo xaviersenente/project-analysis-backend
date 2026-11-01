@@ -217,7 +217,15 @@ export default {
       // Le temps laissé aux scripts de la page après le chargement (animations, contenus chargés ensuite)
       attenteMs: 1500,
       // Au-delà de la largeur de l'écran, une capture est coupée
-      captures: { largeurs: [360, 768, 1280], hauteurMaxPx: 8000, qualite: 70 },
+      captures: {
+        largeurs: [360, 768, 1280],
+        hauteurMaxPx: 8000,
+        qualite: 70,
+        // Avant la photo, sans faire défiler la page : contenus révélés au défilement montrés,
+        // images chargées à l'approche chargées (attente maximale). Puis le temps des fondus
+        // déclenchés (finMs), ou une courte pause quand rien n'a été révélé (pauseMs)
+        revelation: { imagesMs: 4000, finMs: 2000, pauseMs: 300 },
+      },
       // Fichiers qui ne sont pas des pages
       ignorer: /\.(pdf|zip|jpe?g|png|gif|webp|avif|svg|mp4|webm|mp3|docx?|xlsx?|pptx?)$/i,
     },

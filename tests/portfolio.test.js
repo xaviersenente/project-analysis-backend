@@ -9,6 +9,7 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import * as chromeLauncher from "chrome-launcher";
+import sharp from "sharp";
 import { servirPortfolio } from "./aides/portfolioPiege.js";
 import { analyserPortfolio, evaluerCriteres } from "../services/analyse/analyserPortfolio.js";
 import { domaineDe, estTiers, normaliser } from "../services/runtime/parcours.js";
@@ -85,6 +86,15 @@ test("le résultat du portfolio piégé est valide, et parcourt toutes les pages
   // Captures : l'accueil aux trois largeurs, les autres pages à 360 px
   assert.equal(piege.parcours.pages[0].captures.length, 3);
   for (const c of piege.parcours.pages.flatMap((p) => p.captures)) assert.ok(fs.existsSync(path.join(captures, "piege", path.basename(c.image))));
+});
+
+test("captures : un contenu révélé au défilement est visible, sans faire défiler la page", { skip: !chrome }, async () => {
+  const accueil = propre.parcours.pages.find((p) => p.chemin === "/");
+  const capture = path.join(captures, "propre", path.basename(accueil.captures[0].image));
+  // Le bloc rouge est à 2 500 px sous le contenu de tête : au milieu de sa hauteur
+  const { data, info } = await sharp(capture).extract({ left: 180, top: 2780, width: 1, height: 1 }).raw().toBuffer({ resolveWithObject: true });
+  assert.equal(info.width, 1);
+  assert.ok(data[0] > 200 && data[1] < 60 && data[2] < 60, `pixel ${[...data].join(",")} : le bloc devrait être rouge`);
 });
 
 test("Q3 : l'image sans alt est une erreur d'accessibilité", { skip: !chrome }, () => {

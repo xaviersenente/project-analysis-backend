@@ -90,13 +90,120 @@ function lirePage() {
   };
 }
 
+/**
+ * Injecté avant les scripts de la page : garde la trace des IntersectionObserver et de ce qu'ils
+ * observent, sans rien changer à leur comportement (les mesures au chargement restent celles d'un visiteur)
+ */
+function suivreObservateurs() {
+  const Natif = window.IntersectionObserver;
+  if (!Natif) return;
+  const observateurs = [];
+  window.__webscopeObservateurs = observateurs;
+  window.IntersectionObserver = class extends Natif {
+    constructor(rappel, options) {
+      super(rappel, options);
+      this.__rappel = rappel;
+      this.__cibles = new Set();
+      observateurs.push(this);
+    }
+    observe(cible) {
+      this.__cibles.add(cible);
+      return super.observe(cible);
+    }
+    unobserve(cible) {
+      this.__cibles.delete(cible);
+      return super.unobserve(cible);
+    }
+    disconnect() {
+      this.__cibles.clear();
+      return super.disconnect();
+    }
+  };
+}
+
+/**
+ * Exécuté dans la page, sans la faire défiler (un défilement peut déclencher un écran, un verrou…) :
+ * chaque observateur apprend que ses cibles sont visibles, comme si le visiteur avait tout parcouru ;
+ * les images chargées à l'approche sont chargées. Rend le nombre de cibles révélées.
+ */
+async function revelerPage({ imagesMs }) {
+  let revelees = 0;
+  for (const observateur of window.__webscopeObservateurs ?? []) {
+    const cibles = [...observateur.__cibles];
+    if (!cibles.length) continue;
+    const entrees = cibles.map((target) => {
+      const rect = target.getBoundingClientRect();
+      return { target, isIntersecting: true, intersectionRatio: 1, boundingClientRect: rect, intersectionRect: rect, rootBounds: null, time: performance.now() };
+    });
+    try {
+      observateur.__rappel(entrees, observateur);
+      revelees += cibles.length;
+    } catch {
+      // Le script de la page n'attendait pas ce rappel : la page reste telle quelle
+    }
+  }
+  const images = [...document.images].filter((img) => img.loading === "lazy" || !img.complete);
+  for (const img of images) img.loading = "eager";
+  await Promise.race([
+    Promise.all(images.map((img) => (img.complete ? null : new Promise((r) => img.addEventListener("load", r, { once: true }) || img.addEventListener("error", r, { once: true }))))),
+    new Promise((r) => setTimeout(r, imagesMs)),
+  ]);
+  return revelees;
+}
+
+/**
+ * Exécuté dans la page : un fond fixe qui couvre l'écran (ciel étoilé, dégradé) suit le visiteur
+ * sur toute la page ; dans une capture d'un seul tenant, il ne couvrirait que le premier écran.
+ * Il est étiré sur toute la hauteur. Seulement un fond : derrière le contenu ou sans clic
+ * (un écran d'avertissement ou une modale visible reste tel quel). Rend le nombre de fonds étirés.
+ */
+function etirerFondsFixes() {
+  const hauteur = document.documentElement.scrollHeight;
+  let etires = 0;
+  for (const el of document.querySelectorAll("body *")) {
+    const c = getComputedStyle(el);
+    if (c.position !== "fixed" || c.visibility === "hidden" || Number(c.opacity) === 0) continue;
+    const r = el.getBoundingClientRect();
+    const couvre = r.width >= window.innerWidth * 0.9 && r.height >= window.innerHeight * 0.9;
+    const fond = c.zIndex === "auto" || Number(c.zIndex) <= 0 || c.pointerEvents === "none";
+    if (!couvre || !fond) continue;
+    // Le style d'origine, rétabli après la photo (restaurerFondsFixes)
+    el.dataset.webscopeStyle = el.getAttribute("style") ?? "";
+    el.style.setProperty("position", "absolute", "important");
+    el.style.setProperty("top", "0", "important");
+    el.style.setProperty("bottom", "auto", "important");
+    el.style.setProperty("height", `${hauteur}px`, "important");
+    etires++;
+  }
+  return etires;
+}
+
+/** Exécuté dans la page : les fonds étirés reprennent leur style d'origine */
+function restaurerFondsFixes() {
+  for (const el of document.querySelectorAll("[data-webscope-style]")) {
+    const origine = el.dataset.webscopeStyle;
+    if (origine) el.setAttribute("style", origine);
+    else el.removeAttribute("style");
+    delete el.dataset.webscopeStyle;
+  }
+}
+
 const capturer = async (onglet, largeur, dossier, chemin) => {
-  const { hauteurMaxPx, qualite } = reglages.captures;
+  const { hauteurMaxPx, qualite, revelation } = reglages.captures;
   await onglet.setViewport({ width: largeur, height: 800, deviceScaleFactor: 1, isMobile: largeur < 768, hasTouch: largeur < 768 });
-  const hauteur = await onglet.evaluate(() => document.documentElement.scrollHeight);
-  const image = await onglet.screenshot({ type: "webp", quality: qualite, clip: { x: 0, y: 0, width: largeur, height: Math.min(hauteur, hauteurMaxPx) }, captureBeyondViewport: true });
+  // Les animations gardent leur durée (les écourter dérègle certains scripts) : si la révélation a
+  // déclenché quelque chose, on attend la fin des fondus avant la photo
+  const revelees = await onglet.evaluate(revelerPage, { imagesMs: revelation.imagesMs });
+  await new Promise((r) => setTimeout(r, revelees > 0 ? revelation.finMs : revelation.pauseMs));
+  await onglet.evaluate(etirerFondsFixes);
+  // Une page plus large que l'écran est photographiée en entier : le débordement se voit (Q4)
+  const { hauteur, largeurPage } = await onglet.evaluate(() => ({ hauteur: document.documentElement.scrollHeight, largeurPage: document.documentElement.scrollWidth }));
+  const largeurCapture = Math.min(Math.max(largeur, largeurPage), largeur * 3);
+  const image = await onglet.screenshot({ type: "webp", quality: qualite, clip: { x: 0, y: 0, width: largeurCapture, height: Math.min(hauteur, hauteurMaxPx) }, captureBeyondViewport: true });
   const nom = `${createHash("sha1").update(chemin).digest("hex").slice(0, 12)}-${largeur}.webp`;
   fs.writeFileSync(path.join(dossier, nom), image);
+  // La largeur suivante repart de la page telle qu'elle est (fonds rétablis)
+  await onglet.evaluate(restaurerFondsFixes);
   // Relatif à la page du projet, comme les vignettes
   return { largeur, image: `captures/${nom}` };
 };
@@ -110,6 +217,8 @@ const visiter = async (contexte, adresse, hoteSite, { largeursCaptures, dossierC
   const requetes = new Map();
   let poids = 0;
   try {
+    // Pour les captures : savoir ce que la page révélera au défilement
+    if (dossierCaptures) await onglet.evaluateOnNewDocument(suivreObservateurs);
     const cdp = await onglet.createCDPSession();
     await cdp.send("Network.enable");
     cdp.on("Network.requestWillBeSent", (e) => requetes.set(e.requestId, e.request.url));

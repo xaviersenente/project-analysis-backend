@@ -29,6 +29,18 @@ ${police}
 </body>
 </html>`;
 
+/**
+ * Un bloc rouge loin sous la ligne de flottaison, révélé au défilement puis en fondu d'une seconde,
+ * comme les sites qui animent leurs sections : une capture sans défilement le montrerait vide
+ */
+const REVELE = `<div style="height:2500px"></div>
+<div id="revele" style="height:300px;background:#ff0000;opacity:0;transition:opacity 1s"></div>
+<script>
+  new IntersectionObserver((entrees) => {
+    for (const e of entrees) if (e.isIntersecting) e.target.style.opacity = "1";
+  }).observe(document.getElementById("revele"));
+</script>`;
+
 const ecouter = (app) =>
   new Promise((resolve) => {
     const s = app.listen(0, "127.0.0.1", () => resolve(s));
@@ -51,7 +63,7 @@ export const servirPortfolio = async ({ propre = false } = {}) => {
       description: "Le portfolio d'Alice Martin.",
       police,
       corps: propre
-        ? `<h1>Alice Martin</h1><p>Designer graphique.</p><img src="/photo.svg" alt="Alice au travail" width="100" height="100">
+        ? `<h1>Alice Martin</h1><p>Designer graphique.</p><img src="/photo.svg" alt="Alice au travail" width="100" height="100">${REVELE}
            <a href="https://www.linkedin.com/in/alice">LinkedIn</a> <a href="https://www.behance.net/alice">Behance</a>${mentions}`
         : `<h1>Alice Martin</h1><div style="width:600px">Un bandeau trop large</div><img src="/photo.svg" width="100" height="100">
            <a href="/ancienne-page">Ancien projet</a> <a href="https://www.linkedin.com/in/alice">LinkedIn</a> <a href="https://www.behance.net/alice">Behance</a>${mentions}`,
