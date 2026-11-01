@@ -89,6 +89,8 @@ export const critereSchema = z
       .object({
         verdictOutil: z.enum(VERDICTS),
         points: z.number().nullable(),
+        // Critère avec une échelle : le niveau retenu (la proposition de l'IA reste dans proposition)
+        niveau: z.string().nullable().optional(),
         commentaire: z.string().nullable(),
         le: z.string(),
       })
