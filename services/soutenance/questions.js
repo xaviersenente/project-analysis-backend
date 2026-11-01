@@ -3,7 +3,7 @@
  *
  * Désactivé par défaut : il faut que le fichier de promo le demande (ia.questionsSoutenance),
  * le service d'IA devant être autorisé par l'établissement. On n'envoie que la portion de code
- * et le chemin du fichier : ni nom, ni identifiant de l'étudiant.
+ * et le chemin du fichier, pseudonymisés : ni nom, ni e-mail, ni téléphone de l'étudiant.
  * L'IA propose ; le jury choisit. Une question qui ne cite pas des lignes du passage est écartée.
  */
 import fs from "fs";
@@ -13,6 +13,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { z } from "zod";
 import thresholds from "../../config/thresholds.js";
+import { pseudonymiser } from "../ia/evaluer.js";
 
 const R = thresholds.portfolio.soutenance.ia;
 const PROMPT = fs.readFileSync(fileURLToPath(new URL("../../prompts/questions-soutenance.md", import.meta.url)), "utf-8");
@@ -38,10 +39,10 @@ export const lignesDansLePassage = (texte, { debut, fin }) => {
   return a >= debut && b <= fin && a <= b ? { debut: a, fin: b } : null;
 };
 
-/** La portion telle qu'on l'envoie : chemin, langage et lignes numérotées */
-export const passageNumerote = (tirage) =>
-  `Fichier : ${tirage.fichier} (${tirage.langage}), lignes ${tirage.debut} à ${tirage.fin}\n\n` +
-  tirage.code
+/** La portion telle qu'on l'envoie : chemin, langage et lignes numérotées, pseudonymisées */
+export const passageNumerote = (tirage, nom = "") =>
+  `Fichier : ${pseudonymiser(tirage.fichier, nom)} (${tirage.langage}), lignes ${tirage.debut} à ${tirage.fin}\n\n` +
+  pseudonymiser(tirage.code, nom)
     .split("\n")
     .map((ligne, i) => `${String(tirage.debut + i).padStart(4)} | ${ligne}`)
     .join("\n");
@@ -49,9 +50,10 @@ export const passageNumerote = (tirage) =>
 /**
  * @param {object} tirage - { fichier, debut, fin, langage, code }
  * @param {object} [client] - Client Anthropic (injecté dans les tests)
+ * @param {string} [nom] - Le nom de l'étudiant, retiré du passage avant l'envoi
  * @returns {Promise<{ questions: Array<{ question, lignes: { debut, fin }, attendu }>, ecartees: number }>}
  */
-export const proposerQuestions = async (tirage, client = new Anthropic()) => {
+export const proposerQuestions = async (tirage, client = new Anthropic(), nom = "") => {
   const reponse = await client.beta.messages.parse({
     model: R.modele,
     max_tokens: R.maxTokens,
@@ -60,7 +62,7 @@ export const proposerQuestions = async (tirage, client = new Anthropic()) => {
     fallbacks: "default",
     output_config: { effort: R.effort, format: betaZodOutputFormat(Reponse) },
     system: PROMPT,
-    messages: [{ role: "user", content: passageNumerote(tirage) }],
+    messages: [{ role: "user", content: passageNumerote(tirage, nom) }],
   });
   if (reponse.stop_reason === "refusal") throw new Error("Le modèle a refusé de proposer des questions sur ce passage");
   if (!reponse.parsed_output) throw new Error(`Réponse du modèle illisible (${reponse.stop_reason})`);

@@ -32,6 +32,9 @@ test("pseudonymisation : le nom (avec ou sans accents), l'e-mail et le télépho
   const texte = "Andréa MESTRE · andrea.mestre@exemple.fr · 06 12 34 56 78 · Andrea a fait le logo. Mestrel n'est pas un nom.";
   const sortie = pseudonymiser(texte, "Andrea MESTRE");
   assert.equal(sortie, "[NOM] [NOM] · [e-mail] · [téléphone] · [NOM] a fait le logo. Mestrel n'est pas un nom.");
+  // Le nom en capitales dans le fichier de promo, en casse ordinaire sur le site (et l'inverse)
+  assert.equal(pseudonymiser("Portfolio Andréa Mestre", "Andrea MESTRE"), "Portfolio [NOM] [NOM]");
+  assert.equal(pseudonymiser("ANDRÉA MESTRE", "andrea mestre"), "[NOM] [NOM]");
 });
 
 test("une preuve n'est gardée que si son extrait est à la ligne citée (ou passe à la ligne suivante)", () => {

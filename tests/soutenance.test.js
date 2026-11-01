@@ -78,7 +78,7 @@ test("une question doit citer des lignes du passage", () => {
 });
 
 test("les questions : celle qui sort du passage est écartée ; rien d'identifiant n'est envoyé", async () => {
-  const tirage = { fichier: "src/scripts/filtres.js", debut: 1, fin: 20, langage: "javascript", code: "const a = 1;\n".repeat(20).trimEnd() };
+  const tirage = { fichier: "src/scripts/filtres.js", debut: 1, fin: 20, langage: "javascript", code: "const a = 1;\n".repeat(19) + "// © Alice Martin" };
   const client = clientSimule(
     reponseAvec([
       { question: "Que fait la boucle ?", lignes: "3-10", attendu: "Elle masque les cartes." },
@@ -86,7 +86,7 @@ test("les questions : celle qui sort du passage est écartée ; rien d'identifia
       { question: "Et la ligne 80 ?", lignes: "80", attendu: "—" },
     ])
   );
-  const { questions, ecartees } = await proposerQuestions(tirage, client);
+  const { questions, ecartees } = await proposerQuestions(tirage, client, "Alice MARTIN");
   assert.equal(questions.length, 2);
   assert.equal(ecartees, 1);
   const requete = JSON.stringify(client.requetes[0]);

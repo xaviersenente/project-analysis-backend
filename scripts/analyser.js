@@ -85,6 +85,7 @@ for (const projet of projets) {
     sansEnLigne: values["sans-en-ligne"],
     graine: Number(values.graine) || 1,
     dossierCaptures: path.join(dossierDonnees(), "captures", projet.slug),
+    dossierIa: path.join(dossierDonnees(), "ia", projet.slug),
   });
 
   if (racineSite) {

@@ -21,6 +21,7 @@ import { lireHistorique } from "../source/historique.js";
 import { fichiersDuDepot, tracesIaDansHistorique, elementsSensibles, declaratif } from "../source/depotPortfolio.js";
 import { tirerPortions } from "../soutenance/tirage.js";
 import { proposerQuestions, EMPREINTE_PROMPT } from "../soutenance/questions.js";
+import { creerClientClaudeCode } from "../ia/claudeCode.js";
 
 export const ANALYSEURS = { ...qualiteWeb, ...processus, ...criteresIa };
 
@@ -123,9 +124,10 @@ const alertes = (ctx) => {
  * @param {string} [options.dossierCaptures]
  * @param {number} [options.graine] - Numéro du tirage de la fiche de soutenance (1 par défaut)
  * @param {object} [options.clientIa] - Client Anthropic (tests) ; l'IA n'est appelée que si la promo l'autorise (ia.*)
+ * @param {string} [options.dossierIa] - Voie Claude Code (ia.mode) : où écrire les demandes et lire les réponses
  * @returns {Promise<{ resultat: object, racineSite: null }>}
  */
-export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, dossierCaptures = null, graine = 1, clientIa = undefined }) => {
+export const analyserPortfolio = async ({ projet, promo, grille, cache = dossierCache(), sansNavigateur = false, dossierCaptures = null, graine = 1, clientIa = undefined, dossierIa = null }) => {
   const { nonMesurable: etapes, mesurer } = creerSuivi();
 
   // Le dépôt : sa version au rendu (l'historique et les fichiers déclaratifs viennent au lot 3)
@@ -134,6 +136,9 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   const readme = copie ? liensDuReadme(copie) : { site: null, figma: null };
   const site = projet.site || readme.site;
 
+  // Voie Claude Code : pas de clé d'API, les demandes passent par l'abonnement (commande /webscope-ia)
+  const claudeCode = !clientIa && promo.ia?.mode === "claude-code" && dossierIa ? creerClientClaudeCode({ dossier: dossierIa }) : null;
+  if (claudeCode) clientIa = claudeCode;
   const ctx = { projet, promo, copie, clientIa };
   if (copie) {
     const depot = await mesurer("Lecture du dépôt", () => {
@@ -155,15 +160,16 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
         const tirage = tirerPortions({ dossier: copie, sha: version.sha, fichiers: ctx.depot.fichiers, slug: projet.slug, email: projet.email ?? null, graine });
         const ia = { statut: "desactivees", raison: "Désactivées : le fichier de promo ne les demande pas (ia.questionsSoutenance)" };
         if (promo.ia?.questionsSoutenance && tirage.tirages.length) {
-          Object.assign(ia, { statut: "proposees", raison: undefined, modele: thresholds.portfolio.soutenance.ia.modele, prompt: EMPREINTE_PROMPT, ecartees: 0 });
+          Object.assign(ia, { statut: "proposees", raison: undefined, modele: clientIa?.modele ?? thresholds.portfolio.soutenance.ia.modele, prompt: EMPREINTE_PROMPT, ecartees: 0 });
           for (const t of tirage.tirages) {
             try {
-              const { questions, ecartees } = await proposerQuestions(t, clientIa);
+              const { questions, ecartees } = await proposerQuestions(t, clientIa, projet.nom);
               t.questions = questions;
               ia.ecartees += ecartees;
             } catch (error) {
               t.questions = null;
-              Object.assign(ia, { statut: "echec", raison: `Questions non proposées : ${error.message.split("\n")[0]}` });
+              if (error.name === "EnAttenteClaudeCode") Object.assign(ia, { statut: "en-attente", raison: error.message });
+              else Object.assign(ia, { statut: "echec", raison: `Questions non proposées : ${error.message.split("\n")[0]}` });
             }
           }
         }
@@ -182,6 +188,8 @@ export const analyserPortfolio = async ({ projet, promo, grille, cache = dossier
   }
 
   const criteres = await evaluerCriteres(grille, ANALYSEURS, ctx);
+  const attente = claudeCode?.enregistrer();
+  if (attente?.enAttente) etapes.push({ etape: "IA (Claude Code)", raison: `${attente.enAttente} demande(s) en attente : lancez /webscope-ia dans Claude Code, puis relancez l'analyse` });
   const resultat = {
     version: 3,
     grille: resumeGrille(grille),

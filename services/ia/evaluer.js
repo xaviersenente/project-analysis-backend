@@ -41,7 +41,7 @@ export const pseudonymiser = (texte, nom = "") => {
   const sansAccents = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
   for (const mot of nom.split(/[\s-]+/).filter((m) => m.length > 2)) {
     // « Andréa » et « Andrea » : la lettre accentuée ou non
-    const motif = [...sansAccents(mot)].map((c) => (/[a-z]/i.test(c) ? `[${c}${c.toUpperCase()}\\u00C0-\\u017F]` : echapper(c))).join("");
+    const motif = [...sansAccents(mot)].map((c) => (/[a-z]/i.test(c) ? `[${c.toLowerCase()}${c.toUpperCase()}\\u00C0-\\u017F]` : echapper(c))).join("");
     sortie = sortie.replace(new RegExp(`(?<![\\p{L}])${motif}(?![\\p{L}])`, "gu"), (trouve) => (sansAccents(trouve).toLowerCase() === sansAccents(mot).toLowerCase() ? "[NOM]" : trouve));
   }
   return sortie;
@@ -115,5 +115,6 @@ export const proposerNiveau = async ({ critere, prompt, documents, client = new 
   const { niveau, justification, preuves } = reponse.parsed_output;
   const { retenues, ecartees } = verifierPreuves(preuves, documents);
   if (retenues.length === 0) throw new Error(`Proposition écartée : aucune des ${preuves.length} preuve(s) citée(s) n'a été retrouvée à sa ligne`);
-  return { niveau, justification: justification.trim(), preuves: retenues, preuvesEcartees: ecartees, modele: R.modele, prompt: empreinte };
+  // Le modèle qui a vraiment répondu (repli de l'API compris, ou Claude Code)
+  return { niveau, justification: justification.trim(), preuves: retenues, preuvesEcartees: ecartees, modele: reponse.model ?? R.modele, prompt: empreinte };
 };

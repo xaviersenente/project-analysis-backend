@@ -33,6 +33,7 @@ const critereIa = (prompt, documents) => async (ctx, modele) => {
     const proposition = await proposerNiveau({ critere: modele, prompt, documents: docs, client: ctx.clientIa });
     return aJuger(proposition.preuves, { detailValeur: `niveau proposé : ${proposition.niveau}`, proposition });
   } catch (error) {
+    if (error.name === "EnAttenteClaudeCode") return nonMesurable(error.message);
     return nonMesurable(`Proposition non disponible : ${error.message.split("\n")[0]}`);
   }
 };

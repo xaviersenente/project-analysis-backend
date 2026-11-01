@@ -437,7 +437,8 @@ export const resultatSchema = z
           })
         ),
         ia: z.object({
-          statut: z.enum(["desactivees", "proposees", "echec"]),
+          // en-attente : voie Claude Code, demandes écrites mais pas encore traitées
+          statut: z.enum(["desactivees", "proposees", "en-attente", "echec"]),
           raison: z.string().optional(),
           modele: z.string().optional(),
           prompt: z.string().optional(),
@@ -489,7 +490,8 @@ export const promoSchema = z.object({
   // Début du projet (portfolio : les semaines attendues dans le journal) ; sinon, le premier commit
   dateDebut: z.iso.datetime({ offset: true }).optional(),
   // Questions de soutenance proposées par l'IA : seulement si le service est autorisé (désactivé par défaut)
-  ia: z.object({ questionsSoutenance: z.boolean().optional() }).optional(),
+  // mode : « api » (clé d'API, par défaut) ou « claude-code » (abonnement, commande /webscope-ia)
+  ia: z.object({ mode: z.enum(["api", "claude-code"]).optional(), questionsSoutenance: z.boolean().optional(), criteres: z.boolean().optional() }).optional(),
   // Grille de la SAÉ (config/grilles/<id>.json) ; sans elle, la SAÉ 105
   grille: z.string().regex(/^[a-z0-9-]+$/).optional(),
   projets: z.array(
