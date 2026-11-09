@@ -15,15 +15,15 @@
   "description": "WebScope : analyse des dépôts GitHub des projets SAÉ 105, en ligne de commande",
   "dependencies": {
     "cheerio": "^1.2.0",
-    "chrome-launcher": "^1.2.2",
+    "chrome-launcher": "^1.2.3",
     "culori": "^4.0.2",
     "dotenv": "^17.4.2",
     "express": "^5.3.0",
-    "lighthouse": "^13.5.0",
-    "postcss": "^8.5.31",
+    "lighthouse": "^13.6.0",
+    "postcss": "^8.5.32",
     "puppeteer-core": "^25.16.0",
     "sharp": "^0.35.5",
-    "vnu-jar": "^26.10.12",
+    "vnu-jar": "^26.11.4",
     "zod": "^4.6.7"
   },
   "engines": {
